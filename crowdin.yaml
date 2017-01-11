@@ -1,3 +1,4 @@
 files:
-  - source: '/source/**/*.xlf'
-    translation: '/%locale_with_underscore%/**/%file_name%_%locale_with_underscore%.%file_extension%'
+  - source: /source/**/*.xlf
+    translation: >-
+      /%locale_with_underscore%/**/%file_name%_%locale_with_underscore%.%file_extension%
