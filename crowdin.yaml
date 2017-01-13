@@ -1,6 +1,5 @@
 project_identifier: ez-platform
-preserve_hierarchy: true
+base_path: .
 files:
-  - source: /source/**/*.xlf
-    translation: >-
-      /%locale_with_underscore%/**/%file_name%.%locale_with_underscore%.%file_extension%
+  - source: '/source/**/*.xlf'
+    translation: '/%locale_with_underscore%/**/%file_name%.%locale_with_underscore%.%file_extension%'
