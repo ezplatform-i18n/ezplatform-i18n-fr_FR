@@ -16,5 +16,5 @@ on github or directly on [eZ Platform project on Crowdin][crowdin-ezplatform].
 Copyright (c) eZ Systems AS. For copyright and license details see provided [LICENSE file][licence].
  
 [ezplatform-i18n]: https://github.com/ezsystems/ezplatform-i18n
-[crowdin-ezplatform]: https://crowdin.com/project/ez-platform
+[crowdin-ezplatform]: https://crowdin.com/project/ezplatform
 [licence]: https://github.com/ezsystems/ezplatform-i18n/blob/master/LICENCE

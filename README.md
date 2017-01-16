@@ -42,6 +42,6 @@ This synchronisation is done using [dflydev/git-subsplit][dflydev] tool.
 Copyright (c) eZ Systems AS. For copyright and license details see provided LICENSE file.
 
 [dflydev]: https://github.com/dflydev/git-subsplit
-[crowdin-ezplatform]: https://crowdin.com/project/ez-platform
+[crowdin-ezplatform]: https://crowdin.com/project/ezplatform
 [ezplatform-i18n-org]: https://github.com/ezplatform-i18n
 [in-context]: https://crowdin.com/page/in-context-localization
