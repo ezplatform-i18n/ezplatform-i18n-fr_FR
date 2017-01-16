@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="ach" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="8fe293b0e64f23e34124c70b08e7a996" resname="ezauthor.name">
+        <source>ezauthor.name</source>
+        <target xml:lang="ach">crwdns211213:0crwdne211213:0</target>
+      </trans-unit>
+      <trans-unit id="256fc0cf36587c3090c20589feab88d8" resname="ezbinaryfile.name">
+        <source>ezbinaryfile.name</source>
+        <target xml:lang="ach">crwdns211214:0crwdne211214:0</target>
+      </trans-unit>
+      <trans-unit id="c56580fb0319cca9dd79d308e1e694fe" resname="ezboolean.name">
+        <source>ezboolean.name</source>
+        <target xml:lang="ach">crwdns211215:0crwdne211215:0</target>
+      </trans-unit>
+      <trans-unit id="597319108eb9a4dba9c34feaea3993ae" resname="ezcountry.name">
+        <source>ezcountry.name</source>
+        <target xml:lang="ach">crwdns211216:0crwdne211216:0</target>
+      </trans-unit>
+      <trans-unit id="9f57533acc7d3e2a1213e1f459c0b6d0" resname="ezdate.name">
+        <source>ezdate.name</source>
+        <target xml:lang="ach">crwdns211217:0crwdne211217:0</target>
+      </trans-unit>
+      <trans-unit id="af0817b74df3418f8cc1efe6b700e9b9" resname="ezdatetime.name">
+        <source>ezdatetime.name</source>
+        <target xml:lang="ach">crwdns211218:0crwdne211218:0</target>
+      </trans-unit>
+      <trans-unit id="042ab1dd392bdda70faf5bfd45cd688e" resname="ezemail.name">
+        <source>ezemail.name</source>
+        <target xml:lang="ach">crwdns211219:0crwdne211219:0</target>
+      </trans-unit>
+      <trans-unit id="9b3383d363eb0ddd88a4759b357b6f11" resname="ezfloat.name">
+        <source>ezfloat.name</source>
+        <target xml:lang="ach">crwdns211220:0crwdne211220:0</target>
+      </trans-unit>
+      <trans-unit id="24153ebd2d03f8479c60fbed348c0167" resname="ezgmaplocation.name">
+        <source>ezgmaplocation.name</source>
+        <target xml:lang="ach">crwdns211221:0crwdne211221:0</target>
+      </trans-unit>
+      <trans-unit id="c43e04e65f482ab46685662b411b591a" resname="ezisbn.name">
+        <source>ezisbn.name</source>
+        <target xml:lang="ach">crwdns211222:0crwdne211222:0</target>
+      </trans-unit>
+      <trans-unit id="f7903b786269ad2afd0c8da02f91b9fa" resname="ezimage.name">
+        <source>ezimage.name</source>
+        <target xml:lang="ach">crwdns211223:0crwdne211223:0</target>
+      </trans-unit>
+      <trans-unit id="2f4b5371b6ff8198a6e309665c0b1816" resname="ezinteger.name">
+        <source>ezinteger.name</source>
+        <target xml:lang="ach">crwdns211224:0crwdne211224:0</target>
+      </trans-unit>
+      <trans-unit id="93cb5d8a58d1f9ee7f14dd1d0ff682fc" resname="ezkeyword.name">
+        <source>ezkeyword.name</source>
+        <target xml:lang="ach">crwdns211225:0crwdne211225:0</target>
+      </trans-unit>
+      <trans-unit id="6d4c508e7395e7b7d9be0b924a2c934a" resname="ezmedia.name">
+        <source>ezmedia.name</source>
+        <target xml:lang="ach">crwdns211226:0crwdne211226:0</target>
+      </trans-unit>
+      <trans-unit id="97fd23620e2ad0787071188e2b6e581d" resname="ezobjectrelation.name">
+        <source>ezobjectrelation.name</source>
+        <target xml:lang="ach">crwdns211227:0crwdne211227:0</target>
+      </trans-unit>
+      <trans-unit id="0653d56e4d0c9bada44f0ab1f4c5cce6" resname="ezobjectrelationlist.name">
+        <source>ezobjectrelationlist.name</source>
+        <target xml:lang="ach">crwdns211228:0crwdne211228:0</target>
+      </trans-unit>
+      <trans-unit id="2def5d791f21b086f59b9f2d996c5e9b" resname="ezpage.name">
+        <source>ezpage.name</source>
+        <target xml:lang="ach">crwdns211229:0crwdne211229:0</target>
+      </trans-unit>
+      <trans-unit id="5d286b4410a54e510bfbef0f01639555" resname="ezprice.name">
+        <source>ezprice.name</source>
+        <target xml:lang="ach">crwdns211230:0crwdne211230:0</target>
+      </trans-unit>
+      <trans-unit id="d49de22f28863fa560648fa00d32b8db" resname="ezrichtext.name">
+        <source>ezrichtext.name</source>
+        <target xml:lang="ach">crwdns211231:0crwdne211231:0</target>
+      </trans-unit>
+      <trans-unit id="18e4e008fbcb4dc799b68f98eb45df7a" resname="ezsrrating.name">
+        <source>ezsrrating.name</source>
+        <target xml:lang="ach">crwdns211232:0crwdne211232:0</target>
+      </trans-unit>
+      <trans-unit id="f6b9c5b11c9bb60ac6660fbdc20917a9" resname="ezselection.name">
+        <source>ezselection.name</source>
+        <target xml:lang="ach">crwdns211233:0crwdne211233:0</target>
+      </trans-unit>
+      <trans-unit id="ee05f66105fdb3a87c31605b37fa9d77" resname="ezstring.name">
+        <source>ezstring.name</source>
+        <target xml:lang="ach">crwdns211234:0crwdne211234:0</target>
+      </trans-unit>
+      <trans-unit id="380f73d3f93ff2360420aa4d06466d79" resname="eztext.name">
+        <source>eztext.name</source>
+        <target xml:lang="ach">crwdns211235:0crwdne211235:0</target>
+      </trans-unit>
+      <trans-unit id="201898c8a24951d981a7053a97e27c34" resname="eztime.name">
+        <source>eztime.name</source>
+        <target xml:lang="ach">crwdns211236:0crwdne211236:0</target>
+      </trans-unit>
+      <trans-unit id="cc6192700dce54ad58353fe8f0f7cd98" resname="ezurl.name">
+        <source>ezurl.name</source>
+        <target xml:lang="ach">crwdns211237:0crwdne211237:0</target>
+      </trans-unit>
+      <trans-unit id="3a59504bc460fdd4361d5decfe8d8807" resname="ezuser.name">
+        <source>ezuser.name</source>
+        <target xml:lang="ach">crwdns211238:0crwdne211238:0</target>
+      </trans-unit>
+      <trans-unit id="ac326172d1684cddd1c14170e8bde9c6" resname="ezxmltext.name">
+        <source>ezxmltext.name</source>
+        <target xml:lang="ach">crwdns211239:0crwdne211239:0</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
