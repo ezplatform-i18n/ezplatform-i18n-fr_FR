@@ -1,0 +1,13 @@
+project_identifier: ezplatform
+
+files:
+  - 
+    source: /ezpublish-kernel/*.xlf
+    translation: /translations/%locale_with_underscore%/%original_path%/%file_name%.%locale_with_underscore%.%file_extension%
+  - 
+    source: /platform-ui-bundle/*.xlf
+    translation: /translations/%locale_with_underscore%/%original_path%/%file_name%.%locale_with_underscore%.%file_extension%
+  - 
+    source: /repository-forms/*.xlf
+    translation: /translations/%locale_with_underscore%/%original_path%/%file_name%.%locale_with_underscore%.%file_extension%
+

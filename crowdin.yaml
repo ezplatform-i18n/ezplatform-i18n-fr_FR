@@ -1,5 +1,0 @@
-project_identifier: ez-platform
-base_path: .
-files:
-  - source: '/source/**/*.xlf'
-    translation: '/%locale_with_underscore%/%original_path%/%file_name%.%locale_with_underscore%.%file_extension%'
