@@ -34,8 +34,8 @@ This synchronisation is done using [dflydev/git-subsplit][dflydev] tool.
     git subsplit init https://github.com/ezsystems/ezplatform-i18n
     git subsplit update
     git subsplit publish "
-        fr_FR:git@github.com:ezplatform-i18n/ezplatform-i18n-fr_FR.git
-        ach_UG:git@github.com:ezplatform-i18n/ezplatform-i18n-ach_UG.git
+        translations/fr_FR:git@github.com:ezplatform-i18n/ezplatform-i18n-fr_FR.git
+        translations/ach_UG:git@github.com:ezplatform-i18n/ezplatform-i18n-ach_UG.git
     " --heads=master
 
 ## Copyright & License
