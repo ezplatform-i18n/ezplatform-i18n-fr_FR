@@ -6,6 +6,10 @@ This repository contains eZ Platform ach_UG translations which are used by Crowd
 
 **Important :** This is a READ-ONLY repository.
 
+## Installation
+
+    composer require ezplatform-i18n/ezplatform-i18n-ach_ug
+
 ## Contribute
 
 If you want to contribute to eZ Platform translation, you should go to the [eZ Platform I18n project][ezplatform-i18n] 
