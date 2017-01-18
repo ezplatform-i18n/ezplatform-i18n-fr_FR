@@ -1,14 +1,14 @@
-# eZ Platform I18N fr_FR
+# eZ Platform I18N pt_PT
 
 ## Introduction
 
-This repository contains eZ Platform fr_FR translations.
+This repository contains eZ Platform pt_PT translations.
 
 **Important :** This is a READ-ONLY repository.
 
 ## Installation
 
-    composer require ezplatform-i18n/ezplatform-i18n-fr_fr
+    composer require ezplatform-i18n/ezplatform-i18n-pt_pt
     
 ## Contribute
 
