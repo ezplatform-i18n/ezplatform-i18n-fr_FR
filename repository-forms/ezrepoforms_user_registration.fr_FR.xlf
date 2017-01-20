@@ -4,7 +4,10 @@
     <body>
       <trans-unit id="1">
         <source>user.register_button</source>
-        <target xml:lang="fr" state="translated">S'enregistrer</target>
+        <target xml:lang="fr" state="translated">Créer un compte</target>
+        <alt-trans>
+          <target xml:lang="fr">S'enregistrer</target>
+        </alt-trans>
       </trans-unit>
     </body>
   </file>
