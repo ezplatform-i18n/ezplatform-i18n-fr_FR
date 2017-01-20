@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="file.ext" target-language="pl">
+    <body>
+      <!-- Field definition -->
+      <!-- Errors -->
+      <!-- ContentType groups -->
+      <trans-unit id="21b3559b40d1828b8fc109bcfeebc70e">
+        <source>content_type.group.delete</source>
+        <target xml:lang="pl" state="translated">Usuń</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

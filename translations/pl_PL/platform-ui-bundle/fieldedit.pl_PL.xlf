@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file date="2016-12-05T14:54:41Z" source-language="en" target-language="pl" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="30527585f513c4216ef8505ace7adc4cd4504716" resname="author.add">
+        <source>Add another author</source>
+        <target xml:lang="pl" state="translated">Dodaj kolejnego autora</target>
+        <note>key: author.add</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/author.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0d26cffd2879243fec3052d28eca681b47722093" resname="authorinput.email">
+        <source>Email:</source>
+        <target xml:lang="pl" state="translated">E-mail:</target>
+        <note>key: authorinput.email</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/authorinput.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="de45b8facdcebc26f1c77df02b4208a89b276855" resname="authorinput.name">
+        <source>Name:</source>
+        <target xml:lang="pl" state="translated">Imię i nazwisko:</target>
+        <note>key: authorinput.name</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/authorinput.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cb37a419e7f74648f3096f17a11b45d29d4f30a9" resname="authorinput.remove">
+        <source>Remove this author</source>
+        <target xml:lang="pl" state="translated">Dodaj kolejnego autora</target>
+        <note>key: authorinput.remove</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/authorinput.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a1e89ea5d1c7efa83d78aecaaf08c993df7b8d7a" resname="relation.empty">
+        <source>No relation.</source>
+        <target xml:lang="pl" state="translated">Brak powiązanych elementów.</target>
+        <note>key: relation.empty</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/relation.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1a0432678a22f538bc956d02a1a52709a24019a3" resname="relation.help">
+        <source>Select another content and link it up with your content.</source>
+        <target xml:lang="pl" state="translated">Wybierz inny element i powiąż go z tą treścią.</target>
+        <note>key: relation.help</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/relation.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f46aad015f05a6ae74da1d451f030dcc02dc1e39" resname="relation.remove">
+        <source>Remove relation</source>
+        <target xml:lang="pl" state="translated">Usuń powiązanie</target>
+        <note>key: relation.remove</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/relation.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2e594c668c9f88817270dd8c12acd559fe485f5b" resname="relation.select">
+        <source>Select a content</source>
+        <target xml:lang="pl" state="translated">Wybierz element</target>
+        <note>key: relation.select</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/relation.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e1ee64eddc5bc3ee8690f59e23a52dd4c50d036e" resname="richtext.focus">
+        <source>Focus</source>
+        <target xml:lang="pl" state="translated">Powiększ</target>
+        <note>key: richtext.focus</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/richtext.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a8867a26b3b1adfde513cee1bbc0b2cd0beb5cce" resname="richtext.save">
+        <source>Save and Return</source>
+        <target xml:lang="pl" state="translated">Zapisz i wróć</target>
+        <note>key: richtext.save</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/richtext.hbt</jms:reference-file>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

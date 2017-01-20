@@ -4,27 +4,27 @@
     <body>
       <trans-unit id="007cd5845351d36a9ec70173d2b44bb2">
         <source>language.name.label</source>
-        <target xml:lang="fr" state="needs-translation">language.name.label</target>
+        <target xml:lang="fr" state="translated">Nom</target>
       </trans-unit>
       <trans-unit id="3de80c254c9555ad1347b034f93f3095">
         <source>language.code.label</source>
-        <target xml:lang="fr" state="needs-translation">language.code.label</target>
+        <target xml:lang="fr" state="translated">Code</target>
       </trans-unit>
       <trans-unit id="f066f9960df2f81907c3680c9148cef5">
         <source>language.id.label</source>
-        <target xml:lang="fr" state="needs-translation">language.id.label</target>
+        <target xml:lang="fr" state="translated">Identifiant</target>
       </trans-unit>
       <trans-unit id="60ff6d8b447be276d65797a5244d79c3">
         <source>language.error.code_already_exist</source>
-        <target xml:lang="fr" state="needs-translation">language.error.code_already_exist</target>
+        <target xml:lang="fr" state="translated">Le code existe déjà</target>
       </trans-unit>
       <trans-unit id="85af0dc2a9b83eb5cfc7871a73cbeab9">
         <source>language.form.save</source>
-        <target xml:lang="fr" state="needs-translation">language.form.save</target>
+        <target xml:lang="fr" state="translated">Enregistrer</target>
       </trans-unit>
       <trans-unit id="e61b7d6232fcbd424e1a4b030475be25">
         <source>language.form.delete</source>
-        <target xml:lang="fr" state="needs-translation">language.form.delete</target>
+        <target xml:lang="fr" state="translated">Supprimer</target>
       </trans-unit>
     </body>
   </file>

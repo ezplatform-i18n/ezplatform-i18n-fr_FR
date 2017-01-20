@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file date="2016-12-02T11:28:24Z" source-language="en" target-language="pl" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="f1312e397c7aa2e8e21be7f65161c6a99b728d3e" resname="content_type.content.title">
+        <source>Content field definitions</source>
+        <target xml:lang="pl" state="translated">Definicje pól</target>
+        <note>key: content_type.content.title</note>
+        <jms:reference-file line="83">/../../../../.././Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d93b35cbbda2fccd239d83cd8e4fbba2cbb02166" resname="content_type.dashboard_title">
+        <source>Content types</source>
+        <target xml:lang="pl" state="translated">Typy treści</target>
+        <note>key: content_type.dashboard_title</note>
+        <jms:reference-file line="14">/../../../../.././Resources/views/ContentType/edit_content_type_group.html.twig</jms:reference-file>
+        <jms:reference-file line="8">/../../../../.././Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
+        <jms:reference-file line="15">/../../../../.././Resources/views/ContentType/update_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="14">/../../../../.././Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="10">/../../../../.././Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
+        <jms:reference-file line="15">/../../../../.././Resources/views/Dashboard/dashboard.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="693f9ade0c2bb6a7c19b6f9b818d96aa23f1e013" resname="content_type.default_availability">
+        <source>Default availability in primary language, if translation is absent</source>
+        <target xml:lang="pl" state="translated">Domyślna dostępność w języku oryginalnym w przypadku braku tłumaczenia</target>
+        <note>key: content_type.default_availability</note>
+        <jms:reference-file line="75">/../../../../.././Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3b3fc626a669a5462ec9fa7c94280a3573d8b106" resname="content_type.default_availability.help">
+        <source>Default availability in primary language, if translation is absent</source>
+        <target xml:lang="pl" state="translated">Domyślna dostępność w języku oryginalnym w przypadku braku tłumaczenia</target>
+        <note>key: content_type.default_availability.help</note>
+        <jms:reference-file line="76">/../../../../.././Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d14799b2ac8854ab3f0bb9976258c3db39213d09" resname="content_type.default_availability.value">
+        <source>{0} Not available|{1} Available</source>
+        <target xml:lang="pl" state="translated">{0} Dostępne|{1} Niedostępne</target>
+        <note>key: content_type.default_availability.value</note>
+        <jms:reference-file line="78">/../../../../.././Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cefc13177fd81d4c9df6f8e86eb5278fccbe5a5a" resname="content_type.default_sort">
+        <source>Default sort order</source>
+        <target xml:lang="pl" state="translated">Domyślna kolejność sortowania</target>
+        <note>key: content_type.default_sort</note>
+        <jms:reference-file line="70">/../../../../.././Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f2a3cc77cdadcff8883b0022e006e24918307687" resname="content_type.description">
+        <source>Description</source>
+        <target xml:lang="pl" state="translated">Opis</target>
+        <note>key: content_type.description</note>
+        <jms:reference-file line="48">/../../../../.././Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="139bc06fcecd7ab2e8e59233d52cae047b22af5b" resname="content_type.group">
+        <source>Content type group</source>
+        <target xml:lang="pl" state="translated">Grupa typów treści</target>
+        <note>key: content_type.group</note>
+        <jms:reference-file line="17">/../../../../.././Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="fd931f1ea0d601fe877606ec9e42ff7c37d44d4e" resname="content_type.group.cancel">
+        <source>Cancel</source>
+        <target xml:lang="pl" state="translated">Anuluj</target>
+        <note>key: content_type.group.cancel</note>
+        <jms:reference-file line="42">/../../../../.././Resources/views/ContentType/edit_content_type_group.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="73205aee63e2b76d2104c295ee19449cf248f045" resname="content_type.group.cannot_delete.has_content_types">
+        <source>Cannot delete Content type group "%identifier%" as it still contains Content types.</source>
+        <target xml:lang="pl" state="translated">Nie można usunąć grupy "%identifier%", ponieważ wciąż zawiera ona typy treści.</target>
+        <note>key: content_type.group.cannot_delete.has_content_types</note>
+        <jms:reference-file line="190">/../../../../.././Controller/ContentTypeController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8023ffcb49893af87bad5805790b91dee17b3acc" resname="content_type.group.deleted">
+        <source>Content type group "%identifier%" was correctly deleted.</source>
+        <target xml:lang="pl" state="translated">Usunięto grupę "%identifier%".</target>
+        <note>key: content_type.group.deleted</note>
+        <jms:reference-file line="188">/../../../../.././Controller/ContentTypeController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d09d4d7f65b1acd604c44c85d08f82fb55fcb880" resname="content_type.group.list">
+        <source>Content type groups</source>
+        <target xml:lang="pl" state="translated">Grupy typów treści</target>
+        <note>key: content_type.group.list</note>
+        <jms:reference-file line="15">/../../../../.././Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
+        <jms:reference-file line="75">/../../../../.././Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
+        <jms:reference-file line="9">/../../../../.././Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
+        <jms:reference-file line="84">/../../../../.././Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="334f261e09d7b3da4b26022a121ef596bff8a422" resname="content_type.group.notification.created">
+        <source>Content type group "%identifier%" was correctly created.</source>
+        <target xml:lang="pl" state="translated">Utworzono grupę "%identifier%".</target>
+        <note>key: content_type.group.notification.created</note>
+        <jms:reference-file line="46">/../../../../.././Form/Processor/ContentTypeGroupFormProcessor.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="09685a253a508713c275a4ecde1adbb4b7f1781e" resname="content_type.group.notification.updated">
+        <source>Content type group "%identifier%" was correctly updated.</source>
+        <target xml:lang="pl" state="translated">Zmodyfikowano grupę "%identifier%".</target>
+        <note>key: content_type.group.notification.updated</note>
+        <jms:reference-file line="48">/../../../../.././Form/Processor/ContentTypeGroupFormProcessor.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b771fde80a8c0b6981ab81a9408b4a800f92e38d" resname="content_type.notification.deleted">
+        <source>The Content type "%contentTypeName%" was successfully deleted.</source>
+        <target xml:lang="pl" state="translated">Usunięto typ treści "%contentTypeName%".</target>
+        <note>key: content_type.notification.deleted</note>
+        <jms:reference-file line="346">/../../../../.././Controller/ContentTypeController.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="974093fc35f4b06c80d9cf523f125cbc61beaa78" resname="content_type.notification.draft_removed">
+        <source>The Content type draft was successfully removed.</source>
+        <target xml:lang="pl" state="translated">Usunięto szkic typu treści.</target>
+        <note>key: content_type.notification.draft_removed</note>
+        <jms:reference-file line="96">/../../../../.././Form/Processor/ContentTypeFormProcessor.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="35f407c7c55275cd9046b6f9e9e77913b9b08e28" resname="content_type.notification.draft_updated">
+        <source>The Content type draft was successfully updated.</source>
+        <target xml:lang="pl" state="translated">Zmodyfikowano szkic typu treści.</target>
+        <note>key: content_type.notification.draft_updated</note>
+        <jms:reference-file line="60">/../../../../.././Form/Processor/ContentTypeFormProcessor.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ceffda5dc773e1742f8fc336402cdc506774d2c0" resname="content_type.notification.published">
+        <source>The Content type draft was successfully updated and published. Related Content has also been updated.</source>
+        <target xml:lang="pl" state="translated">Zmodyfikowano i opublikowano szkic typu treści. Powiązane treści uległy zmodyfikowaniu.</target>
+        <note>key: content_type.notification.published</note>
+        <jms:reference-file line="72">/../../../../.././Form/Processor/ContentTypeFormProcessor.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6ab7362c77b22ff8bc0d14eeaae8514b0a683473" resname="content_type.url_alias_schema">
+        <source>URL alias name pattern</source>
+        <target xml:lang="pl" state="translated">Szablon aliasu URL</target>
+        <note>key: content_type.url_alias_schema</note>
+        <jms:reference-file line="56">/../../../../.././Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f99cc628dc4d82c5ee69eae79039a2f449eec064" resname="field_definition.description">
+        <source>Description</source>
+        <target xml:lang="pl" state="translated">Opis</target>
+        <note>key: field_definition.description</note>
+        <jms:reference-file line="109">/../../../../.././Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8b863a9c7cd91565182ad0a3a5e30ca8090f84c7" resname="field_definition.identifier">
+        <source>Identifier</source>
+        <target xml:lang="pl" state="translated">Identyfikator</target>
+        <note>key: field_definition.identifier</note>
+        <jms:reference-file line="92">/../../../../.././Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9a02e329edf4c1e41c97c8be922137c284c249c4" resname="field_definition.name">
+        <source>Name</source>
+        <target xml:lang="pl" state="translated">Nazwa</target>
+        <note>key: field_definition.name</note>
+        <jms:reference-file line="91">/../../../../.././Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2c59c801986049c4f4b48f11842932bf4342e278" resname="field_definition.required">
+        <source>Required</source>
+        <target xml:lang="pl" state="translated">Wymagane</target>
+        <note>key: field_definition.required</note>
+        <jms:reference-file line="113">/../../../../.././Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2e2ef6bae44fe23eec336dec39035b5d2c4b87b6" resname="field_definition.searchable">
+        <source>Searchable</source>
+        <target xml:lang="pl" state="translated">Można przeszukać</target>
+        <note>key: field_definition.searchable</note>
+        <jms:reference-file line="117">/../../../../.././Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="fd6ec7b826db4a501858a8658d8e71b067a46568" resname="field_definition.translatable">
+        <source>Translatable</source>
+        <target xml:lang="pl" state="translated">Można przetłumaczyć</target>
+        <note>key: field_definition.translatable</note>
+        <jms:reference-file line="121">/../../../../.././Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9ca17bd05bb09ae1283d539c77d57558499ccca4" resname="field_definition.type">
+        <source>Type</source>
+        <target xml:lang="pl" state="translated">Typ</target>
+        <note>key: field_definition.type</note>
+        <jms:reference-file line="93">/../../../../.././Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3e9deeb426f08a404990a6926d70558955272593" resname="yes_no">
+        <source>{0} No|{1} Yes</source>
+        <target xml:lang="pl" state="translated">{0} Nie|{1} Tak</target>
+        <note>key: yes_no</note>
+        <jms:reference-file line="114">/../../../../.././Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="118">/../../../../.././Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="122">/../../../../.././Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="61">/../../../../.././Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

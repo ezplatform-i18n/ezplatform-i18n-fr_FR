@@ -30,11 +30,14 @@
         <note>key: actionbar.edit</note>
         <jms:reference-file>./Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="4406c1030566fae57a5e41a797823d41c7775ac8" resname="actionbar.minimizeActionBar">
+      <trans-unit id="4406c1030566fae57a5e41a797823d41c7775ac8" resname="actionbar.minimizeActionBar" approved="yes">
         <source>Minimize</source>
-        <target xml:lang="fr" state="translated">Réduire</target>
+        <target xml:lang="fr">Minimiser</target>
         <note>key: actionbar.minimizeActionBar</note>
         <jms:reference-file>./Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Réduire</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="b282633e9e76dd418412580d9232d28d9404dcb5" resname="actionbar.move">
         <source>Move</source>
@@ -78,11 +81,14 @@
         <note>key: discoverybar.contenttree</note>
         <jms:reference-file>./Resources/public/js/views/ez-discoverybarview.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="69eda63e3b6ba8e8eb35db12ef1995c5dba42c17" resname="discoverybar.minimize">
+      <trans-unit id="69eda63e3b6ba8e8eb35db12ef1995c5dba42c17" resname="discoverybar.minimize" approved="yes">
         <source>Minimize</source>
-        <target xml:lang="fr" state="translated">Réduire</target>
+        <target xml:lang="fr">Minimiser</target>
         <note>key: discoverybar.minimize</note>
         <jms:reference-file>./Resources/public/js/views/ez-discoverybarview.js</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Réduire</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="55ba03a687a73559ef8a2d4e1ff935b47ddc5859" resname="discoverybar.search">
         <source>Search</source>
