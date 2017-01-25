@@ -87,6 +87,12 @@
         <note>key: creating.new.location.for.failed</note>
         <jms:reference-file>./Resources/public/js/views/services/plugins/ez-locationcreateplugin.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="7eaf9281f3e62d4f3acf5dac5b34060808c363b9" resname="discoverybar.contenttree">
+        <source>Content tree</source>
+        <target xml:lang="pt-PT" state="translated">Árvore de conteúdos</target>
+        <note>key: discoverybar.contenttree</note>
+        <jms:reference-file>./Resources/public/js/views/ez-discoverybarview.js</jms:reference-file>
+      </trans-unit>
       <trans-unit id="69eda63e3b6ba8e8eb35db12ef1995c5dba42c17" resname="discoverybar.minimize">
         <source>Minimize</source>
         <target xml:lang="pt-PT" state="translated">Minimizar</target>

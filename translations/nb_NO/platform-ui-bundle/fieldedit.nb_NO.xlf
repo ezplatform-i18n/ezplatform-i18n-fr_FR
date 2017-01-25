@@ -148,6 +148,60 @@
         <note>key: date.time.required</note>
         <jms:reference-file>./Resources/public/js/views/fields/ez-dateandtime-editview.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="3512b5e328b32d7ad9f98fa9fdc35df7f2207526" resname="dropped.several.files">
+        <source>You dropped several files while only one can be stored in this field. Please choose one file.</source>
+        <target xml:lang="nb" state="translated">Du slapp flere filer selv om bare én kan bli lagret på dette feltet. Vennligst velg én fil.</target>
+        <note>key: dropped.several.files</note>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-binarybase-editview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="77e9dcf7fa3a6196173e1ef8d749321c078a61fb" resname="dropped.text.selection">
+        <source>You dropped a text selection while this field can only store a file. Please drop a file instead.</source>
+        <target xml:lang="nb" state="translated">Du slapp en tekst. Dette feltet kan bare lagre en fil. Vennligst slipp en fil i stedet.</target>
+        <note>key: dropped.text.selection</note>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-binarybase-editview.js</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="nb">Du slapp en tekst. Dette feltet kan bare lagre en fil. Vennligst velg å slippe en fil i stedet.</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="7e57a01ae6b4b0385ec149a170df478fa2868f25" resname="email.not.valid">
+        <source>The email address should be valid</source>
+        <target xml:lang="nb" state="translated">E-postadressen må være gyldig</target>
+        <note>key: email.not.valid</note>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-author-editview.js</jms:reference-file>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-emailaddress-editview.js</jms:reference-file>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-user-editview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9c96ffba7a783d0786368dbf8b2b23dfc4188e66" resname="email.required">
+        <source>The email address is required</source>
+        <target xml:lang="nb" state="translated">E-postadresse kreves</target>
+        <note>key: email.required</note>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-author-editview.js</jms:reference-file>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-user-editview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3baff585bf1b4c49f13ffa7f27f2afb737498a8c" resname="email.required.if.name.filled">
+        <source>The email address is required if the name is filled.</source>
+        <target xml:lang="nb" state="translated">E-postadresse kreves hvis navnet er utfylt.</target>
+        <note>key: email.required.if.name.filled</note>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-author-editview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4681faa8e9e01a7b94ecbbc5f581b4d44a5e935d" resname="embed.content.not.loaded">
+        <source>Embedded Content item could not be loaded</source>
+        <target xml:lang="nb" state="translated">Innbakt innholdsobjekt kunne ikke lastes inn</target>
+        <note>key: embed.content.not.loaded</note>
+        <jms:reference-file>./Resources/public/js/views/fields/richtext/ez-richtext-resolveembed.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9c74a8f5f67dd8e07a2912177bc6de9c9cde6d75" resname="failed.retrieve.google.maps.api">
+        <source>Failed to retrieve Google Maps API</source>
+        <target xml:lang="nb" state="translated">Kan ikke hente Google Maps API</target>
+        <note>key: failed.retrieve.google.maps.api</note>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-maplocation-editview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a64621b5af174b18350e8774d65ac227c79f0077" resname="file.size">
+        <source>(%size% bytes)</source>
+        <target xml:lang="nb" state="translated">(%size% bytes)</target>
+        <note>key: file.size</note>
+        <jms:reference-file>./Resources/public/templates/fields/view/binaryfile.hbt</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>

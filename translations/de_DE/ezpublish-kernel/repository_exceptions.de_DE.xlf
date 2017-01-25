@@ -115,15 +115,21 @@
       </trans-unit>
       <trans-unit id="25f2ccabd8883a36aee5754ce43741c211cf378a" resname="FieldType '%identifier%' is singular and can't be repeated in a ContentType">
         <source>FieldType '%identifier%' is singular and can't be repeated in a ContentType</source>
-        <target xml:lang="de" state="translated">Feldtyp '%identifier%' ist singulär und deshalb nicht wiederholbar in einem Content-Type</target>
+        <target xml:lang="de" state="translated">Feldtyp '%identifier%' ist singulär und deshalb nicht wiederholbar in einem Inhaltstyp</target>
         <note>key: FieldType '%identifier%' is singular and can't be repeated in a ContentType</note>
         <jms:reference-file line="30">/../../../../../eZ/Publish/Core/Base/Exceptions/SingularFieldTypeValidationException.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="de">Feldtyp '%identifier%' ist singulär und deshalb nicht wiederholbar in einem Content-Type</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="b592a161a19d303272498874fb27a71626461be7" resname="Limitation '%limitation%' not found, needs to be implemented or configured to use Limitation\BlockingLimitationType (%ezpublish.api.role.limitation_type.blocking.class%">
         <source>Limitation '%limitation%' not found, needs to be implemented or configured to use Limitation\BlockingLimitationType (%ezpublish.api.role.limitation_type.blocking.class%</source>
-        <target xml:lang="de" state="translated">Limitierung '%limitation%' wurde nicht gefunden, muss entweder implementiert oder als Limitation\BlockingLimitationType (%ezpublish.api.role.limitation_type.blocking.class% benutzend konfiguriert werden</target>
+        <target xml:lang="de" state="translated">Limitierung '%limitation%' wurde nicht gefunden, muss entweder implementiert oder als Limitation\BlockingLimitationType (%ezpublish.api.role.limitation_type.blocking.class% konfiguriert werden</target>
         <note>key: Limitation '%limitation%' not found, needs to be implemented or configured to use Limitation\BlockingLimitationType (%ezpublish.api.role.limitation_type.blocking.class%</note>
         <jms:reference-file line="32">/../../../../../eZ/Publish/Core/Base/Exceptions/NotFound/LimitationNotFoundException.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="de">Limitierung '%limitation%' wurde nicht gefunden, muss entweder implementiert oder als Limitation\BlockingLimitationType (%ezpublish.api.role.limitation_type.blocking.class% benutzend konfiguriert werden</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="71fd5f8839faaadfe7c61def7e4b42d429959952" resname="Limitations did not validate">
         <source>Limitations did not validate</source>
@@ -133,9 +139,12 @@
       </trans-unit>
       <trans-unit id="f915c78ee350c1b4fb3d3adac7584a12fcc0cfdf" resname="Only empty content type groups can be deleted">
         <source>Only empty content type groups can be deleted</source>
-        <target xml:lang="de" state="translated">Nur leere Content-Type Gruppen können gelöscht werden</target>
+        <target xml:lang="de" state="translated">Nur leere Inhaltstyp-Gruppen können gelöscht werden</target>
         <note>key: Only empty content type groups can be deleted</note>
         <jms:reference-file line="141">/../../../../../eZ/Publish/Core/REST/Server/Controller/ContentType.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="de">Nur leere Content-Type Gruppen können gelöscht werden</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="87b49727a4d83168066183cbed772c1bbdfb63f8" resname="Only version in status DRAFT can be published">
         <source>Only version in status DRAFT can be published</source>
@@ -163,9 +172,12 @@
       </trans-unit>
       <trans-unit id="d750946e6e0689d003a701bf1db100b12a742c4f" resname="Provided content type does not contain ezuser field type">
         <source>Provided content type does not contain ezuser field type</source>
-        <target xml:lang="de" state="translated">Der bereitgestellte Content-Type enthält keinen ezuser Feldtyp</target>
+        <target xml:lang="de" state="translated">Der bereitgestellte Inhaltstyp enthält keinen ezuser Feldtyp</target>
         <note>key: Provided content type does not contain ezuser field type</note>
         <jms:reference-file line="24">/../../../../../eZ/Publish/Core/Base/Exceptions/NoUserFieldContentValidationException.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="de">Der bereitgestellte Content-Type enthält keinen ezuser Feldtyp</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="c13178e601c4bf79ad9ef57efe468ed438a9b167" resname="Relation is not of type COMMON">
         <source>Relation is not of type COMMON</source>
@@ -175,21 +187,30 @@
       </trans-unit>
       <trans-unit id="8da63ffae0f9707c46ca02d66e9074e7f9f538d6" resname="Relation of type COMMON can only be added to drafts">
         <source>Relation of type COMMON can only be added to drafts</source>
-        <target xml:lang="de" state="translated">Relation des Typs COMMON kann nur Entwürfen hinzugefügt werden</target>
+        <target xml:lang="de" state="translated">Relation vom Typ COMMON kann nur Entwürfen hinzugefügt werden</target>
         <note>key: Relation of type COMMON can only be added to drafts</note>
         <jms:reference-file line="684">/../../../../../eZ/Publish/Core/REST/Server/Controller/Content.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="de">Relation des Typs COMMON kann nur Entwürfen hinzugefügt werden</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="388dae35f493b4e06e6458455f4837b1691fd72b" resname="Relation of type COMMON can only be removed from drafts">
         <source>Relation of type COMMON can only be removed from drafts</source>
-        <target xml:lang="de" state="translated">Relation des Typs COMMON kann von Entwürfen entfernt werden</target>
+        <target xml:lang="de" state="translated">Relation vom Typ COMMON kann von Entwürfen entfernt werden</target>
         <note>key: Relation of type COMMON can only be removed from drafts</note>
         <jms:reference-file line="649">/../../../../../eZ/Publish/Core/REST/Server/Controller/Content.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="de">Relation des Typs COMMON kann von Entwürfen entfernt werden</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="30ea10f44d07a5752ed9c57a8458b3579b8dd421" resname="Relation of type COMMON to selected destination content ID already exists">
         <source>Relation of type COMMON to selected destination content ID already exists</source>
-        <target xml:lang="de" state="translated">Eine Relation des Typs COMMON zur ausgewählten Ziel-Content-Id existiert bereits</target>
+        <target xml:lang="de" state="translated">Eine Relation vom Typ COMMON zur ausgewählten Ziel-Content-Id existiert bereits</target>
         <note>key: Relation of type COMMON to selected destination content ID already exists</note>
         <jms:reference-file line="696">/../../../../../eZ/Publish/Core/REST/Server/Controller/Content.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="de">Eine Relation des Typs COMMON zur ausgewählten Ziel-Content-Id existiert bereits</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="09683b2a73d28421548e01bfbd6cc468095fa29d" resname="User does not have access to '%function%' '%module%'">
         <source>User does not have access to '%function%' '%module%'</source>

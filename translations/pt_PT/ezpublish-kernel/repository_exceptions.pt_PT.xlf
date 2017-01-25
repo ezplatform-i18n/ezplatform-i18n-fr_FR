@@ -8,18 +8,24 @@
     <body>
       <trans-unit id="c2993e6873e928a2a635698ce582b4aba5748643" resname="'%actualValue%' is wrong value">
         <source>'%actualValue%' is wrong value</source>
-        <target xml:lang="pt-PT" state="translated">'%actualValue%' é um valor incorreto</target>
+        <target xml:lang="pt-PT" state="translated">'%actualValue%' é um valor incorrecto</target>
         <note>key: '%actualValue%' is wrong value</note>
         <jms:reference-file line="32">/../../../../../eZ/Publish/Core/Base/Exceptions/InvalidArgumentValue.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="pt-PT">'%actualValue%' é um valor incorreto</target>
+        </alt-trans>
         <alt-trans>
           <target xml:lang="pt-PT">'%actualValue%' é o valor incorreto</target>
         </alt-trans>
       </trans-unit>
       <trans-unit id="7a87971cc45ac957c7db1a4907f8e7f4325e3e32" resname="'%actualValue%' is wrong value in class '%className%'">
         <source>'%actualValue%' is wrong value in class '%className%'</source>
-        <target xml:lang="pt-PT" state="translated">'%actualValue%' é um valor incorreto na classe '%className%'</target>
+        <target xml:lang="pt-PT" state="translated">'%actualValue%' é um valor incorrecto na classe '%className%'</target>
         <note>key: '%actualValue%' is wrong value in class '%className%'</note>
         <jms:reference-file line="34">/../../../../../eZ/Publish/Core/Base/Exceptions/InvalidArgumentValue.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="pt-PT">'%actualValue%' é um valor incorreto na classe '%className%'</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="894070fe84612fd5871c1b09bc79f85c2e17d384" resname="A value is set for non translatable field definition '%identifier%' with language '%languageCode%'">
         <source>A value is set for non translatable field definition '%identifier%' with language '%languageCode%'</source>
@@ -154,9 +160,18 @@
       </trans-unit>
       <trans-unit id="b2d83ff8d535b64b36eaab04237a3091fc10ee5a" resname="Placeholders are not matching with wildcards.">
         <source>Placeholders are not matching with wildcards.</source>
-        <target xml:lang="pt-PT" state="translated">Os espaços reservados não correspondem aos wildcards.</target>
+        <target xml:lang="pt-PT" state="translated">Os espaços reservados não correspondem aos caracteres universais.</target>
         <note>key: Placeholders are not matching with wildcards.</note>
         <jms:reference-file line="102">/../../../../../eZ/Publish/Core/Repository/URLWildcardService.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="pt-PT">Os espaços reservados não correspondem aos caracteres de substituição.</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="pt-PT">Os espaços reservados não correspondem aos caracteres de susbtituição.</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="pt-PT">Os espaços reservados não correspondem aos wildcards.</target>
+        </alt-trans>
         <alt-trans>
           <target xml:lang="pt-PT">Os espaços reservados não estão a coincidir com os wildcards.</target>
         </alt-trans>

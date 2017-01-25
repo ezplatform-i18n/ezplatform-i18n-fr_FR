@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="file.ext" target-language="pl">
+    <body>
+      <trans-unit id="1" approved="yes">
+        <source>ez.content_type.identifier.pattern</source>
+        <target xml:lang="pl">Identyfikator typu treści może wyłącznie posiadać litery od "a" do "z", cyfry oraz podkreślenia.</target>
+      </trans-unit>
+      <trans-unit id="2" approved="yes">
+        <source>ez.content_type.names</source>
+        <target xml:lang="pl">Nazwa typu treści nie może być pusta ani nie może przekraczać 255 znaków.</target>
+      </trans-unit>
+      <trans-unit id="3" approved="yes">
+        <source>ez.content_type.descriptions</source>
+        <target xml:lang="pl">Opis typu treści nie może przekraczać 255 znaków.</target>
+      </trans-unit>
+      <trans-unit id="4" approved="yes">
+        <source>ez.content_type.identifier.unique</source>
+        <target xml:lang="pl">Identyfikator typu treści musi być unikatowy.</target>
+        <alt-trans>
+          <target xml:lang="pl">Identyfikator typu treści musi być unikalny.</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="10" approved="yes">
+        <source>ez.field_definition.names</source>
+        <target xml:lang="pl">Nazwa definicji pola nie może być pusta ani nie może przekraczać 255 znaków.</target>
+      </trans-unit>
+      <trans-unit id="11" approved="yes">
+        <source>ez.field_definition.descriptions</source>
+        <target xml:lang="pl">Opis definicji pola nie może przekraczać 255 znaków.</target>
+      </trans-unit>
+      <trans-unit id="12" approved="yes">
+        <source>ez.field_definition.identifier.unique</source>
+        <target xml:lang="pl">Identyfikator definicji pola musi być unikatowy.</target>
+      </trans-unit>
+      <trans-unit id="13" approved="yes">
+        <source>ez.field_definition.validator_configuration</source>
+        <target xml:lang="pl">Wystąpił błąd konfiguracji walidatora pola.</target>
+      </trans-unit>
+      <trans-unit id="14" approved="yes">
+        <source>ez.field_definition.field_settings</source>
+        <target xml:lang="pl">Ustawienia pola</target>
+      </trans-unit>
+      <trans-unit id="15" approved="yes">
+        <source>ez.field_definition.default_field_value</source>
+        <target xml:lang="pl">Domyślna wartość pola</target>
+      </trans-unit>
+      <trans-unit id="b4bcdedc4147dd912dc0247cea16c750" resname="ez.role.identifier.unique" approved="yes">
+        <source>ez.role.identifier.unique</source>
+        <target xml:lang="pl">Identyfikator roli musi być unikatowy.</target>
+      </trans-unit>
+      <trans-unit id="5387d26cceb54294dafe82be9b0d61d0" approved="yes">
+        <source>ez.section.identifier.format</source>
+        <target xml:lang="pl">Identyfikator sekcji może wyłącznie posiadać litery od "a" do "z", cyfry oraz podkreślenia.</target>
+      </trans-unit>
+      <trans-unit id="3782ffaac11648e8ead7248adb7a42bc" approved="yes">
+        <source>ez.section.identifier.unique</source>
+        <target xml:lang="pl">Identyfikator sekcji musi być unikatowy.</target>
+      </trans-unit>
+      <trans-unit id="89e55c873b7b7be97b6d3ad700e2e041" approved="yes">
+        <source>ez.field.value</source>
+        <target xml:lang="pl">Pole nie przeszło pomyślnie walidacji.</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -2,12 +2,10 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file source-language="en" datatype="plaintext" original="file.ext" target-language="de">
     <body>
-            
-            
-            
-            
-            
-            
-        </body>
+      <trans-unit id="e61b7d6232fcbd424e1a4b030475be25">
+        <source>language.form.delete</source>
+        <target xml:lang="de" state="translated">Sprache entfernen</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>

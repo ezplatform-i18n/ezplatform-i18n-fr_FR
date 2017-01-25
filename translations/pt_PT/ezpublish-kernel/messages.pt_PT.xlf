@@ -17,9 +17,12 @@
       </trans-unit>
       <trans-unit id="570591c060a999e9ab1592763c74d881b7654ee1" resname="Enter password">
         <source>Enter password</source>
-        <target xml:lang="pt-PT" state="translated">Insira palavra chave</target>
+        <target xml:lang="pt-PT" state="translated">Insira a palavra chave</target>
         <note>key: Enter password</note>
         <jms:reference-file line="22">/../../../../../eZ/Bundle/EzPublishCoreBundle/Resources/views/Security/login.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="pt-PT">Insira palavra chave</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="4e5a2893bdcc7d239c1db72e4c4ffbe4bea73174" resname="Login">
         <source>Login</source>

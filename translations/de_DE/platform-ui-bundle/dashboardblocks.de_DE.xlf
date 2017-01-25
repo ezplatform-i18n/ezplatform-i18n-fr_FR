@@ -6,6 +6,20 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="ff6664ae5d5b882ee85a683861bf2d39369f3992" resname="dashboard.all.content">
+        <source>All Content</source>
+        <target xml:lang="de" state="translated">Alle Inhalte</target>
+        <note>key: dashboard.all.content</note>
+        <jms:reference-file>./Resources/public/templates/dashboard/allcontent.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="bb736c34f0a6f3cf53ad082d8e7cba37aa31606a" resname="dashboard.content.type">
+        <source>Content Type</source>
+        <target xml:lang="de" state="translated">Content Type</target>
+        <note>key: dashboard.content.type</note>
+        <jms:reference-file>./Resources/public/templates/dashboard/allcontent.hbt</jms:reference-file>
+        <jms:reference-file>./Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
+        <jms:reference-file>./Resources/public/templates/dashboard/mydrafts.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="f3523831ab3c2067acfa6fdf0bc19c64a39647b4" resname="dashboard.last.saved">
         <source>Last saved</source>
         <target xml:lang="de" state="translated">Letzte Speicherung</target>
@@ -36,6 +50,14 @@
         <source>Title</source>
         <target xml:lang="de" state="translated">Titel</target>
         <note>key: dashboard.title</note>
+        <jms:reference-file>./Resources/public/templates/dashboard/allcontent.hbt</jms:reference-file>
+        <jms:reference-file>./Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
+        <jms:reference-file>./Resources/public/templates/dashboard/mydrafts.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7521275a12ed4eecb89be89777fcabb81f68338c" resname="dashboard.version">
+        <source>Version</source>
+        <target xml:lang="de" state="translated">Version</target>
+        <note>key: dashboard.version</note>
         <jms:reference-file>./Resources/public/templates/dashboard/allcontent.hbt</jms:reference-file>
         <jms:reference-file>./Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
         <jms:reference-file>./Resources/public/templates/dashboard/mydrafts.hbt</jms:reference-file>

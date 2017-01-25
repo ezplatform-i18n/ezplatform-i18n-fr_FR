@@ -14,6 +14,12 @@
         <jms:reference-file>./Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
         <jms:reference-file>./Resources/public/templates/dashboard/mydrafts.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="ad15e855aad7c14d65c0890d9d1e5c3e2aa5c5d0" resname="dashboardblocks.my.dashboard" approved="yes">
+        <source>My Dashboard</source>
+        <target xml:lang="fr">Mon tableau de bord</target>
+        <note>key: dashboardblocks.my.dashboard</note>
+        <jms:reference-file>./Resources/public/templates/dashboard-blocks.hbt</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>

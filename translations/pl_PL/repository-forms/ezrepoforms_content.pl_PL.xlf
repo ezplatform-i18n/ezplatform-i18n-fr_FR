@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" datatype="plaintext" original="file.ext" target-language="pl">
+    <body>
+      <trans-unit id="eb732abfbae397aca2742d95e9d0be74" approved="yes">
+        <source>content.create_button</source>
+        <target xml:lang="pl">Utwórz</target>
+      </trans-unit>
+      <trans-unit id="feebb073e498ff5b9166f640554eeb60" approved="yes">
+        <source>content.edit_button</source>
+        <target xml:lang="pl">Edytuj</target>
+      </trans-unit>
+      <trans-unit id="f51270da268bd8eda1a5d49f51cf93f6" approved="yes">
+        <source>content.publish_button</source>
+        <target xml:lang="pl">Opublikuj</target>
+      </trans-unit>
+      <trans-unit id="39a661284481408be917e7c121e7ab1d" approved="yes">
+        <source>content.save_button</source>
+        <target xml:lang="pl">Zapisz</target>
+      </trans-unit>
+      <trans-unit id="6a0d486e8aa479d2af5f67112f464e20" approved="yes">
+        <source>content.cancel_button</source>
+        <target xml:lang="pl">Anuluj</target>
+      </trans-unit>
+      <trans-unit id="e93fea1c0536d108e24b150ac03c2677" approved="yes">
+        <source>content.field.non_editable</source>
+        <target xml:lang="pl">Nie można edytować</target>
+      </trans-unit>
+      <!-- FieldTypes -->
+      <trans-unit id="7b0583136e2275a809b31ae90a455e59" approved="yes">
+        <source>content.field_type.ezuser.username</source>
+        <target xml:lang="pl">Nazwa użytkownika</target>
+      </trans-unit>
+      <trans-unit id="8acd3d9a24e181ea0e82ad298422fdc7" approved="yes">
+        <source>content.field_type.ezuser.password</source>
+        <target xml:lang="pl">Hasło</target>
+      </trans-unit>
+      <trans-unit id="fd2c89db5fdb5a32b85b4813a80f0c35" approved="yes">
+        <source>content.field_type.ezuser.password_confirm</source>
+        <target xml:lang="pl">Potwierdzenie hasła</target>
+      </trans-unit>
+      <trans-unit id="94f3c48fbdb6323962103bebf6575c30" approved="yes">
+        <source>content.field_type.ezuser.email</source>
+        <target xml:lang="pl">Adres email</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

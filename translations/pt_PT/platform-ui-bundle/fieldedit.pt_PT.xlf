@@ -6,141 +6,36 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="30527585f513c4216ef8505ace7adc4cd4504716" resname="author.add">
+        <source>Add another author</source>
+        <target xml:lang="pt-PT" state="translated">Adicionar outro autor</target>
+        <note>key: author.add</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/author.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0d26cffd2879243fec3052d28eca681b47722093" resname="authorinput.email">
+        <source>Email:</source>
+        <target xml:lang="pt-PT" state="translated">Email:</target>
+        <note>key: authorinput.email</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/authorinput.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="de45b8facdcebc26f1c77df02b4208a89b276855" resname="authorinput.name">
+        <source>Name:</source>
+        <target xml:lang="pt-PT" state="translated">Nome:</target>
+        <note>key: authorinput.name</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/authorinput.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cb37a419e7f74648f3096f17a11b45d29d4f30a9" resname="authorinput.remove">
+        <source>Remove this author</source>
+        <target xml:lang="pt-PT" state="translated">Remover este autor</target>
+        <note>key: authorinput.remove</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/authorinput.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9b553533713b1ca3b636ebe184350b5c0301a296" resname="bad.checksum.last.digit.should.be">
+        <source>Bad checksum, last digit of ISBN 13 should be %checkDigit%</source>
+        <target xml:lang="pt-PT" state="translated">Código de verificação inválido, o último dígito de um ISBN 13 deveria ser %checkDigit%</target>
+        <note>key: bad.checksum.last.digit.should.be</note>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-isbn-editview.js</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>

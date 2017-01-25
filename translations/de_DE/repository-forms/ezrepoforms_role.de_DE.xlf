@@ -2,31 +2,10 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file source-language="en" datatype="plaintext" original="file.ext" target-language="de">
     <body>
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-        </body>
+      <trans-unit id="565405ab5f15e4274e9edf5301d567b1" resname="role.create">
+        <source>role.create</source>
+        <target xml:lang="de" state="translated">Rolle erzeugen</target>
+      </trans-unit>
+    </body>
   </file>
 </xliff>

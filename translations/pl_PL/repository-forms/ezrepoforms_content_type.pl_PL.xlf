@@ -2,12 +2,375 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file source-language="en" datatype="plaintext" original="file.ext" target-language="pl">
     <body>
+      <trans-unit id="1" approved="yes">
+        <source>content_type.name</source>
+        <target xml:lang="pl">Nazwa</target>
+      </trans-unit>
+      <trans-unit id="2" approved="yes">
+        <source>content_type.identifier</source>
+        <target xml:lang="pl">Identyfikator</target>
+      </trans-unit>
+      <trans-unit id="3" approved="yes">
+        <source>content_type.description</source>
+        <target xml:lang="pl">Opis</target>
+      </trans-unit>
+      <trans-unit id="4" approved="yes">
+        <source>content_type.name_schema</source>
+        <target xml:lang="pl">Schemat nazwy</target>
+      </trans-unit>
+      <trans-unit id="5" approved="yes">
+        <source>content_type.url_alias_schema</source>
+        <target xml:lang="pl">Schemat adresu URL</target>
+      </trans-unit>
+      <trans-unit id="6" approved="yes">
+        <source>content_type.is_container</source>
+        <target xml:lang="pl">Kontener</target>
+      </trans-unit>
+      <trans-unit id="7" approved="yes">
+        <source>content_type.default_sort_field</source>
+        <target xml:lang="pl">Domyślne sortowanie</target>
+      </trans-unit>
+      <trans-unit id="8" approved="yes">
+        <source>content_type.default_sort_order</source>
+        <target xml:lang="pl">Domyślna kolejność sortowania</target>
+        <alt-trans>
+          <target xml:lang="pl">Domyślny rodzaj sortowania</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="9" approved="yes">
+        <source>content_type.default_always_available</source>
+        <target xml:lang="pl">Domyślna dostępność elementu</target>
+        <alt-trans>
+          <target xml:lang="pl">Domyślna dostępność obiektu</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="10" approved="yes">
+        <source>content_type.field_definitions_data</source>
+        <target xml:lang="pl">Definicje pól typu treści</target>
+      </trans-unit>
+      <trans-unit id="11" approved="yes">
+        <source>content_type.field_type_selection</source>
+        <target xml:lang="pl">Wybór typu pola</target>
+      </trans-unit>
+      <trans-unit id="12" approved="yes">
+        <source>content_type.add_field_definition</source>
+        <target xml:lang="pl">Dodaj definicję nowego pola</target>
+      </trans-unit>
+      <trans-unit id="13" approved="yes">
+        <source>content_type.save</source>
+        <target xml:lang="pl">Zapisz</target>
+      </trans-unit>
+      <trans-unit id="14" approved="yes">
+        <source>content_type.edit_title</source>
+        <target xml:lang="pl">Edytuj tytuł</target>
+      </trans-unit>
+      <trans-unit id="15" approved="yes">
+        <source>content_type.publish</source>
+        <target xml:lang="pl">Opublikuj</target>
+      </trans-unit>
+      <trans-unit id="16" approved="yes">
+        <source>content_type.remove_field_definitions</source>
+        <target xml:lang="pl">Usuń definicje pól</target>
+      </trans-unit>
+      <trans-unit id="17" approved="yes">
+        <source>content_type.remove_draft</source>
+        <target xml:lang="pl">Usuń szkic</target>
+      </trans-unit>
+      <trans-unit id="18" approved="yes">
+        <source>content_type.sort_field.1</source>
+        <target xml:lang="pl">Ścieżka lokalizacji</target>
+      </trans-unit>
+      <trans-unit id="19" approved="yes">
+        <source>content_type.sort_field.2</source>
+        <target xml:lang="pl">Data publikacji</target>
+      </trans-unit>
+      <trans-unit id="20" approved="yes">
+        <source>content_type.sort_field.3</source>
+        <target xml:lang="pl">Data modyfikacji</target>
+      </trans-unit>
+      <trans-unit id="21" approved="yes">
+        <source>content_type.sort_field.4</source>
+        <target xml:lang="pl">Sekcja</target>
+      </trans-unit>
+      <trans-unit id="22" approved="yes">
+        <source>content_type.sort_field.5</source>
+        <target xml:lang="pl">Głębokość lokalizacji</target>
+      </trans-unit>
+      <trans-unit id="23" approved="yes">
+        <source>content_type.sort_field.6</source>
+        <target xml:lang="pl">Identyfikator typu treści</target>
+      </trans-unit>
+      <trans-unit id="24" approved="yes">
+        <source>content_type.sort_field.7</source>
+        <target xml:lang="pl">Nazwa typu treści</target>
+      </trans-unit>
+      <trans-unit id="25" approved="yes">
+        <source>content_type.sort_field.8</source>
+        <target xml:lang="pl">Priorytet lokalizacji</target>
+      </trans-unit>
+      <trans-unit id="26" approved="yes">
+        <source>content_type.sort_field.9</source>
+        <target xml:lang="pl">Nazwa elementu</target>
+        <alt-trans>
+          <target xml:lang="pl">Nazwa obiektu</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="27" approved="yes">
+        <source>content_type.sort_order.0</source>
+        <target xml:lang="pl">Malejąco</target>
+      </trans-unit>
+      <trans-unit id="28" approved="yes">
+        <source>content_type.sort_order.1</source>
+        <target xml:lang="pl">Rosnąco</target>
+      </trans-unit>
+      <trans-unit id="c922cb4d7cf06dd353a1c42e5beaa942" approved="yes">
+        <source>content_type.create</source>
+        <target xml:lang="pl">Utwórz</target>
+      </trans-unit>
+      <trans-unit id="d8ed8632f53a803e8c0b7686aca78dfd" approved="yes">
+        <source>content_type.delete</source>
+        <target xml:lang="pl">Usuń</target>
+      </trans-unit>
       <!-- Field definition -->
+      <trans-unit id="101" approved="yes">
+        <source>field_definition.name</source>
+        <target xml:lang="pl">Nazwa</target>
+      </trans-unit>
+      <trans-unit id="102" approved="yes">
+        <source>field_definition.identifier</source>
+        <target xml:lang="pl">Identyfikator</target>
+      </trans-unit>
+      <trans-unit id="103" approved="yes">
+        <source>field_definition.description</source>
+        <target xml:lang="pl">Opis</target>
+      </trans-unit>
+      <trans-unit id="104" approved="yes">
+        <source>field_definition.is_required</source>
+        <target xml:lang="pl">Pole wymagane</target>
+      </trans-unit>
+      <trans-unit id="105" approved="yes">
+        <source>field_definition.is_translatable</source>
+        <target xml:lang="pl">Dostępne tłumaczenia</target>
+      </trans-unit>
+      <trans-unit id="106" approved="yes">
+        <source>field_definition.field_group</source>
+        <target xml:lang="pl">Grupa pól</target>
+      </trans-unit>
+      <trans-unit id="107" approved="yes">
+        <source>field_definition.position</source>
+        <target xml:lang="pl">Pozycja</target>
+      </trans-unit>
+      <trans-unit id="108" approved="yes">
+        <source>field_definition.is_searchable</source>
+        <target xml:lang="pl">Można przeszukiwać</target>
+      </trans-unit>
+      <trans-unit id="109" approved="yes">
+        <source>field_definition.ezstring.min_length</source>
+        <target xml:lang="pl">Minimalna długość pola</target>
+      </trans-unit>
+      <trans-unit id="110" approved="yes">
+        <source>field_definition.ezstring.max_length</source>
+        <target xml:lang="pl">Maksymalna długość pola</target>
+      </trans-unit>
+      <trans-unit id="111" approved="yes">
+        <source>field_definition.ezstring.default_value</source>
+        <target xml:lang="pl">Domyślna wartość</target>
+      </trans-unit>
+      <trans-unit id="112" approved="yes">
+        <source>field_definition.eztext.text_rows</source>
+        <target xml:lang="pl">Ilość wierszy pola tekstowego</target>
+      </trans-unit>
+      <trans-unit id="113" approved="yes">
+        <source>field_definition.ezfloat.min_value</source>
+        <target xml:lang="pl">Minimalna wartość</target>
+      </trans-unit>
+      <trans-unit id="114" approved="yes">
+        <source>field_definition.ezfloat.max_value</source>
+        <target xml:lang="pl">Maksymalna wartość</target>
+      </trans-unit>
+      <trans-unit id="115" approved="yes">
+        <source>field_definition.ezinteger.min_value</source>
+        <target xml:lang="pl">Minimalna wartość</target>
+      </trans-unit>
+      <trans-unit id="116" approved="yes">
+        <source>field_definition.ezinteger.max_value</source>
+        <target xml:lang="pl">Maksymalna wartość</target>
+      </trans-unit>
+      <trans-unit id="117" approved="yes">
+        <source>field_definition.ezisbn.is_isbn13</source>
+        <target xml:lang="pl">ISBN 13</target>
+      </trans-unit>
+      <trans-unit id="118" approved="yes">
+        <source>field_definition.ezcountry.is_multiple</source>
+        <target xml:lang="pl">Wielokrotne</target>
+      </trans-unit>
+      <trans-unit id="119" approved="yes">
+        <source>field_definition.ezcountry.default_value</source>
+        <target xml:lang="pl">Domyślna wartość</target>
+      </trans-unit>
+      <trans-unit id="120" approved="yes">
+        <source>field_definition.eztime.use_seconds</source>
+        <target xml:lang="pl">Używaj sekund</target>
+      </trans-unit>
+      <trans-unit id="121" approved="yes">
+        <source>field_definition.eztime.default_type</source>
+        <target xml:lang="pl">Domyślny typ</target>
+      </trans-unit>
+      <trans-unit id="122" approved="yes">
+        <source>field_definition.eztime.default_type_empty</source>
+        <target xml:lang="pl">Pusty</target>
+      </trans-unit>
+      <trans-unit id="123" approved="yes">
+        <source>field_definition.eztime.default_type_current</source>
+        <target xml:lang="pl">Obecny czas</target>
+      </trans-unit>
+      <trans-unit id="124" approved="yes">
+        <source>field_definition.ezdate.default_type</source>
+        <target xml:lang="pl">Domyślny typ</target>
+      </trans-unit>
+      <trans-unit id="125" approved="yes">
+        <source>field_definition.ezdate.default_type_empty</source>
+        <target xml:lang="pl">Pusty</target>
+      </trans-unit>
+      <trans-unit id="126" approved="yes">
+        <source>field_definition.ezdate.default_type_current</source>
+        <target xml:lang="pl">Obecna data</target>
+      </trans-unit>
+      <trans-unit id="127" approved="yes">
+        <source>field_definition.ezbinaryfile.max_file_size</source>
+        <target xml:lang="pl">Maksymalny rozmiar pliku</target>
+      </trans-unit>
+      <trans-unit id="128" approved="yes">
+        <source>field_definition.ezmedia.max_file_size</source>
+        <target xml:lang="pl">Maksymalny rozmiar pliku</target>
+      </trans-unit>
+      <trans-unit id="129" approved="yes">
+        <source>field_definition.ezmedia.media_type</source>
+        <target xml:lang="pl">Typy mediów</target>
+      </trans-unit>
+      <trans-unit id="130" approved="yes">
+        <source>field_definition.ezmedia.type_html5_video</source>
+        <target xml:lang="pl">Wideo HTML5</target>
+      </trans-unit>
+      <trans-unit id="131" approved="yes">
+        <source>field_definition.ezmedia.type_flash</source>
+        <target xml:lang="pl">Flash</target>
+      </trans-unit>
+      <trans-unit id="132" approved="yes">
+        <source>field_definition.ezmedia.type_quick_time</source>
+        <target xml:lang="pl">QuickTime</target>
+      </trans-unit>
+      <trans-unit id="133" approved="yes">
+        <source>field_definition.ezmedia.type_real_player</source>
+        <target xml:lang="pl">RealPlayer</target>
+      </trans-unit>
+      <trans-unit id="134" approved="yes">
+        <source>field_definition.ezmedia.type_silverlight</source>
+        <target xml:lang="pl">Silverlight</target>
+      </trans-unit>
+      <trans-unit id="135" approved="yes">
+        <source>field_definition.ezmedia.type_windows_media_player</source>
+        <target xml:lang="pl">Windows Media Player</target>
+      </trans-unit>
+      <trans-unit id="136" approved="yes">
+        <source>field_definition.ezmedia.type_html5_audio</source>
+        <target xml:lang="pl">Audio HTML5</target>
+      </trans-unit>
+      <trans-unit id="137" approved="yes">
+        <source>field_definition.ezpage.default_layout</source>
+        <target xml:lang="pl">Domyślny layout</target>
+      </trans-unit>
+      <trans-unit id="138" approved="yes">
+        <source>field_definition.ezselection.is_multiple</source>
+        <target xml:lang="pl">Wielokrotny wybór</target>
+      </trans-unit>
+      <trans-unit id="139" approved="yes">
+        <source>field_definition.ezselection.options</source>
+        <target xml:lang="pl">Opcje</target>
+      </trans-unit>
+      <trans-unit id="140" approved="yes">
+        <source>field_definition.ezrichtext.num_rows</source>
+        <target xml:lang="pl">Liczba wierszy</target>
+        <alt-trans>
+          <target xml:lang="pl">Ilość wierszy</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="141" approved="yes">
+        <source>field_definition.ezimage.max_file_size</source>
+        <target xml:lang="pl">Maksymalny rozmiar pliku</target>
+      </trans-unit>
+      <trans-unit id="142" approved="yes">
+        <source>field_definition.ezdatetime.use_seconds</source>
+        <target xml:lang="pl">Używaj sekund</target>
+      </trans-unit>
+      <trans-unit id="143" approved="yes">
+        <source>field_definition.ezdatetime.default_type</source>
+        <target xml:lang="pl">Domyślny typ</target>
+      </trans-unit>
+      <trans-unit id="144" approved="yes">
+        <source>field_definition.ezdatetime.default_type_empty</source>
+        <target xml:lang="pl">Puste</target>
+      </trans-unit>
+      <trans-unit id="145" approved="yes">
+        <source>field_definition.ezdatetime.default_type_current</source>
+        <target xml:lang="pl">Obecna data i czas</target>
+      </trans-unit>
+      <trans-unit id="146" approved="yes">
+        <source>field_definition.ezdatetime.default_type_adjusted</source>
+        <target xml:lang="pl">Dostosowana obecna data i czas</target>
+      </trans-unit>
+      <trans-unit id="147" approved="yes">
+        <source>field_definition.ezdatetime.date_interval</source>
+        <target xml:lang="pl">Obecna data i czas dostosowana przez</target>
+      </trans-unit>
+      <trans-unit id="148" approved="yes">
+        <source>field_definition.ezobjectrelation.selection_root</source>
+        <target xml:lang="pl">Domyślna ścieżka wyboru</target>
+      </trans-unit>
+      <trans-unit id="149" approved="yes">
+        <source>field_definition.ezobjectrelation.selection_root_udw_title</source>
+        <target xml:lang="pl">Wybierz domyślną lokalizację, od której zaczyna się wybór relacji dla tego pola</target>
+      </trans-unit>
+      <trans-unit id="150" approved="yes">
+        <source>field_definition.ezobjectrelation.selection_root_udw_button</source>
+        <target xml:lang="pl">Wybierz element</target>
+        <alt-trans>
+          <target xml:lang="pl">Wybierz obiekt</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="151" approved="yes">
+        <source>field_definition.ezobjectrelationlist.selection_default_location</source>
+        <target xml:lang="pl">Domyślna lokalizacja</target>
+      </trans-unit>
+      <trans-unit id="152" approved="yes">
+        <source>field_definition.ezobjectrelationlist.selection_content_types</source>
+        <target xml:lang="pl">Typy treści</target>
+      </trans-unit>
+      <trans-unit id="153" approved="yes">
+        <source>field_definition.ezobjectrelationlist.selection_root_udw_title</source>
+        <target xml:lang="pl">Wybierz domyślną lokalizację, od której zaczyna się wybór relacji dla tego pola</target>
+      </trans-unit>
+      <trans-unit id="154" approved="yes">
+        <source>field_definition.ezobjectrelationlist.selection_root_udw_button</source>
+        <target xml:lang="pl">Wybierz lokalizację</target>
+      </trans-unit>
       <!-- Errors -->
+      <trans-unit id="1ccb9c8a9c5030a616b4caf4b2e532c0" approved="yes">
+        <source>content_type.error.content_type_group.not_found</source>
+        <target xml:lang="pl">Nie znaleziono wybranej grupy</target>
+      </trans-unit>
       <!-- ContentType groups -->
-      <trans-unit id="21b3559b40d1828b8fc109bcfeebc70e">
+      <trans-unit id="4fc6b746712fd2aeaea4d323a89ee4a3" approved="yes">
+        <source>content_type.group.identifier</source>
+        <target xml:lang="pl">Identyfikator</target>
+      </trans-unit>
+      <trans-unit id="efa6eedcf144d6acddf602ffe497fedf" approved="yes">
+        <source>content_type.group.save</source>
+        <target xml:lang="pl">Zapisz</target>
+      </trans-unit>
+      <trans-unit id="21b3559b40d1828b8fc109bcfeebc70e" approved="yes">
         <source>content_type.group.delete</source>
-        <target xml:lang="pl" state="translated">Usuń</target>
+        <target xml:lang="pl">Usuń</target>
       </trans-unit>
     </body>
   </file>

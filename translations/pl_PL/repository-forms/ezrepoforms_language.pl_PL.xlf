@@ -2,13 +2,29 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
   <file source-language="en" datatype="plaintext" original="file.ext" target-language="pl">
     <body>
-      <trans-unit id="85af0dc2a9b83eb5cfc7871a73cbeab9">
-        <source>language.form.save</source>
-        <target xml:lang="pl" state="translated">Zapisz</target>
+      <trans-unit id="007cd5845351d36a9ec70173d2b44bb2" approved="yes">
+        <source>language.name.label</source>
+        <target xml:lang="pl">Nazwa</target>
       </trans-unit>
-      <trans-unit id="e61b7d6232fcbd424e1a4b030475be25">
+      <trans-unit id="3de80c254c9555ad1347b034f93f3095" approved="yes">
+        <source>language.code.label</source>
+        <target xml:lang="pl">Kod</target>
+      </trans-unit>
+      <trans-unit id="f066f9960df2f81907c3680c9148cef5" approved="yes">
+        <source>language.id.label</source>
+        <target xml:lang="pl">ID</target>
+      </trans-unit>
+      <trans-unit id="60ff6d8b447be276d65797a5244d79c3" approved="yes">
+        <source>language.error.code_already_exist</source>
+        <target xml:lang="pl">Podany kod języka już istnieje.</target>
+      </trans-unit>
+      <trans-unit id="85af0dc2a9b83eb5cfc7871a73cbeab9" approved="yes">
+        <source>language.form.save</source>
+        <target xml:lang="pl">Zapisz</target>
+      </trans-unit>
+      <trans-unit id="e61b7d6232fcbd424e1a4b030475be25" approved="yes">
         <source>language.form.delete</source>
-        <target xml:lang="pl" state="translated">Usuń</target>
+        <target xml:lang="pl">Usuń</target>
       </trans-unit>
     </body>
   </file>
