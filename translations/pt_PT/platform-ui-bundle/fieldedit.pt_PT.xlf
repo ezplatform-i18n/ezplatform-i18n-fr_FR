@@ -36,6 +36,160 @@
         <note>key: bad.checksum.last.digit.should.be</note>
         <jms:reference-file>./Resources/public/js/views/fields/ez-isbn-editview.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="e5070f4a7780feaac79ab807cd1546a70effb49d" resname="binaryfile.download">
+        <source>Download the file</source>
+        <target xml:lang="pt-PT" state="translated">Descarregar o ficheiro</target>
+        <note>key: binaryfile.download</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6368a200a5ca556ba56c6065d90cb55ccf4b3262" resname="binaryfile.empty">
+        <source>No file yet.</source>
+        <target xml:lang="pt-PT" state="translated">Nenhum ficheiro ainda.</target>
+        <note>key: binaryfile.empty</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="30424972909697b477376e7ca05c88535f9a2b58" resname="binaryfile.help">
+        <source>Drag and drop your file here or simply click on the buttons and select your file manually.</source>
+        <target xml:lang="pt-PT" state="translated">Arraste e largue o ficheiro aqui ou simplesmente clique nos botões e seleccione o ficheiro manualmente.</target>
+        <note>key: binaryfile.help</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="deb180f588060bb98b95d7df6d43b0d9d5278774" resname="binaryfile.name">
+        <source>File name:</source>
+        <target xml:lang="pt-PT" state="translated">Nome do ficheiro:</target>
+        <note>key: binaryfile.name</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="63b7d9eb28e23a7b075fd63567bb1c021b8f93d0" resname="binaryfile.or">
+        <source>or</source>
+        <target xml:lang="pt-PT" state="translated">ou</target>
+        <note>key: binaryfile.or</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="09251818f4f6aabd8f9c9e3caddd0e52a4e94f53" resname="binaryfile.remove">
+        <source>Remove this file</source>
+        <target xml:lang="pt-PT" state="translated">Remover este ficheiro</target>
+        <note>key: binaryfile.remove</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1c966af2e1e58bbe0cc2fcedf97a72a128f97e05" resname="binaryfile.replace">
+        <source>Replace this file</source>
+        <target xml:lang="pt-PT" state="translated">Substituir este ficheiro</target>
+        <note>key: binaryfile.replace</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="43102016be1b21e84fd962003da92c48bc434ad3" resname="binaryfile.size">
+        <source>File size:</source>
+        <target xml:lang="pt-PT" state="translated">Dimensão do ficheiro:</target>
+        <note>key: binaryfile.size</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="012ca0baa21f8d816f95de486b4da746ed42f845" resname="binaryfile.type">
+        <source>Type:</source>
+        <target xml:lang="pt-PT" state="translated">Tipo:</target>
+        <note>key: binaryfile.type</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="50d21f53a194d59aa5f1e9f3a12af1afcc6ef8fe" resname="binaryfile.upload">
+        <source>Upload a file</source>
+        <target xml:lang="pt-PT" state="translated">Enviar um ficheiro</target>
+        <note>key: binaryfile.upload</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a471779c9392f01dd003a1bc6879fd783e050f84" resname="date.and.time.not.valid">
+        <source>Date and time do not have valid inputs</source>
+        <target xml:lang="pt-PT" state="translated">Date e hora não têm valores válidos</target>
+        <note>key: date.and.time.not.valid</note>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-dateandtime-editview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="81e49b2ea1382af92570ae58ccb754535b55b224" resname="date.calendar">
+        <source>Calendar</source>
+        <target xml:lang="pt-PT" state="translated">Calendário</target>
+        <note>key: date.calendar</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/date.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1096c88b9ecb1c83173e6fe1a7330ac88aae7e1e" resname="date.not.valid">
+        <source>This is not a correct date</source>
+        <target xml:lang="pt-PT" state="translated">Este data não é correcta</target>
+        <note>key: date.not.valid</note>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-date-editview.js</jms:reference-file>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-dateandtime-editview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="86b1150b591a089eab73f5cb58fc11964ccb5f78" resname="date.not.valid.time.missing">
+        <source>Date do not have a valid input and time is missing</source>
+        <target xml:lang="pt-PT" state="translated">Data não tem um valor válido e a Hora está em falta</target>
+        <note>key: date.not.valid.time.missing</note>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-dateandtime-editview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b262de6dff7418fd4c316ac5946911aff50c5df1" resname="date.not.valid.time.required">
+        <source>Date do not have a valid input and time is required</source>
+        <target xml:lang="pt-PT" state="translated">Data não tem um valor válido e a Hora é obrigatória</target>
+        <note>key: date.not.valid.time.required</note>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-dateandtime-editview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5ea84ba9d0dd61b9b47b2104f086c4770daf2c74" resname="date.placeholder">
+        <source>YYYY-MM-DD</source>
+        <target xml:lang="pt-PT" state="translated">AAAA-MM-DD</target>
+        <note>key: date.placeholder</note>
+        <jms:reference-file>./Resources/public/templates/fields/edit/date.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ac8b6151c30254609f6e9f2a7ab5c5570ea94dcd" resname="date.required">
+        <source>Date is required</source>
+        <target xml:lang="pt-PT" state="translated">Data é obrigatória</target>
+        <note>key: date.required</note>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-dateandtime-editview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c1eee799ee7368e2089f1eb18e2431108253dc07" resname="date.time.required">
+        <source>Date and time are required</source>
+        <target xml:lang="pt-PT" state="translated">Data e Hora são obrigatórios</target>
+        <note>key: date.time.required</note>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-dateandtime-editview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3512b5e328b32d7ad9f98fa9fdc35df7f2207526" resname="dropped.several.files">
+        <source>You dropped several files while only one can be stored in this field. Please choose one file.</source>
+        <target xml:lang="pt-PT" state="translated">Largou vários ficheiros onde este campo apenas pode gravar um ficheiro. Escolha um ficheiro por favor.</target>
+        <note>key: dropped.several.files</note>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-binarybase-editview.js</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="pt-PT">Largou vários ficheiros onde este campo apenas pode gavrar um ficheiro. Escolha um ficheiro por favor.</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="pt-PT">Largou vários ficheiros onde este campo apenas um pode ser gravado neste campo. Escolha um ficheiro por favor.</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="pt-PT">Largou vários ficheiros onde apenas um pode ser gravado neste campo. Escolha um ficheiro por favor.</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="77e9dcf7fa3a6196173e1ef8d749321c078a61fb" resname="dropped.text.selection">
+        <source>You dropped a text selection while this field can only store a file. Please drop a file instead.</source>
+        <target xml:lang="pt-PT" state="translated">Largou uma selecção de texto onde este campo apenas pode gravar um ficheiro. Escolha antes um ficheiro por favor.</target>
+        <note>key: dropped.text.selection</note>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-binarybase-editview.js</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="pt-PT">Largou uma selecção de texto onde este campo apena spode gravar um ficheiro. Escolha antes um ficheiro por favor.</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="7e57a01ae6b4b0385ec149a170df478fa2868f25" resname="email.not.valid">
+        <source>The email address should be valid</source>
+        <target xml:lang="pt-PT" state="translated">O endereço de email deverá ser válido</target>
+        <note>key: email.not.valid</note>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-author-editview.js</jms:reference-file>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-emailaddress-editview.js</jms:reference-file>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-user-editview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9c96ffba7a783d0786368dbf8b2b23dfc4188e66" resname="email.required">
+        <source>The email address is required</source>
+        <target xml:lang="pt-PT" state="translated">O endereço de email é obrigatório</target>
+        <note>key: email.required</note>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-author-editview.js</jms:reference-file>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-user-editview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3baff585bf1b4c49f13ffa7f27f2afb737498a8c" resname="email.required.if.name.filled">
+        <source>The email address is required if the name is filled.</source>
+        <target xml:lang="pt-PT" state="translated">O endereço de email é obrigatório se o nome estiver preenchido.</target>
+        <note>key: email.required.if.name.filled</note>
+        <jms:reference-file>./Resources/public/js/views/fields/ez-author-editview.js</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
