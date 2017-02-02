@@ -36,12 +36,19 @@ This synchronisation is done using [dflydev/git-subsplit][dflydev] tool.
     git subsplit init https://github.com/ezsystems/ezplatform-i18n
     git subsplit update
     git subsplit publish "
-        translations/fr_FR:git@github.com:ezplatform-i18n/ezplatform-i18n-fr_FR.git
         translations/ach_UG:git@github.com:ezplatform-i18n/ezplatform-i18n-ach_UG.git
         translations/de_DE:git@github.com:ezplatform-i18n/ezplatform-i18n-de_DE.git
+        translations/es_ES:git@github.com:ezplatform-i18n/ezplatform-i18n-es_ES.git
+        translations/fi_FI:git@github.com:ezplatform-i18n/ezplatform-i18n-fi_FI.git
+        translations/fr_FR:git@github.com:ezplatform-i18n/ezplatform-i18n-fr_FR.git
+        translations/hi_IN:git@github.com:ezplatform-i18n/ezplatform-i18n-hi_IN.git
+        translations/hu_HU:git@github.com:ezplatform-i18n/ezplatform-i18n-hu_HU.git
+        translations/ja_JP:git@github.com:ezplatform-i18n/ezplatform-i18n-ja_JP.git
+        translations/nb_NO:git@github.com:ezplatform-i18n/ezplatform-i18n-nb_NO.git
         translations/no_NO:git@github.com:ezplatform-i18n/ezplatform-i18n-no_NO.git
-        translations/ru_RU:git@github.com:ezplatform-i18n/ezplatform-i18n-ru_RU.git
+        translations/pl_PL:git@github.com:ezplatform-i18n/ezplatform-i18n-pl_PL.git
         translations/pt_PT:git@github.com:ezplatform-i18n/ezplatform-i18n-pt_PT.git
+        translations/ru_RU:git@github.com:ezplatform-i18n/ezplatform-i18n-ru_RU.git
     " --heads=master
 
 ## Copyright & License

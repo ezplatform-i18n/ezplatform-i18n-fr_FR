@@ -1,6 +1,6 @@
 {
-  "name": "ezplatform-i18n/ezplatform-i18n-ach_ug",
-  "description": "eZ Platform ach_UG translations",
+  "name": "ezplatform-i18n/ezplatform-i18n-pl_pl",
+  "description": "eZ Platform pl_PL translations",
   "license": "GPL-2.0",
   "require": {
     "ezsystems/ezpublish-kernel": "^6.8"
