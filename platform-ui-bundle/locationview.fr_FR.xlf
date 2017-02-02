@@ -1,114 +1,212 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file date="2016-11-29T11:49:06Z" source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+  <file date="2017-01-26T14:52:02Z" source-language="en" target-language="fr" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="41c3a5ae2a605ec7f8c6bdb8f33a730e3967f110" resname="being.moved.under">
+        <source>'%name%' is being moved under '%parentName%'</source>
+        <target xml:lang="fr" state="translated">%name% a été déplacé sous %parentName%</target>
+        <note>key: being.moved.under</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-locationviewviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="95d6046a734be802fb22460fd8276a042e7e1198" resname="confirm.remove.location">
+        <source>Are you sure you want to remove selected locations?</source>
+        <target xml:lang="fr" state="translated">Êtes-vous sûr de vouloir supprimer les emplacements sélectionnés ?</target>
+        <note>key: confirm.remove.location</note>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-locationremoveplugin.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="10b37ae9b695e443fa4704d7a21efd0cadca7d49" resname="confirm.set.main.location">
+        <source>Are you sure you want to set this location as main location of content?</source>
+        <target xml:lang="fr" state="translated">Êtes-vous sûr de que vouloir définir cet emplacement comme emplacement principal du contenu ?</target>
+        <note>key: confirm.set.main.location</note>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-contentsetmainlocationplugin.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8a2fbb282605f72d531c11a15b621a9edc4913db" resname="confirmed.delete">
+        <source>Are you sure you want to delete this content?</source>
+        <target xml:lang="fr" state="translated">Êtes-vous sur de vouloir supprimer ce contenu?</target>
+        <note>key: confirmed.delete</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-locationviewviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e0be1422e1af400879a6716220eabc9ad4fca29e" resname="locationview.details.ascending">
+        <source>Ascending</source>
+        <target xml:lang="fr" state="translated">Ordre croissant</target>
+        <note>key: locationview.details.ascending</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2e143171eb44b9d8b17a06195b938181101de957" resname="locationview.details.contentid">
+        <source>Content Id</source>
+        <target xml:lang="fr" state="translated">Id du contenu</target>
+        <note>key: locationview.details.contentid</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="34ce6c404ac9a5a82f9a598d3e4e62916094c351" resname="locationview.details.contentremoteid">
+        <source>Content remote Id</source>
+        <target xml:lang="fr" state="translated">Id externe du contenu</target>
+        <note>key: locationview.details.contentremoteid</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d270971c445eca4fc0e7cd8ec006341f0ff19354" resname="locationview.details.creator">
+        <source>Creator</source>
+        <target xml:lang="fr" state="translated">Auteur</target>
+        <note>key: locationview.details.creator</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5095b70f3c9ccc1c77ba2d4f8ae1b2ce6121e233" resname="locationview.details.default.listing.of.subitems.by">
+        <source>Default listing of sub-items by</source>
+        <target xml:lang="fr" state="translated">Sous-éléments affichés par défaut par</target>
+        <note>key: locationview.details.default.listing.of.subitems.by</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e0d315cc1f7772de59ebb7a943e5331402f087f4" resname="locationview.details.lastcontributor">
+        <source>Last contributor</source>
+        <target xml:lang="fr" state="translated">Dernier contributeur</target>
+        <note>key: locationview.details.lastcontributor</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2fff74da27de7d17b2f5c89efeab74e664378c33" resname="locationview.details.loadingcontributor">
+        <source>Loading the last contributor</source>
+        <target xml:lang="fr" state="translated">Chargement du dernier contributeur</target>
+        <note>key: locationview.details.loadingcontributor</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="85dbe816267d441a33ecd4d1778b58f25a350814" resname="locationview.details.loadingcreator">
+        <source>Loading the creator</source>
+        <target xml:lang="fr" state="translated">Chargement de l'auteur</target>
+        <note>key: locationview.details.loadingcreator</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7f653bba9440b8a0b2dac47b4c30a5c97ba83678" resname="locationview.details.locationid">
+        <source>Location Id</source>
+        <target xml:lang="fr" state="translated">Id de l'emplacement</target>
+        <note>key: locationview.details.locationid</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2b72d1da8862e8f7f123df770f7733b294d765a3" resname="locationview.details.remoteid">
+        <source>Location remove Id</source>
+        <target xml:lang="fr" state="translated">Id externe de l'emplacement</target>
+        <note>key: locationview.details.remoteid</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="92ecfb85a6f93f491fb98ca6f584fffaea5d56a2" resname="locationview.details.subitems.default.ordering">
+        <source>Sub-items default ordering</source>
+        <target xml:lang="fr" state="translated">Ordre de tri par défaut des sous-éléments</target>
+        <note>key: locationview.details.subitems.default.ordering</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9699a1cb9c610905dddcb2b123fa7ba10a840957" resname="locationview.details.technicaldetails">
+        <source>Technical details</source>
+        <target xml:lang="fr" state="translated">Informations techniques</target>
+        <note>key: locationview.details.technicaldetails</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="dacdbac551cb8fc3eb998fead8834693305ba105" resname="locationview.details.title">
+        <source>Content details</source>
+        <target xml:lang="fr" state="translated">Informations</target>
+        <note>key: locationview.details.title</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a651fb9282b5626ba9e3a6cdfd1861b981aa1d76" resname="locationview.details.translations">
+        <source>Translations</source>
+        <target xml:lang="fr" state="translated">Traductions</target>
+        <note>key: locationview.details.translations</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="64dfe443da2515d16aaa6de73a00c2dd68111c0b" resname="locationview.details.versions">
+        <source>Versions</source>
+        <target xml:lang="fr" state="translated">Versions</target>
+        <note>key: locationview.details.versions</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cf775f467a5d5f450635af645a5587ada940d885" resname="locationview.locations.add.location">
+        <source>Add Location</source>
+        <target xml:lang="fr" state="translated">Ajouter un emplacement</target>
+        <note>key: locationview.locations.add.location</note>
+        <jms:reference-file>Resources/public/templates/tabs/locations.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d97d830f21868cefae182b651cb5399379d61a4e" resname="locationview.locations.content.locations">
+        <source>Content locations</source>
+        <target xml:lang="fr" state="translated">Emplacements</target>
+        <note>key: locationview.locations.content.locations</note>
+        <jms:reference-file>Resources/public/templates/tabs/locations.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="18ffeb7a312f5b6c621e15a46d902ae1fddefe0f" resname="locationview.locations.loading.location.list">
+        <source>Loading the locations list</source>
+        <target xml:lang="fr" state="translated">Chargement de la liste des emplacements</target>
+        <note>key: locationview.locations.loading.location.list</note>
+        <jms:reference-file>Resources/public/templates/tabs/locations.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c74cc382c1023b02479021fe7b260023d1287df1" resname="locationview.locations.remove.selected">
+        <source>Remove selected</source>
+        <target xml:lang="fr" state="translated">Supprimer la sélection</target>
+        <note>key: locationview.locations.remove.selected</note>
+        <jms:reference-file>Resources/public/templates/tabs/locations.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="30412ae8741b6ad892f8e7121c1df1c98690fe69" resname="locationview.locations.select.content.item">
+        <source>Select Content item</source>
+        <target xml:lang="fr" state="translated">Sélectionner le contenu</target>
+        <note>key: locationview.locations.select.content.item</note>
+        <jms:reference-file>Resources/public/templates/tabs/locations.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="78f72ceb515315ffb377e812832368f846c12fec" resname="locationview.locations.swap.with.another" approved="yes">
+        <source>Swap the Content item at this location with another</source>
+        <target xml:lang="fr">Echanger le contenu à cet emplacement avec un autre</target>
+        <note>key: locationview.locations.swap.with.another</note>
+        <jms:reference-file>Resources/public/templates/tabs/locations.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d6b8b44043ab3a73bd6a8a1e1e9079e55a816623" resname="locationview.relations.no.related.content">
+        <source>This content has no related content.</source>
+        <target xml:lang="fr" state="translated">Ce contenu n'a pas de relations.</target>
+        <note>key: locationview.relations.no.related.content</note>
+        <jms:reference-file>Resources/public/templates/tabs/relations.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Ce contenu n'a pas de relations</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="0b409a5f5675b6ee03cfaea432d179c2648a36a3" resname="locationview.relations.related.content">
+        <source>Related content</source>
+        <target xml:lang="fr" state="translated">Contenu lié</target>
+        <note>key: locationview.relations.related.content</note>
+        <jms:reference-file>Resources/public/templates/tabs/relations.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f67a3e91c4d5aa8aac6c72fe7027dfba73eb1a4f" resname="rawcontent.content" approved="yes">
+        <source>Content</source>
+        <target xml:lang="fr">Contenu</target>
+        <note>key: rawcontent.content</note>
+        <jms:reference-file>Resources/public/templates/rawcontent.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8e3b63eca8c0b79018040b44d8ee39701824a187" resname="sort.modified">
+        <source>Modification date</source>
+        <target xml:lang="fr" state="translated">Date de modification</target>
+        <note>key: sort.modified</note>
+        <jms:reference-file>Resources/public/js/views/tabs/ez-locationviewdetailstabview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4f2fcdfe68ca50269b9c334594a8acd1a688809f" resname="sort.name">
+        <source>Content name</source>
+        <target xml:lang="fr" state="translated">Nom du contenu</target>
+        <note>key: sort.name</note>
+        <jms:reference-file>Resources/public/js/views/tabs/ez-locationviewdetailstabview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="668f8150c4acd0a0c8075de8b794639b8b4a6519" resname="sort.path">
+        <source>Location path</source>
+        <target xml:lang="fr" state="translated">Chemin de l'emplacement</target>
+        <note>key: sort.path</note>
+        <jms:reference-file>Resources/public/js/views/tabs/ez-locationviewdetailstabview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="bcb9183148c577a8a232c08847dff0c1647e62e7" resname="sort.priority">
+        <source>Priority</source>
+        <target xml:lang="fr" state="translated">Priorité</target>
+        <note>key: sort.priority</note>
+        <jms:reference-file>Resources/public/js/views/tabs/ez-locationviewdetailstabview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="033291f867da64bfb4f9db9ec1b3c947b1e431c5" resname="sort.published">
+        <source>Publication date</source>
+        <target xml:lang="fr" state="translated">Date de publication</target>
+        <note>key: sort.published</note>
+        <jms:reference-file>Resources/public/js/views/tabs/ez-locationviewdetailstabview.js</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
