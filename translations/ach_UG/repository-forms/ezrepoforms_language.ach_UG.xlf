@@ -1,30 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" datatype="plaintext" original="file.ext" target-language="ach">
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file date="2017-01-26T15:03:32Z" source-language="en" target-language="ach" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
     <body>
-      <trans-unit id="007cd5845351d36a9ec70173d2b44bb2">
-        <source>language.name.label</source>
-        <target xml:lang="ach">crwdns211730:0crwdne211730:0</target>
+      <trans-unit id="06869c8162f8a2914b5a5b10af189b8b0a532e7d" resname="language.form.delete">
+        <source>Delete</source>
+        <target xml:lang="ach">crwdns212852:0crwdne212852:0</target>
+        <note>key: language.form.delete</note>
+        <jms:reference-file line="32">lib/Form/Type/Language/LanguageDeleteType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3de80c254c9555ad1347b034f93f3095">
-        <source>language.code.label</source>
-        <target xml:lang="ach">crwdns211731:0crwdne211731:0</target>
-      </trans-unit>
-      <trans-unit id="f066f9960df2f81907c3680c9148cef5">
-        <source>language.id.label</source>
-        <target xml:lang="ach">crwdns211732:0crwdne211732:0</target>
-      </trans-unit>
-      <trans-unit id="60ff6d8b447be276d65797a5244d79c3">
-        <source>language.error.code_already_exist</source>
-        <target xml:lang="ach">crwdns211733:0crwdne211733:0</target>
-      </trans-unit>
-      <trans-unit id="85af0dc2a9b83eb5cfc7871a73cbeab9">
-        <source>language.form.save</source>
-        <target xml:lang="ach">crwdns211734:0crwdne211734:0</target>
-      </trans-unit>
-      <trans-unit id="e61b7d6232fcbd424e1a4b030475be25">
-        <source>language.form.delete</source>
-        <target xml:lang="ach">crwdns211735:0crwdne211735:0</target>
+      <trans-unit id="f471f1ba7a9fddf9bcaf869218b35fe26147a4ab" resname="language.form.save">
+        <source>Save</source>
+        <target xml:lang="ach">crwdns212853:0crwdne212853:0</target>
+        <note>key: language.form.save</note>
+        <jms:reference-file line="25">lib/Form/Type/Language/LanguageType.php</jms:reference-file>
       </trans-unit>
     </body>
   </file>

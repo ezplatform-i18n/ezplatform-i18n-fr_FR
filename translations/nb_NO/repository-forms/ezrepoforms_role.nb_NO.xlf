@@ -1,77 +1,30 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" datatype="plaintext" original="file.ext" target-language="nb">
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file date="2017-01-26T15:03:32Z" source-language="en" target-language="nb" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
     <body>
-      <trans-unit id="15a96bd8e517e1cfb6d989c69ccd4a07" resname="role.identifier">
-        <source>role.identifier</source>
-        <target xml:lang="nb" state="translated">Rolleidentifikator</target>
-      </trans-unit>
-      <trans-unit id="b240ba7952e3686902a0ea78ae3fec91" resname="role.save">
-        <source>role.save</source>
-        <target xml:lang="nb" state="translated">Lagre</target>
-      </trans-unit>
-      <trans-unit id="2bcaf8ca5d0b4a50085011b522da0dfc">
-        <source>role.cancel</source>
-        <target xml:lang="nb" state="translated">Avbryt</target>
-      </trans-unit>
-      <trans-unit id="97ccb80e8991c2b37daf50834a8d7a18" resname="role.remove_draft">
-        <source>role.remove_draft</source>
-        <target xml:lang="nb" state="translated">Slett utkast</target>
-      </trans-unit>
-      <trans-unit id="0b4cb733c3b00614be932928650a567f" resname="role.form.delete">
-        <source>role.form.delete</source>
-        <target xml:lang="nb" state="translated">Slett rolle</target>
-      </trans-unit>
-      <trans-unit id="565405ab5f15e4274e9edf5301d567b1" resname="role.create">
-        <source>role.create</source>
-        <target xml:lang="nb" state="translated">Lag ny rolle</target>
-      </trans-unit>
-      <trans-unit id="f69be0366fdb75154d6781d3d1d63590">
-        <source>role.policy.type</source>
-        <target xml:lang="nb" state="translated">Vilkårstype</target>
-      </trans-unit>
-      <trans-unit id="c66259bddf003273f41e31e77b7af64d">
-        <source>role.policy.form.delete</source>
-        <target xml:lang="nb" state="translated">Slett rollevilkår</target>
-      </trans-unit>
-      <trans-unit id="09ecb68c2da6cf95b2f61a9019b67e28">
-        <source>role.policy.available_limitations</source>
-        <target xml:lang="nb" state="translated">Begrensninger</target>
-      </trans-unit>
-      <trans-unit id="39446b5a5e8148ddb6197abc65cf7e82">
-        <source>role.policy.save</source>
-        <target xml:lang="nb" state="translated">Lagre</target>
-      </trans-unit>
-      <trans-unit id="d04fa11f7880f330c284bff3f44f42fb">
-        <source>Class</source>
-        <target xml:lang="nb" state="translated">Innholdstype</target>
-        <alt-trans>
-          <target xml:lang="nb">Klasse</target>
-        </alt-trans>
-      </trans-unit>
-      <trans-unit id="a23eb7e851c75169666f9bcc4539e4c3">
-        <source>Node</source>
-        <target xml:lang="nb" state="translated">Plassering</target>
-      </trans-unit>
-      <trans-unit id="7ba51a99524d33986e1169814afd8584" resname="role.assignment.form.delete">
-        <source>role.assignment.form.delete</source>
-        <target xml:lang="nb" state="translated">Slett tilordning av rolle</target>
-      </trans-unit>
-      <trans-unit id="8274dd06c2b2c0cf113502369bbf9516">
-        <source>policy.limitation.owner.self</source>
-        <target xml:lang="nb" state="translated">Brukeren selv</target>
-      </trans-unit>
-      <trans-unit id="6d1269a5d06fd566a4037bf7e59866a8">
-        <source>policy.limitation.group.self</source>
-        <target xml:lang="nb" state="translated">Brukerens egen gruppe</target>
-        <alt-trans>
-          <target xml:lang="nb">Egen</target>
-        </alt-trans>
-      </trans-unit>
-      <trans-unit id="112d31a04edd6a98ec253cc6b9336f75">
-        <source>role.policy.limitation.location.udw_button</source>
-        <target xml:lang="nb" state="translated">Bla igjennom...</target>
-      </trans-unit>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
     </body>
   </file>
 </xliff>

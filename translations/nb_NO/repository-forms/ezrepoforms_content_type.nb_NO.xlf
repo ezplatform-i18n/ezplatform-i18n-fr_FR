@@ -1,34 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" datatype="plaintext" original="file.ext" target-language="nb">
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file date="2017-01-26T15:03:32Z" source-language="en" target-language="nb" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
     <body>
-      <trans-unit id="14">
-        <source>content_type.edit_title</source>
-        <target xml:lang="nb" state="translated">Rediger innholdstype</target>
-      </trans-unit>
-      <trans-unit id="c922cb4d7cf06dd353a1c42e5beaa942">
-        <source>content_type.create</source>
-        <target xml:lang="nb" state="translated">Opprett ny gruppe</target>
-      </trans-unit>
-      <trans-unit id="d8ed8632f53a803e8c0b7686aca78dfd">
-        <source>content_type.delete</source>
-        <target xml:lang="nb" state="translated">Slett</target>
-      </trans-unit>
-      <!-- Field definition -->
-      <!-- Errors -->
-      <!-- ContentType groups -->
-      <trans-unit id="4fc6b746712fd2aeaea4d323a89ee4a3">
-        <source>content_type.group.identifier</source>
-        <target xml:lang="nb" state="translated">Identifikator for innholdsgruppe</target>
-      </trans-unit>
-      <trans-unit id="efa6eedcf144d6acddf602ffe497fedf">
-        <source>content_type.group.save</source>
-        <target xml:lang="nb" state="translated">Lagre</target>
-      </trans-unit>
-      <trans-unit id="21b3559b40d1828b8fc109bcfeebc70e">
-        <source>content_type.group.delete</source>
-        <target xml:lang="nb" state="translated">Slett</target>
-      </trans-unit>
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
     </body>
   </file>
 </xliff>

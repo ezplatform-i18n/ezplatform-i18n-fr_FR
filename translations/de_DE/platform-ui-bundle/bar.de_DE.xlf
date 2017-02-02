@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file date="2016-11-29T11:49:06Z" source-language="en" target-language="de" datatype="plaintext" original="not.available">
+  <file date="2017-01-26T14:52:02Z" source-language="en" target-language="de" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
@@ -10,13 +10,13 @@
         <source>Copy</source>
         <target xml:lang="de" state="translated">Kopieren</target>
         <note>key: actionbar.copy</note>
-        <jms:reference-file>./Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="e9ce61047248bb9c85bb0984cf597dbfbcc7633b" resname="actionbar.createContent">
         <source>Create</source>
         <target xml:lang="de" state="translated">Erzeugen</target>
         <note>key: actionbar.createContent</note>
-        <jms:reference-file>./Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
         <alt-trans>
           <target xml:lang="de">Bearbeiten</target>
         </alt-trans>
@@ -25,49 +25,49 @@
         <source>Delete</source>
         <target xml:lang="de" state="translated">Löschen</target>
         <note>key: actionbar.delete</note>
-        <jms:reference-file>./Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="5fb95ba95e83264744f36bd3dafb74013b86d315" resname="actionbar.edit">
         <source>Edit</source>
         <target xml:lang="de" state="translated">Bearbeiten</target>
         <note>key: actionbar.edit</note>
-        <jms:reference-file>./Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="4406c1030566fae57a5e41a797823d41c7775ac8" resname="actionbar.minimizeActionBar">
         <source>Minimize</source>
         <target xml:lang="de" state="translated">Verkleinern</target>
         <note>key: actionbar.minimizeActionBar</note>
-        <jms:reference-file>./Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="b282633e9e76dd418412580d9232d28d9404dcb5" resname="actionbar.move">
         <source>Move</source>
         <target xml:lang="de" state="translated">Verschieben</target>
         <note>key: actionbar.move</note>
-        <jms:reference-file>./Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="0c208e52af8963639637f9c9ce2163bd98d1628e" resname="actionbar.sendToTrash">
         <source>Send to Trash</source>
         <target xml:lang="de" state="translated">In den Mülleimer</target>
         <note>key: actionbar.sendToTrash</note>
-        <jms:reference-file>./Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="5b0a413f93880e60e8da0cc54c3d2643afef840c" resname="actionbar.translate">
         <source>Translations</source>
         <target xml:lang="de" state="translated">Übersetzungen</target>
         <note>key: actionbar.translate</note>
-        <jms:reference-file>./Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="36ec797c4394265124b47a9ef9d8981ab3cb80c1" resname="content.being.copied.under">
         <source>"%contentName%" is being copied under "%parentContentName%"</source>
         <target xml:lang="de" state="translated">"%contentName%" wurde unter "%parentContentName%" kopiert</target>
         <note>key: content.being.copied.under</note>
-        <jms:reference-file>./Resources/public/js/views/services/plugins/ez-copycontentplugin.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-copycontentplugin.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="a45dde06d9f58df76767d6fdaa8da714979b737d" resname="content.copied.under">
         <source>'%contentName%' has been successfully copied under '%parentContentName%'</source>
         <target xml:lang="de" state="translated">"%contentName%" wurde erfolgreich unter '%parentContentName%' kopiert</target>
         <note>key: content.copied.under</note>
-        <jms:reference-file>./Resources/public/js/views/services/plugins/ez-copycontentplugin.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-copycontentplugin.js</jms:reference-file>
         <alt-trans>
           <target xml:lang="de">'%contentName%' wurde erfolgreich unter '%parentContentName%' kopiert</target>
         </alt-trans>
@@ -76,13 +76,13 @@
         <source>Loading</source>
         <target xml:lang="de" state="translated">Laden</target>
         <note>key: createcontentaction.loading</note>
-        <jms:reference-file>./Resources/public/templates/createcontentaction.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/createcontentaction.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="8168e6a5b68d175e892512352ec75bdfe1275631" resname="creating.new.location.for">
         <source>Creating new location for "%name%"</source>
         <target xml:lang="de" state="translated">Erzeuge neuen Ort für "%name%"</target>
         <note>key: creating.new.location.for</note>
-        <jms:reference-file>./Resources/public/js/views/services/plugins/ez-locationcreateplugin.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-locationcreateplugin.js</jms:reference-file>
         <alt-trans>
           <target xml:lang="de">Erzeuge neue Location für "%name%"</target>
         </alt-trans>
@@ -91,7 +91,7 @@
         <source>Creating new location(s) for "%name%" failed</source>
         <target xml:lang="de" state="translated">Das erzeugen von neuen Orten für "%name%" ist fehlgeschlagen</target>
         <note>key: creating.new.location.for.failed</note>
-        <jms:reference-file>./Resources/public/js/views/services/plugins/ez-locationcreateplugin.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-locationcreateplugin.js</jms:reference-file>
         <alt-trans>
           <target xml:lang="de">Das erzeugen von neuen Location's für "%name%" ist fehlgeschlagen</target>
         </alt-trans>
@@ -100,37 +100,37 @@
         <source>Content tree</source>
         <target xml:lang="de" state="translated">Inhaltsbaum</target>
         <note>key: discoverybar.contenttree</note>
-        <jms:reference-file>./Resources/public/js/views/ez-discoverybarview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-discoverybarview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="69eda63e3b6ba8e8eb35db12ef1995c5dba42c17" resname="discoverybar.minimize">
         <source>Minimize</source>
         <target xml:lang="de" state="translated">Verkleinern</target>
         <note>key: discoverybar.minimize</note>
-        <jms:reference-file>./Resources/public/js/views/ez-discoverybarview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-discoverybarview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="55ba03a687a73559ef8a2d4e1ff935b47ddc5859" resname="discoverybar.search">
         <source>Search</source>
         <target xml:lang="de" state="translated">Suche</target>
         <note>key: discoverybar.search</note>
-        <jms:reference-file>./Resources/public/js/views/ez-discoverybarview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-discoverybarview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="07eab5f1fb10d5c76c8b190ed9aa24f44b8631b7" resname="discoverybar.trash">
         <source>Trash</source>
         <target xml:lang="de" state="translated">Mülleimer</target>
         <note>key: discoverybar.trash</note>
-        <jms:reference-file>./Resources/public/js/views/ez-discoverybarview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-discoverybarview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="4f05b52ccc249d1a7747839ea78300f80c6011d3" resname="error.hiding.location">
         <source>Error while hiding location "%id%"</source>
         <target xml:lang="de" state="translated">Fehler beim Ausblenden von dem Ort "%id%"</target>
         <note>key: error.hiding.location</note>
-        <jms:reference-file>./Resources/public/js/views/services/plugins/ez-visibilityswitcherplugin.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-visibilityswitcherplugin.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="b751b43622c766dad211b5892e401abe17292918" resname="error.occurred.copying">
         <source>An error occurred while copying your content</source>
         <target xml:lang="de" state="translated">Beim Kopieren Ihres Inhaltes trat ein Fehler auf</target>
         <note>key: error.occurred.copying</note>
-        <jms:reference-file>./Resources/public/js/views/services/plugins/ez-copycontentplugin.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-copycontentplugin.js</jms:reference-file>
         <alt-trans>
           <target xml:lang="de">Beim kopieren Ihres Inhaltes trat ein Fehler auf</target>
         </alt-trans>
@@ -139,13 +139,13 @@
         <source>An error occurred while loading your content</source>
         <target xml:lang="de" state="translated">Beim Laden Ihres Inhaltes trat ein Fehler auf</target>
         <note>key: error.occurred.loading</note>
-        <jms:reference-file>./Resources/public/js/views/services/plugins/ez-copycontentplugin.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-copycontentplugin.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="310cc7a3978ffe18c9e51dc5038b371f5428f46f" resname="error.revealing.location">
         <source>Error while revealing location "%id%"</source>
         <target xml:lang="de" state="translated">Fehler beim sichtbar machen von dem Ort "%id%"</target>
         <note>key: error.revealing.location</note>
-        <jms:reference-file>./Resources/public/js/views/services/plugins/ez-visibilityswitcherplugin.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-visibilityswitcherplugin.js</jms:reference-file>
         <alt-trans>
           <target xml:lang="de">Fehler beim sichtbar machen von Ort "%id%"</target>
         </alt-trans>
@@ -154,19 +154,19 @@
         <source>Edit</source>
         <target xml:lang="de" state="translated">Bearbeiten</target>
         <note>key: translateaction.edit</note>
-        <jms:reference-file>./Resources/public/templates/translateaction.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/translateaction.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="0da142a7f050a139b79a5865547744a56a5f4281" resname="translateaction.existing.translations">
         <source>Existing Translations</source>
         <target xml:lang="de" state="translated">Vorhandene Übersetzungen</target>
         <note>key: translateaction.existing.translations</note>
-        <jms:reference-file>./Resources/public/templates/translateaction.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/translateaction.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="cd6a171f15734694bbc3e15e0f2e4ca47dd5d1ff" resname="translateaction.new.translation">
         <source>+ New Translation</source>
         <target xml:lang="de" state="translated">+ neue Übersetzung</target>
         <note>key: translateaction.new.translation</note>
-        <jms:reference-file>./Resources/public/templates/translateaction.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/translateaction.hbt</jms:reference-file>
       </trans-unit>
     </body>
   </file>

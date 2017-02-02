@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file date="2016-11-29T11:49:06Z" source-language="en" target-language="de" datatype="plaintext" original="not.available">
+  <file date="2017-01-26T14:52:02Z" source-language="en" target-language="de" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
@@ -10,25 +10,25 @@
         <source>Are you sure you want to permanently delete %count% items? This action cannot be reversed.</source>
         <target xml:lang="de" state="translated">Sind Sie sicher, dass Sie %count% Datensätze dauerhaft löschen wollen? Diese Aktion kann nicht rückgängig gemacht werden.</target>
         <note>key: confirm.permanent.delete.items</note>
-        <jms:reference-file>./Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="5ed184c9ace808c1f22a8dba32474b2d8c307b90" resname="empty.trash">
         <source>Empty the Trash</source>
         <target xml:lang="de" state="translated">Mülleimer leeren</target>
         <note>key: empty.trash</note>
-        <jms:reference-file>./Resources/public/js/views/ez-trashbarview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-trashbarview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="0c3639c10994d885f997d2403c4fb64b10a118b3" resname="minimize">
         <source>Minimize</source>
         <target xml:lang="de" state="translated">Verkleinern</target>
         <note>key: minimize</note>
-        <jms:reference-file>./Resources/public/js/views/ez-trashbarview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-trashbarview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="6dcfe1a862453282cc8de9d38d2468fa7bebd7c9" resname="restore.selected">
         <source>Restore selected</source>
         <target xml:lang="de" state="translated">Ausgewählte wiederherstellen</target>
         <note>key: restore.selected</note>
-        <jms:reference-file>./Resources/public/js/views/ez-trashbarview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-trashbarview.js</jms:reference-file>
         <alt-trans>
           <target xml:lang="de">Markierte wiederherstellen</target>
         </alt-trans>
@@ -37,13 +37,13 @@
         <source>The trash is empty</source>
         <target xml:lang="de" state="translated">Der Mülleimer ist leer</target>
         <note>key: trash.empty</note>
-        <jms:reference-file>./Resources/public/templates/trash.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/trash.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="9bedf5469883778a8aac2f2a0daaa7664704069b" resname="trash.header.name">
         <source>Trash</source>
         <target xml:lang="de" state="translated">Mülleimer</target>
         <note>key: trash.header.name</note>
-        <jms:reference-file>./Resources/public/templates/trash.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/trash.hbt</jms:reference-file>
       </trans-unit>
     </body>
   </file>

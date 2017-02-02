@@ -1,146 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file date="2016-12-05T14:54:41Z" source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+  <file date="2017-01-26T14:52:02Z" source-language="en" target-language="fr" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="30527585f513c4216ef8505ace7adc4cd4504716" resname="author.add">
+        <source>Add another author</source>
+        <target xml:lang="fr" state="translated">Ajouter un autre auteur</target>
+        <note>key: author.add</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/author.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0d26cffd2879243fec3052d28eca681b47722093" resname="authorinput.email">
+        <source>Email:</source>
+        <target xml:lang="fr" state="translated">E-mail :</target>
+        <note>key: authorinput.email</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/authorinput.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="de45b8facdcebc26f1c77df02b4208a89b276855" resname="authorinput.name">
+        <source>Name:</source>
+        <target xml:lang="fr" state="translated">Nom:</target>
+        <note>key: authorinput.name</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/authorinput.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cb37a419e7f74648f3096f17a11b45d29d4f30a9" resname="authorinput.remove">
+        <source>Remove this author</source>
+        <target xml:lang="fr" state="translated">Supprimer cet auteur</target>
+        <note>key: authorinput.remove</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/authorinput.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e5070f4a7780feaac79ab807cd1546a70effb49d" resname="binaryfile.download">
+        <source>Download the file</source>
+        <target xml:lang="fr" state="translated">Télécharger le fichier</target>
+        <note>key: binaryfile.download</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="63b7d9eb28e23a7b075fd63567bb1c021b8f93d0" resname="binaryfile.or">
+        <source>or</source>
+        <target xml:lang="fr" state="translated">ou</target>
+        <note>key: binaryfile.or</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e1ee64eddc5bc3ee8690f59e23a52dd4c50d036e" resname="richtext.focus">
+        <source>Focus</source>
+        <target xml:lang="fr" state="translated">Focus</target>
+        <note>key: richtext.focus</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/richtext.hbt</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>

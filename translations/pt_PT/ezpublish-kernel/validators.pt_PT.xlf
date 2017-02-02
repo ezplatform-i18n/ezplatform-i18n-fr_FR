@@ -6,9 +6,9 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="924826be1015d20c1f4524754c690e10935abaac" resname="ez.section.identifier.format">
+      <trans-unit id="924826be1015d20c1f4524754c690e10935abaac" resname="ez.section.identifier.format" approved="yes">
         <source>ez.section.identifier.format</source>
-        <target xml:lang="pt-PT" state="translated">ez.Section.Identifier.Format</target>
+        <target xml:lang="pt-PT">ez.Section.Identifier.Format</target>
         <note>key: ez.section.identifier.format</note>
       </trans-unit>
     </body>

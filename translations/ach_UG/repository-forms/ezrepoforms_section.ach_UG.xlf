@@ -1,34 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" datatype="plaintext" original="file.ext" target-language="ach">
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file date="2017-01-26T15:03:32Z" source-language="en" target-language="ach" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
     <body>
-      <trans-unit id="007cd5845351d36a9ec70173d2b44bb2">
-        <source>section.name.label</source>
-        <target xml:lang="ach">crwdns211761:0crwdne211761:0</target>
+      <trans-unit id="201c1849abe46fd6ea7013ec4bb1bc2630e46e0a" resname="section.form.delete">
+        <source>Delete</source>
+        <target xml:lang="ach">crwdns212873:0crwdne212873:0</target>
+        <note>key: section.form.delete</note>
+        <jms:reference-file line="59">lib/Form/Type/Section/SectionDeleteType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3de80c254c9555ad1347b034f93f3095">
-        <source>section.identifier.label</source>
-        <target xml:lang="ach">crwdns211762:0crwdne211762:0</target>
-      </trans-unit>
-      <trans-unit id="f066f9960df2f81907c3680c9148cef5">
-        <source>section.id.label</source>
-        <target xml:lang="ach">crwdns211763:0crwdne211763:0</target>
-      </trans-unit>
-      <trans-unit id="60ff6d8b447be276d65797a5244d79c3">
-        <source>section.error.id_already_exist</source>
-        <target xml:lang="ach">crwdns211764:0crwdne211764:0</target>
-      </trans-unit>
-      <trans-unit id="a07809a8014c979ffe3e2256610b0ea4">
-        <source>section.error.cannot_delete_with_assigned_content</source>
-        <target xml:lang="ach">crwdns211765:0crwdne211765:0</target>
-      </trans-unit>
-      <trans-unit id="85af0dc2a9b83eb5cfc7871a73cbeab9">
-        <source>section.form.save</source>
-        <target xml:lang="ach">crwdns211766:0crwdne211766:0</target>
-      </trans-unit>
-      <trans-unit id="e61b7d6232fcbd424e1a4b030475be25">
-        <source>section.form.delete</source>
-        <target xml:lang="ach">crwdns211767:0crwdne211767:0</target>
+      <trans-unit id="982207646b00655df737a8ac395ab5e0a8f8ede2" resname="section.form.save">
+        <source>Save</source>
+        <target xml:lang="ach">crwdns212874:0crwdne212874:0</target>
+        <note>key: section.form.save</note>
+        <jms:reference-file line="23">lib/Form/Type/Section/SectionType.php</jms:reference-file>
       </trans-unit>
     </body>
   </file>

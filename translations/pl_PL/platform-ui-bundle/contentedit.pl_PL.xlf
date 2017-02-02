@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file date="2016-11-29T11:49:06Z" source-language="en" target-language="pl" datatype="plaintext" original="not.available">
+  <file date="2017-01-26T14:52:02Z" source-language="en" target-language="pl" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
@@ -10,20 +10,20 @@
         <source>(change)</source>
         <target xml:lang="pl">(zmień)</target>
         <note>key: change</note>
-        <jms:reference-file>./Resources/public/templates/contentedit.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/contentedit.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="d4a9f87b1214f3f434e3e765c826de1501b17932" resname="change.language.to" approved="yes">
         <source>Change language to:</source>
         <target xml:lang="pl">Zmień język na:</target>
         <note>key: change.language.to</note>
-        <jms:reference-file>./Resources/public/js/views/services/ez-contentcreateviewservice.js</jms:reference-file>
-        <jms:reference-file>./Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/ez-contentcreateviewservice.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="f3528c72d108e105ecdb31e377a3514595dcfa6a" resname="content.id.location.id" approved="yes">
         <source>Content ID: %contentId%, Location ID: %locationId%</source>
         <target xml:lang="pl">ID elementu: %contentId%, ID lokalizacji: %locationId%</target>
         <note>key: content.id.location.id</note>
-        <jms:reference-file>./Resources/public/templates/contentedit.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/contentedit.hbt</jms:reference-file>
         <alt-trans>
           <target xml:lang="pl">ID obiektu: %contentId%, ID lokalizacji: %locationId%</target>
         </alt-trans>
@@ -32,7 +32,7 @@
         <source>Content has been published</source>
         <target xml:lang="pl">Element został opublikowany</target>
         <note>key: content.published</note>
-        <jms:reference-file>./Resources/public/js/views/services/plugins/ez-publishdraftplugin.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-publishdraftplugin.js</jms:reference-file>
         <alt-trans>
           <target xml:lang="pl">Obiekt został opublikowany</target>
         </alt-trans>
@@ -41,19 +41,19 @@
         <source>Close preview</source>
         <target xml:lang="pl">Zamknij podgląd</target>
         <note>key: contentedit.close.preview</note>
-        <jms:reference-file>./Resources/public/templates/editpreview.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/editpreview.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="7403ac1a8e8db35e577bf4e7ca7c3a7122a2169e" resname="contentedit.previewing" approved="yes">
         <source>Previewing</source>
         <target xml:lang="pl">Podgląd</target>
         <note>key: contentedit.previewing</note>
-        <jms:reference-file>./Resources/public/templates/editpreview.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/editpreview.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="55bfafdd36ab25c84547ddc2ecfc0fb802565885" resname="created.by" approved="yes">
         <source>Created by %name%</source>
         <target xml:lang="pl">Utworzone przez %name%</target>
         <note>key: created.by</note>
-        <jms:reference-file>./Resources/public/templates/contentedit.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/contentedit.hbt</jms:reference-file>
         <alt-trans>
           <target xml:lang="pl">Utworzono przez %name%</target>
         </alt-trans>
@@ -62,31 +62,31 @@
         <source>Discard Changes</source>
         <target xml:lang="pl">Odrzuć zmiany</target>
         <note>key: discard.changes</note>
-        <jms:reference-file>./Resources/public/js/views/ez-editactionbarview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-editactionbarview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="431acee9716b1c0e01f44d5c29066c88805baa76" resname="draft.saved" approved="yes">
         <source>The draft was stored successfully</source>
         <target xml:lang="pl">Szkic został pomyślnie zapisany</target>
         <note>key: draft.saved</note>
-        <jms:reference-file>./Resources/public/js/views/services/plugins/ez-savedraftplugin.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-savedraftplugin.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="9db67cccc0bb69201e5e3c2b4e9f38f4ab4d1825" resname="error.publishing.draft" approved="yes">
         <source>An error occurred while publishing the draft</source>
         <target xml:lang="pl">Wystąpił błąd podczas publikacji szkicu</target>
         <note>key: error.publishing.draft</note>
-        <jms:reference-file>./Resources/public/js/views/services/plugins/ez-publishdraftplugin.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-publishdraftplugin.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="a73c8d3d7af831b9afb385bad44ea20909312ce3" resname="error.saving.draft" approved="yes">
         <source>An error occurred while saving the draft</source>
         <target xml:lang="pl">Wystąpił błąd podczas zapisywania szkicu</target>
         <note>key: error.saving.draft</note>
-        <jms:reference-file>./Resources/public/js/views/services/plugins/ez-savedraftplugin.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-savedraftplugin.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="017e73e2672420a3448a1f74176b3dcbaf06082e" resname="failed.finding.content" approved="yes">
         <source>Could not find the content id '%id%'</source>
         <target xml:lang="pl">Nie można znaleźć elementu o ID '%id%'</target>
         <note>key: failed.finding.content</note>
-        <jms:reference-file>./Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
         <alt-trans>
           <target xml:lang="pl">Nie można znaleźć obiektu o ID '%id%'</target>
         </alt-trans>
@@ -95,7 +95,7 @@
         <source>Could not load the content with id '%contentId%' and languageCode '%languageCode%'</source>
         <target xml:lang="pl">Nie można załadować elementu o ID '%contentId%' w języku '%languageCode%'</target>
         <note>key: failed.loading.content.id.language</note>
-        <jms:reference-file>./Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
         <alt-trans>
           <target xml:lang="pl">Nie można załadować obiektu o ID '%contentId%' oraz języku '%languageCode%'</target>
         </alt-trans>
@@ -104,7 +104,7 @@
         <source>Could not load the content with id '%contentId%' and languageCode '%languageCode%'</source>
         <target xml:lang="pl">Nie można załadować elementu o ID '%contentId%' w języku '%languageCode%'</target>
         <note>key: failed.loading.content.in</note>
-        <jms:reference-file>./Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
         <alt-trans>
           <target xml:lang="pl">Nie można załadować obiektu o ID '%contentId%' oraz języku '%languageCode%'</target>
         </alt-trans>
@@ -113,20 +113,20 @@
         <source>Could not load the content type with id %id%</source>
         <target xml:lang="pl">Nie można załadować typu treści o ID %id%</target>
         <note>key: failed.loading.content.type</note>
-        <jms:reference-file>./Resources/public/js/views/services/ez-contentcreateviewservice.js</jms:reference-file>
-        <jms:reference-file>./Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/ez-contentcreateviewservice.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="2dfcf61a9108b8d0c6e9e763b77f42900c993c26" resname="failed.loading.location" approved="yes">
         <source>Could not load the location with id '%id%'</source>
         <target xml:lang="pl">Nie można załadować lokalizacji o ID '%id%'</target>
         <note>key: failed.loading.location</note>
-        <jms:reference-file>./Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="a351796a7cf41aee232765320231e0c6e7840d18" resname="failed.loading.version.in" approved="yes">
         <source>Could not load the version with id '%versionId%' and languageCode '%languageCode%'</source>
         <target xml:lang="pl">Nie można załadować wersji o ID '%versionId%' w języku '%languageCode%'</target>
         <note>key: failed.loading.version.in</note>
-        <jms:reference-file>./Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
         <alt-trans>
           <target xml:lang="pl">Nie można załądować wersji o ID '%versionId%' oraz języku '%languageCode%'</target>
         </alt-trans>
@@ -135,73 +135,73 @@
         <source>An error occurred while saving the draft, the preview cannot be generated.</source>
         <target xml:lang="pl">Wystąpił błąd podczas zapisywania szkicu, podgląd nie może zostać wygenerowany.</target>
         <note>key: failed.saving.draft.to.generate.the.preview</note>
-        <jms:reference-file>./Resources/public/js/views/ez-contenteditview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-contenteditview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="efde392b8cb92e5f09d889652fcb0160fbbdbb24" resname="language.changed.to" approved="yes">
         <source>Language has been changed to %name%</source>
         <target xml:lang="pl">Język został zmieniony na %name%</target>
         <note>key: language.changed.to</note>
-        <jms:reference-file>./Resources/public/js/views/services/ez-contentcreateviewservice.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/ez-contentcreateviewservice.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="6d0401db3e4611b4d77886467ae5ca21014be5f5" resname="name.new.content.of.type" approved="yes">
         <source>New "%contentTypeName%"</source>
         <target xml:lang="pl">Nowy "%contentTypeName%"</target>
         <note>key: name.new.content.of.type</note>
-        <jms:reference-file>./Resources/public/js/views/services/ez-contentcreateviewservice.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/ez-contentcreateviewservice.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="1aa787fe0cfb373575fc2c0f6f826e7c6dc9fd41" resname="preview" approved="yes">
         <source>Preview</source>
         <target xml:lang="pl">Podgląd</target>
         <note>key: preview</note>
-        <jms:reference-file>./Resources/public/js/views/ez-editactionbarview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-editactionbarview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="5e2fb0c2c59448e1dec5df0f70ec85fcad1ca7b6" resname="publish" approved="yes">
         <source>Publish</source>
         <target xml:lang="pl">Publikuj</target>
         <note>key: publish</note>
-        <jms:reference-file>./Resources/public/js/views/ez-editactionbarview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-editactionbarview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="7a8cc6c083bf4b1691ec237d378fcae6c1b51a16" resname="publishing.content" approved="yes">
         <source>Publishing the content</source>
         <target xml:lang="pl">Publikowanie treści</target>
         <note>key: publishing.content</note>
-        <jms:reference-file>./Resources/public/js/views/services/plugins/ez-publishdraftplugin.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-publishdraftplugin.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="13a4a11319d31c1b323d5774f44240a9ffc984d0" resname="save" approved="yes">
         <source>Save</source>
         <target xml:lang="pl">Zapisz</target>
         <note>key: save</note>
-        <jms:reference-file>./Resources/public/js/views/ez-editactionbarview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-editactionbarview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="387457d40f6024b3cda857de65d978cbdcfe7d95" resname="saving.draft" approved="yes">
         <source>Saving the draft</source>
         <target xml:lang="pl">Zapisywanie szkicu</target>
         <note>key: saving.draft</note>
-        <jms:reference-file>./Resources/public/js/views/services/plugins/ez-savedraftplugin.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-savedraftplugin.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="a1687cb0b4785f868568c6d44633281f477604c2" resname="saving.draft.to.generate.the.preview" approved="yes">
         <source>Saving the draft to generate the preview</source>
         <target xml:lang="pl">Zapisywanie szkicu aby wygenerować podgląd</target>
         <note>key: saving.draft.to.generate.the.preview</note>
-        <jms:reference-file>./Resources/public/js/views/ez-contenteditview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/ez-contenteditview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="0283adf7eb61930a84f71c0bbf6b5a0d8156416a" resname="select.a.draft" approved="yes">
         <source>Select a draft</source>
         <target xml:lang="pl">Wybierz szkic</target>
         <note>key: select.a.draft</note>
-        <jms:reference-file>./Resources/public/js/views/services/plugins/ez-contenteditplugin.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-contenteditplugin.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="51737538b92a2da9235ebf797bef20dc757bf070" resname="version.not.a.draft" approved="yes">
         <source>The version '%versionId%' is not a draft.</source>
         <target xml:lang="pl">Wersja '%versionId%' nie jest szkicem.</target>
         <note>key: version.not.a.draft</note>
-        <jms:reference-file>./Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="de9120a2c5c374027f74d571071a0e8e36502888" resname="version.not.a.draft.of.content" approved="yes">
         <source>The version '%versionId%' is not a version of the content '%contentId%'</source>
         <target xml:lang="pl">Wersja '%versionId%' nie jest wersją elementu '%contentId%'</target>
         <note>key: version.not.a.draft.of.content</note>
-        <jms:reference-file>./Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
         <alt-trans>
           <target xml:lang="pl">Wersja '%versionId%' nie jest wersją obiektu '%contentId%'</target>
         </alt-trans>
@@ -210,13 +210,13 @@
         <source>The version '%versionId%' does not belong to you</source>
         <target xml:lang="pl">Wersja '%versionId%' nie należy do ciebie</target>
         <note>key: version.not.belong.to.you</note>
-        <jms:reference-file>./Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="4399ce0f2a2f08359f4a35c8597b8579e9c302ab" resname="version.not.exist.in" approved="yes">
         <source>The version '%versionId%' does not exist in '%languageCode%'</source>
         <target xml:lang="pl">Wersja '%versionId%' nie istnieje w języku '%languageCode%'</target>
         <note>key: version.not.exist.in</note>
-        <jms:reference-file>./Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
       </trans-unit>
     </body>
   </file>

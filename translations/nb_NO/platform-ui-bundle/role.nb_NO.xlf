@@ -1,16 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file date="2016-11-29T11:49:06Z" source-language="en" target-language="nb" datatype="plaintext" original="not.available">
+  <file date="2017-01-26T14:52:02Z" source-language="en" target-language="nb" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="70dd3723bde281857912354e3abdb2611345e1a1" resname="assignment.role_limitation">
+        <source>Limitation</source>
+        <target xml:lang="nb" state="translated">Begrensning</target>
+        <note>key: assignment.role_limitation</note>
+        <jms:reference-file line="137">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9d40ec6ea2a69dc31d986dd760c5c4d1e58274a0" resname="assignment.role_limitation_none">
+        <source>No limitations</source>
+        <target xml:lang="nb" state="translated">Ingen begrensninger</target>
+        <note>key: assignment.role_limitation_none</note>
+        <jms:reference-file line="165">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a94d773d3ca19d453ea28717e3a8e00c0c239c32" resname="assignment.user_or_group">
+        <source>User/group</source>
+        <target xml:lang="nb" state="translated">Bruker/gruppe</target>
+        <note>key: assignment.user_or_group</note>
+        <jms:reference-file line="136">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3444a2a8c58cd51ce588ed98a265546600e82dc4" resname="policy.function">
+        <source>Function</source>
+        <target xml:lang="nb" state="translated">Funksjon</target>
+        <note>key: policy.function</note>
+        <jms:reference-file line="33">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5f14c2cbee4f51ce207b4f179d888d87cc9d92db" resname="policy.function_all">
+        <source>all functions</source>
+        <target xml:lang="nb" state="translated">alle funksjoner</target>
+        <note>key: policy.function_all</note>
+        <jms:reference-file line="52">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c5a0621c161804ccfb545695d920a77db05bb686" resname="policy.limitation">
+        <source>Limitation</source>
+        <target xml:lang="nb" state="translated">Begrensning</target>
+        <note>key: policy.limitation</note>
+        <jms:reference-file line="34">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="039f70d279c1e69461f9449c9604a273ad21639a" resname="policy.limitation_none">
+        <source>No limitations</source>
+        <target xml:lang="nb" state="translated">Ingen begrensninger</target>
+        <note>key: policy.limitation_none</note>
+        <jms:reference-file line="70">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b23aadd145c148428bb05af8f0d30a87fad64ef9" resname="policy.module">
+        <source>Module</source>
+        <target xml:lang="nb" state="translated">Modul</target>
+        <note>key: policy.module</note>
+        <jms:reference-file line="32">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4006d02c9aa4b140f8526d1a99a02981b8bf62d4" resname="policy.module_all">
+        <source>all modules</source>
+        <target xml:lang="nb" state="translated">alle moduler</target>
+        <note>key: policy.module_all</note>
+        <jms:reference-file line="45">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8dca46428d005a2f4c2e039fb250964d6139a8b2" resname="role">
+        <source>Role</source>
+        <target xml:lang="nb" state="translated">Rolle</target>
+        <note>key: role</note>
+        <jms:reference-file line="50">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
+        <jms:reference-file line="227">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e8925242d54f54b2dca206c8ca6ea2c28bc145e0" resname="role.assign_limit_section.cancel">
+        <source>Cancel</source>
+        <target xml:lang="nb" state="translated">Avbryt</target>
+        <note>key: role.assign_limit_section.cancel</note>
+        <jms:reference-file line="44">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="e9e10ddeb169d59d94b54912d0422481a0a0b140" resname="role.edit_title">
         <source><![CDATA[Edit <%roleName%>]]></source>
         <target xml:lang="nb" state="needs-translation"><![CDATA[ <%roleName%>]]></target>
         <note>key: role.edit_title</note>
-        <jms:reference-file line="7">/../../../../.././Resources/views/Role/update_role.html.twig</jms:reference-file>
+        <jms:reference-file line="7">Resources/views/Role/update_role.html.twig</jms:reference-file>
       </trans-unit>
     </body>
   </file>
