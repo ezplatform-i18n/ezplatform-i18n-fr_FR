@@ -1,15 +1,15 @@
-# eZ Platform I18N de_DE
-![de](https://cloud.githubusercontent.com/assets/1446466/22544452/1909fbf8-e935-11e6-9cbe-2f40406eb22b.png)
+# eZ Platform I18N es_ES
+![es-es](https://cloud.githubusercontent.com/assets/1446466/22544453/190c6f78-e935-11e6-8a09-94cd71544192.png)
 
 ## Introduction
 
-This repository contains eZ Platform de_DE translations.
+This repository contains eZ Platform es_ES translations.
 
 **Important :** This is a READ-ONLY repository.
 
 ## Installation
 
-    composer require ezplatform-i18n/ezplatform-i18n-de_de
+    composer require ezplatform-i18n/ezplatform-i18n-es_es
     
 ## Contribute
 
