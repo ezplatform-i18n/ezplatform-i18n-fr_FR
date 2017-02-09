@@ -24,6 +24,12 @@
         <note>key: remaining.more</note>
         <jms:reference-file>Resources/public/templates/universaldiscovery/confirmedlist.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="065088a37d32d19ef453c0c30641fdabf7452e0e" resname="result.list">
+        <source>Result list</source>
+        <target>Result list</target>
+        <note>key: result.list</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/search.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="724b2384805ea6aa150d57d3d870d50b1d661d8b" resname="universaldiscovery.cancel">
         <source>Cancel</source>
         <target>Cancel</target>
