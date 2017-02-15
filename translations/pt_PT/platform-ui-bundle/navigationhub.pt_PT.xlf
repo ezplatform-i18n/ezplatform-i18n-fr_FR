@@ -32,9 +32,12 @@
       </trans-unit>
       <trans-unit id="7937b453cfa9e72eadf1e64ca4cfbee7ba443014" resname="navigationhub.dashboard.title" approved="yes">
         <source>Admin dashboard</source>
-        <target xml:lang="pt-PT">Paniel de administração</target>
+        <target xml:lang="pt-PT">Painel de administração</target>
         <note>key: navigationhub.dashboard.title</note>
         <jms:reference-file>Resources/public/js/views/services/ez-navigationhubviewservice.js</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="pt-PT">Paniel de administração</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="6a7e8372aebbd558cab8c19c5caecc1deee66024" resname="navigationhub.language.list" approved="yes">
         <source>Languages</source>
