@@ -150,6 +150,24 @@
           <target xml:lang="de">Fehler beim sichtbar machen von Ort "%id%"</target>
         </alt-trans>
       </trans-unit>
+      <trans-unit id="e650b8f59c13ba2541db9ae6ac90a1857d88cb54" resname="failed.creating.new.location.for">
+        <source>Creating new location for "%name%" under "%parentName%" failed</source>
+        <target xml:lang="de" state="translated">Neuen Ort anlegen für "%name%" unter "%parentName%" fehlgeschlagen</target>
+        <note>key: failed.creating.new.location.for</note>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-locationcreateplugin.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="69136005da4d2304538601244f76e7e68a009049" resname="hidden.location">
+        <source>Location "%id" has been hidden</source>
+        <target xml:lang="de" state="translated">Ort "%id" wurde versteckt</target>
+        <note>key: hidden.location</note>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-visibilityswitcherplugin.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a08ae71216dacd8a23c388addb647ecab7e3fcc1" resname="hiding.location">
+        <source>Hiding Location "%id%"</source>
+        <target xml:lang="de" state="translated">Ort "%id%" ausblenden</target>
+        <note>key: hiding.location</note>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-visibilityswitcherplugin.js</jms:reference-file>
+      </trans-unit>
       <trans-unit id="45be10e0189e80b08256567362b3f8668b2c4965" resname="translateaction.edit">
         <source>Edit</source>
         <target xml:lang="de" state="translated">Bearbeiten</target>
