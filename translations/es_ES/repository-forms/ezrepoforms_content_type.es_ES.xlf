@@ -6,92 +6,150 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="0b5b303097790cd7cf1dde918d885439e60ecbd2" resname="content_type.add_field_definition">
+        <source>Add field definition</source>
+        <target xml:lang="es-ES" state="translated">Agregar una definición de campo</target>
+        <note>key: content_type.add_field_definition</note>
+        <jms:reference-file line="128">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="529a1012c7fe5ca6fafdb5d070ac8ececfe94af6" resname="content_type.create">
+        <source>Create a content type</source>
+        <target xml:lang="es-ES" state="translated">Crear un tipo de contenido</target>
+        <note>key: content_type.create</note>
+        <jms:reference-file line="67">lib/Form/Type/ContentType/ContentTypeCreateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7b64ebcf792d888de957eaee1c3734c97c80db98" resname="content_type.default_always_available">
+        <source>Default content availability</source>
+        <target xml:lang="es-ES" state="translated">Disponibilidad de contenido por defecto</target>
+        <note>key: content_type.default_always_available</note>
+        <jms:reference-file line="115">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b29f5d9c32e10776ec9fd36c35c4aefc96732cb2" resname="content_type.default_sort_field">
+        <source>Default field for sorting children</source>
+        <target xml:lang="es-ES" state="translated">Campo por defecto para ordenar hijos</target>
+        <note>key: content_type.default_sort_field</note>
+        <jms:reference-file line="103">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7a67ffefca1339a9e4c5224d773378c2e5f6f378" resname="content_type.default_sort_order">
+        <source>Default sort order</source>
+        <target xml:lang="es-ES" state="translated">Orden por defecto</target>
+        <note>key: content_type.default_sort_order</note>
+        <jms:reference-file line="111">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="be2f64eb4557a3af16a2f32f5e0185c591d3ca8f" resname="content_type.delete">
+        <source>Delete</source>
+        <target xml:lang="es-ES" state="translated">Eliminar</target>
+        <note>key: content_type.delete</note>
+        <jms:reference-file line="40">lib/Form/Type/ContentType/ContentTypeDeleteType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f2a3cc77cdadcff8883b0022e006e24918307687" resname="content_type.description">
+        <source>Description</source>
+        <target xml:lang="es-ES" state="translated">Descripción</target>
+        <note>key: content_type.description</note>
+        <jms:reference-file line="83">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="368a6ffa173a2e9605371392e99e565d9b247382" resname="content_type.group.delete">
+        <source>Delete</source>
+        <target xml:lang="es-ES" state="translated">Eliminar</target>
+        <note>key: content_type.group.delete</note>
+        <jms:reference-file line="32">lib/Form/Type/ContentType/ContentTypeGroupDeleteType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="043e7766417bd9d21fe58de76fcaee35eb7d2fb0" resname="content_type.group.identifier">
+        <source>Name</source>
+        <target xml:lang="es-ES" state="translated">Nombre</target>
+        <note>key: content_type.group.identifier</note>
+        <jms:reference-file line="21">lib/Form/Type/ContentType/ContentTypeGroupType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c657344d0bf6b6203b1b9eaf4e44f7a6261dfe1d" resname="content_type.group.save">
+        <source>Save</source>
+        <target xml:lang="es-ES" state="translated">Guardar</target>
+        <note>key: content_type.group.save</note>
+        <jms:reference-file line="22">lib/Form/Type/ContentType/ContentTypeGroupType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="338e462a91906d03e5e6b8c00528a38d482a3c9e" resname="content_type.is_container">
+        <source>Container</source>
+        <target xml:lang="es-ES" state="translated">Contenedor</target>
+        <note>key: content_type.is_container</note>
+        <jms:reference-file line="89">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="49e5f320e6e37cbd53a5d290e3ffd48788226852" resname="content_type.publish">
+        <source>OK</source>
+        <target xml:lang="es-ES" state="translated">OK</target>
+        <note>key: content_type.publish</note>
+        <jms:reference-file line="132">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="946ba9e49beabdacd143e10e343f852736c081d8" resname="content_type.save">
+        <source>Apply</source>
+        <target xml:lang="es-ES" state="translated">Aplicar</target>
+        <note>key: content_type.save</note>
+        <jms:reference-file line="130">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4cdfd30bdc30f263b30713d22f714ad46beb120b" resname="content_type.sort_field.2">
+        <source>Publication date</source>
+        <target xml:lang="es-ES" state="translated">Fecha de publicación</target>
+        <note>key: content_type.sort_field.2</note>
+        <jms:reference-file>eZ\Publish\API\Repository\Values\Content\Location</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f0dba52962ff2fceb7ab0de72427b4deb55ffbbc" resname="content_type.sort_field.4">
+        <source>Section</source>
+        <target xml:lang="es-ES" state="translated">Sección</target>
+        <note>key: content_type.sort_field.4</note>
+        <jms:reference-file>eZ\Publish\API\Repository\Values\Content\Location</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="18f4f0dcdd6a1f1a9f7a5c301cc378167f403836" resname="content_type.sort_order.0">
+        <source>Descending</source>
+        <target xml:lang="es-ES" state="translated">Descendente</target>
+        <note>key: content_type.sort_order.0</note>
+        <jms:reference-file>eZ\Publish\API\Repository\Values\Content\Location</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b411f25ded028ccb2ef56a55d69bd2e3f1da4cd5" resname="content_type.sort_order.1">
+        <source>Ascending</source>
+        <target xml:lang="es-ES" state="translated">Ascendente</target>
+        <note>key: content_type.sort_order.1</note>
+        <jms:reference-file>eZ\Publish\API\Repository\Values\Content\Location</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="027f35cf66e5ea571cc7b600dad0ab5ceea20cd6" resname="field_definition.ezcountry.is_multiple">
+        <source>Multiple choice</source>
+        <target xml:lang="es-ES" state="translated">Selección múltiple</target>
+        <note>key: field_definition.ezcountry.is_multiple</note>
+        <jms:reference-file line="42">lib/FieldType/Mapper/CountryFormMapper.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="18a5846deb7a3d7dcc9fbd0a2de28d609c2a55c2" resname="field_definition.ezdate.default_type">
+        <source>Default value</source>
+        <target xml:lang="es-ES" state="translated">Valor por defecto</target>
+        <note>key: field_definition.ezdate.default_type</note>
+        <jms:reference-file line="34">lib/FieldType/Mapper/DateFormMapper.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="eb97ae8058956f1babf75555dbdba76c8e409bf1" resname="field_definition.ezdate.default_type_current">
+        <source>Current date</source>
+        <target xml:lang="es-ES" state="translated">Fecha actual</target>
+        <note>key: field_definition.ezdate.default_type_current</note>
+        <jms:reference-file line="28">lib/FieldType/Mapper/DateFormMapper.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="df532a4ad5878fd0bc3f7842fb6907078efe76f9" resname="field_definition.ezdate.default_type_empty">
+        <source>Empty</source>
+        <target xml:lang="es-ES" state="translated">Vacio</target>
+        <note>key: field_definition.ezdate.default_type_empty</note>
+        <jms:reference-file line="27">lib/FieldType/Mapper/DateFormMapper.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a8eb20f50022f5aa6c623f3f870297f2ee034606" resname="field_definition.ezfloat.min_value">
+        <source>Minimum value</source>
+        <target xml:lang="es-ES" state="translated">Valor mínimo</target>
+        <note>key: field_definition.ezfloat.min_value</note>
+        <jms:reference-file line="26">lib/FieldType/Mapper/FloatFormMapper.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5b275c762831def3c6ea393e3e0c25762e0844b3" resname="field_definition.ezimage.max_file_size">
+        <source>Maximum file size (byte)</source>
+        <target xml:lang="es-ES" state="translated">Tamaño máximo de archivo (bytes)</target>
+        <note>key: field_definition.ezimage.max_file_size</note>
+        <jms:reference-file line="25">lib/FieldType/Mapper/ImageFormMapper.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="461c05cd80b29eb37dc4f7e1f9e1d2454b380332" resname="field_definition.ezisbn.is_isbn13">
+        <source>ISBN-13 format</source>
+        <target xml:lang="es-ES" state="translated">Formato ISBN-13</target>
+        <note>key: field_definition.ezisbn.is_isbn13</note>
+        <jms:reference-file line="26">lib/FieldType/Mapper/ISBNFormMapper.php</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>

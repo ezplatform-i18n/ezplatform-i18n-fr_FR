@@ -6,44 +6,55 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="c2993e6873e928a2a635698ce582b4aba5748643" resname="'%actualValue%' is wrong value">
+        <source>'%actualValue%' is wrong value</source>
+        <target xml:lang="es-ES" state="translated">El valor de '%actualValue%' es incorrecto</target>
+        <note>key: '%actualValue%' is wrong value</note>
+        <jms:reference-file line="32">eZ/Publish/Core/Base/Exceptions/InvalidArgumentValue.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7a87971cc45ac957c7db1a4907f8e7f4325e3e32" resname="'%actualValue%' is wrong value in class '%className%'">
+        <source>'%actualValue%' is wrong value in class '%className%'</source>
+        <target xml:lang="es-ES" state="translated">'%actualValue%' es un valor erróneo en la clase '%className%'</target>
+        <note>key: '%actualValue%' is wrong value in class '%className%'</note>
+        <jms:reference-file line="34">eZ/Publish/Core/Base/Exceptions/InvalidArgumentValue.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="894070fe84612fd5871c1b09bc79f85c2e17d384" resname="A value is set for non translatable field definition '%identifier%' with language '%languageCode%'">
+        <source>A value is set for non translatable field definition '%identifier%' with language '%languageCode%'</source>
+        <target xml:lang="es-ES" state="translated">Se ha asignado un valor a la definición no traducible '%identifier%' con el idioma '%languageCode%'</target>
+        <note>key: A value is set for non translatable field definition '%identifier%' with language '%languageCode%'</note>
+        <jms:reference-file line="1410">eZ/Publish/Core/Repository/ContentService.php</jms:reference-file>
+        <jms:reference-file line="770">eZ/Publish/Core/Repository/ContentService.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="80e5a0a47ac1df407b0218c2283872a86aba0fc1" resname="Argument '%argumentName%' has a bad state: %whatIsWrong%">
+        <source>Argument '%argumentName%' has a bad state: %whatIsWrong%</source>
+        <target xml:lang="es-ES" state="translated">El argumento'%argumentName%' tiene un estado erróneo: %whatIsWrong%</target>
+        <note>key: Argument '%argumentName%' has a bad state: %whatIsWrong%</note>
+        <jms:reference-file line="34">eZ/Publish/Core/Base/Exceptions/BadStateException.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ec22a1547bcd0b3131346b94db7783d8ba4fc12f" resname="Argument '%argumentName%' is invalid: %whatIsWrong%">
+        <source>Argument '%argumentName%' is invalid: %whatIsWrong%</source>
+        <target xml:lang="es-ES" state="translated">El argumento '%argumentName%' no es válido: %whatIsWrong%</target>
+        <note>key: Argument '%argumentName%' is invalid: %whatIsWrong%</note>
+        <jms:reference-file line="34">eZ/Publish/Core/Base/Exceptions/InvalidArgumentException.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5184b29eed2fee5c130959375be31ea55010adb8" resname="Argument '%argumentName%' is invalid: expected value to be of type '%expectedType%'">
+        <source>Argument '%argumentName%' is invalid: expected value to be of type '%expectedType%'</source>
+        <target xml:lang="es-ES" state="translated">El argumento '%argumentName%' no es válido: se esperaba un valor de tipo '%expectedType%'</target>
+        <note>key: Argument '%argumentName%' is invalid: expected value to be of type '%expectedType%'</note>
+        <jms:reference-file line="31">eZ/Publish/Core/Base/Exceptions/InvalidArgumentType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="77a999c48ddb299d4c8af74d195bdf44dda4883c" resname="Argument '%argumentName%' is invalid: expected value to be of type '%expectedType%', got '%actualType%'">
+        <source>Argument '%argumentName%' is invalid: expected value to be of type '%expectedType%', got '%actualType%'</source>
+        <target xml:lang="es-ES" state="translated">El Argumento '%argumentName%' no es válido: se esperaba que el valor fuese de tipo '%expectedType%', tiene '%actualType%'</target>
+        <note>key: Argument '%argumentName%' is invalid: expected value to be of type '%expectedType%', got '%actualType%'</note>
+        <jms:reference-file line="33">eZ/Publish/Core/Base/Exceptions/InvalidArgumentType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="577ff380f946adc384c1ca853ac1e7c21a0cba41" resname="Empty content type draft cannot be published">
+        <source>Empty content type draft cannot be published</source>
+        <target xml:lang="es-ES" state="translated">No se pudo publicar un borrador vacío</target>
+        <note>key: Empty content type draft cannot be published</note>
+        <jms:reference-file line="708">eZ/Publish/Core/REST/Server/Controller/ContentType.php</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
