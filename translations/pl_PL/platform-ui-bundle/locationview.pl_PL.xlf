@@ -198,6 +198,12 @@
           <target xml:lang="pl">Domyślnie sortuj podelementy według:</target>
         </alt-trans>
       </trans-unit>
+      <trans-unit id="a8f82a516b76060775a7c40c5163cd4f2af7b8ac" resname="locationview.details.descending" approved="yes">
+        <source>Descending</source>
+        <target xml:lang="pl">Malejąco</target>
+        <note>key: locationview.details.descending</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="5cc52ce2cc763622f266df9138b7e507cca2d7de" resname="locationview.details.errorcontributor" approved="yes">
         <source>An error occurred while loading the last contributor.</source>
         <target xml:lang="pl">Wystąpił błąd podczas ładowania ostatniego współtwórcy.</target>
@@ -664,6 +670,36 @@
         <target xml:lang="pl">Zamiana lokalizacji dla "%name%"</target>
         <note>key: swapping.location.for</note>
         <jms:reference-file>Resources/public/js/views/services/plugins/ez-locationswapplugin.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4de030e5fc78006e68749536dd9725ae58efc2a3" resname="tab.details" approved="yes">
+        <source>Details</source>
+        <target xml:lang="pl">Szczegóły</target>
+        <note>key: tab.details</note>
+        <jms:reference-file>Resources/public/js/views/tabs/ez-locationviewdetailstabview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="eb9d8fcea3c517851502006e163eb0725ec183f0" resname="tab.locations" approved="yes">
+        <source>Locations</source>
+        <target xml:lang="pl">Lokalizacje</target>
+        <note>key: tab.locations</note>
+        <jms:reference-file>Resources/public/js/views/tabs/ez-locationviewlocationstabview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="20043ee647633fb1c639869bce609c568c195de1" resname="tab.related.content" approved="yes">
+        <source>Related content</source>
+        <target xml:lang="pl">Elementy powiązane</target>
+        <note>key: tab.related.content</note>
+        <jms:reference-file>Resources/public/js/views/tabs/ez-locationviewrelationstabview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5d768a9bb2d1a42f98c5af3016c1019497d8ac62" resname="tab.versions" approved="yes">
+        <source>Versions</source>
+        <target xml:lang="pl">Wersje</target>
+        <note>key: tab.versions</note>
+        <jms:reference-file>Resources/public/js/views/tabs/ez-locationviewversionstabview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="946cdac35638dc1a2cda2d50e1e8af3ee27f2545" resname="tab.view" approved="yes">
+        <source>View</source>
+        <target xml:lang="pl">Widok</target>
+        <note>key: tab.view</note>
+        <jms:reference-file>Resources/public/js/views/tabs/ez-locationviewviewtabview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="5cf5c23d5f73b6493879db84d39bf6a05940242f" resname="updated.sort.method" approved="yes">
         <source>The sub-items sort method has been correctly updated</source>

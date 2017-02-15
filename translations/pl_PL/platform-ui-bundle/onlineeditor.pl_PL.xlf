@@ -174,6 +174,12 @@
           <target xml:lang="pl">Wybierz obiekt do osadzenia</target>
         </alt-trans>
       </trans-unit>
+      <trans-unit id="222b96ae048010b9610bf0bbe6cf6569b79c2a26" resname="select.a.content.to.link.to" approved="yes">
+        <source>Select a Content item to link</source>
+        <target xml:lang="pl">Wybierz element, do którego ma kierować link</target>
+        <note>key: select.a.content.to.link.to</note>
+        <jms:reference-file>Resources/public/js/alloyeditor/buttons/linkedit.js</jms:reference-file>
+      </trans-unit>
       <trans-unit id="180522f369f637cf58b08e8526b86bf4fe9f6e96" resname="select.an.image.to.embed" approved="yes">
         <source>Select an image to embed</source>
         <target xml:lang="pl">Wybierz obraz do osadzenia</target>
@@ -201,6 +207,12 @@
         <alt-trans>
           <target xml:lang="pl">Wybierz inną grafikę</target>
         </alt-trans>
+      </trans-unit>
+      <trans-unit id="391b814dc27a7b6065e56676a1d6a3fc17bb7b95" resname="select.content" approved="yes">
+        <source>Select content</source>
+        <target xml:lang="pl">Wybierz element</target>
+        <note>key: select.content</note>
+        <jms:reference-file>Resources/public/js/alloyeditor/buttons/linkedit.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="3c6de1b7dd91465d437ef415f94f36afc1fbc8a8" resname="title" approved="yes">
         <source>Title</source>

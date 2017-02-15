@@ -24,6 +24,12 @@
         <note>key: remaining.more</note>
         <jms:reference-file>Resources/public/templates/universaldiscovery/confirmedlist.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="065088a37d32d19ef453c0c30641fdabf7452e0e" resname="result.list" approved="yes">
+        <source>Result list</source>
+        <target xml:lang="pl">Lista wyników</target>
+        <note>key: result.list</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/search.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="724b2384805ea6aa150d57d3d870d50b1d661d8b" resname="universaldiscovery.cancel" approved="yes">
         <source>Cancel</source>
         <target xml:lang="pl">Anuluj</target>
@@ -47,6 +53,12 @@
         <target xml:lang="pl">Wybrane elementy</target>
         <note>key: universaldiscovery.confirmed.items</note>
         <jms:reference-file>Resources/public/templates/universaldiscovery/confirmedlist.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="73538954b18fddadb8404e15e4a5bdb3630d14fb" resname="universaldiscovery.content.browser" approved="yes">
+        <source>Content browser</source>
+        <target xml:lang="pl">Przeglądarka treści</target>
+        <note>key: universaldiscovery.content.browser</note>
+        <jms:reference-file>./Resources/public/templates/universaldiscovery/explorer.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="572fdb94d49b6e58d297fd7491cf28c77d60e241" resname="universaldiscovery.content.tree" approved="yes">
         <source>Content tree</source>
