@@ -26,6 +26,16 @@
         <target xml:lang="fr" state="translated">Les descriptions de définition de champ ne peuvent pas dépasser 255 caractères.</target>
         <note>key: ez.field_definition.descriptions</note>
       </trans-unit>
+      <trans-unit id="0f7d936836760a506042c4d25cd38c5a30c3d9de" resname="ez.field_definition.names">
+        <source>Field definition name cannot be blank cannot exceed 255 characters.</source>
+        <target xml:lang="fr" state="translated">Les noms de définition de champ ne peuvent pas être vide ni dépasser 255 caractères.</target>
+        <note>key: ez.field_definition.names</note>
+      </trans-unit>
+      <trans-unit id="924826be1015d20c1f4524754c690e10935abaac" resname="ez.section.identifier.format">
+        <source>Section identifier may only contain letters from "a" to "z", numbers and underscores.</source>
+        <target xml:lang="fr" state="translated">Les identifiants de section ne peuvent contenir que les lettres "a" à "z", des chiffres et des blancs soulignés.</target>
+        <note>key: ez.section.identifier.format</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

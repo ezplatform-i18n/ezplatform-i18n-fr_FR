@@ -24,11 +24,23 @@
         <note>key: remaining.more</note>
         <jms:reference-file>Resources/public/templates/universaldiscovery/confirmedlist.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="065088a37d32d19ef453c0c30641fdabf7452e0e" resname="result.list">
+        <source>Result list</source>
+        <target xml:lang="fr" state="translated">Liste des résultats</target>
+        <note>key: result.list</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/search.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="724b2384805ea6aa150d57d3d870d50b1d661d8b" resname="universaldiscovery.cancel" approved="yes">
         <source>Cancel</source>
         <target xml:lang="fr">Annuler</target>
         <note>key: universaldiscovery.cancel</note>
         <jms:reference-file>Resources/public/templates/universaldiscovery.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5afbdba140a12800056af6216eacaeb6c04d5cf4" resname="universaldiscovery.choose.this.content">
+        <source>Choose this content</source>
+        <target xml:lang="fr" state="translated">Choisir ce contenu</target>
+        <note>key: universaldiscovery.choose.this.content</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/selected.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="39b27d53e4d40abdf72543f7dc720f0ad7dfe34c" resname="universaldiscovery.confirm.selection">
         <source>Confirm selection</source>
@@ -45,6 +57,12 @@
           <target xml:lang="fr">Eléments confirmés</target>
         </alt-trans>
       </trans-unit>
+      <trans-unit id="73538954b18fddadb8404e15e4a5bdb3630d14fb" resname="universaldiscovery.content.browser">
+        <source>Content browser</source>
+        <target xml:lang="fr" state="translated">Navigateur de Contenus</target>
+        <note>key: universaldiscovery.content.browser</note>
+        <jms:reference-file>./Resources/public/templates/universaldiscovery/explorer.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="572fdb94d49b6e58d297fd7491cf28c77d60e241" resname="universaldiscovery.content.tree">
         <source>Content tree</source>
         <target xml:lang="fr" state="translated">Arbre de contenu</target>
@@ -56,6 +74,30 @@
         <target xml:lang="fr" state="translated">Date de création</target>
         <note>key: universaldiscovery.creation.date</note>
         <jms:reference-file>Resources/public/templates/universaldiscovery/selected.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4ebf3bc51492976774c417bafc3dfab7280951ea" resname="universaldiscovery.error.loading.image">
+        <source>An error occurred while loading the image.</source>
+        <target xml:lang="fr" state="translated">Une erreur est apparue lors du chargement de l'image.</target>
+        <note>key: universaldiscovery.error.loading.image</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/selected.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b554967582ddc2ef3ab75bf35e3fc90e3d46720f" resname="universaldiscovery.error.loading.result">
+        <source>An error occurred while loading the search result list.</source>
+        <target xml:lang="fr" state="translated">Une erreur est survenue lors du chargement de la liste des résultats de recherche.</target>
+        <note>key: universaldiscovery.error.loading.result</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/search.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="75c9a01263a787fb0956c3776f25565f1aca5fee" resname="universaldiscovery.first">
+        <source>First</source>
+        <target xml:lang="fr" state="translated">Premier</target>
+        <note>key: universaldiscovery.first</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/search.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="053e68a4e422bcbf510fffa066f6192ad809044f" resname="universaldiscovery.last">
+        <source>Last</source>
+        <target xml:lang="fr" state="translated">Dernier</target>
+        <note>key: universaldiscovery.last</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/search.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="b191a7509309ed153691a5ea5a97d2dd2bcfd88d" resname="universaldiscovery.last.modified">
         <source>Last Modified</source>
@@ -69,10 +111,28 @@
         <note>key: universaldiscovery.name</note>
         <jms:reference-file>Resources/public/templates/universaldiscovery/search.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="4d783e3c2fb59c53c36b7132bf8cf7d0eb2d74a5" resname="universaldiscovery.next">
+        <source>Next</source>
+        <target xml:lang="fr" state="translated">Suivant</target>
+        <note>key: universaldiscovery.next</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/search.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f5f82593d891af025a0e08c15256acfb88d1520d" resname="universaldiscovery.no.confirmed.contents">
+        <source>No confirmed content yet.</source>
+        <target xml:lang="fr" state="translated">Encore aucun contenu confirmé.</target>
+        <note>key: universaldiscovery.no.confirmed.contents</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/confirmedlist.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="16db03c0f5393377ce31c398b1b7f797a749516a" resname="universaldiscovery.preview">
         <source>Preview</source>
         <target xml:lang="fr" state="translated">Aperçu</target>
         <note>key: universaldiscovery.preview</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/search.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a1f6611a8c1b705c11f7e4b9030764736976c4c1" resname="universaldiscovery.previous">
+        <source>Previous</source>
+        <target xml:lang="fr" state="translated">Précédent</target>
+        <note>key: universaldiscovery.previous</note>
         <jms:reference-file>Resources/public/templates/universaldiscovery/search.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="c73096f8a35429230e9496f6f838884f76102f7d" resname="universaldiscovery.provide.search.text">
@@ -80,6 +140,13 @@
         <target xml:lang="fr" state="translated">Veuillez fournir le texte de recherche</target>
         <note>key: universaldiscovery.provide.search.text</note>
         <jms:reference-file>Resources/public/templates/universaldiscovery/search.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="239fc54ecb59fb4fee3fbedaf606a462b9000cd8" resname="universaldiscovery.retry">
+        <source>Retry</source>
+        <target xml:lang="fr" state="translated">Rééssayer</target>
+        <note>key: universaldiscovery.retry</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/search.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/selected.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="d8a3ebd791267b179810d3c27bc1b78e566aa385" resname="universaldiscovery.search">
         <source>Search</source>

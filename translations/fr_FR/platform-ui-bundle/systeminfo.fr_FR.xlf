@@ -92,6 +92,12 @@
         <jms:reference-file line="15">Resources/views/ez-support-tools/info/composer.html.twig</jms:reference-file>
         <jms:reference-file line="9">Resources/views/ez-support-tools/info/composer.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="5bfa5c4492601632e405273e2f7ea28977f108c3" resname="packages.empty">
+        <source>Could not find any packages, composer.lock file missing?</source>
+        <target xml:lang="fr" state="translated">Impossible de trouver un des paquets, est-ce que le fichier composer.lock est manquant ?</target>
+        <note>key: packages.empty</note>
+        <jms:reference-file line="10">Resources/views/ez-support-tools/info/composer.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="47425e4490d1548713efea3b8a6f5d778e4b1766" resname="php">
         <source>PHP</source>
         <target xml:lang="fr" state="translated">PHP</target>
@@ -117,6 +123,12 @@
         <note>key: symfony_kernel</note>
         <jms:reference-file line="3">Resources/views/ez-support-tools/info/symfony_kernel.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="dbc3d622a5e78844eeb75f3e9477b90357984ad7" resname="symfony_kernel.bundles.empty">
+        <source>Could not find any bundles.</source>
+        <target xml:lang="fr" state="translated">Aucun Bundle n'a été trouvé.</target>
+        <note>key: symfony_kernel.bundles.empty</note>
+        <jms:reference-file line="24">Resources/views/ez-support-tools/info/symfony_kernel.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="8bce9f0cf5c9c698c1907808aa20cfa0b1ec9ecb" resname="symfony_kernel.cacheDir">
         <source>Cache directory</source>
         <target xml:lang="fr" state="translated">Dossier de cache</target>
@@ -134,6 +146,12 @@
         <target xml:lang="fr" state="translated">Mode débogage</target>
         <note>key: symfony_kernel.debugMode</note>
         <jms:reference-file line="7">Resources/views/ez-support-tools/info/symfony_kernel.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b279d615747857a87b80e268ef4a8eefc631cd3c" resname="symfony_kernel.debugMode.disabled">
+        <source>Disabled</source>
+        <target xml:lang="fr" state="translated">Désactivé</target>
+        <note>key: symfony_kernel.debugMode.disabled</note>
+        <jms:reference-file line="8">Resources/views/ez-support-tools/info/symfony_kernel.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="edea137ff68106045aa74351ae612e2160700503" resname="symfony_kernel.debugMode.enabled">
         <source>Enabled</source>

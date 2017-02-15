@@ -6,9 +6,9 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="558c96f6cc252f0dbe70418123dd8bbb13234a2b" resname="confirmbox.cancel">
+      <trans-unit id="558c96f6cc252f0dbe70418123dd8bbb13234a2b" resname="confirmbox.cancel" approved="yes">
         <source>Cancel</source>
-        <target xml:lang="fr" state="translated">Annuler</target>
+        <target xml:lang="fr">Annuler</target>
         <note>key: confirmbox.cancel</note>
         <jms:reference-file>Resources/public/templates/confirmbox.hbt</jms:reference-file>
       </trans-unit>

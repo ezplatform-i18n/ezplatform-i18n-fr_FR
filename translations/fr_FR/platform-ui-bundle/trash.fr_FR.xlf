@@ -12,6 +12,12 @@
         <note>key: confirm.permanent.delete.items</note>
         <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="175a957e55daa96d77e4354c9a79e80401cb8b3c" resname="content.items.restored">
+        <source>%count%  Content item(s) have been restored</source>
+        <target xml:lang="fr" state="translated">%count% élément(s) ont été restaurés</target>
+        <note>key: content.items.restored</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
+      </trans-unit>
       <trans-unit id="5ed184c9ace808c1f22a8dba32474b2d8c307b90" resname="empty.trash" approved="yes">
         <source>Empty the Trash</source>
         <target xml:lang="fr">Vider la corbeille</target>
@@ -20,8 +26,29 @@
       </trans-unit>
       <trans-unit id="e472f53d72216a0252d8d8c55c4c565b656201d8" resname="error.emptying.trash">
         <source>An error occurred while emptying the Trash</source>
-        <target xml:lang="fr" state="translated">Une erreur s’est produite lors du vidage la corbeille</target>
+        <target xml:lang="fr" state="translated">Une erreur s’est produite lors du vidage la Corbeille</target>
         <note>key: error.emptying.trash</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Une erreur s’est produite lors du vidage la corbeille</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="c7d0ace34e28047e04285d5d1ca7dbd8a4757432" resname="error.restoring.item" approved="yes">
+        <source>An error occurred while restoring trash item with id: %id%. For the moment item's whose original location has been deleted can not be restored</source>
+        <target xml:lang="fr">Une erreur est survenue lors de la restauration de l'élément de la Corbeille portant l'id : %id%. Pour le moment, les éléments dont l'emplacement initial a été supprimé ne peuvent pas être restaurés</target>
+        <note>key: error.restoring.item</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="034c33d9dc24f606046bc88959214744dcb84993" resname="failed.load.content.type" approved="yes">
+        <source>Failed to load trash item Content Type name</source>
+        <target xml:lang="fr">Échec au chargement du nom d'un élement de contenu de la Corbeille</target>
+        <note>key: failed.load.content.type</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="161c33f86dcd9d9116d020cbc5566086e8bb4c8c" resname="failed.load.parent.location.path">
+        <source>Failed to load parent location's path</source>
+        <target xml:lang="fr" state="translated">Echec de chargement du chemin du parent de l'emplacement</target>
+        <note>key: failed.load.parent.location.path</note>
         <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="e4070d79791c331da86fcb230fec53235b1519ad" resname="items.permanently.deleted">
@@ -36,17 +63,35 @@
         <note>key: minimize</note>
         <jms:reference-file>Resources/public/js/views/ez-trashbarview.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6dcfe1a862453282cc8de9d38d2468fa7bebd7c9" resname="restore.selected">
+      <trans-unit id="6dcfe1a862453282cc8de9d38d2468fa7bebd7c9" resname="restore.selected" approved="yes">
         <source>Restore selected</source>
-        <target xml:lang="fr" state="translated">Restaurer la sélection</target>
+        <target xml:lang="fr">Restaurer la sélection</target>
         <note>key: restore.selected</note>
         <jms:reference-file>Resources/public/js/views/ez-trashbarview.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="975936b6f9637047ab09d9e23550ee47e44a1308" resname="restoring.trash.items">
+        <source>Restoring trash item(s)</source>
+        <target xml:lang="fr" state="translated">Restaurer les éléments de la Corbeille</target>
+        <note>key: restoring.trash.items</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Restaurer les éléments de la corbeille</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="bdaee6eee47e0c028566b056680e5f7488772428" resname="trash.ancestors">
+        <source>Item's ancestors are in Trash</source>
+        <target xml:lang="fr" state="translated">Les ancêtres de l'élément sont dans la Corbeille</target>
+        <note>key: trash.ancestors</note>
+        <jms:reference-file>Resources/public/templates/trash.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="7883128cdfb813826271abe90b3a1f3190833ce6" resname="trash.empty">
         <source>The trash is empty</source>
-        <target xml:lang="fr" state="translated">La corbeille est vide</target>
+        <target xml:lang="fr" state="translated">La Corbeille est vide</target>
         <note>key: trash.empty</note>
         <jms:reference-file>Resources/public/templates/trash.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">La corbeille est vide</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="9bedf5469883778a8aac2f2a0daaa7664704069b" resname="trash.header.name">
         <source>Trash</source>
