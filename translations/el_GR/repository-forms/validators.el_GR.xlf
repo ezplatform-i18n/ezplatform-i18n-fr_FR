@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file date="2017-01-26T15:03:32Z" source-language="en" target-language="el" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="facbff93edf91393ba1bb60212f504d35beae555" resname="ez.content_type.descriptions">
+        <source>Content type description cannot exceed 255 characters.</source>
+        <target xml:lang="el" state="translated">Η περιγραφή του τύπου περιεχομένου δεν μπορεί να ξεπερνά τους 255 χαρακτήρες.</target>
+        <note>key: ez.content_type.descriptions</note>
+      </trans-unit>
+      <trans-unit id="73aad2fb9c8f9a2103bf60d6e9221a619f261f9c" resname="ez.content_type.identifier.pattern">
+        <source>Content type identifier may only contain letters from "a" to "z", numbers and underscores.</source>
+        <target xml:lang="el" state="translated">Το αναγνωριστικό του τύπου περιεχομένου μπορεί να περιέχει μόνο λατινικά γράμματα από «a» έως «z», αριθμούς και κάτω παύλα.</target>
+        <note>key: ez.content_type.identifier.pattern</note>
+      </trans-unit>
+      <trans-unit id="7ecfa6bd2c1993d18d067f3abe3acebeb9c2458c" resname="ez.content_type.names">
+        <source>Content type name cannot be blank and cannot exceed 255 characters.</source>
+        <target xml:lang="el" state="translated">Το όνομα του τύπου περιεχομένου δε μπορεί να είναι κενό ή να ξεπερνά τους 255 χαρακτήρες.</target>
+        <note>key: ez.content_type.names</note>
+      </trans-unit>
+      <trans-unit id="95f7490a739fd599a8d1d8f2ddec862744a71faa" resname="ez.field_definition.descriptions">
+        <source>Field definition description cannot exceed 255 characters.</source>
+        <target xml:lang="el" state="translated">Η περιγραφή του τύπου περιεχομένου δεν μπορεί να ξεπερνά τους 255 χαρακτήρες.</target>
+        <note>key: ez.field_definition.descriptions</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

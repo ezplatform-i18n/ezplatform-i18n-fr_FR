@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file date="2017-01-26T14:55:58Z" source-language="en" target-language="el" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="c2993e6873e928a2a635698ce582b4aba5748643" resname="'%actualValue%' is wrong value">
+        <source>'%actualValue%' is wrong value</source>
+        <target xml:lang="el" state="translated">'%actualValue%' είναι λανθασμένη τιμή</target>
+        <note>key: '%actualValue%' is wrong value</note>
+        <jms:reference-file line="32">eZ/Publish/Core/Base/Exceptions/InvalidArgumentValue.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7a87971cc45ac957c7db1a4907f8e7f4325e3e32" resname="'%actualValue%' is wrong value in class '%className%'">
+        <source>'%actualValue%' is wrong value in class '%className%'</source>
+        <target xml:lang="el" state="translated">'%actualValue%' έχει λάθος τιμή στην κλάσση '%className%'</target>
+        <note>key: '%actualValue%' is wrong value in class '%className%'</note>
+        <jms:reference-file line="34">eZ/Publish/Core/Base/Exceptions/InvalidArgumentValue.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="894070fe84612fd5871c1b09bc79f85c2e17d384" resname="A value is set for non translatable field definition '%identifier%' with language '%languageCode%'">
+        <source>A value is set for non translatable field definition '%identifier%' with language '%languageCode%'</source>
+        <target xml:lang="el" state="translated">Η τιμή είναι καταχωρημένη ως μη αναζητήσιμη από το πεδίο '%identifier%' για τη γλώσσα '%languageCode%'</target>
+        <note>key: A value is set for non translatable field definition '%identifier%' with language '%languageCode%'</note>
+        <jms:reference-file line="1410">eZ/Publish/Core/Repository/ContentService.php</jms:reference-file>
+        <jms:reference-file line="770">eZ/Publish/Core/Repository/ContentService.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="80e5a0a47ac1df407b0218c2283872a86aba0fc1" resname="Argument '%argumentName%' has a bad state: %whatIsWrong%">
+        <source>Argument '%argumentName%' has a bad state: %whatIsWrong%</source>
+        <target xml:lang="el" state="translated">Το επιχείρημα '%argumentName%' βρίσκεται σε λανθασμένη κατάσταση: %whatIsWrong%</target>
+        <note>key: Argument '%argumentName%' has a bad state: %whatIsWrong%</note>
+        <jms:reference-file line="34">eZ/Publish/Core/Base/Exceptions/BadStateException.php</jms:reference-file>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

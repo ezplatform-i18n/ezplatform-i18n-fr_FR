@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file date="2017-01-26T14:52:02Z" source-language="en" target-language="el" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="0f6a24fa439e992bc7919aa2d949c05077899adc" resname="browse">
+        <source>Browse</source>
+        <target xml:lang="el" state="translated">Πλοήγηση</target>
+        <note>key: browse</note>
+        <jms:reference-file>Resources/public/js/views/universaldiscovery/ez-universaldiscoverybrowseview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="eb49b4ba3c7e1ef3ac5b6d8f82f8095bed616989" resname="no.result">
+        <source>No results were found while searching for "%searchText%".</source>
+        <target xml:lang="el" state="translated">Δεν βρέθηκαν αποτελέσματα κατά την αναζήτηση «%searchText%».</target>
+        <note>key: no.result</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/search.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d5ddefb37351cd23fd0ef3eef4c9afca357a4493" resname="remaining.more">
+        <source>+%remainingCount% more</source>
+        <target xml:lang="el" state="translated">+%remainingCount% επιπρόσθετα</target>
+        <note>key: remaining.more</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/confirmedlist.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="065088a37d32d19ef453c0c30641fdabf7452e0e" resname="result.list">
+        <source>Result list</source>
+        <target xml:lang="el" state="translated">Λίστα αποτελεσμάτων</target>
+        <note>key: result.list</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/search.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="724b2384805ea6aa150d57d3d870d50b1d661d8b" resname="universaldiscovery.cancel">
+        <source>Cancel</source>
+        <target xml:lang="el" state="translated">Ακύρωση</target>
+        <note>key: universaldiscovery.cancel</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c951ce12db4e892a7cdb5a44b399e21d689a44ed" resname="universaldiscovery.confirmed.items">
+        <source>Confirmed items</source>
+        <target xml:lang="el" state="translated">Επιβεβαιωμένα στοιχεία</target>
+        <note>key: universaldiscovery.confirmed.items</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/confirmedlist.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="572fdb94d49b6e58d297fd7491cf28c77d60e241" resname="universaldiscovery.content.tree">
+        <source>Content tree</source>
+        <target xml:lang="el" state="translated">Δέντρο περιεχομένων</target>
+        <note>key: universaldiscovery.content.tree</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/browse.hbt</jms:reference-file>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

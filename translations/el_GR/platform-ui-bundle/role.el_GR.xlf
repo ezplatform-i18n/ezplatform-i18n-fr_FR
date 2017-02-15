@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file date="2017-01-26T14:52:02Z" source-language="en" target-language="el" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="0e2f56d6ff6cbc42edfde476c7cffe15b9db7b73" resname="assigning.role.to.users">
+        <source>Assigning the role "%roleName%" to %count% users/groups</source>
+        <target xml:lang="el" state="translated">Ανάθεση ρόλου "%roleName%" σε %count% χρήστες/ομάδες</target>
+        <note>key: assigning.role.to.users</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-roleserversideviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c06ec423bdd64f80f5e1bd403445c8f158cbbf7a" resname="assignment.none">
+        <source>This role is not assigned to any users or user groups.</source>
+        <target xml:lang="el" state="translated">Αυτός ο ρόλος δεν έχει αναθετηθεί σε χρήστες ή ομάδες χρηστών.</target>
+        <note>key: assignment.none</note>
+        <jms:reference-file line="186">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="70dd3723bde281857912354e3abdb2611345e1a1" resname="assignment.role_limitation">
+        <source>Limitation</source>
+        <target xml:lang="el" state="translated">Περιορισμοί</target>
+        <note>key: assignment.role_limitation</note>
+        <jms:reference-file line="137">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9d40ec6ea2a69dc31d986dd760c5c4d1e58274a0" resname="assignment.role_limitation_none">
+        <source>No limitations</source>
+        <target xml:lang="el" state="translated">Χωρίς περιορισμούς</target>
+        <note>key: assignment.role_limitation_none</note>
+        <jms:reference-file line="165">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a94d773d3ca19d453ea28717e3a8e00c0c239c32" resname="assignment.user_or_group">
+        <source>User/group</source>
+        <target xml:lang="el" state="translated">Χρήστης/ομάδα</target>
+        <note>key: assignment.user_or_group</note>
+        <jms:reference-file line="136">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e9e10ddeb169d59d94b54912d0422481a0a0b140" resname="role.edit_title">
+        <source><![CDATA[Edit <%roleName%>]]></source>
+        <target xml:lang="el" state="needs-translation"><![CDATA[ <%roleName%>]]></target>
+        <note>key: role.edit_title</note>
+        <jms:reference-file line="7">Resources/views/Role/update_role.html.twig</jms:reference-file>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

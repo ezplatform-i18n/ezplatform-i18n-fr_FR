@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file date="2017-01-26T14:52:02Z" source-language="en" target-language="el" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="14a71ae047142987a469560ae2f3ed33f46e511b" resname="confirm.permanent.delete.items">
+        <source>Are you sure you want to permanently delete %count% items? This action cannot be reversed.</source>
+        <target xml:lang="el" state="translated">Είστε σίγουρος/η για την οριστική διαγραφή των %count% στοιχεία; Αυτή η ενέργεια δε μπορεί να αναιρεθεί.</target>
+        <note>key: confirm.permanent.delete.items</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="175a957e55daa96d77e4354c9a79e80401cb8b3c" resname="content.items.restored">
+        <source>%count%  Content item(s) have been restored</source>
+        <target xml:lang="el" state="translated">%count% αντικείμενο/α περιεχομένου έχει/ουν αποκατασταθεί</target>
+        <note>key: content.items.restored</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5ed184c9ace808c1f22a8dba32474b2d8c307b90" resname="empty.trash">
+        <source>Empty the Trash</source>
+        <target xml:lang="el" state="translated">Άδειασμα κάδου ανακύκλωσης</target>
+        <note>key: empty.trash</note>
+        <jms:reference-file>Resources/public/js/views/ez-trashbarview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e472f53d72216a0252d8d8c55c4c565b656201d8" resname="error.emptying.trash">
+        <source>An error occurred while emptying the Trash</source>
+        <target xml:lang="el" state="translated">Παρουσιάστηκε σφάλμα κατά το άδειασμα του κάδου ανακύκλωσης</target>
+        <note>key: error.emptying.trash</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0c3639c10994d885f997d2403c4fb64b10a118b3" resname="minimize">
+        <source>Minimize</source>
+        <target xml:lang="el" state="translated">Ελαχιστοποίηση</target>
+        <note>key: minimize</note>
+        <jms:reference-file>Resources/public/js/views/ez-trashbarview.js</jms:reference-file>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
