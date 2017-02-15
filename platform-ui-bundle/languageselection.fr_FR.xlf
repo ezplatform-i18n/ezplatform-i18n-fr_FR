@@ -12,16 +12,25 @@
         <note>key: languageselectionbox.base.existing.translation</note>
         <jms:reference-file>Resources/public/templates/languageselectionbox.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1a2b94f629a46ab9741347bb3d889365d5430b52" resname="languageselectionbox.cancel">
+      <trans-unit id="1a2b94f629a46ab9741347bb3d889365d5430b52" resname="languageselectionbox.cancel" approved="yes">
         <source>Cancel</source>
-        <target xml:lang="fr" state="translated">Annuler</target>
+        <target xml:lang="fr">Annuler la sélection</target>
         <note>key: languageselectionbox.cancel</note>
         <jms:reference-file>Resources/public/templates/languageselectionbox.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Annuler</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="0dd5d97803b49206317f765692becb52e212c55e" resname="languageselectionbox.confirm">
         <source>Confirm</source>
         <target xml:lang="fr" state="translated">Confirmer</target>
         <note>key: languageselectionbox.confirm</note>
+        <jms:reference-file>Resources/public/templates/languageselectionbox.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f12577db02f302b72857787edaf2db262b509e01" resname="languageselectionbox.select.base.language">
+        <source>Select a base language:</source>
+        <target xml:lang="fr" state="translated">Sélectionner une langue de base :</target>
+        <note>key: languageselectionbox.select.base.language</note>
         <jms:reference-file>Resources/public/templates/languageselectionbox.hbt</jms:reference-file>
       </trans-unit>
     </body>

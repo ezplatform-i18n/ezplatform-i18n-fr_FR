@@ -6,9 +6,9 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="2fc1a78f3fa390c99fd859e73280919ae0fc76fc" resname="content.cancel_button">
+      <trans-unit id="2fc1a78f3fa390c99fd859e73280919ae0fc76fc" resname="content.cancel_button" approved="yes">
         <source>Cancel</source>
-        <target xml:lang="fr" state="translated">Annuler</target>
+        <target xml:lang="fr">Annuler</target>
         <note>key: content.cancel_button</note>
         <jms:reference-file line="49">lib/Form/Type/Content/ContentEditType.php</jms:reference-file>
       </trans-unit>
@@ -36,11 +36,23 @@
         <note>key: content.field_type.ezuser.password_confirm</note>
         <jms:reference-file line="43">lib/Form/Type/User/UserAccountType.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="d1f5c5fcee7eb206e496dd5073b0f95427431a1c" resname="content.field_type.ezuser.username">
+        <source>Username:</source>
+        <target xml:lang="fr" state="translated">Nom d'utilisateur:</target>
+        <note>key: content.field_type.ezuser.username</note>
+        <jms:reference-file line="35">lib/Form/Type/User/UserAccountType.php</jms:reference-file>
+      </trans-unit>
       <trans-unit id="1120fc646c853c462aa4cdf634f476004846fc1b" resname="content.publish_button">
         <source>Publish</source>
         <target xml:lang="fr" state="translated">Publier</target>
         <note>key: content.publish_button</note>
         <jms:reference-file line="43">lib/Form/Type/Content/ContentEditType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="49c0762cf87e038e38a06090625eadb4fbbc99ed" resname="content.save_button">
+        <source>Save draft</source>
+        <target xml:lang="fr" state="translated">Enregistrer le brouillon</target>
+        <note>key: content.save_button</note>
+        <jms:reference-file line="47">lib/Form/Type/Content/ContentEditType.php</jms:reference-file>
       </trans-unit>
     </body>
   </file>
