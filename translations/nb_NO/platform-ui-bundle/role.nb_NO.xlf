@@ -73,6 +73,16 @@
         <note>key: role.assign_limit_section.cancel</note>
         <jms:reference-file line="44">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="93a5221c554b7577697c1a68acbe2e17a3389dea" resname="role.dashboard_title">
+        <source>Roles</source>
+        <target xml:lang="nb" state="translated">Roller</target>
+        <note>key: role.dashboard_title</note>
+        <jms:reference-file line="16">Resources/views/Dashboard/dashboard.html.twig</jms:reference-file>
+        <jms:reference-file line="10">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
+        <jms:reference-file line="15">Resources/views/Role/edit_policy.html.twig</jms:reference-file>
+        <jms:reference-file line="14">Resources/views/Role/update_role.html.twig</jms:reference-file>
+        <jms:reference-file line="10">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="e9e10ddeb169d59d94b54912d0422481a0a0b140" resname="role.edit_title">
         <source><![CDATA[Edit <%roleName%>]]></source>
         <target xml:lang="nb" state="needs-translation"><![CDATA[ <%roleName%>]]></target>
