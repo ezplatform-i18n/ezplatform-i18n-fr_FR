@@ -1,5 +1,5 @@
 # eZ Platform I18N el_GR
-![es-es](https://cloud.githubusercontent.com/assets/1446466/22544453/190c6f78-e935-11e6-8a09-94cd71544192.png)
+![Greek](https://cloud.githubusercontent.com/assets/235928/23019040/bc90a86a-f440-11e6-845a-9cf76a570e24.png)
 
 ## Introduction
 
