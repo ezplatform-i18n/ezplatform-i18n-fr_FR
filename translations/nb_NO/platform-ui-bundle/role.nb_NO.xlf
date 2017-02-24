@@ -6,6 +6,30 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="0e2f56d6ff6cbc42edfde476c7cffe15b9db7b73" resname="assigning.role.to.users">
+        <source>Assigning the role "%roleName%" to %count% users/groups</source>
+        <target xml:lang="nb" state="translated">Tilordne rollen "%roleName%" til %count% brukere/grupper</target>
+        <note>key: assigning.role.to.users</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-roleserversideviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="81b99a41b99b84276da27795a150f7bf111243be" resname="assigning.role.to.users.section.limited">
+        <source>Assigning the role "%roleName%" to %count% users/groups limited to "%sectionName%" section</source>
+        <target xml:lang="nb" state="translated">Tilordne rollen "%roleName%" til %count% brukere/grupper begrenset til seksjonen "%sectionName%"</target>
+        <note>key: assigning.role.to.users.section.limited</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-roleserversideviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="08382c1eeb6c37ae6867e3e2be77303d84e3178d" resname="assigning.role.to.users.subtree.limited">
+        <source>Assigning the role "%roleName%" to %count% users/groups with a subtree limitation</source>
+        <target xml:lang="nb" state="translated">Tilordne rollen "%roleName%" til %count% brukere/grupper med begrensning på undertre</target>
+        <note>key: assigning.role.to.users.subtree.limited</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-roleserversideviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c06ec423bdd64f80f5e1bd403445c8f158cbbf7a" resname="assignment.none">
+        <source>This role is not assigned to any users or user groups.</source>
+        <target xml:lang="nb" state="translated">Denne rollen er ikke tilordnet noen brukere eller brukergrupper.</target>
+        <note>key: assignment.none</note>
+        <jms:reference-file line="186">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="70dd3723bde281857912354e3abdb2611345e1a1" resname="assignment.role_limitation">
         <source>Limitation</source>
         <target xml:lang="nb" state="translated">Begrensning</target>
@@ -23,6 +47,30 @@
         <target xml:lang="nb" state="translated">Bruker/gruppe</target>
         <note>key: assignment.user_or_group</note>
         <jms:reference-file line="136">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="507cd080bead04f2b94f397dd7a3791ac7548e3c" resname="assignment.user_or_group_using">
+        <source><![CDATA[Users and groups using the <%role%> role (%count%)]]></source>
+        <target xml:lang="nb" state="translated"><![CDATA[Brukere og grupper ved hjelp av rollen <%role%> (%count%)]]></target>
+        <note>key: assignment.user_or_group_using</note>
+        <jms:reference-file line="24">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ca65309bef9a375c91388358cc8304dae5032ca1" resname="failed.assigned.role">
+        <source>Role has not been assigned to "%name%": %message%</source>
+        <target xml:lang="nb" state="translated">Rolle er ikke tilordnet til "%name%": %message%</target>
+        <note>key: failed.assigned.role</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-roleserversideviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7f17d5ce98c94b79ee8708703b552c2c101714ff" resname="failed.assigned.role.user">
+        <source>Role has not been assigned to any users/groups</source>
+        <target xml:lang="nb" state="translated">Rollen har ikke blitt tilordnet noen brukere/grupper</target>
+        <note>key: failed.assigned.role.user</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-roleserversideviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c0f6421b8ab278d972511eeb070a3b76a1052a7f" resname="failed.loading.role">
+        <source>The role "%roleName%" could not be loaded</source>
+        <target xml:lang="nb" state="translated">Rollen "%roleName%" kunne ikke lastes</target>
+        <note>key: failed.loading.role</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-roleserversideviewservice.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="3444a2a8c58cd51ce588ed98a265546600e82dc4" resname="policy.function">
         <source>Function</source>
@@ -67,11 +115,83 @@
         <jms:reference-file line="50">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
         <jms:reference-file line="227">Resources/views/Role/view_role.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="1fd015af1b28cdbb8999ea2fe2dc08e181f8836e" resname="role.assign.universaldiscovery.title">
+        <source>Pick the users/groups to assign the role "%roleIdentifier%" to</source>
+        <target xml:lang="nb" state="translated">Velg brukere/grupper å tilordne rollen "%roleIdentifier%" til</target>
+        <note>key: role.assign.universaldiscovery.title</note>
+        <jms:reference-file line="35">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
+        <jms:reference-file line="38">Resources/views/Role/list_roles.html.twig</jms:reference-file>
+        <jms:reference-file line="193">Resources/views/Role/view_role.html.twig</jms:reference-file>
+        <jms:reference-file line="202">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="75fb0347cd4923218126c0696153902dbb14fb96" resname="role.assign.user_or_group">
+        <source>Assign to users/groups</source>
+        <target xml:lang="nb" state="translated">Tilordne til brukere/grupper</target>
+        <note>key: role.assign.user_or_group</note>
+        <jms:reference-file line="42">Resources/views/Role/list_roles.html.twig</jms:reference-file>
+        <jms:reference-file line="199">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="e8925242d54f54b2dca206c8ca6ea2c28bc145e0" resname="role.assign_limit_section.cancel">
         <source>Cancel</source>
         <target xml:lang="nb" state="translated">Avbryt</target>
         <note>key: role.assign_limit_section.cancel</note>
         <jms:reference-file line="44">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5b49cc21aa5dcceb12fb90e3664f234694496a10" resname="role.assign_limit_section.user_or_group">
+        <source>Assign to users/groups with section limitation</source>
+        <target xml:lang="nb" state="translated">Tilordne til brukere/grupper med seksjonsbegrensning</target>
+        <note>key: role.assign_limit_section.user_or_group</note>
+        <jms:reference-file line="41">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
+        <jms:reference-file line="213">Resources/views/Role/view_role.html.twig</jms:reference-file>
+        <jms:reference-file line="217">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="eebd438037da98a4efa23f2c3d87080e2b40a957" resname="role.assign_limit_section.user_or_group.pagetitle">
+        <source>Assign role "%roleIdentifier%" to users/groups with limitation on section</source>
+        <target xml:lang="nb" state="translated">Tilordne rollen som "%roleIdentifier%" til brukere/grupper med begrensning på seksjon</target>
+        <note>key: role.assign_limit_section.user_or_group.pagetitle</note>
+        <jms:reference-file line="19">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="fb7171e412fc18e77fe5c7c5e20e85a37c0b126a" resname="role.assign_limit_subtree.universaldiscovery.title">
+        <source>Pick the location to use as subtree limitation when assigning the role "%roleIdentifier%"</source>
+        <target xml:lang="nb" state="translated">Velg lokasjonen som skal brukes som undertrebegrensning når du tilordner rollen "%roleIdentifier%"</target>
+        <note>key: role.assign_limit_subtree.universaldiscovery.title</note>
+        <jms:reference-file line="203">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8211a64763ecf5a6a1e5d0e2386357c0bc2e7c89" resname="role.assign_limit_subtree.user_or_group">
+        <source>Assign to users/groups with subtree limitation</source>
+        <target xml:lang="nb" state="translated">Tilordne til brukere/grupper med undertrebegrensning</target>
+        <note>key: role.assign_limit_subtree.user_or_group</note>
+        <jms:reference-file line="209">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0ce0a34c38d96440f735fd742c5bec62cc5f5ca4" resname="role.assign_role_limit_section">
+        <source>Assign role with section limitation</source>
+        <target xml:lang="nb" state="translated">Tilordne rollen med seksjonsbegrensning</target>
+        <note>key: role.assign_role_limit_section</note>
+        <jms:reference-file line="12">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3a718931b7236108fa380ba19a963790eaaa7566" resname="role.assigned.to.user">
+        <source>"%name%" role has been assigned to %count% users/groups</source>
+        <target xml:lang="nb" state="translated">Rollen "%name%" er tilordnet %count% brukere/grupper</target>
+        <note>key: role.assigned.to.user</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-roleserversideviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c8259f57183169ec1b3106c34cda7cc61aaf7386" resname="role.assigned.to.user.section.limited">
+        <source>"%name%" role has been assigned to %count% users/groups limited to "%sectionName%" section</source>
+        <target xml:lang="nb" state="translated">Rollen "%name%" er tilordnet %count% brukere/grupper og begrenset til seksjonen "%sectionName%"</target>
+        <note>key: role.assigned.to.user.section.limited</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-roleserversideviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="de2a22e85b1f317f6933cfe3fba784ff747d2359" resname="role.assigned.to.user.subtree.limited">
+        <source>"%name%" role has been assigned to %count% users/groups with a subtree limitation</source>
+        <target xml:lang="nb" state="translated">"%name%" rollen er tilordnet %count% brukere/grupper med en undertrebegrensning</target>
+        <note>key: role.assigned.to.user.subtree.limited</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-roleserversideviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a170d74c0942f5bb7207fc36c1110b7a75dccfca" resname="role.assignment.deleted">
+        <source>The role assignment was correctly deleted.</source>
+        <target xml:lang="nb" state="translated">Rolletilordningen ble slettet på riktig måte.</target>
+        <note>key: role.assignment.deleted</note>
+        <jms:reference-file line="359">Controller/RoleController.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="93a5221c554b7577697c1a68acbe2e17a3389dea" resname="role.dashboard_title">
         <source>Roles</source>
@@ -85,9 +205,49 @@
       </trans-unit>
       <trans-unit id="e9e10ddeb169d59d94b54912d0422481a0a0b140" resname="role.edit_title">
         <source><![CDATA[Edit <%roleName%>]]></source>
-        <target xml:lang="nb" state="needs-translation"><![CDATA[ <%roleName%>]]></target>
+        <target xml:lang="nb" state="translated"><![CDATA[Rediger <%roleName%>]]></target>
         <note>key: role.edit_title</note>
         <jms:reference-file line="7">Resources/views/Role/update_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c049089744629771a10145f3c8b52aefbd0cce17" resname="role.id">
+        <source>ID</source>
+        <target xml:lang="nb" state="translated">ID</target>
+        <note>key: role.id</note>
+        <jms:reference-file line="26">Resources/views/Role/list_roles.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7bc6d651a804258ae2918bced396ae12e24ea286" resname="role.list">
+        <source>Roles</source>
+        <target xml:lang="nb" state="translated">Roller</target>
+        <note>key: role.list</note>
+        <jms:reference-file line="15">Resources/views/Role/list_roles.html.twig</jms:reference-file>
+        <jms:reference-file line="64">Resources/views/Role/list_roles.html.twig</jms:reference-file>
+        <jms:reference-file line="9">Resources/views/Role/list_roles.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0d01a66ae157f61d7744fb5e60a8f1e19fee4aa1" resname="role.name">
+        <source>Name</source>
+        <target xml:lang="nb" state="translated">Navn</target>
+        <note>key: role.name</note>
+        <jms:reference-file line="25">Resources/views/Role/list_roles.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="723a06ac319ea75dc2c78c3eb8a30ebacded1a64" resname="role.notification.draft_removed">
+        <source>The role draft was removed.</source>
+        <target xml:lang="nb" state="translated">Rolleutkastet ble fjernet.</target>
+        <note>key: role.notification.draft_removed</note>
+        <jms:reference-file line="83">Form/Processor/PolicyFormProcessor.php</jms:reference-file>
+        <jms:reference-file line="100">Form/Processor/RoleFormProcessor.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b61546f861fa7af02bb566f7cc18b71828f1827b" resname="role.notification.draft_saved">
+        <source>The role draft was saved.</source>
+        <target xml:lang="nb" state="translated">Rolleutkastet ble lagret.</target>
+        <note>key: role.notification.draft_saved</note>
+        <jms:reference-file line="74">Form/Processor/RoleFormProcessor.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="116219f003b3ddd2b2e8b3529aa96a5b34713a91" resname="role.notification.published">
+        <source>The role was published.</source>
+        <target xml:lang="nb" state="translated">Rollen ble publisert.</target>
+        <note>key: role.notification.published</note>
+        <jms:reference-file line="69">Form/Processor/PolicyFormProcessor.php</jms:reference-file>
+        <jms:reference-file line="75">Form/Processor/RoleFormProcessor.php</jms:reference-file>
       </trans-unit>
     </body>
   </file>
