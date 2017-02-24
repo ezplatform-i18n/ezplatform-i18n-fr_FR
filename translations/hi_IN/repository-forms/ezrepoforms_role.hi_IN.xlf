@@ -6,25 +6,24 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="2055432dd7586fdb260245c2eee60e3869bc5b23" resname="role.cancel">
+        <source>Cancel</source>
+        <target xml:lang="hi" state="translated">रद्द करें</target>
+        <note>key: role.cancel</note>
+        <jms:reference-file line="97">lib/Form/Type/Role/PolicyType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="05d874e26afd33df312d129e8db6392b5a8d1767" resname="role.form.delete">
+        <source>Delete</source>
+        <target xml:lang="hi" state="translated">मिटाए</target>
+        <note>key: role.form.delete</note>
+        <jms:reference-file line="32">lib/Form/Type/Role/RoleDeleteType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2899eca602b4735e6d40c6602fe539474fcbe76d" resname="role.identifier">
+        <source>Name</source>
+        <target xml:lang="hi" state="translated">नाम</target>
+        <note>key: role.identifier</note>
+        <jms:reference-file line="44">lib/Form/Type/Role/RoleUpdateType.php</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>

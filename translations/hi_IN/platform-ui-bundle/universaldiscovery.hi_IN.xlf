@@ -24,11 +24,23 @@
         <note>key: remaining.more</note>
         <jms:reference-file>Resources/public/templates/universaldiscovery/confirmedlist.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="065088a37d32d19ef453c0c30641fdabf7452e0e" resname="result.list">
+        <source>Result list</source>
+        <target xml:lang="hi" state="translated">परिणाम सूची</target>
+        <note>key: result.list</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/search.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="724b2384805ea6aa150d57d3d870d50b1d661d8b" resname="universaldiscovery.cancel">
         <source>Cancel</source>
         <target xml:lang="hi" state="translated">रद्द करें</target>
         <note>key: universaldiscovery.cancel</note>
         <jms:reference-file>Resources/public/templates/universaldiscovery.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5afbdba140a12800056af6216eacaeb6c04d5cf4" resname="universaldiscovery.choose.this.content">
+        <source>Choose this content</source>
+        <target xml:lang="hi" state="translated">इस कांटेंट का चयन करें</target>
+        <note>key: universaldiscovery.choose.this.content</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/selected.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="39b27d53e4d40abdf72543f7dc720f0ad7dfe34c" resname="universaldiscovery.confirm.selection">
         <source>Confirm selection</source>
@@ -41,6 +53,12 @@
         <target xml:lang="hi" state="translated">पुष्टि की गई आइटम्स</target>
         <note>key: universaldiscovery.confirmed.items</note>
         <jms:reference-file>Resources/public/templates/universaldiscovery/confirmedlist.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="572fdb94d49b6e58d297fd7491cf28c77d60e241" resname="universaldiscovery.content.tree">
+        <source>Content tree</source>
+        <target xml:lang="hi" state="translated">कांटेंट ट्री</target>
+        <note>key: universaldiscovery.content.tree</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/browse.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="5d385d494274d016769564a3bdf95332896d62af" resname="universaldiscovery.creation.date">
         <source>Creation Date</source>

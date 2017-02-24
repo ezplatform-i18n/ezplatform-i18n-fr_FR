@@ -54,6 +54,12 @@
         <note>key: trash.original.location.label</note>
         <jms:reference-file>Resources/public/templates/trash.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="ca702addebbb7f19ce7adc7b2d990c2abcbe73dc" resname="trash.type.label">
+        <source>Type</source>
+        <target xml:lang="hi" state="translated">प्रकार</target>
+        <note>key: trash.type.label</note>
+        <jms:reference-file>Resources/public/templates/trash.hbt</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -12,6 +12,12 @@
         <note>key: fielddefinition.allowed-content-types.any</note>
         <jms:reference-file line="251">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="70d065216b588dd0cf8c624132941a29f1c1459f" resname="fielddefinition.allowed-content-types.label">
+        <source>Allowed content types:</source>
+        <target xml:lang="hi" state="translated">अनुमत कांटेंट प्रकार:</target>
+        <note>key: fielddefinition.allowed-content-types.label</note>
+        <jms:reference-file line="241">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="becaad6a0d63182875b2bc7d21b0c6a801ba764f" resname="fielddefinition.default-layout.none">
         <source>None</source>
         <target xml:lang="hi" state="translated">कुछ भी नहीं</target>
@@ -55,6 +61,13 @@
         <jms:reference-file line="106">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
         <jms:reference-file line="71">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
         <jms:reference-file line="95">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ad6776fd58e0ae4b2ba44ff014986ec6b1ec4de4" resname="fielddefinition.default-value.label">
+        <source>Default value:</source>
+        <target xml:lang="hi" state="translated">डिफ़ॉल्ट मूल्य</target>
+        <note>key: fielddefinition.default-value.label</note>
+        <jms:reference-file line="334">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <jms:reference-file line="56">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="34ced944f5d7159b0597b98279e73be045c0ccd9" resname="fielddefinition.interval.day">
         <source>%default% %day% day(s)</source>

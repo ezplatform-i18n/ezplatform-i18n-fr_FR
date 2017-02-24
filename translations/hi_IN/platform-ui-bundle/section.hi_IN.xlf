@@ -21,6 +21,16 @@
         <note>key: section.cancel</note>
         <jms:reference-file line="52">Resources/views/Section/edit.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="7c2d7a21eb806db794990d728749dde1592be63e" resname="section.edit">
+        <source>Edit</source>
+        <target xml:lang="hi" state="translated">संपादन करें</target>
+        <note>key: section.edit</note>
+        <jms:reference-file line="26">Resources/views/Section/list.html.twig</jms:reference-file>
+        <jms:reference-file line="79">Resources/views/Section/list.html.twig</jms:reference-file>
+        <jms:reference-file line="81">Resources/views/Section/list.html.twig</jms:reference-file>
+        <jms:reference-file line="49">Resources/views/Section/view.html.twig</jms:reference-file>
+        <jms:reference-file line="53">Resources/views/Section/view.html.twig</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
