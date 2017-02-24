@@ -6,9 +6,9 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="0b5b303097790cd7cf1dde918d885439e60ecbd2" resname="content_type.add_field_definition">
+      <trans-unit id="0b5b303097790cd7cf1dde918d885439e60ecbd2" resname="content_type.add_field_definition" approved="yes">
         <source>Add field definition</source>
-        <target xml:lang="fr" state="translated">Ajouter la définition du champ</target>
+        <target xml:lang="fr">Ajouter la définition du champ</target>
         <note>key: content_type.add_field_definition</note>
         <jms:reference-file line="128">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
       </trans-unit>
@@ -30,15 +30,15 @@
         <note>key: content_type.default_sort_field</note>
         <jms:reference-file line="103">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7a67ffefca1339a9e4c5224d773378c2e5f6f378" resname="content_type.default_sort_order">
+      <trans-unit id="7a67ffefca1339a9e4c5224d773378c2e5f6f378" resname="content_type.default_sort_order" approved="yes">
         <source>Default sort order</source>
-        <target xml:lang="fr" state="translated">Ordre de tri par défaut</target>
+        <target xml:lang="fr">Ordre de tri par défaut</target>
         <note>key: content_type.default_sort_order</note>
         <jms:reference-file line="111">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="be2f64eb4557a3af16a2f32f5e0185c591d3ca8f" resname="content_type.delete">
+      <trans-unit id="be2f64eb4557a3af16a2f32f5e0185c591d3ca8f" resname="content_type.delete" approved="yes">
         <source>Delete</source>
-        <target xml:lang="fr" state="translated">Supprimer</target>
+        <target xml:lang="fr">Supprimer</target>
         <note>key: content_type.delete</note>
         <jms:reference-file line="40">lib/Form/Type/ContentType/ContentTypeDeleteType.php</jms:reference-file>
       </trans-unit>

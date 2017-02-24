@@ -6,9 +6,9 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="9c2eb5d844a5e2507a5c0f1ba534b5a392b1a40d" resname="fielddefinition.allowed-content-types.any">
+      <trans-unit id="9c2eb5d844a5e2507a5c0f1ba534b5a392b1a40d" resname="fielddefinition.allowed-content-types.any" approved="yes">
         <source>Any</source>
-        <target xml:lang="fr" state="translated">Tous</target>
+        <target xml:lang="fr">Tous</target>
         <note>key: fielddefinition.allowed-content-types.any</note>
         <jms:reference-file line="251">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
@@ -30,15 +30,15 @@
         <note>key: fielddefinition.default-layout.none</note>
         <jms:reference-file line="264">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="eb0eeb83b3f40e1293f0edd593a8cce658d9f35d" resname="fielddefinition.default-value.checked">
+      <trans-unit id="eb0eeb83b3f40e1293f0edd593a8cce658d9f35d" resname="fielddefinition.default-value.checked" approved="yes">
         <source>Checked</source>
-        <target xml:lang="fr" state="translated">Cochée</target>
+        <target xml:lang="fr">Cochée</target>
         <note>key: fielddefinition.default-value.checked</note>
         <jms:reference-file line="59">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3410f38fd1f44cb841ec374c13daca04dcc5910b" resname="fielddefinition.default-value.current_date">
+      <trans-unit id="3410f38fd1f44cb841ec374c13daca04dcc5910b" resname="fielddefinition.default-value.current_date" approved="yes">
         <source>Current date</source>
-        <target xml:lang="fr" state="translated">Date courante</target>
+        <target xml:lang="fr">Date courante</target>
         <note>key: fielddefinition.default-value.current_date</note>
         <jms:reference-file line="97">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>

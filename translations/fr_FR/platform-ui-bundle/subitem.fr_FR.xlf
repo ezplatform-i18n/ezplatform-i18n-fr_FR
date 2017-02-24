@@ -6,15 +6,15 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="f28f995a9562088395bf19373c81fda9a89f1585" resname="content.type">
+      <trans-unit id="f28f995a9562088395bf19373c81fda9a89f1585" resname="content.type" approved="yes">
         <source>Content type</source>
-        <target xml:lang="fr" state="translated">Type</target>
+        <target xml:lang="fr">Type</target>
         <note>key: content.type</note>
         <jms:reference-file>Resources/public/js/views/subitem/ez-subitemlistmoreview.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0bb9f90672f5fc639172ca0404b04581207c530e" resname="grid.view">
+      <trans-unit id="0bb9f90672f5fc639172ca0404b04581207c530e" resname="grid.view" approved="yes">
         <source>Grid view</source>
-        <target xml:lang="fr" state="translated">Grille</target>
+        <target xml:lang="fr">Grille</target>
         <note>key: grid.view</note>
         <jms:reference-file>Resources/public/js/views/subitem/ez-subitemgridview.js</jms:reference-file>
       </trans-unit>
@@ -30,21 +30,21 @@
         <note>key: modified</note>
         <jms:reference-file>Resources/public/js/views/subitem/ez-subitemlistmoreview.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6ae999552a0d2dca14d62e2bc8b764d377b1dd6c" resname="name">
+      <trans-unit id="6ae999552a0d2dca14d62e2bc8b764d377b1dd6c" resname="name" approved="yes">
         <source>Name</source>
-        <target xml:lang="fr" state="translated">Nom</target>
+        <target xml:lang="fr">Nom</target>
         <note>key: name</note>
         <jms:reference-file>Resources/public/js/views/subitem/ez-subitemlistmoreview.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3345867ecfeeaaae30e155d010fc96d9f5119644" resname="priority">
+      <trans-unit id="3345867ecfeeaaae30e155d010fc96d9f5119644" resname="priority" approved="yes">
         <source>Priority</source>
-        <target xml:lang="fr" state="translated">Priorité</target>
+        <target xml:lang="fr">Priorité</target>
         <note>key: priority</note>
         <jms:reference-file>Resources/public/js/views/subitem/ez-subitemlistmoreview.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e9fbb7ba38fa94be8b417699fb729a60c7b8ab48" resname="show.more.results">
+      <trans-unit id="e9fbb7ba38fa94be8b417699fb729a60c7b8ab48" resname="show.more.results" approved="yes">
         <source><![CDATA[Show <span class="ez-loadmorepagination-more-count">%limit%</span> more results]]></source>
-        <target xml:lang="fr" state="translated"><![CDATA[Afficher <span class="ez-loadmorepagination-more-count">%limit%</span> résultats supplémentaires]]></target>
+        <target xml:lang="fr"><![CDATA[Afficher <span class="ez-loadmorepagination-more-count">%limit%</span> résultats supplémentaires]]></target>
         <note>key: show.more.results</note>
         <jms:reference-file>Resources/public/templates/subitem/grid.hbt</jms:reference-file>
         <jms:reference-file>Resources/public/templates/subitem/listmore.hbt</jms:reference-file>

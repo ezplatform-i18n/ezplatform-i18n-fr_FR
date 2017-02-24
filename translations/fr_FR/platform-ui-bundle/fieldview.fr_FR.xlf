@@ -6,15 +6,15 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="ca64ff63bda52d9511fe5fc4f98dce4034335f0a" resname="binaryfile.download.file">
+      <trans-unit id="ca64ff63bda52d9511fe5fc4f98dce4034335f0a" resname="binaryfile.download.file" approved="yes">
         <source>Download the file</source>
-        <target xml:lang="fr" state="translated">Télécharger le fichier</target>
+        <target xml:lang="fr">Télécharger le fichier</target>
         <note>key: binaryfile.download.file</note>
         <jms:reference-file>Resources/public/templates/fields/view/binaryfile.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6167f5a54d6b6aeda1db413dcfb2e5ead6632a32" resname="failed.to.load.the.map">
+      <trans-unit id="6167f5a54d6b6aeda1db413dcfb2e5ead6632a32" resname="failed.to.load.the.map" approved="yes">
         <source>Failed to load the map</source>
-        <target xml:lang="fr" state="translated">Le chargement de la carte a échoué</target>
+        <target xml:lang="fr">Le chargement de la carte a échoué</target>
         <note>key: failed.to.load.the.map</note>
         <jms:reference-file>Resources/public/js/views/fields/ez-maplocation-view.js</jms:reference-file>
       </trans-unit>
@@ -45,23 +45,23 @@
         <note>key: fieldview.no</note>
         <jms:reference-file>Resources/public/templates/fields/view/media.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b6c23de67df46c0c13d509f9132dc9dc1477c4cf" resname="fieldview.retry">
+      <trans-unit id="b6c23de67df46c0c13d509f9132dc9dc1477c4cf" resname="fieldview.retry" approved="yes">
         <source>Retry</source>
-        <target xml:lang="fr" state="translated">Rééssayer</target>
+        <target xml:lang="fr">Rééssayer</target>
         <note>key: fieldview.retry</note>
         <jms:reference-file>Resources/public/templates/fields/view/image.hbt</jms:reference-file>
         <jms:reference-file>Resources/public/templates/fields/view/relation.hbt</jms:reference-file>
         <jms:reference-file>Resources/public/templates/fields/view/relationlist.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9b682841001f88b881dff78dc5f0d7dff0b71330" resname="fieldview.yes">
+      <trans-unit id="9b682841001f88b881dff78dc5f0d7dff0b71330" resname="fieldview.yes" approved="yes">
         <source>yes</source>
-        <target xml:lang="fr" state="translated">oui</target>
+        <target xml:lang="fr">oui</target>
         <note>key: fieldview.yes</note>
         <jms:reference-file>Resources/public/templates/fields/view/media.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a64621b5af174b18350e8774d65ac227c79f0077" resname="file.size">
+      <trans-unit id="a64621b5af174b18350e8774d65ac227c79f0077" resname="file.size" approved="yes">
         <source><![CDATA[<span class="ez-binaryfile-properties-size">%size%</span>&nbsp;bytes]]></source>
-        <target xml:lang="fr" state="translated"><![CDATA[<span class="ez-binaryfile-properties-size">%size%</span>&nbsp;octets]]></target>
+        <target xml:lang="fr"><![CDATA[<span class="ez-binaryfile-properties-size">%size%</span>&nbsp;octets]]></target>
         <note>key: file.size</note>
         <jms:reference-file>Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
       </trans-unit>

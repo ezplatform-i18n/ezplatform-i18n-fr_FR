@@ -12,9 +12,9 @@
         <note>key: confirmbox.cancel</note>
         <jms:reference-file>Resources/public/templates/confirmbox.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="333383790307ace20d9c43e23fa613daf0e4492c" resname="confirmbox.confirm">
+      <trans-unit id="333383790307ace20d9c43e23fa613daf0e4492c" resname="confirmbox.confirm" approved="yes">
         <source>Confirm</source>
-        <target xml:lang="fr" state="translated">Confirmer</target>
+        <target xml:lang="fr">Confirmer</target>
         <note>key: confirmbox.confirm</note>
         <jms:reference-file>Resources/public/templates/confirmbox.hbt</jms:reference-file>
       </trans-unit>
@@ -30,15 +30,15 @@
         <note>key: draftconflict.lastmodified</note>
         <jms:reference-file>Resources/public/templates/confirmbox/draftconflict.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c35f9f95f267fd0c78da8ae80914a1cbc15bb90b" resname="draftconflict.newdraft">
+      <trans-unit id="c35f9f95f267fd0c78da8ae80914a1cbc15bb90b" resname="draftconflict.newdraft" approved="yes">
         <source>New Draft</source>
-        <target xml:lang="fr" state="translated">Nouveau brouillon</target>
+        <target xml:lang="fr">Nouveau brouillon</target>
         <note>key: draftconflict.newdraft</note>
         <jms:reference-file>Resources/public/templates/confirmbox/draftconflict.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="302cfdba7ddbb677d9abb7967b44aaf8ab0ce8d0" resname="draftconflict.owner">
+      <trans-unit id="302cfdba7ddbb677d9abb7967b44aaf8ab0ce8d0" resname="draftconflict.owner" approved="yes">
         <source>Owner</source>
-        <target xml:lang="fr" state="translated">Propriétaire</target>
+        <target xml:lang="fr">Propriétaire</target>
         <note>key: draftconflict.owner</note>
         <jms:reference-file>Resources/public/templates/confirmbox/draftconflict.hbt</jms:reference-file>
       </trans-unit>

@@ -6,9 +6,9 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="c241f37eb4b93d08f53db508ae407cea0c0e64f9" resname="languageselectionbox.base.existing.translation">
+      <trans-unit id="c241f37eb4b93d08f53db508ae407cea0c0e64f9" resname="languageselectionbox.base.existing.translation" approved="yes">
         <source>Base this translation on an existing translation</source>
-        <target xml:lang="fr" state="translated">Baser cette traduction sur une version existante</target>
+        <target xml:lang="fr">Baser cette traduction sur une version existante</target>
         <note>key: languageselectionbox.base.existing.translation</note>
         <jms:reference-file>Resources/public/templates/languageselectionbox.hbt</jms:reference-file>
       </trans-unit>

@@ -6,15 +6,15 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="f28f995a9562088395bf19373c81fda9a89f1585" resname="content.type">
+      <trans-unit id="f28f995a9562088395bf19373c81fda9a89f1585" resname="content.type" approved="yes">
         <source>Content type</source>
-        <target xml:lang="fr" state="translated">Type de contenu</target>
+        <target xml:lang="fr">Type de contenu</target>
         <note>key: content.type</note>
         <jms:reference-file>Resources/public/js/views/ez-searchlistview.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="99db324742823c55d975b605e1fc22f4253a9b7d" resname="modified">
+      <trans-unit id="99db324742823c55d975b605e1fc22f4253a9b7d" resname="modified" approved="yes">
         <source>Modified</source>
-        <target xml:lang="fr" state="translated">Modifié</target>
+        <target xml:lang="fr">Modifié</target>
         <note>key: modified</note>
         <jms:reference-file>Resources/public/js/views/ez-searchlistview.js</jms:reference-file>
       </trans-unit>
@@ -30,21 +30,21 @@
         <note>key: search.no.result</note>
         <jms:reference-file>Resources/public/templates/searchlistview.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="bc7325f0409778308bac4fb799fe0a49433b2af5" resname="search.result.list">
+      <trans-unit id="bc7325f0409778308bac4fb799fe0a49433b2af5" resname="search.result.list" approved="yes">
         <source>Result list</source>
-        <target xml:lang="fr" state="translated">Liste des résultats</target>
+        <target xml:lang="fr">Liste des résultats</target>
         <note>key: search.result.list</note>
         <jms:reference-file>Resources/public/templates/searchlistview.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6ffbb9b14f98e94b8dda5418ef3910942b42c44e" resname="search.search">
+      <trans-unit id="6ffbb9b14f98e94b8dda5418ef3910942b42c44e" resname="search.search" approved="yes">
         <source>Search</source>
-        <target xml:lang="fr" state="translated">Rechercher</target>
+        <target xml:lang="fr">Rechercher</target>
         <note>key: search.search</note>
         <jms:reference-file>Resources/public/templates/searchview.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="25cda398863dd104cebf8932e6ba226d0f4f1641" resname="search.search.content">
+      <trans-unit id="25cda398863dd104cebf8932e6ba226d0f4f1641" resname="search.search.content" approved="yes">
         <source>Search content:</source>
-        <target xml:lang="fr" state="translated">Rechercher du contenu:</target>
+        <target xml:lang="fr">Rechercher du contenu:</target>
         <note>key: search.search.content</note>
         <jms:reference-file>Resources/public/templates/searchview.hbt</jms:reference-file>
       </trans-unit>

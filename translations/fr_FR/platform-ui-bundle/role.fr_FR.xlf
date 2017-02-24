@@ -12,9 +12,9 @@
         <note>key: assigning.role.to.users</note>
         <jms:reference-file>Resources/public/js/views/services/ez-roleserversideviewservice.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="81b99a41b99b84276da27795a150f7bf111243be" resname="assigning.role.to.users.section.limited">
+      <trans-unit id="81b99a41b99b84276da27795a150f7bf111243be" resname="assigning.role.to.users.section.limited" approved="yes">
         <source>Assigning the role "%roleName%" to %count% users/groups limited to "%sectionName%" section</source>
-        <target xml:lang="fr" state="translated">Attribution du rôle "%roleName%" aux %count% utilisateurs/groupes limités à la section "%sectionName%"</target>
+        <target xml:lang="fr">Attribution du rôle "%roleName%" aux %count% utilisateurs/groupes limités à la section "%sectionName%"</target>
         <note>key: assigning.role.to.users.section.limited</note>
         <jms:reference-file>Resources/public/js/views/services/ez-roleserversideviewservice.js</jms:reference-file>
       </trans-unit>
@@ -30,9 +30,9 @@
         <note>key: assignment.none</note>
         <jms:reference-file line="186">Resources/views/Role/view_role.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="70dd3723bde281857912354e3abdb2611345e1a1" resname="assignment.role_limitation">
+      <trans-unit id="70dd3723bde281857912354e3abdb2611345e1a1" resname="assignment.role_limitation" approved="yes">
         <source>Limitation</source>
-        <target xml:lang="fr" state="translated">Limitation</target>
+        <target xml:lang="fr">Limitation</target>
         <note>key: assignment.role_limitation</note>
         <jms:reference-file line="137">Resources/views/Role/view_role.html.twig</jms:reference-file>
       </trans-unit>

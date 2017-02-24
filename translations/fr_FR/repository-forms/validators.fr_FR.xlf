@@ -6,9 +6,9 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="facbff93edf91393ba1bb60212f504d35beae555" resname="ez.content_type.descriptions">
+      <trans-unit id="facbff93edf91393ba1bb60212f504d35beae555" resname="ez.content_type.descriptions" approved="yes">
         <source>Content type description cannot exceed 255 characters.</source>
-        <target xml:lang="fr" state="translated">Les descriptions de type de contenu ne peuvent dépasser 255 caractères.</target>
+        <target xml:lang="fr">Les descriptions de type de contenu ne peuvent dépasser 255 caractères.</target>
         <note>key: ez.content_type.descriptions</note>
       </trans-unit>
       <trans-unit id="73aad2fb9c8f9a2103bf60d6e9221a619f261f9c" resname="ez.content_type.identifier.pattern">
@@ -26,14 +26,14 @@
         <target xml:lang="fr" state="translated">Les descriptions de définition de champ ne peuvent pas dépasser 255 caractères.</target>
         <note>key: ez.field_definition.descriptions</note>
       </trans-unit>
-      <trans-unit id="0f7d936836760a506042c4d25cd38c5a30c3d9de" resname="ez.field_definition.names">
+      <trans-unit id="0f7d936836760a506042c4d25cd38c5a30c3d9de" resname="ez.field_definition.names" approved="yes">
         <source>Field definition name cannot be blank cannot exceed 255 characters.</source>
-        <target xml:lang="fr" state="translated">Les noms de définition de champ ne peuvent pas être vide ni dépasser 255 caractères.</target>
+        <target xml:lang="fr">Les noms de définition de champ ne peuvent pas être vide ni dépasser 255 caractères.</target>
         <note>key: ez.field_definition.names</note>
       </trans-unit>
-      <trans-unit id="924826be1015d20c1f4524754c690e10935abaac" resname="ez.section.identifier.format">
+      <trans-unit id="924826be1015d20c1f4524754c690e10935abaac" resname="ez.section.identifier.format" approved="yes">
         <source>Section identifier may only contain letters from "a" to "z", numbers and underscores.</source>
-        <target xml:lang="fr" state="translated">Les identifiants de section ne peuvent contenir que les lettres "a" à "z", des chiffres et des blancs soulignés.</target>
+        <target xml:lang="fr">Les identifiants de section ne peuvent contenir que les lettres "a" à "z", des chiffres et des blancs soulignés.</target>
         <note>key: ez.section.identifier.format</note>
       </trans-unit>
     </body>

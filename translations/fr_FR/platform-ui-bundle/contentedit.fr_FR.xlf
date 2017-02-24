@@ -6,15 +6,15 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="7550b672e162c224c309bdea5d48ca975081a904" resname="change">
+      <trans-unit id="7550b672e162c224c309bdea5d48ca975081a904" resname="change" approved="yes">
         <source>(change)</source>
-        <target xml:lang="fr" state="translated">(modifier)</target>
+        <target xml:lang="fr">(modifier)</target>
         <note>key: change</note>
         <jms:reference-file>Resources/public/templates/contentedit.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d4a9f87b1214f3f434e3e765c826de1501b17932" resname="change.language.to">
+      <trans-unit id="d4a9f87b1214f3f434e3e765c826de1501b17932" resname="change.language.to" approved="yes">
         <source>Change language to:</source>
-        <target xml:lang="fr" state="translated">Changer la langue pour :</target>
+        <target xml:lang="fr">Changer la langue pour :</target>
         <note>key: change.language.to</note>
         <jms:reference-file>Resources/public/js/views/services/ez-contentcreateviewservice.js</jms:reference-file>
         <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
@@ -31,15 +31,15 @@
         <note>key: content.published</note>
         <jms:reference-file>Resources/public/js/views/services/plugins/ez-publishdraftplugin.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="54a68935aefb2a88a794f8b85d8c3170588edb3f" resname="contentedit.close.preview">
+      <trans-unit id="54a68935aefb2a88a794f8b85d8c3170588edb3f" resname="contentedit.close.preview" approved="yes">
         <source>Close preview</source>
-        <target xml:lang="fr" state="translated">Fermer l'aperçu</target>
+        <target xml:lang="fr">Fermer l'aperçu</target>
         <note>key: contentedit.close.preview</note>
         <jms:reference-file>Resources/public/templates/editpreview.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7403ac1a8e8db35e577bf4e7ca7c3a7122a2169e" resname="contentedit.previewing">
+      <trans-unit id="7403ac1a8e8db35e577bf4e7ca7c3a7122a2169e" resname="contentedit.previewing" approved="yes">
         <source>Previewing</source>
-        <target xml:lang="fr" state="translated">Aperçu</target>
+        <target xml:lang="fr">Aperçu</target>
         <note>key: contentedit.previewing</note>
         <jms:reference-file>Resources/public/templates/editpreview.hbt</jms:reference-file>
       </trans-unit>
