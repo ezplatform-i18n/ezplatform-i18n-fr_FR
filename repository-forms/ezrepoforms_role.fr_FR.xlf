@@ -6,9 +6,9 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="f6b396a2d7ba20e291c364b91a3189b672c4d4b9" resname="policy.limitation.group.self">
+      <trans-unit id="f6b396a2d7ba20e291c364b91a3189b672c4d4b9" resname="policy.limitation.group.self" approved="yes">
         <source>Self</source>
-        <target xml:lang="fr" state="translated">Soi-même</target>
+        <target xml:lang="fr">Soi-même</target>
         <note>key: policy.limitation.group.self</note>
         <jms:reference-file line="29">lib/Limitation/Mapper/GroupLimitationMapper.php</jms:reference-file>
       </trans-unit>
@@ -30,15 +30,15 @@
         <note>key: role.cancel</note>
         <jms:reference-file line="97">lib/Form/Type/Role/PolicyType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d0f7a460463941ed043e46909f5b73e7062db88a" resname="role.create">
+      <trans-unit id="d0f7a460463941ed043e46909f5b73e7062db88a" resname="role.create" approved="yes">
         <source>Create a role</source>
-        <target xml:lang="fr" state="translated">Créer un rôle</target>
+        <target xml:lang="fr">Créer un rôle</target>
         <note>key: role.create</note>
         <jms:reference-file line="34">lib/Form/Type/Role/RoleCreateType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="05d874e26afd33df312d129e8db6392b5a8d1767" resname="role.form.delete">
+      <trans-unit id="05d874e26afd33df312d129e8db6392b5a8d1767" resname="role.form.delete" approved="yes">
         <source>Delete</source>
-        <target xml:lang="fr" state="translated">Supprimer</target>
+        <target xml:lang="fr">Supprimer</target>
         <note>key: role.form.delete</note>
         <jms:reference-file line="32">lib/Form/Type/Role/RoleDeleteType.php</jms:reference-file>
       </trans-unit>

@@ -6,15 +6,15 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="f252acdd0b26f0c35fd6e9ddcdbc27c0ce366e98" resname="failed.to.load.root.locations">
+      <trans-unit id="f252acdd0b26f0c35fd6e9ddcdbc27c0ce366e98" resname="failed.to.load.root.locations" approved="yes">
         <source>Failed to load root locations</source>
-        <target xml:lang="fr" state="translated">Impossible de charger les emplacements racine</target>
+        <target xml:lang="fr">Impossible de charger les emplacements racine</target>
         <note>key: failed.to.load.root.locations</note>
         <jms:reference-file>Resources/public/js/views/services/ez-navigationhubviewservice.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="55525e1b3dfd8787fd202aed45fb04494e3242d0" resname="logout">
+      <trans-unit id="55525e1b3dfd8787fd202aed45fb04494e3242d0" resname="logout" approved="yes">
         <source>Logout</source>
-        <target xml:lang="fr" state="translated">Déconnexion</target>
+        <target xml:lang="fr">Déconnexion</target>
         <note>key: logout</note>
         <jms:reference-file>Resources/public/js/views/ez-usermenuview.js</jms:reference-file>
       </trans-unit>
@@ -42,9 +42,9 @@
         <note>key: navigationhub.language.list</note>
         <jms:reference-file>Resources/public/js/views/services/ez-navigationhubviewservice.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b3ae3658840e3e375d5c88eb4abc96f3efe0ade8" resname="navigationhub.logo.ez">
+      <trans-unit id="b3ae3658840e3e375d5c88eb4abc96f3efe0ade8" resname="navigationhub.logo.ez" approved="yes">
         <source>Logo eZ</source>
-        <target xml:lang="fr" state="translated">Logo eZ</target>
+        <target xml:lang="fr">Logo eZ</target>
         <note>key: navigationhub.logo.ez</note>
         <jms:reference-file>Resources/public/templates/navigationhub.hbt</jms:reference-file>
       </trans-unit>

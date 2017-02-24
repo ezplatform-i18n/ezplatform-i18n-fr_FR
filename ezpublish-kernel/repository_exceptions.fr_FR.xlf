@@ -12,9 +12,9 @@
         <note>key: '%actualValue%' is wrong value</note>
         <jms:reference-file line="32">eZ/Publish/Core/Base/Exceptions/InvalidArgumentValue.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7a87971cc45ac957c7db1a4907f8e7f4325e3e32" resname="'%actualValue%' is wrong value in class '%className%'">
+      <trans-unit id="7a87971cc45ac957c7db1a4907f8e7f4325e3e32" resname="'%actualValue%' is wrong value in class '%className%'" approved="yes">
         <source>'%actualValue%' is wrong value in class '%className%'</source>
-        <target xml:lang="fr" state="translated">« %actualValue% » est une valeur incorrecte dans la classe « %className% »</target>
+        <target xml:lang="fr">« %actualValue% » est une valeur incorrecte dans la classe « %className% »</target>
         <note>key: '%actualValue%' is wrong value in class '%className%'</note>
         <jms:reference-file line="34">eZ/Publish/Core/Base/Exceptions/InvalidArgumentValue.php</jms:reference-file>
       </trans-unit>
@@ -37,9 +37,9 @@
         <note>key: Argument '%argumentName%' is invalid: %whatIsWrong%</note>
         <jms:reference-file line="34">eZ/Publish/Core/Base/Exceptions/InvalidArgumentException.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5184b29eed2fee5c130959375be31ea55010adb8" resname="Argument '%argumentName%' is invalid: expected value to be of type '%expectedType%'">
+      <trans-unit id="5184b29eed2fee5c130959375be31ea55010adb8" resname="Argument '%argumentName%' is invalid: expected value to be of type '%expectedType%'" approved="yes">
         <source>Argument '%argumentName%' is invalid: expected value to be of type '%expectedType%'</source>
-        <target xml:lang="fr" state="translated">L'argument '%argumentName%' est invalide : la valeur attendue doit être de type '%expectedType%'</target>
+        <target xml:lang="fr">L'argument '%argumentName%' est invalide : la valeur attendue doit être de type '%expectedType%'</target>
         <note>key: Argument '%argumentName%' is invalid: expected value to be of type '%expectedType%'</note>
         <jms:reference-file line="31">eZ/Publish/Core/Base/Exceptions/InvalidArgumentType.php</jms:reference-file>
       </trans-unit>

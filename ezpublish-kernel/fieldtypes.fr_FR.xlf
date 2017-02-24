@@ -6,14 +6,14 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="06a34ac23ac86f7c4368380203e3dd4d91489fa0" resname="ezauthor.name">
+      <trans-unit id="06a34ac23ac86f7c4368380203e3dd4d91489fa0" resname="ezauthor.name" approved="yes">
         <source>Authors</source>
-        <target xml:lang="fr" state="translated">Auteurs</target>
+        <target xml:lang="fr">Auteurs</target>
         <note>key: ezauthor.name</note>
       </trans-unit>
-      <trans-unit id="e4ca4a21a1e442e6a1232320b2184b9e4105c73f" resname="ezbinaryfile.name">
+      <trans-unit id="e4ca4a21a1e442e6a1232320b2184b9e4105c73f" resname="ezbinaryfile.name" approved="yes">
         <source>File</source>
-        <target xml:lang="fr" state="translated">Fichier</target>
+        <target xml:lang="fr">Fichier</target>
         <note>key: ezbinaryfile.name</note>
       </trans-unit>
       <trans-unit id="129dd46eabe280c49a0e9d424d9cbf676621aec9" resname="ezboolean.name">
@@ -26,14 +26,14 @@
         <target xml:lang="fr" state="translated">Pays</target>
         <note>key: ezcountry.name</note>
       </trans-unit>
-      <trans-unit id="3bd547a05c5a7b5ee111cc5ca608df9199f04c51" resname="ezdate.name">
+      <trans-unit id="3bd547a05c5a7b5ee111cc5ca608df9199f04c51" resname="ezdate.name" approved="yes">
         <source>Date</source>
-        <target xml:lang="fr" state="translated">Date</target>
+        <target xml:lang="fr">Date</target>
         <note>key: ezdate.name</note>
       </trans-unit>
-      <trans-unit id="42d9e26b6e8e65856f709461b589cb7925a9f43e" resname="ezdatetime.name">
+      <trans-unit id="42d9e26b6e8e65856f709461b589cb7925a9f43e" resname="ezdatetime.name" approved="yes">
         <source>Date and time</source>
-        <target xml:lang="fr" state="translated">Date et heure</target>
+        <target xml:lang="fr">Date et heure</target>
         <note>key: ezdatetime.name</note>
       </trans-unit>
       <trans-unit id="d772ac8909929964906cbefd41c468c9a5d2be26" resname="ezemail.name">

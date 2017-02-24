@@ -12,11 +12,14 @@
         <note>key: content_type.container</note>
         <jms:reference-file line="62">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f1312e397c7aa2e8e21be7f65161c6a99b728d3e" resname="content_type.content.title">
+      <trans-unit id="f1312e397c7aa2e8e21be7f65161c6a99b728d3e" resname="content_type.content.title" approved="yes">
         <source>Content field definitions</source>
-        <target xml:lang="fr" state="translated">Definitions de champs de contenu</target>
+        <target xml:lang="fr">Définitions de champs de contenu</target>
         <note>key: content_type.content.title</note>
         <jms:reference-file line="86">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Definitions de champs de contenu</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="d93b35cbbda2fccd239d83cd8e4fbba2cbb02166" resname="content_type.dashboard_title" approved="yes">
         <source>Content types</source>
@@ -41,15 +44,18 @@
           <target xml:lang="fr">Disponible dans la langue par défaut même, si la traduction n'existe pas</target>
         </alt-trans>
       </trans-unit>
-      <trans-unit id="3b3fc626a669a5462ec9fa7c94280a3573d8b106" resname="content_type.default_availability.help">
+      <trans-unit id="3b3fc626a669a5462ec9fa7c94280a3573d8b106" resname="content_type.default_availability.help" approved="yes">
         <source>Default availability in primary language, if translation is absent</source>
-        <target xml:lang="fr" state="translated">Disponible dans la langue par défaut même, si la traduction n'existe pas</target>
+        <target xml:lang="fr">Disponibilité par défaut dans la langue principale, si la traduction n'existe pas</target>
         <note>key: content_type.default_availability.help</note>
         <jms:reference-file line="78">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Disponible dans la langue par défaut même, si la traduction n'existe pas</target>
+        </alt-trans>
       </trans-unit>
-      <trans-unit id="d14799b2ac8854ab3f0bb9976258c3db39213d09" resname="content_type.default_availability.value">
+      <trans-unit id="d14799b2ac8854ab3f0bb9976258c3db39213d09" resname="content_type.default_availability.value" approved="yes">
         <source>{0} Not available|{1} Available</source>
-        <target xml:lang="fr" state="translated">{0} Non disponible {1} Disponible</target>
+        <target xml:lang="fr">{0} Non disponible {1} Disponible</target>
         <note>key: content_type.default_availability.value</note>
         <jms:reference-file line="80">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
@@ -261,6 +267,12 @@
         <target xml:lang="fr" state="translated">Identifiant</target>
         <note>key: field_definition.identifier</note>
         <jms:reference-file line="100">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0be041fa1dc0bb49d5c727fa267331a8425aa8b8" resname="field_definition.info">
+        <source>Additional Information</source>
+        <target xml:lang="fr" state="translated">Informations Complémentaires</target>
+        <note>key: field_definition.info</note>
+        <jms:reference-file line="117">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="9a02e329edf4c1e41c97c8be922137c284c249c4" resname="field_definition.name">
         <source>Name</source>

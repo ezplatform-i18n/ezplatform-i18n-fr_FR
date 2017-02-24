@@ -6,15 +6,15 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="30527585f513c4216ef8505ace7adc4cd4504716" resname="author.add">
+      <trans-unit id="30527585f513c4216ef8505ace7adc4cd4504716" resname="author.add" approved="yes">
         <source>Add another author</source>
-        <target xml:lang="fr" state="translated">Ajouter un autre auteur</target>
+        <target xml:lang="fr">Ajouter un autre auteur</target>
         <note>key: author.add</note>
         <jms:reference-file>Resources/public/templates/fields/edit/author.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0d26cffd2879243fec3052d28eca681b47722093" resname="authorinput.email">
+      <trans-unit id="0d26cffd2879243fec3052d28eca681b47722093" resname="authorinput.email" approved="yes">
         <source>Email:</source>
-        <target xml:lang="fr" state="translated">E-mail :</target>
+        <target xml:lang="fr">E-mail :</target>
         <note>key: authorinput.email</note>
         <jms:reference-file>Resources/public/templates/fields/edit/authorinput.hbt</jms:reference-file>
       </trans-unit>
@@ -30,21 +30,21 @@
         <note>key: authorinput.remove</note>
         <jms:reference-file>Resources/public/templates/fields/edit/authorinput.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9b553533713b1ca3b636ebe184350b5c0301a296" resname="bad.checksum.last.digit.should.be">
+      <trans-unit id="9b553533713b1ca3b636ebe184350b5c0301a296" resname="bad.checksum.last.digit.should.be" approved="yes">
         <source>Bad checksum, last digit of ISBN 13 should be %checkDigit%</source>
-        <target xml:lang="fr" state="translated">Somme de contrôle incorrecte, le dernier chiffre de l’ISBN 13 devrait être %checkDigit%</target>
+        <target xml:lang="fr">Somme de contrôle incorrecte, le dernier chiffre de l’ISBN 13 devrait être %checkDigit%</target>
         <note>key: bad.checksum.last.digit.should.be</note>
         <jms:reference-file>Resources/public/js/views/fields/ez-isbn-editview.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e5070f4a7780feaac79ab807cd1546a70effb49d" resname="binaryfile.download">
+      <trans-unit id="e5070f4a7780feaac79ab807cd1546a70effb49d" resname="binaryfile.download" approved="yes">
         <source>Download the file</source>
-        <target xml:lang="fr" state="translated">Télécharger le fichier</target>
+        <target xml:lang="fr">Télécharger le fichier</target>
         <note>key: binaryfile.download</note>
         <jms:reference-file>Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6368a200a5ca556ba56c6065d90cb55ccf4b3262" resname="binaryfile.empty">
+      <trans-unit id="6368a200a5ca556ba56c6065d90cb55ccf4b3262" resname="binaryfile.empty" approved="yes">
         <source>No file yet.</source>
-        <target xml:lang="fr" state="translated">Aucun fichier.</target>
+        <target xml:lang="fr">Aucun fichier.</target>
         <note>key: binaryfile.empty</note>
         <jms:reference-file>Resources/public/templates/fields/edit/binaryfile.hbt</jms:reference-file>
       </trans-unit>

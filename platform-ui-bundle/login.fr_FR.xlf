@@ -6,15 +6,15 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="521307ddb67a4abc14248801dae5e5989aca76c1" resname="copyright">
+      <trans-unit id="521307ddb67a4abc14248801dae5e5989aca76c1" resname="copyright" approved="yes">
         <source><![CDATA[eZ Platform ©1999-%endYear% <a href="http://ez.no">eZ Systems AS</a> and others.]]></source>
-        <target xml:lang="fr" state="translated"><![CDATA[eZ Platform © 1999-%endYear% <a href="http://ez.no"> eZ Systems AS</a> et autres.]]></target>
+        <target xml:lang="fr"><![CDATA[eZ Platform © 1999-%endYear% <a href="http://ez.no"> eZ Systems AS</a> et autres.]]></target>
         <note>key: copyright</note>
         <jms:reference-file>Resources/public/templates/loginform.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b1d4fbf05def85430e7e60db5ff4037ea1ee1197" resname="invalid.login.passord">
+      <trans-unit id="b1d4fbf05def85430e7e60db5ff4037ea1ee1197" resname="invalid.login.passord" approved="yes">
         <source>Invalid username or password</source>
-        <target xml:lang="fr" state="translated">Nom d'utilisateur ou mot de passe invalide</target>
+        <target xml:lang="fr">Nom d'utilisateur ou mot de passe invalide</target>
         <note>key: invalid.login.passord</note>
         <jms:reference-file>Resources/public/js/views/services/ez-loginformviewservice.js</jms:reference-file>
       </trans-unit>
@@ -30,9 +30,9 @@
         <note>key: loginform.login</note>
         <jms:reference-file>Resources/public/templates/loginform.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="a4ca196c29f2015f4b155d47a46a9b59ccfc7e3c" resname="loginform.need.login">
+      <trans-unit id="a4ca196c29f2015f4b155d47a46a9b59ccfc7e3c" resname="loginform.need.login" approved="yes">
         <source>You need to login to access this area</source>
-        <target xml:lang="fr" state="translated">Vous devez être identifié pour accéder à cette zone</target>
+        <target xml:lang="fr">Vous devez être identifié pour accéder à cette zone</target>
         <note>key: loginform.need.login</note>
         <jms:reference-file>Resources/public/templates/loginform.hbt</jms:reference-file>
       </trans-unit>
@@ -42,9 +42,9 @@
         <note>key: loginform.password</note>
         <jms:reference-file>Resources/public/templates/loginform.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="fd61368971282740aca61a93f8e13ec7dab3c339" resname="loginform.username">
+      <trans-unit id="fd61368971282740aca61a93f8e13ec7dab3c339" resname="loginform.username" approved="yes">
         <source>Username</source>
-        <target xml:lang="fr" state="translated">Nom d'utilisateur</target>
+        <target xml:lang="fr">Nom d'utilisateur</target>
         <note>key: loginform.username</note>
         <jms:reference-file>Resources/public/templates/loginform.hbt</jms:reference-file>
       </trans-unit>

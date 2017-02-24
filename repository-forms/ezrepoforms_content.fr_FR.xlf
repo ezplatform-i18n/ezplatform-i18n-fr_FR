@@ -30,15 +30,15 @@
         <note>key: content.field_type.ezuser.password</note>
         <jms:reference-file line="42">lib/Form/Type/User/UserAccountType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d2fe533f4032896195d524038c3abeb2209adece" resname="content.field_type.ezuser.password_confirm">
+      <trans-unit id="d2fe533f4032896195d524038c3abeb2209adece" resname="content.field_type.ezuser.password_confirm" approved="yes">
         <source>Confirm password:</source>
-        <target xml:lang="fr" state="translated">Confirmation du mot de passe :</target>
+        <target xml:lang="fr">Confirmation du mot de passe :</target>
         <note>key: content.field_type.ezuser.password_confirm</note>
         <jms:reference-file line="43">lib/Form/Type/User/UserAccountType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d1f5c5fcee7eb206e496dd5073b0f95427431a1c" resname="content.field_type.ezuser.username">
+      <trans-unit id="d1f5c5fcee7eb206e496dd5073b0f95427431a1c" resname="content.field_type.ezuser.username" approved="yes">
         <source>Username:</source>
-        <target xml:lang="fr" state="translated">Nom d'utilisateur:</target>
+        <target xml:lang="fr">Nom d'utilisateur:</target>
         <note>key: content.field_type.ezuser.username</note>
         <jms:reference-file line="35">lib/Form/Type/User/UserAccountType.php</jms:reference-file>
       </trans-unit>
@@ -53,6 +53,12 @@
         <target xml:lang="fr" state="translated">Enregistrer le brouillon</target>
         <note>key: content.save_button</note>
         <jms:reference-file line="47">lib/Form/Type/Content/ContentEditType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="df2f594c4b24eb1a49a45e95a5e7ed5cdef802bd" resname="ezrepoforms.content.fields">
+        <source>ezrepoforms.content.fields</source>
+        <target xml:lang="fr" state="translated">ezrepoforms.content.fields</target>
+        <note>key: ezrepoforms.content.fields</note>
+        <jms:reference-file line="39">lib/Form/Type/Content/ContentEditType.php</jms:reference-file>
       </trans-unit>
     </body>
   </file>

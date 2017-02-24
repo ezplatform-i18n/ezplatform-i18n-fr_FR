@@ -6,16 +6,16 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="305047e96ec089021660ee5965f893ac80268731" resname="center">
+      <trans-unit id="305047e96ec089021660ee5965f893ac80268731" resname="center" approved="yes">
         <source>Center</source>
-        <target xml:lang="fr" state="translated">Centré</target>
+        <target xml:lang="fr">Centré</target>
         <note>key: center</note>
         <jms:reference-file>Resources/public/js/alloyeditor/buttons/blocktextaligncenter.js</jms:reference-file>
         <jms:reference-file>Resources/public/js/alloyeditor/buttons/embedcenter.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="cfff27c96089b93150f3553b6ffdd39d0d5d8e78" resname="embed">
+      <trans-unit id="cfff27c96089b93150f3553b6ffdd39d0d5d8e78" resname="embed" approved="yes">
         <source>Embed</source>
-        <target xml:lang="fr" state="translated">Intégrer</target>
+        <target xml:lang="fr">Intégrer</target>
         <note>key: embed</note>
         <jms:reference-file>Resources/public/js/alloyeditor/buttons/embed.js</jms:reference-file>
       </trans-unit>
@@ -32,23 +32,23 @@
         <jms:reference-file>Resources/public/js/alloyeditor/toolbars/config/heading.js</jms:reference-file>
         <jms:reference-file>Resources/public/js/alloyeditor/toolbars/config/paragraph.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="4decf57f600f5e23f972092da3023f7065f7008b" resname="heading.2">
+      <trans-unit id="4decf57f600f5e23f972092da3023f7065f7008b" resname="heading.2" approved="yes">
         <source>Heading 2</source>
-        <target xml:lang="fr" state="translated">Titre 2</target>
+        <target xml:lang="fr">Titre 2</target>
         <note>key: heading.2</note>
         <jms:reference-file>Resources/public/js/alloyeditor/toolbars/config/heading.js</jms:reference-file>
         <jms:reference-file>Resources/public/js/alloyeditor/toolbars/config/paragraph.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6402924fbcdd16ea9dbf4c37c3da4f53db8fd631" resname="heading.3">
+      <trans-unit id="6402924fbcdd16ea9dbf4c37c3da4f53db8fd631" resname="heading.3" approved="yes">
         <source>Heading 3</source>
-        <target xml:lang="fr" state="translated">Titre 3</target>
+        <target xml:lang="fr">Titre 3</target>
         <note>key: heading.3</note>
         <jms:reference-file>Resources/public/js/alloyeditor/toolbars/config/heading.js</jms:reference-file>
         <jms:reference-file>Resources/public/js/alloyeditor/toolbars/config/paragraph.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7e65910e3c5725aaff4b648220dab7bb6266df48" resname="heading.4">
+      <trans-unit id="7e65910e3c5725aaff4b648220dab7bb6266df48" resname="heading.4" approved="yes">
         <source>Heading 4</source>
-        <target xml:lang="fr" state="translated">Titre 4</target>
+        <target xml:lang="fr">Titre 4</target>
         <note>key: heading.4</note>
         <jms:reference-file>Resources/public/js/alloyeditor/toolbars/config/heading.js</jms:reference-file>
         <jms:reference-file>Resources/public/js/alloyeditor/toolbars/config/paragraph.js</jms:reference-file>

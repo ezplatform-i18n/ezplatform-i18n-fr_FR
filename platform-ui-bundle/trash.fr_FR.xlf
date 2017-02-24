@@ -6,15 +6,15 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="14a71ae047142987a469560ae2f3ed33f46e511b" resname="confirm.permanent.delete.items">
+      <trans-unit id="14a71ae047142987a469560ae2f3ed33f46e511b" resname="confirm.permanent.delete.items" approved="yes">
         <source>Are you sure you want to permanently delete %count% items? This action cannot be reversed.</source>
-        <target xml:lang="fr" state="translated">Êtes-vous sûr de que vouloir supprimer définitivement %count% éléments ? Cette action ne peut pas être inversée.</target>
+        <target xml:lang="fr">Êtes-vous sûr de que vouloir supprimer définitivement %count% éléments ? Cette action ne peut pas être inversée.</target>
         <note>key: confirm.permanent.delete.items</note>
         <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="175a957e55daa96d77e4354c9a79e80401cb8b3c" resname="content.items.restored">
+      <trans-unit id="175a957e55daa96d77e4354c9a79e80401cb8b3c" resname="content.items.restored" approved="yes">
         <source>%count%  Content item(s) have been restored</source>
-        <target xml:lang="fr" state="translated">%count% élément(s) ont été restaurés</target>
+        <target xml:lang="fr">%count% élément(s) ont été restaurés</target>
         <note>key: content.items.restored</note>
         <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
       </trans-unit>
@@ -45,9 +45,9 @@
         <note>key: failed.load.content.type</note>
         <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="161c33f86dcd9d9116d020cbc5566086e8bb4c8c" resname="failed.load.parent.location.path">
+      <trans-unit id="161c33f86dcd9d9116d020cbc5566086e8bb4c8c" resname="failed.load.parent.location.path" approved="yes">
         <source>Failed to load parent location's path</source>
-        <target xml:lang="fr" state="translated">Echec de chargement du chemin du parent de l'emplacement</target>
+        <target xml:lang="fr">Echec de chargement du chemin du parent de l'emplacement</target>
         <note>key: failed.load.parent.location.path</note>
         <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
       </trans-unit>
