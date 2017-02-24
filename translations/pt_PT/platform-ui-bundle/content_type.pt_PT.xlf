@@ -277,6 +277,12 @@
         <note>key: field_definition.identifier</note>
         <jms:reference-file line="100">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="0be041fa1dc0bb49d5c727fa267331a8425aa8b8" resname="field_definition.info" approved="yes">
+        <source>Additional Information</source>
+        <target xml:lang="pt-PT">Informação Adicional</target>
+        <note>key: field_definition.info</note>
+        <jms:reference-file line="117">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="9a02e329edf4c1e41c97c8be922137c284c249c4" resname="field_definition.name" approved="yes">
         <source>Name</source>
         <target xml:lang="pt-PT">Nome</target>
