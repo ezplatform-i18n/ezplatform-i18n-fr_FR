@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file date="2017-01-26T14:52:02Z" source-language="en" target-language="hu" datatype="plaintext" original="not.available">
+  <file date="2017-02-03T15:42:16Z" source-language="en" target-language="hu" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
@@ -229,12 +229,6 @@
         <source>Location Id</source>
         <target xml:lang="hu" state="translated">Lokáció ID</target>
         <note>key: locationview.details.locationid</note>
-        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
-      </trans-unit>
-      <trans-unit id="2b72d1da8862e8f7f123df770f7733b294d765a3" resname="locationview.details.remoteid">
-        <source>Location remove Id</source>
-        <target xml:lang="hu" state="translated">Lokáció külső ID</target>
-        <note>key: locationview.details.remoteid</note>
         <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="4d80e1ddcdccb24545ffd7cfc24ca2290bfe2093" resname="locationview.details.retry">
