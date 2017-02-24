@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file date="2017-01-26T14:52:02Z" source-language="en" target-language="ja" datatype="plaintext" original="not.available">
+  <file date="2017-01-31T10:50:08Z" source-language="en" target-language="ja" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
@@ -10,19 +10,19 @@
         <source>Container</source>
         <target xml:lang="ja" state="translated">コンテナー</target>
         <note>key: content_type.container</note>
-        <jms:reference-file line="59">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="62">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f1312e397c7aa2e8e21be7f65161c6a99b728d3e" resname="content_type.content.title">
         <source>Content field definitions</source>
         <target xml:lang="ja" state="translated">コンテンツフィールドの定義</target>
         <note>key: content_type.content.title</note>
-        <jms:reference-file line="82">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="86">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="cefc13177fd81d4c9df6f8e86eb5278fccbe5a5a" resname="content_type.default_sort">
         <source>Default sort order</source>
         <target xml:lang="ja" state="translated">デフォルトのソート順</target>
         <note>key: content_type.default_sort</note>
-        <jms:reference-file line="69">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="72">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="fd931f1ea0d601fe877606ec9e42ff7c37d44d4e" resname="content_type.group.cancel">
         <source>Cancel</source>
@@ -46,32 +46,32 @@
         <source>Identifier</source>
         <target xml:lang="ja" state="translated">識別子</target>
         <note>key: content_type.identifier</note>
-        <jms:reference-file line="43">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="46">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
         <jms:reference-file line="29">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="6ab7362c77b22ff8bc0d14eeaae8514b0a683473" resname="content_type.url_alias_schema">
         <source>URL alias name pattern</source>
         <target xml:lang="ja" state="translated">URL エイリアス名のパターン</target>
         <note>key: content_type.url_alias_schema</note>
-        <jms:reference-file line="55">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="58">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8b863a9c7cd91565182ad0a3a5e30ca8090f84c7" resname="field_definition.identifier">
         <source>Identifier</source>
         <target xml:lang="ja" state="translated">識別子</target>
         <note>key: field_definition.identifier</note>
-        <jms:reference-file line="91">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="100">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="2e2ef6bae44fe23eec336dec39035b5d2c4b87b6" resname="field_definition.searchable">
         <source>Searchable</source>
         <target xml:lang="ja" state="translated">検索対象</target>
         <note>key: field_definition.searchable</note>
-        <jms:reference-file line="116">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="129">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="fd6ec7b826db4a501858a8658d8e71b067a46568" resname="field_definition.translatable">
         <source>Translatable</source>
         <target xml:lang="ja" state="translated">翻訳対象</target>
         <note>key: field_definition.translatable</note>
-        <jms:reference-file line="120">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="133">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
     </body>
   </file>

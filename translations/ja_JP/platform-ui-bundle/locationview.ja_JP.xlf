@@ -1,120 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file date="2017-01-26T14:52:02Z" source-language="en" target-language="ja" datatype="plaintext" original="not.available">
+  <file date="2017-02-03T15:42:16Z" source-language="en" target-language="ja" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="e59fc009e6dc0079786973ab8b8542f463d3b233" resname="failed.updated.priority">
+        <source>An error occurred when updating the priority</source>
+        <target xml:lang="ja" state="translated">優先順位の更新時にエラーが発生しました</target>
+        <note>key: failed.updated.priority</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-locationviewviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2e143171eb44b9d8b17a06195b938181101de957" resname="locationview.details.contentid">
+        <source>Content Id</source>
+        <target xml:lang="ja" state="translated">コンテンツ ID</target>
+        <note>key: locationview.details.contentid</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d270971c445eca4fc0e7cd8ec006341f0ff19354" resname="locationview.details.creator">
+        <source>Creator</source>
+        <target xml:lang="ja" state="translated">作成者</target>
+        <note>key: locationview.details.creator</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7f653bba9440b8a0b2dac47b4c30a5c97ba83678" resname="locationview.details.locationid">
+        <source>Location Id</source>
+        <target xml:lang="ja" state="translated">ロケーション ID</target>
+        <note>key: locationview.details.locationid</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="64dfe443da2515d16aaa6de73a00c2dd68111c0b" resname="locationview.details.versions">
+        <source>Versions</source>
+        <target xml:lang="ja" state="translated">バージョン</target>
+        <note>key: locationview.details.versions</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cf775f467a5d5f450635af645a5587ada940d885" resname="locationview.locations.add.location">
+        <source>Add Location</source>
+        <target xml:lang="ja" state="translated">ロケーションの追加</target>
+        <note>key: locationview.locations.add.location</note>
+        <jms:reference-file>Resources/public/templates/tabs/locations.hbt</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>

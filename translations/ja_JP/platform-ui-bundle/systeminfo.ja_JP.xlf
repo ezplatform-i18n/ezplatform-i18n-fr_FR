@@ -31,6 +31,24 @@
         <note>key: database</note>
         <jms:reference-file line="3">Resources/views/ez-support-tools/info/database.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="5588036c51b3fff9557483e210bfd47187f54ac8" resname="database.host">
+        <source>Host</source>
+        <target xml:lang="ja" state="translated">サーバーホスト名</target>
+        <note>key: database.host</note>
+        <jms:reference-file line="9">Resources/views/ez-support-tools/info/database.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cda1c2cdc0936c26cd9a325835b49a27d2ddfcc3" resname="database.name">
+        <source>Name</source>
+        <target xml:lang="ja" state="translated">名前</target>
+        <note>key: database.name</note>
+        <jms:reference-file line="7">Resources/views/ez-support-tools/info/database.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3af131bd1d37e4242ca0c124312180ad31ee23e9" resname="database.type">
+        <source>Type</source>
+        <target xml:lang="ja" state="translated">種別</target>
+        <note>key: database.type</note>
+        <jms:reference-file line="5">Resources/views/ez-support-tools/info/database.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="512e470f98391ba6e8140ef7a85e27c71af6e6bc" resname="database.username">
         <source>Username</source>
         <target xml:lang="ja" state="translated">ユーザー名</target>
@@ -68,6 +86,12 @@
         <jms:reference-file line="15">Resources/views/ez-support-tools/info/composer.html.twig</jms:reference-file>
         <jms:reference-file line="9">Resources/views/ez-support-tools/info/composer.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="5bfa5c4492601632e405273e2f7ea28977f108c3" resname="packages.empty">
+        <source>Could not find any packages, composer.lock file missing?</source>
+        <target xml:lang="ja" state="translated">パッケージが見つかりませんでした。composer.lock ファイルが存在しないかもしれません。</target>
+        <note>key: packages.empty</note>
+        <jms:reference-file line="10">Resources/views/ez-support-tools/info/composer.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="47425e4490d1548713efea3b8a6f5d778e4b1766" resname="php">
         <source>PHP</source>
         <target xml:lang="ja" state="translated">PHP</target>
@@ -93,11 +117,23 @@
         <note>key: symfony_kernel</note>
         <jms:reference-file line="3">Resources/views/ez-support-tools/info/symfony_kernel.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="dbc3d622a5e78844eeb75f3e9477b90357984ad7" resname="symfony_kernel.bundles.empty">
+        <source>Could not find any bundles.</source>
+        <target xml:lang="ja" state="translated">バンドルが見つかりませんでした。</target>
+        <note>key: symfony_kernel.bundles.empty</note>
+        <jms:reference-file line="24">Resources/views/ez-support-tools/info/symfony_kernel.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="8bce9f0cf5c9c698c1907808aa20cfa0b1ec9ecb" resname="symfony_kernel.cacheDir">
         <source>Cache directory</source>
         <target xml:lang="ja" state="translated">キャッシュディレクトリー</target>
         <note>key: symfony_kernel.cacheDir</note>
         <jms:reference-file line="15">Resources/views/ez-support-tools/info/symfony_kernel.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="74d0f849585c3bfe67e3477d0773fd8f097bd54d" resname="symfony_kernel.charset">
+        <source>Character set</source>
+        <target xml:lang="ja" state="translated">文字セット</target>
+        <note>key: symfony_kernel.charset</note>
+        <jms:reference-file line="19">Resources/views/ez-support-tools/info/symfony_kernel.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8da408eada2e85ad98868421df6185d1c8e4bdb2" resname="symfony_kernel.debugMode">
         <source>Debug mode</source>
@@ -128,6 +164,12 @@
         <target xml:lang="ja" state="translated">ログディレクトリー</target>
         <note>key: symfony_kernel.logDir</note>
         <jms:reference-file line="17">Resources/views/ez-support-tools/info/symfony_kernel.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ea20258358e7a0d4e8bc037d4e352ac2ad06b7fa" resname="symfony_kernel.name">
+        <source>Name</source>
+        <target xml:lang="ja" state="translated">名前</target>
+        <note>key: symfony_kernel.name</note>
+        <jms:reference-file line="11">Resources/views/ez-support-tools/info/symfony_kernel.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="56014c7eba59799c182934e3a0eb97eff6fd8a97" resname="symfony_kernel.rootDir">
         <source>Root directory</source>

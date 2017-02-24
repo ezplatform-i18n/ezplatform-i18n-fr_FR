@@ -6,6 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="06a34ac23ac86f7c4368380203e3dd4d91489fa0" resname="ezauthor.name">
+        <source>Authors</source>
+        <target xml:lang="ja" state="translated">著作者</target>
+        <note>key: ezauthor.name</note>
+      </trans-unit>
       <trans-unit id="e4ca4a21a1e442e6a1232320b2184b9e4105c73f" resname="ezbinaryfile.name">
         <source>File</source>
         <target xml:lang="ja" state="translated">ファイル</target>
@@ -15,6 +20,11 @@
         <source>Checkbox</source>
         <target xml:lang="ja" state="translated">チェックボックス</target>
         <note>key: ezboolean.name</note>
+      </trans-unit>
+      <trans-unit id="c4c3e3c536a09969467c7c9bb584459b47317fed" resname="ezcountry.name">
+        <source>Country</source>
+        <target xml:lang="ja" state="translated">国</target>
+        <note>key: ezcountry.name</note>
       </trans-unit>
       <trans-unit id="3bd547a05c5a7b5ee111cc5ca608df9199f04c51" resname="ezdate.name">
         <source>Date</source>

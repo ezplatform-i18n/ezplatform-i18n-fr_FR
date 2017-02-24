@@ -12,11 +12,29 @@
         <note>key: role.cancel</note>
         <jms:reference-file line="97">lib/Form/Type/Role/PolicyType.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="d0f7a460463941ed043e46909f5b73e7062db88a" resname="role.create">
+        <source>Create a role</source>
+        <target xml:lang="ja" state="translated">ロールの作成</target>
+        <note>key: role.create</note>
+        <jms:reference-file line="34">lib/Form/Type/Role/RoleCreateType.php</jms:reference-file>
+      </trans-unit>
       <trans-unit id="05d874e26afd33df312d129e8db6392b5a8d1767" resname="role.form.delete">
         <source>Delete</source>
         <target xml:lang="ja" state="translated">削除</target>
         <note>key: role.form.delete</note>
         <jms:reference-file line="32">lib/Form/Type/Role/RoleDeleteType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2a8bdc606cd0c96a53e2f661f0585029840af4b9" resname="role.policy.available_limitations">
+        <source>Limitations</source>
+        <target xml:lang="ja" state="translated">制限</target>
+        <note>key: role.policy.available_limitations</note>
+        <jms:reference-file line="109">lib/Form/Type/Role/PolicyType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="45237c152148c31c2b8c58cd43466caf30c7ea6a" resname="role.policy.form.delete">
+        <source>Delete policy</source>
+        <target xml:lang="ja" state="translated">ポリシーの削除</target>
+        <note>key: role.policy.form.delete</note>
+        <jms:reference-file line="33">lib/Form/Type/Role/PolicyDeleteType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="2651baeac233ce0e4ec974e260d8e0873197f3fc" resname="role.policy.save">
         <source>Save</source>

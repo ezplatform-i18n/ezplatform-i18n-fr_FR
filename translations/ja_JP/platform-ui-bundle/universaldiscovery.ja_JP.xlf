@@ -12,6 +12,37 @@
         <note>key: universaldiscovery.cancel</note>
         <jms:reference-file>Resources/public/templates/universaldiscovery.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="572fdb94d49b6e58d297fd7491cf28c77d60e241" resname="universaldiscovery.content.tree">
+        <source>Content tree</source>
+        <target xml:lang="ja" state="translated">コンテンツツリー</target>
+        <note>key: universaldiscovery.content.tree</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/browse.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5d385d494274d016769564a3bdf95332896d62af" resname="universaldiscovery.creation.date">
+        <source>Creation Date</source>
+        <target xml:lang="ja" state="translated">作成日</target>
+        <note>key: universaldiscovery.creation.date</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/selected.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4ebf3bc51492976774c417bafc3dfab7280951ea" resname="universaldiscovery.error.loading.image">
+        <source>An error occurred while loading the image.</source>
+        <target xml:lang="ja" state="translated">画像の読み込み中にエラーが発生しました。</target>
+        <note>key: universaldiscovery.error.loading.image</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/selected.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b554967582ddc2ef3ab75bf35e3fc90e3d46720f" resname="universaldiscovery.error.loading.result">
+        <source>An error occurred while loading the search result list.</source>
+        <target xml:lang="ja" state="translated">検索結果の一覧の読み込み中にエラーが発生しました。</target>
+        <note>key: universaldiscovery.error.loading.result</note>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/search.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d8a3ebd791267b179810d3c27bc1b78e566aa385" resname="universaldiscovery.search">
+        <source>Search</source>
+        <target xml:lang="ja" state="translated">検索</target>
+        <note>key: universaldiscovery.search</note>
+        <jms:reference-file>Resources/public/js/views/universaldiscovery/ez-universaldiscoverysearchview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/universaldiscovery/search.hbt</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -42,6 +42,24 @@
         <note>key: content.field_type.ezuser.username</note>
         <jms:reference-file line="35">lib/Form/Type/User/UserAccountType.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="1120fc646c853c462aa4cdf634f476004846fc1b" resname="content.publish_button">
+        <source>Publish</source>
+        <target xml:lang="ja" state="translated">公開</target>
+        <note>key: content.publish_button</note>
+        <jms:reference-file line="43">lib/Form/Type/Content/ContentEditType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="49c0762cf87e038e38a06090625eadb4fbbc99ed" resname="content.save_button">
+        <source>Save draft</source>
+        <target xml:lang="ja" state="translated">下書きを保存</target>
+        <note>key: content.save_button</note>
+        <jms:reference-file line="47">lib/Form/Type/Content/ContentEditType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="df2f594c4b24eb1a49a45e95a5e7ed5cdef802bd" resname="ezrepoforms.content.fields">
+        <source>ezrepoforms.content.fields</source>
+        <target xml:lang="ja" state="translated">ezrepoforms.content.fields</target>
+        <note>key: ezrepoforms.content.fields</note>
+        <jms:reference-file line="39">lib/Form/Type/Content/ContentEditType.php</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
