@@ -17,6 +17,9 @@
         <target xml:lang="es-ES" state="translated">Este campo no se puede modificar.</target>
         <note>key: content.field.non_editable</note>
         <jms:reference-file line="14">bundle/Resources/views/Content/content_form.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="es-ES">Este campo no es editable.</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="7a3eb3ea13db1c9d6a0bd64c7d249a45e7b83b52" resname="content.field_type.ezuser.email">
         <source>E-mail:</source>
