@@ -18,6 +18,12 @@
         <note>key: fielddefinition.default-layout.label</note>
         <jms:reference-file line="263">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="3410f38fd1f44cb841ec374c13daca04dcc5910b" resname="fielddefinition.default-value.current_date">
+        <source>Current date</source>
+        <target xml:lang="es-ES" state="translated">Fecha actual</target>
+        <note>key: fielddefinition.default-value.current_date</note>
+        <jms:reference-file line="97">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="baf973c669d404a5aa072edce1d84deaaf936a0f" resname="fielddefinition.default-value.current_time">
         <source>Current time</source>
         <target xml:lang="es-ES" state="translated">Hora actual</target>
@@ -111,6 +117,13 @@
         <note>key: fielddefinition.selection-method.browse</note>
         <jms:reference-file line="205">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
         <jms:reference-file line="224">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4c9eb21a084528340d7944eeb0ffe525fc5e5e75" resname="fielddefinition.use-seconds.label">
+        <source>Use seconds:</source>
+        <target xml:lang="es-ES" state="translated">Usar segundos:</target>
+        <note>key: fielddefinition.use-seconds.label</note>
+        <jms:reference-file line="112">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <jms:reference-file line="86">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
     </body>
   </file>
