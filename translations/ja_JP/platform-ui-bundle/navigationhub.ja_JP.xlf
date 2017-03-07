@@ -12,6 +12,24 @@
         <note>key: logout</note>
         <jms:reference-file>Resources/public/js/views/ez-usermenuview.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="2338455ec2fdf1d720446cbf9103ea5e44c772d2" resname="navigationhub.content.structure">
+        <source>Content structure</source>
+        <target xml:lang="ja" state="translated">コンテンツ</target>
+        <note>key: navigationhub.content.structure</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-navigationhubviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="404d24ec036d0f0f7590d7d63fa9ba64d19116e7" resname="navigationhub.content_type.dashboard_title">
+        <source>Content types</source>
+        <target xml:lang="ja" state="translated">コンテンツタイプ</target>
+        <note>key: navigationhub.content_type.dashboard_title</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-navigationhubviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7937b453cfa9e72eadf1e64ca4cfbee7ba443014" resname="navigationhub.dashboard.title">
+        <source>Admin dashboard</source>
+        <target xml:lang="ja" state="translated">Admin ダッシュボード</target>
+        <note>key: navigationhub.dashboard.title</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-navigationhubviewservice.js</jms:reference-file>
+      </trans-unit>
       <trans-unit id="6a7e8372aebbd558cab8c19c5caecc1deee66024" resname="navigationhub.language.list">
         <source>Languages</source>
         <target xml:lang="ja" state="translated">言語</target>
@@ -23,6 +41,18 @@
         <target xml:lang="ja" state="translated">ロゴ eZ</target>
         <note>key: navigationhub.logo.ez</note>
         <jms:reference-file>Resources/public/templates/navigationhub.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7bd6ca1c2f35a3578ca48a6ef671f4b370a4f93a" resname="navigationhub.media.library">
+        <source>Media library</source>
+        <target xml:lang="ja" state="translated">メディアライブラリー</target>
+        <note>key: navigationhub.media.library</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-navigationhubviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cb156e3f0e5acefaace3ae69a36edcfdd4335035" resname="navigationhub.role.list">
+        <source>Roles</source>
+        <target xml:lang="ja" state="translated">ロール</target>
+        <note>key: navigationhub.role.list</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-navigationhubviewservice.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="05bd808967aac1311d193cc98d15b0f736c8343d" resname="navigationhub.section.list">
         <source>Sections</source>
@@ -41,6 +71,15 @@
         <target xml:lang="ja" state="translated">ユーザー</target>
         <note>key: navigationhub.user.list</note>
         <jms:reference-file>Resources/public/js/views/services/ez-navigationhubviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9dad31674a58b4c29df317da824ecd407e79d708" resname="navigationhub.zone.admin">
+        <source>Admin Panel</source>
+        <target xml:lang="ja" state="translated">Admin パネル</target>
+        <note>key: navigationhub.zone.admin</note>
+        <jms:reference-file>Resources/public/js/views/ez-navigationhubview.js</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="ja">管理者パネル</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="f32918f2df2d2ecd3aa263a188187635d45c3d49" resname="navigationhub.zone.platform">
         <source>Content</source>

@@ -30,6 +30,12 @@
         <note>key: search.search</note>
         <jms:reference-file>Resources/public/templates/searchview.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="25cda398863dd104cebf8932e6ba226d0f4f1641" resname="search.search.content">
+        <source>Search content:</source>
+        <target xml:lang="ja" state="translated">コンテンツの検索:</target>
+        <note>key: search.search.content</note>
+        <jms:reference-file>Resources/public/templates/searchview.hbt</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>

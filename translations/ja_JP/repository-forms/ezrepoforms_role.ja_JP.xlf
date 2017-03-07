@@ -24,6 +24,12 @@
         <note>key: role.form.delete</note>
         <jms:reference-file line="32">lib/Form/Type/Role/RoleDeleteType.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="2899eca602b4735e6d40c6602fe539474fcbe76d" resname="role.identifier">
+        <source>Name</source>
+        <target xml:lang="ja" state="translated">名前</target>
+        <note>key: role.identifier</note>
+        <jms:reference-file line="44">lib/Form/Type/Role/RoleUpdateType.php</jms:reference-file>
+      </trans-unit>
       <trans-unit id="2a8bdc606cd0c96a53e2f661f0585029840af4b9" resname="role.policy.available_limitations">
         <source>Limitations</source>
         <target xml:lang="ja" state="translated">制限</target>
@@ -36,11 +42,26 @@
         <note>key: role.policy.form.delete</note>
         <jms:reference-file line="33">lib/Form/Type/Role/PolicyDeleteType.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="0eda0d605bd42eb8989a82e546d09ace8bc1b4d9" resname="role.policy.limitation.location.udw_button">
+        <source>Select locations</source>
+        <target xml:lang="ja" state="translated">ロケーションの選択</target>
+        <note>key: role.policy.limitation.location.udw_button</note>
+        <jms:reference-file line="9">bundle/Resources/views/Limitation/udw_limitation_value.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="2651baeac233ce0e4ec974e260d8e0873197f3fc" resname="role.policy.save">
         <source>Save</source>
         <target xml:lang="ja" state="translated">保存</target>
         <note>key: role.policy.save</note>
         <jms:reference-file line="98">lib/Form/Type/Role/PolicyType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d3c70d265ab037db5ade02a8b738b5981353c7ac" resname="role.policy.type">
+        <source>Policy type</source>
+        <target xml:lang="ja" state="translated">ポリシーの種別</target>
+        <note>key: role.policy.type</note>
+        <jms:reference-file line="94">lib/Form/Type/Role/PolicyType.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="ja">ポリシータイプ</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="f807a08e0f2e4780d2d54ed57e5c88bb5c937f49" resname="role.remove_draft">
         <source>Cancel</source>

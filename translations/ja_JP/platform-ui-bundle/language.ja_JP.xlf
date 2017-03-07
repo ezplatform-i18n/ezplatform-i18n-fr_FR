@@ -83,6 +83,13 @@
         <note>key: language.name.label</note>
         <jms:reference-file line="27">Resources/views/Language/view.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="8e4642a0c879921e8bf31752abc577c4bf8d098b" resname="language.new">
+        <source>Create a new language</source>
+        <target xml:lang="ja" state="translated">新しい言語の作成</target>
+        <note>key: language.new</note>
+        <jms:reference-file line="70">Resources/views/Language/list.html.twig</jms:reference-file>
+        <jms:reference-file line="72">Resources/views/Language/list.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="8df2798a2851c0d43893e3862f8a2e6e4290b141" resname="language.view.title">
         <source>Language: %languageName%</source>
         <target xml:lang="ja" state="translated">言語: %languageName%</target>

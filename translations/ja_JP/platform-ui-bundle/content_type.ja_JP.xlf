@@ -18,6 +18,17 @@
         <note>key: content_type.content.title</note>
         <jms:reference-file line="86">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="d93b35cbbda2fccd239d83cd8e4fbba2cbb02166" resname="content_type.dashboard_title">
+        <source>Content types</source>
+        <target xml:lang="ja" state="translated">コンテンツタイプ</target>
+        <note>key: content_type.dashboard_title</note>
+        <jms:reference-file line="14">Resources/views/ContentType/edit_content_type_group.html.twig</jms:reference-file>
+        <jms:reference-file line="8">Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
+        <jms:reference-file line="17">Resources/views/ContentType/update_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="13">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="10">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
+        <jms:reference-file line="15">Resources/views/Dashboard/dashboard.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="cefc13177fd81d4c9df6f8e86eb5278fccbe5a5a" resname="content_type.default_sort">
         <source>Default sort order</source>
         <target xml:lang="ja" state="translated">デフォルトのソート順</target>
@@ -30,11 +41,40 @@
         <note>key: content_type.group.cancel</note>
         <jms:reference-file line="42">Resources/views/ContentType/edit_content_type_group.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="ad7e97ad4cf67edf7aadf9010b17c34dc57aa0a6" resname="content_type.group.edit">
+        <source>Edit</source>
+        <target xml:lang="ja" state="translated">編集</target>
+        <note>key: content_type.group.edit</note>
+        <jms:reference-file line="39">Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
+        <jms:reference-file line="41">Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="3aa78eef31f8d83f3229f888579149da40bb4126" resname="content_type.group.id">
         <source>ID</source>
         <target xml:lang="ja" state="translated">ID</target>
         <note>key: content_type.group.id</note>
         <jms:reference-file line="26">Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d09d4d7f65b1acd604c44c85d08f82fb55fcb880" resname="content_type.group.list">
+        <source>Content type groups</source>
+        <target xml:lang="ja" state="translated">コンテンツタイプグループ</target>
+        <note>key: content_type.group.list</note>
+        <jms:reference-file line="15">Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
+        <jms:reference-file line="75">Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
+        <jms:reference-file line="9">Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
+        <jms:reference-file line="84">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e898d2cafb9cf32633ae1324fac8a0f233688885" resname="content_type.group.name">
+        <source>Name</source>
+        <target xml:lang="ja" state="translated">名前</target>
+        <note>key: content_type.group.name</note>
+        <jms:reference-file line="25">Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="29cb17e453cf97bda9072c5e8a52f72a484d7e32" resname="content_type.group.new">
+        <source>Create a Content type group</source>
+        <target xml:lang="ja" state="translated">新しいコンテンツタイプグループの作成</target>
+        <note>key: content_type.group.new</note>
+        <jms:reference-file line="65">Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
+        <jms:reference-file line="67">Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ac9f629a5395fbcbc31455777dafda7ef125b39e" resname="content_type.id">
         <source>ID</source>
