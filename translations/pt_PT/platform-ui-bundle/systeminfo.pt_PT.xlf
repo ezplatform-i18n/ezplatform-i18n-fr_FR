@@ -110,9 +110,12 @@
       </trans-unit>
       <trans-unit id="43ebf283d294d1a15b5d590815cd893e52164ed9" resname="php.accelerator" approved="yes">
         <source>PHP Accelerator</source>
-        <target xml:lang="pt-PT">Acelarador de PHP</target>
+        <target xml:lang="pt-PT">Acelerador de PHP</target>
         <note>key: php.accelerator</note>
         <jms:reference-file line="10">Resources/views/ez-support-tools/info/php.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="pt-PT">Acelarador de PHP</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="ee982f9a979085f2f15b3ddc699bfada99429bb4" resname="php.info" approved="yes">
         <source>PHP info</source>
@@ -140,9 +143,12 @@
       </trans-unit>
       <trans-unit id="74d0f849585c3bfe67e3477d0773fd8f097bd54d" resname="symfony_kernel.charset" approved="yes">
         <source>Character set</source>
-        <target xml:lang="pt-PT">Conjunto de caractéres</target>
+        <target xml:lang="pt-PT">Conjunto de caracteres</target>
         <note>key: symfony_kernel.charset</note>
         <jms:reference-file line="19">Resources/views/ez-support-tools/info/symfony_kernel.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="pt-PT">Conjunto de caractéres</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="8da408eada2e85ad98868421df6185d1c8e4bdb2" resname="symfony_kernel.debugMode" approved="yes">
         <source>Debug mode</source>
