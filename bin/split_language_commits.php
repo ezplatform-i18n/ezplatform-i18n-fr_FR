@@ -68,6 +68,9 @@ function getLanguagesData()
         'pl' => 'pl_PL',
         'pt-PT' => 'pt_PT',
         'ru' => 'ru_RU',
+        'en-US' => 'en_US',
+        'it' => 'it_IT',
+        'hr' => 'hr_HR'
     ];
 
     if (!$crowdinApiKey = getenv('CROWDIN_API_KEY')) {

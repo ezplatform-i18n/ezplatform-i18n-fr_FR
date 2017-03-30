@@ -1,0 +1,13 @@
+{
+  "name": "ezplatform-i18n/ezplatform-i18n-en_us",
+  "description": "eZ Platform english (United States) translations",
+  "license": "GPL-2.0",
+  "require": {
+    "ezsystems/ezpublish-kernel": "^6.8"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0.x-dev"
+    }
+  }
+}
