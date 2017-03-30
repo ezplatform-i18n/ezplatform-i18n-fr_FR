@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file date="2017-01-26T14:52:02Z" source-language="en" target-language="it" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="5c973cf4cef4fd2936dbd1d7879ccdcd8b9e6ffe" resname="image.alternativetext">
+        <source>Alternative text:</source>
+        <target xml:lang="it" state="translated">Testo alternativo:</target>
+        <note>key: image.alternativetext</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c21c1e24ffd073c7213022cf4d0cde8e94be62b8" resname="image.fullwidth">
+        <source>View the full width image</source>
+        <target xml:lang="it" state="translated">Mostra l'immagine intera</target>
+        <note>key: image.fullwidth</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="421768b6fafc8049fe02c600c5bc6ecb8a5590c2" resname="image.help">
+        <source>Drag and drop your image here or simply click on the buttons and select your image manually.</source>
+        <target xml:lang="it" state="translated">Trascinare l'immagine qui o semplicemente cliccare sui pulsanti e selezionare l'immagine manualmente.</target>
+        <note>key: image.help</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="623d52cead77075eabf73bd844f1870264264f8e" resname="image.name">
+        <source>File name</source>
+        <target xml:lang="it" state="translated">Nome file</target>
+        <note>key: image.name</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4869b50f2d217dadd224261042666bd2a3fd0e9e" resname="image.noimage">
+        <source>No image yet.</source>
+        <target xml:lang="it" state="translated">Ancora nessuna immagine.</target>
+        <note>key: image.noimage</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ddb2b77067d29961704d011d303b42d5fcc00e5c" resname="image.or">
+        <source>or</source>
+        <target xml:lang="it" state="translated">o</target>
+        <note>key: image.or</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7deddf51ab844e5621b291039176191f8bbdef95" resname="image.preview">
+        <source>Image preview</source>
+        <target xml:lang="it" state="translated">Anteprima immagine</target>
+        <note>key: image.preview</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a291c895782db79ab2693d1e91090f491402f32d" resname="image.properties">
+        <source>Image properties</source>
+        <target xml:lang="it" state="translated">Proprietà dell'immagine</target>
+        <note>key: image.properties</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="eaa4c2c811e8e5048745d4d437e122b67e16bbfa" resname="image.remove">
+        <source>Remove this image</source>
+        <target xml:lang="it" state="translated">Rimuovi l'immagine</target>
+        <note>key: image.remove</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e7b9c11716066f2b3bcb38ac4db35fb7501118e0" resname="image.replace">
+        <source>Replace this image</source>
+        <target xml:lang="it" state="translated">Sostituisci l'immagine</target>
+        <note>key: image.replace</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="265c4b8ea4ab58567a9be6610f7dff0b99223299" resname="image.size">
+        <source>File size:</source>
+        <target xml:lang="it" state="translated">Dimensioni file:</target>
+        <note>key: image.size</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="16a6d4b19907cd8be6b2be041fca055ad70a3447" resname="image.thumbnail.error">
+        <source>An error occurred while loading the thumbnail.</source>
+        <target xml:lang="it" state="translated">Si è verificato un errore durante il caricamento dell'anteprima.</target>
+        <note>key: image.thumbnail.error</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2b17eed3677a5d65192b549375f533751091f25f" resname="image.thumbnail.loading">
+        <source>Loading a thumbnail of the image...</source>
+        <target xml:lang="it" state="translated">Caricamento di una miniatura dell'immagine...</target>
+        <note>key: image.thumbnail.loading</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="689cae8350541efc2cad64f32e6d1a9512845b05" resname="image.thumbnail.retry">
+        <source>Retry</source>
+        <target xml:lang="it" state="translated">Prova di nuovo</target>
+        <note>key: image.thumbnail.retry</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1fa08ff0c1b3b004705e4fc4884f7c0cf631465a" resname="image.type">
+        <source>Type:</source>
+        <target xml:lang="it" state="translated">Tipo:</target>
+        <note>key: image.type</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3cb3d1ded419f0923f0b00e65e3c9b6c112e450c" resname="image.upload">
+        <source>Upload an image</source>
+        <target xml:lang="it" state="translated">Carica una immagine</target>
+        <note>key: image.upload</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a8867a26b3b1adfde513cee1bbc0b2cd0beb5cce" resname="richtext.save">
+        <source>Save and Return</source>
+        <target xml:lang="it" state="translated">Salva e continua</target>
+        <note>key: richtext.save</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/richtext.hbt</jms:reference-file>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

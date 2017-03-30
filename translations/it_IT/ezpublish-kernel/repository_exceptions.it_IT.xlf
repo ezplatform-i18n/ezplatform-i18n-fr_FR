@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file date="2017-01-26T14:55:58Z" source-language="en" target-language="it" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="c2993e6873e928a2a635698ce582b4aba5748643" resname="'%actualValue%' is wrong value">
+        <source>'%actualValue%' is wrong value</source>
+        <target xml:lang="it" state="translated">'%actualValue%' è il valore errato</target>
+        <note>key: '%actualValue%' is wrong value</note>
+        <jms:reference-file line="32">eZ/Publish/Core/Base/Exceptions/InvalidArgumentValue.php</jms:reference-file>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

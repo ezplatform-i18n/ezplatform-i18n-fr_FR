@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file date="2017-01-26T14:52:02Z" source-language="en" target-language="it" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="66e4d5a581b0460c2a07236f815ada78bfa75a68" resname="select.a.content.to.embed">
+        <source>Select a content to embed</source>
+        <target xml:lang="it" state="translated">Selezionare un contenuto da incorporare</target>
+        <note>key: select.a.content.to.embed</note>
+        <jms:reference-file>Resources/public/js/alloyeditor/buttons/embed.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/alloyeditor/buttons/embedhref.js</jms:reference-file>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

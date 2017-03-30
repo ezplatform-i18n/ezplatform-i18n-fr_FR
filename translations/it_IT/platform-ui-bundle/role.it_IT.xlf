@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file date="2017-01-26T14:52:02Z" source-language="en" target-language="it" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="1fd015af1b28cdbb8999ea2fe2dc08e181f8836e" resname="role.assign.universaldiscovery.title">
+        <source>Pick the users/groups to assign the role "%roleIdentifier%" to</source>
+        <target xml:lang="it" state="translated">Scegliere utenti/gruppi per assegnare il ruolo "%roleIdentifier%"</target>
+        <note>key: role.assign.universaldiscovery.title</note>
+        <jms:reference-file line="35">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
+        <jms:reference-file line="38">Resources/views/Role/list_roles.html.twig</jms:reference-file>
+        <jms:reference-file line="193">Resources/views/Role/view_role.html.twig</jms:reference-file>
+        <jms:reference-file line="202">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="75fb0347cd4923218126c0696153902dbb14fb96" resname="role.assign.user_or_group">
+        <source>Assign to users/groups</source>
+        <target xml:lang="it" state="translated">Assegna a utenti/gruppi</target>
+        <note>key: role.assign.user_or_group</note>
+        <jms:reference-file line="42">Resources/views/Role/list_roles.html.twig</jms:reference-file>
+        <jms:reference-file line="199">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="93a5221c554b7577697c1a68acbe2e17a3389dea" resname="role.dashboard_title">
+        <source>Roles</source>
+        <target xml:lang="it" state="translated">Ruoli</target>
+        <note>key: role.dashboard_title</note>
+        <jms:reference-file line="16">Resources/views/Dashboard/dashboard.html.twig</jms:reference-file>
+        <jms:reference-file line="10">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
+        <jms:reference-file line="15">Resources/views/Role/edit_policy.html.twig</jms:reference-file>
+        <jms:reference-file line="14">Resources/views/Role/update_role.html.twig</jms:reference-file>
+        <jms:reference-file line="10">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2dc532ed3100b62f85a3e923f51bcdb792561c26" resname="role.edit">
+        <source>Edit role name</source>
+        <target xml:lang="it" state="translated">Modificare il nome di ruolo</target>
+        <note>key: role.edit</note>
+        <jms:reference-file line="45">Resources/views/Role/list_roles.html.twig</jms:reference-file>
+        <jms:reference-file line="109">Resources/views/Role/view_role.html.twig</jms:reference-file>
+        <jms:reference-file line="111">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e9e10ddeb169d59d94b54912d0422481a0a0b140" resname="role.edit_title">
+        <source><![CDATA[Edit <%roleName%>]]></source>
+        <target xml:lang="it" state="translated"><![CDATA[Modifica <%roleName%>]]></target>
+        <note>key: role.edit_title</note>
+        <jms:reference-file line="7">Resources/views/Role/update_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c049089744629771a10145f3c8b52aefbd0cce17" resname="role.id">
+        <source>ID</source>
+        <target xml:lang="it" state="translated">ID</target>
+        <note>key: role.id</note>
+        <jms:reference-file line="26">Resources/views/Role/list_roles.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7bc6d651a804258ae2918bced396ae12e24ea286" resname="role.list">
+        <source>Roles</source>
+        <target xml:lang="it" state="translated">Ruoli</target>
+        <note>key: role.list</note>
+        <jms:reference-file line="15">Resources/views/Role/list_roles.html.twig</jms:reference-file>
+        <jms:reference-file line="64">Resources/views/Role/list_roles.html.twig</jms:reference-file>
+        <jms:reference-file line="9">Resources/views/Role/list_roles.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0d01a66ae157f61d7744fb5e60a8f1e19fee4aa1" resname="role.name">
+        <source>Name</source>
+        <target xml:lang="it" state="translated">Nome</target>
+        <note>key: role.name</note>
+        <jms:reference-file line="25">Resources/views/Role/list_roles.html.twig</jms:reference-file>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
