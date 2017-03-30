@@ -52,6 +52,58 @@
         <jms:reference-file>Resources/public/templates/subitem/grid.hbt</jms:reference-file>
         <jms:reference-file>Resources/public/templates/subitem/listmore.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="a48dcd8c90a5ec18b087c64865a8aaeddb83107c" resname="subitem.error.loading.image">
+        <source>An error occurred while loading the image.</source>
+        <target xml:lang="it" state="translated">Si è verificato un errore durante il caricamento dell'immagine.</target>
+        <note>key: subitem.error.loading.image</note>
+        <jms:reference-file>Resources/public/templates/subitem/griditem.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="687a6cc31795b1c3ef4754351319522f21e40d28" resname="subitem.error.loading.list">
+        <source>An error occurred while loading the sub-items list.</source>
+        <target xml:lang="it" state="translated">Si è verificato un errore durante il caricamento della lista dei sotto elementi.</target>
+        <note>key: subitem.error.loading.list</note>
+        <jms:reference-file>Resources/public/js/views/subitem/ez-asynchronoussubitemview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/subitem/list.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1ba785e2cab1df903e4feca2bc9e4eccf5b542dc" resname="subitem.first">
+        <source>First</source>
+        <target xml:lang="it" state="translated">Primo</target>
+        <note>key: subitem.first</note>
+        <jms:reference-file>Resources/public/templates/subitem/list.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0729624b971947f00032e59cd4de5fe7e8c92e4e" resname="subitem.last">
+        <source>Last</source>
+        <target xml:lang="it" state="translated">Ultimo</target>
+        <note>key: subitem.last</note>
+        <jms:reference-file>Resources/public/templates/subitem/list.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c9196a19ae958da788cf0b5fbb4e0fb6451ebdf2" resname="subitem.next">
+        <source>Next</source>
+        <target xml:lang="it" state="translated">Successivo</target>
+        <note>key: subitem.next</note>
+        <jms:reference-file>Resources/public/templates/subitem/list.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d5c97668af30fef2819f3f52add12af828cbe9b3" resname="subitem.no.subitem">
+        <source>This location has no sub-item.</source>
+        <target xml:lang="it" state="translated">Questa posizione non ha nessun sotto elemento.</target>
+        <note>key: subitem.no.subitem</note>
+        <jms:reference-file>Resources/public/templates/subitem/grid.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/subitem/list.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/subitem/listmore.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="30b83e737fd8950c2dd108986fa2a82820c2a033" resname="subitem.previous">
+        <source>Previous</source>
+        <target xml:lang="it" state="translated">Precedente</target>
+        <note>key: subitem.previous</note>
+        <jms:reference-file>Resources/public/templates/subitem/list.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a399eccb79686f2421595d297024effd80124451" resname="subitem.retry">
+        <source>Retry</source>
+        <target xml:lang="it" state="translated">Riprova</target>
+        <note>key: subitem.retry</note>
+        <jms:reference-file>Resources/public/templates/subitem/griditem.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/subitem/list.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="5f58a440086c7ddb295d36e1b7b58af48b6f568a" resname="subitem.subitems">
         <source>Sub-items</source>
         <target xml:lang="it" state="translated">Sotto elementi</target>

@@ -6,6 +6,18 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="0b5b303097790cd7cf1dde918d885439e60ecbd2" resname="content_type.add_field_definition">
+        <source>Add field definition</source>
+        <target xml:lang="it" state="translated">Aggiungere la definizione di campo</target>
+        <note>key: content_type.add_field_definition</note>
+        <jms:reference-file line="128">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="529a1012c7fe5ca6fafdb5d070ac8ececfe94af6" resname="content_type.create">
+        <source>Create a content type</source>
+        <target xml:lang="it" state="translated">Crea un nuovo tipo</target>
+        <note>key: content_type.create</note>
+        <jms:reference-file line="67">lib/Form/Type/ContentType/ContentTypeCreateType.php</jms:reference-file>
+      </trans-unit>
       <trans-unit id="368a6ffa173a2e9605371392e99e565d9b247382" resname="content_type.group.delete">
         <source>Delete</source>
         <target xml:lang="it" state="translated">Cancella</target>

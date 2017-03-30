@@ -87,6 +87,45 @@
         <note>key: fielddefinition.default-value.undefined</note>
         <jms:reference-file line="339">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="34ced944f5d7159b0597b98279e73be045c0ccd9" resname="fielddefinition.interval.day">
+        <source>%default% %day% day(s)</source>
+        <target xml:lang="it" state="translated">%default% %day% giorno (i)</target>
+        <note>key: fielddefinition.interval.day</note>
+        <jms:reference-file line="79">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4b31f5a6cfde5d347f3ad264daa7db77e704a5e0" resname="fielddefinition.interval.hour">
+        <source>%default% %hour% hour(s)</source>
+        <target xml:lang="it" state="translated">%default% %hour% ora/e</target>
+        <note>key: fielddefinition.interval.hour</note>
+        <jms:reference-file line="80">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="388ff2c36717a410a72060911657dce61108ed3c" resname="fielddefinition.interval.minute">
+        <source>%default% %minute% minute(s)</source>
+        <target xml:lang="it" state="translated">%default% %minute% minuto/i</target>
+        <note>key: fielddefinition.interval.minute</note>
+        <jms:reference-file line="81">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="it">%default% %minute% minuto(i)</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="b93b6a1548ffa873b1ef5a95c727f93d7be2fd0c" resname="fielddefinition.interval.month">
+        <source>%default% %month% month(s)</source>
+        <target xml:lang="it" state="translated">%default% %month% mese/i</target>
+        <note>key: fielddefinition.interval.month</note>
+        <jms:reference-file line="78">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c410f54bc82c293dcce4b252928dc4a020ab1705" resname="fielddefinition.interval.second">
+        <source>%default% %second% second(s)</source>
+        <target xml:lang="it" state="translated">%default% %second% secondo/i</target>
+        <note>key: fielddefinition.interval.second</note>
+        <jms:reference-file line="82">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c88fa282a777c6f3a778f513fc9e46800ffe0198" resname="fielddefinition.interval.year">
+        <source>%default% %year% year(s)</source>
+        <target xml:lang="it" state="translated">%default% %year% anno/i</target>
+        <note>key: fielddefinition.interval.year</note>
+        <jms:reference-file line="77">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="fa2595f063cfd4284226372dc99eb3dfbbc36498" resname="fielddefinition.isbn.label" approved="yes">
         <source>Selected ISBN format:</source>
         <target xml:lang="it">Formato selezionato ISBN:</target>
@@ -293,6 +332,18 @@
         <target xml:lang="it" state="translated">Modello base, singolo</target>
         <note>key: fielddefinition.selection-method.single_template</note>
         <jms:reference-file line="236">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e0b6bc6950269d05c7318553912abe4042d6a423" resname="fielddefinition.selection-method.tree">
+        <source>Drop-down tree</source>
+        <target xml:lang="it" state="translated">A discesa albero</target>
+        <note>key: fielddefinition.selection-method.tree</note>
+        <jms:reference-file line="209">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ccf4d68283a388e6a965caf9e507c6a39fffc46f" resname="fielddefinition.selection-root.label">
+        <source>Selection root:</source>
+        <target xml:lang="it" state="translated">Selezione punto di partenza:</target>
+        <note>key: fielddefinition.selection-root.label</note>
+        <jms:reference-file line="321">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c7b711d3eb6c197d83e064f309bd2e9791a0950d" resname="fielddefinition.selection-root.undefined">
         <source>No defined root</source>
