@@ -35,6 +35,14 @@
         <note>key: content_type.default_sort</note>
         <jms:reference-file line="72">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="252d43535d548e208668c24e8924f737a1a191c8" resname="content_type.edit">
+        <source>Edit</source>
+        <target xml:lang="ja" state="translated">編集</target>
+        <note>key: content_type.edit</note>
+        <jms:reference-file line="152">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="44">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
+        <jms:reference-file line="46">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="fd931f1ea0d601fe877606ec9e42ff7c37d44d4e" resname="content_type.group.cancel">
         <source>Cancel</source>
         <target xml:lang="ja" state="translated">キャンセル</target>
@@ -89,6 +97,26 @@
         <jms:reference-file line="46">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
         <jms:reference-file line="29">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="de2ea38b0604e5c021452e0eef43c2cc9494a2b7" resname="content_type.last_modified">
+        <source>Last modified: %date% by %modifier%</source>
+        <target xml:lang="ja" state="translated">最終更新日時: %date% by %modifier%</target>
+        <note>key: content_type.last_modified</note>
+        <jms:reference-file line="36">Resources/views/ContentType/update_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="29">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="da320072e416ddaba6f9ea57810d26fd1b6bfe80" resname="content_type.modified_date">
+        <source>Modification date</source>
+        <target xml:lang="ja" state="translated">更新日時</target>
+        <note>key: content_type.modified_date</note>
+        <jms:reference-file line="30">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7fddd251857df821bd536dd680e1edbc921790a2" resname="content_type.name">
+        <source>Name</source>
+        <target xml:lang="ja" state="translated">名前</target>
+        <note>key: content_type.name</note>
+        <jms:reference-file line="42">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="28">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="6ab7362c77b22ff8bc0d14eeaae8514b0a683473" resname="content_type.url_alias_schema">
         <source>URL alias name pattern</source>
         <target xml:lang="ja" state="translated">URL エイリアス名のパターン</target>
@@ -101,6 +129,12 @@
         <note>key: field_definition.identifier</note>
         <jms:reference-file line="100">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="9a02e329edf4c1e41c97c8be922137c284c249c4" resname="field_definition.name">
+        <source>Name</source>
+        <target xml:lang="ja" state="translated">名前</target>
+        <note>key: field_definition.name</note>
+        <jms:reference-file line="99">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="2e2ef6bae44fe23eec336dec39035b5d2c4b87b6" resname="field_definition.searchable">
         <source>Searchable</source>
         <target xml:lang="ja" state="translated">検索対象</target>
@@ -112,6 +146,12 @@
         <target xml:lang="ja" state="translated">翻訳対象</target>
         <note>key: field_definition.translatable</note>
         <jms:reference-file line="133">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9ca17bd05bb09ae1283d539c77d57558499ccca4" resname="field_definition.type">
+        <source>Type</source>
+        <target xml:lang="ja" state="translated">種別</target>
+        <note>key: field_definition.type</note>
+        <jms:reference-file line="101">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
     </body>
   </file>

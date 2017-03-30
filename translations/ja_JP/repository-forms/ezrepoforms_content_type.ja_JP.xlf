@@ -32,9 +32,18 @@
       </trans-unit>
       <trans-unit id="2aecf6f88fd1ee89037907b8743d5873879a0590" resname="content_type.field_definitions_data">
         <source>Content field definitions</source>
-        <target xml:lang="ja" state="translated">コンテンツフィールドの定義</target>
+        <target xml:lang="ja" state="translated">コンテンツフィールド定義</target>
         <note>key: content_type.field_definitions_data</note>
         <jms:reference-file line="120">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="ja">コンテンツフィールドの定義</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="a43bfd2651eb1f3357e3398286afd5b6e17c101e" resname="content_type.field_type_selection">
+        <source>Field type selection</source>
+        <target xml:lang="ja" state="translated">フィールドタイプの選択</target>
+        <note>key: content_type.field_type_selection</note>
+        <jms:reference-file line="126">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="368a6ffa173a2e9605371392e99e565d9b247382" resname="content_type.group.delete">
         <source>Delete</source>
@@ -300,6 +309,12 @@
         <note>key: field_definition.ezmedia.type_windows_media_player</note>
         <jms:reference-file line="36">lib/FieldType/Mapper/MediaFormMapper.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="5f4e08d826e58f0be9e678f7c7a60068fd63b567" resname="field_definition.ezrichtext.num_rows">
+        <source>Number of text rows in the editor</source>
+        <target xml:lang="ja" state="translated">エディター表示行数</target>
+        <note>key: field_definition.ezrichtext.num_rows</note>
+        <jms:reference-file line="26">lib/FieldType/Mapper/RichTextFormMapper.php</jms:reference-file>
+      </trans-unit>
       <trans-unit id="ac85420bb89c319433f4d0e8e988b6fa8363e8b9" resname="field_definition.ezselection.options">
         <source>Options</source>
         <target xml:lang="ja" state="translated">オプション</target>
@@ -311,6 +326,18 @@
         <target xml:lang="ja" state="translated">デフォルト値</target>
         <note>key: field_definition.ezstring.default_value</note>
         <jms:reference-file line="55">lib/FieldType/Mapper/TextLineFormMapper.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="aeb5a467102cac589770bb08efe1ae15c2845cca" resname="field_definition.ezstring.max_length">
+        <source>Maximum length</source>
+        <target xml:lang="ja" state="translated">最大文字数</target>
+        <note>key: field_definition.ezstring.max_length</note>
+        <jms:reference-file line="47">lib/FieldType/Mapper/TextLineFormMapper.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b3ccbbb1d949cd2ce5971857c15d8c972ee82691" resname="field_definition.ezstring.min_length">
+        <source>Minimum length</source>
+        <target xml:lang="ja" state="translated">最小文字数</target>
+        <note>key: field_definition.ezstring.min_length</note>
+        <jms:reference-file line="41">lib/FieldType/Mapper/TextLineFormMapper.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="0f8aa615d0ec1b242535348fecb702d9b75ca2eb" resname="field_definition.eztime.default_type">
         <source>Default value</source>
@@ -365,6 +392,12 @@
         <target xml:lang="ja" state="translated">名前</target>
         <note>key: field_definition.name</note>
         <jms:reference-file line="76">lib/Form/Type/FieldDefinition/FieldDefinitionType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f6d7350ade5162400b0848796720fe586392fa46" resname="field_definition.position">
+        <source>Position</source>
+        <target xml:lang="ja" state="translated">表示位置</target>
+        <note>key: field_definition.position</note>
+        <jms:reference-file line="99">lib/Form/Type/FieldDefinition/FieldDefinitionType.php</jms:reference-file>
       </trans-unit>
     </body>
   </file>

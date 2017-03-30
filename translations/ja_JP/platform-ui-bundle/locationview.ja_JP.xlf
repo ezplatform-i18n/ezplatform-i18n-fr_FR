@@ -6,6 +6,12 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="e751550d2bffb320256d3934693e4cbe1b9610b5" resname="confirmed.send.to.trash">
+        <source>Are you sure you want to send this content to trash?</source>
+        <target xml:lang="ja" state="translated">このコンテンツをごみ箱へ送ってもよろしいですか？</target>
+        <note>key: confirmed.send.to.trash</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-locationviewviewservice.js</jms:reference-file>
+      </trans-unit>
       <trans-unit id="e59fc009e6dc0079786973ab8b8542f463d3b233" resname="failed.updated.priority">
         <source>An error occurred when updating the priority</source>
         <target xml:lang="ja" state="translated">優先順位の更新時にエラーが発生しました</target>
@@ -66,11 +72,29 @@
         <note>key: locationview.locations.content.locations</note>
         <jms:reference-file>Resources/public/templates/tabs/locations.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="c74cc382c1023b02479021fe7b260023d1287df1" resname="locationview.locations.remove.selected">
+        <source>Remove selected</source>
+        <target xml:lang="ja" state="translated">選択項目を削除</target>
+        <note>key: locationview.locations.remove.selected</note>
+        <jms:reference-file>Resources/public/templates/tabs/locations.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="30412ae8741b6ad892f8e7121c1df1c98690fe69" resname="locationview.locations.select.content.item">
         <source>Select Content item</source>
         <target xml:lang="ja" state="translated">コンテンツアイテムの選択</target>
         <note>key: locationview.locations.select.content.item</note>
         <jms:reference-file>Resources/public/templates/tabs/locations.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0b409a5f5675b6ee03cfaea432d179c2648a36a3" resname="locationview.relations.related.content">
+        <source>Related content</source>
+        <target xml:lang="ja" state="translated">関連コンテンツ</target>
+        <note>key: locationview.relations.related.content</note>
+        <jms:reference-file>Resources/public/templates/tabs/relations.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="19f2181b9bb473b99dc985187f631876cebf3b35" resname="locationview.versions.archived.versions">
+        <source>Archived versions</source>
+        <target xml:lang="ja" state="translated">保存バージョン</target>
+        <note>key: locationview.versions.archived.versions</note>
+        <jms:reference-file>Resources/public/templates/tabs/versions.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="47912146dd99224ef2e39362cf689e245bbf604a" resname="locationview.versions.created">
         <source>Created</source>
@@ -90,10 +114,22 @@
         <note>key: locationview.versions.last.saved</note>
         <jms:reference-file>Resources/public/templates/tabs/versions.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="ab40edd4e3d49edea2de3a5e5339cc9527c9ff03" resname="locationview.versions.new.draft.selected.version">
+        <source>New draft based on selected version</source>
+        <target xml:lang="ja" state="translated">選択したバージョンで新規下書き</target>
+        <note>key: locationview.versions.new.draft.selected.version</note>
+        <jms:reference-file>Resources/public/templates/tabs/versions.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="bd9a1564891fdc81516078f86ecdb11dd212e86d" resname="locationview.versions.published.version">
         <source>Published version</source>
         <target xml:lang="ja" state="translated">公開バージョン</target>
         <note>key: locationview.versions.published.version</note>
+        <jms:reference-file>Resources/public/templates/tabs/versions.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="51b6a4fff074bf24fc4183bc944890cc849ba82d" resname="locationview.versions.remove.selected.archived.version">
+        <source>Remove selected archived version(s)</source>
+        <target xml:lang="ja" state="translated">選択した保存バージョンの削除</target>
+        <note>key: locationview.versions.remove.selected.archived.version</note>
         <jms:reference-file>Resources/public/templates/tabs/versions.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="199990450f06a84725d61f91a899166d0d3305c4" resname="locationview.versions.version">
@@ -137,6 +173,12 @@
         <target xml:lang="ja" state="translated">ロケーション</target>
         <note>key: tab.locations</note>
         <jms:reference-file>Resources/public/js/views/tabs/ez-locationviewlocationstabview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="20043ee647633fb1c639869bce609c568c195de1" resname="tab.related.content">
+        <source>Related content</source>
+        <target xml:lang="ja" state="translated">関連コンテンツ</target>
+        <note>key: tab.related.content</note>
+        <jms:reference-file>Resources/public/js/views/tabs/ez-locationviewrelationstabview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="5d768a9bb2d1a42f98c5af3016c1019497d8ac62" resname="tab.versions">
         <source>Versions</source>
