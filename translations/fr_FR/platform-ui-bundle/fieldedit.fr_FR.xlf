@@ -390,9 +390,12 @@
       </trans-unit>
       <trans-unit id="e21151edf210d6968aa67c35235066389865f136" resname="maplocation.latitude">
         <source>Latitude:</source>
-        <target xml:lang="fr" state="translated">Latitude:</target>
+        <target xml:lang="fr" state="translated">Latitude :</target>
         <note>key: maplocation.latitude</note>
         <jms:reference-file>Resources/public/templates/fields/edit/maplocation.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Latitude:</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="04e7fa05923b84dde058e7a8b349de8a019962f8" resname="maplocation.locateaddress">
         <source>Locate Address</source>
@@ -408,9 +411,12 @@
       </trans-unit>
       <trans-unit id="60f60bbfc3c9cd30603670eb6b91fa5a1619f73b" resname="maplocation.longitude">
         <source>Longitude:</source>
-        <target xml:lang="fr" state="translated">Longitude:</target>
+        <target xml:lang="fr" state="translated">Longitude :</target>
         <note>key: maplocation.longitude</note>
         <jms:reference-file>Resources/public/templates/fields/edit/maplocation.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Longitude:</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="de4d15e55b8a04ee1b6f188b3cf6dac4aca30d5a" resname="media.audio.empty">
         <source>No audio file yet.</source>
@@ -600,9 +606,12 @@
       </trans-unit>
       <trans-unit id="c0c592b62ccf324bfae2eba6f869050b32641b0c" resname="relation.error">
         <source>An error occurred while loading the related content.</source>
-        <target xml:lang="fr" state="translated">Une erreur est survenue lors du chargement de la liste des contenus liés.</target>
+        <target xml:lang="fr" state="translated">Une erreur est survenue lors du chargement de la liste des contenus en relation.</target>
         <note>key: relation.error</note>
         <jms:reference-file>Resources/public/templates/fields/edit/relation.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Une erreur est survenue lors du chargement de la liste des contenus liés.</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="1a0432678a22f538bc956d02a1a52709a24019a3" resname="relation.help">
         <source>Select another content and link it up with your content.</source>
@@ -624,9 +633,12 @@
       </trans-unit>
       <trans-unit id="fe7dd2a6fbf71766715c5ea46100398267102adc" resname="relation.published">
         <source>Published:</source>
-        <target xml:lang="fr" state="translated">Publié:</target>
+        <target xml:lang="fr" state="translated">Publié :</target>
         <note>key: relation.published</note>
         <jms:reference-file>Resources/public/templates/fields/edit/relation.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Publié:</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="f46aad015f05a6ae74da1d451f030dcc02dc1e39" resname="relation.remove">
         <source>Remove relation</source>
@@ -642,9 +654,12 @@
       </trans-unit>
       <trans-unit id="2e594c668c9f88817270dd8c12acd559fe485f5b" resname="relation.select">
         <source>Select a content</source>
-        <target xml:lang="fr" state="translated">Selectionner un contenu</target>
+        <target xml:lang="fr" state="translated">Sélectionner un contenu</target>
         <note>key: relation.select</note>
         <jms:reference-file>Resources/public/templates/fields/edit/relation.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Selectionner un contenu</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="76eb23938007b8dc5d74961c52923f34fd9863fc" resname="relationlist.empty">
         <source>No relation.</source>
@@ -684,9 +699,12 @@
       </trans-unit>
       <trans-unit id="4d8d4cfb7509f6d02d61100e1b940fb5a847d91d" resname="relationlist.select">
         <source>Select contents</source>
-        <target xml:lang="fr" state="translated">Selectionner des contenus</target>
+        <target xml:lang="fr" state="translated">Sélectionner des contenus</target>
         <note>key: relationlist.select</note>
         <jms:reference-file>Resources/public/templates/fields/edit/relationlist.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Selectionner des contenus</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="1c46a1068b55e75f3cac49a3f59c85ca19edbc52" resname="relationlist.table.modified">
         <source>Modified</source>

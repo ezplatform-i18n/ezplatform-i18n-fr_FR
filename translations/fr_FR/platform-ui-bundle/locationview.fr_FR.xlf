@@ -395,9 +395,12 @@
       </trans-unit>
       <trans-unit id="0b409a5f5675b6ee03cfaea432d179c2648a36a3" resname="locationview.relations.related.content">
         <source>Related content</source>
-        <target xml:lang="fr" state="translated">Contenu lié</target>
+        <target xml:lang="fr" state="translated">Relations</target>
         <note>key: locationview.relations.related.content</note>
         <jms:reference-file>Resources/public/templates/tabs/relations.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Contenu lié</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="8aea3326a700a081784bc0e51f0c91a3583eedc2" resname="locationview.relations.relation.type">
         <source>Relation type</source>
@@ -649,9 +652,12 @@
       </trans-unit>
       <trans-unit id="20043ee647633fb1c639869bce609c568c195de1" resname="tab.related.content">
         <source>Related content</source>
-        <target xml:lang="fr" state="translated">Contenu lié</target>
+        <target xml:lang="fr" state="translated">Relations</target>
         <note>key: tab.related.content</note>
         <jms:reference-file>Resources/public/js/views/tabs/ez-locationviewrelationstabview.js</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Contenu lié</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="5d768a9bb2d1a42f98c5af3016c1019497d8ac62" resname="tab.versions">
         <source>Versions</source>
