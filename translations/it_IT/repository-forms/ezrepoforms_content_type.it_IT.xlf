@@ -18,11 +18,167 @@
         <note>key: content_type.create</note>
         <jms:reference-file line="67">lib/Form/Type/ContentType/ContentTypeCreateType.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="7b64ebcf792d888de957eaee1c3734c97c80db98" resname="content_type.default_always_available">
+        <source>Default content availability</source>
+        <target xml:lang="it" state="translated">Il contenuto sarà sempre disponibile</target>
+        <note>key: content_type.default_always_available</note>
+        <jms:reference-file line="115">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b29f5d9c32e10776ec9fd36c35c4aefc96732cb2" resname="content_type.default_sort_field">
+        <source>Default field for sorting children</source>
+        <target xml:lang="it" state="translated">I figli vengono ordinati per</target>
+        <note>key: content_type.default_sort_field</note>
+        <jms:reference-file line="103">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7a67ffefca1339a9e4c5224d773378c2e5f6f378" resname="content_type.default_sort_order">
+        <source>Default sort order</source>
+        <target xml:lang="it" state="translated">Ordine di ordinamento</target>
+        <note>key: content_type.default_sort_order</note>
+        <jms:reference-file line="111">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f2a3cc77cdadcff8883b0022e006e24918307687" resname="content_type.description">
+        <source>Description</source>
+        <target xml:lang="it" state="translated">Descrizione</target>
+        <note>key: content_type.description</note>
+        <jms:reference-file line="83">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2aecf6f88fd1ee89037907b8743d5873879a0590" resname="content_type.field_definitions_data">
+        <source>Content field definitions</source>
+        <target xml:lang="it" state="translated">Definizione dei field di contenuto</target>
+        <note>key: content_type.field_definitions_data</note>
+        <jms:reference-file line="120">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a43bfd2651eb1f3357e3398286afd5b6e17c101e" resname="content_type.field_type_selection">
+        <source>Field type selection</source>
+        <target xml:lang="it" state="translated">Segli il tipo di field</target>
+        <note>key: content_type.field_type_selection</note>
+        <jms:reference-file line="126">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="it">Segli il tipo di field da aggiungere</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="it">Segli il tipo di field da aggiungere alla classe</target>
+        </alt-trans>
+      </trans-unit>
       <trans-unit id="368a6ffa173a2e9605371392e99e565d9b247382" resname="content_type.group.delete">
         <source>Delete</source>
         <target xml:lang="it" state="translated">Cancella</target>
         <note>key: content_type.group.delete</note>
         <jms:reference-file line="32">lib/Form/Type/ContentType/ContentTypeGroupDeleteType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="238db0c5dee8ec13199b073f7cc78728f53ffa36" resname="content_type.identifier">
+        <source>Identifier</source>
+        <target xml:lang="it" state="translated">Identificatore</target>
+        <note>key: content_type.identifier</note>
+        <jms:reference-file line="77">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="338e462a91906d03e5e6b8c00528a38d482a3c9e" resname="content_type.is_container">
+        <source>Container</source>
+        <target xml:lang="it" state="translated">Contenitore</target>
+        <note>key: content_type.is_container</note>
+        <jms:reference-file line="89">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7fddd251857df821bd536dd680e1edbc921790a2" resname="content_type.name">
+        <source>Name</source>
+        <target xml:lang="it" state="translated">Nome della classe</target>
+        <note>key: content_type.name</note>
+        <jms:reference-file line="74">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9e9628fc59643f3167ebe81dfed3e40eecd281c9" resname="content_type.name_schema">
+        <source>Content name pattern</source>
+        <target xml:lang="it" state="translated">Pattern per il content name</target>
+        <note>key: content_type.name_schema</note>
+        <jms:reference-file line="87">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="49e5f320e6e37cbd53a5d290e3ffd48788226852" resname="content_type.publish">
+        <source>OK</source>
+        <target xml:lang="it" state="translated">OK</target>
+        <note>key: content_type.publish</note>
+        <jms:reference-file line="132">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="701cbaa7ea48016d7b0eb5940e810cacd16c19b3" resname="content_type.remove_draft">
+        <source>Cancel</source>
+        <target xml:lang="it" state="translated">Annulla</target>
+        <note>key: content_type.remove_draft</note>
+        <jms:reference-file line="131">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5fa42f2a0ef1fee12efaa4cdb1c35bbed35e9b7e" resname="content_type.remove_field_definitions">
+        <source>Remove selected field definitions</source>
+        <target xml:lang="it" state="translated">Rimuovi le definizioni di field scelte</target>
+        <note>key: content_type.remove_field_definitions</note>
+        <jms:reference-file line="129">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="946ba9e49beabdacd143e10e343f852736c081d8" resname="content_type.save">
+        <source>Apply</source>
+        <target xml:lang="it" state="translated">Applica</target>
+        <note>key: content_type.save</note>
+        <jms:reference-file line="130">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="18f4f0dcdd6a1f1a9f7a5c301cc378167f403836" resname="content_type.sort_order.0">
+        <source>Descending</source>
+        <target xml:lang="it" state="translated">Discendente</target>
+        <note>key: content_type.sort_order.0</note>
+        <jms:reference-file>eZ\Publish\API\Repository\Values\Content\Location</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b411f25ded028ccb2ef56a55d69bd2e3f1da4cd5" resname="content_type.sort_order.1">
+        <source>Ascending</source>
+        <target xml:lang="it" state="translated">Ascendente</target>
+        <note>key: content_type.sort_order.1</note>
+        <jms:reference-file>eZ\Publish\API\Repository\Values\Content\Location</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6ab7362c77b22ff8bc0d14eeaae8514b0a683473" resname="content_type.url_alias_schema">
+        <source>URL alias name pattern</source>
+        <target xml:lang="it" state="translated">Patter per l'URL alias</target>
+        <note>key: content_type.url_alias_schema</note>
+        <jms:reference-file line="88">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f99cc628dc4d82c5ee69eae79039a2f449eec064" resname="field_definition.description">
+        <source>Description</source>
+        <target xml:lang="it" state="translated">Descrizione</target>
+        <note>key: field_definition.description</note>
+        <jms:reference-file line="84">lib/Form/Type/FieldDefinition/FieldDefinitionType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="92d9243bb9fac540233dc376b41a3bcd41615ccc" resname="field_definition.field_group">
+        <source>Category</source>
+        <target xml:lang="it" state="translated">Categoria di appartenenza</target>
+        <note>key: field_definition.field_group</note>
+        <jms:reference-file line="96">lib/Form/Type/FieldDefinition/FieldDefinitionType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8b863a9c7cd91565182ad0a3a5e30ca8090f84c7" resname="field_definition.identifier">
+        <source>Identifier</source>
+        <target xml:lang="it" state="translated">Identificatore</target>
+        <note>key: field_definition.identifier</note>
+        <jms:reference-file line="79">lib/Form/Type/FieldDefinition/FieldDefinitionType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6e91f443eb0cd4ab99331950f20cdbcc03f0b88c" resname="field_definition.is_required">
+        <source>Required</source>
+        <target xml:lang="it" state="translated">Richiesto</target>
+        <note>key: field_definition.is_required</note>
+        <jms:reference-file line="88">lib/Form/Type/FieldDefinition/FieldDefinitionType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a0267d640a8276b546263c23a5dfdf8e99cc3468" resname="field_definition.is_searchable">
+        <source>Searchable</source>
+        <target xml:lang="it" state="translated">Cercabile</target>
+        <note>key: field_definition.is_searchable</note>
+        <jms:reference-file line="113">lib/Form/Type/FieldDefinition/FieldDefinitionType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="83aba8c0c4c654d481c4520feb76e789fbc64c22" resname="field_definition.is_translatable">
+        <source>Translatable</source>
+        <target xml:lang="it" state="translated">Traducibile</target>
+        <note>key: field_definition.is_translatable</note>
+        <jms:reference-file line="89">lib/Form/Type/FieldDefinition/FieldDefinitionType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9a02e329edf4c1e41c97c8be922137c284c249c4" resname="field_definition.name">
+        <source>Name</source>
+        <target xml:lang="it" state="translated">Etichetta per il campo</target>
+        <note>key: field_definition.name</note>
+        <jms:reference-file line="76">lib/Form/Type/FieldDefinition/FieldDefinitionType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f6d7350ade5162400b0848796720fe586392fa46" resname="field_definition.position">
+        <source>Position</source>
+        <target xml:lang="it" state="translated">Posizione</target>
+        <note>key: field_definition.position</note>
+        <jms:reference-file line="99">lib/Form/Type/FieldDefinition/FieldDefinitionType.php</jms:reference-file>
       </trans-unit>
     </body>
   </file>

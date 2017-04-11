@@ -12,6 +12,12 @@
         <note>key: content_type.container</note>
         <jms:reference-file line="62">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="f1312e397c7aa2e8e21be7f65161c6a99b728d3e" resname="content_type.content.title">
+        <source>Content field definitions</source>
+        <target xml:lang="it" state="translated">Definizioni del Content field</target>
+        <note>key: content_type.content.title</note>
+        <jms:reference-file line="86">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="d93b35cbbda2fccd239d83cd8e4fbba2cbb02166" resname="content_type.dashboard_title">
         <source>Content types</source>
         <target xml:lang="it" state="translated">Tipi di contenuto</target>
@@ -22,6 +28,65 @@
         <jms:reference-file line="13">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
         <jms:reference-file line="10">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
         <jms:reference-file line="15">Resources/views/Dashboard/dashboard.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="693f9ade0c2bb6a7c19b6f9b818d96aa23f1e013" resname="content_type.default_availability">
+        <source>Default availability in primary language, if translation is absent</source>
+        <target xml:lang="it" state="translated">Disponibilità predefinita nella lingua primaria, se manca la traduzione</target>
+        <note>key: content_type.default_availability</note>
+        <jms:reference-file line="77">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="it">Disponibilità di predefinita nella lingua primaria, se manca la traduzione</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="3b3fc626a669a5462ec9fa7c94280a3573d8b106" resname="content_type.default_availability.help">
+        <source>Default availability in primary language, if translation is absent</source>
+        <target xml:lang="it" state="translated">Disponibilità predefinita nella lingua primaria, se manca la traduzione</target>
+        <note>key: content_type.default_availability.help</note>
+        <jms:reference-file line="78">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d14799b2ac8854ab3f0bb9976258c3db39213d09" resname="content_type.default_availability.value">
+        <source>{0} Not available|{1} Available</source>
+        <target xml:lang="it" state="translated">{0} non disponibile |{1} disponibile</target>
+        <note>key: content_type.default_availability.value</note>
+        <jms:reference-file line="80">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cefc13177fd81d4c9df6f8e86eb5278fccbe5a5a" resname="content_type.default_sort">
+        <source>Default sort order</source>
+        <target xml:lang="it" state="translated">Ordinamento predefinito</target>
+        <note>key: content_type.default_sort</note>
+        <jms:reference-file line="72">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f2a3cc77cdadcff8883b0022e006e24918307687" resname="content_type.description">
+        <source>Description</source>
+        <target xml:lang="it" state="translated">Descrizione</target>
+        <note>key: content_type.description</note>
+        <jms:reference-file line="50">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="252d43535d548e208668c24e8924f737a1a191c8" resname="content_type.edit">
+        <source>Edit</source>
+        <target xml:lang="it" state="translated">Modifica</target>
+        <note>key: content_type.edit</note>
+        <jms:reference-file line="152">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="44">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
+        <jms:reference-file line="46">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="38a48d5b27331f27a6a51e3bb9be3e6340fc1ccb" resname="content_type.edit_title">
+        <source>Edit</source>
+        <target xml:lang="it" state="translated">Modifica</target>
+        <note>key: content_type.edit_title</note>
+        <jms:reference-file line="154">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="139bc06fcecd7ab2e8e59233d52cae047b22af5b" resname="content_type.group">
+        <source>Content type group</source>
+        <target xml:lang="it" state="translated">Gruppo tipo di contenuto</target>
+        <note>key: content_type.group</note>
+        <jms:reference-file line="17">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="fd931f1ea0d601fe877606ec9e42ff7c37d44d4e" resname="content_type.group.cancel">
+        <source>Cancel</source>
+        <target xml:lang="it" state="translated">Annulla</target>
+        <note>key: content_type.group.cancel</note>
+        <jms:reference-file line="42">Resources/views/ContentType/edit_content_type_group.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ad7e97ad4cf67edf7aadf9010b17c34dc57aa0a6" resname="content_type.group.edit">
         <source>Edit</source>
@@ -60,6 +125,16 @@
         <note>key: content_type.group.new</note>
         <jms:reference-file line="65">Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
         <jms:reference-file line="67">Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="de2ea38b0604e5c021452e0eef43c2cc9494a2b7" resname="content_type.last_modified">
+        <source>Last modified: %date% by %modifier%</source>
+        <target xml:lang="it" state="translated">Ultima Modifica: %date% fatta da %modifier%</target>
+        <note>key: content_type.last_modified</note>
+        <jms:reference-file line="36">Resources/views/ContentType/update_content_type.html.twig</jms:reference-file>
+        <jms:reference-file line="29">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="it">Ultima Modifica</target>
+        </alt-trans>
       </trans-unit>
     </body>
   </file>

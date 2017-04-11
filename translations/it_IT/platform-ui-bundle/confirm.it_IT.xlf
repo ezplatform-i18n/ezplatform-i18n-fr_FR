@@ -12,6 +12,36 @@
         <note>key: confirmbox.cancel</note>
         <jms:reference-file>Resources/public/templates/confirmbox.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="333383790307ace20d9c43e23fa613daf0e4492c" resname="confirmbox.confirm">
+        <source>Confirm</source>
+        <target xml:lang="it" state="translated">Conferma</target>
+        <note>key: confirmbox.confirm</note>
+        <jms:reference-file>Resources/public/templates/confirmbox.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c478b39ac9ceac6e2a91a937bb1d9fd310cb607d" resname="draftconflict.language">
+        <source>Language</source>
+        <target xml:lang="it" state="translated">Linguaggio</target>
+        <note>key: draftconflict.language</note>
+        <jms:reference-file>Resources/public/templates/confirmbox/draftconflict.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0061cab899c3a8d9b9f601491b0474f9d85d92a7" resname="draftconflict.lastmodified">
+        <source>Last Modified</source>
+        <target xml:lang="it" state="translated">Ultima modifica</target>
+        <note>key: draftconflict.lastmodified</note>
+        <jms:reference-file>Resources/public/templates/confirmbox/draftconflict.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c35f9f95f267fd0c78da8ae80914a1cbc15bb90b" resname="draftconflict.newdraft">
+        <source>New Draft</source>
+        <target xml:lang="it" state="translated">Nuova bozza</target>
+        <note>key: draftconflict.newdraft</note>
+        <jms:reference-file>Resources/public/templates/confirmbox/draftconflict.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="302cfdba7ddbb677d9abb7967b44aaf8ab0ce8d0" resname="draftconflict.owner">
+        <source>Owner</source>
+        <target xml:lang="it" state="translated">Proprietario</target>
+        <note>key: draftconflict.owner</note>
+        <jms:reference-file>Resources/public/templates/confirmbox/draftconflict.hbt</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>

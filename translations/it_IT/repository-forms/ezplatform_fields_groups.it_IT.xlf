@@ -8,8 +8,11 @@
     <body>
       <trans-unit id="040f06fd774092478d450774f5ba30c5da78acc8" resname="content">
         <source>Content</source>
-        <target xml:lang="it" state="translated">Cntenuto</target>
+        <target xml:lang="it" state="translated">Contenuto</target>
         <note>key: content</note>
+        <alt-trans>
+          <target xml:lang="it">Cntenuto</target>
+        </alt-trans>
       </trans-unit>
     </body>
   </file>
