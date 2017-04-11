@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="e9c04dcd1a73d8cb5fc72ca356e61ab28d38ec46" resname="dashboard.title" approved="yes">
         <source>Dashboard</source>
-        <target xml:lang="fr">Tableau de Bord</target>
+        <target xml:lang="fr">Tableau de bord</target>
         <note>key: dashboard.title</note>
         <jms:reference-file line="13">Resources/views/ContentType/edit_content_type_group.html.twig</jms:reference-file>
         <jms:reference-file line="7">Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
@@ -30,6 +30,9 @@
         <jms:reference-file line="38">Resources/views/Section/list.html.twig</jms:reference-file>
         <jms:reference-file line="7">Resources/views/Section/view.html.twig</jms:reference-file>
         <jms:reference-file line="7">Resources/views/SystemInfo/info.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Tableau de Bord</target>
+        </alt-trans>
       </trans-unit>
     </body>
   </file>

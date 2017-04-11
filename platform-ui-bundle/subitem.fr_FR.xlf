@@ -51,9 +51,12 @@
       </trans-unit>
       <trans-unit id="a48dcd8c90a5ec18b087c64865a8aaeddb83107c" resname="subitem.error.loading.image">
         <source>An error occurred while loading the image.</source>
-        <target xml:lang="fr" state="translated">Une erreur est apparue lors du chargement de l'image.</target>
+        <target xml:lang="fr" state="translated">Une erreur s'est produite lors du chargement de l'image.</target>
         <note>key: subitem.error.loading.image</note>
         <jms:reference-file>Resources/public/templates/subitem/griditem.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Une erreur est apparue lors du chargement de l'image.</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="687a6cc31795b1c3ef4754351319522f21e40d28" resname="subitem.error.loading.list">
         <source>An error occurred while loading the sub-items list.</source>
@@ -115,10 +118,13 @@
       </trans-unit>
       <trans-unit id="3cae0754bed733e5785947e0b1a795ffeacb8a12" resname="viewing.out.of.items">
         <source><![CDATA[viewing <strong class="ez-loadmorepagination-display-count">%displayCount%</strong> out of <strong>%subitemCount%</strong> sub-items]]></source>
-        <target xml:lang="fr" state="translated"><![CDATA[affichage de <strong class="ez-loadmorepagination-display-count">%displayCount%</strong> sur <strong>%subitemCount%</strong> sous-élements]]></target>
+        <target xml:lang="fr" state="translated"><![CDATA[affichage de <strong class="ez-loadmorepagination-display-count">%displayCount%</strong> des <strong>%subitemCount%</strong> sous-élements]]></target>
         <note>key: viewing.out.of.items</note>
         <jms:reference-file>Resources/public/templates/subitem/grid.hbt</jms:reference-file>
         <jms:reference-file>Resources/public/templates/subitem/listmore.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr"><![CDATA[affichage de <strong class="ez-loadmorepagination-display-count">%displayCount%</strong> sur <strong>%subitemCount%</strong> sous-élements]]></target>
+        </alt-trans>
       </trans-unit>
     </body>
   </file>
