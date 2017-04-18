@@ -6,6 +6,12 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="41c3a5ae2a605ec7f8c6bdb8f33a730e3967f110" resname="being.moved.under">
+        <source>'%name%' is being moved under '%parentName%'</source>
+        <target xml:lang="de" state="translated">"Name" wird unter "Parent-Name" verschoben</target>
+        <note>key: being.moved.under</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-locationviewviewservice.js</jms:reference-file>
+      </trans-unit>
       <trans-unit id="c44059e516685b63857e6db9c22a11ed0d990519" resname="deleted.content">
         <source>'%name%' was deleted</source>
         <target xml:lang="de" state="translated">"%name%" wurde gelöscht</target>

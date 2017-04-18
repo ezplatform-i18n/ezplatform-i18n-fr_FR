@@ -12,11 +12,24 @@
         <note>key: change</note>
         <jms:reference-file>Resources/public/templates/contentedit.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="d4a9f87b1214f3f434e3e765c826de1501b17932" resname="change.language.to">
+        <source>Change language to:</source>
+        <target xml:lang="de" state="translated">Sprache ändern zu</target>
+        <note>key: change.language.to</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-contentcreateviewservice.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+      </trans-unit>
       <trans-unit id="f3528c72d108e105ecdb31e377a3514595dcfa6a" resname="content.id.location.id">
         <source>Content ID: %contentId%, Location ID: %locationId%</source>
         <target xml:lang="de" state="translated">Content-ID: %contentId%, Location-ID: %locationId%</target>
         <note>key: content.id.location.id</note>
         <jms:reference-file>Resources/public/templates/contentedit.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="057746443dd8e7aff0175db05603443dec7df180" resname="content.published">
+        <source>Content has been published</source>
+        <target xml:lang="de" state="translated">Content wurde veröffentlicht</target>
+        <note>key: content.published</note>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-publishdraftplugin.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="54a68935aefb2a88a794f8b85d8c3170588edb3f" resname="contentedit.close.preview">
         <source>Close preview</source>
@@ -47,6 +60,24 @@
         <target xml:lang="de" state="translated">Der Entwurf wurde erfolgreich gespeichert</target>
         <note>key: draft.saved</note>
         <jms:reference-file>Resources/public/js/views/services/plugins/ez-savedraftplugin.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9db67cccc0bb69201e5e3c2b4e9f38f4ab4d1825" resname="error.publishing.draft">
+        <source>An error occurred while publishing the draft</source>
+        <target xml:lang="de" state="translated">Während der Veröffentlichung des Entwurfs ist ein Fehler aufgetreten.</target>
+        <note>key: error.publishing.draft</note>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-publishdraftplugin.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a73c8d3d7af831b9afb385bad44ea20909312ce3" resname="error.saving.draft">
+        <source>An error occurred while saving the draft</source>
+        <target xml:lang="de" state="translated">Fehler beim Speichern des Entwurfs</target>
+        <note>key: error.saving.draft</note>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-savedraftplugin.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="017e73e2672420a3448a1f74176b3dcbaf06082e" resname="failed.finding.content">
+        <source>Could not find the content id '%id%'</source>
+        <target xml:lang="de" state="translated">Die Content-ID "%id%" konnte nicht gefunden werden.</target>
+        <note>key: failed.finding.content</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="1aa787fe0cfb373575fc2c0f6f826e7c6dc9fd41" resname="preview">
         <source>Preview</source>
