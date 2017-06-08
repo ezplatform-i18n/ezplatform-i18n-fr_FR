@@ -19,6 +19,12 @@
         <note>key: composer</note>
         <jms:reference-file line="3">Resources/views/ez-support-tools/info/composer.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="d46743c0b44b0022d9e5743ffe753b2452c381a4" resname="composer.minimum_stability">
+        <source>Minimum stability</source>
+        <target xml:lang="it" state="translated">Stabilita minima</target>
+        <note>key: composer.minimum_stability</note>
+        <jms:reference-file line="5">Resources/views/ez-support-tools/info/composer.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="ca49ca4bb6732ef61577364cb33b115854e88f06" resname="cpu">
         <source>CPU</source>
         <target xml:lang="it" state="translated">CPU</target>
@@ -55,11 +61,61 @@
         <note>key: database.username</note>
         <jms:reference-file line="11">Resources/views/ez-support-tools/info/database.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="07596f183f5e91b1778d5e47b2752b8d42aa763d" resname="disabled">
+        <source>Disabled</source>
+        <target xml:lang="it" state="translated">Disabilitato</target>
+        <note>key: disabled</note>
+        <jms:reference-file line="13">Resources/views/ez-support-tools/info/php.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="608cb271bb7fb52c99a1a8e003e0f80f57fb41e1" resname="hardware">
+        <source>Hardware</source>
+        <target xml:lang="it" state="translated">Hardware</target>
+        <note>key: hardware</note>
+        <jms:reference-file line="3">Resources/views/ez-support-tools/info/hardware.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="81c5d49be9505089d8d248ea96f6d077fd0ab9bd" resname="memory">
         <source>Memory</source>
         <target xml:lang="it" state="translated">Memoria (Ram)</target>
         <note>key: memory</note>
         <jms:reference-file line="12">Resources/views/ez-support-tools/info/hardware.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a5a3d389f27a890d41a05f33c37b2f6133497c88" resname="mhz">
+        <source>MHz</source>
+        <target xml:lang="it" state="translated">MHz</target>
+        <note>key: mhz</note>
+        <jms:reference-file line="9">Resources/views/ez-support-tools/info/hardware.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d8ae088aee969371bf4ed994e9106b5d3e799c35" resname="packages">
+        <source>Packages</source>
+        <target xml:lang="it" state="translated">Pacchetti</target>
+        <note>key: packages</note>
+        <jms:reference-file line="15">Resources/views/ez-support-tools/info/composer.html.twig</jms:reference-file>
+        <jms:reference-file line="9">Resources/views/ez-support-tools/info/composer.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5bfa5c4492601632e405273e2f7ea28977f108c3" resname="packages.empty">
+        <source>Could not find any packages, composer.lock file missing?</source>
+        <target xml:lang="it" state="translated">Non riusco a trovare nessun pacchetto: manca il file composer.lock?</target>
+        <note>key: packages.empty</note>
+        <jms:reference-file line="10">Resources/views/ez-support-tools/info/composer.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="47425e4490d1548713efea3b8a6f5d778e4b1766" resname="php">
+        <source>PHP</source>
+        <target xml:lang="it" state="translated">PHP</target>
+        <note>key: php</note>
+        <jms:reference-file line="3">Resources/views/ez-support-tools/info/php.html.twig</jms:reference-file>
+        <jms:reference-file line="5">Resources/views/ez-support-tools/info/php.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="43ebf283d294d1a15b5d590815cd893e52164ed9" resname="php.accelerator">
+        <source>PHP Accelerator</source>
+        <target xml:lang="it" state="translated">Acceleratore PHP</target>
+        <note>key: php.accelerator</note>
+        <jms:reference-file line="10">Resources/views/ez-support-tools/info/php.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ee982f9a979085f2f15b3ddc699bfada99429bb4" resname="php.info">
+        <source>PHP info</source>
+        <target xml:lang="it" state="translated">PHP info</target>
+        <note>key: php.info</note>
+        <jms:reference-file line="8">Resources/views/ez-support-tools/info/php.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="98c89e1daa8c0a7c472af26752752299ff44ee23" resname="symfony_kernel">
         <source>Symfony kernel</source>
@@ -72,6 +128,24 @@
         <target xml:lang="it" state="translated">Non posso trovare nessun bundles.</target>
         <note>key: symfony_kernel.bundles.empty</note>
         <jms:reference-file line="24">Resources/views/ez-support-tools/info/symfony_kernel.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8bce9f0cf5c9c698c1907808aa20cfa0b1ec9ecb" resname="symfony_kernel.cacheDir">
+        <source>Cache directory</source>
+        <target xml:lang="it" state="translated">Directory della cache</target>
+        <note>key: symfony_kernel.cacheDir</note>
+        <jms:reference-file line="15">Resources/views/ez-support-tools/info/symfony_kernel.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="74d0f849585c3bfe67e3477d0773fd8f097bd54d" resname="symfony_kernel.charset">
+        <source>Character set</source>
+        <target xml:lang="it" state="translated">Set di caratteri</target>
+        <note>key: symfony_kernel.charset</note>
+        <jms:reference-file line="19">Resources/views/ez-support-tools/info/symfony_kernel.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8da408eada2e85ad98868421df6185d1c8e4bdb2" resname="symfony_kernel.debugMode">
+        <source>Debug mode</source>
+        <target xml:lang="it" state="translated">Modalità Debug</target>
+        <note>key: symfony_kernel.debugMode</note>
+        <jms:reference-file line="7">Resources/views/ez-support-tools/info/symfony_kernel.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b279d615747857a87b80e268ef4a8eefc631cd3c" resname="symfony_kernel.debugMode.disabled">
         <source>Disabled</source>
@@ -91,11 +165,23 @@
         <note>key: symfony_kernel.environment</note>
         <jms:reference-file line="5">Resources/views/ez-support-tools/info/symfony_kernel.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="b04c158895f34062a8748223da67059fe45b3a60" resname="symfony_kernel.logDir">
+        <source>Log directory</source>
+        <target xml:lang="it" state="translated">Directory di log</target>
+        <note>key: symfony_kernel.logDir</note>
+        <jms:reference-file line="17">Resources/views/ez-support-tools/info/symfony_kernel.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="ea20258358e7a0d4e8bc037d4e352ac2ad06b7fa" resname="symfony_kernel.name">
         <source>Name</source>
         <target xml:lang="it" state="translated">Nome</target>
         <note>key: symfony_kernel.name</note>
         <jms:reference-file line="11">Resources/views/ez-support-tools/info/symfony_kernel.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="56014c7eba59799c182934e3a0eb97eff6fd8a97" resname="symfony_kernel.rootDir">
+        <source>Root directory</source>
+        <target xml:lang="it" state="translated">Directory principale</target>
+        <note>key: symfony_kernel.rootDir</note>
+        <jms:reference-file line="13">Resources/views/ez-support-tools/info/symfony_kernel.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="74fd4792096e74360c7508e16bbe7c1e121d393e" resname="symfony_kernel.version">
         <source>Version</source>

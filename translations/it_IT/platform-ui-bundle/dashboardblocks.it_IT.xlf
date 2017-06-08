@@ -6,6 +6,12 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="643281298a4a2c0e5590ad430fbf5c503888dfec" resname="cannot.load.root.location">
+        <source>Cannot load root location</source>
+        <target xml:lang="it" state="translated">Impossibile caricare la root location</target>
+        <note>key: cannot.load.root.location</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-dashboardblocksviewservice.js</jms:reference-file>
+      </trans-unit>
       <trans-unit id="ff6664ae5d5b882ee85a683861bf2d39369f3992" resname="dashboard.all.content">
         <source>All Content</source>
         <target xml:lang="it" state="translated">Tutti i contenuti</target>
@@ -28,6 +34,19 @@
         <jms:reference-file>Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
         <jms:reference-file>Resources/public/templates/dashboard/mydrafts.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="c26996ea8c335b1df9a001af761adf5e2aa5f2e6" resname="dashboard.loading.draft.error">
+        <source>An error occurred while loading the draft list.</source>
+        <target xml:lang="it" state="translated">Si è verificato un errore durante il caricamento della lista delle bozze.</target>
+        <note>key: dashboard.loading.draft.error</note>
+        <jms:reference-file>Resources/public/templates/dashboard/mydrafts.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="90451c27b66dffbfea45c8ce24eff1cb380d6d46" resname="dashboard.loading.error">
+        <source>An error occurred while loading the content list.</source>
+        <target xml:lang="it" state="translated">Si è verificato un errore durante il caricamento della lista dei sotto elementi.</target>
+        <note>key: dashboard.loading.error</note>
+        <jms:reference-file>Resources/public/templates/dashboard/allcontent.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="dc6421eab8286e0adb87544214a132d5c31d8fd8" resname="dashboard.my.content">
         <source>My Content</source>
         <target xml:lang="it" state="translated">I miei contenuti</target>
@@ -40,10 +59,24 @@
         <note>key: dashboard.my.drafts</note>
         <jms:reference-file>Resources/public/templates/dashboard/mydrafts.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="328b897775fad72927fcdd34b26e6c67d77ac6bc" resname="dashboard.mycontent.no.modified.content">
+        <source>You haven't modified any content item yet.</source>
+        <target xml:lang="it" state="translated">Non è ancora stato modificato nessun elemento di contenuto.</target>
+        <note>key: dashboard.mycontent.no.modified.content</note>
+        <jms:reference-file>Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="77c0cd3f3cae226e66b157a227ba1c48480c03c9" resname="dashboard.mydrafts.no.draft">
         <source>You don't have any drafts.</source>
         <target xml:lang="it" state="translated">Non c'è nessuna bozza.</target>
         <note>key: dashboard.mydrafts.no.draft</note>
+        <jms:reference-file>Resources/public/templates/dashboard/mydrafts.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1598105f8c01cd4d73924667af473114a30c2ae5" resname="dashboard.retry">
+        <source>Retry</source>
+        <target xml:lang="it" state="translated">Riprova</target>
+        <note>key: dashboard.retry</note>
+        <jms:reference-file>Resources/public/templates/dashboard/allcontent.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
         <jms:reference-file>Resources/public/templates/dashboard/mydrafts.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="e9c04dcd1a73d8cb5fc72ca356e61ab28d38ec46" resname="dashboard.title">

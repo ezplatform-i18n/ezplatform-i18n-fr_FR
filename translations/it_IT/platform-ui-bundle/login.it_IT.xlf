@@ -12,6 +12,18 @@
         <note>key: copyright</note>
         <jms:reference-file>Resources/public/templates/loginform.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="b1d4fbf05def85430e7e60db5ff4037ea1ee1197" resname="invalid.login.passord">
+        <source>Invalid username or password</source>
+        <target xml:lang="it" state="translated">Il nome utente o la password non sono validi</target>
+        <note>key: invalid.login.passord</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-loginformviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b6b3ad938a789b7901b9d123981d007b69e8077c" resname="loginform.ez.logo">
+        <source>eZ Logo</source>
+        <target xml:lang="it" state="translated">eZ Logo</target>
+        <note>key: loginform.ez.logo</note>
+        <jms:reference-file>Resources/public/templates/loginform.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="804e6b4ba4943f9b3ebc6f9ab726bdbc088d44de" resname="loginform.login">
         <source>Login</source>
         <target xml:lang="it" state="translated">Login</target>
@@ -35,6 +47,12 @@
         <target xml:lang="it" state="translated">Account</target>
         <note>key: loginform.username</note>
         <jms:reference-file>Resources/public/templates/loginform.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="23a8454a8e08b1a75751f4967daa97822870a659" resname="unexpected.error">
+        <source>An unexpected error occurred</source>
+        <target xml:lang="it" state="translated">Si è verificato un errore imprevisto</target>
+        <note>key: unexpected.error</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-loginformviewservice.js</jms:reference-file>
       </trans-unit>
     </body>
   </file>
