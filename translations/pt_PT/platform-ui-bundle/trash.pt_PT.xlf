@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file date="2017-01-26T14:52:02Z" source-language="en" target-language="pt-PT" datatype="plaintext" original="not.available">
+  <file date="2017-03-07T14:24:01Z" source-language="en" target-language="pt-PT" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
@@ -49,12 +49,6 @@
         <source>Failed to load parent location's path</source>
         <target xml:lang="pt-PT">Carregamento do caminho da localização pai falhou</target>
         <note>key: failed.load.parent.location.path</note>
-        <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
-      </trans-unit>
-      <trans-unit id="e4070d79791c331da86fcb230fec53235b1519ad" resname="items.permanently.deleted" approved="yes">
-        <source>%count items were permanently deleted.</source>
-        <target xml:lang="pt-PT">%count% itens foram permanentemente removidos.</target>
-        <note>key: items.permanently.deleted</note>
         <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="0c3639c10994d885f997d2403c4fb64b10a118b3" resname="minimize" approved="yes">
