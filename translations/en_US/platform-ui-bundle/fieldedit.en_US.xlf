@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file date="2017-01-26T14:52:02Z" source-language="en" target-language="en-US" datatype="plaintext" original="not.available">
+  <file date="2017-01-31T10:50:08Z" source-language="en" target-language="en-US" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
@@ -353,12 +353,6 @@
         <source>invalid ISBN 10</source>
         <target xml:lang="en-US" state="translated">Invalid ISBN 10</target>
         <note>key: invalid.isbn10</note>
-        <jms:reference-file>Resources/public/js/views/fields/ez-isbn-editview.js</jms:reference-file>
-      </trans-unit>
-      <trans-unit id="a10ccd621b14ed09703e07e31cbfed166450b722" resname="invalid.isbn10.sum.not.multiple.of.11">
-        <source>invalid ISBN 10 (sum is not a multiple of 11")</source>
-        <target xml:lang="en-US" state="translated">Invalid ISBN 10 (sum is not a multiple of 11")</target>
-        <note>key: invalid.isbn10.sum.not.multiple.of.11</note>
         <jms:reference-file>Resources/public/js/views/fields/ez-isbn-editview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="65c4aaaab5989949a929cc5f7e96eb7017c2d9f4" resname="loading...">
