@@ -47,9 +47,12 @@
       </trans-unit>
       <trans-unit id="23a8454a8e08b1a75751f4967daa97822870a659" resname="unexpected.error">
         <source>An unexpected error occurred</source>
-        <target xml:lang="de" state="translated">Ein unerwarteter Fehler aufgetreten</target>
+        <target xml:lang="de" state="translated">Ein unerwarteter Fehler ist aufgetreten</target>
         <note>key: unexpected.error</note>
         <jms:reference-file>Resources/public/js/views/services/ez-loginformviewservice.js</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="de">Ein unerwarteter Fehler aufgetreten</target>
+        </alt-trans>
       </trans-unit>
     </body>
   </file>
