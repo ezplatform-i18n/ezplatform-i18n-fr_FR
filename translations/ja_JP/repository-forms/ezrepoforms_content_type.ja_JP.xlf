@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file date="2017-01-26T15:03:32Z" source-language="en" target-language="ja" datatype="plaintext" original="not.available">
+  <file date="2017-04-06T15:44:11Z" source-language="en" target-language="ja" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
@@ -308,12 +308,6 @@
         <target xml:lang="ja" state="translated">Window Media Player</target>
         <note>key: field_definition.ezmedia.type_windows_media_player</note>
         <jms:reference-file line="36">lib/FieldType/Mapper/MediaFormMapper.php</jms:reference-file>
-      </trans-unit>
-      <trans-unit id="5f4e08d826e58f0be9e678f7c7a60068fd63b567" resname="field_definition.ezrichtext.num_rows">
-        <source>Number of text rows in the editor</source>
-        <target xml:lang="ja" state="translated">エディター表示行数</target>
-        <note>key: field_definition.ezrichtext.num_rows</note>
-        <jms:reference-file line="26">lib/FieldType/Mapper/RichTextFormMapper.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="ac85420bb89c319433f4d0e8e988b6fa8363e8b9" resname="field_definition.ezselection.options">
         <source>Options</source>
