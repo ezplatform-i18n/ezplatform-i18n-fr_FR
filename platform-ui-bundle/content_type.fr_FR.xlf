@@ -55,7 +55,7 @@
       </trans-unit>
       <trans-unit id="d14799b2ac8854ab3f0bb9976258c3db39213d09" resname="content_type.default_availability.value" approved="yes">
         <source>{0} Not available|{1} Available</source>
-        <target xml:lang="fr">{0} Non disponible {1} Disponible</target>
+        <target xml:lang="fr">{0} Non disponible|{1} Disponible</target>
         <note>key: content_type.default_availability.value</note>
         <jms:reference-file line="80">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
