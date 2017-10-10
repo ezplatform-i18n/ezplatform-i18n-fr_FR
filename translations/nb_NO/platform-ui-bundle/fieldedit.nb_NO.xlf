@@ -110,10 +110,13 @@
       </trans-unit>
       <trans-unit id="1096c88b9ecb1c83173e6fe1a7330ac88aae7e1e" resname="date.not.valid">
         <source>This is not a correct date</source>
-        <target xml:lang="nb" state="translated">Dette er ikke en gyldig dato</target>
+        <target xml:lang="nb" state="translated">Dette er en ugyldig dato</target>
         <note>key: date.not.valid</note>
         <jms:reference-file>Resources/public/js/views/fields/ez-date-editview.js</jms:reference-file>
         <jms:reference-file>Resources/public/js/views/fields/ez-dateandtime-editview.js</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="nb">Dette er ikke en gyldig dato</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="86b1150b591a089eab73f5cb58fc11964ccb5f78" resname="date.not.valid.time.missing">
         <source>Date do not have a valid input and time is missing</source>
@@ -138,15 +141,21 @@
       </trans-unit>
       <trans-unit id="ac8b6151c30254609f6e9f2a7ab5c5570ea94dcd" resname="date.required">
         <source>Date is required</source>
-        <target xml:lang="nb" state="translated">Dato må oppgis</target>
+        <target xml:lang="nb" state="translated">Dato er påkrevd</target>
         <note>key: date.required</note>
         <jms:reference-file>Resources/public/js/views/fields/ez-dateandtime-editview.js</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="nb">Dato må oppgis</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="c1eee799ee7368e2089f1eb18e2431108253dc07" resname="date.time.required">
         <source>Date and time are required</source>
-        <target xml:lang="nb" state="translated">Dato og klokkeslett må oppgis</target>
+        <target xml:lang="nb" state="translated">Dato og klokkeslett er påkrevd</target>
         <note>key: date.time.required</note>
         <jms:reference-file>Resources/public/js/views/fields/ez-dateandtime-editview.js</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="nb">Dato og klokkeslett må oppgis</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="a26a9e8cceea9e78f5ed30052cd1e0aa592498ca" resname="dateandtime.placeholder.date">
         <source>YYYY-MM-DD</source>
@@ -360,9 +369,12 @@
       </trans-unit>
       <trans-unit id="3cb3d1ded419f0923f0b00e65e3c9b6c112e450c" resname="image.upload">
         <source>Upload an image</source>
-        <target xml:lang="nb" state="translated">Laste opp et bilde</target>
+        <target xml:lang="nb" state="translated">Last opp et bilde</target>
         <note>key: image.upload</note>
         <jms:reference-file>Resources/public/templates/fields/edit/image.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="nb">Laste opp et bilde</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="f0edbc370c196d4d5a74049ed4382bbd16aa4b82" resname="input.not.valid">
         <source>This is not a valid input</source>
@@ -483,9 +495,12 @@
       </trans-unit>
       <trans-unit id="6eadf968d3be0a9dbf1a708d86cf710bb62ed7bd" resname="media.autoplay">
         <source>Auto play:</source>
-        <target xml:lang="nb" state="translated">Autospill:</target>
+        <target xml:lang="nb" state="translated">Automatisk avspilling:</target>
         <note>key: media.autoplay</note>
         <jms:reference-file>Resources/public/templates/fields/edit/media.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="nb">Autospill:</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="83643610d46ed56851ef235675f247e24a628112" resname="media.displaycontrols">
         <source>Display controls:</source>

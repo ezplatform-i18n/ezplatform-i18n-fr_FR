@@ -145,10 +145,13 @@
       </trans-unit>
       <trans-unit id="29cb17e453cf97bda9072c5e8a52f72a484d7e32" resname="content_type.group.new">
         <source>Create a Content type group</source>
-        <target xml:lang="nb" state="translated">Opprett en innholdstypegruppe</target>
+        <target xml:lang="nb" state="translated">Opprett innholdstypegruppe</target>
         <note>key: content_type.group.new</note>
         <jms:reference-file line="65">Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
         <jms:reference-file line="67">Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="nb">Opprett en innholdstypegruppe</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="334f261e09d7b3da4b26022a121ef596bff8a422" resname="content_type.group.notification.created">
         <source>Content type group "%identifier%" was correctly created.</source>

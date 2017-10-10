@@ -86,18 +86,21 @@
       </trans-unit>
       <trans-unit id="232dd99b54158ff1f3be77113aae16e691ce406a" resname="fielddefinition.default-value.unchecked">
         <source>Unchecked</source>
-        <target xml:lang="nb" state="translated">Umerket</target>
+        <target xml:lang="nb" state="translated">Ikke avkrysset</target>
         <note>key: fielddefinition.default-value.unchecked</note>
         <jms:reference-file line="61">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
         <alt-trans>
-          <target xml:lang="nb">Ikke avkrysset</target>
+          <target xml:lang="nb">Umerket</target>
         </alt-trans>
       </trans-unit>
       <trans-unit id="908870d411d8599211d188e35d0240bfecb98b5e" resname="fielddefinition.default-value.undefined">
         <source>No default value</source>
-        <target xml:lang="nb" state="translated">Standardverdi</target>
+        <target xml:lang="nb" state="translated">Ingen standardverdi</target>
         <note>key: fielddefinition.default-value.undefined</note>
         <jms:reference-file line="339">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="nb">Standardverdi</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="34ced944f5d7159b0597b98279e73be045c0ccd9" resname="fielddefinition.interval.day">
         <source>%default% %day% day(s)</source>
@@ -303,9 +306,12 @@
       </trans-unit>
       <trans-unit id="02c78e1886bdf844e359ddd54b190eb718286557" resname="fielddefinition.selection-method.checkbox">
         <source>List with checkboxes</source>
-        <target xml:lang="nb" state="translated">Liste med avmerkingsbokser</target>
+        <target xml:lang="nb" state="translated">Liste med avkryssingsbokser</target>
         <note>key: fielddefinition.selection-method.checkbox</note>
         <jms:reference-file line="230">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="nb">Liste med avmerkingsbokser</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="a60c81e556aa14c00b3b44ffb6e49f90b882c286" resname="fielddefinition.selection-method.label">
         <source>Selection method:</source>
@@ -335,9 +341,12 @@
       </trans-unit>
       <trans-unit id="60f06115f038572328285e2ca1fc5ad811105c49" resname="fielddefinition.selection-method.radio">
         <source>List with radio buttons</source>
-        <target xml:lang="nb" state="translated">Liste med alternativknapper</target>
+        <target xml:lang="nb" state="translated">Liste med radioknapper</target>
         <note>key: fielddefinition.selection-method.radio</note>
         <jms:reference-file line="228">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="nb">Liste med alternativknapper</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="37121f3c9e8054432510a9f85fd3235e5f549734" resname="fielddefinition.selection-method.single_template">
         <source>Template based, single</source>

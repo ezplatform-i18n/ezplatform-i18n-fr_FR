@@ -149,10 +149,13 @@
       </trans-unit>
       <trans-unit id="12023a25e9c04ceef708820416f14a5a1e188688" resname="section.new">
         <source>Create a new section</source>
-        <target xml:lang="nb" state="translated">Opprett en ny seksjon</target>
+        <target xml:lang="nb" state="translated">Opprett ny seksjon</target>
         <note>key: section.new</note>
         <jms:reference-file line="105">Resources/views/Section/list.html.twig</jms:reference-file>
         <jms:reference-file line="107">Resources/views/Section/list.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="nb">Opprett en ny seksjon</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="73477cdb03483ff68ff67d6a840516b4bcf6e64e" resname="section.notification.created">
         <source>The section "%sectionName%" was correctly created.</source>
