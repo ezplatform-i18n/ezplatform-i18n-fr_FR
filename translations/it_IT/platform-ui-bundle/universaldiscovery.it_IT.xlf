@@ -59,9 +59,12 @@
       </trans-unit>
       <trans-unit id="73538954b18fddadb8404e15e4a5bdb3630d14fb" resname="universaldiscovery.content.browser">
         <source>Content browser</source>
-        <target xml:lang="it" state="translated">Browser del contenuto</target>
+        <target xml:lang="it" state="translated">Navigazione dei contenuti</target>
         <note>key: universaldiscovery.content.browser</note>
         <jms:reference-file>Resources/public/templates/universaldiscovery/explorer.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="it">Browser del contenuto</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="572fdb94d49b6e58d297fd7491cf28c77d60e241" resname="universaldiscovery.content.tree">
         <source>Content tree</source>

@@ -44,9 +44,12 @@
       </trans-unit>
       <trans-unit id="0c208e52af8963639637f9c9ce2163bd98d1628e" resname="actionbar.sendToTrash">
         <source>Send to Trash</source>
-        <target xml:lang="it" state="translated">Spostato nel cestino</target>
+        <target xml:lang="it" state="translated">Sposta nel cestino</target>
         <note>key: actionbar.sendToTrash</note>
         <jms:reference-file>Resources/public/js/views/ez-actionbarview.js</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="it">Spostato nel cestino</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="5b0a413f93880e60e8da0cc54c3d2643afef840c" resname="actionbar.translate">
         <source>Translations</source>

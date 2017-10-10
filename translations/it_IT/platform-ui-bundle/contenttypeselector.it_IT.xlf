@@ -14,9 +14,12 @@
       </trans-unit>
       <trans-unit id="3fc804a965ff2e460abe746886d45fd7d40e9d3b" resname="contenttypeselector.choose.content.type">
         <source>Choose a content type</source>
-        <target xml:lang="it" state="translated">Scegliere un content types</target>
+        <target xml:lang="it" state="translated">Scegli un content types</target>
         <note>key: contenttypeselector.choose.content.type</note>
         <jms:reference-file>Resources/public/templates/contenttypeselector.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="it">Scegliere un content types</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="2f48fb3d3a4a4b1347c8f9019a2e9fa1cc78a674" resname="contenttypeselector.filter.group">
         <source>Filter by group</source>

@@ -148,6 +148,12 @@
         <jms:reference-file line="213">Resources/views/Role/view_role.html.twig</jms:reference-file>
         <jms:reference-file line="217">Resources/views/Role/view_role.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="8211a64763ecf5a6a1e5d0e2386357c0bc2e7c89" resname="role.assign_limit_subtree.user_or_group">
+        <source>Assign to users/groups with subtree limitation</source>
+        <target xml:lang="it" state="translated">Assegna ad utenti/gruppi una limitazione ad un sotto albero</target>
+        <note>key: role.assign_limit_subtree.user_or_group</note>
+        <jms:reference-file line="209">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="93a5221c554b7577697c1a68acbe2e17a3389dea" resname="role.dashboard_title">
         <source>Roles</source>
         <target xml:lang="it" state="translated">Ruoli</target>
@@ -191,6 +197,19 @@
         <target xml:lang="it" state="translated">Nome</target>
         <note>key: role.name</note>
         <jms:reference-file line="25">Resources/views/Role/list_roles.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6dafd96fb9e7b28a8048e7ae6985ce49b0dbff82" resname="role.policy.add">
+        <source>Add a new policy</source>
+        <target xml:lang="it" state="translated">Aggiungi una nuova policy</target>
+        <note>key: role.policy.add</note>
+        <jms:reference-file line="108">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b9034a726357d2e19c7493932f9bcee454d4ce97" resname="role.policy.edit_limitations">
+        <source>Edit limitations</source>
+        <target xml:lang="it" state="translated">Modifica le Limitazioni</target>
+        <note>key: role.policy.edit_limitations</note>
+        <jms:reference-file line="75">Resources/views/Role/view_role.html.twig</jms:reference-file>
+        <jms:reference-file line="77">Resources/views/Role/view_role.html.twig</jms:reference-file>
       </trans-unit>
     </body>
   </file>

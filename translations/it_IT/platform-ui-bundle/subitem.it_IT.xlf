@@ -124,10 +124,13 @@
       </trans-unit>
       <trans-unit id="3cae0754bed733e5785947e0b1a795ffeacb8a12" resname="viewing.out.of.items" approved="yes">
         <source><![CDATA[viewing <strong class="ez-loadmorepagination-display-count">%displayCount%</strong> out of <strong>%subitemCount%</strong> sub-items]]></source>
-        <target xml:lang="it"><![CDATA[visualizza <strong class="ez-loadmorepagination-display-count">%displayCount%</strong> fuori dai <strong>%subitemCount%</strong> sotto elementi]]></target>
+        <target xml:lang="it"><![CDATA[visualizzazione di <strong class="ez-loadmorepagination-display-count">%displayCount%</strong> su <strong>%subitemCount%</strong> elementi]]></target>
         <note>key: viewing.out.of.items</note>
         <jms:reference-file>Resources/public/templates/subitem/grid.hbt</jms:reference-file>
         <jms:reference-file>Resources/public/templates/subitem/listmore.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="it"><![CDATA[visualizza <strong class="ez-loadmorepagination-display-count">%displayCount%</strong> fuori dai <strong>%subitemCount%</strong> sotto elementi]]></target>
+        </alt-trans>
       </trans-unit>
     </body>
   </file>
