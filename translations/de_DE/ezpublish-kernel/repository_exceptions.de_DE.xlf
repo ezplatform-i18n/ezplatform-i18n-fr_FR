@@ -40,6 +40,30 @@
         <note>key: Argument '%argumentName%' is invalid: %whatIsWrong%</note>
         <jms:reference-file line="34">eZ/Publish/Core/Base/Exceptions/InvalidArgumentException.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="5184b29eed2fee5c130959375be31ea55010adb8" resname="Argument '%argumentName%' is invalid: expected value to be of type '%expectedType%'">
+        <source>Argument '%argumentName%' is invalid: expected value to be of type '%expectedType%'</source>
+        <target xml:lang="de" state="translated">Argument "%argumentName%" ist ungültig: erwarteter Wert vom Typ "%expectedType%"</target>
+        <note>key: Argument '%argumentName%' is invalid: expected value to be of type '%expectedType%'</note>
+        <jms:reference-file line="31">eZ/Publish/Core/Base/Exceptions/InvalidArgumentType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="77a999c48ddb299d4c8af74d195bdf44dda4883c" resname="Argument '%argumentName%' is invalid: expected value to be of type '%expectedType%', got '%actualType%'">
+        <source>Argument '%argumentName%' is invalid: expected value to be of type '%expectedType%', got '%actualType%'</source>
+        <target xml:lang="de" state="translated">Argument "%argumentName%" ist ungültig: Wert des Typs "%expectedType%" erwartet, bekam "%actualType%"</target>
+        <note>key: Argument '%argumentName%' is invalid: expected value to be of type '%expectedType%', got '%actualType%'</note>
+        <jms:reference-file line="33">eZ/Publish/Core/Base/Exceptions/InvalidArgumentType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6a5a5e4df0f09cc7587d11571aa90c31e68c15c6" resname="Argument 'BinaryFile::id' is invalid: '%id%' is wrong value, binary file ids can not begin with a '/'">
+        <source>Argument 'BinaryFile::id' is invalid: '%id%' is wrong value, binary file ids can not begin with a '/'</source>
+        <target xml:lang="de" state="translated">Argument "BinaryFile::id" ist ungültig: "%id%" ist der falsche Wert, binäre Datei-Ids können nicht beginnen mit einem '/'</target>
+        <note>key: Argument 'BinaryFile::id' is invalid: '%id%' is wrong value, binary file ids can not begin with a '/'</note>
+        <jms:reference-file line="17">eZ/Publish/Core/IO/Exception/InvalidBinaryAbsolutePathException.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0afe736d44da00b87ed3fe777775661ddf10a455" resname="Argument 'BinaryFile::id' is invalid: '%id%' is wrong value, it does not contain prefix '%prefix%'. Is 'var_dir' config correct?">
+        <source>Argument 'BinaryFile::id' is invalid: '%id%' is wrong value, it does not contain prefix '%prefix%'. Is 'var_dir' config correct?</source>
+        <target xml:lang="de" state="translated">Argument "BinaryFile::id" ist ungültig: "%id%" ist falsch, es enthält keine Präfix "%prefix%". Ist die "var_dir" Config korrekt?</target>
+        <note>key: Argument 'BinaryFile::id' is invalid: '%id%' is wrong value, it does not contain prefix '%prefix%'. Is 'var_dir' config correct?</note>
+        <jms:reference-file line="17">eZ/Publish/Core/IO/Exception/InvalidBinaryPrefixException.php</jms:reference-file>
+      </trans-unit>
       <trans-unit id="8967aa151e1b84f60c505163d42350eb6a96e948" resname="Content fields did not validate">
         <source>Content fields did not validate</source>
         <target xml:lang="de" state="translated">Validierung der Inhaltsfelder ist fehlgeschlagen</target>

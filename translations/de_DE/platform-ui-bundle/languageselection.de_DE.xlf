@@ -24,6 +24,12 @@
         <note>key: languageselectionbox.confirm</note>
         <jms:reference-file>Resources/public/templates/languageselectionbox.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="f12577db02f302b72857787edaf2db262b509e01" resname="languageselectionbox.select.base.language">
+        <source>Select a base language:</source>
+        <target xml:lang="de" state="translated">Basissprache auswählen:</target>
+        <note>key: languageselectionbox.select.base.language</note>
+        <jms:reference-file>Resources/public/templates/languageselectionbox.hbt</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>

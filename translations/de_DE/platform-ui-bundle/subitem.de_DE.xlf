@@ -49,10 +49,55 @@
         <jms:reference-file>Resources/public/templates/subitem/grid.hbt</jms:reference-file>
         <jms:reference-file>Resources/public/templates/subitem/listmore.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="a48dcd8c90a5ec18b087c64865a8aaeddb83107c" resname="subitem.error.loading.image">
+        <source>An error occurred while loading the image.</source>
+        <target xml:lang="de" state="translated">Beim Laden des Bildes ist ein Fehler aufgetreten.</target>
+        <note>key: subitem.error.loading.image</note>
+        <jms:reference-file>Resources/public/templates/subitem/griditem.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="687a6cc31795b1c3ef4754351319522f21e40d28" resname="subitem.error.loading.list">
+        <source>An error occurred while loading the sub-items list.</source>
+        <target xml:lang="de" state="translated">Beim Laden der Liste mit Kindelementen trat ein Fehler auf.</target>
+        <note>key: subitem.error.loading.list</note>
+        <jms:reference-file>Resources/public/js/views/subitem/ez-asynchronoussubitemview.js</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/subitem/list.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1ba785e2cab1df903e4feca2bc9e4eccf5b542dc" resname="subitem.first">
+        <source>First</source>
+        <target xml:lang="de" state="translated">Erste</target>
+        <note>key: subitem.first</note>
+        <jms:reference-file>Resources/public/templates/subitem/list.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0729624b971947f00032e59cd4de5fe7e8c92e4e" resname="subitem.last">
+        <source>Last</source>
+        <target xml:lang="de" state="translated">Letzte</target>
+        <note>key: subitem.last</note>
+        <jms:reference-file>Resources/public/templates/subitem/list.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e85e98a7e031974c2dc497b926158e893a366f56" resname="subitem.listitem.edit">
+        <source>Edit</source>
+        <target xml:lang="de" state="translated">Bearbeiten</target>
+        <note>key: subitem.listitem.edit</note>
+        <jms:reference-file>Resources/public/templates/subitem/listitem.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="c9196a19ae958da788cf0b5fbb4e0fb6451ebdf2" resname="subitem.next">
         <source>Next</source>
         <target xml:lang="de" state="translated">Nächste</target>
         <note>key: subitem.next</note>
+        <jms:reference-file>Resources/public/templates/subitem/list.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d5c97668af30fef2819f3f52add12af828cbe9b3" resname="subitem.no.subitem">
+        <source>This location has no sub-item.</source>
+        <target xml:lang="de" state="translated">Diese Location hat keine Kindelemente.</target>
+        <note>key: subitem.no.subitem</note>
+        <jms:reference-file>Resources/public/templates/subitem/grid.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/subitem/list.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/subitem/listmore.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="30b83e737fd8950c2dd108986fa2a82820c2a033" resname="subitem.previous">
+        <source>Previous</source>
+        <target xml:lang="de" state="translated">Vorherige</target>
+        <note>key: subitem.previous</note>
         <jms:reference-file>Resources/public/templates/subitem/list.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="a399eccb79686f2421595d297024effd80124451" resname="subitem.retry">

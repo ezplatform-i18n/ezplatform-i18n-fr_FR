@@ -37,6 +37,19 @@
         <jms:reference-file>Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
         <jms:reference-file>Resources/public/templates/dashboard/mydrafts.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="c26996ea8c335b1df9a001af761adf5e2aa5f2e6" resname="dashboard.loading.draft.error">
+        <source>An error occurred while loading the draft list.</source>
+        <target xml:lang="de" state="translated">Beim Laden der Entwurfsliste trat ein Fehler auf.</target>
+        <note>key: dashboard.loading.draft.error</note>
+        <jms:reference-file>Resources/public/templates/dashboard/mydrafts.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="90451c27b66dffbfea45c8ce24eff1cb380d6d46" resname="dashboard.loading.error">
+        <source>An error occurred while loading the content list.</source>
+        <target xml:lang="de" state="translated">Beim Laden der Content Liste trat ein Fehler auf.</target>
+        <note>key: dashboard.loading.error</note>
+        <jms:reference-file>Resources/public/templates/dashboard/allcontent.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="dc6421eab8286e0adb87544214a132d5c31d8fd8" resname="dashboard.my.content">
         <source>My Content</source>
         <target xml:lang="de" state="translated">Mein Inhalt</target>

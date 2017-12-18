@@ -12,6 +12,12 @@
         <note>key: javascript.disabled.required</note>
         <jms:reference-file line="53">Resources/views/PlatformUI/shell.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="1ac530659b5b57d48cf6d95bc51ead90f1a2ac6d" resname="javascript.enable">
+        <source>Please enable JavaScript to use the eZ Platform User Interface.</source>
+        <target xml:lang="de" state="translated">Bitte aktivieren Sie JavaScript, um die eZ-Plattform-Benutzeroberfläche verwenden.</target>
+        <note>key: javascript.enable</note>
+        <jms:reference-file line="54">Resources/views/PlatformUI/shell.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="40797c87a424e73c1893096db97ec0147bd261bf" resname="loading.application">
         <source>Loading the application...</source>
         <target xml:lang="de" state="translated">Die Anwendung wird geladen...</target>
