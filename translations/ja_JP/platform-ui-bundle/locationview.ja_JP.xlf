@@ -72,6 +72,12 @@
         <note>key: locationview.locations.content.locations</note>
         <jms:reference-file>Resources/public/templates/tabs/locations.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="e4effb18f15a8e0e891860a2b115f08df36a7313" resname="locationview.locations.path">
+        <source>Path</source>
+        <target xml:lang="ja" state="translated">パス</target>
+        <note>key: locationview.locations.path</note>
+        <jms:reference-file>Resources/public/templates/tabs/locations.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="c74cc382c1023b02479021fe7b260023d1287df1" resname="locationview.locations.remove.selected">
         <source>Remove selected</source>
         <target xml:lang="ja" state="translated">選択項目を削除</target>
@@ -94,6 +100,12 @@
         <source>Archived versions</source>
         <target xml:lang="ja" state="translated">保存バージョン</target>
         <note>key: locationview.versions.archived.versions</note>
+        <jms:reference-file>Resources/public/templates/tabs/versions.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b7920f94494966e6db92b3937a84d3add836a812" resname="locationview.versions.author">
+        <source>Author</source>
+        <target xml:lang="ja" state="translated">作成者</target>
+        <note>key: locationview.versions.author</note>
         <jms:reference-file>Resources/public/templates/tabs/versions.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="47912146dd99224ef2e39362cf689e245bbf604a" resname="locationview.versions.created">
