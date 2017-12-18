@@ -36,6 +36,12 @@
         <note>key: role.create</note>
         <jms:reference-file line="34">lib/Form/Type/Role/RoleCreateType.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="05d874e26afd33df312d129e8db6392b5a8d1767" resname="role.form.delete">
+        <source>Delete</source>
+        <target xml:lang="el" state="translated">Διαγραφή</target>
+        <note>key: role.form.delete</note>
+        <jms:reference-file line="32">lib/Form/Type/Role/RoleDeleteType.php</jms:reference-file>
+      </trans-unit>
       <trans-unit id="2899eca602b4735e6d40c6602fe539474fcbe76d" resname="role.identifier">
         <source>Name</source>
         <target xml:lang="el" state="translated">Όνομα</target>
@@ -53,6 +59,36 @@
         <target xml:lang="el" state="translated">Περιορισμοί</target>
         <note>key: role.policy.available_limitations</note>
         <jms:reference-file line="109">lib/Form/Type/Role/PolicyType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="45237c152148c31c2b8c58cd43466caf30c7ea6a" resname="role.policy.form.delete">
+        <source>Delete policy</source>
+        <target xml:lang="el" state="translated">Διαγραφή πολιτικής απορρήτου</target>
+        <note>key: role.policy.form.delete</note>
+        <jms:reference-file line="33">lib/Form/Type/Role/PolicyDeleteType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0eda0d605bd42eb8989a82e546d09ace8bc1b4d9" resname="role.policy.limitation.location.udw_button">
+        <source>Select locations</source>
+        <target xml:lang="el" state="translated">Επιλέξτε τοποθεσίες</target>
+        <note>key: role.policy.limitation.location.udw_button</note>
+        <jms:reference-file line="9">bundle/Resources/views/Limitation/udw_limitation_value.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2651baeac233ce0e4ec974e260d8e0873197f3fc" resname="role.policy.save">
+        <source>Save</source>
+        <target xml:lang="el" state="translated">Αποθήκευση</target>
+        <note>key: role.policy.save</note>
+        <jms:reference-file line="98">lib/Form/Type/Role/PolicyType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f807a08e0f2e4780d2d54ed57e5c88bb5c937f49" resname="role.remove_draft">
+        <source>Cancel</source>
+        <target xml:lang="el" state="translated">Άκυρο</target>
+        <note>key: role.remove_draft</note>
+        <jms:reference-file line="46">lib/Form/Type/Role/RoleUpdateType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="34d67d064254dcb98ca473136e4688c47b5c7a86" resname="role.save">
+        <source>Save</source>
+        <target xml:lang="el" state="translated">Αποθήκευση</target>
+        <note>key: role.save</note>
+        <jms:reference-file line="45">lib/Form/Type/Role/RoleUpdateType.php</jms:reference-file>
       </trans-unit>
     </body>
   </file>

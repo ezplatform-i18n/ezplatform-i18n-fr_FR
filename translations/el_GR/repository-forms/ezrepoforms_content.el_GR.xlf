@@ -36,6 +36,12 @@
         <note>key: content.field_type.ezuser.password_confirm</note>
         <jms:reference-file line="43">lib/Form/Type/User/UserAccountType.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="d1f5c5fcee7eb206e496dd5073b0f95427431a1c" resname="content.field_type.ezuser.username">
+        <source>Username:</source>
+        <target xml:lang="el" state="translated">Όνομα Xρήστη:</target>
+        <note>key: content.field_type.ezuser.username</note>
+        <jms:reference-file line="35">lib/Form/Type/User/UserAccountType.php</jms:reference-file>
+      </trans-unit>
       <trans-unit id="1120fc646c853c462aa4cdf634f476004846fc1b" resname="content.publish_button">
         <source>Publish</source>
         <target xml:lang="el" state="translated">Δημοσίευση</target>
