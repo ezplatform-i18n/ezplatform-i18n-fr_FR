@@ -55,12 +55,9 @@
       </trans-unit>
       <trans-unit id="d14799b2ac8854ab3f0bb9976258c3db39213d09" resname="content_type.default_availability.value" approved="yes">
         <source>{0} Not available|{1} Available</source>
-        <target xml:lang="fr">{0} Non disponible {1} Disponible</target>
+        <target xml:lang="fr">{0} Non disponible|{1} Disponible</target>
         <note>key: content_type.default_availability.value</note>
         <jms:reference-file line="80">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
-        <alt-trans>
-          <target xml:lang="fr">{0} Non disponible|{1} Disponible</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="5ebf6515da27060877064931a5ac1d5a8540e28d" resname="content_type.default_children_sorting" approved="yes">
         <source>Default property for sorting chilren</source>
@@ -68,15 +65,15 @@
         <note>key: content_type.default_children_sorting</note>
         <jms:reference-file line="66">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="cefc13177fd81d4c9df6f8e86eb5278fccbe5a5a" resname="content_type.default_sort">
+      <trans-unit id="cefc13177fd81d4c9df6f8e86eb5278fccbe5a5a" resname="content_type.default_sort" approved="yes">
         <source>Default sort order</source>
-        <target xml:lang="fr" state="translated">Ordre de tri par défaut</target>
+        <target xml:lang="fr">Ordre de tri par défaut</target>
         <note>key: content_type.default_sort</note>
         <jms:reference-file line="72">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f2a3cc77cdadcff8883b0022e006e24918307687" resname="content_type.description">
+      <trans-unit id="f2a3cc77cdadcff8883b0022e006e24918307687" resname="content_type.description" approved="yes">
         <source>Description</source>
-        <target xml:lang="fr" state="translated">Description</target>
+        <target xml:lang="fr">Description</target>
         <note>key: content_type.description</note>
         <jms:reference-file line="50">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
@@ -88,9 +85,9 @@
         <jms:reference-file line="44">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
         <jms:reference-file line="46">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="38a48d5b27331f27a6a51e3bb9be3e6340fc1ccb" resname="content_type.edit_title">
+      <trans-unit id="38a48d5b27331f27a6a51e3bb9be3e6340fc1ccb" resname="content_type.edit_title" approved="yes">
         <source>Edit</source>
-        <target xml:lang="fr" state="translated">Modifier</target>
+        <target xml:lang="fr">Modifier</target>
         <note>key: content_type.edit_title</note>
         <jms:reference-file line="154">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
@@ -137,9 +134,9 @@
         <note>key: content_type.group.edit.title</note>
         <jms:reference-file line="5">Resources/views/ContentType/edit_content_type_group.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3aa78eef31f8d83f3229f888579149da40bb4126" resname="content_type.group.id">
+      <trans-unit id="3aa78eef31f8d83f3229f888579149da40bb4126" resname="content_type.group.id" approved="yes">
         <source>ID</source>
-        <target xml:lang="fr" state="translated">ID du type de contenu</target>
+        <target xml:lang="fr">ID du type de contenu</target>
         <note>key: content_type.group.id</note>
         <jms:reference-file line="26">Resources/views/ContentType/list_content_type_groups.html.twig</jms:reference-file>
       </trans-unit>
@@ -177,9 +174,9 @@
         <note>key: content_type.group.notification.updated</note>
         <jms:reference-file line="48">Form/Processor/ContentTypeGroupFormProcessor.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ac9f629a5395fbcbc31455777dafda7ef125b39e" resname="content_type.id">
+      <trans-unit id="ac9f629a5395fbcbc31455777dafda7ef125b39e" resname="content_type.id" approved="yes">
         <source>ID</source>
-        <target xml:lang="fr" state="translated">ID</target>
+        <target xml:lang="fr">ID</target>
         <note>key: content_type.id</note>
         <jms:reference-file line="27">Resources/views/ContentType/view_content_type_group.html.twig</jms:reference-file>
       </trans-unit>
@@ -204,9 +201,9 @@
         <jms:reference-file line="36">Resources/views/ContentType/update_content_type.html.twig</jms:reference-file>
         <jms:reference-file line="29">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="d7155c791bcef0de802e2194552a2eee56d3b69e" resname="content_type.metadata.title">
+      <trans-unit id="d7155c791bcef0de802e2194552a2eee56d3b69e" resname="content_type.metadata.title" approved="yes">
         <source>Global properties</source>
-        <target xml:lang="fr" state="translated">Propriétés globales</target>
+        <target xml:lang="fr">Propriétés globales</target>
         <note>key: content_type.metadata.title</note>
         <jms:reference-file line="38">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
@@ -259,57 +256,57 @@
         <note>key: content_type.url_alias_schema</note>
         <jms:reference-file line="58">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f99cc628dc4d82c5ee69eae79039a2f449eec064" resname="field_definition.description">
+      <trans-unit id="f99cc628dc4d82c5ee69eae79039a2f449eec064" resname="field_definition.description" approved="yes">
         <source>Description</source>
-        <target xml:lang="fr" state="translated">Description</target>
+        <target xml:lang="fr">Description</target>
         <note>key: field_definition.description</note>
         <jms:reference-file line="121">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="8b863a9c7cd91565182ad0a3a5e30ca8090f84c7" resname="field_definition.identifier">
+      <trans-unit id="8b863a9c7cd91565182ad0a3a5e30ca8090f84c7" resname="field_definition.identifier" approved="yes">
         <source>Identifier</source>
-        <target xml:lang="fr" state="translated">Identifiant</target>
+        <target xml:lang="fr">Identifiant</target>
         <note>key: field_definition.identifier</note>
         <jms:reference-file line="100">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="0be041fa1dc0bb49d5c727fa267331a8425aa8b8" resname="field_definition.info">
+      <trans-unit id="0be041fa1dc0bb49d5c727fa267331a8425aa8b8" resname="field_definition.info" approved="yes">
         <source>Additional Information</source>
-        <target xml:lang="fr" state="translated">Informations Complémentaires</target>
+        <target xml:lang="fr">Informations Complémentaires</target>
         <note>key: field_definition.info</note>
         <jms:reference-file line="117">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9a02e329edf4c1e41c97c8be922137c284c249c4" resname="field_definition.name">
+      <trans-unit id="9a02e329edf4c1e41c97c8be922137c284c249c4" resname="field_definition.name" approved="yes">
         <source>Name</source>
-        <target xml:lang="fr" state="translated">Nom</target>
+        <target xml:lang="fr">Nom</target>
         <note>key: field_definition.name</note>
         <jms:reference-file line="99">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2c59c801986049c4f4b48f11842932bf4342e278" resname="field_definition.required">
+      <trans-unit id="2c59c801986049c4f4b48f11842932bf4342e278" resname="field_definition.required" approved="yes">
         <source>Required</source>
-        <target xml:lang="fr" state="translated">Requis</target>
+        <target xml:lang="fr">Requis</target>
         <note>key: field_definition.required</note>
         <jms:reference-file line="125">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2e2ef6bae44fe23eec336dec39035b5d2c4b87b6" resname="field_definition.searchable">
+      <trans-unit id="2e2ef6bae44fe23eec336dec39035b5d2c4b87b6" resname="field_definition.searchable" approved="yes">
         <source>Searchable</source>
-        <target xml:lang="fr" state="translated">Recherchable</target>
+        <target xml:lang="fr">Recherchable</target>
         <note>key: field_definition.searchable</note>
         <jms:reference-file line="129">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="fd6ec7b826db4a501858a8658d8e71b067a46568" resname="field_definition.translatable">
+      <trans-unit id="fd6ec7b826db4a501858a8658d8e71b067a46568" resname="field_definition.translatable" approved="yes">
         <source>Translatable</source>
-        <target xml:lang="fr" state="translated">Traduisible</target>
+        <target xml:lang="fr">Traduisible</target>
         <note>key: field_definition.translatable</note>
         <jms:reference-file line="133">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="9ca17bd05bb09ae1283d539c77d57558499ccca4" resname="field_definition.type">
+      <trans-unit id="9ca17bd05bb09ae1283d539c77d57558499ccca4" resname="field_definition.type" approved="yes">
         <source>Type</source>
-        <target xml:lang="fr" state="translated">Type</target>
+        <target xml:lang="fr">Type</target>
         <note>key: field_definition.type</note>
         <jms:reference-file line="101">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3e9deeb426f08a404990a6926d70558955272593" resname="yes_no">
+      <trans-unit id="3e9deeb426f08a404990a6926d70558955272593" resname="yes_no" approved="yes">
         <source>{0} No|{1} Yes</source>
-        <target xml:lang="fr" state="translated">{0} Non|{1} Oui</target>
+        <target xml:lang="fr">{0} Non|{1} Oui</target>
         <note>key: yes_no</note>
         <jms:reference-file line="126">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>
         <jms:reference-file line="130">Resources/views/ContentType/view_content_type.html.twig</jms:reference-file>

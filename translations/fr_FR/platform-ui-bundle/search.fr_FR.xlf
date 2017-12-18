@@ -18,15 +18,15 @@
         <note>key: modified</note>
         <jms:reference-file>Resources/public/js/views/ez-searchlistview.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6ae999552a0d2dca14d62e2bc8b764d377b1dd6c" resname="name">
+      <trans-unit id="6ae999552a0d2dca14d62e2bc8b764d377b1dd6c" resname="name" approved="yes">
         <source>Name</source>
-        <target xml:lang="fr" state="translated">Nom</target>
+        <target xml:lang="fr">Nom</target>
         <note>key: name</note>
         <jms:reference-file>Resources/public/js/views/ez-searchlistview.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="be2293ce4900a4876cdf20fee5800906463a25e9" resname="search.no.result">
+      <trans-unit id="be2293ce4900a4876cdf20fee5800906463a25e9" resname="search.no.result" approved="yes">
         <source>This search has no result.</source>
-        <target xml:lang="fr" state="translated">Aucun résultat pour cette recherche.</target>
+        <target xml:lang="fr">Aucun résultat pour cette recherche.</target>
         <note>key: search.no.result</note>
         <jms:reference-file>Resources/public/templates/searchlistview.hbt</jms:reference-file>
       </trans-unit>
@@ -48,21 +48,21 @@
         <note>key: search.search.content</note>
         <jms:reference-file>Resources/public/templates/searchview.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e9fbb7ba38fa94be8b417699fb729a60c7b8ab48" resname="show.more.results">
+      <trans-unit id="e9fbb7ba38fa94be8b417699fb729a60c7b8ab48" resname="show.more.results" approved="yes">
         <source><![CDATA[Show <span class="ez-loadmorepagination-more-count">%remainingCount%</span> more results]]></source>
-        <target xml:lang="fr" state="translated"><![CDATA[Voir <span class="ez-loadmorepagination-more-count">%remainingCount%</span> plus de résultats]]></target>
+        <target xml:lang="fr"><![CDATA[Voir <span class="ez-loadmorepagination-more-count">%remainingCount%</span> plus de résultats]]></target>
         <note>key: show.more.results</note>
         <jms:reference-file>Resources/public/templates/searchlistview.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="31c20e73fa29248cc7bf440ac9d720ff6d88fd3e" resname="translations">
+      <trans-unit id="31c20e73fa29248cc7bf440ac9d720ff6d88fd3e" resname="translations" approved="yes">
         <source>Translations</source>
-        <target xml:lang="fr" state="translated">Traductions</target>
+        <target xml:lang="fr">Traductions</target>
         <note>key: translations</note>
         <jms:reference-file>Resources/public/js/views/ez-searchlistview.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3cae0754bed733e5785947e0b1a795ffeacb8a12" resname="viewing.out.of.items">
+      <trans-unit id="3cae0754bed733e5785947e0b1a795ffeacb8a12" resname="viewing.out.of.items" approved="yes">
         <source><![CDATA[viewing <strong class="ez-loadmorepagination-display-count">%displayCount%</strong> out of <strong>%searchResultCount%</strong> items]]></source>
-        <target xml:lang="fr" state="translated"><![CDATA[affichage de <strong class="ez-loadmorepagination-display-count">%displayCount%</strong> sur <strong>%searchResultCount%</strong> éléments]]></target>
+        <target xml:lang="fr"><![CDATA[affichage de <strong class="ez-loadmorepagination-display-count">%displayCount%</strong> sur <strong>%searchResultCount%</strong> éléments]]></target>
         <note>key: viewing.out.of.items</note>
         <jms:reference-file>Resources/public/templates/searchlistview.hbt</jms:reference-file>
       </trans-unit>

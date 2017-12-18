@@ -66,9 +66,9 @@
         <note>key: navigationhub.role.list</note>
         <jms:reference-file>Resources/public/js/views/services/ez-navigationhubviewservice.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="05bd808967aac1311d193cc98d15b0f736c8343d" resname="navigationhub.section.list">
+      <trans-unit id="05bd808967aac1311d193cc98d15b0f736c8343d" resname="navigationhub.section.list" approved="yes">
         <source>Sections</source>
-        <target xml:lang="fr" state="translated">Sections</target>
+        <target xml:lang="fr">Sections</target>
         <note>key: navigationhub.section.list</note>
         <jms:reference-file>Resources/public/js/views/services/ez-navigationhubviewservice.js</jms:reference-file>
       </trans-unit>
@@ -96,15 +96,15 @@
         <note>key: navigationhub.zone.platform</note>
         <jms:reference-file>Resources/public/js/views/ez-navigationhubview.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e296e7a38799c79dee11c3e18ac42150c9f02673" resname="navigationhub.zone.studio">
+      <trans-unit id="e296e7a38799c79dee11c3e18ac42150c9f02673" resname="navigationhub.zone.studio" approved="yes">
         <source>Page</source>
-        <target xml:lang="fr" state="translated">Page</target>
+        <target xml:lang="fr">Page</target>
         <note>key: navigationhub.zone.studio</note>
         <jms:reference-file>Resources/public/js/views/ez-navigationhubview.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="6ab1d96fc11727d94958674d980864844202f89a" resname="navigationhub.zone.studioplus">
+      <trans-unit id="6ab1d96fc11727d94958674d980864844202f89a" resname="navigationhub.zone.studioplus" approved="yes">
         <source>Performance</source>
-        <target xml:lang="fr" state="translated">Performance</target>
+        <target xml:lang="fr">Performance</target>
         <note>key: navigationhub.zone.studioplus</note>
         <jms:reference-file>Resources/public/js/views/ez-navigationhubview.js</jms:reference-file>
       </trans-unit>

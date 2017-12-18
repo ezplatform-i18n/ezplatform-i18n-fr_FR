@@ -18,9 +18,9 @@
         <note>key: confirmbox.confirm</note>
         <jms:reference-file>Resources/public/templates/confirmbox.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c478b39ac9ceac6e2a91a937bb1d9fd310cb607d" resname="draftconflict.language">
+      <trans-unit id="c478b39ac9ceac6e2a91a937bb1d9fd310cb607d" resname="draftconflict.language" approved="yes">
         <source>Language</source>
-        <target xml:lang="fr" state="translated">Langue</target>
+        <target xml:lang="fr">Langue</target>
         <note>key: draftconflict.language</note>
         <jms:reference-file>Resources/public/templates/confirmbox/draftconflict.hbt</jms:reference-file>
       </trans-unit>

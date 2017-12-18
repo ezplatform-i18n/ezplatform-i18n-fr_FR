@@ -18,15 +18,18 @@
         <note>key: invalid.login.passord</note>
         <jms:reference-file>Resources/public/js/views/services/ez-loginformviewservice.js</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b6b3ad938a789b7901b9d123981d007b69e8077c" resname="loginform.ez.logo">
+      <trans-unit id="b6b3ad938a789b7901b9d123981d007b69e8077c" resname="loginform.ez.logo" approved="yes">
         <source>eZ Logo</source>
-        <target xml:lang="fr" state="translated">eZ Logo</target>
+        <target xml:lang="fr">Logo d'eZ</target>
         <note>key: loginform.ez.logo</note>
         <jms:reference-file>Resources/public/templates/loginform.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">eZ Logo</target>
+        </alt-trans>
       </trans-unit>
-      <trans-unit id="804e6b4ba4943f9b3ebc6f9ab726bdbc088d44de" resname="loginform.login">
+      <trans-unit id="804e6b4ba4943f9b3ebc6f9ab726bdbc088d44de" resname="loginform.login" approved="yes">
         <source>Login</source>
-        <target xml:lang="fr" state="translated">Connexion</target>
+        <target xml:lang="fr">Connexion</target>
         <note>key: loginform.login</note>
         <jms:reference-file>Resources/public/templates/loginform.hbt</jms:reference-file>
       </trans-unit>
@@ -48,9 +51,9 @@
         <note>key: loginform.username</note>
         <jms:reference-file>Resources/public/templates/loginform.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="23a8454a8e08b1a75751f4967daa97822870a659" resname="unexpected.error">
+      <trans-unit id="23a8454a8e08b1a75751f4967daa97822870a659" resname="unexpected.error" approved="yes">
         <source>An unexpected error occurred</source>
-        <target xml:lang="fr" state="translated">Une erreur inattendue s'est produite</target>
+        <target xml:lang="fr">Une erreur inattendue s'est produite</target>
         <note>key: unexpected.error</note>
         <jms:reference-file>Resources/public/js/views/services/ez-loginformviewservice.js</jms:reference-file>
       </trans-unit>

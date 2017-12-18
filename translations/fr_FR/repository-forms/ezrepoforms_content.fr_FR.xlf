@@ -18,15 +18,15 @@
         <note>key: content.field.non_editable</note>
         <jms:reference-file line="14">bundle/Resources/views/Content/content_form.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="7a3eb3ea13db1c9d6a0bd64c7d249a45e7b83b52" resname="content.field_type.ezuser.email">
+      <trans-unit id="7a3eb3ea13db1c9d6a0bd64c7d249a45e7b83b52" resname="content.field_type.ezuser.email" approved="yes">
         <source>E-mail:</source>
-        <target xml:lang="fr" state="translated">E-mail :</target>
+        <target xml:lang="fr">E-mail :</target>
         <note>key: content.field_type.ezuser.email</note>
         <jms:reference-file line="46">lib/Form/Type/User/UserAccountType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="4c65e5d17516c19e311161e374bbd39f053b5e6b" resname="content.field_type.ezuser.password">
+      <trans-unit id="4c65e5d17516c19e311161e374bbd39f053b5e6b" resname="content.field_type.ezuser.password" approved="yes">
         <source>Password:</source>
-        <target xml:lang="fr" state="translated">Mot de passe:</target>
+        <target xml:lang="fr">Mot de passe:</target>
         <note>key: content.field_type.ezuser.password</note>
         <jms:reference-file line="42">lib/Form/Type/User/UserAccountType.php</jms:reference-file>
       </trans-unit>
@@ -42,21 +42,21 @@
         <note>key: content.field_type.ezuser.username</note>
         <jms:reference-file line="35">lib/Form/Type/User/UserAccountType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1120fc646c853c462aa4cdf634f476004846fc1b" resname="content.publish_button">
+      <trans-unit id="1120fc646c853c462aa4cdf634f476004846fc1b" resname="content.publish_button" approved="yes">
         <source>Publish</source>
-        <target xml:lang="fr" state="translated">Publier</target>
+        <target xml:lang="fr">Publier</target>
         <note>key: content.publish_button</note>
         <jms:reference-file line="43">lib/Form/Type/Content/ContentEditType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="49c0762cf87e038e38a06090625eadb4fbbc99ed" resname="content.save_button">
+      <trans-unit id="49c0762cf87e038e38a06090625eadb4fbbc99ed" resname="content.save_button" approved="yes">
         <source>Save draft</source>
-        <target xml:lang="fr" state="translated">Enregistrer le brouillon</target>
+        <target xml:lang="fr">Enregistrer le brouillon</target>
         <note>key: content.save_button</note>
         <jms:reference-file line="47">lib/Form/Type/Content/ContentEditType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="df2f594c4b24eb1a49a45e95a5e7ed5cdef802bd" resname="ezrepoforms.content.fields">
+      <trans-unit id="df2f594c4b24eb1a49a45e95a5e7ed5cdef802bd" resname="ezrepoforms.content.fields" approved="yes">
         <source>ezrepoforms.content.fields</source>
-        <target xml:lang="fr" state="translated">ezrepoforms.content.fields</target>
+        <target xml:lang="fr">ezrepoforms.content.fields</target>
         <note>key: ezrepoforms.content.fields</note>
         <jms:reference-file line="39">lib/Form/Type/Content/ContentEditType.php</jms:reference-file>
       </trans-unit>

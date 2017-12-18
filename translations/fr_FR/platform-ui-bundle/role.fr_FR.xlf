@@ -84,9 +84,9 @@
         <note>key: policy.function_all</note>
         <jms:reference-file line="52">Resources/views/Role/view_role.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c5a0621c161804ccfb545695d920a77db05bb686" resname="policy.limitation">
+      <trans-unit id="c5a0621c161804ccfb545695d920a77db05bb686" resname="policy.limitation" approved="yes">
         <source>Limitation</source>
-        <target xml:lang="fr" state="translated">Limitation</target>
+        <target xml:lang="fr">Limitation</target>
         <note>key: policy.limitation</note>
         <jms:reference-file line="34">Resources/views/Role/view_role.html.twig</jms:reference-file>
       </trans-unit>
@@ -96,9 +96,9 @@
         <note>key: policy.limitation_none</note>
         <jms:reference-file line="70">Resources/views/Role/view_role.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="b23aadd145c148428bb05af8f0d30a87fad64ef9" resname="policy.module">
+      <trans-unit id="b23aadd145c148428bb05af8f0d30a87fad64ef9" resname="policy.module" approved="yes">
         <source>Module</source>
-        <target xml:lang="fr" state="translated">Module</target>
+        <target xml:lang="fr">Module</target>
         <note>key: policy.module</note>
         <jms:reference-file line="32">Resources/views/Role/view_role.html.twig</jms:reference-file>
       </trans-unit>
@@ -131,15 +131,15 @@
         <jms:reference-file line="42">Resources/views/Role/list_roles.html.twig</jms:reference-file>
         <jms:reference-file line="199">Resources/views/Role/view_role.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e8925242d54f54b2dca206c8ca6ea2c28bc145e0" resname="role.assign_limit_section.cancel">
+      <trans-unit id="e8925242d54f54b2dca206c8ca6ea2c28bc145e0" resname="role.assign_limit_section.cancel" approved="yes">
         <source>Cancel</source>
-        <target xml:lang="fr" state="translated">Annuler</target>
+        <target xml:lang="fr">Annuler</target>
         <note>key: role.assign_limit_section.cancel</note>
         <jms:reference-file line="44">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="5b49cc21aa5dcceb12fb90e3664f234694496a10" resname="role.assign_limit_section.user_or_group">
+      <trans-unit id="5b49cc21aa5dcceb12fb90e3664f234694496a10" resname="role.assign_limit_section.user_or_group" approved="yes">
         <source>Assign to users/groups with section limitation</source>
-        <target xml:lang="fr" state="translated">Attribuer les limitations de section aux utilisateurs/groupes</target>
+        <target xml:lang="fr">Attribuer les limitations de section aux utilisateurs/groupes</target>
         <note>key: role.assign_limit_section.user_or_group</note>
         <jms:reference-file line="41">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
         <jms:reference-file line="213">Resources/views/Role/view_role.html.twig</jms:reference-file>
@@ -199,9 +199,9 @@
         <note>key: role.assignment.error.delete</note>
         <jms:reference-file line="361">Controller/RoleController.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="be81ab4765e74558f0a751204c0ebaeeb004ffb8" resname="role.choose_section">
+      <trans-unit id="be81ab4765e74558f0a751204c0ebaeeb004ffb8" resname="role.choose_section" approved="yes">
         <source>Choose a section:</source>
-        <target xml:lang="fr" state="translated">Choisir une section :</target>
+        <target xml:lang="fr">Choisir une section :</target>
         <note>key: role.choose_section</note>
         <jms:reference-file line="25">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
       </trans-unit>
@@ -248,9 +248,9 @@
         <jms:reference-file line="268">Controller/RoleController.php</jms:reference-file>
         <jms:reference-file line="330">Controller/RoleController.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="c049089744629771a10145f3c8b52aefbd0cce17" resname="role.id">
+      <trans-unit id="c049089744629771a10145f3c8b52aefbd0cce17" resname="role.id" approved="yes">
         <source>ID</source>
-        <target xml:lang="fr" state="translated">ID</target>
+        <target xml:lang="fr">ID</target>
         <note>key: role.id</note>
         <jms:reference-file line="26">Resources/views/Role/list_roles.html.twig</jms:reference-file>
       </trans-unit>
@@ -343,9 +343,9 @@
         <note>key: role.policy_none</note>
         <jms:reference-file line="99">Resources/views/Role/view_role.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2d54315058102bcb341f1907e5567cefeed78316" resname="selected.content.not.user.group">
+      <trans-unit id="2d54315058102bcb341f1907e5567cefeed78316" resname="selected.content.not.user.group" approved="yes">
         <source>Selected content is not a user or group.</source>
-        <target xml:lang="fr" state="translated">Le contenu sélectionné n'est ni un utilisateur ni un groupe.</target>
+        <target xml:lang="fr">Le contenu sélectionné n'est ni un utilisateur ni un groupe.</target>
         <note>key: selected.content.not.user.group</note>
         <jms:reference-file>Resources/public/js/views/services/ez-roleserversideviewservice.js</jms:reference-file>
       </trans-unit>
