@@ -18,15 +18,15 @@
         <note>key: contenttypeselector.choose.content.type</note>
         <jms:reference-file>Resources/public/templates/contenttypeselector.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="2f48fb3d3a4a4b1347c8f9019a2e9fa1cc78a674" resname="contenttypeselector.filter.group">
+      <trans-unit id="2f48fb3d3a4a4b1347c8f9019a2e9fa1cc78a674" resname="contenttypeselector.filter.group" approved="yes">
         <source>Filter by group</source>
-        <target xml:lang="fr" state="translated">Filtrer par groupe</target>
+        <target xml:lang="fr">Filtrer par groupe</target>
         <note>key: contenttypeselector.filter.group</note>
         <jms:reference-file>Resources/public/templates/contenttypeselector.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="e1d6420dd5ff75aabc939563cb4e874c0f9cbb00" resname="contenttypeselector.start.typing">
+      <trans-unit id="e1d6420dd5ff75aabc939563cb4e874c0f9cbb00" resname="contenttypeselector.start.typing" approved="yes">
         <source>start typing to refine the list</source>
-        <target xml:lang="fr" state="translated">commencez la saisie pour filtrer la liste</target>
+        <target xml:lang="fr">commencez la saisie pour filtrer la liste</target>
         <note>key: contenttypeselector.start.typing</note>
         <jms:reference-file>Resources/public/templates/contenttypeselector.hbt</jms:reference-file>
       </trans-unit>

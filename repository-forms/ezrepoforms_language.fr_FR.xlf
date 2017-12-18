@@ -12,9 +12,9 @@
         <note>key: language.form.delete</note>
         <jms:reference-file line="32">lib/Form/Type/Language/LanguageDeleteType.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="f471f1ba7a9fddf9bcaf869218b35fe26147a4ab" resname="language.form.save">
+      <trans-unit id="f471f1ba7a9fddf9bcaf869218b35fe26147a4ab" resname="language.form.save" approved="yes">
         <source>Save</source>
-        <target xml:lang="fr" state="translated">Enregistrer</target>
+        <target xml:lang="fr">Enregistrer</target>
         <note>key: language.form.save</note>
         <jms:reference-file line="25">lib/Form/Type/Language/LanguageType.php</jms:reference-file>
       </trans-unit>

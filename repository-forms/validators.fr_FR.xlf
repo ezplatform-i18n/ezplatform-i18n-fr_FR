@@ -11,19 +11,19 @@
         <target xml:lang="fr">Les descriptions de type de contenu ne peuvent dépasser 255 caractères.</target>
         <note>key: ez.content_type.descriptions</note>
       </trans-unit>
-      <trans-unit id="73aad2fb9c8f9a2103bf60d6e9221a619f261f9c" resname="ez.content_type.identifier.pattern">
+      <trans-unit id="73aad2fb9c8f9a2103bf60d6e9221a619f261f9c" resname="ez.content_type.identifier.pattern" approved="yes">
         <source>Content type identifier may only contain letters from "a" to "z", numbers and underscores.</source>
-        <target xml:lang="fr" state="translated">Les identifiant de type de contenu ne peuvent contenir que les lettres "a" à "z", des chiffres et des blancs soulignés.</target>
+        <target xml:lang="fr">Les identifiant de type de contenu ne peuvent contenir que les lettres "a" à "z", des chiffres et des blancs soulignés.</target>
         <note>key: ez.content_type.identifier.pattern</note>
       </trans-unit>
-      <trans-unit id="7ecfa6bd2c1993d18d067f3abe3acebeb9c2458c" resname="ez.content_type.names">
+      <trans-unit id="7ecfa6bd2c1993d18d067f3abe3acebeb9c2458c" resname="ez.content_type.names" approved="yes">
         <source>Content type name cannot be blank and cannot exceed 255 characters.</source>
-        <target xml:lang="fr" state="translated">Les noms de type de contenu ne peuvent pas être vide ni dépasser 255 caractères.</target>
+        <target xml:lang="fr">Les noms de type de contenu ne peuvent pas être vide ni dépasser 255 caractères.</target>
         <note>key: ez.content_type.names</note>
       </trans-unit>
-      <trans-unit id="95f7490a739fd599a8d1d8f2ddec862744a71faa" resname="ez.field_definition.descriptions">
+      <trans-unit id="95f7490a739fd599a8d1d8f2ddec862744a71faa" resname="ez.field_definition.descriptions" approved="yes">
         <source>Field definition description cannot exceed 255 characters.</source>
-        <target xml:lang="fr" state="translated">Les descriptions de définition de champ ne peuvent pas dépasser 255 caractères.</target>
+        <target xml:lang="fr">Les descriptions de définition de champ ne peuvent pas dépasser 255 caractères.</target>
         <note>key: ez.field_definition.descriptions</note>
       </trans-unit>
       <trans-unit id="0f7d936836760a506042c4d25cd38c5a30c3d9de" resname="ez.field_definition.names" approved="yes">
@@ -35,6 +35,16 @@
         <source>Section identifier may only contain letters from "a" to "z", numbers and underscores.</source>
         <target xml:lang="fr">Les identifiants de section ne peuvent contenir que les lettres "a" à "z", des chiffres et des blancs soulignés.</target>
         <note>key: ez.section.identifier.format</note>
+      </trans-unit>
+      <trans-unit id="963a415cd08151ecf8726e651a7a36140e05f4b5" resname="ez.role.identifier.unique" approved="yes">
+        <source>The role identifier "%identifier%" is used by another role. You must enter a unique identifier.</source>
+        <target xml:lang="fr">L’identificateur de rôle « %identifier% » est utilisé par un autre rôle. Vous devez entrer un identificateur unique.</target>
+        <note>key: ez.role.identifier.unique</note>
+      </trans-unit>
+      <trans-unit id="e7e08263e46325665a4d7f85d5f3465c37d49bb7" resname="ez.language.code.unique" approved="yes">
+        <source>The language code "%language_code%" is used by another language. You must enter a unique language code.</source>
+        <target xml:lang="fr">Le code de langue « %language_code% » est utilisé par une autre langue. Vous devez entrer un code de langue unique.</target>
+        <note>key: ez.language.code.unique</note>
       </trans-unit>
     </body>
   </file>

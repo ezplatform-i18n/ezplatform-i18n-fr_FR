@@ -18,17 +18,20 @@
         <note>key: dashboard.all.content</note>
         <jms:reference-file>Resources/public/templates/dashboard/allcontent.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="bb736c34f0a6f3cf53ad082d8e7cba37aa31606a" resname="dashboard.content.type">
+      <trans-unit id="bb736c34f0a6f3cf53ad082d8e7cba37aa31606a" resname="dashboard.content.type" approved="yes">
         <source>Content Type</source>
-        <target xml:lang="fr" state="translated">Type</target>
+        <target xml:lang="fr">Type de Contenu</target>
         <note>key: dashboard.content.type</note>
         <jms:reference-file>Resources/public/templates/dashboard/allcontent.hbt</jms:reference-file>
         <jms:reference-file>Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
         <jms:reference-file>Resources/public/templates/dashboard/mydrafts.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Type</target>
+        </alt-trans>
       </trans-unit>
-      <trans-unit id="f3523831ab3c2067acfa6fdf0bc19c64a39647b4" resname="dashboard.last.saved">
+      <trans-unit id="f3523831ab3c2067acfa6fdf0bc19c64a39647b4" resname="dashboard.last.saved" approved="yes">
         <source>Last saved</source>
-        <target xml:lang="fr" state="translated">Dernière modification</target>
+        <target xml:lang="fr">Dernière modification</target>
         <note>key: dashboard.last.saved</note>
         <jms:reference-file>Resources/public/templates/dashboard/allcontent.hbt</jms:reference-file>
         <jms:reference-file>Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
@@ -53,27 +56,27 @@
         <note>key: dashboard.my.content</note>
         <jms:reference-file>Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="deee7b8356005d3419c3907048b4c62f6c947a3c" resname="dashboard.my.drafts">
+      <trans-unit id="deee7b8356005d3419c3907048b4c62f6c947a3c" resname="dashboard.my.drafts" approved="yes">
         <source>My Drafts</source>
-        <target xml:lang="fr" state="translated">Mes brouillons</target>
+        <target xml:lang="fr">Mes brouillons</target>
         <note>key: dashboard.my.drafts</note>
         <jms:reference-file>Resources/public/templates/dashboard/mydrafts.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="328b897775fad72927fcdd34b26e6c67d77ac6bc" resname="dashboard.mycontent.no.modified.content">
+      <trans-unit id="328b897775fad72927fcdd34b26e6c67d77ac6bc" resname="dashboard.mycontent.no.modified.content" approved="yes">
         <source>You haven't modified any content item yet.</source>
-        <target xml:lang="fr" state="translated">Vous n'avez pas encore modifié d'élément de contenu.</target>
+        <target xml:lang="fr">Vous n'avez pas encore modifié d'élément de contenu.</target>
         <note>key: dashboard.mycontent.no.modified.content</note>
         <jms:reference-file>Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="77c0cd3f3cae226e66b157a227ba1c48480c03c9" resname="dashboard.mydrafts.no.draft">
+      <trans-unit id="77c0cd3f3cae226e66b157a227ba1c48480c03c9" resname="dashboard.mydrafts.no.draft" approved="yes">
         <source>You don't have any drafts.</source>
-        <target xml:lang="fr" state="translated">Vous n'avez aucun brouillon.</target>
+        <target xml:lang="fr">Vous n'avez aucun brouillon.</target>
         <note>key: dashboard.mydrafts.no.draft</note>
         <jms:reference-file>Resources/public/templates/dashboard/mydrafts.hbt</jms:reference-file>
       </trans-unit>
-      <trans-unit id="1598105f8c01cd4d73924667af473114a30c2ae5" resname="dashboard.retry">
+      <trans-unit id="1598105f8c01cd4d73924667af473114a30c2ae5" resname="dashboard.retry" approved="yes">
         <source>Retry</source>
-        <target xml:lang="fr" state="translated">Rééssayer</target>
+        <target xml:lang="fr">Rééssayer</target>
         <note>key: dashboard.retry</note>
         <jms:reference-file>Resources/public/templates/dashboard/allcontent.hbt</jms:reference-file>
         <jms:reference-file>Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
@@ -90,9 +93,9 @@
           <target xml:lang="fr">Tableau de bord</target>
         </alt-trans>
       </trans-unit>
-      <trans-unit id="7521275a12ed4eecb89be89777fcabb81f68338c" resname="dashboard.version">
+      <trans-unit id="7521275a12ed4eecb89be89777fcabb81f68338c" resname="dashboard.version" approved="yes">
         <source>Version</source>
-        <target xml:lang="fr" state="translated">Version</target>
+        <target xml:lang="fr">Version</target>
         <note>key: dashboard.version</note>
         <jms:reference-file>Resources/public/templates/dashboard/allcontent.hbt</jms:reference-file>
         <jms:reference-file>Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
