@@ -3,11 +3,10 @@
   "description": "Meta repository to store every eZ Platform translations. This should be used during development to ease synchronization with Crowdin. SHOULD NOT BE USED IN PRODUCTION",
   "license": "GPL-2.0",
   "require": {
-    "ezsystems/ezpublish-kernel": "^6.7"
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "1.0.x-dev"
+      "dev-master": "2.0.x-dev"
     }
   }
 }
