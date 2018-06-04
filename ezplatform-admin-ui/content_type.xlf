@@ -6,6 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="779646634b8d89b40f5abaa2ccd6107b300bf429" resname="content_type.action.edit">
+        <source>Edit</source>
+        <target state="new">Edit</target>
+        <note>key: content_type.action.edit</note>
+      </trans-unit>
       <trans-unit id="0aef83746d192c9b507ecabebe250aeb684cc210" resname="content_type.breadcrumb.create">
         <source>Creating a new Content Type</source>
         <target state="new">Creating a new Content Type</target>
@@ -26,6 +31,16 @@
         <target state="new">Container</target>
         <note>key: content_type.container</note>
       </trans-unit>
+      <trans-unit id="694d6cbecfee848cf42a300c0b310f45ece6a09b" resname="content_type.content_field_definitions">
+        <source>Content field definitions</source>
+        <target state="new">Content field definitions</target>
+        <note>key: content_type.content_field_definitions</note>
+      </trans-unit>
+      <trans-unit id="3066b4a1b2277f4e299d9c91ad3134d725467b39" resname="content_type.content_type">
+        <source>Content Type</source>
+        <target state="new">Content Type</target>
+        <note>key: content_type.content_type</note>
+      </trans-unit>
       <trans-unit id="693f9ade0c2bb6a7c19b6f9b818d96aa23f1e013" resname="content_type.default_availability">
         <source>Default content availability</source>
         <target state="new">Default content availability</target>
@@ -42,8 +57,8 @@
         <note>key: content_type.default_availability.value</note>
       </trans-unit>
       <trans-unit id="5ebf6515da27060877064931a5ac1d5a8540e28d" resname="content_type.default_children_sorting">
-        <source>Default property for sorting children</source>
-        <target state="new">Default property for sorting children</target>
+        <source>Default field for sorting children</source>
+        <target state="new">Default field for sorting children</target>
         <note>key: content_type.default_children_sorting</note>
       </trans-unit>
       <trans-unit id="cefc13177fd81d4c9df6f8e86eb5278fccbe5a5a" resname="content_type.default_sort">
@@ -61,10 +76,20 @@
         <target state="new">Description</target>
         <note>key: content_type.description</note>
       </trans-unit>
+      <trans-unit id="2f9cb676bb073af7a8e4b52b374384dfc0aa9551" resname="content_type.edit.error.already_exists">
+        <source>Draft of the Content Type '%name%' already exists and is locked by '%userContentName%'</source>
+        <target state="new">Draft of the Content Type '%name%' already exists and is locked by '%userContentName%'</target>
+        <note>key: content_type.edit.error.already_exists</note>
+      </trans-unit>
       <trans-unit id="9eb89a2f51954babc5ff51f9060cbcda91dcf408" resname="content_type.field_definitions.modal.message">
         <source>Do you want to delete selected field definitions?</source>
         <target state="new">Do you want to delete selected field definitions?</target>
         <note>key: content_type.field_definitions.modal.message</note>
+      </trans-unit>
+      <trans-unit id="8bf6d91a6b0731a38103e04e03f3f9e8bf4459a1" resname="content_type.global_properties">
+        <source>Global properties</source>
+        <target state="new">Global properties</target>
+        <note>key: content_type.global_properties</note>
       </trans-unit>
       <trans-unit id="238db0c5dee8ec13199b073f7cc78728f53ffa36" resname="content_type.identifier">
         <source>Identifier</source>
@@ -151,6 +176,11 @@
         <target state="new">URL alias name pattern</target>
         <note>key: content_type.url_alias_schema</note>
       </trans-unit>
+      <trans-unit id="30f5ddb258e0ab8c31381ec10d9a90f7071bbf6f" resname="content_type.user_name.can_not_be_fetched">
+        <source>another user</source>
+        <target state="new">another user</target>
+        <note>key: content_type.user_name.can_not_be_fetched</note>
+      </trans-unit>
       <trans-unit id="56a9f26e930ab0493fc9cb9609318ea699cf8b76" resname="content_type.view.create.content_field_definitions">
         <source>Content field definitions</source>
         <target state="new">Content field definitions</target>
@@ -195,11 +225,6 @@
         <source>Delete Content Type</source>
         <target state="new">Delete Content Type</target>
         <note>key: content_type.view.list.action.delete</note>
-      </trans-unit>
-      <trans-unit id="1a2e4ef61d405d0628d8bacdb80d7bbaa11143d5" resname="content_type.view.list.action.edit">
-        <source>Edit</source>
-        <target state="new">Edit</target>
-        <note>key: content_type.view.list.action.edit</note>
       </trans-unit>
       <trans-unit id="bef02fc3d41e74bf002af93b413a2a203a04db1a" resname="content_type.view.list.column.id">
         <source>ID</source>
