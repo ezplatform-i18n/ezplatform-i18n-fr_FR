@@ -6,6 +6,18 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="41c3a5ae2a605ec7f8c6bdb8f33a730e3967f110" resname="being.moved.under">
+        <source>'%name%' is being moved under '%parentName%'</source>
+        <target xml:lang="it" state="translated">'%name%' viene spostato sotto '%parentName%'</target>
+        <note>key: being.moved.under</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-locationviewviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0a95ef6ccb3ab8cf4b2e04235129c2f08a115a3a" resname="changed.main.location.of">
+        <source>The main location of "%name%" has been changed</source>
+        <target xml:lang="it" state="translated">La location principale di "%name%" è stata modificata</target>
+        <note>key: changed.main.location.of</note>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-contentsetmainlocationplugin.js</jms:reference-file>
+      </trans-unit>
       <trans-unit id="e0be1422e1af400879a6716220eabc9ad4fca29e" resname="locationview.details.ascending">
         <source>Ascending</source>
         <target xml:lang="it" state="translated">Ascendente</target>
