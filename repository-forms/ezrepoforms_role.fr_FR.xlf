@@ -23,6 +23,9 @@
         <target xml:lang="fr">Supprimer l'assignation</target>
         <note>key: role.assignment.form.delete</note>
         <jms:reference-file line="32">lib/Form/Type/Role/RoleAssignmentDeleteType.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Supprimer l'assignement</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="2055432dd7586fdb260245c2eee60e3869bc5b23" resname="role.cancel" approved="yes">
         <source>Cancel</source>
@@ -53,6 +56,9 @@
         <target xml:lang="fr">Toutes les fonctions</target>
         <note>key: role.policy.all_functions</note>
         <jms:reference-file line="59">lib/Form/Type/Role/PolicyType.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Toutes fonctions</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="2a8bdc606cd0c96a53e2f661f0585029840af4b9" resname="role.policy.available_limitations" approved="yes">
         <source>Limitations</source>
@@ -65,18 +71,27 @@
         <target xml:lang="fr">Supprimer la règle</target>
         <note>key: role.policy.form.delete</note>
         <jms:reference-file line="33">lib/Form/Type/Role/PolicyDeleteType.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Supprimer la politique</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="0eda0d605bd42eb8989a82e546d09ace8bc1b4d9" resname="role.policy.limitation.location.udw_button" approved="yes">
         <source>Select locations</source>
         <target xml:lang="fr">Sélectionnez les emplacements</target>
         <note>key: role.policy.limitation.location.udw_button</note>
         <jms:reference-file line="9">bundle/Resources/views/Limitation/udw_limitation_value.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Emplacements</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="73a82ac42476a68fb0216ebecd04f01f11bf44b2" resname="role.policy.limitation.location.udw_title" approved="yes">
         <source>Select locations to use as policy limitation</source>
         <target xml:lang="fr">Sélectionnez les emplacements à utiliser pour la règle de restriction</target>
         <note>key: role.policy.limitation.location.udw_title</note>
         <jms:reference-file line="5">bundle/Resources/views/Limitation/udw_limitation_value.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Sélectionnez les emplacements de la restriction</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="be8159ab7985797bd281cb0f7f58bb4d2c925159" resname="role.policy.limitation.not_implemented" approved="yes">
         <source>Limitation edition for '%limitationTypeIdentifier%' is not implemented yet.</source>
@@ -89,18 +104,27 @@
         <target xml:lang="fr">Enregistrer</target>
         <note>key: role.policy.save</note>
         <jms:reference-file line="98">lib/Form/Type/Role/PolicyType.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Sauvegarder</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="cab53821c4e3d4cc647df19c3c1f1541e86b4a54" resname="role.policy.save_and_add_limitation" approved="yes">
         <source>Save and add limitations</source>
         <target xml:lang="fr">Enregistrer et ajouter les limitations</target>
         <note>key: role.policy.save_and_add_limitation</note>
         <jms:reference-file line="112">lib/Form/Type/Role/PolicyType.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Sauvegarder et ajouter la limitation</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="d3c70d265ab037db5ade02a8b738b5981353c7ac" resname="role.policy.type" approved="yes">
         <source>Policy type</source>
         <target xml:lang="fr">Type de règle</target>
         <note>key: role.policy.type</note>
         <jms:reference-file line="94">lib/Form/Type/Role/PolicyType.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Type de politique</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="ca6964415cb051927cf1d4092e4a6f49de0748c0" resname="role.policy.type.choose" approved="yes">
         <source>Choose a combination of module/function</source>
@@ -119,6 +143,9 @@
         <target xml:lang="fr">Enregistrer</target>
         <note>key: role.save</note>
         <jms:reference-file line="45">lib/Form/Type/Role/RoleUpdateType.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Sauvegarder</target>
+        </alt-trans>
       </trans-unit>
     </body>
   </file>

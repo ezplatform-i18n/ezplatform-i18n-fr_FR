@@ -17,6 +17,9 @@
         <target xml:lang="fr">S’inscrire</target>
         <note>key: user.register_button</note>
         <jms:reference-file line="47">lib/Form/Type/User/UserRegisterType.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Créer un compte</target>
+        </alt-trans>
       </trans-unit>
     </body>
   </file>
