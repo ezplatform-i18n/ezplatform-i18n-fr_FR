@@ -57,9 +57,12 @@
       </trans-unit>
       <trans-unit id="e9e10ddeb169d59d94b54912d0422481a0a0b140" resname="role.edit_title">
         <source><![CDATA[Edit <%roleName%>]]></source>
-        <target xml:lang="ja" state="translated"><![CDATA[編集 <%roleName%>]]></target>
+        <target xml:lang="ja" state="translated"><![CDATA[編集 <%roleName%> <%roleName%>]]></target>
         <note>key: role.edit_title</note>
         <jms:reference-file line="7">Resources/views/Role/update_role.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="ja"><![CDATA[編集 <%roleName%>]]></target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="c049089744629771a10145f3c8b52aefbd0cce17" resname="role.id">
         <source>ID</source>
