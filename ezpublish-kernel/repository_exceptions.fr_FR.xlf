@@ -87,6 +87,9 @@
         <target xml:lang="fr">Les définitions de champs du type sont invalides</target>
         <note>key: ContentType FieldDefinitions did not validate</note>
         <jms:reference-file line="45">eZ/Publish/Core/Base/Exceptions/ContentTypeFieldDefinitionValidationException.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Les FieldDefinitions du ContentType sont invalides</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="dbf0b883e33a6e7c433ffa9a536fd214cda39b5c" resname="Could not find %classType% class '%className%'" approved="yes">
         <source>Could not find %classType% class '%className%'</source>
@@ -124,6 +127,9 @@
         <note>key: Field definition '%identifier%' does not exist in given ContentType</note>
         <jms:reference-file line="1394">eZ/Publish/Core/Repository/ContentService.php</jms:reference-file>
         <jms:reference-file line="756">eZ/Publish/Core/Repository/ContentService.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Le FieldDefinition '%identifier%' n'existe pas dans le ContentType fourni</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="097b8a2bc1db5e54deb4aa00b0e0483fe1af27a4" resname="FieldType '%fieldType%' not found, needs to be implemented or configured to use FieldType\Null\Type (%ezpublish.fieldType.eznull.class%)" approved="yes">
         <source>FieldType '%fieldType%' not found, needs to be implemented or configured to use FieldType\Null\Type (%ezpublish.fieldType.eznull.class%)</source>
@@ -183,6 +189,9 @@
         <target xml:lang="fr">Le type de contenu fourni ne contient pas de type de champ ezuser</target>
         <note>key: Provided content type does not contain ezuser field type</note>
         <jms:reference-file line="422">eZ/Publish/Core/Repository/UserService.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Le ContentType fourni ne contient pas de FieldType ezuser</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="c13178e601c4bf79ad9ef57efe468ed438a9b167" resname="Relation is not of type COMMON" approved="yes">
         <source>Relation is not of type COMMON</source>

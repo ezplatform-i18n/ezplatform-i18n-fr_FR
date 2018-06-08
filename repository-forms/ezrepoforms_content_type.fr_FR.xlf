@@ -11,6 +11,9 @@
         <target xml:lang="fr">Ajouter la définition du champ</target>
         <note>key: content_type.add_field_definition</note>
         <jms:reference-file line="128">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Ajouter la définition de champ</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="529a1012c7fe5ca6fafdb5d070ac8ececfe94af6" resname="content_type.create" approved="yes">
         <source>Create a content type</source>
@@ -23,6 +26,9 @@
         <target xml:lang="fr">Disponibilité du contenu par défaut</target>
         <note>key: content_type.default_always_available</note>
         <jms:reference-file line="115">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Disponibilité de contenu par défaut</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="b29f5d9c32e10776ec9fd36c35c4aefc96732cb2" resname="content_type.default_sort_field" approved="yes">
         <source>Default field for sorting children</source>
@@ -77,6 +83,9 @@
         <target xml:lang="fr">Enregistrer</target>
         <note>key: content_type.group.save</note>
         <jms:reference-file line="22">lib/Form/Type/ContentType/ContentTypeGroupType.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Sauvegarder</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="238db0c5dee8ec13199b073f7cc78728f53ffa36" resname="content_type.identifier" approved="yes">
         <source>Identifier</source>
@@ -101,6 +110,9 @@
         <target xml:lang="fr">Modèle de nom de contenu</target>
         <note>key: content_type.name_schema</note>
         <jms:reference-file line="87">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Gabarit de nom de contenu</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="49e5f320e6e37cbd53a5d290e3ffd48788226852" resname="content_type.publish" approved="yes">
         <source>OK</source>
@@ -191,15 +203,21 @@
       </trans-unit>
       <trans-unit id="b411f25ded028ccb2ef56a55d69bd2e3f1da4cd5" resname="content_type.sort_order.1">
         <source>Ascending</source>
-        <target xml:lang="fr" state="translated">Ordre croissant</target>
+        <target xml:lang="fr" state="translated">Croissant</target>
         <note>key: content_type.sort_order.1</note>
         <jms:reference-file>eZ\Publish\API\Repository\Values\Content\Location</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Ordre croissant</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="6ab7362c77b22ff8bc0d14eeaae8514b0a683473" resname="content_type.url_alias_schema">
         <source>URL alias name pattern</source>
-        <target xml:lang="fr" state="translated">Modèle de génération d'alias d'URL</target>
+        <target xml:lang="fr" state="translated">Modèle de génération de l'URL</target>
         <note>key: content_type.url_alias_schema</note>
         <jms:reference-file line="88">lib/Form/Type/ContentType/ContentTypeUpdateType.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Modèle de génération d'alias d'URL</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="f99cc628dc4d82c5ee69eae79039a2f449eec064" resname="field_definition.description">
         <source>Description</source>
@@ -215,9 +233,12 @@
       </trans-unit>
       <trans-unit id="41f781284e4bae2abbb6cfdf1126cc90b48dd35b" resname="field_definition.ezbinaryfile.max_file_size">
         <source>Maximum file size (MB)</source>
-        <target xml:lang="fr" state="translated">Taille de fichier maximale (Mo)</target>
+        <target xml:lang="fr" state="translated">Taille de fichier maximale (MB)</target>
         <note>key: field_definition.ezbinaryfile.max_file_size</note>
         <jms:reference-file line="24">lib/FieldType/Mapper/BinaryFileFormMapper.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Taille de fichier maximale (Mo)</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="3ef6598f8cd7d60095784845bb24852ac531e47c" resname="field_definition.ezcountry.default_value">
         <source>Select which countries by default</source>
@@ -227,21 +248,30 @@
       </trans-unit>
       <trans-unit id="027f35cf66e5ea571cc7b600dad0ab5ceea20cd6" resname="field_definition.ezcountry.is_multiple">
         <source>Multiple choice</source>
-        <target xml:lang="fr" state="translated">Choix multiples</target>
+        <target xml:lang="fr" state="translated">Choix multiple</target>
         <note>key: field_definition.ezcountry.is_multiple</note>
         <jms:reference-file line="42">lib/FieldType/Mapper/CountryFormMapper.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Choix multiples</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="18a5846deb7a3d7dcc9fbd0a2de28d609c2a55c2" resname="field_definition.ezdate.default_type">
         <source>Default value</source>
-        <target xml:lang="fr" state="translated">Valeur par defaut</target>
+        <target xml:lang="fr" state="translated">Valeur par défaut</target>
         <note>key: field_definition.ezdate.default_type</note>
         <jms:reference-file line="34">lib/FieldType/Mapper/DateFormMapper.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Valeur par defaut</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="eb97ae8058956f1babf75555dbdba76c8e409bf1" resname="field_definition.ezdate.default_type_current">
         <source>Current date</source>
-        <target xml:lang="fr" state="translated">Date actuelle</target>
+        <target xml:lang="fr" state="translated">Date courante</target>
         <note>key: field_definition.ezdate.default_type_current</note>
         <jms:reference-file line="28">lib/FieldType/Mapper/DateFormMapper.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Date actuelle</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="df532a4ad5878fd0bc3f7842fb6907078efe76f9" resname="field_definition.ezdate.default_type_empty">
         <source>Empty</source>
@@ -305,9 +335,12 @@
       </trans-unit>
       <trans-unit id="5b275c762831def3c6ea393e3e0c25762e0844b3" resname="field_definition.ezimage.max_file_size">
         <source>Maximum file size (byte)</source>
-        <target xml:lang="fr" state="translated">Taille de fichier maximale (octet)</target>
+        <target xml:lang="fr" state="translated">Taille de fichier maximale (byte)</target>
         <note>key: field_definition.ezimage.max_file_size</note>
         <jms:reference-file line="25">lib/FieldType/Mapper/ImageFormMapper.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Taille de fichier maximale (octet)</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="8a95f664895f9c72e5ca52ea43908ad3d54c8966" resname="field_definition.ezinteger.default_value">
         <source>Default value</source>
@@ -341,9 +374,12 @@
       </trans-unit>
       <trans-unit id="fd243acf201f0150bda1c01399850c7ad9fc0c2d" resname="field_definition.ezmedia.max_file_size">
         <source>Maximum file size (MB)</source>
-        <target xml:lang="fr" state="translated">Taille de fichier maximale (Mo)</target>
+        <target xml:lang="fr" state="translated">Taille de fichier maximale (MB)</target>
         <note>key: field_definition.ezmedia.max_file_size</note>
         <jms:reference-file line="27">lib/FieldType/Mapper/MediaFormMapper.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Taille de fichier maximale (Mo)</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="1ae04670268864a185efbed749015b7ea14f079b" resname="field_definition.ezmedia.media_type">
         <source>Media type</source>
@@ -422,24 +458,36 @@
         <target xml:lang="fr">Emplacement par défaut</target>
         <note>key: field_definition.ezobjectrelationlist.selection_default_location</note>
         <jms:reference-file line="58">lib/FieldType/Mapper/RelationListFormMapper.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Localisation par défaut</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="1592c36df8d445c3154d1f639027f97a90739856" resname="field_definition.ezobjectrelationlist.selection_root_udw_button" approved="yes">
         <source>Select location</source>
         <target xml:lang="fr">Sélectionner l'emplacement</target>
         <note>key: field_definition.ezobjectrelationlist.selection_root_udw_button</note>
         <jms:reference-file line="148">bundle/Resources/views/ContentType/field_types.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Localisation par défaut</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="17d8f3e8bbd5b5f0f5b4b02ddaeaf2af82b0d222" resname="field_definition.ezobjectrelationlist.selection_root_udw_title" approved="yes">
         <source>Select a start location for browsing for relations</source>
         <target xml:lang="fr">Sélectionnez un emplacement initial pour rechercher une relation</target>
         <note>key: field_definition.ezobjectrelationlist.selection_root_udw_title</note>
         <jms:reference-file line="144">bundle/Resources/views/ContentType/field_types.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Sélectonnez un emplacement initial pour rechercher une relation</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="8c89d231e7f1b33a8e0b84ad81fc964785a59cbd" resname="field_definition.ezpage.default_layout" approved="yes">
         <source>Default layout</source>
         <target xml:lang="fr">Mise en page par défaut</target>
         <note>key: field_definition.ezpage.default_layout</note>
         <jms:reference-file line="45">lib/FieldType/Mapper/PageFormMapper.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Layout par défaut</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="14a95e986cd6b94301e0f44fd5ef2d5e7cdf90a4" resname="field_definition.ezselection.add_option" approved="yes">
         <source>Add an option</source>
@@ -452,6 +500,9 @@
         <target xml:lang="fr">Choix multiples</target>
         <note>key: field_definition.ezselection.is_multiple</note>
         <jms:reference-file line="41">lib/FieldType/Mapper/SelectionFormMapper.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Choix multiple</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="ac85420bb89c319433f4d0e8e988b6fa8363e8b9" resname="field_definition.ezselection.options" approved="yes">
         <source>Options</source>
@@ -473,12 +524,18 @@
         <target xml:lang="fr">Valeur par defaut</target>
         <note>key: field_definition.ezstring.default_value</note>
         <jms:reference-file line="55">lib/FieldType/Mapper/TextLineFormMapper.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Valeur par défaut</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="aeb5a467102cac589770bb08efe1ae15c2845cca" resname="field_definition.ezstring.max_length" approved="yes">
         <source>Maximum length</source>
         <target xml:lang="fr">Longueur maximum</target>
         <note>key: field_definition.ezstring.max_length</note>
         <jms:reference-file line="47">lib/FieldType/Mapper/TextLineFormMapper.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Longueur maximale</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="b3ccbbb1d949cd2ce5971857c15d8c972ee82691" resname="field_definition.ezstring.min_length" approved="yes">
         <source>Minimum length</source>

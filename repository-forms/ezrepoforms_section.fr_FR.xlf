@@ -17,6 +17,9 @@
         <target xml:lang="fr">Enregistrer</target>
         <note>key: section.form.save</note>
         <jms:reference-file line="23">lib/Form/Type/Section/SectionType.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Sauvegarder</target>
+        </alt-trans>
       </trans-unit>
     </body>
   </file>

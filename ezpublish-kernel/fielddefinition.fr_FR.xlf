@@ -200,6 +200,9 @@
         <target xml:lang="fr">Type de lecteur de media&amp;nbsp;:</target>
         <note>key: fielddefinition.media-player-type.label</note>
         <jms:reference-file line="169">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Type de lecteur de media&amp;nbsp;:</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="c7a28f2ea418dc17e634bf386d5f1db091582fc8" resname="fielddefinition.media-player-type.quick_time" approved="yes">
         <source>Quicktime</source>

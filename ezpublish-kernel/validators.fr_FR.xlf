@@ -10,6 +10,9 @@
         <source>ez.section.identifier.format</source>
         <target xml:lang="fr">Les identifiants de section ne peuvent contenir que les lettres "a" à "z", des chiffres et des blancs soulignés</target>
         <note>key: ez.section.identifier.format</note>
+        <alt-trans>
+          <target xml:lang="fr">Mauvais format</target>
+        </alt-trans>
       </trans-unit>
     </body>
   </file>
