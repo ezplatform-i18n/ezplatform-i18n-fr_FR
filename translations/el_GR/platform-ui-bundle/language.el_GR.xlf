@@ -114,6 +114,27 @@
         <jms:reference-file line="70">Resources/views/Language/list.html.twig</jms:reference-file>
         <jms:reference-file line="72">Resources/views/Language/list.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="7381072fc89347233cac4530d637e9fe98dedf38" resname="language.notification.created">
+        <source>The language "%languageName%" was correctly created.</source>
+        <target xml:lang="el" state="translated">Η γλώσσα "%languageName%" δημιουργήθηκε επιτυχώς.</target>
+        <note>key: language.notification.created</note>
+        <jms:reference-file line="46">Form/Processor/LanguageFormProcessor.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8af969d1a41cea0770e73d1a51c27ca9fce5f7cb" resname="language.notification.updated">
+        <source>The language "%languageName%" was correctly saved.</source>
+        <target xml:lang="el" state="translated">Η γλώσσα "%languageName%" αποθηκεύθηκε επιτυχώς.</target>
+        <note>key: language.notification.updated</note>
+        <jms:reference-file line="48">Form/Processor/LanguageFormProcessor.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8df2798a2851c0d43893e3862f8a2e6e4290b141" resname="language.view.title">
+        <source>Language: %languageName%</source>
+        <target xml:lang="el" state="translated">Γλώσσα: %languageName%</target>
+        <note>key: language.view.title</note>
+        <jms:reference-file line="17">Resources/views/Language/edit.html.twig</jms:reference-file>
+        <jms:reference-file line="16">Resources/views/Language/view.html.twig</jms:reference-file>
+        <jms:reference-file line="73">Resources/views/Language/view.html.twig</jms:reference-file>
+        <jms:reference-file line="9">Resources/views/Language/view.html.twig</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>

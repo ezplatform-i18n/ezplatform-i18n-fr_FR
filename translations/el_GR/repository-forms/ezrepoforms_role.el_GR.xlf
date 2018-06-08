@@ -72,11 +72,41 @@
         <note>key: role.policy.limitation.location.udw_button</note>
         <jms:reference-file line="9">bundle/Resources/views/Limitation/udw_limitation_value.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="73a82ac42476a68fb0216ebecd04f01f11bf44b2" resname="role.policy.limitation.location.udw_title">
+        <source>Select locations to use as policy limitation</source>
+        <target xml:lang="el" state="translated">Επιλέξτε τις θέσεις για να τις χρησιμοποιήσετε ως πολιτική περιορισμού</target>
+        <note>key: role.policy.limitation.location.udw_title</note>
+        <jms:reference-file line="5">bundle/Resources/views/Limitation/udw_limitation_value.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="be8159ab7985797bd281cb0f7f58bb4d2c925159" resname="role.policy.limitation.not_implemented">
+        <source>Limitation edition for '%limitationTypeIdentifier%' is not implemented yet.</source>
+        <target xml:lang="el" state="translated">Η περιορισμένη έκδοση τού '%limitationTypeIdentifier% " δεν έχει ακόμη εφαρμοστεί.</target>
+        <note>key: role.policy.limitation.not_implemented</note>
+        <jms:reference-file line="3">bundle/Resources/views/Limitation/null_limitation_values.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="2651baeac233ce0e4ec974e260d8e0873197f3fc" resname="role.policy.save">
         <source>Save</source>
         <target xml:lang="el" state="translated">Αποθήκευση</target>
         <note>key: role.policy.save</note>
         <jms:reference-file line="98">lib/Form/Type/Role/PolicyType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cab53821c4e3d4cc647df19c3c1f1541e86b4a54" resname="role.policy.save_and_add_limitation">
+        <source>Save and add limitations</source>
+        <target xml:lang="el" state="translated">Αποθήκευση και προσθήκη περιορισμών</target>
+        <note>key: role.policy.save_and_add_limitation</note>
+        <jms:reference-file line="112">lib/Form/Type/Role/PolicyType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="d3c70d265ab037db5ade02a8b738b5981353c7ac" resname="role.policy.type">
+        <source>Policy type</source>
+        <target xml:lang="el" state="translated">Τύπος πολιτικής</target>
+        <note>key: role.policy.type</note>
+        <jms:reference-file line="94">lib/Form/Type/Role/PolicyType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ca6964415cb051927cf1d4092e4a6f49de0748c0" resname="role.policy.type.choose">
+        <source>Choose a combination of module/function</source>
+        <target xml:lang="el" state="translated">Επιλέξτε ένα συνδυασμό της ενότητας/λειτουργία</target>
+        <note>key: role.policy.type.choose</note>
+        <jms:reference-file line="95">lib/Form/Type/Role/PolicyType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="f807a08e0f2e4780d2d54ed57e5c88bb5c937f49" resname="role.remove_draft">
         <source>Cancel</source>

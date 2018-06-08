@@ -34,6 +34,19 @@
         <jms:reference-file>Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
         <jms:reference-file>Resources/public/templates/dashboard/mydrafts.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="c26996ea8c335b1df9a001af761adf5e2aa5f2e6" resname="dashboard.loading.draft.error">
+        <source>An error occurred while loading the draft list.</source>
+        <target xml:lang="el" state="translated">Παρουσιάστηκε σφάλμα κατά τη φόρτωση της διάταξης.</target>
+        <note>key: dashboard.loading.draft.error</note>
+        <jms:reference-file>Resources/public/templates/dashboard/mydrafts.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="90451c27b66dffbfea45c8ce24eff1cb380d6d46" resname="dashboard.loading.error">
+        <source>An error occurred while loading the content list.</source>
+        <target xml:lang="el" state="translated">Παρουσιάστηκε σφάλμα κατά τη φόρτωση της διάταξης.</target>
+        <note>key: dashboard.loading.error</note>
+        <jms:reference-file>Resources/public/templates/dashboard/allcontent.hbt</jms:reference-file>
+        <jms:reference-file>Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="dc6421eab8286e0adb87544214a132d5c31d8fd8" resname="dashboard.my.content">
         <source>My Content</source>
         <target xml:lang="el" state="translated">Το περιεχόμενό μου</target>
@@ -45,6 +58,12 @@
         <target xml:lang="el" state="translated">Τα πρόχειρά μου</target>
         <note>key: dashboard.my.drafts</note>
         <jms:reference-file>Resources/public/templates/dashboard/mydrafts.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="328b897775fad72927fcdd34b26e6c67d77ac6bc" resname="dashboard.mycontent.no.modified.content">
+        <source>You haven't modified any content item yet.</source>
+        <target xml:lang="el" state="translated">Ακόμα δεν τροποποιήσατε ένα στοιχείο περιεχομένου.</target>
+        <note>key: dashboard.mycontent.no.modified.content</note>
+        <jms:reference-file>Resources/public/templates/dashboard/mycontent.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="77c0cd3f3cae226e66b157a227ba1c48480c03c9" resname="dashboard.mydrafts.no.draft">
         <source>You don't have any drafts.</source>

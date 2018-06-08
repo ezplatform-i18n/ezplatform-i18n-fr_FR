@@ -30,11 +30,95 @@
         <note>key: error.emptying.trash</note>
         <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="c7d0ace34e28047e04285d5d1ca7dbd8a4757432" resname="error.restoring.item">
+        <source>An error occurred while restoring trash item with id: %id%. For the moment item's whose original location has been deleted can not be restored</source>
+        <target xml:lang="el" state="translated">Παρουσιάστηκε ένα σφάλμα κατά την επαναφορά σκουπιδιών με id: %id%. Προς το παρόν το στοιχείο του οποίου η αρχική θέση έχει διαγραφεί δεν μπορεί να αποκατασταθεί</target>
+        <note>key: error.restoring.item</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="034c33d9dc24f606046bc88959214744dcb84993" resname="failed.load.content.type">
+        <source>Failed to load trash item Content Type name</source>
+        <target xml:lang="el" state="translated">Αποτυχία φόρτωσης στοιχείων από τα σκουπίδια του Τύπου Περιεχομένου</target>
+        <note>key: failed.load.content.type</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="161c33f86dcd9d9116d020cbc5566086e8bb4c8c" resname="failed.load.parent.location.path">
+        <source>Failed to load parent location's path</source>
+        <target xml:lang="el" state="translated">Αδύνατο να φορτωθούν οι κορυφείς τοποθεσίες</target>
+        <note>key: failed.load.parent.location.path</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e4070d79791c331da86fcb230fec53235b1519ad" resname="items.permanently.deleted">
+        <source>%count% items were permanently deleted.</source>
+        <target xml:lang="el" state="translated">%count% στοιχεία που διαγράφτηκαν μόνιμα.</target>
+        <note>key: items.permanently.deleted</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
+      </trans-unit>
       <trans-unit id="0c3639c10994d885f997d2403c4fb64b10a118b3" resname="minimize">
         <source>Minimize</source>
         <target xml:lang="el" state="translated">Ελαχιστοποίηση</target>
         <note>key: minimize</note>
         <jms:reference-file>Resources/public/js/views/ez-trashbarview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6dcfe1a862453282cc8de9d38d2468fa7bebd7c9" resname="restore.selected">
+        <source>Restore selected</source>
+        <target xml:lang="el" state="translated">Επαναφορά επιλεγμένων</target>
+        <note>key: restore.selected</note>
+        <jms:reference-file>Resources/public/js/views/ez-trashbarview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="975936b6f9637047ab09d9e23550ee47e44a1308" resname="restoring.trash.items">
+        <source>Restoring trash item(s)</source>
+        <target xml:lang="el" state="translated">Αποκατάσταση στοιχείου(ειων)</target>
+        <note>key: restoring.trash.items</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-trashviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a97f5d20007194640d4a0f86e05bccd2463d9642" resname="trash.ancestor.to.select">
+        <source>Select a new parent location for the item</source>
+        <target xml:lang="el" state="translated">Επιλέξτε μια νέα μητρική θέση για το στοιχείο</target>
+        <note>key: trash.ancestor.to.select</note>
+        <jms:reference-file>Resources/public/js/views/ez-trashview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="bdaee6eee47e0c028566b056680e5f7488772428" resname="trash.ancestors">
+        <source>Item's ancestors are in Trash</source>
+        <target xml:lang="el" state="translated">Οι πρόγονοί του στοιχείου είναι στα Σκουπίδια</target>
+        <note>key: trash.ancestors</note>
+        <jms:reference-file>Resources/public/templates/trash.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ef15335cc7bc4c4bb04a558b3e7346fb2be24795" resname="trash.ancestors.button">
+        <source>Restore under a new parent</source>
+        <target xml:lang="el" state="translated">Επαναφορά κάτω από μια νέα μητρική</target>
+        <note>key: trash.ancestors.button</note>
+        <jms:reference-file>Resources/public/templates/trash.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="7883128cdfb813826271abe90b3a1f3190833ce6" resname="trash.empty">
+        <source>The trash is empty</source>
+        <target xml:lang="el" state="translated">Ο κάδος είναι άδειος</target>
+        <note>key: trash.empty</note>
+        <jms:reference-file>Resources/public/templates/trash.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9bedf5469883778a8aac2f2a0daaa7664704069b" resname="trash.header.name">
+        <source>Trash</source>
+        <target xml:lang="el" state="translated">Κάδος</target>
+        <note>key: trash.header.name</note>
+        <jms:reference-file>Resources/public/templates/trash.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="3a3e7b9bb64031650fdee83795a1ff063f6e655b" resname="trash.name.label">
+        <source>Name</source>
+        <target xml:lang="el" state="translated">Όνομα</target>
+        <note>key: trash.name.label</note>
+        <jms:reference-file>Resources/public/templates/trash.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9575bcbf8b3c77d77aaae07deedce83f809818f5" resname="trash.original.location.label">
+        <source>Original Location</source>
+        <target xml:lang="el" state="translated">Αρχική θέση</target>
+        <note>key: trash.original.location.label</note>
+        <jms:reference-file>Resources/public/templates/trash.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ca702addebbb7f19ce7adc7b2d990c2abcbe73dc" resname="trash.type.label">
+        <source>Type</source>
+        <target xml:lang="el" state="translated">Τύπος</target>
+        <note>key: trash.type.label</note>
+        <jms:reference-file>Resources/public/templates/trash.hbt</jms:reference-file>
       </trans-unit>
     </body>
   </file>

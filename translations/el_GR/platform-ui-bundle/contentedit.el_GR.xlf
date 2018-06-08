@@ -43,11 +43,90 @@
         <note>key: contentedit.previewing</note>
         <jms:reference-file>Resources/public/templates/editpreview.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="55bfafdd36ab25c84547ddc2ecfc0fb802565885" resname="created.by">
+        <source>Created by %name%</source>
+        <target xml:lang="el" state="translated">Δημιουργήθηκε από %name%</target>
+        <note>key: created.by</note>
+        <jms:reference-file>Resources/public/templates/contentedit.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="7af6c0a920d16426b99840eb404723badd38088d" resname="discard.changes">
         <source>Discard Changes</source>
         <target xml:lang="el" state="translated">Ακύρωση αλλαγών</target>
         <note>key: discard.changes</note>
         <jms:reference-file>Resources/public/js/views/ez-editactionbarview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="431acee9716b1c0e01f44d5c29066c88805baa76" resname="draft.saved">
+        <source>The draft was stored successfully</source>
+        <target xml:lang="el" state="translated">Το έγγραφο έχει αποθηκευτεί με επιτυχία</target>
+        <note>key: draft.saved</note>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-savedraftplugin.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9db67cccc0bb69201e5e3c2b4e9f38f4ab4d1825" resname="error.publishing.draft">
+        <source>An error occurred while publishing the draft</source>
+        <target xml:lang="el" state="translated">Παρουσιάστηκε σφάλμα κατά τη φόρτωση της διάταξης</target>
+        <note>key: error.publishing.draft</note>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-publishdraftplugin.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a73c8d3d7af831b9afb385bad44ea20909312ce3" resname="error.saving.draft">
+        <source>An error occurred while saving the draft</source>
+        <target xml:lang="el" state="translated">Παρουσιάστηκε σφάλμα κατά την αποθήκευση της διάταξης</target>
+        <note>key: error.saving.draft</note>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-savedraftplugin.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="017e73e2672420a3448a1f74176b3dcbaf06082e" resname="failed.finding.content">
+        <source>Could not find the content id '%id%'</source>
+        <target xml:lang="el" state="translated">Αδυναμία έυρεσης τού content id '%id%'</target>
+        <note>key: failed.finding.content</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b9f80ecb0db5052858af3b167a67caeacc9d99e9" resname="failed.loading.content.id.language">
+        <source>Could not load the content with id '%contentId%' and languageCode '%languageCode%'</source>
+        <target xml:lang="el" state="translated">Αδυναμία φόρτωσης τού περιεχόμενου με id '%contentId% " και κωδικό γλώσσας '%languageCode%'</target>
+        <note>key: failed.loading.content.id.language</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="17a5ca14762c150e062aa874e2911d5c917da04a" resname="failed.loading.content.in">
+        <source>Could not load the content with id '%contentId%' and languageCode '%languageCode%'</source>
+        <target xml:lang="el" state="translated">Αδυναμία φόρτωσης τού περιεχόμενου με id '%contentId% " και κωδικό γλώσσας '%languageCode%'</target>
+        <note>key: failed.loading.content.in</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5f9372fdbe581e8eb35c5e26d8924cd701aec768" resname="failed.loading.content.type">
+        <source>Could not load the content type with id %id%</source>
+        <target xml:lang="el" state="translated">Αδυναμία φόρτωσης τού περιεχόμενου με id %id%</target>
+        <note>key: failed.loading.content.type</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-contentcreateviewservice.js</jms:reference-file>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2dfcf61a9108b8d0c6e9e763b77f42900c993c26" resname="failed.loading.location">
+        <source>Could not load the location with id '%id%'</source>
+        <target xml:lang="el" state="translated">Αδυναμία φόρτωσης της τοποθεσίας με id '%id%'</target>
+        <note>key: failed.loading.location</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a351796a7cf41aee232765320231e0c6e7840d18" resname="failed.loading.version.in">
+        <source>Could not load the version with id '%versionId%' and languageCode '%languageCode%'</source>
+        <target xml:lang="el" state="translated">Αδυναμία φόρτωσης της έκδοσης με id '%versionId%' και κωδικό γλώσσας '%languageCode%'</target>
+        <note>key: failed.loading.version.in</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="78481c1d043da7c443be844ac99ab76ad611fb94" resname="failed.saving.draft.to.generate.the.preview">
+        <source>An error occurred while saving the draft, the preview cannot be generated.</source>
+        <target xml:lang="el" state="translated">Παρουσιάστηκε σφάλμα κατά την αποθήκευση, το σχέδιο, η προεπισκόπηση δεν είναι δυνατό να παραχθεί.</target>
+        <note>key: failed.saving.draft.to.generate.the.preview</note>
+        <jms:reference-file>Resources/public/js/views/ez-contenteditview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="efde392b8cb92e5f09d889652fcb0160fbbdbb24" resname="language.changed.to">
+        <source>Language has been changed to %name%</source>
+        <target xml:lang="el" state="translated">Η γλώσσα έχει αλλάξει στα %name%</target>
+        <note>key: language.changed.to</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-contentcreateviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6d0401db3e4611b4d77886467ae5ca21014be5f5" resname="name.new.content.of.type">
+        <source>New "%contentTypeName%"</source>
+        <target xml:lang="el" state="translated">Νέο "%contentTypeName%"</target>
+        <note>key: name.new.content.of.type</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-contentcreateviewservice.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="1aa787fe0cfb373575fc2c0f6f826e7c6dc9fd41" resname="preview">
         <source>Preview</source>
@@ -73,11 +152,47 @@
         <note>key: save</note>
         <jms:reference-file>Resources/public/js/views/ez-editactionbarview.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="387457d40f6024b3cda857de65d978cbdcfe7d95" resname="saving.draft">
+        <source>Saving the draft</source>
+        <target xml:lang="el" state="translated">Αποθήκευση σχεδίου</target>
+        <note>key: saving.draft</note>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-savedraftplugin.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="a1687cb0b4785f868568c6d44633281f477604c2" resname="saving.draft.to.generate.the.preview">
+        <source>Saving the draft to generate the preview</source>
+        <target xml:lang="el" state="translated">Αποθήκευση σχεδίου για δημιουργία προεπισκόπησης</target>
+        <note>key: saving.draft.to.generate.the.preview</note>
+        <jms:reference-file>Resources/public/js/views/ez-contenteditview.js</jms:reference-file>
+      </trans-unit>
       <trans-unit id="0283adf7eb61930a84f71c0bbf6b5a0d8156416a" resname="select.a.draft">
         <source>Select a draft</source>
         <target xml:lang="el" state="translated">Επιλογή προχείρου</target>
         <note>key: select.a.draft</note>
         <jms:reference-file>Resources/public/js/views/services/plugins/ez-contenteditplugin.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="51737538b92a2da9235ebf797bef20dc757bf070" resname="version.not.a.draft">
+        <source>The version '%versionId%' is not a draft.</source>
+        <target xml:lang="el" state="translated">Η έκδοση '%versionId%' δεν είναι σχέδιο.</target>
+        <note>key: version.not.a.draft</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="de9120a2c5c374027f74d571071a0e8e36502888" resname="version.not.a.draft.of.content">
+        <source>The version '%versionId%' is not a version of the content '%contentId%'</source>
+        <target xml:lang="el" state="translated">Η έκδοση '%versionId%' δεν είναι η έκδοση τού περιεχόμενου '%contentId%'</target>
+        <note>key: version.not.a.draft.of.content</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6cc66f843c3ccf4dd174ae35a72c94720b61322b" resname="version.not.belong.to.you">
+        <source>The version '%versionId%' does not belong to you</source>
+        <target xml:lang="el" state="translated">Η έκδοση '%versionId%' δεν ανήκει σε εσας</target>
+        <note>key: version.not.belong.to.you</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4399ce0f2a2f08359f4a35c8597b8579e9c302ab" resname="version.not.exist.in">
+        <source>The version '%versionId%' does not exist in '%languageCode%'</source>
+        <target xml:lang="el" state="translated">Η έκδοση '%versionId%' δεν υπάρχει στο '%languageCode%'</target>
+        <note>key: version.not.exist.in</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-contenteditviewservice.js</jms:reference-file>
       </trans-unit>
     </body>
   </file>

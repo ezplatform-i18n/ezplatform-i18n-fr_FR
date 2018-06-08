@@ -66,6 +66,48 @@
         <note>key: navigationhub.role.list</note>
         <jms:reference-file>Resources/public/js/views/services/ez-navigationhubviewservice.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="05bd808967aac1311d193cc98d15b0f736c8343d" resname="navigationhub.section.list">
+        <source>Sections</source>
+        <target xml:lang="el" state="translated">Ενότητες</target>
+        <note>key: navigationhub.section.list</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-navigationhubviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2ee246e2cc6a385e5ae2d5cbc7b5611e2de3a799" resname="navigationhub.system.information">
+        <source>System information</source>
+        <target xml:lang="el" state="translated">Πληροφορίες συστήματος</target>
+        <note>key: navigationhub.system.information</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-navigationhubviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="5bf12850a3a99f7bbd51deb7c695c07e39bcbf0e" resname="navigationhub.user.list">
+        <source>Users</source>
+        <target xml:lang="el" state="translated">Χρήστες</target>
+        <note>key: navigationhub.user.list</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-navigationhubviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9dad31674a58b4c29df317da824ecd407e79d708" resname="navigationhub.zone.admin">
+        <source>Admin Panel</source>
+        <target xml:lang="el" state="translated">Σελίδα Διαχειριστή</target>
+        <note>key: navigationhub.zone.admin</note>
+        <jms:reference-file>Resources/public/js/views/ez-navigationhubview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f32918f2df2d2ecd3aa263a188187635d45c3d49" resname="navigationhub.zone.platform">
+        <source>Content</source>
+        <target xml:lang="el" state="translated">Περιεχόμενο</target>
+        <note>key: navigationhub.zone.platform</note>
+        <jms:reference-file>Resources/public/js/views/ez-navigationhubview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e296e7a38799c79dee11c3e18ac42150c9f02673" resname="navigationhub.zone.studio">
+        <source>Page</source>
+        <target xml:lang="el" state="translated">Σελίδα</target>
+        <note>key: navigationhub.zone.studio</note>
+        <jms:reference-file>Resources/public/js/views/ez-navigationhubview.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6ab1d96fc11727d94958674d980864844202f89a" resname="navigationhub.zone.studioplus">
+        <source>Performance</source>
+        <target xml:lang="el" state="translated">Απόδοση</target>
+        <note>key: navigationhub.zone.studioplus</note>
+        <jms:reference-file>Resources/public/js/views/ez-navigationhubview.js</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>

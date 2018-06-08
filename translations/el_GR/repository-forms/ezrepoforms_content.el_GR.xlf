@@ -54,6 +54,12 @@
         <note>key: content.save_button</note>
         <jms:reference-file line="47">lib/Form/Type/Content/ContentEditType.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="df2f594c4b24eb1a49a45e95a5e7ed5cdef802bd" resname="ezrepoforms.content.fields">
+        <source>ezrepoforms.content.fields</source>
+        <target xml:lang="el" state="translated">ezrepoforms.content.fields</target>
+        <note>key: ezrepoforms.content.fields</note>
+        <jms:reference-file line="39">lib/Form/Type/Content/ContentEditType.php</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>

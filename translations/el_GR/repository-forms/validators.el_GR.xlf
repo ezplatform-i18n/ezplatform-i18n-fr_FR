@@ -26,6 +26,26 @@
         <target xml:lang="el" state="translated">Η περιγραφή του τύπου περιεχομένου δεν μπορεί να ξεπερνά τους 255 χαρακτήρες.</target>
         <note>key: ez.field_definition.descriptions</note>
       </trans-unit>
+      <trans-unit id="0f7d936836760a506042c4d25cd38c5a30c3d9de" resname="ez.field_definition.names">
+        <source>Field definition name cannot be blank cannot exceed 255 characters.</source>
+        <target xml:lang="el" state="translated">Η περιγραφή του τύπου περιεχομένου δεν μπορεί να ξεπερνά τους 255 χαρακτήρες.</target>
+        <note>key: ez.field_definition.names</note>
+      </trans-unit>
+      <trans-unit id="924826be1015d20c1f4524754c690e10935abaac" resname="ez.section.identifier.format">
+        <source>Section identifier may only contain letters from "a" to "z", numbers and underscores.</source>
+        <target xml:lang="el" state="translated">Το αναγνωριστικό του τύπου περιεχομένου μπορεί να περιέχει μόνο λατινικά γράμματα από «a» έως «z», αριθμούς και κάτω παύλα.</target>
+        <note>key: ez.section.identifier.format</note>
+      </trans-unit>
+      <trans-unit id="963a415cd08151ecf8726e651a7a36140e05f4b5" resname="ez.role.identifier.unique">
+        <source>The role identifier "%identifier%" is used by another role. You must enter a unique identifier.</source>
+        <target xml:lang="el" state="translated">Το αναγνωριστικό ρόλου «%identifier%» χρησιμοποιείται από ένα άλλο ρόλο. Πρέπει να εισαγάγετε ένα μοναδικό αναγνωριστικό.</target>
+        <note>key: ez.role.identifier.unique</note>
+      </trans-unit>
+      <trans-unit id="e7e08263e46325665a4d7f85d5f3465c37d49bb7" resname="ez.language.code.unique">
+        <source>The language code "%language_code%" is used by another language. You must enter a unique language code.</source>
+        <target xml:lang="el" state="translated">Ο κωδικός της γλώσσας «%language_code%» χρησιμοποιείται από μια άλλη γλώσσα. Πρέπει να εισαγάγετε έναν κωδικό μοναδική γλώσσα.</target>
+        <note>key: ez.language.code.unique</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
