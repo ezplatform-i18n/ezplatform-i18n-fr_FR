@@ -231,9 +231,12 @@
       </trans-unit>
       <trans-unit id="e9e10ddeb169d59d94b54912d0422481a0a0b140" resname="role.edit_title">
         <source><![CDATA[Edit <%roleName%>]]></source>
-        <target xml:lang="nb" state="translated"><![CDATA[Rediger <%roleName%>]]></target>
+        <target xml:lang="nb" state="translated"><![CDATA[Rediger <%roleName%> <%roleName%>]]></target>
         <note>key: role.edit_title</note>
         <jms:reference-file line="7">Resources/views/Role/update_role.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="nb"><![CDATA[Rediger <%roleName%>]]></target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="c3488ceda2728b14f24019f28ed44180b84ed179" resname="role.error.delete">
         <source>An error occurred when trying to delete role "%roleIdentifier%".</source>
