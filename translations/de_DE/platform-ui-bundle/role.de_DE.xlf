@@ -12,6 +12,18 @@
         <note>key: assigning.role.to.users</note>
         <jms:reference-file>Resources/public/js/views/services/ez-roleserversideviewservice.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="81b99a41b99b84276da27795a150f7bf111243be" resname="assigning.role.to.users.section.limited">
+        <source>Assigning the role "%roleName%" to %count% users/groups limited to "%sectionName%" section</source>
+        <target xml:lang="de" state="translated">Zuweisen der Rolle "%roleName%" %count% Benutzer/Gruppen beschränkt "%sectionName%" Abschnitt</target>
+        <note>key: assigning.role.to.users.section.limited</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-roleserversideviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="08382c1eeb6c37ae6867e3e2be77303d84e3178d" resname="assigning.role.to.users.subtree.limited">
+        <source>Assigning the role "%roleName%" to %count% users/groups with a subtree limitation</source>
+        <target xml:lang="de" state="translated">Zuweisen der Rolle "%roleName%" %count% Benutzer/ - Gruppen mit einer Teilstruktur Einschränkung</target>
+        <note>key: assigning.role.to.users.subtree.limited</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-roleserversideviewservice.js</jms:reference-file>
+      </trans-unit>
       <trans-unit id="c06ec423bdd64f80f5e1bd403445c8f158cbbf7a" resname="assignment.none">
         <source>This role is not assigned to any users or user groups.</source>
         <target xml:lang="de" state="translated">Diese Rolle ist keinem Benutzer und keiner Gruppe zugeordnet.</target>
@@ -133,6 +145,18 @@
         <jms:reference-file line="213">Resources/views/Role/view_role.html.twig</jms:reference-file>
         <jms:reference-file line="217">Resources/views/Role/view_role.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="eebd438037da98a4efa23f2c3d87080e2b40a957" resname="role.assign_limit_section.user_or_group.pagetitle">
+        <source>Assign role "%roleIdentifier%" to users/groups with limitation on section</source>
+        <target xml:lang="de" state="translated">Rolle zuweisen "%roleIdentifier%" Benutzer/Gruppen mit der Begrenzung auf Abschnitt</target>
+        <note>key: role.assign_limit_section.user_or_group.pagetitle</note>
+        <jms:reference-file line="19">Resources/views/Role/assign_role_by_section.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="fb7171e412fc18e77fe5c7c5e20e85a37c0b126a" resname="role.assign_limit_subtree.universaldiscovery.title">
+        <source>Pick the location to use as subtree limitation when assigning the role "%roleIdentifier%"</source>
+        <target xml:lang="de" state="translated">Wählen Sie den Speicherort, als Teilbaum Einschränkung bei der Vergabe der Rolle "%roleIdentifier%"</target>
+        <note>key: role.assign_limit_subtree.universaldiscovery.title</note>
+        <jms:reference-file line="203">Resources/views/Role/view_role.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="8211a64763ecf5a6a1e5d0e2386357c0bc2e7c89" resname="role.assign_limit_subtree.user_or_group">
         <source>Assign to users/groups with subtree limitation</source>
         <target xml:lang="de" state="translated">Benutzer/Gruppen mit Subtree Einschränkung zuweisen</target>
@@ -149,6 +173,18 @@
         <source>"%name%" role has been assigned to %count% users/groups</source>
         <target xml:lang="de" state="translated">"%name%" Rolle wurde %count% Benutzer/Gruppen zugewiesen</target>
         <note>key: role.assigned.to.user</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-roleserversideviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c8259f57183169ec1b3106c34cda7cc61aaf7386" resname="role.assigned.to.user.section.limited">
+        <source>"%name%" role has been assigned to %count% users/groups limited to "%sectionName%" section</source>
+        <target xml:lang="de" state="translated">Zuweisen der Rolle "%name%" %count% Benutzer/Gruppen beschränkt "%sectionName%" Abschnitt</target>
+        <note>key: role.assigned.to.user.section.limited</note>
+        <jms:reference-file>Resources/public/js/views/services/ez-roleserversideviewservice.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="de2a22e85b1f317f6933cfe3fba784ff747d2359" resname="role.assigned.to.user.subtree.limited">
+        <source>"%name%" role has been assigned to %count% users/groups with a subtree limitation</source>
+        <target xml:lang="de" state="translated">Zuweisen der Rolle "%name%" %count% Benutzer/Gruppen</target>
+        <note>key: role.assigned.to.user.subtree.limited</note>
         <jms:reference-file>Resources/public/js/views/services/ez-roleserversideviewservice.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="a170d74c0942f5bb7207fc36c1110b7a75dccfca" resname="role.assignment.deleted">
@@ -198,9 +234,12 @@
       </trans-unit>
       <trans-unit id="e9e10ddeb169d59d94b54912d0422481a0a0b140" resname="role.edit_title">
         <source><![CDATA[Edit <%roleName%>]]></source>
-        <target xml:lang="de" state="translated"><![CDATA[Bearbeiten <%roleName%>]]></target>
+        <target xml:lang="de" state="translated"><![CDATA[Bearbeiten <%roleName%> <%roleName%>]]></target>
         <note>key: role.edit_title</note>
         <jms:reference-file line="7">Resources/views/Role/update_role.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="de"><![CDATA[Bearbeiten <%roleName%>]]></target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="c3488ceda2728b14f24019f28ed44180b84ed179" resname="role.error.delete">
         <source>An error occurred when trying to delete role "%roleIdentifier%".</source>

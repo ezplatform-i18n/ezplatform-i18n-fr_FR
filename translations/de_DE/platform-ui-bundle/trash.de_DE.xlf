@@ -81,6 +81,12 @@
         <note>key: trash.ancestor.to.select</note>
         <jms:reference-file>Resources/public/js/views/ez-trashview.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="bdaee6eee47e0c028566b056680e5f7488772428" resname="trash.ancestors">
+        <source>Item's ancestors are in Trash</source>
+        <target xml:lang="de" state="translated">Element Vorfahren sind im Papierkorb</target>
+        <note>key: trash.ancestors</note>
+        <jms:reference-file>Resources/public/templates/trash.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="ef15335cc7bc4c4bb04a558b3e7346fb2be24795" resname="trash.ancestors.button">
         <source>Restore under a new parent</source>
         <target xml:lang="de" state="translated">Unter einem neuen übergeordneten Element wiederherstellen</target>

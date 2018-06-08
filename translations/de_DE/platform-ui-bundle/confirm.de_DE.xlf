@@ -38,9 +38,12 @@
       </trans-unit>
       <trans-unit id="302cfdba7ddbb677d9abb7967b44aaf8ab0ce8d0" resname="draftconflict.owner">
         <source>Owner</source>
-        <target xml:lang="de" state="translated">Besitzer	</target>
+        <target xml:lang="de" state="translated">Besitzer</target>
         <note>key: draftconflict.owner</note>
         <jms:reference-file>Resources/public/templates/confirmbox/draftconflict.hbt</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="de">Besitzer	</target>
+        </alt-trans>
       </trans-unit>
     </body>
   </file>

@@ -535,6 +535,12 @@
         <note>key: media.video.empty</note>
         <jms:reference-file>Resources/public/templates/fields/edit/media.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="99b8daaf90cdc2ee5b0f96b05c92e7452ca5cb7e" resname="media.video.help">
+        <source><![CDATA[Drag and drop your video here or simply click on the buttons and select your video manually. Customize size, controls & view.]]></source>
+        <target xml:lang="de" state="translated"><![CDATA[Ziehen Sie das Video hier oder klicken Sie einfach auf die Schaltflächen und wählen Sie Ihr Video manuell. Passen Sie die Größe, Steuerungen & Anzeige.]]></target>
+        <note>key: media.video.help</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/media.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="6e2da936d84283d264f260e9f966a11be051096e" resname="media.video.properties">
         <source>Video file properties</source>
         <target xml:lang="de" state="translated">Video-Datei-Eigenschaften</target>
@@ -667,6 +673,12 @@
         <note>key: relationlist.error</note>
         <jms:reference-file>Resources/public/templates/fields/edit/relationlist.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="048ae70654be763915d036765feb172d2baa7559" resname="relationlist.help">
+        <source>Set up multiple relations with several contents.</source>
+        <target xml:lang="de" state="translated">Multiple Beziehungen mit verschiedenen Inhalten einrichten.</target>
+        <note>key: relationlist.help</note>
+        <jms:reference-file>Resources/public/templates/fields/edit/relationlist.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="1d30f0399910c05468169bd5a7f737caff136afe" resname="relationlist.loading">
         <source>Loading the related content(s)</source>
         <target xml:lang="de" state="translated">Verknüpfte Inhalte laden</target>
@@ -720,6 +732,12 @@
         <target xml:lang="de" state="translated">Speichern und zurück</target>
         <note>key: richtext.save</note>
         <jms:reference-file>Resources/public/templates/fields/edit/richtext.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2661cb6d447aad0683ba849b76913b44492fe727" resname="select.contents.to.add">
+        <source>Select the contents you want to add in the relation</source>
+        <target xml:lang="de" state="translated">Wählen Sie den Inhalt aus, den Sie hinzufügen möchten, in der Beziehung</target>
+        <note>key: select.contents.to.add</note>
+        <jms:reference-file>Resources/public/js/views/fields/ez-relationlist-editview.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="8049139bde69cab92f967e171a9b3f1b933f3151" resname="svg.not.supported">
         <source>SVG images are not supported. Please choose another image file.</source>

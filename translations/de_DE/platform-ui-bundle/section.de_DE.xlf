@@ -44,7 +44,8 @@
         <source xml:space="preserve">{0} This section is assigned to %contentCount% content items.|{1} This section is assigned to
                     %contentCount% content item.|]1,Inf[ This section is assigned to %contentCount% content items
                 </source>
-        <target xml:space="preserve" xml:lang="de" state="needs-translation">
+        <target xml:space="preserve" xml:lang="de" state="translated">{0} in diesem Abschnitt ist zu %contentCount% Inhaltselementen zugeordnet. |{1} in diesem Abschnitt
+                    %contentCount% Content-Element zugeordnet ist. |] 1, Inf [dieser Abschnitt ist %contentCount% Inhaltselemente zugeordnet
                 </target>
         <note>key: section.assigned.contentcount</note>
         <jms:reference-file line="41">Resources/views/Section/view.html.twig</jms:reference-file>

@@ -96,6 +96,12 @@
         <note>key: failed.removing.locations.of</note>
         <jms:reference-file>Resources/public/js/views/services/plugins/ez-locationremoveplugin.js</jms:reference-file>
       </trans-unit>
+      <trans-unit id="edf8822d85f6e3cc0e13582feee8a65f66ed0d08" resname="failed.removing.versions.of">
+        <source>Removal of %count% version(s) of "%name%" has failed</source>
+        <target xml:lang="de" state="translated">Das entfernen %count% Elemente von "%name%" ist fehlgeschlagen</target>
+        <note>key: failed.removing.versions.of</note>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-versionsplugin.js</jms:reference-file>
+      </trans-unit>
       <trans-unit id="fd0df2ab8df516f5a2900775c5f427ddb9012b77" resname="failed.sending.to.trash">
         <source>An error occurred when sending '%contentName%' to Trash</source>
         <target xml:lang="de" state="translated">Fehler beim verschieben von '%contentName%' in den Papierkorb</target>
@@ -186,10 +192,34 @@
         <note>key: locationview.details.descending</note>
         <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
       </trans-unit>
+      <trans-unit id="5cc52ce2cc763622f266df9138b7e507cca2d7de" resname="locationview.details.errorcontributor">
+        <source>An error occurred while loading the last contributor.</source>
+        <target xml:lang="de" state="translated">Beim Laden des letzten Mitwirkenden trat ein Fehler auf.</target>
+        <note>key: locationview.details.errorcontributor</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="6008df6be918183f2a3896c49dd0d19ee35350d2" resname="locationview.details.errorcreator">
+        <source>An error occurred while loading the creator.</source>
+        <target xml:lang="de" state="translated">Beim Laden des Erstellers trat ein Fehler auf.</target>
+        <note>key: locationview.details.errorcreator</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
       <trans-unit id="e0d315cc1f7772de59ebb7a943e5331402f087f4" resname="locationview.details.lastcontributor">
         <source>Last contributor</source>
         <target xml:lang="de" state="translated">Letzter Autor</target>
         <note>key: locationview.details.lastcontributor</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="2fff74da27de7d17b2f5c89efeab74e664378c33" resname="locationview.details.loadingcontributor">
+        <source>Loading the last contributor</source>
+        <target xml:lang="de" state="translated">Laden des letzten Mitwirkenden</target>
+        <note>key: locationview.details.loadingcontributor</note>
+        <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="85dbe816267d441a33ecd4d1778b58f25a350814" resname="locationview.details.loadingcreator">
+        <source>Loading the creator</source>
+        <target xml:lang="de" state="translated">Laden des Erstellers</target>
+        <note>key: locationview.details.loadingcreator</note>
         <jms:reference-file>Resources/public/templates/tabs/details.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="7f653bba9440b8a0b2dac47b4c30a5c97ba83678" resname="locationview.details.locationid">
@@ -280,6 +310,12 @@
         <source>Hidden</source>
         <target xml:lang="de" state="translated">Versteckt</target>
         <note>key: locationview.locations.hidden</note>
+        <jms:reference-file>Resources/public/templates/tabs/locations.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e5850a5016f4965ec5dc59f78bb7e9cd146fc9a4" resname="locationview.locations.hidden.by.superior">
+        <source>Hidden by superior</source>
+        <target xml:lang="de" state="translated">Versteckt vom Vorgesetzten</target>
+        <note>key: locationview.locations.hidden.by.superior</note>
         <jms:reference-file>Resources/public/templates/tabs/locations.hbt</jms:reference-file>
       </trans-unit>
       <trans-unit id="8a1beb515496a34287a6fe56c5e12e752c12a47d" resname="locationview.locations.hide">
@@ -502,6 +538,18 @@
         <target xml:lang="de" state="translated">Content</target>
         <note>key: rawcontent.content</note>
         <jms:reference-file>Resources/public/templates/rawcontent.hbt</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9ec896e824bd9e4181a3a6fbc7514c0dba5dde3d" resname="removed.locations.of">
+        <source>%count% location(s) of "%name%" have been removed</source>
+        <target xml:lang="de" state="translated">%count% Ort(en) von "%name%" wurden entfernt</target>
+        <note>key: removed.locations.of</note>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-locationremoveplugin.js</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="9e5f98b5c3f285bd15fc0a0a23b3a42c2faa47ea" resname="removed.versions.of">
+        <source>%count% version(s) of "%name%" have been removed</source>
+        <target xml:lang="de" state="translated">%count% Version(en) von "%name%" wurden entfernt</target>
+        <note>key: removed.versions.of</note>
+        <jms:reference-file>Resources/public/js/views/services/plugins/ez-versionsplugin.js</jms:reference-file>
       </trans-unit>
       <trans-unit id="acf9100e800a6f1f4f9fa47d8958d512a5729f06" resname="removing.locations.for">
         <source>Removing locations for "%name%"</source>
