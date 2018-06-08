@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file date="2017-01-26T15:03:32Z" source-language="en" target-language="ach" datatype="plaintext" original="not.available">
+  <file date="2017-01-17T11:01:24Z" source-language="en" target-language="ach" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
@@ -35,6 +35,16 @@
         <source>Section identifier may only contain letters from "a" to "z", numbers and underscores.</source>
         <target xml:lang="ach">crwdns212882:0crwdne212882:0</target>
         <note>key: ez.section.identifier.format</note>
+      </trans-unit>
+      <trans-unit id="963a415cd08151ecf8726e651a7a36140e05f4b5" resname="ez.role.identifier.unique">
+        <source>The role identifier "%identifier%" is used by another role. You must enter a unique identifier.</source>
+        <target xml:lang="ach">crwdns212990:0%identifier%crwdne212990:0</target>
+        <note>key: ez.role.identifier.unique</note>
+      </trans-unit>
+      <trans-unit id="e7e08263e46325665a4d7f85d5f3465c37d49bb7" resname="ez.language.code.unique">
+        <source>The language code "%language_code%" is used by another language. You must enter a unique language code.</source>
+        <target xml:lang="ach">crwdns212991:0%language_code%crwdne212991:0</target>
+        <note>key: ez.language.code.unique</note>
       </trans-unit>
     </body>
   </file>
