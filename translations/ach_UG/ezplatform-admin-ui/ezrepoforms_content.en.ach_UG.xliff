@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="ach" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="64c5c95d125dba2fe988e587edf8586decebae5a" resname="content.field_type.ezgmaplocation.locate_me">
+        <source>Locate me</source>
+        <target xml:lang="ach">crwdns214101:0crwdne214101:0</target>
+        <note>key: content.field_type.ezgmaplocation.locate_me</note>
+      </trans-unit>
+      <trans-unit id="aad076367e603aee68bb8577f35436abfb369136" resname="content.field_type.ezgmaplocation.set_current_location">
+        <source>Set current location</source>
+        <target xml:lang="ach">crwdns214102:0crwdne214102:0</target>
+        <note>key: content.field_type.ezgmaplocation.set_current_location</note>
+      </trans-unit>
+      <trans-unit id="9cadbe380acedd355a84784a1c98cc7aca8897c6" resname="content.field_type.ezimage.img_alt">
+        <source>Image stored in field '%label%'</source>
+        <target xml:lang="ach">crwdns214103:0%label%crwdne214103:0</target>
+        <note>key: content.field_type.ezimage.img_alt</note>
+      </trans-unit>
+      <trans-unit id="093c498e82bd382a4732e4bb8356c7d88b671f25" resname="content.field_type.ezmedia.player_settings">
+        <source>Player settings</source>
+        <target xml:lang="ach">crwdns214104:0crwdne214104:0</target>
+        <note>key: content.field_type.ezmedia.player_settings</note>
+      </trans-unit>
+      <trans-unit id="b244ed2b3b30d53cd73ea9d25c21c7d938e97973" resname="ezbinaryfile.action.preview">
+        <source>Preview</source>
+        <target xml:lang="ach">crwdns214105:0crwdne214105:0</target>
+        <note>key: ezbinaryfile.action.preview</note>
+      </trans-unit>
+      <trans-unit id="936018db97b7f60296d65482bc41f138e787b5c9" resname="ezbinaryfile.action.remove">
+        <source>Remove</source>
+        <target xml:lang="ach">crwdns214106:0crwdne214106:0</target>
+        <note>key: ezbinaryfile.action.remove</note>
+      </trans-unit>
+      <trans-unit id="b388b6cf9e8d44856fed11bc8ff3f4decb177449" resname="ezgmaplocation.action.search">
+        <source>Search</source>
+        <target xml:lang="ach">crwdns214107:0crwdne214107:0</target>
+        <note>key: ezgmaplocation.action.search</note>
+      </trans-unit>
+      <trans-unit id="f95e95b9cb063f060b0e8ea74c0e11409643316d" resname="ezobjectrelationlist.cta.limit">
+        <source>Set up multiple relations with up to %limit% content items</source>
+        <target xml:lang="ach">crwdns214108:0%limit%crwdne214108:0</target>
+        <note>key: ezobjectrelationlist.cta.limit</note>
+      </trans-unit>
+      <trans-unit id="df33d5cc8c00514b2c50d4949b872cc3cd99284c" resname="ezobjectrelationlist.cta.select">
+        <source>Select content</source>
+        <target xml:lang="ach">crwdns214109:0crwdne214109:0</target>
+        <note>key: ezobjectrelationlist.cta.select</note>
+      </trans-unit>
+      <trans-unit id="91cee9d11eeed40768d4e5270d91cd5165f4562f" resname="ezobjectrelationlist.limit">
+        <source>Limit %limit% max</source>
+        <target xml:lang="ach">crwdns214110:0%limit%crwdne214110:0</target>
+        <note>key: ezobjectrelationlist.limit</note>
+      </trans-unit>
+      <trans-unit id="4ab30b13084b6d6bff3b8fd7dc9ab5879b35097c" resname="ezobjectrelationlist.relations">
+        <source>Relations</source>
+        <target xml:lang="ach">crwdns214111:0crwdne214111:0</target>
+        <note>key: ezobjectrelationlist.relations</note>
+      </trans-unit>
+      <trans-unit id="97e94752cba8892136d56b07057f0cac9344cb56" resname="ezobjectrelationlist.table.row.content_type">
+        <source>Content Type</source>
+        <target xml:lang="ach">crwdns214112:0crwdne214112:0</target>
+        <note>key: ezobjectrelationlist.table.row.content_type</note>
+      </trans-unit>
+      <trans-unit id="13034b18b2f4c315e7fbfe4b4735259f6db82bb8" resname="ezobjectrelationlist.table.row.created">
+        <source>Created</source>
+        <target xml:lang="ach">crwdns214113:0crwdne214113:0</target>
+        <note>key: ezobjectrelationlist.table.row.created</note>
+      </trans-unit>
+      <trans-unit id="2099e51f91926408c9e9514a5d05eaca332f371a" resname="ezobjectrelationlist.table.row.name">
+        <source>Name</source>
+        <target xml:lang="ach">crwdns214114:0crwdne214114:0</target>
+        <note>key: ezobjectrelationlist.table.row.name</note>
+      </trans-unit>
+      <trans-unit id="0254a0c716b5d598484130bb3431d278a7be11d8" resname="ezobjectrelationlist.table.row.order">
+        <source>Order</source>
+        <target xml:lang="ach">crwdns214115:0crwdne214115:0</target>
+        <note>key: ezobjectrelationlist.table.row.order</note>
+      </trans-unit>
+      <trans-unit id="1a3bc0622c5d839ed1a8ef9f32bd5dd9e5cfb479" resname="fieldtype.binary_base.drag_drop">
+        <source>Drag and drop your files on browser window or upload them</source>
+        <target xml:lang="ach">crwdns214116:0crwdne214116:0</target>
+        <note>key: fieldtype.binary_base.drag_drop</note>
+      </trans-unit>
+      <trans-unit id="858c986173f1ef87d7acda017535b86f01bca87d" resname="fieldtype.binary_base.max_file_size">
+        <source>Max file size: %size%</source>
+        <target xml:lang="ach">crwdns214117:0%size%crwdne214117:0</target>
+        <note>key: fieldtype.binary_base.max_file_size</note>
+      </trans-unit>
+      <trans-unit id="763e9b64f4f0024e90753727ccc212a3596bfccd" resname="fieldtype.binary_base.upload_file">
+        <source>Upload file</source>
+        <target xml:lang="ach">crwdns214118:0crwdne214118:0</target>
+        <note>key: fieldtype.binary_base.upload_file</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

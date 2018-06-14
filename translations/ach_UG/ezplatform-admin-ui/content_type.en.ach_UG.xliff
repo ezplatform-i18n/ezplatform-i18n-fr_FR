@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="ach" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="0aef83746d192c9b507ecabebe250aeb684cc210" resname="content_type.breadcrumb.create">
+        <source>Creating a new Content Type</source>
+        <target xml:lang="ach">crwdns213975:0crwdne213975:0</target>
+        <note>key: content_type.breadcrumb.create</note>
+      </trans-unit>
+      <trans-unit id="7dd9e32add81dba08bfbaefaac9442a7e7dbb6ae" resname="content_type.breadcrumb.edit">
+        <source>%identifier%</source>
+        <target xml:lang="ach">crwdns213976:0%identifier%crwdne213976:0</target>
+        <note>key: content_type.breadcrumb.edit</note>
+      </trans-unit>
+      <trans-unit id="5626938e64bdad8be0c090d0018c868960859d0a" resname="content_type.breadcrumb.view">
+        <source>%identifier%</source>
+        <target xml:lang="ach">crwdns213977:0%identifier%crwdne213977:0</target>
+        <note>key: content_type.breadcrumb.view</note>
+      </trans-unit>
+      <trans-unit id="a9206d413d4ca7266dace54fde2e1f8d85a4d557" resname="content_type.container">
+        <source>Container</source>
+        <target xml:lang="ach">crwdns213978:0crwdne213978:0</target>
+        <note>key: content_type.container</note>
+      </trans-unit>
+      <trans-unit id="693f9ade0c2bb6a7c19b6f9b818d96aa23f1e013" resname="content_type.default_availability">
+        <source>Default content availability</source>
+        <target xml:lang="ach">crwdns213979:0crwdne213979:0</target>
+        <note>key: content_type.default_availability</note>
+      </trans-unit>
+      <trans-unit id="3b3fc626a669a5462ec9fa7c94280a3573d8b106" resname="content_type.default_availability.help">
+        <source>Default availability in primary language, if translation is absent</source>
+        <target xml:lang="ach">crwdns213980:0crwdne213980:0</target>
+        <note>key: content_type.default_availability.help</note>
+      </trans-unit>
+      <trans-unit id="d14799b2ac8854ab3f0bb9976258c3db39213d09" resname="content_type.default_availability.value">
+        <source>{0} Not available|{1} Available</source>
+        <target xml:lang="ach">crwdns213981:0{0}crwdnd213981:0{1}crwdne213981:0</target>
+        <note>key: content_type.default_availability.value</note>
+      </trans-unit>
+      <trans-unit id="5ebf6515da27060877064931a5ac1d5a8540e28d" resname="content_type.default_children_sorting">
+        <source>Default property for sorting children</source>
+        <target xml:lang="ach">crwdns213982:0crwdne213982:0</target>
+        <note>key: content_type.default_children_sorting</note>
+      </trans-unit>
+      <trans-unit id="cefc13177fd81d4c9df6f8e86eb5278fccbe5a5a" resname="content_type.default_sort">
+        <source>Default sort order</source>
+        <target xml:lang="ach">crwdns213983:0crwdne213983:0</target>
+        <note>key: content_type.default_sort</note>
+      </trans-unit>
+      <trans-unit id="5ecc210ad42274409db7ec4e56ba286b487639c6" resname="content_type.delete.success">
+        <source>Content type '%name%' deleted.</source>
+        <target xml:lang="ach">crwdns213984:0%name%crwdne213984:0</target>
+        <note>key: content_type.delete.success</note>
+      </trans-unit>
+      <trans-unit id="f2a3cc77cdadcff8883b0022e006e24918307687" resname="content_type.description">
+        <source>Description</source>
+        <target xml:lang="ach">crwdns213985:0crwdne213985:0</target>
+        <note>key: content_type.description</note>
+      </trans-unit>
+      <trans-unit id="9eb89a2f51954babc5ff51f9060cbcda91dcf408" resname="content_type.field_definitions.modal.message">
+        <source>Do you want to delete selected field definitions?</source>
+        <target xml:lang="ach">crwdns213986:0crwdne213986:0</target>
+        <note>key: content_type.field_definitions.modal.message</note>
+      </trans-unit>
+      <trans-unit id="238db0c5dee8ec13199b073f7cc78728f53ffa36" resname="content_type.identifier">
+        <source>Identifier</source>
+        <target xml:lang="ach">crwdns213987:0crwdne213987:0</target>
+        <note>key: content_type.identifier</note>
+      </trans-unit>
+      <trans-unit id="02f6ddfcdd8bbd05cdd1b954503a3801288b74eb" resname="content_type.modal.message">
+        <source>Do you want to delete Content Type?</source>
+        <target xml:lang="ach">crwdns213988:0crwdne213988:0</target>
+        <note>key: content_type.modal.message</note>
+      </trans-unit>
+      <trans-unit id="7fddd251857df821bd536dd680e1edbc921790a2" resname="content_type.name">
+        <source>Name</source>
+        <target xml:lang="ach">crwdns213989:0crwdne213989:0</target>
+        <note>key: content_type.name</note>
+      </trans-unit>
+      <trans-unit id="9e9628fc59643f3167ebe81dfed3e40eecd281c9" resname="content_type.name_schema">
+        <source>Content name pattern</source>
+        <target xml:lang="ach">crwdns213990:0crwdne213990:0</target>
+        <note>key: content_type.name_schema</note>
+      </trans-unit>
+      <trans-unit id="da59e6ae77cae375a30d7285970b1b2d9690049e" resname="content_type.sort_field.ascending">
+        <source>Ascending</source>
+        <target xml:lang="ach">crwdns213991:0crwdne213991:0</target>
+        <note>key: content_type.sort_field.ascending</note>
+      </trans-unit>
+      <trans-unit id="c699d43b72ab990a33d92d85bc5c773078d8c62d" resname="content_type.sort_field.content_id">
+        <source>Content ID</source>
+        <target xml:lang="ach">crwdns213992:0crwdne213992:0</target>
+        <note>key: content_type.sort_field.content_id</note>
+      </trans-unit>
+      <trans-unit id="5149e0146059487622a9f1ebf3c843b8a020db33" resname="content_type.sort_field.depth">
+        <source>Location depth</source>
+        <target xml:lang="ach">crwdns213993:0crwdne213993:0</target>
+        <note>key: content_type.sort_field.depth</note>
+      </trans-unit>
+      <trans-unit id="09b31f9371d7512e3c5663053b0dc5ce781f696c" resname="content_type.sort_field.descending">
+        <source>Descending</source>
+        <target xml:lang="ach">crwdns213994:0crwdne213994:0</target>
+        <note>key: content_type.sort_field.descending</note>
+      </trans-unit>
+      <trans-unit id="afb48eb0ff69f32e95393be9247ac7ba40d61142" resname="content_type.sort_field.location_id">
+        <source>Location ID</source>
+        <target xml:lang="ach">crwdns213995:0crwdne213995:0</target>
+        <note>key: content_type.sort_field.location_id</note>
+      </trans-unit>
+      <trans-unit id="187a5f274b61172d6e478830081210a75b9f916d" resname="content_type.sort_field.location_path">
+        <source>Location path</source>
+        <target xml:lang="ach">crwdns213996:0crwdne213996:0</target>
+        <note>key: content_type.sort_field.location_path</note>
+      </trans-unit>
+      <trans-unit id="8acac47605156b70e1d654c98b3b65b982e00db7" resname="content_type.sort_field.modified">
+        <source>Modification date</source>
+        <target xml:lang="ach">crwdns213997:0crwdne213997:0</target>
+        <note>key: content_type.sort_field.modified</note>
+      </trans-unit>
+      <trans-unit id="3fd95b45be04d6ae42d3eb82114c65e474f1d4ce" resname="content_type.sort_field.name">
+        <source>Content name</source>
+        <target xml:lang="ach">crwdns213998:0crwdne213998:0</target>
+        <note>key: content_type.sort_field.name</note>
+      </trans-unit>
+      <trans-unit id="ac2b24b167723165d67f63e17b0d4fa9faf081c0" resname="content_type.sort_field.priority">
+        <source>Location priority</source>
+        <target xml:lang="ach">crwdns213999:0crwdne213999:0</target>
+        <note>key: content_type.sort_field.priority</note>
+      </trans-unit>
+      <trans-unit id="c51d29f35f4f8eb46b61904f4ab198a234b30dfc" resname="content_type.sort_field.published">
+        <source>Publication date</source>
+        <target xml:lang="ach">crwdns214000:0crwdne214000:0</target>
+        <note>key: content_type.sort_field.published</note>
+      </trans-unit>
+      <trans-unit id="3accf658d1f58879c2e2fce80130dd8a9f8bd2bd" resname="content_type.sort_field.section_identifier">
+        <source>Section identifier</source>
+        <target xml:lang="ach">crwdns214001:0crwdne214001:0</target>
+        <note>key: content_type.sort_field.section_identifier</note>
+      </trans-unit>
+      <trans-unit id="48d3eb66c0f8928777189eab11eae254866852b2" resname="content_type.update.success">
+        <source>Content type '%name%' updated.</source>
+        <target xml:lang="ach">crwdns214002:0%name%crwdne214002:0</target>
+        <note>key: content_type.update.success</note>
+      </trans-unit>
+      <trans-unit id="6ab7362c77b22ff8bc0d14eeaae8514b0a683473" resname="content_type.url_alias_schema">
+        <source>URL alias name pattern</source>
+        <target xml:lang="ach">crwdns214003:0crwdne214003:0</target>
+        <note>key: content_type.url_alias_schema</note>
+      </trans-unit>
+      <trans-unit id="56a9f26e930ab0493fc9cb9609318ea699cf8b76" resname="content_type.view.create.content_field_definitions">
+        <source>Content field definitions</source>
+        <target xml:lang="ach">crwdns214004:0crwdne214004:0</target>
+        <note>key: content_type.view.create.content_field_definitions</note>
+      </trans-unit>
+      <trans-unit id="2ce3314c2ca5e24215b0935148a3693ba4fda221" resname="content_type.view.create.global_properties">
+        <source>Global properties</source>
+        <target xml:lang="ach">crwdns214005:0crwdne214005:0</target>
+        <note>key: content_type.view.create.global_properties</note>
+      </trans-unit>
+      <trans-unit id="4f63ade40ae91a9ad39e4be7b9e4f51003f1f4b3" resname="content_type.view.create.title">
+        <source>Creating a new Content Type</source>
+        <target xml:lang="ach">crwdns214006:0crwdne214006:0</target>
+        <note>key: content_type.view.create.title</note>
+      </trans-unit>
+      <trans-unit id="621f64c5f4acef41bca216c9d712860e3438f742" resname="content_type.view.edit.content_field_definition.delete">
+        <source>Delete Content field definition</source>
+        <target xml:lang="ach">crwdns214007:0crwdne214007:0</target>
+        <note>key: content_type.view.edit.content_field_definition.delete</note>
+      </trans-unit>
+      <trans-unit id="94367a951b897bc2964d0c45286b560c59ebb996" resname="content_type.view.edit.content_field_definitions">
+        <source>Content field definitions</source>
+        <target xml:lang="ach">crwdns214008:0crwdne214008:0</target>
+        <note>key: content_type.view.edit.content_field_definitions</note>
+      </trans-unit>
+      <trans-unit id="a32a5e3d2d67da43b4c5f0f5574c90520868b36a" resname="content_type.view.edit.global_properties">
+        <source>Global properties</source>
+        <target xml:lang="ach">crwdns214009:0crwdne214009:0</target>
+        <note>key: content_type.view.edit.global_properties</note>
+      </trans-unit>
+      <trans-unit id="7eee653a60490713df6bcf4b847853020b79a1ee" resname="content_type.view.edit.title">
+        <source>Editing Content Type: %name%</source>
+        <target xml:lang="ach">crwdns214010:0%name%crwdne214010:0</target>
+        <note>key: content_type.view.edit.title</note>
+      </trans-unit>
+      <trans-unit id="803a61fc8cf4e7bdfcf27432bb35e379a4971134" resname="content_type.view.list.action.add">
+        <source>Create a Content Type</source>
+        <target xml:lang="ach">crwdns214011:0crwdne214011:0</target>
+        <note>key: content_type.view.list.action.add</note>
+      </trans-unit>
+      <trans-unit id="c3287b9fccc0b54216e50ba02e3d72e17cc1c92e" resname="content_type.view.list.action.delete">
+        <source>Delete Content Type</source>
+        <target xml:lang="ach">crwdns214012:0crwdne214012:0</target>
+        <note>key: content_type.view.list.action.delete</note>
+      </trans-unit>
+      <trans-unit id="1a2e4ef61d405d0628d8bacdb80d7bbaa11143d5" resname="content_type.view.list.action.edit">
+        <source>Edit</source>
+        <target xml:lang="ach">crwdns214013:0crwdne214013:0</target>
+        <note>key: content_type.view.list.action.edit</note>
+      </trans-unit>
+      <trans-unit id="bef02fc3d41e74bf002af93b413a2a203a04db1a" resname="content_type.view.list.column.id">
+        <source>ID</source>
+        <target xml:lang="ach">crwdns214014:0crwdne214014:0</target>
+        <note>key: content_type.view.list.column.id</note>
+      </trans-unit>
+      <trans-unit id="5a5fe831f20f47949b0a54d76cfa897898794b77" resname="content_type.view.list.column.identifier">
+        <source>Identifier</source>
+        <target xml:lang="ach">crwdns214015:0crwdne214015:0</target>
+        <note>key: content_type.view.list.column.identifier</note>
+      </trans-unit>
+      <trans-unit id="234d8921b4886a1d76feed234bec3123db55fed4" resname="content_type.view.list.column.modification_date">
+        <source>Modification date</source>
+        <target xml:lang="ach">crwdns214016:0crwdne214016:0</target>
+        <note>key: content_type.view.list.column.modification_date</note>
+      </trans-unit>
+      <trans-unit id="288545756241beae1bdb8aa600b829506bb7acaf" resname="content_type.view.list.column.name">
+        <source>Name</source>
+        <target xml:lang="ach">crwdns214017:0crwdne214017:0</target>
+        <note>key: content_type.view.list.column.name</note>
+      </trans-unit>
+      <trans-unit id="7c8c43d61131312dbeeeac5dc536a4f95154f33d" resname="content_type.view.list.title">
+        <source>Content Types in %identifier%</source>
+        <target xml:lang="ach">crwdns214018:0%identifier%crwdne214018:0</target>
+        <note>key: content_type.view.list.title</note>
+      </trans-unit>
+      <trans-unit id="dc7335e54d834bb6a342bf0bcb113850de4b69f9" resname="content_type.view.view.title">
+        <source>%name%</source>
+        <target xml:lang="ach">crwdns214019:0%name%crwdne214019:0</target>
+        <note>key: content_type.view.view.title</note>
+      </trans-unit>
+      <trans-unit id="d74d01091280ceabfb457980ddd459dc841ad957" resname="content_type_group.breadcrumb.add">
+        <source>Creating a new Content Type Group</source>
+        <target xml:lang="ach">crwdns214020:0crwdne214020:0</target>
+        <note>key: content_type_group.breadcrumb.add</note>
+      </trans-unit>
+      <trans-unit id="20ee2fba1b6d560dd296bbe696975e92b78ce578" resname="content_type_group.breadcrumb.edit">
+        <source>Editing Content Type Group "%identifier%"</source>
+        <target xml:lang="ach">crwdns214021:0%identifier%crwdne214021:0</target>
+        <note>key: content_type_group.breadcrumb.edit</note>
+      </trans-unit>
+      <trans-unit id="83a16866c8ff14a4966553088657aafbb9db8edb" resname="content_type_group.breadcrumb.list">
+        <source>Content Types</source>
+        <target xml:lang="ach">crwdns214022:0crwdne214022:0</target>
+        <note>key: content_type_group.breadcrumb.list</note>
+      </trans-unit>
+      <trans-unit id="541e02854f7e561d84637ce99ec6fd6e8404bce4" resname="content_type_group.breadcrumb.view">
+        <source>%identifier%</source>
+        <target xml:lang="ach">crwdns214023:0%identifier%crwdne214023:0</target>
+        <note>key: content_type_group.breadcrumb.view</note>
+      </trans-unit>
+      <trans-unit id="e7cbc2b974608f280aa2b412d4c7836c7a56946d" resname="content_type_group.create.name">
+        <source>Name</source>
+        <target xml:lang="ach">crwdns214024:0crwdne214024:0</target>
+        <note>key: content_type_group.create.name</note>
+      </trans-unit>
+      <trans-unit id="b04a9c80f0219d1a12813a8aa4bc532e97653b28" resname="content_type_group.create.submit">
+        <source>Create</source>
+        <target xml:lang="ach">crwdns214025:0crwdne214025:0</target>
+        <note>key: content_type_group.create.submit</note>
+      </trans-unit>
+      <trans-unit id="00f7021226b49438a6e4b36cfd212b9553deb762" resname="content_type_group.create.success">
+        <source>Content type group '%name%' created.</source>
+        <target xml:lang="ach">crwdns214026:0%name%crwdne214026:0</target>
+        <note>key: content_type_group.create.success</note>
+      </trans-unit>
+      <trans-unit id="eec79e4a9109f28892797768f085eab39eaedc31" resname="content_type_group.delete.submit">
+        <source>Delete</source>
+        <target xml:lang="ach">crwdns214027:0crwdne214027:0</target>
+        <note>key: content_type_group.delete.submit</note>
+      </trans-unit>
+      <trans-unit id="7d3672fcf2f0e1982152c4e6759bd03143f9f028" resname="content_type_group.delete.success">
+        <source>Content type group '%name%' deleted.</source>
+        <target xml:lang="ach">crwdns214028:0%name%crwdne214028:0</target>
+        <note>key: content_type_group.delete.success</note>
+      </trans-unit>
+      <trans-unit id="09f63694559a9149fb1297e33be843cf54788b95" resname="content_type_group.modal.message">
+        <source>Do you want to delete Content Type Group?</source>
+        <target xml:lang="ach">crwdns214029:0crwdne214029:0</target>
+        <note>key: content_type_group.modal.message</note>
+      </trans-unit>
+      <trans-unit id="4c6dfb0b81f5b9d70fed0dda3840f0677ece9570" resname="content_type_group.update.name">
+        <source>Name</source>
+        <target xml:lang="ach">crwdns214030:0crwdne214030:0</target>
+        <note>key: content_type_group.update.name</note>
+      </trans-unit>
+      <trans-unit id="d44e2ddf0ee9d2e6fcb0b4f2c49a2b579d629588" resname="content_type_group.update.submit">
+        <source>Update</source>
+        <target xml:lang="ach">crwdns214031:0crwdne214031:0</target>
+        <note>key: content_type_group.update.submit</note>
+      </trans-unit>
+      <trans-unit id="ff50d4b8d26d81f538b0ebabc392cbb05b6da162" resname="content_type_group.update.success">
+        <source>Content type group '%name%' updated.</source>
+        <target xml:lang="ach">crwdns214032:0%name%crwdne214032:0</target>
+        <note>key: content_type_group.update.success</note>
+      </trans-unit>
+      <trans-unit id="1bd4c745d76ae79ef7e95baea27281fff04e77f6" resname="content_type_group.view.add.title">
+        <source>Creating a new Content Type Group</source>
+        <target xml:lang="ach">crwdns214033:0crwdne214033:0</target>
+        <note>key: content_type_group.view.add.title</note>
+      </trans-unit>
+      <trans-unit id="1b6ebace1ed08d4e8de6a84a5523e19b53dfd443" resname="content_type_group.view.edit.title">
+        <source>Editing Content Type Group "%identifier%"</source>
+        <target xml:lang="ach">crwdns214034:0%identifier%crwdne214034:0</target>
+        <note>key: content_type_group.view.edit.title</note>
+      </trans-unit>
+      <trans-unit id="8eb8668549f90436db605805680144f4b87c7fc0" resname="content_type_group.view.list.action.add">
+        <source>Create a Content Type Group</source>
+        <target xml:lang="ach">crwdns214035:0crwdne214035:0</target>
+        <note>key: content_type_group.view.list.action.add</note>
+      </trans-unit>
+      <trans-unit id="ceb2e962eccd99d66a600df886fb1ff3253c2f16" resname="content_type_group.view.list.action.delete">
+        <source>Delete Content Type Group</source>
+        <target xml:lang="ach">crwdns214036:0crwdne214036:0</target>
+        <note>key: content_type_group.view.list.action.delete</note>
+      </trans-unit>
+      <trans-unit id="e078a8733eac84a6f85ccb7883df2767d357528e" resname="content_type_group.view.list.action.edit">
+        <source>Edit</source>
+        <target xml:lang="ach">crwdns214037:0crwdne214037:0</target>
+        <note>key: content_type_group.view.list.action.edit</note>
+      </trans-unit>
+      <trans-unit id="125bee275441fe2bd28cb9388b790c634d8ae3c6" resname="content_type_group.view.list.column.content_types_count">
+        <source>Content Types count</source>
+        <target xml:lang="ach">crwdns214038:0crwdne214038:0</target>
+        <note>key: content_type_group.view.list.column.content_types_count</note>
+      </trans-unit>
+      <trans-unit id="cd462ce30cd4d0b21393e24ca2c9e974369c1f57" resname="content_type_group.view.list.column.id">
+        <source>ID</source>
+        <target xml:lang="ach">crwdns214039:0crwdne214039:0</target>
+        <note>key: content_type_group.view.list.column.id</note>
+      </trans-unit>
+      <trans-unit id="37d17dd014cd573541f83d4b5b0c4909b66ac7be" resname="content_type_group.view.list.column.identifier">
+        <source>Name</source>
+        <target xml:lang="ach">crwdns214040:0crwdne214040:0</target>
+        <note>key: content_type_group.view.list.column.identifier</note>
+      </trans-unit>
+      <trans-unit id="9522e89ad894375dcf878ae282bdd793946fc375" resname="content_type_group.view.list.title">
+        <source>Content Type Groups</source>
+        <target xml:lang="ach">crwdns214041:0crwdne214041:0</target>
+        <note>key: content_type_group.view.list.title</note>
+      </trans-unit>
+      <trans-unit id="1769b5258d896d9ccb207c09e04534ce9a01c571" resname="content_type_group.view.view.title">
+        <source>%identifier%</source>
+        <target xml:lang="ach">crwdns214042:0%identifier%crwdne214042:0</target>
+        <note>key: content_type_group.view.view.title</note>
+      </trans-unit>
+      <trans-unit id="62ac918fce5389cd868b988e65b4ab96477a1344" resname="location_update_form.sort_field">
+        <source>Sort field</source>
+        <target xml:lang="ach">crwdns214043:0crwdne214043:0</target>
+        <note>key: location_update_form.sort_field</note>
+      </trans-unit>
+      <trans-unit id="7d29fb5b1206bd3313bd2eb6c078ab72c244545a" resname="location_update_form.sort_order">
+        <source>Sort order</source>
+        <target xml:lang="ach">crwdns214044:0crwdne214044:0</target>
+        <note>key: location_update_form.sort_order</note>
+      </trans-unit>
+      <trans-unit id="2bb23a852a2a16458d2dad6931debc447564dff2" resname="location_update_form.update">
+        <source>Update</source>
+        <target xml:lang="ach">crwdns214045:0crwdne214045:0</target>
+        <note>key: location_update_form.update</note>
+      </trans-unit>
+      <trans-unit id="7fe072f41348fb097b6bb018eec4f1b1bc9cffc3" resname="modal.cancel">
+        <source>Cancel</source>
+        <target xml:lang="ach">crwdns214046:0crwdne214046:0</target>
+        <note>key: modal.cancel</note>
+      </trans-unit>
+      <trans-unit id="9eae227b7c27ab230a6d0ce5947d93e7d2e1626f" resname="modal.delete">
+        <source>Delete</source>
+        <target xml:lang="ach">crwdns214047:0crwdne214047:0</target>
+        <note>key: modal.delete</note>
+      </trans-unit>
+      <trans-unit id="3e9deeb426f08a404990a6926d70558955272593" resname="yes_no">
+        <source>{0}No|{1}Yes</source>
+        <target xml:lang="ach">crwdns214048:0{0}crwdnd214048:0{1}crwdne214048:0</target>
+        <note>key: yes_no</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

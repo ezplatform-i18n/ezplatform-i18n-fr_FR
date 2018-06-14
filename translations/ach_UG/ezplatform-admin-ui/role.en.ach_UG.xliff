@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="ach" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="50fbff4724e8543718a7a0fe08fc1f134bbeb7d6" resname="limitation_type.none">
+        <source>No limitations</source>
+        <target xml:lang="ach">crwdns214538:0crwdne214538:0</target>
+        <note>key: limitation_type.none</note>
+      </trans-unit>
+      <trans-unit id="e4eb27643d4149122e8009b8ca930678eadcd713" resname="limitation_type.section">
+        <source>Sections</source>
+        <target xml:lang="ach">crwdns214539:0crwdne214539:0</target>
+        <note>key: limitation_type.section</note>
+      </trans-unit>
+      <trans-unit id="5e91632f7d9ab6e55cf2df01163acebcb1a124d0" resname="limitation_type.subtree">
+        <source>Subtree</source>
+        <target xml:lang="ach">crwdns214540:0crwdne214540:0</target>
+        <note>key: limitation_type.subtree</note>
+      </trans-unit>
+      <trans-unit id="0dbfb3fd5136aa1d54a82ba5e5f399c2908d26f2" resname="locations.select_subtree">
+        <source>Select Subtree</source>
+        <target xml:lang="ach">crwdns214541:0crwdne214541:0</target>
+        <note>key: locations.select_subtree</note>
+      </trans-unit>
+      <trans-unit id="d92993cb4cb3690f06c599b5f500a29fa23421c9" resname="policy.add.success">
+        <source>New policies in role '%role%' created.</source>
+        <target xml:lang="ach">crwdns214542:0%role%crwdne214542:0</target>
+        <note>key: policy.add.success</note>
+      </trans-unit>
+      <trans-unit id="196c8d4eec96ca42ccdd3605621d51e2b34b6d85" resname="policy.breadcrumb.add">
+        <source>Adding a new Policy</source>
+        <target xml:lang="ach">crwdns214543:0crwdne214543:0</target>
+        <note>key: policy.breadcrumb.add</note>
+      </trans-unit>
+      <trans-unit id="8a7079c136f19a37dc42a6192fb94a11d19105ad" resname="policy.breadcrumb.edit">
+        <source>Edit limitations</source>
+        <target xml:lang="ach">crwdns214544:0crwdne214544:0</target>
+        <note>key: policy.breadcrumb.edit</note>
+      </trans-unit>
+      <trans-unit id="8a22274ebbfba3c96c4015fa64112db95d060525" resname="policy.delete.success">
+        <source>Policies in role '%role%' removed.</source>
+        <target xml:lang="ach">crwdns214545:0%role%crwdne214545:0</target>
+        <note>key: policy.delete.success</note>
+      </trans-unit>
+      <trans-unit id="9c322357fb302e5b708bc1c11c287d8a4e4859ec" resname="policy.edit.no_limitations">
+        <source>Policy type '%policy%' does not contain limitations.</source>
+        <target xml:lang="ach">crwdns214546:0%policy%crwdne214546:0</target>
+        <note>key: policy.edit.no_limitations</note>
+      </trans-unit>
+      <trans-unit id="41bcfef149f877e1abb0ce2cd2aa5afb713ea1de" resname="policy.limitation.identifier_tooltip">
+        <source>"%identifier%" Limitation</source>
+        <target xml:lang="ach">crwdns214547:0%identifier%crwdne214547:0</target>
+        <note>key: policy.limitation.identifier_tooltip</note>
+      </trans-unit>
+      <trans-unit id="77e814db3b3f1bd68101d274277bee08d164f0a2" resname="policy.limitation.none">
+        <source>None</source>
+        <target xml:lang="ach">crwdns214548:0crwdne214548:0</target>
+        <note>key: policy.limitation.none</note>
+      </trans-unit>
+      <trans-unit id="fda44832f6a675807e1bcd01460231f7117d9e1e" resname="policy.modal.message">
+        <source>Do you want to delete Policy?</source>
+        <target xml:lang="ach">crwdns214549:0crwdne214549:0</target>
+        <note>key: policy.modal.message</note>
+      </trans-unit>
+      <trans-unit id="bb8f2aa78c28aa25b5eade0c7f40c37110110ec5" resname="policy.update.success">
+        <source>Policies in role '%role%' updated.</source>
+        <target xml:lang="ach">crwdns214550:0%role%crwdne214550:0</target>
+        <note>key: policy.update.success</note>
+      </trans-unit>
+      <trans-unit id="1ac24fa007363b4280663fba53f7a3b436ed4c8f" resname="policy.view.add.title">
+        <source>policy.view.add.title</source>
+        <target xml:lang="ach">crwdns214551:0crwdne214551:0</target>
+        <note>key: policy.view.add.title</note>
+      </trans-unit>
+      <trans-unit id="aefaf3a17b8493e63c82678611eb6eacbcc45d19" resname="policy.view.edit.title">
+        <source>Edit limitations</source>
+        <target xml:lang="ach">crwdns214552:0crwdne214552:0</target>
+        <note>key: policy.view.edit.title</note>
+      </trans-unit>
+      <trans-unit id="e182986ba1f94484d60ea6b1db7cc2707478f2a1" resname="policy.view.limitations.title">
+        <source>Edit limitations</source>
+        <target xml:lang="ach">crwdns214553:0crwdne214553:0</target>
+        <note>key: policy.view.limitations.title</note>
+      </trans-unit>
+      <trans-unit id="84d0c2844a996fbfdc23872405533f92b6e6e2f6" resname="policy.view.list.action.add">
+        <source>Add a new Policy</source>
+        <target xml:lang="ach">crwdns214554:0crwdne214554:0</target>
+        <note>key: policy.view.list.action.add</note>
+      </trans-unit>
+      <trans-unit id="abf42b328e259dc5ec851e70dad234636d0134fe" resname="policy.view.list.action.delete">
+        <source>Delete Policy</source>
+        <target xml:lang="ach">crwdns214555:0crwdne214555:0</target>
+        <note>key: policy.view.list.action.delete</note>
+      </trans-unit>
+      <trans-unit id="35aa96a30453aa7b604432885032fd961a7f508a" resname="policy.view.list.panel.policies.action.edit">
+        <source>Edit</source>
+        <target xml:lang="ach">crwdns214556:0crwdne214556:0</target>
+        <note>key: policy.view.list.panel.policies.action.edit</note>
+      </trans-unit>
+      <trans-unit id="3023517b9c9a8a05563021a9ac95092fd60dac13" resname="policy.view.list.panel.policies.column.function">
+        <source>Function</source>
+        <target xml:lang="ach">crwdns214557:0crwdne214557:0</target>
+        <note>key: policy.view.list.panel.policies.column.function</note>
+      </trans-unit>
+      <trans-unit id="0bdf2edd15ae0c2e4f9faae4d9aef849c3258767" resname="policy.view.list.panel.policies.column.module">
+        <source>Module</source>
+        <target xml:lang="ach">crwdns214558:0crwdne214558:0</target>
+        <note>key: policy.view.list.panel.policies.column.module</note>
+      </trans-unit>
+      <trans-unit id="0ac73c4c771df2f5214122aa058b8bc36f2a61a2" resname="policy.view.list.title">
+        <source>Policies</source>
+        <target xml:lang="ach">crwdns214559:0crwdne214559:0</target>
+        <note>key: policy.view.list.title</note>
+      </trans-unit>
+      <trans-unit id="bcb306dff55cc9a5c5b0277414dd1aab59c96176" resname="policy.view.list.title.count">
+        <source>Policies (%count%)</source>
+        <target xml:lang="ach">crwdns214560:0%count%crwdne214560:0</target>
+        <note>key: policy.view.list.title.count</note>
+      </trans-unit>
+      <trans-unit id="9b1c2c53df24e9d0d141037860eb87d2878bdb05" resname="policy.view.policy.title">
+        <source>Editing - Policy type</source>
+        <target xml:lang="ach">crwdns214561:0crwdne214561:0</target>
+        <note>key: policy.view.policy.title</note>
+      </trans-unit>
+      <trans-unit id="e2b7ae0acb75f99dc7943574a63b36abbb6c42bf" resname="role.assignment_create.success">
+        <source>Assignments on role '%role%' created.</source>
+        <target xml:lang="ach">crwdns214562:0%role%crwdne214562:0</target>
+        <note>key: role.assignment_create.success</note>
+      </trans-unit>
+      <trans-unit id="f684c343da285bc7273d4671a257d2731ccc83a2" resname="role.assignment_delete.success">
+        <source>Assignment on role '%role%' removed.</source>
+        <target xml:lang="ach">crwdns214563:0%role%crwdne214563:0</target>
+        <note>key: role.assignment_delete.success</note>
+      </trans-unit>
+      <trans-unit id="43008c999ece1587436507732b3c1166c393f05c" resname="role.breadcrumb.add">
+        <source>Creating a new Role</source>
+        <target xml:lang="ach">crwdns214564:0crwdne214564:0</target>
+        <note>key: role.breadcrumb.add</note>
+      </trans-unit>
+      <trans-unit id="9cdc3dd417b63308f19cadbe01f74c21565b9947" resname="role.breadcrumb.edit">
+        <source>Editing Role: %identifier%</source>
+        <target xml:lang="ach">crwdns214565:0%identifier%crwdne214565:0</target>
+        <note>key: role.breadcrumb.edit</note>
+      </trans-unit>
+      <trans-unit id="03e72944d22126b885a65f885ebf8f1b8e2f8579" resname="role.breadcrumb.list">
+        <source>Roles</source>
+        <target xml:lang="ach">crwdns214566:0crwdne214566:0</target>
+        <note>key: role.breadcrumb.list</note>
+      </trans-unit>
+      <trans-unit id="9756b39574125051ae4fcd1916f5ba8b065eceb9" resname="role.breadcrumb.view">
+        <source>%identifier%</source>
+        <target xml:lang="ach">crwdns214567:0%identifier%crwdne214567:0</target>
+        <note>key: role.breadcrumb.view</note>
+      </trans-unit>
+      <trans-unit id="45788029a46cf9c1bc9a3d38077e86a99a650576" resname="role.breadcrumb.view.identifier">
+        <source>Role "%identifier%"</source>
+        <target xml:lang="ach">crwdns214568:0%identifier%crwdne214568:0</target>
+        <note>key: role.breadcrumb.view.identifier</note>
+      </trans-unit>
+      <trans-unit id="59754dcca61db396ef9de8abd3aa63645bd50f65" resname="role.create.success">
+        <source>Role '%role%' created.</source>
+        <target xml:lang="ach">crwdns214569:0%role%crwdne214569:0</target>
+        <note>key: role.create.success</note>
+      </trans-unit>
+      <trans-unit id="20c6318c88508393b9cb8413a6d7e61649f80ab3" resname="role.delete.success">
+        <source>Role '%role%' removed.</source>
+        <target xml:lang="ach">crwdns214570:0%role%crwdne214570:0</target>
+        <note>key: role.delete.success</note>
+      </trans-unit>
+      <trans-unit id="b8faa90fed74479d8cdb01dc2c0e1af8a79cf9b1" resname="role.modal.message">
+        <source>Do you want to delete Role?</source>
+        <target xml:lang="ach">crwdns214571:0crwdne214571:0</target>
+        <note>key: role.modal.message</note>
+      </trans-unit>
+      <trans-unit id="75637482fd2563256da5423615ecfb241fc03a57" resname="role.update.success">
+        <source>Role '%role%' updated.</source>
+        <target xml:lang="ach">crwdns214572:0%role%crwdne214572:0</target>
+        <note>key: role.update.success</note>
+      </trans-unit>
+      <trans-unit id="da907b734c3ae3df8e9c570dd8e9e7e6d0799105" resname="role.view.add.title">
+        <source>Creating a new Role</source>
+        <target xml:lang="ach">crwdns214573:0crwdne214573:0</target>
+        <note>key: role.view.add.title</note>
+      </trans-unit>
+      <trans-unit id="d3938c40d50b4d6e972248900f2d43cda1fe02a3" resname="role.view.edit.title">
+        <source>Editing Role: %identifier%</source>
+        <target xml:lang="ach">crwdns214574:0%identifier%crwdne214574:0</target>
+        <note>key: role.view.edit.title</note>
+      </trans-unit>
+      <trans-unit id="88d7426f344cc9d85b90903dad013d5806b82faa" resname="role.view.list.action.add">
+        <source>Create a Role</source>
+        <target xml:lang="ach">crwdns214575:0crwdne214575:0</target>
+        <note>key: role.view.list.action.add</note>
+      </trans-unit>
+      <trans-unit id="18990f93cd60432ec47a75934185b7edbd3d17bf" resname="role.view.list.action.assign_to_users_or_groups">
+        <source>Assign to Users/Groups</source>
+        <target xml:lang="ach">crwdns214576:0crwdne214576:0</target>
+        <note>key: role.view.list.action.assign_to_users_or_groups</note>
+      </trans-unit>
+      <trans-unit id="e0b49df6c6b235f7eb4d03019d1f9505dd77a135" resname="role.view.list.action.delete">
+        <source>Delete Role</source>
+        <target xml:lang="ach">crwdns214577:0crwdne214577:0</target>
+        <note>key: role.view.list.action.delete</note>
+      </trans-unit>
+      <trans-unit id="cb9d9934c021aa5f2b25bfa652279daa88c6086f" resname="role.view.list.action.edit">
+        <source>Edit</source>
+        <target xml:lang="ach">crwdns214578:0crwdne214578:0</target>
+        <note>key: role.view.list.action.edit</note>
+      </trans-unit>
+      <trans-unit id="4cb9b2e474c4584dd193e46214b68897ebc6350f" resname="role.view.list.column.id">
+        <source>Role ID</source>
+        <target xml:lang="ach">crwdns214579:0crwdne214579:0</target>
+        <note>key: role.view.list.column.id</note>
+      </trans-unit>
+      <trans-unit id="26470561bbbd003c0ad30bf2cb29f7da50e7d690" resname="role.view.list.column.name">
+        <source>Name</source>
+        <target xml:lang="ach">crwdns214580:0crwdne214580:0</target>
+        <note>key: role.view.list.column.name</note>
+      </trans-unit>
+      <trans-unit id="a0c33e3728b23f13b825e36808834a6930551873" resname="role.view.list.title">
+        <source>Roles</source>
+        <target xml:lang="ach">crwdns214581:0crwdne214581:0</target>
+        <note>key: role.view.list.title</note>
+      </trans-unit>
+      <trans-unit id="ed20cb1159498f2085d5df44b0d43c977abaa791" resname="role.view.view.title">
+        <source>Role "%identifier%"</source>
+        <target xml:lang="ach">crwdns214582:0%identifier%crwdne214582:0</target>
+        <note>key: role.view.view.title</note>
+      </trans-unit>
+      <trans-unit id="84f19e53b432c72daaf803a5cbb9bf10d763b5e4" resname="role.viewing">
+        <source><![CDATA[Viewing <strong>%viewing%</strong> out of <strong>%total%</strong> items]]></source>
+        <target xml:lang="ach"><![CDATA[crwdns214583:0%viewing%crwdnd214583:0%total%crwdne214583:0]]></target>
+        <note>key: role.viewing</note>
+      </trans-unit>
+      <trans-unit id="e7ff6be9f5a7368f2493f29eacfa1ee321d9c383" resname="role_assignment.view.add.panel.limitations.title">
+        <source>Limitations</source>
+        <target xml:lang="ach">crwdns214584:0crwdne214584:0</target>
+        <note>key: role_assignment.view.add.panel.limitations.title</note>
+      </trans-unit>
+      <trans-unit id="f9465b09774c22747e887ffe9e6300fd02420546" resname="role_assignment.view.add.panel.users_and_groups.title">
+        <source>Users and Groups</source>
+        <target xml:lang="ach">crwdns214585:0crwdne214585:0</target>
+        <note>key: role_assignment.view.add.panel.users_and_groups.title</note>
+      </trans-unit>
+      <trans-unit id="61a5ec154d3f0620ec619d196611b011996128ff" resname="role_assignment.view.add.title">
+        <source>Assigning to Users/Groups</source>
+        <target xml:lang="ach">crwdns214586:0crwdne214586:0</target>
+        <note>key: role_assignment.view.add.title</note>
+      </trans-unit>
+      <trans-unit id="a21a7a13956cadf2256095fbdd062f1b33dd05a8" resname="role_assignment.view.list.action.add">
+        <source>Assign users/groups</source>
+        <target xml:lang="ach">crwdns214587:0crwdne214587:0</target>
+        <note>key: role_assignment.view.list.action.add</note>
+      </trans-unit>
+      <trans-unit id="76361d414c957ff63dcfdaf4490b3e9a2c632750" resname="role_assignment.view.list.action.delete">
+        <source>Delete Assignment</source>
+        <target xml:lang="ach">crwdns214588:0crwdne214588:0</target>
+        <note>key: role_assignment.view.list.action.delete</note>
+      </trans-unit>
+      <trans-unit id="5111796ffacfccc152f157c56a6e7219d35c3fd8" resname="role_assignment.view.list.header">
+        <source>Users and Groups</source>
+        <target xml:lang="ach">crwdns214589:0crwdne214589:0</target>
+        <note>key: role_assignment.view.list.header</note>
+      </trans-unit>
+      <trans-unit id="f7b9f2997c5eada07c20a0bde7e89cc0c688e1ea" resname="role_assignment.view.list.panel.assignments.column.limitation">
+        <source>Limitation</source>
+        <target xml:lang="ach">crwdns214590:0crwdne214590:0</target>
+        <note>key: role_assignment.view.list.panel.assignments.column.limitation</note>
+      </trans-unit>
+      <trans-unit id="e978e250aa8284fa54c6f2a73cef9d3c8f0535c8" resname="role_assignment.view.list.panel.assignments.column.limitations">
+        <source>Limitations</source>
+        <target xml:lang="ach">crwdns214591:0crwdne214591:0</target>
+        <note>key: role_assignment.view.list.panel.assignments.column.limitations</note>
+      </trans-unit>
+      <trans-unit id="bedf1e132292302ec09e4646d9a348a56e2c1ce8" resname="role_assignment.view.list.panel.assignments.column.user_group">
+        <source>User/Group</source>
+        <target xml:lang="ach">crwdns214592:0crwdne214592:0</target>
+        <note>key: role_assignment.view.list.panel.assignments.column.user_group</note>
+      </trans-unit>
+      <trans-unit id="4b3ecf13ffafd795bc971bc6292ea7f5a0bbe64c" resname="role_assignment.view.list.title.count">
+        <source>Assignments (%count%)</source>
+        <target xml:lang="ach">crwdns214593:0%count%crwdne214593:0</target>
+        <note>key: role_assignment.view.list.title.count</note>
+      </trans-unit>
+      <trans-unit id="304836ca19b0d01940431c18b955ae028a6110f9" resname="role_assignments.modal.message">
+        <source>Do you want to delete Role Assignments?</source>
+        <target xml:lang="ach">crwdns214594:0crwdne214594:0</target>
+        <note>key: role_assignments.modal.message</note>
+      </trans-unit>
+      <trans-unit id="5abe6179f254b9bdd5e8680eec4456118980932e" resname="validator.assign_users_or_groups">
+        <source>Assign User(s) and/or Group(s) to the Role</source>
+        <target xml:lang="ach">crwdns214595:0crwdne214595:0</target>
+        <note>key: validator.assign_users_or_groups</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

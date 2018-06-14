@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="ach" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="d2293b387ecddbc6173fd579abd37873fcbc5e97" resname="authentication.forgot_password">
+        <source>Forgot password?</source>
+        <target xml:lang="ach">crwdns214435:0crwdne214435:0</target>
+        <note>key: authentication.forgot_password</note>
+      </trans-unit>
+      <trans-unit id="da44d8915172b0c8a874e26956f44aa5501c7e6b" resname="authentication.password">
+        <source>Password</source>
+        <target xml:lang="ach">crwdns214436:0crwdne214436:0</target>
+        <note>key: authentication.password</note>
+      </trans-unit>
+      <trans-unit id="7a3631c8f70b8b52f902530ad052c71609eb7177" resname="authentication.reset_your_password">
+        <source>Reset your password</source>
+        <target xml:lang="ach">crwdns214437:0crwdne214437:0</target>
+        <note>key: authentication.reset_your_password</note>
+      </trans-unit>
+      <trans-unit id="8785f4abdfdf72fe9001fe0553c6e3a582cfcc08" resname="authentication.submit">
+        <source>Login</source>
+        <target xml:lang="ach">crwdns214438:0crwdne214438:0</target>
+        <note>key: authentication.submit</note>
+      </trans-unit>
+      <trans-unit id="9143793289ea0e20c3dc9f752d43cc727f2dba01" resname="authentication.username">
+        <source>Username</source>
+        <target xml:lang="ach">crwdns214439:0crwdne214439:0</target>
+        <note>key: authentication.username</note>
+      </trans-unit>
+      <trans-unit id="d21d07085caa55b0fee2fc054a6878bbdb24ae78" resname="breadcrumb.admin">
+        <source>Admin</source>
+        <target xml:lang="ach">crwdns214440:0crwdne214440:0</target>
+        <note>key: breadcrumb.admin</note>
+      </trans-unit>
+      <trans-unit id="74954052fb86d856c77ee642195c0c0b23bf9e70" resname="breadcrumb.user_preferences">
+        <source>User Preferences</source>
+        <target xml:lang="ach">crwdns214441:0crwdne214441:0</target>
+        <note>key: breadcrumb.user_preferences</note>
+      </trans-unit>
+      <trans-unit id="fb19ae886e63bac3aa3b851ac00aae8a3b777992" resname="content.in_trash">
+        <source>In Trash</source>
+        <target xml:lang="ach">crwdns214442:0crwdne214442:0</target>
+        <note>key: content.in_trash</note>
+      </trans-unit>
+      <trans-unit id="fe1c876b1a9bcde155f03227bce4ae4fbd54c24f" resname="custom_url_alias_add_form.add">
+        <source>Create</source>
+        <target xml:lang="ach">crwdns214443:0crwdne214443:0</target>
+        <note>key: custom_url_alias_add_form.add</note>
+      </trans-unit>
+      <trans-unit id="84348d405f3829787a5dfa80fbe5abbf07e3c118" resname="custom_url_alias_add_form.remove">
+        <source>Delete</source>
+        <target xml:lang="ach">crwdns214444:0crwdne214444:0</target>
+        <note>key: custom_url_alias_add_form.remove</note>
+      </trans-unit>
+      <trans-unit id="7cb40cbc703336ab1285e81ebf100b82b05a0e27" resname="error.page.403.actions">
+        <source><![CDATA[You can also go back to the <a class="error-page__link" href="%dashboard%">dashboard</a> here or <a class="error-page__link" href="%search%">search</a> for other content.]]></source>
+        <target xml:lang="ach"><![CDATA[crwdns214445:0%dashboard%crwdnd214445:0%search%crwdne214445:0]]></target>
+        <note>key: error.page.403.actions</note>
+      </trans-unit>
+      <trans-unit id="2532cb9ce6fdf46258c107f3d20888c506115ef6" resname="error.page.403.message">
+        <source><![CDATA[It’s an error 403. You don’t have permission to retrieve or access this page.<br/>Please contact your eZ Platform Administrator to request access to<br/>this content or modify your profile.]]></source>
+        <target xml:lang="ach"><![CDATA[crwdns214446:0crwdne214446:0]]></target>
+        <note>key: error.page.403.message</note>
+      </trans-unit>
+      <trans-unit id="b1712cfa4c13874debdcc0f1f4a3b9fa4af3c966" resname="error.page.403.title">
+        <source>You don’t have permission for this page. Sorry!</source>
+        <target xml:lang="ach">crwdns214447:0crwdne214447:0</target>
+        <note>key: error.page.403.title</note>
+      </trans-unit>
+      <trans-unit id="638be721c063eee72e70484fe99a25b2a990bb18" resname="error.page.404.actions">
+        <source><![CDATA[Check the URL, in case there would be an error in there.<br/>If not, go to the <a class="error-page__link" href="%dashboard%">dashboard</a> or <a class="error-page__link" href="%search%">search</a> for specific content.]]></source>
+        <target xml:lang="ach"><![CDATA[crwdns214448:0%dashboard%crwdnd214448:0%search%crwdne214448:0]]></target>
+        <note>key: error.page.404.actions</note>
+      </trans-unit>
+      <trans-unit id="7027b2adcf028b82111334763e40823cd85a52fa" resname="error.page.404.message">
+        <source><![CDATA[It’s an error 404. The page you requested was not found.<br/>It might have been deleted or might be temporarily unavailable.]]></source>
+        <target xml:lang="ach"><![CDATA[crwdns214449:0crwdne214449:0]]></target>
+        <note>key: error.page.404.message</note>
+      </trans-unit>
+      <trans-unit id="156b8a7f797412e60bdba432064e2dade6d4a7af" resname="error.page.404.title">
+        <source>Something went wrong. Sorry!</source>
+        <target xml:lang="ach">crwdns214450:0crwdne214450:0</target>
+        <note>key: error.page.404.title</note>
+      </trans-unit>
+      <trans-unit id="a599d59a63814826906caa9842f0b3c33db24d09" resname="error.page.default.actions">
+        <source><![CDATA[Please contact your eZ Platform Administrator and inform her/him about the time the error occurred, the URL in your browser window and anything related you think may have caused the error.<br/>You can also go back or try to reload the application.]]></source>
+        <target xml:lang="ach"><![CDATA[crwdns214451:0crwdne214451:0]]></target>
+        <note>key: error.page.default.actions</note>
+      </trans-unit>
+      <trans-unit id="8338c190462d420926edf71e8d4cddcae710d361" resname="error.page.default.message">
+        <source>It's an error 500, an internal server error. The server was unable to complete your request and it's not your fault.</source>
+        <target xml:lang="ach">crwdns214452:0crwdne214452:0</target>
+        <note>key: error.page.default.message</note>
+      </trans-unit>
+      <trans-unit id="889ba15bcc2f87bfac9b80282f659eaeb7c175d4" resname="error.page.default.title">
+        <source>Something went wrong. Sorry!</source>
+        <target xml:lang="ach">crwdns214453:0crwdne214453:0</target>
+        <note>key: error.page.default.title</note>
+      </trans-unit>
+      <trans-unit id="86a1d081394a7faba471dc5eaa4b1c112e9ff03a" resname="ezauthor.action.add">
+        <source>Add author</source>
+        <target xml:lang="ach">crwdns214454:0crwdne214454:0</target>
+        <note>key: ezauthor.action.add</note>
+      </trans-unit>
+      <trans-unit id="3a0389d073f00ef9a968a5cdc60e2794b434b381" resname="ezauthor.action.delete">
+        <source>Remove author</source>
+        <target xml:lang="ach">crwdns214455:0crwdne214455:0</target>
+        <note>key: ezauthor.action.delete</note>
+      </trans-unit>
+      <trans-unit id="f73d03811ba3033d6b44986d55ca728c5a88b168" resname="ezplatform.forgot_user_password.contact_administrator">
+        <source>If you do not remember your login, please contact the site administrator.</source>
+        <target xml:lang="ach">crwdns214456:0crwdne214456:0</target>
+        <note>key: ezplatform.forgot_user_password.contact_administrator</note>
+      </trans-unit>
+      <trans-unit id="ffb6990d5e75fe6dc86e94166b77e40a79e4e2a3" resname="ezplatform.forgot_user_password.login">
+        <source>This email is connected with several accounts. Please enter your login.</source>
+        <target xml:lang="ach">crwdns214457:0crwdne214457:0</target>
+        <note>key: ezplatform.forgot_user_password.login</note>
+      </trans-unit>
+      <trans-unit id="db6dd97ed4776bb0e9843554c48e3962327e8f50" resname="ezplatform.forgot_user_password.message">
+        <source><![CDATA[Hi,
+        <br /><br />
+        We have received a request to reset the password for your account on site. Click “reset password” below to choose a new password:
+        <br /><br />
+        <a href="%reset_password%">Reset password<a/>
+        <br /><br />
+        If you did not request a password reset, please ignore this email, and your password will remain the same.]]></source>
+        <target xml:lang="ach"><![CDATA[crwdns214458:0%reset_password%crwdne214458:0]]></target>
+        <note>key: ezplatform.forgot_user_password.message</note>
+      </trans-unit>
+      <trans-unit id="801ba7693e80ca58fbf2a9da2b735bf3f324fd27" resname="ezplatform.forgot_user_password.reset_your_password">
+        <source>Reset your password</source>
+        <target xml:lang="ach">crwdns214459:0crwdne214459:0</target>
+        <note>key: ezplatform.forgot_user_password.reset_your_password</note>
+      </trans-unit>
+      <trans-unit id="36aa6723300a41ba80ee0096c0d2bcf34fd48aca" resname="ezplatform.forgot_user_password.success">
+        <source><![CDATA[<p>We have sent an email to the email address of your account. You should receive the email shortly.</p>
+            <p>If the email is slow to arrive, check your spam folders.</p>
+            <p>If you receive no email, it’s that your username or email is unknown to us, so please double check.</p>
+            <p>If you reset your password multiple times, only the most recent email link will be valid</p>]]></source>
+        <target xml:lang="ach"><![CDATA[crwdns214460:0crwdne214460:0]]></target>
+        <note>key: ezplatform.forgot_user_password.success</note>
+      </trans-unit>
+      <trans-unit id="40dd2934190789b016771a0fc3b41dcdfe0bb920" resname="ezplatform.reset_user_password.change_password">
+        <source>Change password</source>
+        <target xml:lang="ach">crwdns214461:0crwdne214461:0</target>
+        <note>key: ezplatform.reset_user_password.change_password</note>
+      </trans-unit>
+      <trans-unit id="8359e9b6409139537d0eaeeacaedbc4d0912a105" resname="ezplatform.reset_user_password.link_is_not_valid">
+        <source><![CDATA[This link is not valid anymore, you can <a href="%forgot_user_password%">generate a new link</a> to reset your password.]]></source>
+        <target xml:lang="ach"><![CDATA[crwdns214462:0%forgot_user_password%crwdne214462:0]]></target>
+        <note>key: ezplatform.reset_user_password.link_is_not_valid</note>
+      </trans-unit>
+      <trans-unit id="5149c594d64197e519d38a1a2e7368140716bb81" resname="ezplatform.reset_user_password.success">
+        <source><![CDATA[Congrats, your password has been changed, you can now <a href="%login%">login</a> to eZ Platform.]]></source>
+        <target xml:lang="ach"><![CDATA[crwdns214463:0%login%crwdne214463:0]]></target>
+        <note>key: ezplatform.reset_user_password.success</note>
+      </trans-unit>
+      <trans-unit id="5cf420af18fd4a8d856fd30bc13aea5039369f9b" resname="form.cancel">
+        <source>Cancel</source>
+        <target xml:lang="ach">crwdns214464:0crwdne214464:0</target>
+        <note>key: form.cancel</note>
+      </trans-unit>
+      <trans-unit id="7fe072f41348fb097b6bb018eec4f1b1bc9cffc3" resname="modal.cancel">
+        <source>Cancel</source>
+        <target xml:lang="ach">crwdns214465:0crwdne214465:0</target>
+        <note>key: modal.cancel</note>
+      </trans-unit>
+      <trans-unit id="9eae227b7c27ab230a6d0ce5947d93e7d2e1626f" resname="modal.delete">
+        <source>Delete</source>
+        <target xml:lang="ach">crwdns214466:0crwdne214466:0</target>
+        <note>key: modal.delete</note>
+      </trans-unit>
+      <trans-unit id="08232f4c5c3ca88a7f2fd8e29eda7e20ec346aae" resname="search.any_time">
+        <source>Any time</source>
+        <target xml:lang="ach">crwdns214467:0crwdne214467:0</target>
+        <note>key: search.any_time</note>
+      </trans-unit>
+      <trans-unit id="03d6d5922fd2012e155e50306eaf98e2dfeb21c6" resname="search.section.any">
+        <source>Any section</source>
+        <target xml:lang="ach">crwdns214468:0crwdne214468:0</target>
+        <note>key: search.section.any</note>
+      </trans-unit>
+      <trans-unit id="9567771350aff93580f743089937b0c8fe31058e" resname="section.assign,content">
+        <source>Assign Content</source>
+        <target xml:lang="ach">crwdns214469:0crwdne214469:0</target>
+        <note>key: section.assign,content</note>
+      </trans-unit>
+      <trans-unit id="6a17e9f4ed416563fc8c3e188509b8eec8a6f7c0" resname="section.modal.message">
+        <source>Do you want to delete section?</source>
+        <target xml:lang="ach">crwdns214470:0crwdne214470:0</target>
+        <note>key: section.modal.message</note>
+      </trans-unit>
+      <trans-unit id="1152c93462d8bed85642b961f01ed63a6f2525ab" resname="tab.locations.location_content_swap">
+        <source>Location Content Swap</source>
+        <target xml:lang="ach">crwdns214471:0crwdne214471:0</target>
+        <note>key: tab.locations.location_content_swap</note>
+      </trans-unit>
+      <trans-unit id="27d429c3dcff70494c4080957b05a9db5255f854" resname="tab.locations.swap_with_another">
+        <source>Swap the content item at this location with another</source>
+        <target xml:lang="ach">crwdns214472:0crwdne214472:0</target>
+        <note>key: tab.locations.swap_with_another</note>
+      </trans-unit>
+      <trans-unit id="ebe1352e4bc48c8ec1a4e5f7352c0d20f3d0a18f" resname="tab.view.content">
+        <source>Content</source>
+        <target xml:lang="ach">crwdns214473:0crwdne214473:0</target>
+        <note>key: tab.view.content</note>
+      </trans-unit>
+      <trans-unit id="4e7901a215220faba4d546cd3fb63f3e2a64e849" resname="trash.delete.all.confirm">
+        <source>Are you sure you want to permanently delete %trashItemsCount% item(s)?</source>
+        <target xml:lang="ach">crwdns214474:0%trashItemsCount%crwdne214474:0</target>
+        <note>key: trash.delete.all.confirm</note>
+      </trans-unit>
+      <trans-unit id="48e20c2b09b340ca2e2020edaa30a57c8bc3f26b" resname="trash.delete.all.info">
+        <source>This action cannot be reversed</source>
+        <target xml:lang="ach">crwdns214475:0crwdne214475:0</target>
+        <note>key: trash.delete.all.info</note>
+      </trans-unit>
+      <trans-unit id="e500e3f1d454e2775bbe89b6267cd77c766df3f1" resname="trash.delete.button.cancel">
+        <source>Cancel</source>
+        <target xml:lang="ach">crwdns214476:0crwdne214476:0</target>
+        <note>key: trash.delete.button.cancel</note>
+      </trans-unit>
+      <trans-unit id="40288453ad3e95b36719b543af0ffeec57802003" resname="trash.form.cancel">
+        <source>Cancel</source>
+        <target xml:lang="ach">crwdns214477:0crwdne214477:0</target>
+        <note>key: trash.form.cancel</note>
+      </trans-unit>
+      <trans-unit id="2720e3018fc8b1158cb728b1d5dc377ef7293b57" resname="trash.modal.message">
+        <source>Are you sure you want to send this content item to trash?</source>
+        <target xml:lang="ach">crwdns214478:0crwdne214478:0</target>
+        <note>key: trash.modal.message</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

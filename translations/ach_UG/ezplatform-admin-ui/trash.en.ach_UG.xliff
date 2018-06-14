@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="ach" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="6aa460340bed42d0d1baf9d1ea542c83a3f00821" resname="trash">
+        <source>Trash</source>
+        <target xml:lang="ach">crwdns214696:0crwdne214696:0</target>
+        <note>key: trash</note>
+      </trans-unit>
+      <trans-unit id="49df4e6f73344ab17f4dfd94818974848f74f53a" resname="trash.button.restore">
+        <source>Restore</source>
+        <target xml:lang="ach">crwdns214697:0crwdne214697:0</target>
+        <note>key: trash.button.restore</note>
+      </trans-unit>
+      <trans-unit id="5424e0925328bb62806b43b2a65cc86fef6ad7d9" resname="trash.button.restore_new_location">
+        <source>Restore under new parent location</source>
+        <target xml:lang="ach">crwdns214698:0crwdne214698:0</target>
+        <note>key: trash.button.restore_new_location</note>
+      </trans-unit>
+      <trans-unit id="7ffaa1444a83e959f8de3c2410bb65acdd3e3ff0" resname="trash.delete">
+        <source>Delete</source>
+        <target xml:lang="ach">crwdns214699:0crwdne214699:0</target>
+        <note>key: trash.delete</note>
+      </trans-unit>
+      <trans-unit id="45548aed8adb5019c3b806992e903965699c7e08" resname="trash.deleted.success">
+        <source>Deleted selected trash items.</source>
+        <target xml:lang="ach">crwdns214700:0crwdne214700:0</target>
+        <note>key: trash.deleted.success</note>
+      </trans-unit>
+      <trans-unit id="7883128cdfb813826271abe90b3a1f3190833ce6" resname="trash.empty">
+        <source>Trash is empty. Any content item you send to trash will end up here.</source>
+        <target xml:lang="ach">crwdns214701:0crwdne214701:0</target>
+        <note>key: trash.empty</note>
+      </trans-unit>
+      <trans-unit id="17b503b33de4f7e60958b7824dd959dd0144ae13" resname="trash.empty.success">
+        <source>Trash empty.</source>
+        <target xml:lang="ach">crwdns214702:0crwdne214702:0</target>
+        <note>key: trash.empty.success</note>
+      </trans-unit>
+      <trans-unit id="eb7cd78bb919141f66cabfea95a60e0e6b02e9f4" resname="trash.headline">
+        <source>Trash</source>
+        <target xml:lang="ach">crwdns214703:0crwdne214703:0</target>
+        <note>key: trash.headline</note>
+      </trans-unit>
+      <trans-unit id="5d4b7350cb3bfc77e9edd02190eb530d866c7565" resname="trash.item.ancesor_in_trash">
+        <source>Ancestor is in the Trash</source>
+        <target xml:lang="ach">crwdns214704:0crwdne214704:0</target>
+        <note>key: trash.item.ancesor_in_trash</note>
+      </trans-unit>
+      <trans-unit id="2720e3018fc8b1158cb728b1d5dc377ef7293b57" resname="trash.modal.message">
+        <source>Do you want to delete selected item(s) from Trash?</source>
+        <target xml:lang="ach">crwdns214705:0crwdne214705:0</target>
+        <note>key: trash.modal.message</note>
+      </trans-unit>
+      <trans-unit id="34525fc5da381111c2104d20a55021eb8b698c7c" resname="trash.name">
+        <source>Name</source>
+        <target xml:lang="ach">crwdns214706:0crwdne214706:0</target>
+        <note>key: trash.name</note>
+      </trans-unit>
+      <trans-unit id="c28510c675be753842996980b0e5d175cec4a8d8" resname="trash.original_location">
+        <source>Original location</source>
+        <target xml:lang="ach">crwdns214707:0crwdne214707:0</target>
+        <note>key: trash.original_location</note>
+      </trans-unit>
+      <trans-unit id="a8c2da925faa48def8e407037a6115f1340070c7" resname="trash.restore_new_location.success">
+        <source>Items restored under '%location%' location.</source>
+        <target xml:lang="ach">crwdns214708:0%location%crwdne214708:0</target>
+        <note>key: trash.restore_new_location.success</note>
+      </trans-unit>
+      <trans-unit id="d4e8ddb6a84d9ca3a3b39485e9b7c5ef2860d879" resname="trash.restore_original_location.success">
+        <source>Items restored under their original location.</source>
+        <target xml:lang="ach">crwdns214709:0crwdne214709:0</target>
+        <note>key: trash.restore_original_location.success</note>
+      </trans-unit>
+      <trans-unit id="06b530d8c8b3d7af7b3f2df9f5102927e7275de4" resname="trash.table.header">
+        <source>Trash</source>
+        <target xml:lang="ach">crwdns214710:0crwdne214710:0</target>
+        <note>key: trash.table.header</note>
+      </trans-unit>
+      <trans-unit id="04098b87c58e41ab39820db75eee1d13856f9616" resname="trash.type">
+        <source>Type</source>
+        <target xml:lang="ach">crwdns214711:0crwdne214711:0</target>
+        <note>key: trash.type</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

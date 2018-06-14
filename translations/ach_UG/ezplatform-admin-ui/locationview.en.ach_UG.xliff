@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="ach" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="a4b9e9b4898dd285237fc60130970ce7ed988871" resname="content.create.choose_content_type">
+        <source>Create your content</source>
+        <target xml:lang="ach">crwdns214278:0crwdne214278:0</target>
+        <note>key: content.create.choose_content_type</note>
+      </trans-unit>
+      <trans-unit id="f599001c1ab9442f20e23d535e1dad8f3b75c337" resname="content.create.select_content_type">
+        <source>Select Content Type</source>
+        <target xml:lang="ach">crwdns214279:0crwdne214279:0</target>
+        <note>key: content.create.select_content_type</note>
+      </trans-unit>
+      <trans-unit id="8b5180d90c79245ed3e491e6f682842daaa0bec5" resname="content.create.select_language">
+        <source>Select language</source>
+        <target xml:lang="ach">crwdns214280:0crwdne214280:0</target>
+        <note>key: content.create.select_language</note>
+      </trans-unit>
+      <trans-unit id="5e8851497aae3ba774d163d5fd191fd69ac871c0" resname="content.edit.select_language">
+        <source>Select language</source>
+        <target xml:lang="ach">crwdns214281:0crwdne214281:0</target>
+        <note>key: content.edit.select_language</note>
+      </trans-unit>
+      <trans-unit id="c0b36efcf0ebbe2ac0f9861cae35e12e668cbcc0" resname="tab.details.content_details">
+        <source>Content details</source>
+        <target xml:lang="ach">crwdns214282:0crwdne214282:0</target>
+        <note>key: tab.details.content_details</note>
+      </trans-unit>
+      <trans-unit id="6e1488d3bb54efc176d8766d3c22751b06890e2f" resname="tab.details.content_id">
+        <source>Content ID</source>
+        <target xml:lang="ach">crwdns214283:0crwdne214283:0</target>
+        <note>key: tab.details.content_id</note>
+      </trans-unit>
+      <trans-unit id="d5236d13b41dc38ee965599754a05e3283b55ae2" resname="tab.details.content_remote_id">
+        <source>Content remote ID</source>
+        <target xml:lang="ach">crwdns214284:0crwdne214284:0</target>
+        <note>key: tab.details.content_remote_id</note>
+      </trans-unit>
+      <trans-unit id="dc195b32e812b751daa7a3321844c9712e1460ba" resname="tab.details.creator">
+        <source>Creator</source>
+        <target xml:lang="ach">crwdns214285:0crwdne214285:0</target>
+        <note>key: tab.details.creator</note>
+      </trans-unit>
+      <trans-unit id="91b45af4dd219651dc8b1a7d050822b71f03fad3" resname="tab.details.creator.not_found">
+        <source>Can’t fetch creator</source>
+        <target xml:lang="ach">crwdns214286:0crwdne214286:0</target>
+        <note>key: tab.details.creator.not_found</note>
+      </trans-unit>
+      <trans-unit id="acc17a8db8d00036233faa9948ad9a496cd621b3" resname="tab.details.last_contributor">
+        <source>Last contributor</source>
+        <target xml:lang="ach">crwdns214287:0crwdne214287:0</target>
+        <note>key: tab.details.last_contributor</note>
+      </trans-unit>
+      <trans-unit id="ba5ca8a7f923f6ee3a0e6bf9aca428403d0158fd" resname="tab.details.last_contributor.not_found">
+        <source>Can’t fetch last contributor</source>
+        <target xml:lang="ach">crwdns214288:0crwdne214288:0</target>
+        <note>key: tab.details.last_contributor.not_found</note>
+      </trans-unit>
+      <trans-unit id="671c2d4e91244548b29e8f293cd8d4d97a3c23bd" resname="tab.details.location_id">
+        <source>Location ID</source>
+        <target xml:lang="ach">crwdns214289:0crwdne214289:0</target>
+        <note>key: tab.details.location_id</note>
+      </trans-unit>
+      <trans-unit id="c391debe9105c6823145ca6c5ec76a252ba5538c" resname="tab.details.location_remote_id">
+        <source>Location remote ID</source>
+        <target xml:lang="ach">crwdns214290:0crwdne214290:0</target>
+        <note>key: tab.details.location_remote_id</note>
+      </trans-unit>
+      <trans-unit id="26bd81ee7b010fa5846859eb4c2464764effeb81" resname="tab.details.published_version">
+        <source>Published version</source>
+        <target xml:lang="ach">crwdns214291:0crwdne214291:0</target>
+        <note>key: tab.details.published_version</note>
+      </trans-unit>
+      <trans-unit id="cd8ccac573601690d7e364174cf3fb8a931c805e" resname="tab.details.section_details">
+        <source>Section details</source>
+        <target xml:lang="ach">crwdns214292:0crwdne214292:0</target>
+        <note>key: tab.details.section_details</note>
+      </trans-unit>
+      <trans-unit id="67ff5cca435b058142e77b820d5d72090fa26346" resname="tab.details.section_id">
+        <source>Section ID</source>
+        <target xml:lang="ach">crwdns214293:0crwdne214293:0</target>
+        <note>key: tab.details.section_id</note>
+      </trans-unit>
+      <trans-unit id="0ab2029f0a194849d3f90531f03e37780491d1a6" resname="tab.details.section_identifier">
+        <source>Section identifier</source>
+        <target xml:lang="ach">crwdns214294:0crwdne214294:0</target>
+        <note>key: tab.details.section_identifier</note>
+      </trans-unit>
+      <trans-unit id="30775f4a9e0512f181cf857fb0f0ea23fe79320d" resname="tab.details.section_name">
+        <source>Section name</source>
+        <target xml:lang="ach">crwdns214295:0crwdne214295:0</target>
+        <note>key: tab.details.section_name</note>
+      </trans-unit>
+      <trans-unit id="6ba61ac8194e021eb1515cc2d3d33ff006e2d55d" resname="tab.details.state_details">
+        <source>State details</source>
+        <target xml:lang="ach">crwdns214296:0crwdne214296:0</target>
+        <note>key: tab.details.state_details</note>
+      </trans-unit>
+      <trans-unit id="bbbd7d6b2d1c59cedd3012f3d4375ade8cc50c15" resname="tab.details.state_group_id">
+        <source>Group ID</source>
+        <target xml:lang="ach">crwdns214297:0crwdne214297:0</target>
+        <note>key: tab.details.state_group_id</note>
+      </trans-unit>
+      <trans-unit id="b4e137dd1267dc4e70e23e289313c9340f065634" resname="tab.details.state_group_identifier">
+        <source>Group identifier</source>
+        <target xml:lang="ach">crwdns214298:0crwdne214298:0</target>
+        <note>key: tab.details.state_group_identifier</note>
+      </trans-unit>
+      <trans-unit id="131730e5ecef276336a53300cdd891e0689023f4" resname="tab.details.state_group_name">
+        <source>Group name</source>
+        <target xml:lang="ach">crwdns214299:0crwdne214299:0</target>
+        <note>key: tab.details.state_group_name</note>
+      </trans-unit>
+      <trans-unit id="0ae393a967d866426ebdb62c810ea218c011ea5f" resname="tab.details.state_id">
+        <source>State ID</source>
+        <target xml:lang="ach">crwdns214300:0crwdne214300:0</target>
+        <note>key: tab.details.state_id</note>
+      </trans-unit>
+      <trans-unit id="e185e68f61ce9867e2cafcf406650e12c3a81d05" resname="tab.details.state_identifier">
+        <source>Identifier</source>
+        <target xml:lang="ach">crwdns214301:0crwdne214301:0</target>
+        <note>key: tab.details.state_identifier</note>
+      </trans-unit>
+      <trans-unit id="69dea878e2926e6a40b3d4e79b1f723d0aa801c7" resname="tab.details.state_name">
+        <source>Name</source>
+        <target xml:lang="ach">crwdns214302:0crwdne214302:0</target>
+        <note>key: tab.details.state_name</note>
+      </trans-unit>
+      <trans-unit id="8ddd1c9e60bd352b4395e1753ede6534db2aac8b" resname="tab.details.sub_items_listing_by.in">
+        <source>in</source>
+        <target xml:lang="ach">crwdns214303:0crwdne214303:0</target>
+        <note>key: tab.details.sub_items_listing_by.in</note>
+      </trans-unit>
+      <trans-unit id="c7f8179865bd73db9d2f07c39ae4a364668476c5" resname="tab.details.sub_items_listing_by.order_by">
+        <source>Order by</source>
+        <target xml:lang="ach">crwdns214304:0crwdne214304:0</target>
+        <note>key: tab.details.sub_items_listing_by.order_by</note>
+      </trans-unit>
+      <trans-unit id="fe4321b1de5be805ed8224c8cf442a89e9fa38b4" resname="tab.details.sub_items_listing_by_set">
+        <source>Set</source>
+        <target xml:lang="ach">crwdns214305:0crwdne214305:0</target>
+        <note>key: tab.details.sub_items_listing_by_set</note>
+      </trans-unit>
+      <trans-unit id="03aa9832291905ed83ba60081ebffe5786d92418" resname="tab.details.sub_items_sorting_order">
+        <source>Sub-items sorting order</source>
+        <target xml:lang="ach">crwdns214306:0crwdne214306:0</target>
+        <note>key: tab.details.sub_items_sorting_order</note>
+      </trans-unit>
+      <trans-unit id="09fcd5ad39b9c2b778be171f88559f6c117ff48b" resname="tab.details.technical_details">
+        <source>Technical details</source>
+        <target xml:lang="ach">crwdns214307:0crwdne214307:0</target>
+        <note>key: tab.details.technical_details</note>
+      </trans-unit>
+      <trans-unit id="69ca343732e6be688ff4606c3a9b15d83d531233" resname="tab.details.translations">
+        <source>Translations</source>
+        <target xml:lang="ach">crwdns214308:0crwdne214308:0</target>
+        <note>key: tab.details.translations</note>
+      </trans-unit>
+      <trans-unit id="8eb3feb6461dacdbd425ef30fc4848a94ab3db0d" resname="tab.locations.action.add">
+        <source>Add Location</source>
+        <target xml:lang="ach">crwdns214309:0crwdne214309:0</target>
+        <note>key: tab.locations.action.add</note>
+      </trans-unit>
+      <trans-unit id="80808d78f600e925ec3e2dd4b2a0e7570169fd83" resname="tab.locations.action.delete">
+        <source>Delete Location</source>
+        <target xml:lang="ach">crwdns214310:0crwdne214310:0</target>
+        <note>key: tab.locations.action.delete</note>
+      </trans-unit>
+      <trans-unit id="7ac57e88d1f970747986392b6689075ba64cf270" resname="tab.locations.content_locations">
+        <source>Content locations</source>
+        <target xml:lang="ach">crwdns214311:0crwdne214311:0</target>
+        <note>key: tab.locations.content_locations</note>
+      </trans-unit>
+      <trans-unit id="cd57f6ee339fa6c35e2a75cc760f391676fca490" resname="tab.locations.hidden_by_superior">
+        <source>Hidden by superior</source>
+        <target xml:lang="ach">crwdns214312:0crwdne214312:0</target>
+        <note>key: tab.locations.hidden_by_superior</note>
+      </trans-unit>
+      <trans-unit id="64554d66c71f33e7d3ac52c75b17717c334ef9dd" resname="tab.locations.main">
+        <source>Main</source>
+        <target xml:lang="ach">crwdns214313:0crwdne214313:0</target>
+        <note>key: tab.locations.main</note>
+      </trans-unit>
+      <trans-unit id="e704444c07d73c053f58f427ebcc0b6b2042c63d" resname="tab.locations.modal.message">
+        <source>Do you want to delete Location?</source>
+        <target xml:lang="ach">crwdns214314:0crwdne214314:0</target>
+        <note>key: tab.locations.modal.message</note>
+      </trans-unit>
+      <trans-unit id="7514a2a1e82c82fa3a197dc3da8be56a9c68f136" resname="tab.locations.path">
+        <source>Path</source>
+        <target xml:lang="ach">crwdns214315:0crwdne214315:0</target>
+        <note>key: tab.locations.path</note>
+      </trans-unit>
+      <trans-unit id="b5d6fe3a752b0c391bfa751acb7c4c3ac82e2c0c" resname="tab.locations.subitems">
+        <source>Sub-items</source>
+        <target xml:lang="ach">crwdns214316:0crwdne214316:0</target>
+        <note>key: tab.locations.subitems</note>
+      </trans-unit>
+      <trans-unit id="1932d409236634ffbe828e683f35db760ec25323" resname="tab.locations.visibility">
+        <source>Visibility</source>
+        <target xml:lang="ach">crwdns214317:0crwdne214317:0</target>
+        <note>key: tab.locations.visibility</note>
+      </trans-unit>
+      <trans-unit id="5d92b84a6c78bd443010f172c47d01ce0dacacd7" resname="tab.name.details">
+        <source>Details</source>
+        <target xml:lang="ach">crwdns214318:0crwdne214318:0</target>
+        <note>key: tab.name.details</note>
+      </trans-unit>
+      <trans-unit id="bc992b410ec56cce18c994806d7518fd47da2caa" resname="tab.name.locations">
+        <source>Locations</source>
+        <target xml:lang="ach">crwdns214319:0crwdne214319:0</target>
+        <note>key: tab.name.locations</note>
+      </trans-unit>
+      <trans-unit id="8954433abc5d011c00f81f317c7eebec41fbb1c0" resname="tab.name.relations">
+        <source>Relations</source>
+        <target xml:lang="ach">crwdns214320:0crwdne214320:0</target>
+        <note>key: tab.name.relations</note>
+      </trans-unit>
+      <trans-unit id="0b83b391386f47130b2d3ac1869fe27aa8c45fb7" resname="tab.name.translations">
+        <source>Translations</source>
+        <target xml:lang="ach">crwdns214321:0crwdne214321:0</target>
+        <note>key: tab.name.translations</note>
+      </trans-unit>
+      <trans-unit id="50741647d206010a8c2ac911901f3c31d6bbfc6a" resname="tab.name.urls">
+        <source>URL</source>
+        <target xml:lang="ach">crwdns214322:0crwdne214322:0</target>
+        <note>key: tab.name.urls</note>
+      </trans-unit>
+      <trans-unit id="337828c348b881920f84d17cc184f4c24e40c894" resname="tab.name.versions">
+        <source>Versions</source>
+        <target xml:lang="ach">crwdns214323:0crwdne214323:0</target>
+        <note>key: tab.name.versions</note>
+      </trans-unit>
+      <trans-unit id="eb3b504a0281951f15692e888226579aa99bb512" resname="tab.name.view">
+        <source>View</source>
+        <target xml:lang="ach">crwdns214324:0crwdne214324:0</target>
+        <note>key: tab.name.view</note>
+      </trans-unit>
+      <trans-unit id="373c6d223e1f346d71cf6cfd85f0fbc3d76ca1d5" resname="tab.relations.no_relations">
+        <source>This content item has no related content.</source>
+        <target xml:lang="ach">crwdns214325:0crwdne214325:0</target>
+        <note>key: tab.relations.no_relations</note>
+      </trans-unit>
+      <trans-unit id="1c95181a07cb4d7b83aa9b003eb4e8df95c8bfd9" resname="tab.relations.no_reverse_relations">
+        <source>This content item has no reverse relations.</source>
+        <target xml:lang="ach">crwdns214326:0crwdne214326:0</target>
+        <note>key: tab.relations.no_reverse_relations</note>
+      </trans-unit>
+      <trans-unit id="853cb6f02ff64af4dc6016318eff1c30bd16cc70" resname="tab.relations.related_content">
+        <source>Related content (content items used by %contentName%)</source>
+        <target xml:lang="ach">crwdns214327:0%contentName%crwdne214327:0</target>
+        <note>key: tab.relations.related_content</note>
+      </trans-unit>
+      <trans-unit id="797eb29381132df5a71378b71b3237cf9a063b5c" resname="tab.relations.reverse_relations">
+        <source>Reverse relations (content items using %contentName%)</source>
+        <target xml:lang="ach">crwdns214328:0%contentName%crwdne214328:0</target>
+        <note>key: tab.relations.reverse_relations</note>
+      </trans-unit>
+      <trans-unit id="d667f9ef2cf04ce8966bc908b8930be596925561" resname="tab.relations.table.content_type">
+        <source>Content type</source>
+        <target xml:lang="ach">crwdns214329:0crwdne214329:0</target>
+        <note>key: tab.relations.table.content_type</note>
+      </trans-unit>
+      <trans-unit id="e649f067bcea898ef987cd5ebce6a9a6fca570f2" resname="tab.relations.table.name">
+        <source>Name</source>
+        <target xml:lang="ach">crwdns214330:0crwdne214330:0</target>
+        <note>key: tab.relations.table.name</note>
+      </trans-unit>
+      <trans-unit id="06422c0c484b663ec929d1049a228a26b9d48476" resname="tab.relations.table.relation_type">
+        <source>Relation type</source>
+        <target xml:lang="ach">crwdns214331:0crwdne214331:0</target>
+        <note>key: tab.relations.table.relation_type</note>
+      </trans-unit>
+      <trans-unit id="d8360b13746f836dc7c28998696a69b24ea30b18" resname="tab.relations.table.relation_type.content_level_relation">
+        <source>Content level relation</source>
+        <target xml:lang="ach">crwdns214332:0crwdne214332:0</target>
+        <note>key: tab.relations.table.relation_type.content_level_relation</note>
+      </trans-unit>
+      <trans-unit id="79779455bd3c932297c6b8cefdcd1251836525c5" resname="tab.relations.table.relation_type.embed">
+        <source>Embed</source>
+        <target xml:lang="ach">crwdns214333:0crwdne214333:0</target>
+        <note>key: tab.relations.table.relation_type.embed</note>
+      </trans-unit>
+      <trans-unit id="9a9a16a9516cdda3bc3213bbdf77a02ff04b8fc8" resname="tab.relations.table.relation_type.field">
+        <source>Field</source>
+        <target xml:lang="ach">crwdns214334:0crwdne214334:0</target>
+        <note>key: tab.relations.table.relation_type.field</note>
+      </trans-unit>
+      <trans-unit id="cd43dc791bb87dda363d311d449b68d5876392d1" resname="tab.relations.table.relation_type.link">
+        <source>Link</source>
+        <target xml:lang="ach">crwdns214335:0crwdne214335:0</target>
+        <note>key: tab.relations.table.relation_type.link</note>
+      </trans-unit>
+      <trans-unit id="492cea0fd67c4af8e41d21710668239c9db66cfc" resname="tab.translations.action.add">
+        <source>Add Translation</source>
+        <target xml:lang="ach">crwdns214336:0crwdne214336:0</target>
+        <note>key: tab.translations.action.add</note>
+      </trans-unit>
+      <trans-unit id="8c29b038407b67badc381aca362d4770d299df8b" resname="tab.translations.action.delete">
+        <source>Delete Translation</source>
+        <target xml:lang="ach">crwdns214337:0crwdne214337:0</target>
+        <note>key: tab.translations.action.delete</note>
+      </trans-unit>
+      <trans-unit id="5022ce879be6a69956541173bf658dccff5d7280" resname="tab.translations.add.base_language">
+        <source>Base this translation on an existing translation</source>
+        <target xml:lang="ach">crwdns214338:0crwdne214338:0</target>
+        <note>key: tab.translations.add.base_language</note>
+      </trans-unit>
+      <trans-unit id="c22e9f75640384f917cc76e6736b3a6e91d70f1d" resname="tab.translations.add.cancel">
+        <source>Cancel</source>
+        <target xml:lang="ach">crwdns214339:0crwdne214339:0</target>
+        <note>key: tab.translations.add.cancel</note>
+      </trans-unit>
+      <trans-unit id="fe6c962e1d0766f59a66d3766c56edffdce6735d" resname="tab.translations.add.language">
+        <source>Select a language for your new translation</source>
+        <target xml:lang="ach">crwdns214340:0crwdne214340:0</target>
+        <note>key: tab.translations.add.language</note>
+      </trans-unit>
+      <trans-unit id="2d1ceec2bfb85db323e21e358b6be6aad547e1d0" resname="tab.translations.add.title">
+        <source>Create new translation</source>
+        <target xml:lang="ach">crwdns214341:0crwdne214341:0</target>
+        <note>key: tab.translations.add.title</note>
+      </trans-unit>
+      <trans-unit id="d494d753de03a08f7a10792b727ec88ca74d4913" resname="tab.translations.language_code">
+        <source>Language code</source>
+        <target xml:lang="ach">crwdns214342:0crwdne214342:0</target>
+        <note>key: tab.translations.language_code</note>
+      </trans-unit>
+      <trans-unit id="0becdca42cbaa039a6166b8aa778a86657bb362f" resname="tab.translations.language_name">
+        <source>Language name</source>
+        <target xml:lang="ach">crwdns214343:0crwdne214343:0</target>
+        <note>key: tab.translations.language_name</note>
+      </trans-unit>
+      <trans-unit id="e8d52c9e980661178d301e925ac8c74661b4350d" resname="tab.translations.modal.message">
+        <source>Do you want to delete Translation?</source>
+        <target xml:lang="ach">crwdns214344:0crwdne214344:0</target>
+        <note>key: tab.translations.modal.message</note>
+      </trans-unit>
+      <trans-unit id="852ca97b78e55e9b7734ff3e5a6c1b3fde6eca6f" resname="tab.translations.translation_manger">
+        <source>Translation manager</source>
+        <target xml:lang="ach">crwdns214345:0crwdne214345:0</target>
+        <note>key: tab.translations.translation_manger</note>
+      </trans-unit>
+      <trans-unit id="a4297fe31e8eb3307caa2cf855328056c3b98962" resname="tab.versions.action.delete">
+        <source>Delete Version</source>
+        <target xml:lang="ach">crwdns214346:0crwdne214346:0</target>
+        <note>key: tab.versions.action.delete</note>
+      </trans-unit>
+      <trans-unit id="699b5bf627b908f8d270984ab9a4734a48b28abe" resname="tab.versions.archived_versions">
+        <source>Archived versions</source>
+        <target xml:lang="ach">crwdns214347:0crwdne214347:0</target>
+        <note>key: tab.versions.archived_versions</note>
+      </trans-unit>
+      <trans-unit id="b098881c168c540aaa9e23417fa38934a70300d6" resname="tab.versions.draft_under_edit">
+        <source>Draft under edit</source>
+        <target xml:lang="ach">crwdns214348:0crwdne214348:0</target>
+        <note>key: tab.versions.draft_under_edit</note>
+      </trans-unit>
+      <trans-unit id="134ac8f9b086171dcda7931b3bb7acc0042bb1c9" resname="tab.versions.modal.message">
+        <source>Do you want to delete Versions?</source>
+        <target xml:lang="ach">crwdns214349:0crwdne214349:0</target>
+        <note>key: tab.versions.modal.message</note>
+      </trans-unit>
+      <trans-unit id="8cf65ae83fb935858286b91006ff05b9d6d15c4a" resname="tab.versions.no_permission">
+        <source>You don't have access to view the content item's versions</source>
+        <target xml:lang="ach">crwdns214350:0crwdne214350:0</target>
+        <note>key: tab.versions.no_permission</note>
+      </trans-unit>
+      <trans-unit id="f6c48627db1d026d9f3fbc3b5b1cb1b3c60af4b3" resname="tab.versions.published_version">
+        <source>Published version</source>
+        <target xml:lang="ach">crwdns214351:0crwdne214351:0</target>
+        <note>key: tab.versions.published_version</note>
+      </trans-unit>
+      <trans-unit id="d2e707023baa6830915c5d12b915974d627522e4" resname="tab.versions.table.action.archived.edit">
+        <source>Restore Archived Version</source>
+        <target xml:lang="ach">crwdns214352:0crwdne214352:0</target>
+        <note>key: tab.versions.table.action.archived.edit</note>
+      </trans-unit>
+      <trans-unit id="97721a4a6c33834bb6421c29ef72e8654f39a4ab" resname="tab.versions.table.action.draft.edit">
+        <source>Edit Draft</source>
+        <target xml:lang="ach">crwdns214353:0crwdne214353:0</target>
+        <note>key: tab.versions.table.action.draft.edit</note>
+      </trans-unit>
+      <trans-unit id="a602612589c6e902caaf8acf1fd51fcd215955f1" resname="tab.versions.table.author.not_found">
+        <source>Can’t fetch contributor</source>
+        <target xml:lang="ach">crwdns214354:0crwdne214354:0</target>
+        <note>key: tab.versions.table.author.not_found</note>
+      </trans-unit>
+      <trans-unit id="4c27637d649c221e58c6a9629f14a2f75aeed151" resname="tab.versions.table.contributor">
+        <source>Contributor</source>
+        <target xml:lang="ach">crwdns214355:0crwdne214355:0</target>
+        <note>key: tab.versions.table.contributor</note>
+      </trans-unit>
+      <trans-unit id="4c6353b63f5bc2031c8380c4007edf9c5f6be456" resname="tab.versions.table.created">
+        <source>Created</source>
+        <target xml:lang="ach">crwdns214356:0crwdne214356:0</target>
+        <note>key: tab.versions.table.created</note>
+      </trans-unit>
+      <trans-unit id="472157bdf440a9c6636057ac194d53029ac589dd" resname="tab.versions.table.last_saved">
+        <source>Last saved</source>
+        <target xml:lang="ach">crwdns214357:0crwdne214357:0</target>
+        <note>key: tab.versions.table.last_saved</note>
+      </trans-unit>
+      <trans-unit id="cd780839249906bd141cccd8bc58c8043a50acfb" resname="tab.versions.table.modified_language">
+        <source>Modified language</source>
+        <target xml:lang="ach">crwdns214358:0crwdne214358:0</target>
+        <note>key: tab.versions.table.modified_language</note>
+      </trans-unit>
+      <trans-unit id="ddc70b29ad8ac6544843566a146ed1ea4ddab817" resname="tab.versions.table.version">
+        <source>Version</source>
+        <target xml:lang="ach">crwdns214359:0crwdne214359:0</target>
+        <note>key: tab.versions.table.version</note>
+      </trans-unit>
+      <trans-unit id="cf6a7c9a98608dd58b428ce2187e3229b64b5701" resname="translation.modal_close">
+        <source>Close</source>
+        <target xml:lang="ach">crwdns214360:0crwdne214360:0</target>
+        <note>key: translation.modal_close</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

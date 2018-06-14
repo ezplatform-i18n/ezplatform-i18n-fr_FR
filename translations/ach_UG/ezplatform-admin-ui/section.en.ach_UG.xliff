@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="ach" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="128df491a522e7af4916cd002d9e11a3d2bc4078" resname="section.action.delete">
+        <source>Delete Section</source>
+        <target xml:lang="ach">crwdns214629:0crwdne214629:0</target>
+        <note>key: section.action.delete</note>
+      </trans-unit>
+      <trans-unit id="84413bc1ae3385c0aac1af7ea5665cb0c1eaf3ba" resname="section.assign_content">
+        <source>Assign content</source>
+        <target xml:lang="ach">crwdns214630:0crwdne214630:0</target>
+        <note>key: section.assign_content</note>
+      </trans-unit>
+      <trans-unit id="2a6caa13cfd67503e2250af8e36f26a2f835a4a0" resname="section.assign_content.success">
+        <source>%contentItemsCount% content items were assigned to '%name%'</source>
+        <target xml:lang="ach">crwdns214631:0%contentItemsCount%crwdnd214631:0%name%crwdne214631:0</target>
+        <note>key: section.assign_content.success</note>
+      </trans-unit>
+      <trans-unit id="bbcee03105f9504c94923b141d067d28d1d7ec54" resname="section.assigned.content">
+        <source>Assignments count</source>
+        <target xml:lang="ach">crwdns214632:0crwdne214632:0</target>
+        <note>key: section.assigned.content</note>
+      </trans-unit>
+      <trans-unit id="e04ac63bba940de331146dac711b1633407e5ce9" resname="section.assigned_content.empty">
+        <source>No content items.</source>
+        <target xml:lang="ach">crwdns214633:0crwdne214633:0</target>
+        <note>key: section.assigned_content.empty</note>
+      </trans-unit>
+      <trans-unit id="d40d7fd957935deb539c21b9b49f34d4016c69d0" resname="section.assigned_content.empty_desc">
+        <source>Content items you assign to this section will appear here.</source>
+        <target xml:lang="ach">crwdns214634:0crwdne214634:0</target>
+        <note>key: section.assigned_content.empty_desc</note>
+      </trans-unit>
+      <trans-unit id="60771f4109f17ae27080b34e9322fd7cb02f45b3" resname="section.assigned_content.header">
+        <source>Content items in %name% (%count%)</source>
+        <target xml:lang="ach">crwdns214635:0%name%crwdnd214635:0%count%crwdne214635:0</target>
+        <note>key: section.assigned_content.header</note>
+      </trans-unit>
+      <trans-unit id="adcc2af264c7ae84e69396a8ff7ea5a259abd01e" resname="section.assigned_content.name">
+        <source>Name</source>
+        <target xml:lang="ach">crwdns214636:0crwdne214636:0</target>
+        <note>key: section.assigned_content.name</note>
+      </trans-unit>
+      <trans-unit id="2fe0fba3bd48001b4d8129930deec8cf683a5039" resname="section.assigned_content.path">
+        <source>Path</source>
+        <target xml:lang="ach">crwdns214637:0crwdne214637:0</target>
+        <note>key: section.assigned_content.path</note>
+      </trans-unit>
+      <trans-unit id="741d668d8a98bbaa2195e996de4402f24ef7d60e" resname="section.assigned_content.type">
+        <source>Content Type</source>
+        <target xml:lang="ach">crwdns214638:0crwdne214638:0</target>
+        <note>key: section.assigned_content.type</note>
+      </trans-unit>
+      <trans-unit id="0a6c7f3919b09caa9eee957a4949d3c9b6dce16e" resname="section.create.success">
+        <source>Section '%name%' created.</source>
+        <target xml:lang="ach">crwdns214639:0%name%crwdne214639:0</target>
+        <note>key: section.create.success</note>
+      </trans-unit>
+      <trans-unit id="48a0071d3b889cbfef3ff4ee5af8cf83b1e8b7f6" resname="section.delete">
+        <source>Delete Section</source>
+        <target xml:lang="ach">crwdns214640:0crwdne214640:0</target>
+        <note>key: section.delete</note>
+      </trans-unit>
+      <trans-unit id="663e1bfb8478f95028221190755c01441b2a8fde" resname="section.delete.success">
+        <source>Section '%name%' removed.</source>
+        <target xml:lang="ach">crwdns214641:0%name%crwdne214641:0</target>
+        <note>key: section.delete.success</note>
+      </trans-unit>
+      <trans-unit id="7c2d7a21eb806db794990d728749dde1592be63e" resname="section.edit">
+        <source>Edit</source>
+        <target xml:lang="ach">crwdns214642:0crwdne214642:0</target>
+        <note>key: section.edit</note>
+      </trans-unit>
+      <trans-unit id="bcb0a8eedc29344eb4ad95a02dd684438aae1df6" resname="section.id">
+        <source>ID</source>
+        <target xml:lang="ach">crwdns214643:0crwdne214643:0</target>
+        <note>key: section.id</note>
+      </trans-unit>
+      <trans-unit id="54e249fceb2f506942f7f0ae30107a734b9b3fe5" resname="section.identifier">
+        <source>Identifier</source>
+        <target xml:lang="ach">crwdns214644:0crwdne214644:0</target>
+        <note>key: section.identifier</note>
+      </trans-unit>
+      <trans-unit id="105a971e4f7e75ad6066301cedc90bd4acf0ae12" resname="section.information.header">
+        <source>Section information</source>
+        <target xml:lang="ach">crwdns214645:0crwdne214645:0</target>
+        <note>key: section.information.header</note>
+      </trans-unit>
+      <trans-unit id="1f9b6e37416ff607de9d4fa280dce2f734ea622c" resname="section.list">
+        <source>Sections</source>
+        <target xml:lang="ach">crwdns214646:0crwdne214646:0</target>
+        <note>key: section.list</note>
+      </trans-unit>
+      <trans-unit id="d0db9c352babe46e30354a78d9b3eccd226d7602" resname="section.list.title">
+        <source>Sections</source>
+        <target xml:lang="ach">crwdns214647:0crwdne214647:0</target>
+        <note>key: section.list.title</note>
+      </trans-unit>
+      <trans-unit id="6a17e9f4ed416563fc8c3e188509b8eec8a6f7c0" resname="section.modal.message">
+        <source>Do you want to delete Section?</source>
+        <target xml:lang="ach">crwdns214648:0crwdne214648:0</target>
+        <note>key: section.modal.message</note>
+      </trans-unit>
+      <trans-unit id="376986256605f27a204911de172c7bca4bd8e3b6" resname="section.name">
+        <source>Name</source>
+        <target xml:lang="ach">crwdns214649:0crwdne214649:0</target>
+        <note>key: section.name</note>
+      </trans-unit>
+      <trans-unit id="12023a25e9c04ceef708820416f14a5a1e188688" resname="section.new">
+        <source>Create a new Section</source>
+        <target xml:lang="ach">crwdns214650:0crwdne214650:0</target>
+        <note>key: section.new</note>
+      </trans-unit>
+      <trans-unit id="e771bfe2e0091aad8731fd441667fba59cbf59c3" resname="section.new.title">
+        <source>Creating a new Section</source>
+        <target xml:lang="ach">crwdns214651:0crwdne214651:0</target>
+        <note>key: section.new.title</note>
+      </trans-unit>
+      <trans-unit id="b1bef1e1bf42cb3e7e7f9057fd710e5c91a15129" resname="section.update.success">
+        <source>Section '%name%' updated.</source>
+        <target xml:lang="ach">crwdns214652:0%name%crwdne214652:0</target>
+        <note>key: section.update.success</note>
+      </trans-unit>
+      <trans-unit id="2bfeef4370b18e469fba6df1d4d2888f9252c764" resname="section.update.title">
+        <source>Editing Section "%identifier%"</source>
+        <target xml:lang="ach">crwdns214653:0%identifier%crwdne214653:0</target>
+        <note>key: section.update.title</note>
+      </trans-unit>
+      <trans-unit id="9266789d0a5e68e102410798a2db431137039aad" resname="section.view.title.identifier">
+        <source>Section: %identifier%</source>
+        <target xml:lang="ach">crwdns214654:0%identifier%crwdne214654:0</target>
+        <note>key: section.view.title.identifier</note>
+      </trans-unit>
+      <trans-unit id="71f8af5e83f31ae3c618ff2b0d55b63ac131cfa3" resname="section.viewing">
+        <source><![CDATA[Viewing <strong>%viewing%</strong> out of <strong>%total%</strong> items]]></source>
+        <target xml:lang="ach"><![CDATA[crwdns214655:0%viewing%crwdnd214655:0%total%crwdne214655:0]]></target>
+        <note>key: section.viewing</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
