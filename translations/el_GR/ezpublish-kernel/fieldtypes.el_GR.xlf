@@ -8,8 +8,11 @@
     <body>
       <trans-unit id="06a34ac23ac86f7c4368380203e3dd4d91489fa0" resname="ezauthor.name">
         <source>Authors</source>
-        <target xml:lang="el" state="translated">Συντάκτες</target>
+        <target xml:lang="el" state="translated">Δημιουργοί</target>
         <note>key: ezauthor.name</note>
+        <alt-trans>
+          <target xml:lang="el">Συντάκτες</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="e4ca4a21a1e442e6a1232320b2184b9e4105c73f" resname="ezbinaryfile.name">
         <source>File</source>
@@ -41,10 +44,105 @@
         <target xml:lang="el" state="translated">Διεύθυνση ηλεκτρονικού ταχυδρομείου</target>
         <note>key: ezemail.name</note>
       </trans-unit>
+      <trans-unit id="0a1f3297ccc08882f5a4610f9af8fc4148c74adc" resname="ezfloat.name">
+        <source>Float</source>
+        <target xml:lang="el" state="translated">Φλοτέρ</target>
+        <note>key: ezfloat.name</note>
+      </trans-unit>
+      <trans-unit id="fcabb29fdb097d916c88328daad461c1ea765121" resname="ezgmaplocation.name">
+        <source>Map location</source>
+        <target xml:lang="el" state="translated">Χάρτης τοποθεσίας</target>
+        <note>key: ezgmaplocation.name</note>
+      </trans-unit>
       <trans-unit id="6300f890f00d9999466b4abc478857b0d29022b4" resname="ezimage.name">
         <source>Image</source>
         <target xml:lang="el" state="translated">Εικόνα</target>
         <note>key: ezimage.name</note>
+      </trans-unit>
+      <trans-unit id="3b0f44cd332c71e78209a1a4b235bc6a1e6d374b" resname="ezinteger.name">
+        <source>Integer</source>
+        <target xml:lang="el" state="translated">Ακέραιος αριθμός</target>
+        <note>key: ezinteger.name</note>
+      </trans-unit>
+      <trans-unit id="b55e4568224820cbddc794f6c2bd002baec6a5d0" resname="ezisbn.name">
+        <source>ISBN</source>
+        <target xml:lang="el" state="translated">ISBN</target>
+        <note>key: ezisbn.name</note>
+      </trans-unit>
+      <trans-unit id="c564457bc5723491788fa3d0723e3716824b4a0d" resname="ezkeyword.name">
+        <source>Keywords</source>
+        <target xml:lang="el" state="translated">Λέξεις-κλειδιά</target>
+        <note>key: ezkeyword.name</note>
+      </trans-unit>
+      <trans-unit id="fc0d2c8719e7c36f101ff6ddcbdfc804bf8f3da7" resname="ezmedia.name">
+        <source>Media</source>
+        <target xml:lang="el" state="translated">Πολυμέσα</target>
+        <note>key: ezmedia.name</note>
+      </trans-unit>
+      <trans-unit id="feb25b24199466f077038c5e6e38209deae21471" resname="ezobjectrelation.name">
+        <source>Content relation (single)</source>
+        <target xml:lang="el" state="translated">Περιεκτικότητα σε σχέση με (single)</target>
+        <note>key: ezobjectrelation.name</note>
+      </trans-unit>
+      <trans-unit id="44d2ac9ae83f6b73fa8f61fad66a77d76d2159f0" resname="ezobjectrelationlist.name">
+        <source>Content relations (multiple)</source>
+        <target xml:lang="el" state="translated">Περιεχόμενο σχέσεων (πολλαπλά)</target>
+        <note>key: ezobjectrelationlist.name</note>
+      </trans-unit>
+      <trans-unit id="6ce4370c413c1a478e8e3c0a072a340584338b84" resname="ezpage.name">
+        <source>Layout</source>
+        <target xml:lang="el" state="translated">Διάταξη</target>
+        <note>key: ezpage.name</note>
+      </trans-unit>
+      <trans-unit id="3accdb01fd6ce79f38be1b4622659b61be77b608" resname="ezprice.name">
+        <source>Price</source>
+        <target xml:lang="el" state="translated">Τιμή</target>
+        <note>key: ezprice.name</note>
+      </trans-unit>
+      <trans-unit id="213da4efa5baa8b47c34dc4b645df7115d07d66e" resname="ezrichtext.name">
+        <source>Rich text</source>
+        <target xml:lang="el" state="translated">Εμπλουτισμένο κείμενο</target>
+        <note>key: ezrichtext.name</note>
+      </trans-unit>
+      <trans-unit id="3229c3fc41a4af84f0fd1636f0678aac770359bc" resname="ezselection.name">
+        <source>Selection</source>
+        <target xml:lang="el" state="translated">Επιλογή</target>
+        <note>key: ezselection.name</note>
+      </trans-unit>
+      <trans-unit id="5ee0acaf0f051f903ef78be433acbfe4412e4a59" resname="ezsrrating.name">
+        <source>Rating</source>
+        <target xml:lang="el" state="translated">Βαθμολογία</target>
+        <note>key: ezsrrating.name</note>
+      </trans-unit>
+      <trans-unit id="d958019d9702d5e89f247c24563da97ea0205f58" resname="ezstring.name">
+        <source>Text line</source>
+        <target xml:lang="el" state="translated">Γραμμή κειμένου</target>
+        <note>key: ezstring.name</note>
+      </trans-unit>
+      <trans-unit id="e35280b88546fdd18c84ce9c401e17cbfca56e72" resname="eztext.name">
+        <source>Text block</source>
+        <target xml:lang="el" state="translated">Ενότητα κειμένου</target>
+        <note>key: eztext.name</note>
+      </trans-unit>
+      <trans-unit id="503c2801427b2d773d020ef953413d14c17968bd" resname="eztime.name">
+        <source>Time</source>
+        <target xml:lang="el" state="translated">Χρόνος</target>
+        <note>key: eztime.name</note>
+      </trans-unit>
+      <trans-unit id="69c0e446226061b7f2ca2b22fd4eb09e6b4e9518" resname="ezurl.name">
+        <source>URL</source>
+        <target xml:lang="el" state="translated">Διεύθυνση URL</target>
+        <note>key: ezurl.name</note>
+      </trans-unit>
+      <trans-unit id="0317c233c19b3c191acc92971bfb616c7fe298de" resname="ezuser.name">
+        <source>User account</source>
+        <target xml:lang="el" state="translated">Λογαριασμός χρήστη</target>
+        <note>key: ezuser.name</note>
+      </trans-unit>
+      <trans-unit id="eca4f3a013d6ff43a82a3c2a8f32594b115a49fc" resname="ezxmltext.name">
+        <source>XML block</source>
+        <target xml:lang="el" state="translated">Ενότητα XML</target>
+        <note>key: ezxmltext.name</note>
       </trans-unit>
     </body>
   </file>

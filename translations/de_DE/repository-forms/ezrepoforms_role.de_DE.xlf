@@ -78,6 +78,12 @@
         <note>key: role.policy.limitation.location.udw_title</note>
         <jms:reference-file line="5">bundle/Resources/views/Limitation/udw_limitation_value.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="be8159ab7985797bd281cb0f7f58bb4d2c925159" resname="role.policy.limitation.not_implemented">
+        <source>Limitation edition for '%limitationTypeIdentifier%' is not implemented yet.</source>
+        <target xml:lang="de" state="translated">Eingeschränkte-Edition für "%limitationTypeIdentifier%" ist noch nicht implementiert.</target>
+        <note>key: role.policy.limitation.not_implemented</note>
+        <jms:reference-file line="3">bundle/Resources/views/Limitation/null_limitation_values.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="2651baeac233ce0e4ec974e260d8e0873197f3fc" resname="role.policy.save">
         <source>Save</source>
         <target xml:lang="de" state="translated">Speichern</target>

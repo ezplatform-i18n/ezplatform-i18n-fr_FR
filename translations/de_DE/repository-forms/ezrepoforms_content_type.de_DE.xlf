@@ -246,11 +246,29 @@
         <note>key: field_definition.ezdate.default_type_empty</note>
         <jms:reference-file line="27">lib/FieldType/Mapper/DateFormMapper.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="dbbf37dee75d40448b725aea9c893a4ea84c8ab6" resname="field_definition.ezdatetime.date_interval">
+        <source>Current date and time adjusted by</source>
+        <target xml:lang="de" state="translated">Aktuelles Datum und Uhrzeit eingestellt von</target>
+        <note>key: field_definition.ezdatetime.date_interval</note>
+        <jms:reference-file line="45">lib/FieldType/Mapper/DateTimeFormMapper.php</jms:reference-file>
+      </trans-unit>
       <trans-unit id="7b4f4729ec64de6f20356ad40f768c98c27590fb" resname="field_definition.ezdatetime.default_type">
         <source>Default value</source>
         <target xml:lang="de" state="translated">Standardwert</target>
         <note>key: field_definition.ezdatetime.default_type</note>
         <jms:reference-file line="40">lib/FieldType/Mapper/DateTimeFormMapper.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="e37e68ecadab17cf7132cd1d5163a4f13d0f759c" resname="field_definition.ezdatetime.default_type_adjusted">
+        <source>Adjusted current datetime</source>
+        <target xml:lang="de" state="translated">Angepasstes Datum und Uhrzeit</target>
+        <note>key: field_definition.ezdatetime.default_type_adjusted</note>
+        <jms:reference-file line="34">lib/FieldType/Mapper/DateTimeFormMapper.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="24ac7fa5478172475d86a2d16829ece8a5e5f59f" resname="field_definition.ezdatetime.default_type_current">
+        <source>Current datetime</source>
+        <target xml:lang="de" state="translated">Aktuelles Datum und Uhrzeit</target>
+        <note>key: field_definition.ezdatetime.default_type_current</note>
+        <jms:reference-file line="33">lib/FieldType/Mapper/DateTimeFormMapper.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="0119e6a5f0c829a61263c3a8a37dda53b9da8dce" resname="field_definition.ezdatetime.default_type_empty">
         <source>Empty</source>
@@ -384,6 +402,12 @@
         <note>key: field_definition.ezobjectrelation.selection_root_udw_button</note>
         <jms:reference-file line="129">bundle/Resources/views/ContentType/field_types.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="d892163a41d816c03db3c4a04e35550f02169c11" resname="field_definition.ezobjectrelation.selection_root_udw_title">
+        <source>Select a start location for browsing for relation</source>
+        <target xml:lang="de" state="translated">Wählen Sie eine Startposition für die Suche nach Beziehung</target>
+        <note>key: field_definition.ezobjectrelation.selection_root_udw_title</note>
+        <jms:reference-file line="125">bundle/Resources/views/ContentType/field_types.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="7e061dc7c88fe38c11714695d4034f935788efb3" resname="field_definition.ezobjectrelationlist.selection_content_types">
         <source>Allowed content types</source>
         <target xml:lang="de" state="translated">Erlaubte Content-Typen</target>
@@ -401,6 +425,12 @@
         <target xml:lang="de" state="translated">Location auswählen</target>
         <note>key: field_definition.ezobjectrelationlist.selection_root_udw_button</note>
         <jms:reference-file line="148">bundle/Resources/views/ContentType/field_types.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="17d8f3e8bbd5b5f0f5b4b02ddaeaf2af82b0d222" resname="field_definition.ezobjectrelationlist.selection_root_udw_title">
+        <source>Select a start location for browsing for relations</source>
+        <target xml:lang="de" state="translated">Wählen Sie eine Startposition für die Suche nach Beziehung</target>
+        <note>key: field_definition.ezobjectrelationlist.selection_root_udw_title</note>
+        <jms:reference-file line="144">bundle/Resources/views/ContentType/field_types.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="8c89d231e7f1b33a8e0b84ad81fc964785a59cbd" resname="field_definition.ezpage.default_layout">
         <source>Default layout</source>

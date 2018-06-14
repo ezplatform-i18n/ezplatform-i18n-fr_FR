@@ -17,12 +17,18 @@
         <target xml:lang="fr">Ce champ n'est pas modifiable.</target>
         <note>key: content.field.non_editable</note>
         <jms:reference-file line="14">bundle/Resources/views/Content/content_form.html.twig</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Ce champ n'est pas éditable.</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="7a3eb3ea13db1c9d6a0bd64c7d249a45e7b83b52" resname="content.field_type.ezuser.email" approved="yes">
         <source>E-mail:</source>
         <target xml:lang="fr">E-mail :</target>
         <note>key: content.field_type.ezuser.email</note>
         <jms:reference-file line="46">lib/Form/Type/User/UserAccountType.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">content.field_type.ezuser.email</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="4c65e5d17516c19e311161e374bbd39f053b5e6b" resname="content.field_type.ezuser.password" approved="yes">
         <source>Password:</source>
@@ -35,6 +41,9 @@
         <target xml:lang="fr">Confirmation du mot de passe :</target>
         <note>key: content.field_type.ezuser.password_confirm</note>
         <jms:reference-file line="43">lib/Form/Type/User/UserAccountType.php</jms:reference-file>
+        <alt-trans>
+          <target xml:lang="fr">Confirmation du mot de passe:</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="d1f5c5fcee7eb206e496dd5073b0f95427431a1c" resname="content.field_type.ezuser.username" approved="yes">
         <source>Username:</source>
