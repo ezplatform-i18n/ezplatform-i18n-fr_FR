@@ -36,7 +36,6 @@ foreach ($translations as $directory => $data) {
     if (!isset($data['files'])) {
         $commands[] = sprintf(
             '# No changes (%d%% translated, %d%% approved)',
-            $data['name'],
             $data['status']['translated_progress'],
             $data['status']['approved_progress']
         );
