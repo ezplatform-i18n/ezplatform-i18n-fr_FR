@@ -3,7 +3,7 @@
   "description": "eZ Platform italian translations",
   "license": "GPL-2.0",
   "require": {
-    "ezsystems/ezpublish-kernel": "^6.8"
+    "ezsystems/ezpublish-kernel": "^7.0"
   },
   "extra": {
     "branch-alias": {
