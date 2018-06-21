@@ -52,6 +52,8 @@ This synchronisation is done using [dflydev/git-subsplit][dflydev] tool.
         translations/ru_RU:git@github.com:ezplatform-i18n/ezplatform-i18n-ru_RU.git
         translations/it_IT:git@github.com:ezplatform-i18n/ezplatform-i18n-it_IT.git
         translations/en_US:git@github.com:ezplatform-i18n/ezplatform-i18n-en_US.git
+        translations/nl:git@github.com:ezplatform-i18n/dutch.git
+        translations/he:git@github.com:ezplatform-i18n/hebrew.git
     " --heads=master
 
 ## Copyright & License

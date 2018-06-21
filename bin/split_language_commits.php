@@ -29,10 +29,13 @@ foreach (explode(PHP_EOL, `git diff ..l10n_master --name-only`) as $file)
     $translations[$directory]['files'][] = $file;
 }
 
+$commands = [];
 foreach ($translations as $directory => $data) {
+    $commands[] = sprintf("# %s", $data['name']);
+
     if (!isset($data['files'])) {
-        printf(
-            "No changes to %s (%d%% translated, %d%% approved)\n",
+        $commands[] = sprintf(
+            '# No changes (%d%% translated, %d%% approved)',
             $data['name'],
             $data['status']['translated_progress'],
             $data['status']['approved_progress']
@@ -40,18 +43,27 @@ foreach ($translations as $directory => $data) {
         continue;
     }
 
-    printf(
-        "git checkout l10n_master translations/%s/\n",
+    $commands[] = sprintf(
+        'git checkout l10n_master translations/%s/',
         $directory
     );
-    printf(
-        "git commit -m \"%s translation (%d%% translated, %d%% approved)\"\n",
+    $commands[] = sprintf(
+        'git commit -m "%s translation (%d%% translated, %d%% approved)"',
         $data['name'],
         $data['status']['translated_progress'],
         $data['status']['approved_progress']
     );
 }
 
+echo implode("\n", $commands );
+echo "Run command (y/n)?\n\n";
+$answer = fgetc(STDIN);
+if ($answer == 'y') {
+    foreach ($commands as $command) {
+        echo $command;
+        system($command);
+    }
+}
 
 function getLanguagesData()
 {
@@ -70,7 +82,9 @@ function getLanguagesData()
         'ru' => 'ru_RU',
         'en-US' => 'en_US',
         'it' => 'it_IT',
-        'hr' => 'hr_HR'
+        'hr' => 'hr_HR',
+        'nl' => 'nl',
+        'he' => 'he'
     ];
 
     if (!$crowdinApiKey = getenv('CROWDIN_API_KEY')) {
