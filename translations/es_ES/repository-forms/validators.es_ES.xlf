@@ -6,6 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="c10b0c448f6442d0a67d6787f458e09c823d79f7" resname="The user login '%login%' is used by another user. You must enter a unique login.">
+        <source>The user login '%login%' is used by another user. You must enter a unique login.</source>
+        <target xml:lang="es-ES" state="translated">El login de usuario '%login%' ya está siendo usado por otro usuario. Necesita introducir un login único.</target>
+        <note>key: The user login '%login%' is used by another user. You must enter a unique login.</note>
+      </trans-unit>
       <trans-unit id="facbff93edf91393ba1bb60212f504d35beae555" resname="ez.content_type.descriptions">
         <source>Content type description cannot exceed 255 characters.</source>
         <target xml:lang="es-ES" state="translated">La descripción del Tipo de Contenido no puede exceder los 255 caracteres.</target>
@@ -35,6 +40,21 @@
         <source>Section identifier may only contain letters from "a" to "z", numbers and underscores.</source>
         <target xml:lang="es-ES" state="translated">El identificador de sección sólo puede contener letras de la "a" a la "z", números y guiones bajos.</target>
         <note>key: ez.section.identifier.format</note>
+      </trans-unit>
+      <trans-unit id="963a415cd08151ecf8726e651a7a36140e05f4b5" resname="ez.role.identifier.unique">
+        <source>The role identifier "%identifier%" is used by another role. You must enter a unique identifier.</source>
+        <target xml:lang="es-ES" state="translated">El identificador de rol "%identifier%" ya está asignado a otro rol. Tiene que introducir un identificador único.</target>
+        <note>key: ez.role.identifier.unique</note>
+      </trans-unit>
+      <trans-unit id="e7e08263e46325665a4d7f85d5f3465c37d49bb7" resname="ez.language.code.unique">
+        <source>The language code "%language_code%" is used by another language. You must enter a unique language code.</source>
+        <target xml:lang="es-ES" state="translated">El código de idioma "%language_code%" está siendo usado por otro idioma. Tiene que introducir un código de idioma único.</target>
+        <note>key: ez.language.code.unique</note>
+      </trans-unit>
+      <trans-unit id="8bcee04e8c985239d106e0fa910dfec8bdce3669" resname="ez.url.unique">
+        <source>URL must be unique</source>
+        <target xml:lang="es-ES" state="translated">La URL tiene que ser único</target>
+        <note>key: ez.url.unique</note>
       </trans-unit>
     </body>
   </file>
