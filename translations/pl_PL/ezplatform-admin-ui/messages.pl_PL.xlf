@@ -6,51 +6,96 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="bb7c5bc498a649c6ec116abc12e7b8be1d4f7b92" resname="alert.close">
+        <source>Close</source>
+        <target xml:lang="pl" state="translated">Zamknij</target>
+        <note>key: alert.close</note>
+      </trans-unit>
+      <trans-unit id="da44d8915172b0c8a874e26956f44aa5501c7e6b" resname="authentication.password">
+        <source>Password</source>
+        <target xml:lang="pl" state="translated">Hasło</target>
+        <note>key: authentication.password</note>
+      </trans-unit>
+      <trans-unit id="8785f4abdfdf72fe9001fe0553c6e3a582cfcc08" resname="authentication.submit">
+        <source>Login</source>
+        <target xml:lang="pl" state="translated">Zaloguj się</target>
+        <note>key: authentication.submit</note>
+      </trans-unit>
+      <trans-unit id="9143793289ea0e20c3dc9f752d43cc727f2dba01" resname="authentication.username">
+        <source>Username</source>
+        <target xml:lang="pl" state="translated">Nazwa użytkownika</target>
+        <note>key: authentication.username</note>
+      </trans-unit>
+      <trans-unit id="d21d07085caa55b0fee2fc054a6878bbdb24ae78" resname="breadcrumb.admin">
+        <source>Admin</source>
+        <target xml:lang="pl" state="translated">Admin</target>
+        <note>key: breadcrumb.admin</note>
+      </trans-unit>
+      <trans-unit id="74954052fb86d856c77ee642195c0c0b23bf9e70" resname="breadcrumb.user_preferences">
+        <source>User Preferences</source>
+        <target xml:lang="pl" state="translated">Preferencje użytkownika</target>
+        <note>key: breadcrumb.user_preferences</note>
+      </trans-unit>
+      <trans-unit id="fe1c876b1a9bcde155f03227bce4ae4fbd54c24f" resname="custom_url_alias_add_form.add">
+        <source>Create</source>
+        <target xml:lang="pl" state="translated">Utwórz</target>
+        <note>key: custom_url_alias_add_form.add</note>
+      </trans-unit>
+      <trans-unit id="84348d405f3829787a5dfa80fbe5abbf07e3c118" resname="custom_url_alias_add_form.remove">
+        <source>Delete</source>
+        <target xml:lang="pl" state="translated">Usuń</target>
+        <note>key: custom_url_alias_add_form.remove</note>
+      </trans-unit>
+      <trans-unit id="5cf420af18fd4a8d856fd30bc13aea5039369f9b" resname="form.cancel">
+        <source>Cancel</source>
+        <target xml:lang="pl" state="translated">Anuluj</target>
+        <note>key: form.cancel</note>
+      </trans-unit>
+      <trans-unit id="7fe072f41348fb097b6bb018eec4f1b1bc9cffc3" resname="modal.cancel">
+        <source>Cancel</source>
+        <target xml:lang="pl" state="translated">Anuluj</target>
+        <note>key: modal.cancel</note>
+      </trans-unit>
+      <trans-unit id="9eae227b7c27ab230a6d0ce5947d93e7d2e1626f" resname="modal.delete">
+        <source>Delete</source>
+        <target xml:lang="pl" state="translated">Usuń</target>
+        <note>key: modal.delete</note>
+      </trans-unit>
+      <trans-unit id="08232f4c5c3ca88a7f2fd8e29eda7e20ec346aae" resname="search.any_time">
+        <source>Any time</source>
+        <target xml:lang="pl" state="translated">Kiedykolwiek</target>
+        <note>key: search.any_time</note>
+      </trans-unit>
+      <trans-unit id="03d6d5922fd2012e155e50306eaf98e2dfeb21c6" resname="search.section.any">
+        <source>Any section</source>
+        <target xml:lang="pl" state="translated">Dowolna sekcja</target>
+        <note>key: search.section.any</note>
+      </trans-unit>
+      <trans-unit id="1152c93462d8bed85642b961f01ed63a6f2525ab" resname="tab.locations.location_content_swap">
+        <source>Location Content Swap</source>
+        <target xml:lang="pl" state="translated">Zamiana lokalizacji treści</target>
+        <note>key: tab.locations.location_content_swap</note>
+      </trans-unit>
+      <trans-unit id="27d429c3dcff70494c4080957b05a9db5255f854" resname="tab.locations.swap_with_another">
+        <source>Swap the content item at this location with another</source>
+        <target xml:lang="pl" state="translated">Zamień lokalizację dla tego elementu</target>
+        <note>key: tab.locations.swap_with_another</note>
+      </trans-unit>
+      <trans-unit id="ebe1352e4bc48c8ec1a4e5f7352c0d20f3d0a18f" resname="tab.view.content">
+        <source>Content</source>
+        <target xml:lang="pl" state="translated">Treści</target>
+        <note>key: tab.view.content</note>
+      </trans-unit>
+      <trans-unit id="e500e3f1d454e2775bbe89b6267cd77c766df3f1" resname="trash.delete.button.cancel">
+        <source>Cancel</source>
+        <target xml:lang="pl" state="translated">Anuluj</target>
+        <note>key: trash.delete.button.cancel</note>
+      </trans-unit>
+      <trans-unit id="40288453ad3e95b36719b543af0ffeec57802003" resname="trash.form.cancel">
+        <source>Cancel</source>
+        <target xml:lang="pl" state="translated">Anuluj</target>
+        <note>key: trash.form.cancel</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
