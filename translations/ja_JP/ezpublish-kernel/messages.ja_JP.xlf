@@ -6,6 +6,13 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="4e5a2893bdcc7d239c1db72e4c4ffbe4bea73174" resname="Login">
+        <source>Login</source>
+        <target xml:lang="ja" state="translated">ログイン</target>
+        <note>key: Login</note>
+        <jms:reference-file line="32">eZ/Bundle/EzPublishCoreBundle/Resources/views/Security/login.html.twig</jms:reference-file>
+        <jms:reference-file line="6">eZ/Bundle/EzPublishCoreBundle/Resources/views/Security/login.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="be81ab98cb9ccf753975f50fa70cd32581a821fc" resname="Password:">
         <source>Password:</source>
         <target xml:lang="ja" state="translated">パスワード:</target>
