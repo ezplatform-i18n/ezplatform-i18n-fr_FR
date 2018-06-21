@@ -6,6 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="a70aa15d1cda488f82acf9c626bca931a53d01a2" resname="error.preview">
+        <source>Cannot save content draft.</source>
+        <target xml:lang="fr" state="translated">Impossible d’enregistrer le brouillon.</target>
+        <note>key: error.preview</note>
+      </trans-unit>
       <trans-unit id="1aa787fe0cfb373575fc2c0f6f826e7c6dc9fd41" resname="preview">
         <source>Preview</source>
         <target xml:lang="fr" state="translated">Aperçu</target>
