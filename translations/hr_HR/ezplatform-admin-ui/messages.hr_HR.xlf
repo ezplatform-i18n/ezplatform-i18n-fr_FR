@@ -6,51 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="ebe1352e4bc48c8ec1a4e5f7352c0d20f3d0a18f" resname="tab.view.content">
+        <source>Content</source>
+        <target xml:lang="hr" state="translated">Contenuti</target>
+        <note>key: tab.view.content</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
