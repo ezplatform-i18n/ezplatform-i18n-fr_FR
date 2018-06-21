@@ -6,22 +6,36 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="6aa460340bed42d0d1baf9d1ea542c83a3f00821" resname="trash">
+        <source>Trash</source>
+        <target xml:lang="it" state="translated">Cestino</target>
+        <note>key: trash</note>
+      </trans-unit>
+      <trans-unit id="7ffaa1444a83e959f8de3c2410bb65acdd3e3ff0" resname="trash.delete">
+        <source>Delete</source>
+        <target xml:lang="it" state="translated">Cancella</target>
+        <note>key: trash.delete</note>
+      </trans-unit>
+      <trans-unit id="eb7cd78bb919141f66cabfea95a60e0e6b02e9f4" resname="trash.headline">
+        <source>Trash</source>
+        <target xml:lang="it" state="translated">Cestino</target>
+        <note>key: trash.headline</note>
+      </trans-unit>
+      <trans-unit id="34525fc5da381111c2104d20a55021eb8b698c7c" resname="trash.name">
+        <source>Name</source>
+        <target xml:lang="it" state="translated">Etichetta per il campo</target>
+        <note>key: trash.name</note>
+      </trans-unit>
+      <trans-unit id="06b530d8c8b3d7af7b3f2df9f5102927e7275de4" resname="trash.table.header">
+        <source>Trash</source>
+        <target xml:lang="it" state="translated">Cestino</target>
+        <note>key: trash.table.header</note>
+      </trans-unit>
+      <trans-unit id="04098b87c58e41ab39820db75eee1d13856f9616" resname="trash.type">
+        <source>Type</source>
+        <target xml:lang="it" state="translated">Tipo</target>
+        <note>key: trash.type</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

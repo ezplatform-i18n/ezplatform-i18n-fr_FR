@@ -6,39 +6,46 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="7fe072f41348fb097b6bb018eec4f1b1bc9cffc3" resname="modal.cancel">
+        <source>Cancel</source>
+        <target xml:lang="it" state="translated">Annulla</target>
+        <note>key: modal.cancel</note>
+      </trans-unit>
+      <trans-unit id="3559d7accf00360971961ca18989adc0614089c0" resname="search">
+        <source>Search</source>
+        <target xml:lang="it" state="translated">Ricerca</target>
+        <note>key: search</note>
+      </trans-unit>
+      <trans-unit id="8605c5030193beebc7097a652f6c9dcb648cccec" resname="search.apply">
+        <source>Apply</source>
+        <target xml:lang="it" state="translated">Applica</target>
+        <note>key: search.apply</note>
+      </trans-unit>
+      <trans-unit id="1d83218940b91b2cc81ae9d0a694682f6cb04813" resname="search.headline">
+        <source>Search</source>
+        <target xml:lang="it" state="translated">Ricerca</target>
+        <note>key: search.headline</note>
+      </trans-unit>
+      <trans-unit id="0ea91510ce49731de30d4d412dc62c83c91b359d" resname="search.modified">
+        <source>Modified</source>
+        <target xml:lang="it" state="translated">Modificato</target>
+        <note>key: search.modified</note>
+      </trans-unit>
+      <trans-unit id="6fc6d2e87716ae8feb2ff4536efa8c9db0904509" resname="search.name">
+        <source>Name</source>
+        <target xml:lang="it" state="translated">Etichetta per il campo</target>
+        <note>key: search.name</note>
+      </trans-unit>
+      <trans-unit id="6fa93ef4dfbce97076a254427bb30bf7c5819c5d" resname="search.perform">
+        <source>Search</source>
+        <target xml:lang="it" state="translated">Ricerca</target>
+        <note>key: search.perform</note>
+      </trans-unit>
+      <trans-unit id="0c9866a19fd5d3074bdb05b339df05b7c05a5661" resname="search.type">
+        <source>Content Type</source>
+        <target xml:lang="it" state="translated">Tipo</target>
+        <note>key: search.type</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

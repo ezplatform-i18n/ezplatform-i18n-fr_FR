@@ -6,13 +6,21 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="05cc1fd4658faa760de6e98cb71e1054157e63a0" resname="policy_delete.delete">
+        <source>Delete</source>
+        <target xml:lang="it" state="translated">Cancella</target>
+        <note>key: policy_delete.delete</note>
+      </trans-unit>
+      <trans-unit id="deab5c91a76488732d0405e72c36702ed2aea3d6" resname="role.policy.all_functions">
+        <source>All functions</source>
+        <target xml:lang="it" state="translated">Tutte le funzioni</target>
+        <note>key: role.policy.all_functions</note>
+      </trans-unit>
+      <trans-unit id="d3c70d265ab037db5ade02a8b738b5981353c7ac" resname="role.policy.type">
+        <source>Type</source>
+        <target xml:lang="it" state="translated">Tipo</target>
+        <note>key: role.policy.type</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

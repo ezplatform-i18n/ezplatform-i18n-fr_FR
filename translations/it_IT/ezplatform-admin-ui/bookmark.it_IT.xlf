@@ -6,14 +6,26 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="5cc4d552faa942983e3eb8ec85c053aeb1e42ae4" resname="bookmark.button.remove">
+        <source>Remove</source>
+        <target xml:lang="it" state="translated">Rimuovi</target>
+        <note>key: bookmark.button.remove</note>
+      </trans-unit>
+      <trans-unit id="cf687b0218c513d53ad3f52b2547c23500242c48" resname="bookmark.list.content_type">
+        <source>Content Type</source>
+        <target xml:lang="it" state="translated">Tipo</target>
+        <note>key: bookmark.list.content_type</note>
+      </trans-unit>
+      <trans-unit id="d84749a19f2864dd1d5d3cee0a127f2435e5cdc5" resname="bookmark.list.name">
+        <source>Name</source>
+        <target xml:lang="it" state="translated">Etichetta per il campo</target>
+        <note>key: bookmark.list.name</note>
+      </trans-unit>
+      <trans-unit id="fa0e2c8d987f0282f85003e05398c602de5da17b" resname="bookmark.list.path">
+        <source>Path</source>
+        <target xml:lang="it" state="translated">Percorso</target>
+        <note>key: bookmark.list.path</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -6,51 +6,61 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="da44d8915172b0c8a874e26956f44aa5501c7e6b" resname="authentication.password">
+        <source>Password</source>
+        <target xml:lang="it" state="translated">Password</target>
+        <note>key: authentication.password</note>
+      </trans-unit>
+      <trans-unit id="8785f4abdfdf72fe9001fe0553c6e3a582cfcc08" resname="authentication.submit">
+        <source>Login</source>
+        <target xml:lang="it" state="translated">Login</target>
+        <note>key: authentication.submit</note>
+      </trans-unit>
+      <trans-unit id="9143793289ea0e20c3dc9f752d43cc727f2dba01" resname="authentication.username">
+        <source>Username</source>
+        <target xml:lang="it" state="translated">Account</target>
+        <note>key: authentication.username</note>
+      </trans-unit>
+      <trans-unit id="fe1c876b1a9bcde155f03227bce4ae4fbd54c24f" resname="custom_url_alias_add_form.add">
+        <source>Create</source>
+        <target xml:lang="it" state="translated">Crea</target>
+        <note>key: custom_url_alias_add_form.add</note>
+      </trans-unit>
+      <trans-unit id="84348d405f3829787a5dfa80fbe5abbf07e3c118" resname="custom_url_alias_add_form.remove">
+        <source>Delete</source>
+        <target xml:lang="it" state="translated">Cancella</target>
+        <note>key: custom_url_alias_add_form.remove</note>
+      </trans-unit>
+      <trans-unit id="5cf420af18fd4a8d856fd30bc13aea5039369f9b" resname="form.cancel">
+        <source>Cancel</source>
+        <target xml:lang="it" state="translated">Annulla</target>
+        <note>key: form.cancel</note>
+      </trans-unit>
+      <trans-unit id="7fe072f41348fb097b6bb018eec4f1b1bc9cffc3" resname="modal.cancel">
+        <source>Cancel</source>
+        <target xml:lang="it" state="translated">Annulla</target>
+        <note>key: modal.cancel</note>
+      </trans-unit>
+      <trans-unit id="9eae227b7c27ab230a6d0ce5947d93e7d2e1626f" resname="modal.delete">
+        <source>Delete</source>
+        <target xml:lang="it" state="translated">Cancella</target>
+        <note>key: modal.delete</note>
+      </trans-unit>
+      <trans-unit id="ebe1352e4bc48c8ec1a4e5f7352c0d20f3d0a18f" resname="tab.view.content">
+        <source>Content</source>
+        <target xml:lang="it" state="translated">Cntenuto</target>
+        <note>key: tab.view.content</note>
+      </trans-unit>
+      <trans-unit id="e500e3f1d454e2775bbe89b6267cd77c766df3f1" resname="trash.delete.button.cancel">
+        <source>Cancel</source>
+        <target xml:lang="it" state="translated">Annulla</target>
+        <note>key: trash.delete.button.cancel</note>
+      </trans-unit>
+      <trans-unit id="40288453ad3e95b36719b543af0ffeec57802003" resname="trash.form.cancel">
+        <source>Cancel</source>
+        <target xml:lang="it" state="translated">Annulla</target>
+        <note>key: trash.form.cancel</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
