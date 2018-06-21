@@ -6,13 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="05cc1fd4658faa760de6e98cb71e1054157e63a0" resname="policy_delete.delete">
+        <source>Delete</source>
+        <target xml:lang="fi" state="translated">Poista</target>
+        <note>key: policy_delete.delete</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
