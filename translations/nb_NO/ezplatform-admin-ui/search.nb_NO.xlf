@@ -6,39 +6,106 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="7fe072f41348fb097b6bb018eec4f1b1bc9cffc3" resname="modal.cancel">
+        <source>Cancel</source>
+        <target xml:lang="nb" state="translated">Avbryt</target>
+        <note>key: modal.cancel</note>
+      </trans-unit>
+      <trans-unit id="ef88894d37b21eeb205ece403d77ab05ccea52cf" resname="modal.select">
+        <source>Select</source>
+        <target xml:lang="nb" state="translated">Velg</target>
+        <note>key: modal.select</note>
+      </trans-unit>
+      <trans-unit id="3559d7accf00360971961ca18989adc0614089c0" resname="search">
+        <source>Search</source>
+        <target xml:lang="nb" state="translated">Søk</target>
+        <note>key: search</note>
+      </trans-unit>
+      <trans-unit id="8605c5030193beebc7097a652f6c9dcb648cccec" resname="search.apply">
+        <source>Apply</source>
+        <target xml:lang="nb" state="translated">Bruk</target>
+        <note>key: search.apply</note>
+      </trans-unit>
+      <trans-unit id="27f2f932e2b2f60b36b3331b45a3e15b421ee86f" resname="search.clear">
+        <source>Clear</source>
+        <target xml:lang="nb" state="translated">Nullstill</target>
+        <note>key: search.clear</note>
+      </trans-unit>
+      <trans-unit id="52574f2c1d5e0b3ffcd4f105b770e91ae1e519fa" resname="search.content.type">
+        <source>Content Type:</source>
+        <target xml:lang="nb" state="translated">Innholdstype:</target>
+        <note>key: search.content.type</note>
+      </trans-unit>
+      <trans-unit id="738c66eb92535505455b34b383f8089fb1bc0479" resname="search.created">
+        <source>Created:</source>
+        <target xml:lang="nb" state="translated">Opprettet:</target>
+        <note>key: search.created</note>
+      </trans-unit>
+      <trans-unit id="a32fe0699ebb4545ab1a39bab0311633c3f92fc3" resname="search.creator">
+        <source>Creator:</source>
+        <target xml:lang="nb" state="translated">Laget av:</target>
+        <note>key: search.creator</note>
+      </trans-unit>
+      <trans-unit id="9cef4cf2cb67458460a2a01c0adc1b4238320459" resname="search.date.from">
+        <source>From:</source>
+        <target xml:lang="nb" state="translated">Fra:</target>
+        <note>key: search.date.from</note>
+      </trans-unit>
+      <trans-unit id="f32993c555744e5c203137f3ee0e380d27e9cfef" resname="search.date.range">
+        <source>Select date range</source>
+        <target xml:lang="nb" state="translated">Velg datointervall</target>
+        <note>key: search.date.range</note>
+      </trans-unit>
+      <trans-unit id="ec2194ad5a5851c9bb326a091c6985adedcd42b2" resname="search.date.to">
+        <source>To:</source>
+        <target xml:lang="nb" state="translated">Til:</target>
+        <note>key: search.date.to</note>
+      </trans-unit>
+      <trans-unit id="1d83218940b91b2cc81ae9d0a694682f6cb04813" resname="search.headline">
+        <source>Search</source>
+        <target xml:lang="nb" state="translated">Søk</target>
+        <note>key: search.headline</note>
+      </trans-unit>
+      <trans-unit id="c2e9df867c114a94918c00f775d3a54d24358dfa" resname="search.last.modified">
+        <source>Last modified:</source>
+        <target xml:lang="nb" state="translated">Sist endret:</target>
+        <note>key: search.last.modified</note>
+      </trans-unit>
+      <trans-unit id="2d007a8d9fc080db790dc5c45c12dd369d144fbe" resname="search.last_month">
+        <source>Last month</source>
+        <target xml:lang="nb" state="translated">Forrige måned</target>
+        <note>key: search.last_month</note>
+      </trans-unit>
+      <trans-unit id="967e0a47af2b621d7e8fa29b2429a30644f8d6bb" resname="search.last_week">
+        <source>Last week</source>
+        <target xml:lang="nb" state="translated">Forrige uke</target>
+        <note>key: search.last_week</note>
+      </trans-unit>
+      <trans-unit id="c1244001dc023e80d3e6d8331935c68ac140788b" resname="search.last_year">
+        <source>Last year</source>
+        <target xml:lang="nb" state="translated">Forrige år</target>
+        <note>key: search.last_year</note>
+      </trans-unit>
+      <trans-unit id="0ea91510ce49731de30d4d412dc62c83c91b359d" resname="search.modified">
+        <source>Modified</source>
+        <target xml:lang="nb" state="translated">Endret</target>
+        <note>key: search.modified</note>
+      </trans-unit>
+      <trans-unit id="6fc6d2e87716ae8feb2ff4536efa8c9db0904509" resname="search.name">
+        <source>Name</source>
+        <target xml:lang="nb" state="translated">Navn</target>
+        <note>key: search.name</note>
+      </trans-unit>
+      <trans-unit id="6fa93ef4dfbce97076a254427bb30bf7c5819c5d" resname="search.perform">
+        <source>Search</source>
+        <target xml:lang="nb" state="translated">Søk</target>
+        <note>key: search.perform</note>
+      </trans-unit>
+      <trans-unit id="0c9866a19fd5d3074bdb05b339df05b7c05a5661" resname="search.type">
+        <source>Content Type</source>
+        <target xml:lang="nb" state="translated">Innholdstype</target>
+        <note>key: search.type</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
