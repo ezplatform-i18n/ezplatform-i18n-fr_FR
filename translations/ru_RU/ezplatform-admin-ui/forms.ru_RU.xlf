@@ -6,64 +6,81 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="822d7184d659e0b1d639309dfe15ec0d886b81d2" resname="content_draft_create_type.create">
+        <source>Create</source>
+        <target xml:lang="ru" state="translated">Создать</target>
+        <note>key: content_draft_create_type.create</note>
+      </trans-unit>
+      <trans-unit id="c5edf119facebac72a105963da8db6be47549180" resname="content_location_add_type.add">
+        <source>Add location</source>
+        <target xml:lang="ru" state="translated">Добавить расположение</target>
+        <note>key: content_location_add_type.add</note>
+      </trans-unit>
+      <trans-unit id="9e3c743fb052b12d69896a30ee9a6e1bb0c41427" resname="content_location_remove_form.remove">
+        <source>Delete</source>
+        <target xml:lang="ru" state="translated">Удалить</target>
+        <note>key: content_location_remove_form.remove</note>
+      </trans-unit>
+      <trans-unit id="170014b0ac524520dfb1336f7a5ff2f50ddceba3" resname="content_translation_add_form.add">
+        <source>Create</source>
+        <target xml:lang="ru" state="translated">Создать</target>
+        <note>key: content_translation_add_form.add</note>
+      </trans-unit>
+      <trans-unit id="0c3800a29144ab27e80a81e100212ccd5fd7e509" resname="content_translation_remove_form.remove">
+        <source>Remove translation</source>
+        <target xml:lang="ru" state="translated">Удалить перевод</target>
+        <note>key: content_translation_remove_form.remove</note>
+      </trans-unit>
+      <trans-unit id="4c29e9392116163c51f0e3d4d0c08ff96717f695" resname="content_type_groups_delete_form.delete">
+        <source>Delete content type groups</source>
+        <target xml:lang="ru" state="translated">Удалить группу типов контента</target>
+        <note>key: content_type_groups_delete_form.delete</note>
+      </trans-unit>
+      <trans-unit id="56281d5c292a4fe95f9b1af5ae0b1deaebab7342" resname="ezplatform.change_user_password.change">
+        <source>Change</source>
+        <target xml:lang="ru" state="translated">Изменить</target>
+        <note>key: ezplatform.change_user_password.change</note>
+      </trans-unit>
+      <trans-unit id="390eb98ace269d5909c838416c36248c40895058" resname="ezplatform.change_user_password.confirm_new_password">
+        <source>Confirm password</source>
+        <target xml:lang="ru" state="translated">Подтверждение пароля</target>
+        <note>key: ezplatform.change_user_password.confirm_new_password</note>
+      </trans-unit>
+      <trans-unit id="43521bfea046f591270e027a69fc52cccc486e23" resname="ezplatform.change_user_password.new_password">
+        <source>New password</source>
+        <target xml:lang="ru" state="translated">Новый пароль</target>
+        <note>key: ezplatform.change_user_password.new_password</note>
+      </trans-unit>
+      <trans-unit id="7d2421be11a5351c12c952611c7a1a7f00f51cd9" resname="ezplatform.change_user_password.old_password">
+        <source>Old password</source>
+        <target xml:lang="ru" state="translated">Старый пароль</target>
+        <note>key: ezplatform.change_user_password.old_password</note>
+      </trans-unit>
+      <trans-unit id="e1f039c692df803a42d90f2bcd4f763623241bb2" resname="location_copy.copy">
+        <source>Copy</source>
+        <target xml:lang="ru" state="translated">Копировать</target>
+        <note>key: location_copy.copy</note>
+      </trans-unit>
+      <trans-unit id="9e312a8bdc3e0fbfab7bab370f59cb5e44a9af2f" resname="location_move.move">
+        <source>Move</source>
+        <target xml:lang="ru" state="translated">Переместить</target>
+        <note>key: location_move.move</note>
+      </trans-unit>
+      <trans-unit id="796f8196b2bc086fe788e6689a6189c79b8e047e" resname="location_trash_form.trash">
+        <source>Send to Trash</source>
+        <target xml:lang="ru" state="translated">Отправить в корзину</target>
+        <note>key: location_trash_form.trash</note>
+      </trans-unit>
+      <trans-unit id="2b8a62034311f415eba9826996495c2ddd076745" resname="roles_delete_form.delete">
+        <source>Delete role</source>
+        <target xml:lang="ru" state="translated">Удалить роль</target>
+        <note>key: roles_delete_form.delete</note>
+      </trans-unit>
+      <trans-unit id="6880a88558bf821ff5ca3266f2f4f42b6d911283" resname="swap_location_form.swap">
+        <source>Select content item</source>
+        <target xml:lang="ru" state="translated">Выбрать запись</target>
+        <note>key: swap_location_form.swap</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

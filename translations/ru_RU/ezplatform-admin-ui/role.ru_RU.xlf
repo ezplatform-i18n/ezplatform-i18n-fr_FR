@@ -6,70 +6,61 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="03e72944d22126b885a65f885ebf8f1b8e2f8579" resname="role.breadcrumb.list">
+        <source>Roles</source>
+        <target xml:lang="ru" state="translated">Роли пользователей</target>
+        <note>key: role.breadcrumb.list</note>
+      </trans-unit>
+      <trans-unit id="b8faa90fed74479d8cdb01dc2c0e1af8a79cf9b1" resname="role.modal.message">
+        <source>Do you want to delete Role?</source>
+        <target xml:lang="ru" state="translated">Вы действительно хотите удалить %s?</target>
+        <note>key: role.modal.message</note>
+      </trans-unit>
+      <trans-unit id="88d7426f344cc9d85b90903dad013d5806b82faa" resname="role.view.list.action.add">
+        <source>Create a Role</source>
+        <target xml:lang="ru" state="translated">Создать роль</target>
+        <note>key: role.view.list.action.add</note>
+      </trans-unit>
+      <trans-unit id="18990f93cd60432ec47a75934185b7edbd3d17bf" resname="role.view.list.action.assign_to_users_or_groups">
+        <source>Assign to Users/Groups</source>
+        <target xml:lang="ru" state="translated">Назначить для пользователя/группы</target>
+        <note>key: role.view.list.action.assign_to_users_or_groups</note>
+      </trans-unit>
+      <trans-unit id="e0b49df6c6b235f7eb4d03019d1f9505dd77a135" resname="role.view.list.action.delete">
+        <source>Delete Role</source>
+        <target xml:lang="ru" state="translated">Удалить роль</target>
+        <note>key: role.view.list.action.delete</note>
+      </trans-unit>
+      <trans-unit id="cb9d9934c021aa5f2b25bfa652279daa88c6086f" resname="role.view.list.action.edit">
+        <source>Edit</source>
+        <target xml:lang="ru" state="translated">Редактировать</target>
+        <note>key: role.view.list.action.edit</note>
+      </trans-unit>
+      <trans-unit id="4cb9b2e474c4584dd193e46214b68897ebc6350f" resname="role.view.list.column.id">
+        <source>Role ID</source>
+        <target xml:lang="ru" state="translated">Идентификатор роли</target>
+        <note>key: role.view.list.column.id</note>
+      </trans-unit>
+      <trans-unit id="26470561bbbd003c0ad30bf2cb29f7da50e7d690" resname="role.view.list.column.name">
+        <source>Name</source>
+        <target xml:lang="ru" state="translated">Название</target>
+        <note>key: role.view.list.column.name</note>
+      </trans-unit>
+      <trans-unit id="a0c33e3728b23f13b825e36808834a6930551873" resname="role.view.list.title">
+        <source>Roles</source>
+        <target xml:lang="ru" state="translated">Роли пользователей</target>
+        <note>key: role.view.list.title</note>
+      </trans-unit>
+      <trans-unit id="9e3fbe7cbb68fbe5996471da829e0fab59c3fc8b" resname="tab.roles.no_roles">
+        <source>This content item has no roles.</source>
+        <target xml:lang="ru" state="translated">Данная запись не содержит роли пользователя.</target>
+        <note>key: tab.roles.no_roles</note>
+      </trans-unit>
+      <trans-unit id="cfba356470eba180c21d9a43e9bebbfe5e2d427b" resname="tab.roles.roles">
+        <source>Roles</source>
+        <target xml:lang="ru" state="translated">Роли пользователей</target>
+        <note>key: tab.roles.roles</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

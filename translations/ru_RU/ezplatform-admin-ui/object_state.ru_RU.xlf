@@ -11,10 +11,65 @@
         <target xml:lang="ru" state="needs-translation"> </target>
         <note>key: object_state.bulk_delete.delete</note>
       </trans-unit>
+      <trans-unit id="3f83af98ac201931eaf0055972d467c386ab72ef" resname="object_state.button.set">
+        <source>Set</source>
+        <target xml:lang="ru" state="translated">Прменить</target>
+        <note>key: object_state.button.set</note>
+      </trans-unit>
       <trans-unit id="85cbd870cb6255f3d3d481ece6c23e6e2117e91e" resname="object_state.new">
         <source>Create a new Object State </source>
         <target xml:lang="ru" state="needs-translation"> </target>
         <note>key: object_state.new</note>
+      </trans-unit>
+      <trans-unit id="089afe4fc7c6c1b22bcc1b7cb702282d983133f6" resname="object_state_group.breadcrumb.list">
+        <source>Object States</source>
+        <target xml:lang="ru" state="translated">Состояния объектов</target>
+        <note>key: object_state_group.breadcrumb.list</note>
+      </trans-unit>
+      <trans-unit id="8e72c01409fbfb837c2a6ddb1a9455baada03057" resname="object_state_group.bulk_delete.delete">
+        <source>Delete Object State Group</source>
+        <target xml:lang="ru" state="translated">Удалить группу состояния объектов</target>
+        <note>key: object_state_group.bulk_delete.delete</note>
+      </trans-unit>
+      <trans-unit id="0f857d4dff9c8232ede300a39010d289d31c2937" resname="object_state_group.delete.bulk_delete.submit">
+        <source>Delete Object State Group</source>
+        <target xml:lang="ru" state="translated">Удалить группу состояния объектов</target>
+        <note>key: object_state_group.delete.bulk_delete.submit</note>
+      </trans-unit>
+      <trans-unit id="940f19a907923467a0fc0084f21dc689a18ab804" resname="object_state_group.id">
+        <source>ID</source>
+        <target xml:lang="ru" state="translated">Идентификатор</target>
+        <note>key: object_state_group.id</note>
+      </trans-unit>
+      <trans-unit id="31e5d74a2673e57390f478380181bc63977bc229" resname="object_state_group.identifier">
+        <source>Identifier</source>
+        <target xml:lang="ru" state="translated">Идентификатор</target>
+        <note>key: object_state_group.identifier</note>
+      </trans-unit>
+      <trans-unit id="5696f8cad271e56ef0e2661b314fa31b70a81bb3" resname="object_state_group.modal.message">
+        <source>Do you want to delete Object State Group?</source>
+        <target xml:lang="ru" state="translated">Вы хотите удалить группу состояния объектов?</target>
+        <note>key: object_state_group.modal.message</note>
+      </trans-unit>
+      <trans-unit id="4964317987d129f6c5beeebca699f8fd62867216" resname="object_state_group.name">
+        <source>Object state group name</source>
+        <target xml:lang="ru" state="translated">Имя группы состояния объектов</target>
+        <note>key: object_state_group.name</note>
+      </trans-unit>
+      <trans-unit id="1cbfb4528f41be4d8de98fa4f81c26b41f8ffad9" resname="object_state_group.new">
+        <source>Create a new Object State Group</source>
+        <target xml:lang="ru" state="translated">Создать новую группу состояния объектов</target>
+        <note>key: object_state_group.new</note>
+      </trans-unit>
+      <trans-unit id="81633efc089f97dcad3f815855683cb4edb553d4" resname="object_state_group.view.list.action.edit">
+        <source>Edit</source>
+        <target xml:lang="ru" state="translated">Редактировать</target>
+        <note>key: object_state_group.view.list.action.edit</note>
+      </trans-unit>
+      <trans-unit id="3c3517b187620f232ad40b3fe46da9e3bb66866a" resname="object_state_group.view.list.title">
+        <source>Object State Groups</source>
+        <target xml:lang="ru" state="translated">Группы состояния объектов</target>
+        <note>key: object_state_group.view.list.title</note>
       </trans-unit>
     </body>
   </file>
