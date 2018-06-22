@@ -39,7 +39,7 @@ This synchronisation is done using [dflydev/git-subsplit][dflydev] tool.
         translations/ach_UG:git@github.com:ezplatform-i18n/ezplatform-i18n-ach_UG.git
         translations/de_DE:git@github.com:ezplatform-i18n/ezplatform-i18n-de_DE.git
         translations/es_ES:git@github.com:ezplatform-i18n/ezplatform-i18n-es_ES.git
-        translations/el_GR:git@github.com:ezplatform-i18n/ezplatform-i18n-el_GR.git
+        translations/el_GR:git@github.com:ezplatform-i18n/greek.git
         translations/fi_FI:git@github.com:ezplatform-i18n/ezplatform-i18n-fi_FI.git
         translations/fr_FR:git@github.com:ezplatform-i18n/ezplatform-i18n-fr_FR.git
         translations/hi_IN:git@github.com:ezplatform-i18n/ezplatform-i18n-hi_IN.git
