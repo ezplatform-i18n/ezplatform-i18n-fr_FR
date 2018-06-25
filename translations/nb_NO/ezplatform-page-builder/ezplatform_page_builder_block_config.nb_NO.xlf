@@ -11,11 +11,6 @@
         <target xml:lang="nb" state="translated">Velg innhold</target>
         <note>key: block.collection.select.content</note>
       </trans-unit>
-      <trans-unit id="26a1974ffe505cdec38cc61f4d1f9cc98ebe24d9" resname="block.collection.select.content.label">
-        <source>Select Content item(s)</source>
-        <target xml:lang="nb" state="translated">Velg innhold</target>
-        <note>key: block.collection.select.content.label</note>
-      </trans-unit>
       <trans-unit id="391b814dc27a7b6065e56676a1d6a3fc17bb7b95" resname="select.content">
         <source>Select content</source>
         <target xml:lang="nb" state="translated">Velg innhold</target>

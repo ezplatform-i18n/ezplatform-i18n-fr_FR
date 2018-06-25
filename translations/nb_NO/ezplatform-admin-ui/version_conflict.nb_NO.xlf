@@ -11,6 +11,11 @@
         <target xml:lang="nb" state="translated">Er du sikker på at du vil fortsette og overskrive den nyeste versjonen?</target>
         <note>key: version.conflict.are_you_sure</note>
       </trans-unit>
+      <trans-unit id="f77f809ec953a9ee0a8fe642ab53e2763e5eaed2" resname="version.conflict.choices">
+        <source>To resolve the conflict, click Cancel and delete the draft. Then edit the published Content Item.</source>
+        <target xml:lang="nb" state="translated">For å løse konflikten, klikker du Avbryt og slett utkastet. Deretter redigerer du det publiserte innholdselementet.</target>
+        <note>key: version.conflict.choices</note>
+      </trans-unit>
       <trans-unit id="9fad7ad8b2a4215487f98fc67dd7d793dd0382e8" resname="version.conflict.consequences">
         <source>If you continue, the previous version will be overwritten.</source>
         <target xml:lang="nb" state="translated">Hvis du fortsetter, overskrives den forrige versjonen.</target>
@@ -25,6 +30,11 @@
         <source>Continue</source>
         <target xml:lang="nb" state="translated">Fortsett</target>
         <note>key: version.conflict.form.continue</note>
+      </trans-unit>
+      <trans-unit id="0fcf485b042da069359444e8395122974ad929fc" resname="version.conflict.header">
+        <source>Version conflict when editing</source>
+        <target xml:lang="nb" state="translated">Versjonskonflikt ved redigering</target>
+        <note>key: version.conflict.header</note>
       </trans-unit>
     </body>
   </file>

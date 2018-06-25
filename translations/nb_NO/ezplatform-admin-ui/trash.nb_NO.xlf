@@ -11,10 +11,20 @@
         <target xml:lang="nb" state="translated">Papirkurv</target>
         <note>key: trash</note>
       </trans-unit>
+      <trans-unit id="49df4e6f73344ab17f4dfd94818974848f74f53a" resname="trash.button.restore">
+        <source>Restore</source>
+        <target xml:lang="nb" state="translated">Gjenopprett</target>
+        <note>key: trash.button.restore</note>
+      </trans-unit>
       <trans-unit id="7ffaa1444a83e959f8de3c2410bb65acdd3e3ff0" resname="trash.delete">
         <source>Delete</source>
         <target xml:lang="nb" state="translated">Slett</target>
         <note>key: trash.delete</note>
+      </trans-unit>
+      <trans-unit id="17b503b33de4f7e60958b7824dd959dd0144ae13" resname="trash.empty.success">
+        <source>Trash empty.</source>
+        <target xml:lang="nb" state="translated">Papirkurv er tom.</target>
+        <note>key: trash.empty.success</note>
       </trans-unit>
       <trans-unit id="eb7cd78bb919141f66cabfea95a60e0e6b02e9f4" resname="trash.headline">
         <source>Trash</source>
@@ -25,6 +35,11 @@
         <source>Name</source>
         <target xml:lang="nb" state="translated">Navn</target>
         <note>key: trash.name</note>
+      </trans-unit>
+      <trans-unit id="c28510c675be753842996980b0e5d175cec4a8d8" resname="trash.original_location">
+        <source>Original location</source>
+        <target xml:lang="nb" state="translated">Opprinnelig plassering</target>
+        <note>key: trash.original_location</note>
       </trans-unit>
       <trans-unit id="06b530d8c8b3d7af7b3f2df9f5102927e7275de4" resname="trash.table.header">
         <source>Trash</source>

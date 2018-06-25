@@ -86,6 +86,11 @@
         <target xml:lang="nb" state="translated">Fjern forfatter</target>
         <note>key: ezauthor.action.delete</note>
       </trans-unit>
+      <trans-unit id="ffb6990d5e75fe6dc86e94166b77e40a79e4e2a3" resname="ezplatform.forgot_user_password.login">
+        <source>This email is connected with several accounts. Please enter your login.</source>
+        <target xml:lang="nb" state="translated">Denne e-posten er tilknyttet flere kontoer. Skriv inn påloggingsinformasjonen.</target>
+        <note>key: ezplatform.forgot_user_password.login</note>
+      </trans-unit>
       <trans-unit id="801ba7693e80ca58fbf2a9da2b735bf3f324fd27" resname="ezplatform.forgot_user_password.reset_your_password">
         <source>Reset your password</source>
         <target xml:lang="nb" state="translated">Tilbakestill passordet ditt</target>
@@ -106,6 +111,16 @@
         <source>Change password</source>
         <target xml:lang="nb" state="translated">Endre passord</target>
         <note>key: ezplatform.reset_user_password.change_password</note>
+      </trans-unit>
+      <trans-unit id="8359e9b6409139537d0eaeeacaedbc4d0912a105" resname="ezplatform.reset_user_password.link_is_not_valid">
+        <source><![CDATA[This link is not valid anymore, you can <a href="%forgot_user_password%">generate a new link</a> to reset your password.]]></source>
+        <target xml:lang="nb" state="translated"><![CDATA[Denne lenken er ikke lenger gyldig, du kan <a href="%forgot_user_password%">generere en ny lenke</a> for å tilbakestille passordet.]]></target>
+        <note>key: ezplatform.reset_user_password.link_is_not_valid</note>
+      </trans-unit>
+      <trans-unit id="5149c594d64197e519d38a1a2e7368140716bb81" resname="ezplatform.reset_user_password.success">
+        <source><![CDATA[Congrats, your password has been changed, you can now <a href="%login%">login</a> to eZ Platform.]]></source>
+        <target xml:lang="nb" state="translated"><![CDATA[Gratulerer, passordet ditt er endret, du kan nå <a href="%login%">logge inn</a> på eZ plattform.]]></target>
+        <note>key: ezplatform.reset_user_password.success</note>
       </trans-unit>
       <trans-unit id="5cf420af18fd4a8d856fd30bc13aea5039369f9b" resname="form.cancel">
         <source>Cancel</source>
