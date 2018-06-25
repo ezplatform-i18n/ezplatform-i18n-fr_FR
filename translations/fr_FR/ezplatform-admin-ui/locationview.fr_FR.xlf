@@ -304,6 +304,11 @@
         <target xml:lang="fr" state="translated">Type de relation</target>
         <note>key: tab.relations.table.relation_type</note>
       </trans-unit>
+      <trans-unit id="d8360b13746f836dc7c28998696a69b24ea30b18" resname="tab.relations.table.relation_type.content_level_relation">
+        <source>Content level relation</source>
+        <target xml:lang="fr" state="translated">Niveau de relation de contenu</target>
+        <note>key: tab.relations.table.relation_type.content_level_relation</note>
+      </trans-unit>
       <trans-unit id="79779455bd3c932297c6b8cefdcd1251836525c5" resname="tab.relations.table.relation_type.embed">
         <source>Embed</source>
         <target xml:lang="fr" state="translated">Intégrer</target>

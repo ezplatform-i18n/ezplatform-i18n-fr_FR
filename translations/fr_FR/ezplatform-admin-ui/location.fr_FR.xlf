@@ -6,6 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="7f616359fa64ad9a44aba2d7eeebfde7aac7f16f" resname="location.copy.success">
+        <source>Location '%name%' copied to location '%location%'</source>
+        <target xml:lang="fr" state="translated">'%name%' a été copié sous l'emplacement '%location%'</target>
+        <note>key: location.copy.success</note>
+      </trans-unit>
       <trans-unit id="656c4be212bdf722670400927051cb39593938a5" resname="location.copy_subtree.success">
         <source>Subtree '%name%' copied to location '%location%'</source>
         <target xml:lang="fr" state="translated">La sous-arborescence «%name%» a été copiée dans l’emplacement «%location%»</target>
