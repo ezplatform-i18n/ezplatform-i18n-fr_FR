@@ -7,8 +7,8 @@
     </header>
     <body>
       <trans-unit id="0173399db18eb7fe3a297f66fac4bf3a98378733" resname="pagination.next_message">
-        <source>Back</source>
-        <target xml:lang="ach">crwdns215332:0crwdne215332:0</target>
+        <source>Next</source>
+        <target xml:lang="ach">crwdns215772:0crwdne215772:0</target>
         <note>key: pagination.next_message</note>
       </trans-unit>
       <trans-unit id="ccf59d9760c08875a8b87b5fac62105841415c40" resname="pagination.prev_message">

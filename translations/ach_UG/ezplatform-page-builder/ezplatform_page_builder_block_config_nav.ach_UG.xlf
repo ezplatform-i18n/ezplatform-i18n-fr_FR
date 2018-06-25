@@ -16,6 +16,11 @@
         <target xml:lang="ach">crwdns215722:0crwdne215722:0</target>
         <note>key: tab.label.design</note>
       </trans-unit>
+      <trans-unit id="463e1f81cb933c5f4edba2bb89d767d00d231f81" resname="tab.label.visibility">
+        <source>Visibility</source>
+        <target xml:lang="ach">crwdns215780:0crwdne215780:0</target>
+        <note>key: tab.label.visibility</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

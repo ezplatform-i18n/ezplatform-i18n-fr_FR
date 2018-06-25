@@ -82,8 +82,8 @@
         <note>key: policy.update.success</note>
       </trans-unit>
       <trans-unit id="1ac24fa007363b4280663fba53f7a3b436ed4c8f" resname="policy.view.add.title">
-        <source>policy.view.add.title</source>
-        <target xml:lang="ach">crwdns215348:0crwdne215348:0</target>
+        <source>Adding a new Policy</source>
+        <target xml:lang="ach">crwdns215773:0crwdne215773:0</target>
         <note>key: policy.view.add.title</note>
       </trans-unit>
       <trans-unit id="aefaf3a17b8493e63c82678611eb6eacbcc45d19" resname="policy.view.edit.title">
