@@ -11,10 +11,25 @@
         <target xml:lang="es-ES" state="translated">Eliminar</target>
         <note>key: bookmark.button.remove</note>
       </trans-unit>
+      <trans-unit id="c2c1dc512033aabc10e0c6a46cf5e99355f5c750" resname="bookmark.headline">
+        <source>Bookmarks</source>
+        <target xml:lang="es-ES" state="translated">Marcadores</target>
+        <note>key: bookmark.headline</note>
+      </trans-unit>
+      <trans-unit id="5001931b6bf98acefb5138b1cdba97d97fed4844" resname="bookmark.list.content.edit">
+        <source>Edit Content</source>
+        <target xml:lang="es-ES" state="translated">Editar contenido</target>
+        <note>key: bookmark.list.content.edit</note>
+      </trans-unit>
       <trans-unit id="cf687b0218c513d53ad3f52b2547c23500242c48" resname="bookmark.list.content_type">
         <source>Content Type</source>
         <target xml:lang="es-ES" state="translated">Tipo de Contenido</target>
         <note>key: bookmark.list.content_type</note>
+      </trans-unit>
+      <trans-unit id="e55cc61e6e0bcd97f329c00790704a381212f55b" resname="bookmark.list.empty">
+        <source>The bookmark list is empty. Any Content item you bookmark will end up here.</source>
+        <target xml:lang="es-ES" state="translated">La lista de favoritos está vacía. Cualquier elemento de contenido que marque aparecerá aquí.</target>
+        <note>key: bookmark.list.empty</note>
       </trans-unit>
       <trans-unit id="d84749a19f2864dd1d5d3cee0a127f2435e5cdc5" resname="bookmark.list.name">
         <source>Name</source>
@@ -25,6 +40,11 @@
         <source>Path</source>
         <target xml:lang="es-ES" state="translated">Ruta</target>
         <note>key: bookmark.list.path</note>
+      </trans-unit>
+      <trans-unit id="0cf4491e1bb4fde851986596d3adfb4dbe2f5a17" resname="bookmark.table.header">
+        <source>Bookmarks</source>
+        <target xml:lang="es-ES" state="translated">Marcadores</target>
+        <note>key: bookmark.table.header</note>
       </trans-unit>
     </body>
   </file>

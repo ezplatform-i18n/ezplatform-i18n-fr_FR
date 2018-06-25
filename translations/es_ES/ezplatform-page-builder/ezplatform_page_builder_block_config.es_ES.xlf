@@ -16,14 +16,6 @@
         <target xml:lang="es-ES" state="translated">Seleccionar contenido</target>
         <note>key: block.collection.select.content</note>
       </trans-unit>
-      <trans-unit id="26a1974ffe505cdec38cc61f4d1f9cc98ebe24d9" resname="block.collection.select.content.label">
-        <source>Select Content item(s)</source>
-        <target xml:lang="es-ES" state="translated">Seleccionar elementos de contenido(s)</target>
-        <note>key: block.collection.select.content.label</note>
-        <alt-trans>
-          <target xml:lang="es-ES">Seleccionar elementos de contenido</target>
-        </alt-trans>
-      </trans-unit>
       <trans-unit id="391b814dc27a7b6065e56676a1d6a3fc17bb7b95" resname="select.content">
         <source>Select content</source>
         <target xml:lang="es-ES" state="translated">Seleccionar contenido</target>

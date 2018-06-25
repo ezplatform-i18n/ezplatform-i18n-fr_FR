@@ -31,6 +31,11 @@
         <target xml:lang="es-ES" state="translated">La localización seleccionada no puede ser la raíz del árbol.</target>
         <note>key: ezplatform.copy_subtree.is_root</note>
       </trans-unit>
+      <trans-unit id="631da4c4fb5b000ee7f5c0c422e830ca192341a6" resname="ezplatform.copy_subtree.limit_exceeded">
+        <source>Copy subtree limit exceeded. Current limit: %currentLimit%</source>
+        <target xml:lang="es-ES" state="translated">Se sobrepasó el limite de elementos a copiar. Límite actual: %currentLimit%</target>
+        <note>key: ezplatform.copy_subtree.limit_exceeded</note>
+      </trans-unit>
       <trans-unit id="58f9ad2e8a8df010fb8abb25e39b46f2ccf92294" resname="ezplatform.reset_user_password.passwords_must_match">
         <source>The password fields must match.</source>
         <target xml:lang="es-ES" state="translated">Los valores de los campos de contraseña deben coincidir.</target>
