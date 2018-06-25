@@ -1,5 +1,5 @@
 {
-  "name": "ezplatform-i18n/greek",
+  "name": "ezplatform-i18n/ezplatform-i18n-el_gr",
   "description": "eZ Platform greek translations",
   "license": "GPL-2.0",
   "require": {
@@ -7,7 +7,7 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "2.2.x-dev"
+      "dev-master": "1.0.x-dev"
     }
   }
 }
