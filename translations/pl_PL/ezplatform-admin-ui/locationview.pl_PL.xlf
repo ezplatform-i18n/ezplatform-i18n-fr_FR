@@ -6,10 +6,30 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="a4b9e9b4898dd285237fc60130970ce7ed988871" resname="content.create.choose_content_type">
+        <source>Create your content</source>
+        <target xml:lang="pl" state="translated">Utwórz treść</target>
+        <note>key: content.create.choose_content_type</note>
+      </trans-unit>
+      <trans-unit id="8b5180d90c79245ed3e491e6f682842daaa0bec5" resname="content.create.select_language">
+        <source>Select language</source>
+        <target xml:lang="pl" state="translated">Wybierz język</target>
+        <note>key: content.create.select_language</note>
+      </trans-unit>
+      <trans-unit id="5e8851497aae3ba774d163d5fd191fd69ac871c0" resname="content.edit.select_language">
+        <source>Select language</source>
+        <target xml:lang="pl" state="translated">Wybierz język</target>
+        <note>key: content.edit.select_language</note>
+      </trans-unit>
       <trans-unit id="9c91d85bc7658ec7dc6bbb07b720979177c0846a" resname="content.view.subitems">
         <source>Sub-items</source>
         <target xml:lang="pl" state="translated">Elementy podrzędne</target>
         <note>key: content.view.subitems</note>
+      </trans-unit>
+      <trans-unit id="eeb49235f0e3b40e651725430b85a2885174bd2b" resname="location.bookmark.add">
+        <source>Add to Bookmarks</source>
+        <target xml:lang="pl" state="translated">Dodaj do zakładek</target>
+        <note>key: location.bookmark.add</note>
       </trans-unit>
       <trans-unit id="0b2f22acb619fcc5672a7dd0ccf2a39316a07274" resname="location.bookmark.remove">
         <source>Remove from Bookmarks</source>
@@ -36,10 +56,20 @@
         <target xml:lang="pl" state="translated">Autor</target>
         <note>key: tab.details.creator</note>
       </trans-unit>
+      <trans-unit id="91b45af4dd219651dc8b1a7d050822b71f03fad3" resname="tab.details.creator.not_found">
+        <source>Can’t fetch creator</source>
+        <target xml:lang="pl" state="translated">Nie można pobrać autora</target>
+        <note>key: tab.details.creator.not_found</note>
+      </trans-unit>
       <trans-unit id="acc17a8db8d00036233faa9948ad9a496cd621b3" resname="tab.details.last_contributor">
         <source>Last contributor</source>
         <target xml:lang="pl" state="translated">Ostatnie zmiany</target>
         <note>key: tab.details.last_contributor</note>
+      </trans-unit>
+      <trans-unit id="ba5ca8a7f923f6ee3a0e6bf9aca428403d0158fd" resname="tab.details.last_contributor.not_found">
+        <source>Can’t fetch last contributor</source>
+        <target xml:lang="pl" state="translated">Nie można pobrać ostatniego współautora</target>
+        <note>key: tab.details.last_contributor.not_found</note>
       </trans-unit>
       <trans-unit id="671c2d4e91244548b29e8f293cd8d4d97a3c23bd" resname="tab.details.location_id">
         <source>Location ID</source>
@@ -149,6 +179,11 @@
         <target xml:lang="pl" state="translated">Dodaj lokalizację</target>
         <note>key: tab.locations.action.add</note>
       </trans-unit>
+      <trans-unit id="80808d78f600e925ec3e2dd4b2a0e7570169fd83" resname="tab.locations.action.delete">
+        <source>Delete Location</source>
+        <target xml:lang="pl" state="translated">Usuń lokalizację</target>
+        <note>key: tab.locations.action.delete</note>
+      </trans-unit>
       <trans-unit id="7ac57e88d1f970747986392b6689075ba64cf270" resname="tab.locations.content_locations">
         <source>Content locations</source>
         <target xml:lang="pl" state="translated">Lokalizacje elementu</target>
@@ -163,6 +198,11 @@
         <source>Main</source>
         <target xml:lang="pl" state="translated">Główna</target>
         <note>key: tab.locations.main</note>
+      </trans-unit>
+      <trans-unit id="e704444c07d73c053f58f427ebcc0b6b2042c63d" resname="tab.locations.modal.message">
+        <source>Do you want to delete Location?</source>
+        <target xml:lang="pl" state="translated">Czy chcesz usunąć lokalizację?</target>
+        <note>key: tab.locations.modal.message</note>
       </trans-unit>
       <trans-unit id="7514a2a1e82c82fa3a197dc3da8be56a9c68f136" resname="tab.locations.path">
         <source>Path</source>
@@ -188,6 +228,11 @@
         <source>Locations</source>
         <target xml:lang="pl" state="translated">Lokalizacje</target>
         <note>key: tab.name.locations</note>
+      </trans-unit>
+      <trans-unit id="a483f367c17cc75d6c5cf331f80e395b254cbbd6" resname="tab.name.policies">
+        <source>Policies</source>
+        <target xml:lang="pl" state="translated">Reguły</target>
+        <note>key: tab.name.policies</note>
       </trans-unit>
       <trans-unit id="c58716ba1092b0208a11137dc226327a3ddf84dc" resname="tab.name.roles">
         <source>Roles</source>
@@ -239,6 +284,21 @@
         <target xml:lang="pl" state="translated">Pole</target>
         <note>key: tab.relations.table.relation_type.field</note>
       </trans-unit>
+      <trans-unit id="cd43dc791bb87dda363d311d449b68d5876392d1" resname="tab.relations.table.relation_type.link">
+        <source>Link</source>
+        <target xml:lang="pl" state="translated">Łącze</target>
+        <note>key: tab.relations.table.relation_type.link</note>
+      </trans-unit>
+      <trans-unit id="492cea0fd67c4af8e41d21710668239c9db66cfc" resname="tab.translations.action.add">
+        <source>Add Translation</source>
+        <target xml:lang="pl" state="translated">Dodaj tłumaczenie</target>
+        <note>key: tab.translations.action.add</note>
+      </trans-unit>
+      <trans-unit id="8c29b038407b67badc381aca362d4770d299df8b" resname="tab.translations.action.delete">
+        <source>Delete Translation</source>
+        <target xml:lang="pl" state="translated">Usuń tłumaczenie</target>
+        <note>key: tab.translations.action.delete</note>
+      </trans-unit>
       <trans-unit id="5022ce879be6a69956541173bf658dccff5d7280" resname="tab.translations.add.base_language">
         <source>Base this translation on an existing translation</source>
         <target xml:lang="pl" state="translated">Bazuj to tłumaczenie na już istniejącym</target>
@@ -249,6 +309,16 @@
         <target xml:lang="pl" state="translated">Anuluj</target>
         <note>key: tab.translations.add.cancel</note>
       </trans-unit>
+      <trans-unit id="fe6c962e1d0766f59a66d3766c56edffdce6735d" resname="tab.translations.add.language">
+        <source>Select a language for your new translation</source>
+        <target xml:lang="pl" state="translated">Wybierz język dla nowego tłumaczenia</target>
+        <note>key: tab.translations.add.language</note>
+      </trans-unit>
+      <trans-unit id="2d1ceec2bfb85db323e21e358b6be6aad547e1d0" resname="tab.translations.add.title">
+        <source>Create new translation</source>
+        <target xml:lang="pl" state="translated">Utwórz nowe tłumaczenie</target>
+        <note>key: tab.translations.add.title</note>
+      </trans-unit>
       <trans-unit id="d494d753de03a08f7a10792b727ec88ca74d4913" resname="tab.translations.language_code">
         <source>Language code</source>
         <target xml:lang="pl" state="translated">Kod języka</target>
@@ -258,6 +328,16 @@
         <source>Language name</source>
         <target xml:lang="pl" state="translated">Nazwa języka</target>
         <note>key: tab.translations.language_name</note>
+      </trans-unit>
+      <trans-unit id="852ca97b78e55e9b7734ff3e5a6c1b3fde6eca6f" resname="tab.translations.translation_manger">
+        <source>Translation manager</source>
+        <target xml:lang="pl" state="translated">Zarządzaj tłumaczeniami</target>
+        <note>key: tab.translations.translation_manger</note>
+      </trans-unit>
+      <trans-unit id="a4297fe31e8eb3307caa2cf855328056c3b98962" resname="tab.versions.action.delete">
+        <source>Delete Version</source>
+        <target xml:lang="pl" state="translated">Usuń wersję</target>
+        <note>key: tab.versions.action.delete</note>
       </trans-unit>
       <trans-unit id="699b5bf627b908f8d270984ab9a4734a48b28abe" resname="tab.versions.archived_versions">
         <source>Archived versions</source>
@@ -273,6 +353,26 @@
         <source>Published version</source>
         <target xml:lang="pl" state="translated">Wersja opublikowana</target>
         <note>key: tab.versions.published_version</note>
+      </trans-unit>
+      <trans-unit id="d2e707023baa6830915c5d12b915974d627522e4" resname="tab.versions.table.action.archived.edit">
+        <source>Restore Archived Version</source>
+        <target xml:lang="pl" state="translated">Przywróć wersję archiwalną</target>
+        <note>key: tab.versions.table.action.archived.edit</note>
+      </trans-unit>
+      <trans-unit id="97721a4a6c33834bb6421c29ef72e8654f39a4ab" resname="tab.versions.table.action.draft.edit">
+        <source>Edit Draft</source>
+        <target xml:lang="pl" state="translated">Edytuj szkic</target>
+        <note>key: tab.versions.table.action.draft.edit</note>
+      </trans-unit>
+      <trans-unit id="a602612589c6e902caaf8acf1fd51fcd215955f1" resname="tab.versions.table.author.not_found">
+        <source>Can’t fetch contributor</source>
+        <target xml:lang="pl" state="translated">Nie można pobrać współautora</target>
+        <note>key: tab.versions.table.author.not_found</note>
+      </trans-unit>
+      <trans-unit id="4c27637d649c221e58c6a9629f14a2f75aeed151" resname="tab.versions.table.contributor">
+        <source>Contributor</source>
+        <target xml:lang="pl" state="translated">Współtwórca</target>
+        <note>key: tab.versions.table.contributor</note>
       </trans-unit>
       <trans-unit id="4c6353b63f5bc2031c8380c4007edf9c5f6be456" resname="tab.versions.table.created">
         <source>Created</source>

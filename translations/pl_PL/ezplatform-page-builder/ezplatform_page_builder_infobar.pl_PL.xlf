@@ -6,14 +6,31 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="9f897e0a8684c5fcf61d4d121bd7122a12f99c32" resname="infobar.author.name">
+        <source><![CDATA[by <span class="ez-content-details__author">%name%</span>]]></source>
+        <target xml:lang="pl" state="translated"><![CDATA[przez <span class="ez-content-details__author">%name%</span>]]></target>
+        <note>key: infobar.author.name</note>
+      </trans-unit>
+      <trans-unit id="e1027757af4cedb3577c7b7e63789ebd329fdb1e" resname="infobar.last_edited">
+        <source>Last edited:</source>
+        <target xml:lang="pl" state="translated">Ostatnio edytowano:</target>
+        <note>key: infobar.last_edited</note>
+      </trans-unit>
+      <trans-unit id="c44f4d68657d6efb26691c0b96788fd1e2020133" resname="infobar.mode.preview_language.in">
+        <source>in</source>
+        <target xml:lang="pl" state="translated">w</target>
+        <note>key: infobar.mode.preview_language.in</note>
+      </trans-unit>
+      <trans-unit id="8187f29c44b9b28df27456f5667aa9d0c26bb1cb" resname="infobar.mode.viewing">
+        <source>Viewing</source>
+        <target xml:lang="pl" state="translated">Przeglądasz</target>
+        <note>key: infobar.mode.viewing</note>
+      </trans-unit>
+      <trans-unit id="1739daaed5307ca22b5e2f1729a1746c6de8c346" resname="infobar.translation.add">
+        <source>Add new translation</source>
+        <target xml:lang="pl" state="translated">Dodaj nowe tłumaczenie</target>
+        <note>key: infobar.translation.add</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

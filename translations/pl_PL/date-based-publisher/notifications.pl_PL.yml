@@ -1,1 +1,7 @@
 ---
+version.deleted: 'Zaplanowana wersja treści została usunięta.'
+content.published: 'Zaplanowana treść została opublikowana.'
+content.deleted: 'Zaplanowana treść została usunięta.'
+content.updated: 'Zaplanowana treść została zaktualizowana.'
+content.trashed: 'Zaplanowana treść została przeniesiona do kosza.'
+content.in_review: 'Zaplanowana treść została przesłana do sprawdzenia.'

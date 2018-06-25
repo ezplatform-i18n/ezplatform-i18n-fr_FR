@@ -11,10 +11,20 @@
         <target xml:lang="pl" state="translated">Zamknij</target>
         <note>key: alert.close</note>
       </trans-unit>
+      <trans-unit id="d2293b387ecddbc6173fd579abd37873fcbc5e97" resname="authentication.forgot_password">
+        <source>Forgot password?</source>
+        <target xml:lang="pl" state="translated">Nie pamiętasz hasła?</target>
+        <note>key: authentication.forgot_password</note>
+      </trans-unit>
       <trans-unit id="da44d8915172b0c8a874e26956f44aa5501c7e6b" resname="authentication.password">
         <source>Password</source>
         <target xml:lang="pl" state="translated">Hasło</target>
         <note>key: authentication.password</note>
+      </trans-unit>
+      <trans-unit id="7a3631c8f70b8b52f902530ad052c71609eb7177" resname="authentication.reset_your_password">
+        <source>Reset your password</source>
+        <target xml:lang="pl" state="translated">Zresetuj swoje hasło</target>
+        <note>key: authentication.reset_your_password</note>
       </trans-unit>
       <trans-unit id="8785f4abdfdf72fe9001fe0553c6e3a582cfcc08" resname="authentication.submit">
         <source>Login</source>
@@ -36,6 +46,11 @@
         <target xml:lang="pl" state="translated">Preferencje użytkownika</target>
         <note>key: breadcrumb.user_preferences</note>
       </trans-unit>
+      <trans-unit id="fb19ae886e63bac3aa3b851ac00aae8a3b777992" resname="content.in_trash">
+        <source>In Trash</source>
+        <target xml:lang="pl" state="translated">W koszu</target>
+        <note>key: content.in_trash</note>
+      </trans-unit>
       <trans-unit id="fe1c876b1a9bcde155f03227bce4ae4fbd54c24f" resname="custom_url_alias_add_form.add">
         <source>Create</source>
         <target xml:lang="pl" state="translated">Utwórz</target>
@@ -45,6 +60,51 @@
         <source>Delete</source>
         <target xml:lang="pl" state="translated">Usuń</target>
         <note>key: custom_url_alias_add_form.remove</note>
+      </trans-unit>
+      <trans-unit id="b1712cfa4c13874debdcc0f1f4a3b9fa4af3c966" resname="error.page.403.title">
+        <source>You don’t have permission for this page. Sorry!</source>
+        <target xml:lang="pl" state="translated">Nie masz uprawnień do tej strony. Przepraszamy!</target>
+        <note>key: error.page.403.title</note>
+      </trans-unit>
+      <trans-unit id="156b8a7f797412e60bdba432064e2dade6d4a7af" resname="error.page.404.title">
+        <source>Something went wrong. Sorry!</source>
+        <target xml:lang="pl" state="translated">Ups! Coś poszło nie tak.</target>
+        <note>key: error.page.404.title</note>
+      </trans-unit>
+      <trans-unit id="889ba15bcc2f87bfac9b80282f659eaeb7c175d4" resname="error.page.default.title">
+        <source>Something went wrong. Sorry!</source>
+        <target xml:lang="pl" state="translated">Ups! Coś poszło nie tak.</target>
+        <note>key: error.page.default.title</note>
+      </trans-unit>
+      <trans-unit id="86a1d081394a7faba471dc5eaa4b1c112e9ff03a" resname="ezauthor.action.add">
+        <source>Add author</source>
+        <target xml:lang="pl" state="translated">Dodaj autora</target>
+        <note>key: ezauthor.action.add</note>
+      </trans-unit>
+      <trans-unit id="3a0389d073f00ef9a968a5cdc60e2794b434b381" resname="ezauthor.action.delete">
+        <source>Remove author</source>
+        <target xml:lang="pl" state="translated">Usuń autora</target>
+        <note>key: ezauthor.action.delete</note>
+      </trans-unit>
+      <trans-unit id="ffb6990d5e75fe6dc86e94166b77e40a79e4e2a3" resname="ezplatform.forgot_user_password.login">
+        <source>This email is connected with several accounts. Please enter your login.</source>
+        <target xml:lang="pl" state="translated">Ten adres email jest połączony z kilkoma kontami. Podaj swój login.</target>
+        <note>key: ezplatform.forgot_user_password.login</note>
+      </trans-unit>
+      <trans-unit id="801ba7693e80ca58fbf2a9da2b735bf3f324fd27" resname="ezplatform.forgot_user_password.reset_your_password">
+        <source>Reset your password</source>
+        <target xml:lang="pl" state="translated">Zresetuj swoje hasło</target>
+        <note>key: ezplatform.forgot_user_password.reset_your_password</note>
+      </trans-unit>
+      <trans-unit id="40dd2934190789b016771a0fc3b41dcdfe0bb920" resname="ezplatform.reset_user_password.change_password">
+        <source>Change password</source>
+        <target xml:lang="pl" state="translated">Zmień hasło</target>
+        <note>key: ezplatform.reset_user_password.change_password</note>
+      </trans-unit>
+      <trans-unit id="5149c594d64197e519d38a1a2e7368140716bb81" resname="ezplatform.reset_user_password.success">
+        <source><![CDATA[Congrats, your password has been changed, you can now <a href="%login%">login</a> to eZ Platform.]]></source>
+        <target xml:lang="pl" state="translated"><![CDATA[Twoje hasło zostało zmienione, możesz teraz <a href="%login%">zalogować się</a> do eZ Platform.]]></target>
+        <note>key: ezplatform.reset_user_password.success</note>
       </trans-unit>
       <trans-unit id="5cf420af18fd4a8d856fd30bc13aea5039369f9b" resname="form.cancel">
         <source>Cancel</source>
@@ -71,6 +131,16 @@
         <target xml:lang="pl" state="translated">Dowolna sekcja</target>
         <note>key: search.section.any</note>
       </trans-unit>
+      <trans-unit id="9567771350aff93580f743089937b0c8fe31058e" resname="section.assign,content">
+        <source>Assign Content</source>
+        <target xml:lang="pl" state="translated">Przypisz treść</target>
+        <note>key: section.assign,content</note>
+      </trans-unit>
+      <trans-unit id="6a17e9f4ed416563fc8c3e188509b8eec8a6f7c0" resname="section.modal.message">
+        <source>Do you want to delete section?</source>
+        <target xml:lang="pl" state="translated">Czy chcesz usunąć sekcję?</target>
+        <note>key: section.modal.message</note>
+      </trans-unit>
       <trans-unit id="1152c93462d8bed85642b961f01ed63a6f2525ab" resname="tab.locations.location_content_swap">
         <source>Location Content Swap</source>
         <target xml:lang="pl" state="translated">Zamiana lokalizacji treści</target>
@@ -86,6 +156,11 @@
         <target xml:lang="pl" state="translated">Treści</target>
         <note>key: tab.view.content</note>
       </trans-unit>
+      <trans-unit id="48e20c2b09b340ca2e2020edaa30a57c8bc3f26b" resname="trash.delete.all.info">
+        <source>This action cannot be reversed</source>
+        <target xml:lang="pl" state="translated">Nie można cofnąć tej akcji</target>
+        <note>key: trash.delete.all.info</note>
+      </trans-unit>
       <trans-unit id="e500e3f1d454e2775bbe89b6267cd77c766df3f1" resname="trash.delete.button.cancel">
         <source>Cancel</source>
         <target xml:lang="pl" state="translated">Anuluj</target>
@@ -95,6 +170,11 @@
         <source>Cancel</source>
         <target xml:lang="pl" state="translated">Anuluj</target>
         <note>key: trash.form.cancel</note>
+      </trans-unit>
+      <trans-unit id="2720e3018fc8b1158cb728b1d5dc377ef7293b57" resname="trash.modal.message">
+        <source>Are you sure you want to send this content item to trash?</source>
+        <target xml:lang="pl" state="translated">Czy na pewno chcesz umieścić ten element w koszu?</target>
+        <note>key: trash.modal.message</note>
       </trans-unit>
     </body>
   </file>

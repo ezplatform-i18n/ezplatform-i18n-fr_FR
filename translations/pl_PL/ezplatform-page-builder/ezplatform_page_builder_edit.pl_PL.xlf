@@ -6,7 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
+      <trans-unit id="8343cec7024fb459d738278aca82b39710b89c50" resname="content.create_draft.success">
+        <source>New Version Draft for '%name%' created.</source>
+        <target xml:lang="pl" state="translated">Utworzono nową wersję szkicu dla '%name%'.</target>
+        <note>key: content.create_draft.success</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

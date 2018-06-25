@@ -46,6 +46,11 @@
         <target xml:lang="pl" state="translated">Sekcja</target>
         <note>key: policy.limitation.identifier.section</note>
       </trans-unit>
+      <trans-unit id="548bc922c693c8259cbfd3354451a3035e2fa6f6" resname="policy.limitation.identifier.siteaccess">
+        <source>SiteAccess</source>
+        <target xml:lang="pl" state="translated">SiteAccess</target>
+        <note>key: policy.limitation.identifier.siteaccess</note>
+      </trans-unit>
       <trans-unit id="30cc18895dfb23b14d3f9b8249e90baf678c8180" resname="policy.limitation.identifier.state">
         <source>State</source>
         <target xml:lang="pl" state="translated">Stan</target>

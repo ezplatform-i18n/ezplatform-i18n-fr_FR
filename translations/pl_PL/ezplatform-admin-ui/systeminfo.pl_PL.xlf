@@ -71,6 +71,11 @@
         <target xml:lang="pl" state="translated">Paczki</target>
         <note>key: packages</note>
       </trans-unit>
+      <trans-unit id="5bfa5c4492601632e405273e2f7ea28977f108c3" resname="packages.empty">
+        <source>No packages installed.</source>
+        <target xml:lang="pl" state="translated">Brak zainstalowanych pakietów.</target>
+        <note>key: packages.empty</note>
+      </trans-unit>
       <trans-unit id="93a035162ab0bf4e032b99d2909e0ac1274a3d0b" resname="packages.name">
         <source>Name</source>
         <target xml:lang="pl" state="translated">Nazwa</target>
@@ -85,6 +90,26 @@
         <source>PHP</source>
         <target xml:lang="pl" state="translated">PHP</target>
         <note>key: php</note>
+      </trans-unit>
+      <trans-unit id="43ebf283d294d1a15b5d590815cd893e52164ed9" resname="php.accelerator">
+        <source>Accelerator</source>
+        <target xml:lang="pl" state="translated">Akcelerator</target>
+        <note>key: php.accelerator</note>
+      </trans-unit>
+      <trans-unit id="ee982f9a979085f2f15b3ddc699bfada99429bb4" resname="php.info">
+        <source>PHP Info</source>
+        <target xml:lang="pl" state="translated">PHP Info</target>
+        <note>key: php.info</note>
+      </trans-unit>
+      <trans-unit id="98c89e1daa8c0a7c472af26752752299ff44ee23" resname="symfony_kernel">
+        <source>Symfony Kernel</source>
+        <target xml:lang="pl" state="translated">Jądro Symfony</target>
+        <note>key: symfony_kernel</note>
+      </trans-unit>
+      <trans-unit id="dbc3d622a5e78844eeb75f3e9477b90357984ad7" resname="symfony_kernel.bundles.empty">
+        <source>No bundles installed.</source>
+        <target xml:lang="pl" state="translated">Brak zainstalowanych paczek.</target>
+        <note>key: symfony_kernel.bundles.empty</note>
       </trans-unit>
       <trans-unit id="8bce9f0cf5c9c698c1907808aa20cfa0b1ec9ecb" resname="symfony_kernel.cacheDir">
         <source>Cache directory</source>

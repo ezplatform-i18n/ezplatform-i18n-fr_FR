@@ -16,10 +16,55 @@
         <target xml:lang="pl" state="translated">Sekcje</target>
         <note>key: limitation_type.section</note>
       </trans-unit>
+      <trans-unit id="5e91632f7d9ab6e55cf2df01163acebcb1a124d0" resname="limitation_type.subtree">
+        <source>Subtree</source>
+        <target xml:lang="pl" state="translated">Poddrzewo</target>
+        <note>key: limitation_type.subtree</note>
+      </trans-unit>
+      <trans-unit id="0dbfb3fd5136aa1d54a82ba5e5f399c2908d26f2" resname="locations.select_subtree">
+        <source>Select Subtree</source>
+        <target xml:lang="pl" state="translated">Wybierz poddrzewo</target>
+        <note>key: locations.select_subtree</note>
+      </trans-unit>
+      <trans-unit id="8e8d15bb05038bded496a7dfcdf6374b9449bc51" resname="policy.add.policy.title">
+        <source>Adding - Policy type</source>
+        <target xml:lang="pl" state="translated">Dodawanie - typ reguły</target>
+        <note>key: policy.add.policy.title</note>
+      </trans-unit>
+      <trans-unit id="df3bafbf431f3c222cebeaec45da0a089cf63736" resname="policy.add.set_limitation">
+        <source>Now you can set limitations for the policy.</source>
+        <target xml:lang="pl" state="translated">Możesz teraz nadawać ograniczenia dla reguły.</target>
+        <note>key: policy.add.set_limitation</note>
+      </trans-unit>
+      <trans-unit id="d92993cb4cb3690f06c599b5f500a29fa23421c9" resname="policy.add.success">
+        <source>New policies in role '%role%' created.</source>
+        <target xml:lang="pl" state="translated">Stworzono nowe reguły dla roli '%role%'.</target>
+        <note>key: policy.add.success</note>
+      </trans-unit>
+      <trans-unit id="196c8d4eec96ca42ccdd3605621d51e2b34b6d85" resname="policy.breadcrumb.add">
+        <source>Adding a new Policy</source>
+        <target xml:lang="pl" state="translated">Dodawanie nowej reguły</target>
+        <note>key: policy.breadcrumb.add</note>
+      </trans-unit>
       <trans-unit id="8a7079c136f19a37dc42a6192fb94a11d19105ad" resname="policy.breadcrumb.edit">
         <source>Edit limitations</source>
         <target xml:lang="pl" state="translated">Edytuj ograniczenia</target>
         <note>key: policy.breadcrumb.edit</note>
+      </trans-unit>
+      <trans-unit id="8a22274ebbfba3c96c4015fa64112db95d060525" resname="policy.delete.success">
+        <source>Policies in role '%role%' removed.</source>
+        <target xml:lang="pl" state="translated">Reguły dla roli '%role%' zostały usunięte.</target>
+        <note>key: policy.delete.success</note>
+      </trans-unit>
+      <trans-unit id="9c322357fb302e5b708bc1c11c287d8a4e4859ec" resname="policy.edit.no_limitations">
+        <source>Policy type '%policy%' does not contain limitations.</source>
+        <target xml:lang="pl" state="translated">Typ reguły '%policy%' nie zawiera ograniczeń.</target>
+        <note>key: policy.edit.no_limitations</note>
+      </trans-unit>
+      <trans-unit id="41bcfef149f877e1abb0ce2cd2aa5afb713ea1de" resname="policy.limitation.identifier_tooltip">
+        <source>"%identifier%" Limitation</source>
+        <target xml:lang="pl" state="translated">"%identifier%" ograniczenie</target>
+        <note>key: policy.limitation.identifier_tooltip</note>
       </trans-unit>
       <trans-unit id="77e814db3b3f1bd68101d274277bee08d164f0a2" resname="policy.limitation.none">
         <source>None</source>
@@ -30,6 +75,11 @@
         <source>Do you want to delete Policy?</source>
         <target xml:lang="pl" state="translated">Czy chcesz usunąć tę regułę?</target>
         <note>key: policy.modal.message</note>
+      </trans-unit>
+      <trans-unit id="bb8f2aa78c28aa25b5eade0c7f40c37110110ec5" resname="policy.update.success">
+        <source>Policies in role '%role%' updated.</source>
+        <target xml:lang="pl" state="translated">Reguły dla roli '%role%' zostały zaktualizowane.</target>
+        <note>key: policy.update.success</note>
       </trans-unit>
       <trans-unit id="aefaf3a17b8493e63c82678611eb6eacbcc45d19" resname="policy.view.edit.title">
         <source>Edit limitations</source>
@@ -76,6 +126,21 @@
         <target xml:lang="pl" state="translated">Reguły (%count%)</target>
         <note>key: policy.view.list.title.count</note>
       </trans-unit>
+      <trans-unit id="9b1c2c53df24e9d0d141037860eb87d2878bdb05" resname="policy.view.policy.title">
+        <source>Editing - Policy type</source>
+        <target xml:lang="pl" state="translated">Edycja - typ reguły</target>
+        <note>key: policy.view.policy.title</note>
+      </trans-unit>
+      <trans-unit id="43008c999ece1587436507732b3c1166c393f05c" resname="role.breadcrumb.add">
+        <source>Creating a new Role</source>
+        <target xml:lang="pl" state="translated">Tworzenie nowej roli</target>
+        <note>key: role.breadcrumb.add</note>
+      </trans-unit>
+      <trans-unit id="9cdc3dd417b63308f19cadbe01f74c21565b9947" resname="role.breadcrumb.edit">
+        <source>Editing Role: %identifier%</source>
+        <target xml:lang="pl" state="translated">Edycja roli: %identifier%</target>
+        <note>key: role.breadcrumb.edit</note>
+      </trans-unit>
       <trans-unit id="03e72944d22126b885a65f885ebf8f1b8e2f8579" resname="role.breadcrumb.list">
         <source>Roles</source>
         <target xml:lang="pl" state="translated">Role</target>
@@ -91,15 +156,60 @@
         <target xml:lang="pl" state="translated">Rola "%identifier%"</target>
         <note>key: role.breadcrumb.view.identifier</note>
       </trans-unit>
+      <trans-unit id="59754dcca61db396ef9de8abd3aa63645bd50f65" resname="role.create.success">
+        <source>Role '%role%' created.</source>
+        <target xml:lang="pl" state="translated">Rola '%role%' została utworzona.</target>
+        <note>key: role.create.success</note>
+      </trans-unit>
+      <trans-unit id="20c6318c88508393b9cb8413a6d7e61649f80ab3" resname="role.delete.success">
+        <source>Role '%role%' removed.</source>
+        <target xml:lang="pl" state="translated">Rola '%role%' została usunięta.</target>
+        <note>key: role.delete.success</note>
+      </trans-unit>
+      <trans-unit id="b8faa90fed74479d8cdb01dc2c0e1af8a79cf9b1" resname="role.modal.message">
+        <source>Do you want to delete Role?</source>
+        <target xml:lang="pl" state="translated">Czy chcesz usunąć rolę?</target>
+        <note>key: role.modal.message</note>
+      </trans-unit>
+      <trans-unit id="75637482fd2563256da5423615ecfb241fc03a57" resname="role.update.success">
+        <source>Role '%role%' updated.</source>
+        <target xml:lang="pl" state="translated">Rola '%role%' została zaktualizowana.</target>
+        <note>key: role.update.success</note>
+      </trans-unit>
+      <trans-unit id="da907b734c3ae3df8e9c570dd8e9e7e6d0799105" resname="role.view.add.title">
+        <source>Creating a new Role</source>
+        <target xml:lang="pl" state="translated">Tworzenie nowej roli</target>
+        <note>key: role.view.add.title</note>
+      </trans-unit>
+      <trans-unit id="d3938c40d50b4d6e972248900f2d43cda1fe02a3" resname="role.view.edit.title">
+        <source>Editing Role: %identifier%</source>
+        <target xml:lang="pl" state="translated">Edycja roli: %identifier%</target>
+        <note>key: role.view.edit.title</note>
+      </trans-unit>
+      <trans-unit id="88d7426f344cc9d85b90903dad013d5806b82faa" resname="role.view.list.action.add">
+        <source>Create a Role</source>
+        <target xml:lang="pl" state="translated">Utwórz rolę</target>
+        <note>key: role.view.list.action.add</note>
+      </trans-unit>
       <trans-unit id="18990f93cd60432ec47a75934185b7edbd3d17bf" resname="role.view.list.action.assign_to_users_or_groups">
         <source>Assign to Users/Groups</source>
         <target xml:lang="pl" state="translated">Przypisz użytkownikom/grupom</target>
         <note>key: role.view.list.action.assign_to_users_or_groups</note>
       </trans-unit>
+      <trans-unit id="e0b49df6c6b235f7eb4d03019d1f9505dd77a135" resname="role.view.list.action.delete">
+        <source>Delete Role</source>
+        <target xml:lang="pl" state="translated">Usuń rolę</target>
+        <note>key: role.view.list.action.delete</note>
+      </trans-unit>
       <trans-unit id="cb9d9934c021aa5f2b25bfa652279daa88c6086f" resname="role.view.list.action.edit">
         <source>Edit</source>
         <target xml:lang="pl" state="translated">Edytuj</target>
         <note>key: role.view.list.action.edit</note>
+      </trans-unit>
+      <trans-unit id="4cb9b2e474c4584dd193e46214b68897ebc6350f" resname="role.view.list.column.id">
+        <source>Role ID</source>
+        <target xml:lang="pl" state="translated">ID roli</target>
+        <note>key: role.view.list.column.id</note>
       </trans-unit>
       <trans-unit id="26470561bbbd003c0ad30bf2cb29f7da50e7d690" resname="role.view.list.column.name">
         <source>Name</source>
@@ -121,6 +231,31 @@
         <target xml:lang="pl" state="translated">Ograniczenia</target>
         <note>key: role_assignment.view.add.panel.limitations.title</note>
       </trans-unit>
+      <trans-unit id="f9465b09774c22747e887ffe9e6300fd02420546" resname="role_assignment.view.add.panel.users_and_groups.title">
+        <source>Users and Groups</source>
+        <target xml:lang="pl" state="translated">Użytkownicy i grupy</target>
+        <note>key: role_assignment.view.add.panel.users_and_groups.title</note>
+      </trans-unit>
+      <trans-unit id="61a5ec154d3f0620ec619d196611b011996128ff" resname="role_assignment.view.add.title">
+        <source>Assigning to Users/Groups</source>
+        <target xml:lang="pl" state="translated">Przypisywanie do użytkowników/grup</target>
+        <note>key: role_assignment.view.add.title</note>
+      </trans-unit>
+      <trans-unit id="a21a7a13956cadf2256095fbdd062f1b33dd05a8" resname="role_assignment.view.list.action.add">
+        <source>Assign users/groups</source>
+        <target xml:lang="pl" state="translated">Przypisz użytkowników/grupy</target>
+        <note>key: role_assignment.view.list.action.add</note>
+      </trans-unit>
+      <trans-unit id="76361d414c957ff63dcfdaf4490b3e9a2c632750" resname="role_assignment.view.list.action.delete">
+        <source>Delete Assignment</source>
+        <target xml:lang="pl" state="translated">Usuń przypisanie</target>
+        <note>key: role_assignment.view.list.action.delete</note>
+      </trans-unit>
+      <trans-unit id="5111796ffacfccc152f157c56a6e7219d35c3fd8" resname="role_assignment.view.list.header">
+        <source>Users and Groups</source>
+        <target xml:lang="pl" state="translated">Użytkownicy i grupy</target>
+        <note>key: role_assignment.view.list.header</note>
+      </trans-unit>
       <trans-unit id="f7b9f2997c5eada07c20a0bde7e89cc0c688e1ea" resname="role_assignment.view.list.panel.assignments.column.limitation">
         <source>Limitation</source>
         <target xml:lang="pl" state="translated">Ograniczenie</target>
@@ -131,10 +266,20 @@
         <target xml:lang="pl" state="translated">Ograniczenia</target>
         <note>key: role_assignment.view.list.panel.assignments.column.limitations</note>
       </trans-unit>
+      <trans-unit id="bedf1e132292302ec09e4646d9a348a56e2c1ce8" resname="role_assignment.view.list.panel.assignments.column.user_group">
+        <source>User/Group</source>
+        <target xml:lang="pl" state="translated">Użytkownik/grupa</target>
+        <note>key: role_assignment.view.list.panel.assignments.column.user_group</note>
+      </trans-unit>
       <trans-unit id="4b3ecf13ffafd795bc971bc6292ea7f5a0bbe64c" resname="role_assignment.view.list.title.count">
         <source>Assignments (%count%)</source>
         <target xml:lang="pl" state="translated">Przypisania (%count%)</target>
         <note>key: role_assignment.view.list.title.count</note>
+      </trans-unit>
+      <trans-unit id="304836ca19b0d01940431c18b955ae028a6110f9" resname="role_assignments.modal.message">
+        <source>Do you want to delete Role Assignments?</source>
+        <target xml:lang="pl" state="translated">Czy chcesz usunąć przypisania do roli?</target>
+        <note>key: role_assignments.modal.message</note>
       </trans-unit>
       <trans-unit id="e9f659f5717d317c994c7950c14bcb4be644062c" resname="tab.roles.limitation">
         <source>Limitation</source>
@@ -150,6 +295,11 @@
         <source>Roles</source>
         <target xml:lang="pl" state="translated">Role</target>
         <note>key: tab.roles.roles</note>
+      </trans-unit>
+      <trans-unit id="5abe6179f254b9bdd5e8680eec4456118980932e" resname="validator.assign_users_or_groups">
+        <source>Assign User(s) and/or Group(s) to the Role</source>
+        <target xml:lang="pl" state="translated">Przypisz użytkownika(ów) i/lub grupę(y) do roli</target>
+        <note>key: validator.assign_users_or_groups</note>
       </trans-unit>
     </body>
   </file>

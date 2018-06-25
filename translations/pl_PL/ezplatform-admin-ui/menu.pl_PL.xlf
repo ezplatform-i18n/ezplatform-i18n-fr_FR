@@ -11,6 +11,11 @@
         <target xml:lang="pl" state="translated">Kopiuj</target>
         <note>key: content__sidebar_right__copy</note>
       </trans-unit>
+      <trans-unit id="0d5f60093de3b822740abad95d1f8cb2195869c9" resname="content__sidebar_right__copy_subtree">
+        <source>Copy Subtree</source>
+        <target xml:lang="pl" state="translated">Skopiuj poddrzewo</target>
+        <note>key: content__sidebar_right__copy_subtree</note>
+      </trans-unit>
       <trans-unit id="a2fafde1538959ee924436a6d4bbd8269c1ac412" resname="content__sidebar_right__create">
         <source>Create</source>
         <target xml:lang="pl" state="translated">Utwórz</target>
@@ -86,25 +91,50 @@
         <target xml:lang="pl" state="translated">Utwórz</target>
         <note>key: content_type_create__sidebar_right__save</note>
       </trans-unit>
+      <trans-unit id="17d86a1011976758251b804acfbe8092d2860946" resname="content_type_edit__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target xml:lang="pl" state="translated">Odrzuć zmiany</target>
+        <note>key: content_type_edit__sidebar_right__cancel</note>
+      </trans-unit>
       <trans-unit id="f1ac6aebd0e5474137a997b41677e5ae6c78670b" resname="content_type_edit__sidebar_right__save">
         <source>Save</source>
         <target xml:lang="pl" state="translated">Zapisz</target>
         <note>key: content_type_edit__sidebar_right__save</note>
+      </trans-unit>
+      <trans-unit id="ccdcdc5c7e006c865c33b29eee9c6b9e232a9308" resname="content_type_group_create__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target xml:lang="pl" state="translated">Odrzuć zmiany</target>
+        <note>key: content_type_group_create__sidebar_right__cancel</note>
       </trans-unit>
       <trans-unit id="71e6fb2e4bbbcaaf043cdca260f6ba38f8ce2911" resname="content_type_group_create__sidebar_right__create">
         <source>Create</source>
         <target xml:lang="pl" state="translated">Utwórz</target>
         <note>key: content_type_group_create__sidebar_right__create</note>
       </trans-unit>
+      <trans-unit id="0fa3cd41a8153814006c36b35a949d64576eaeea" resname="content_type_group_edit__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target xml:lang="pl" state="translated">Odrzuć zmiany</target>
+        <note>key: content_type_group_edit__sidebar_right__cancel</note>
+      </trans-unit>
       <trans-unit id="3951c5df8bf1c00b0dd99dc06acc76d1908ec825" resname="content_type_group_edit__sidebar_right__save">
         <source>Save</source>
         <target xml:lang="pl" state="translated">Zapisz</target>
         <note>key: content_type_group_edit__sidebar_right__save</note>
       </trans-unit>
+      <trans-unit id="65804c068820b5fa679357bc65c5862d0fc90701" resname="language_create__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target xml:lang="pl" state="translated">Odrzuć zmiany</target>
+        <note>key: language_create__sidebar_right__cancel</note>
+      </trans-unit>
       <trans-unit id="43db6515a6b373d14e37f88c19c7663a9fa3ae8f" resname="language_create__sidebar_right__create">
         <source>Create</source>
         <target xml:lang="pl" state="translated">Utwórz</target>
         <note>key: language_create__sidebar_right__create</note>
+      </trans-unit>
+      <trans-unit id="09a41e6afdef6eda2c027b7e742777f3a9bd1749" resname="language_edit__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target xml:lang="pl" state="translated">Odrzuć zmiany</target>
+        <note>key: language_edit__sidebar_right__cancel</note>
       </trans-unit>
       <trans-unit id="31bae088f62a5a502882b1e2cee04e14fe6617ab" resname="language_edit__sidebar_right__save">
         <source>Save</source>
@@ -171,55 +201,110 @@
         <target xml:lang="pl" state="translated">Admin</target>
         <note>key: main_admin</note>
       </trans-unit>
+      <trans-unit id="f3561dffc3e7e63e03f3f5d1a4e2b4eda80e051a" resname="object_state_create__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target xml:lang="pl" state="translated">Odrzuć zmiany</target>
+        <note>key: object_state_create__sidebar_right__cancel</note>
+      </trans-unit>
       <trans-unit id="1052991c551dfafbaca03084515a930162d9f453" resname="object_state_create__sidebar_right__create">
         <source>Create</source>
         <target xml:lang="pl" state="translated">Utwórz</target>
         <note>key: object_state_create__sidebar_right__create</note>
+      </trans-unit>
+      <trans-unit id="b18f3c02433848bb82632323b018b3e3094c5eab" resname="object_state_edit__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target xml:lang="pl" state="translated">Odrzuć zmiany</target>
+        <note>key: object_state_edit__sidebar_right__cancel</note>
       </trans-unit>
       <trans-unit id="063a560058e7b40ddfc281c414fa7bb7056cb18d" resname="object_state_edit__sidebar_right__save">
         <source>Save</source>
         <target xml:lang="pl" state="translated">Zapisz</target>
         <note>key: object_state_edit__sidebar_right__save</note>
       </trans-unit>
+      <trans-unit id="6d0d5ef21648f88e82cdd49203e02eb897d55290" resname="object_state_group_create__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target xml:lang="pl" state="translated">Odrzuć zmiany</target>
+        <note>key: object_state_group_create__sidebar_right__cancel</note>
+      </trans-unit>
       <trans-unit id="929c5571f3871d9c90c2eaacb8b41ffd25ed71de" resname="object_state_group_create__sidebar_right__create">
         <source>Create</source>
         <target xml:lang="pl" state="translated">Utwórz</target>
         <note>key: object_state_group_create__sidebar_right__create</note>
+      </trans-unit>
+      <trans-unit id="b5dfd081ee2a144e617aaa44648c631d6bc09fee" resname="object_state_group_edit__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target xml:lang="pl" state="translated">Odrzuć zmiany</target>
+        <note>key: object_state_group_edit__sidebar_right__cancel</note>
       </trans-unit>
       <trans-unit id="c0dc534365fb45019db9b586ca8a71db6edda39d" resname="object_state_group_edit__sidebar_right__save">
         <source>Save</source>
         <target xml:lang="pl" state="translated">Zapisz</target>
         <note>key: object_state_group_edit__sidebar_right__save</note>
       </trans-unit>
+      <trans-unit id="bd668569e3e19db4ee8d34e4008f9bfceaad437b" resname="policy_create__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target xml:lang="pl" state="translated">Odrzuć zmiany</target>
+        <note>key: policy_create__sidebar_right__cancel</note>
+      </trans-unit>
       <trans-unit id="d33542eb7c2590dd5a7b92764f02a1b40fb99b8a" resname="policy_create__sidebar_right__create">
         <source>Create</source>
         <target xml:lang="pl" state="translated">Utwórz</target>
         <note>key: policy_create__sidebar_right__create</note>
+      </trans-unit>
+      <trans-unit id="6a2ed71b1ade1376874c2dffd3f5c85f6449a4af" resname="policy_edit__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target xml:lang="pl" state="translated">Odrzuć zmiany</target>
+        <note>key: policy_edit__sidebar_right__cancel</note>
       </trans-unit>
       <trans-unit id="cb47e2c35d152c762cc9923eed5ca55bad4a1d8f" resname="policy_edit__sidebar_right__save">
         <source>Update</source>
         <target xml:lang="pl" state="translated">Aktualizuj</target>
         <note>key: policy_edit__sidebar_right__save</note>
       </trans-unit>
+      <trans-unit id="540d43aee8ab9ad7c36096274135992fbf77ae41" resname="role_assignment_create__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target xml:lang="pl" state="translated">Odrzuć zmiany</target>
+        <note>key: role_assignment_create__sidebar_right__cancel</note>
+      </trans-unit>
       <trans-unit id="63bb349c122da33ab95d2e395ca9a62f8050bf66" resname="role_assignment_create__sidebar_right__save">
         <source>Save</source>
         <target xml:lang="pl" state="translated">Zapisz</target>
         <note>key: role_assignment_create__sidebar_right__save</note>
+      </trans-unit>
+      <trans-unit id="ec3a03215b15b79b7db72bac312b5e59734ac99c" resname="role_create__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target xml:lang="pl" state="translated">Odrzuć zmiany</target>
+        <note>key: role_create__sidebar_right__cancel</note>
       </trans-unit>
       <trans-unit id="33799ab1dc31d85544fafe36e9d0c3a75093b50f" resname="role_create__sidebar_right__create">
         <source>Create</source>
         <target xml:lang="pl" state="translated">Utwórz</target>
         <note>key: role_create__sidebar_right__create</note>
       </trans-unit>
+      <trans-unit id="036fc934f3d8e04e278ec68b3e8045b212ec1a8f" resname="role_edit__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target xml:lang="pl" state="translated">Odrzuć zmiany</target>
+        <note>key: role_edit__sidebar_right__cancel</note>
+      </trans-unit>
       <trans-unit id="feda90199751e252928f5cba2e56f0a0a85a2248" resname="role_edit__sidebar_right__save">
         <source>Save</source>
         <target xml:lang="pl" state="translated">Zapisz</target>
         <note>key: role_edit__sidebar_right__save</note>
       </trans-unit>
+      <trans-unit id="118456f08e78dac2945c59eb317427f1abb88c3b" resname="section_create__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target xml:lang="pl" state="translated">Odrzuć zmiany</target>
+        <note>key: section_create__sidebar_right__cancel</note>
+      </trans-unit>
       <trans-unit id="4d26537b666dbf7a810b8742ea50f5bc51f83a3e" resname="section_create__sidebar_right__create">
         <source>Create</source>
         <target xml:lang="pl" state="translated">Utwórz</target>
         <note>key: section_create__sidebar_right__create</note>
+      </trans-unit>
+      <trans-unit id="61044b3382030ab6a876b6d4270e8af4e5f04dc1" resname="section_edit__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target xml:lang="pl" state="translated">Odrzuć zmiany</target>
+        <note>key: section_edit__sidebar_right__cancel</note>
       </trans-unit>
       <trans-unit id="e33deebc2c2c317aa44b31e5d8c4148fdfb1dc34" resname="section_edit__sidebar_right__save">
         <source>Save</source>
@@ -245,6 +330,16 @@
         <source>Trash</source>
         <target xml:lang="pl" state="translated">Kosz</target>
         <note>key: sidebar_left__trash</note>
+      </trans-unit>
+      <trans-unit id="ae876d2c3fdb4f08383aefae6106b69dfe124b38" resname="trash__sidebar_right__empty_trash">
+        <source>Empty Trash</source>
+        <target xml:lang="pl" state="translated">Opróżnij kosz</target>
+        <note>key: trash__sidebar_right__empty_trash</note>
+      </trans-unit>
+      <trans-unit id="5ded8d45683caa8bb19649d5cc39bd76ebabfa63" resname="url_edit__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target xml:lang="pl" state="translated">Odrzuć zmiany</target>
+        <note>key: url_edit__sidebar_right__cancel</note>
       </trans-unit>
       <trans-unit id="9e8d8f6d06a5950f649d63b453d6dab7eba33f11" resname="url_edit__sidebar_right__save">
         <source>Save</source>
