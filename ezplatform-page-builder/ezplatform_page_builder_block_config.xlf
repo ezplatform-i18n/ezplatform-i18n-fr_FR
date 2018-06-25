@@ -16,10 +16,35 @@
         <target>Select Content</target>
         <note>key: block.collection.select.content</note>
       </trans-unit>
-      <trans-unit id="26a1974ffe505cdec38cc61f4d1f9cc98ebe24d9" resname="block.collection.select.content.label">
-        <source>Select Content item(s)</source>
-        <target>Select Content item(s)</target>
-        <note>key: block.collection.select.content.label</note>
+      <trans-unit id="8f471b1b27d61346fdea81d93fc467fe08637010" resname="page_builder.block_configuration.class">
+        <source>Class</source>
+        <target state="new">Class</target>
+        <note>key: page_builder.block_configuration.class</note>
+      </trans-unit>
+      <trans-unit id="f25907170d46ba21aa3ab7e5a401a1c38d340168" resname="page_builder.block_configuration.name">
+        <source>Name</source>
+        <target state="new">Name</target>
+        <note>key: page_builder.block_configuration.name</note>
+      </trans-unit>
+      <trans-unit id="a363cc97ca5dac850fefc1b41cac480c09d9cd56" resname="page_builder.block_configuration.since">
+        <source>Since</source>
+        <target state="new">Since</target>
+        <note>key: page_builder.block_configuration.since</note>
+      </trans-unit>
+      <trans-unit id="f1269b6fc5483b2a1528e8b2f1938cc37ab537c2" resname="page_builder.block_configuration.style">
+        <source>Style</source>
+        <target state="new">Style</target>
+        <note>key: page_builder.block_configuration.style</note>
+      </trans-unit>
+      <trans-unit id="b0c9f9a3280a1b2a7b9868259f1372a657018e2a" resname="page_builder.block_configuration.till">
+        <source>Till</source>
+        <target state="new">Till</target>
+        <note>key: page_builder.block_configuration.till</note>
+      </trans-unit>
+      <trans-unit id="02ba70eaa60e10264ec65a0da1ac96d9b110759f" resname="page_builder.block_configuration.view">
+        <source>View</source>
+        <target state="new">View</target>
+        <note>key: page_builder.block_configuration.view</note>
       </trans-unit>
       <trans-unit id="391b814dc27a7b6065e56676a1d6a3fc17bb7b95" resname="select.content">
         <source>Select content</source>
