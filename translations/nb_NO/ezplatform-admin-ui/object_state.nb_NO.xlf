@@ -11,6 +11,11 @@
         <target xml:lang="nb" state="needs-translation"> </target>
         <note>key: object_state.bulk_delete.delete</note>
       </trans-unit>
+      <trans-unit id="3f83af98ac201931eaf0055972d467c386ab72ef" resname="object_state.button.set">
+        <source>Set</source>
+        <target xml:lang="nb" state="translated">Sett</target>
+        <note>key: object_state.button.set</note>
+      </trans-unit>
       <trans-unit id="ba36d98066b4d157d8c91e3d642a2b54442f4846" resname="object_state.create.identifier">
         <source>Identifier</source>
         <target xml:lang="nb" state="translated">Identifikator</target>
