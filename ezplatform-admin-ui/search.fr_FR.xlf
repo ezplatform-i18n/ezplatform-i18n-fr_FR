@@ -109,6 +109,11 @@
         <target xml:lang="fr" state="translated">L'année dernière</target>
         <note>key: search.last_year</note>
       </trans-unit>
+      <trans-unit id="6ceaf9887c3974130781c3dadfcb129926496770" resname="search.list">
+        <source>search.list</source>
+        <target xml:lang="fr" state="translated">Liste de recherche</target>
+        <note>key: search.list</note>
+      </trans-unit>
       <trans-unit id="0ea91510ce49731de30d4d412dc62c83c91b359d" resname="search.modified">
         <source>Modified</source>
         <target xml:lang="fr" state="translated">Modifié</target>
