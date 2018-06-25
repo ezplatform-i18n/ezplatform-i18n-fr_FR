@@ -14,7 +14,15 @@ try {
     exit(1);
 }
 
-foreach (explode(PHP_EOL, `git diff ..l10n_master --name-only`) as $file)
+exec('git diff ..l10n_master --name-only 2>&1', $diff, $return);
+if ($return !== 0) {
+    echo "An error occured when running git diff against l10n_master:\n\n";
+    echo implode("\n", $diff);
+    exit(1);
+
+}
+
+foreach ($diff as $file)
 {
     if (!preg_match('|translations/([a-z]{2,3}_[a-z]{2,3})/.*\.xlf|i', $file, $m)) {
         continue;
@@ -47,15 +55,17 @@ foreach ($translations as $directory => $data) {
         $directory
     );
     $commands[] = sprintf(
-        'git commit -m "%s translation (%d%% translated, %d%% approved)"',
+        'git commit -m "%s translation: %d%% translated (+%d), %d%% approved (+%d)"',
         $data['name'],
         $data['status']['translated_progress'],
-        $data['status']['approved_progress']
+        $data['status']['approved_progress'],
+        $data['previous']['translated_progress'],
+        $data['previous']['approved_progress']
     );
 }
 
 echo implode("\n", $commands );
-echo "Run command (y/n)?\n\n";
+echo "\n\nRun command (y/n)?\n\n";
 $answer = fgetc(STDIN);
 if ($answer == 'y') {
     foreach ($commands as $command) {
@@ -108,9 +118,22 @@ function getLanguagesData()
 
         $directory = $languagesMap[$status->code];
 
+        $previousStatus = ['translated_progress' => 0, 'approved_progress' => 0];
+        exec("git log --format=%s translations/$directory", $log);
+        foreach ($log as $logLine) {
+            if (preg_match("/([0-9]{1,3})% translated/", $logLine, $m)) {
+                $previousStatus['translated_progress'] = $m[1];
+                if (preg_match("/([0-9]{1,3})% approved/", $logLine, $m)) {
+                    $previousStatus['approved_progress'] = $m[1];
+                }
+                break;
+            }
+        }
+
         $languagesData[$directory] = [
             'name' => $status->name,
             'status' => (array)$status,
+            'previous' => $previousStatus,
         ];
     }
 
