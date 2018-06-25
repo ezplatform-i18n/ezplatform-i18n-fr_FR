@@ -65,7 +65,7 @@ foreach ($translations as $directory => $data) {
 }
 
 echo implode("\n", $commands );
-echo "\n\nRun command (y/n)?\n\n";
+echo "\n\nRun command (y/n)? ";
 $answer = fgetc(STDIN);
 if ($answer == 'y') {
     foreach ($commands as $command) {
@@ -73,6 +73,8 @@ if ($answer == 'y') {
         system($command);
     }
 }
+
+echo "\n\n";
 
 function getLanguagesData()
 {
