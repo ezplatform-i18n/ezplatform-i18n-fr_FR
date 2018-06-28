@@ -11,6 +11,11 @@
         <target xml:lang="pl" state="translated">Utwórz treść</target>
         <note>key: content.create.choose_content_type</note>
       </trans-unit>
+      <trans-unit id="f599001c1ab9442f20e23d535e1dad8f3b75c337" resname="content.create.select_content_type">
+        <source>Select Content Type</source>
+        <target xml:lang="pl" state="translated">Wybierz typ treści</target>
+        <note>key: content.create.select_content_type</note>
+      </trans-unit>
       <trans-unit id="8b5180d90c79245ed3e491e6f682842daaa0bec5" resname="content.create.select_language">
         <source>Select language</source>
         <target xml:lang="pl" state="translated">Wybierz język</target>
@@ -234,6 +239,11 @@
         <target xml:lang="pl" state="translated">Reguły</target>
         <note>key: tab.name.policies</note>
       </trans-unit>
+      <trans-unit id="8954433abc5d011c00f81f317c7eebec41fbb1c0" resname="tab.name.relations">
+        <source>Relations</source>
+        <target xml:lang="pl" state="translated">Powiązania</target>
+        <note>key: tab.name.relations</note>
+      </trans-unit>
       <trans-unit id="c58716ba1092b0208a11137dc226327a3ddf84dc" resname="tab.name.roles">
         <source>Roles</source>
         <target xml:lang="pl" state="translated">Role</target>
@@ -259,6 +269,26 @@
         <target xml:lang="pl" state="translated">Widok</target>
         <note>key: tab.name.view</note>
       </trans-unit>
+      <trans-unit id="373c6d223e1f346d71cf6cfd85f0fbc3d76ca1d5" resname="tab.relations.no_relations">
+        <source>This content item has no related content.</source>
+        <target xml:lang="pl" state="translated">Ten element nie ma powiązań.</target>
+        <note>key: tab.relations.no_relations</note>
+      </trans-unit>
+      <trans-unit id="1c95181a07cb4d7b83aa9b003eb4e8df95c8bfd9" resname="tab.relations.no_reverse_relations">
+        <source>This content item has no reverse relations.</source>
+        <target xml:lang="pl" state="translated">Ten element nie ma powiązań odwrotnych.</target>
+        <note>key: tab.relations.no_reverse_relations</note>
+      </trans-unit>
+      <trans-unit id="853cb6f02ff64af4dc6016318eff1c30bd16cc70" resname="tab.relations.related_content">
+        <source>Related content (content items used by %contentName%)</source>
+        <target xml:lang="pl" state="translated">Elementy powiązane (elementy używane przez %contentName%)</target>
+        <note>key: tab.relations.related_content</note>
+      </trans-unit>
+      <trans-unit id="797eb29381132df5a71378b71b3237cf9a063b5c" resname="tab.relations.reverse_relations">
+        <source>Reverse relations (content items using %contentName%)</source>
+        <target xml:lang="pl" state="translated">Powiązania odwrotne (elementy używające %contentName%)</target>
+        <note>key: tab.relations.reverse_relations</note>
+      </trans-unit>
       <trans-unit id="d667f9ef2cf04ce8966bc908b8930be596925561" resname="tab.relations.table.content_type">
         <source>Content type</source>
         <target xml:lang="pl" state="translated">Typy treści</target>
@@ -271,13 +301,24 @@
       </trans-unit>
       <trans-unit id="06422c0c484b663ec929d1049a228a26b9d48476" resname="tab.relations.table.relation_type">
         <source>Relation type</source>
-        <target xml:lang="pl" state="translated">Typ relacji</target>
+        <target xml:lang="pl" state="translated">Typ powiązania</target>
         <note>key: tab.relations.table.relation_type</note>
+        <alt-trans>
+          <target xml:lang="pl">Typ relacji</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="d8360b13746f836dc7c28998696a69b24ea30b18" resname="tab.relations.table.relation_type.content_level_relation">
+        <source>Content level relation</source>
+        <target xml:lang="pl" state="translated">Powiązanie na poziomie elementu</target>
+        <note>key: tab.relations.table.relation_type.content_level_relation</note>
       </trans-unit>
       <trans-unit id="79779455bd3c932297c6b8cefdcd1251836525c5" resname="tab.relations.table.relation_type.embed">
         <source>Embed</source>
-        <target xml:lang="pl" state="translated">Osadź</target>
+        <target xml:lang="pl" state="translated">Osadzone</target>
         <note>key: tab.relations.table.relation_type.embed</note>
+        <alt-trans>
+          <target xml:lang="pl">Osadź</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="9a9a16a9516cdda3bc3213bbdf77a02ff04b8fc8" resname="tab.relations.table.relation_type.field">
         <source>Field</source>
@@ -329,6 +370,11 @@
         <target xml:lang="pl" state="translated">Nazwa języka</target>
         <note>key: tab.translations.language_name</note>
       </trans-unit>
+      <trans-unit id="e8d52c9e980661178d301e925ac8c74661b4350d" resname="tab.translations.modal.message">
+        <source>Do you want to delete Translation?</source>
+        <target xml:lang="pl" state="translated">Czy chcesz usunąć to tłumaczenie?</target>
+        <note>key: tab.translations.modal.message</note>
+      </trans-unit>
       <trans-unit id="852ca97b78e55e9b7734ff3e5a6c1b3fde6eca6f" resname="tab.translations.translation_manger">
         <source>Translation manager</source>
         <target xml:lang="pl" state="translated">Zarządzaj tłumaczeniami</target>
@@ -348,6 +394,16 @@
         <source>Draft under edit</source>
         <target xml:lang="pl" state="translated">Szkic w trakcie edycji</target>
         <note>key: tab.versions.draft_under_edit</note>
+      </trans-unit>
+      <trans-unit id="134ac8f9b086171dcda7931b3bb7acc0042bb1c9" resname="tab.versions.modal.message">
+        <source>Do you want to delete Versions?</source>
+        <target xml:lang="pl" state="translated">Czy chcesz usunąć te wersje?</target>
+        <note>key: tab.versions.modal.message</note>
+      </trans-unit>
+      <trans-unit id="8cf65ae83fb935858286b91006ff05b9d6d15c4a" resname="tab.versions.no_permission">
+        <source>You don't have access to view the content item's versions</source>
+        <target xml:lang="pl" state="translated">Nie masz uprawnień do obejrzenia wersji elementu</target>
+        <note>key: tab.versions.no_permission</note>
       </trans-unit>
       <trans-unit id="f6c48627db1d026d9f3fbc3b5b1cb1b3c60af4b3" resname="tab.versions.published_version">
         <source>Published version</source>

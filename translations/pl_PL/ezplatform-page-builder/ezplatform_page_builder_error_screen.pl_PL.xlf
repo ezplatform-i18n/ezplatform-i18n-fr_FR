@@ -11,6 +11,11 @@
         <target xml:lang="pl" state="translated">Nie można wyświetlić strony w aplikacji Page Builder.</target>
         <note>key: cannot.display.this.page</note>
       </trans-unit>
+      <trans-unit id="f298d2852684440367a0b6c1549f818ecd6ceb3b" resname="preview.could.not.be.loaded">
+        <source>The preview couldn’t be loaded. This preview page is on another domain, that is not configured to work with Page Builder.</source>
+        <target xml:lang="pl" state="translated">Nie udało się wczytać podglądu. Strona do podglądu znajduje się w innej domenie, dla której Edytor Stron nie ma konfiguracji.</target>
+        <note>key: preview.could.not.be.loaded</note>
+      </trans-unit>
       <trans-unit id="a89fa23dda796749c6bb7c0290ee22ae4a731c23" resname="you.can.go.back.to.previous.page">
         <source><![CDATA[You can go back to the previous website or to <a class="ez-error-screen__link">the previous previewed page</a>]]></source>
         <target xml:lang="pl" state="translated"><![CDATA[Możesz powrócić do poprzedniej witryny lub do <a class="ez-error-screen__link">poprzednio przeglądanej strony</a>]]></target>

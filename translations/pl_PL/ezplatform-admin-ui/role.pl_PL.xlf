@@ -81,6 +81,11 @@
         <target xml:lang="pl" state="translated">Reguły dla roli '%role%' zostały zaktualizowane.</target>
         <note>key: policy.update.success</note>
       </trans-unit>
+      <trans-unit id="1ac24fa007363b4280663fba53f7a3b436ed4c8f" resname="policy.view.add.title">
+        <source>Adding a new Policy</source>
+        <target xml:lang="pl" state="translated">Dodawanie nowej reguły</target>
+        <note>key: policy.view.add.title</note>
+      </trans-unit>
       <trans-unit id="aefaf3a17b8493e63c82678611eb6eacbcc45d19" resname="policy.view.edit.title">
         <source>Edit limitations</source>
         <target xml:lang="pl" state="translated">Edytuj ograniczenia</target>
@@ -130,6 +135,16 @@
         <source>Editing - Policy type</source>
         <target xml:lang="pl" state="translated">Edycja - typ reguły</target>
         <note>key: policy.view.policy.title</note>
+      </trans-unit>
+      <trans-unit id="e2b7ae0acb75f99dc7943574a63b36abbb6c42bf" resname="role.assignment_create.success">
+        <source>Assignments on role '%role%' created.</source>
+        <target xml:lang="pl" state="translated">Przypisano do roli '%role%'.</target>
+        <note>key: role.assignment_create.success</note>
+      </trans-unit>
+      <trans-unit id="f684c343da285bc7273d4671a257d2731ccc83a2" resname="role.assignment_delete.success">
+        <source>Assignment on role '%role%' removed.</source>
+        <target xml:lang="pl" state="translated">Usunięto przypisanie do roli '%role%'.</target>
+        <note>key: role.assignment_delete.success</note>
       </trans-unit>
       <trans-unit id="43008c999ece1587436507732b3c1166c393f05c" resname="role.breadcrumb.add">
         <source>Creating a new Role</source>
@@ -226,6 +241,11 @@
         <target xml:lang="pl" state="translated">Rola "%identifier%"</target>
         <note>key: role.view.view.title</note>
       </trans-unit>
+      <trans-unit id="84f19e53b432c72daaf803a5cbb9bf10d763b5e4" resname="role.viewing">
+        <source><![CDATA[Viewing <strong>%viewing%</strong> out of <strong>%total%</strong> items]]></source>
+        <target xml:lang="pl" state="translated"><![CDATA[Wyświetlane <strong>%viewing%</strong> z <strong>%total%</strong> elementów]]></target>
+        <note>key: role.viewing</note>
+      </trans-unit>
       <trans-unit id="e7ff6be9f5a7368f2493f29eacfa1ee321d9c383" resname="role_assignment.view.add.panel.limitations.title">
         <source>Limitations</source>
         <target xml:lang="pl" state="translated">Ograniczenia</target>
@@ -290,6 +310,11 @@
         <source>Name</source>
         <target xml:lang="pl" state="translated">Nazwa</target>
         <note>key: tab.roles.name</note>
+      </trans-unit>
+      <trans-unit id="9e3fbe7cbb68fbe5996471da829e0fab59c3fc8b" resname="tab.roles.no_roles">
+        <source>This content item has no roles.</source>
+        <target xml:lang="pl" state="translated">Ten element nie ma przypisanych ról.</target>
+        <note>key: tab.roles.no_roles</note>
       </trans-unit>
       <trans-unit id="cfba356470eba180c21d9a43e9bebbfe5e2d427b" resname="tab.roles.roles">
         <source>Roles</source>

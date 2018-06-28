@@ -11,6 +11,11 @@
         <target xml:lang="pl" state="translated">Identyfikator sekcji może wyłącznie posiadać litery od "a" do "z", cyfry oraz podkreślenia.</target>
         <note>key: ez.section.identifier.format</note>
       </trans-unit>
+      <trans-unit id="0727f822c8bebb99cd8a75ec16d4008c74d30b24" resname="ezplatform.change_user_password.not_match">
+        <source>Old password does not match.</source>
+        <target xml:lang="pl" state="translated">Stare hasło nie zgadza się.</target>
+        <note>key: ezplatform.change_user_password.not_match</note>
+      </trans-unit>
       <trans-unit id="54d912b0089483cfd533714e50262851b6d1421a" resname="ezplatform.change_user_password.passwords_must_match">
         <source>The password fields must match.</source>
         <target xml:lang="pl" state="translated">Podane hasła nie są identyczne.</target>
@@ -25,6 +30,11 @@
         <source>Selected Location can not be root Location.</source>
         <target xml:lang="pl" state="translated">Wybrana lokalizacja nie może być lokalizacją główną.</target>
         <note>key: ezplatform.copy_subtree.is_root</note>
+      </trans-unit>
+      <trans-unit id="fc7e56b8b26344ec7393604951e1fb2199069e18" resname="ezplatform.copy_subtree.is_sub_location">
+        <source>Target parent location is a sub location of the source subtree</source>
+        <target xml:lang="pl" state="translated">Docelowa lokalizacja nadrzędna jest dzieckiem poddrzewa źródłowego</target>
+        <note>key: ezplatform.copy_subtree.is_sub_location</note>
       </trans-unit>
       <trans-unit id="631da4c4fb5b000ee7f5c0c422e830ca192341a6" resname="ezplatform.copy_subtree.limit_exceeded">
         <source>Copy subtree limit exceeded. Current limit: %currentLimit%</source>
@@ -50,6 +60,11 @@
         <source>A valid email address is required</source>
         <target xml:lang="pl" state="translated">Wymagany jest prawidłowy adres email</target>
         <note>key: js.error.invalid_email</note>
+      </trans-unit>
+      <trans-unit id="5c26acfa4532917d4763c44d5b7ec8dd180b98a4" resname="js.error.invalid_file_size">
+        <source>{fieldName}: Cannot upload. File exceeds file size limit.</source>
+        <target xml:lang="pl" state="translated">{fieldName}: Nie można wgrać. Rozmiar pliku przekacza limit.</target>
+        <note>key: js.error.invalid_file_size</note>
       </trans-unit>
       <trans-unit id="21c38818d1cb73ff54f0dc0b184d6de25058f24d" resname="js.error.invalid_url">
         <source>A valid URL is required</source>

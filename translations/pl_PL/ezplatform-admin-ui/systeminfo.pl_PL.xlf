@@ -66,6 +66,11 @@
         <target xml:lang="pl" state="translated">Pamięć</target>
         <note>key: memory</note>
       </trans-unit>
+      <trans-unit id="a5a3d389f27a890d41a05f33c37b2f6133497c88" resname="mhz">
+        <source>mhz</source>
+        <target xml:lang="pl" state="translated">mhz</target>
+        <note>key: mhz</note>
+      </trans-unit>
       <trans-unit id="d8ae088aee969371bf4ed994e9106b5d3e799c35" resname="packages">
         <source>Packages</source>
         <target xml:lang="pl" state="translated">Paczki</target>

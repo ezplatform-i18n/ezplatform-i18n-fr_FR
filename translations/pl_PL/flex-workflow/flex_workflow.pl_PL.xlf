@@ -91,6 +91,11 @@
         <target xml:lang="pl" state="translated">Wyślij do recenzji</target>
         <note>key: menu.flex_workflow</note>
       </trans-unit>
+      <trans-unit id="52301360c45fd1f17f0c98140c4dc5296ed08eb6" resname="send_for_review">
+        <source>send_for_review</source>
+        <target xml:lang="pl" state="translated">Wyślij do recenzji</target>
+        <note>key: send_for_review</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

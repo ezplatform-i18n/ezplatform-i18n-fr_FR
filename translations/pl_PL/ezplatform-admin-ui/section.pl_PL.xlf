@@ -16,6 +16,31 @@
         <target xml:lang="pl" state="translated">Przypisz do treści</target>
         <note>key: section.assign_content</note>
       </trans-unit>
+      <trans-unit id="2a6caa13cfd67503e2250af8e36f26a2f835a4a0" resname="section.assign_content.success">
+        <source>%contentItemsCount% content items were assigned to '%name%'</source>
+        <target xml:lang="pl" state="translated">%contentItemsCount% elementów przypisano do '%name%'</target>
+        <note>key: section.assign_content.success</note>
+      </trans-unit>
+      <trans-unit id="bbcee03105f9504c94923b141d067d28d1d7ec54" resname="section.assigned.content">
+        <source>Assignments count</source>
+        <target xml:lang="pl" state="translated">Przypisano elementów</target>
+        <note>key: section.assigned.content</note>
+      </trans-unit>
+      <trans-unit id="e04ac63bba940de331146dac711b1633407e5ce9" resname="section.assigned_content.empty">
+        <source>No content items.</source>
+        <target xml:lang="pl" state="translated">Brak elementów.</target>
+        <note>key: section.assigned_content.empty</note>
+      </trans-unit>
+      <trans-unit id="d40d7fd957935deb539c21b9b49f34d4016c69d0" resname="section.assigned_content.empty_desc">
+        <source>Content items you assign to this section will appear here.</source>
+        <target xml:lang="pl" state="translated">Tu pojawią się elementy przypisane do tej sekcji.</target>
+        <note>key: section.assigned_content.empty_desc</note>
+      </trans-unit>
+      <trans-unit id="60771f4109f17ae27080b34e9322fd7cb02f45b3" resname="section.assigned_content.header">
+        <source>Content items in %name% (%count%)</source>
+        <target xml:lang="pl" state="translated">Elementy w sekcji %name% (%count%)</target>
+        <note>key: section.assigned_content.header</note>
+      </trans-unit>
       <trans-unit id="adcc2af264c7ae84e69396a8ff7ea5a259abd01e" resname="section.assigned_content.name">
         <source>Name</source>
         <target xml:lang="pl" state="translated">Nazwa</target>

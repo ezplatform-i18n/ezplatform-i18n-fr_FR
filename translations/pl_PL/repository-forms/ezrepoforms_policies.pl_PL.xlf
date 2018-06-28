@@ -41,6 +41,26 @@
         <target xml:lang="pl" state="translated">Właściciel</target>
         <note>key: policy.limitation.identifier.owner</note>
       </trans-unit>
+      <trans-unit id="e3773b71c8e7fda97f221ab25a6c25164d179d84" resname="policy.limitation.identifier.parentclass">
+        <source>Content Type of Parent</source>
+        <target xml:lang="pl" state="translated">Typ treści elementu nadrzędnego</target>
+        <note>key: policy.limitation.identifier.parentclass</note>
+      </trans-unit>
+      <trans-unit id="39bf0d9c1e0e8b64193bf09d83fbd89c2dac3421" resname="policy.limitation.identifier.parentdepth">
+        <source>Parent Depth</source>
+        <target xml:lang="pl" state="translated">Głębokość lokalizacji elementu nadrzędnego</target>
+        <note>key: policy.limitation.identifier.parentdepth</note>
+      </trans-unit>
+      <trans-unit id="cb52ff8582459d1bc981e9f98cf1c79876f83a1e" resname="policy.limitation.identifier.parentgroup">
+        <source>Content Type Group of Parent</source>
+        <target xml:lang="pl" state="translated">Grupa typów treści elementu nadrzędnego</target>
+        <note>key: policy.limitation.identifier.parentgroup</note>
+      </trans-unit>
+      <trans-unit id="6208b97847450b255559e4a56c51ff06b76a08dd" resname="policy.limitation.identifier.parentowner">
+        <source>Owner of Parent</source>
+        <target xml:lang="pl" state="translated">Właściciel elementu nadrzędnego</target>
+        <note>key: policy.limitation.identifier.parentowner</note>
+      </trans-unit>
       <trans-unit id="bb77b27363dad566197a200290f0f0b18baa4705" resname="policy.limitation.identifier.section">
         <source>Section</source>
         <target xml:lang="pl" state="translated">Sekcja</target>
@@ -55,6 +75,11 @@
         <source>State</source>
         <target xml:lang="pl" state="translated">Stan</target>
         <note>key: policy.limitation.identifier.state</note>
+      </trans-unit>
+      <trans-unit id="2291e238752ad3c4d20ef08253f5d5736f6382d2" resname="policy.limitation.identifier.subtree">
+        <source>Subtree of Location</source>
+        <target xml:lang="pl" state="translated">Poddrzewo lokalizacji</target>
+        <note>key: policy.limitation.identifier.subtree</note>
       </trans-unit>
     </body>
   </file>
