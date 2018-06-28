@@ -67,3 +67,7 @@ Synchronization is done using [dflydev/git-subsplit][dflydev].
         translations/nl:git@github.com:ezplatform-i18n/dutch.git
         translations/he:git@github.com:ezplatform-i18n/hebrew.git
     " --heads=master
+
+`--heads=master` specifies which branches are split. Multiple branches can be provided: `--heads="master 1.0".
+To split only some tags, use `--tags="tagName otherTagName". Branches can be omitted using `--no-heads`. 
+
