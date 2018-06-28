@@ -66,6 +66,109 @@
         <target xml:lang="ru" state="translated"><![CDATA[Вы также можете вернуться к приборной панели <a class="error-page__link" href="%dashboard%"></a> здесь или <a class="error-page__link" href="%search%">искать</a> другой контент.]]></target>
         <note>key: error.page.403.actions</note>
       </trans-unit>
+      <trans-unit id="2532cb9ce6fdf46258c107f3d20888c506115ef6" resname="error.page.403.message">
+        <source><![CDATA[It’s an error 403. You don’t have permission to retrieve or access this page.<br/>Please contact your eZ Platform Administrator to request access to<br/>this content or modify your profile.]]></source>
+        <target xml:lang="ru" state="translated"><![CDATA[Ошибка 403ю У вас нет разрешения на доступ к этой странице. <br/> Пожалуйста свяжитесь с вами eZ Platfrom администратором для запроса на редактирование.]]></target>
+        <note>key: error.page.403.message</note>
+      </trans-unit>
+      <trans-unit id="b1712cfa4c13874debdcc0f1f4a3b9fa4af3c966" resname="error.page.403.title">
+        <source>You don’t have permission for this page. Sorry!</source>
+        <target xml:lang="ru" state="translated">У вас нет разрешения для этой страницы.</target>
+        <note>key: error.page.403.title</note>
+      </trans-unit>
+      <trans-unit id="638be721c063eee72e70484fe99a25b2a990bb18" resname="error.page.404.actions">
+        <source><![CDATA[Check the URL, in case there would be an error in there.<br/>If not, go to the <a class="error-page__link" href="%dashboard%">dashboard</a> or <a class="error-page__link" href="%search%">search</a> for specific content.]]></source>
+        <target xml:lang="ru" state="translated"><![CDATA[Проверьте URL-адрес на случай ошибки.<br/>Если нет, перейдите к <a class="error-page__link" href="%dashboard%">приборной панели</a> или <a class="error-page__link" href="%search%">поиску</a> для конкретного содержания.]]></target>
+        <note>key: error.page.404.actions</note>
+      </trans-unit>
+      <trans-unit id="7027b2adcf028b82111334763e40823cd85a52fa" resname="error.page.404.message">
+        <source><![CDATA[It’s an error 404. The page you requested was not found.<br/>It might have been deleted or might be temporarily unavailable.]]></source>
+        <target xml:lang="ru" state="translated"><![CDATA[Ошибка 404. Запрашиваемая вами страница не найдена.<br/>Она могла быть удалена или временно недоступна.]]></target>
+        <note>key: error.page.404.message</note>
+      </trans-unit>
+      <trans-unit id="156b8a7f797412e60bdba432064e2dade6d4a7af" resname="error.page.404.title">
+        <source>Something went wrong. Sorry!</source>
+        <target xml:lang="ru" state="translated">Что-то пошло не так, просим прощения.</target>
+        <note>key: error.page.404.title</note>
+      </trans-unit>
+      <trans-unit id="a599d59a63814826906caa9842f0b3c33db24d09" resname="error.page.default.actions">
+        <source><![CDATA[Please contact your eZ Platform Administrator and inform her/him about the time the error occurred, the URL in your browser window and anything related you think may have caused the error.<br/>You can also go back or try to reload the application.]]></source>
+        <target xml:lang="ru" state="translated"><![CDATA[Пожалуйста свяжитесь с вашим eZ Platform администратором и сообщите что произошла ошибка. Передайте URL в окне браузера и все, что вы думаете, может быть причиной ошибки.<br/>Вы также можете вернуться или попытаться перезагрузить приложение.]]></target>
+        <note>key: error.page.default.actions</note>
+      </trans-unit>
+      <trans-unit id="8338c190462d420926edf71e8d4cddcae710d361" resname="error.page.default.message">
+        <source>It's an error 500, an internal server error. The server was unable to complete your request and it's not your fault.</source>
+        <target xml:lang="ru" state="translated">Ошибка 500. Внутренняя ошибка сервера. Сервер не смог выполнить ваш запрос, и это не ваша вина.</target>
+        <note>key: error.page.default.message</note>
+      </trans-unit>
+      <trans-unit id="889ba15bcc2f87bfac9b80282f659eaeb7c175d4" resname="error.page.default.title">
+        <source>Something went wrong. Sorry!</source>
+        <target xml:lang="ru" state="translated">Что-то пошло не так, просим прощения.</target>
+        <note>key: error.page.default.title</note>
+      </trans-unit>
+      <trans-unit id="86a1d081394a7faba471dc5eaa4b1c112e9ff03a" resname="ezauthor.action.add">
+        <source>Add author</source>
+        <target xml:lang="ru" state="translated">Добавить автора</target>
+        <note>key: ezauthor.action.add</note>
+      </trans-unit>
+      <trans-unit id="3a0389d073f00ef9a968a5cdc60e2794b434b381" resname="ezauthor.action.delete">
+        <source>Remove author</source>
+        <target xml:lang="ru" state="translated">Удалить автора</target>
+        <note>key: ezauthor.action.delete</note>
+      </trans-unit>
+      <trans-unit id="f73d03811ba3033d6b44986d55ca728c5a88b168" resname="ezplatform.forgot_user_password.contact_administrator">
+        <source>If you do not remember your login, please contact the site administrator.</source>
+        <target xml:lang="ru" state="translated">Если вы не помните свой логин, пожалуйста, свяжитесь с администрацией сайта.</target>
+        <note>key: ezplatform.forgot_user_password.contact_administrator</note>
+      </trans-unit>
+      <trans-unit id="ffb6990d5e75fe6dc86e94166b77e40a79e4e2a3" resname="ezplatform.forgot_user_password.login">
+        <source>This email is connected with several accounts. Please enter your login.</source>
+        <target xml:lang="ru" state="translated">Это сообщение связано с несколькими аккаунтами. Пожалуйста, введите ваш логин.</target>
+        <note>key: ezplatform.forgot_user_password.login</note>
+      </trans-unit>
+      <trans-unit id="db6dd97ed4776bb0e9843554c48e3962327e8f50" resname="ezplatform.forgot_user_password.message">
+        <source><![CDATA[Hi,
+        <br /><br />
+        We have received a request to reset the password for your account on site. Click “reset password” below to choose a new password:
+        <br /><br />
+        <a href="%reset_password%">Reset password<a/>
+        <br /><br />
+        If you did not request a password reset, please ignore this email, and your password will remain the same.]]></source>
+        <target xml:lang="ru" state="translated"><![CDATA[Здравствуйте,
+        <br /><br />
+        мы получили запрос на сброс пароля для вашей учетной записи на сайте. Нажмите «Сбросить пароль» ниже, чтобы выбрать новый пароль:
+        <br /><br />
+        <a href="%reset_password%">сброс пароля<a/>
+        <br /><br />
+Eсли вы не запрашивали сброса пароля, пожалуйста проигнорируйте этот e-mail и пароль останется прежним.]]></target>
+        <note>key: ezplatform.forgot_user_password.message</note>
+      </trans-unit>
+      <trans-unit id="801ba7693e80ca58fbf2a9da2b735bf3f324fd27" resname="ezplatform.forgot_user_password.reset_your_password">
+        <source>Reset your password</source>
+        <target xml:lang="ru" state="translated">Сброс пароля</target>
+        <note>key: ezplatform.forgot_user_password.reset_your_password</note>
+      </trans-unit>
+      <trans-unit id="36aa6723300a41ba80ee0096c0d2bcf34fd48aca" resname="ezplatform.forgot_user_password.success">
+        <source><![CDATA[<p>We have sent an email to the email address of your account. You should receive the email shortly.</p>
+            <p>If the email is slow to arrive, check your spam folders.</p>
+            <p>If you receive no email, it’s that your username or email is unknown to us, so please double check.</p>
+            <p>If you reset your password multiple times, only the most recent email link will be valid</p>]]></source>
+        <target xml:lang="ru" state="translated"><![CDATA[<p>мы отправили электронное письмо на адрес электронной почты вашей учетной записи. Скоро вы должны получить его по электронной почте.</p>
+            <p>если вы не получили письмо, проверьте папку спам.</p>
+            <p>если вы все же не получили письмо, это значит что ваше имя пользователя или электронная почта нам неизвестны, поэтому, пожалуйста, проверьте еще раз.</p>
+            <p>если вы сбросили пароль несколько раз, только ссылка в последнем письме будет действительной</p>]]></target>
+        <note>key: ezplatform.forgot_user_password.success</note>
+      </trans-unit>
+      <trans-unit id="40dd2934190789b016771a0fc3b41dcdfe0bb920" resname="ezplatform.reset_user_password.change_password">
+        <source>Change password</source>
+        <target xml:lang="ru" state="translated">Изменить пароль</target>
+        <note>key: ezplatform.reset_user_password.change_password</note>
+      </trans-unit>
+      <trans-unit id="8359e9b6409139537d0eaeeacaedbc4d0912a105" resname="ezplatform.reset_user_password.link_is_not_valid">
+        <source><![CDATA[This link is not valid anymore, you can <a href="%forgot_user_password%">generate a new link</a> to reset your password.]]></source>
+        <target xml:lang="ru" state="translated"><![CDATA[Эта ссылка больше не действительна, вы можете <a href="%forgot_user_password%">создать новую ссылку</a> для сброса пароля.]]></target>
+        <note>key: ezplatform.reset_user_password.link_is_not_valid</note>
+      </trans-unit>
       <trans-unit id="7fe072f41348fb097b6bb018eec4f1b1bc9cffc3" resname="modal.cancel">
         <source>Cancel</source>
         <target xml:lang="ru" state="translated">Отменить</target>
