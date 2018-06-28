@@ -16,6 +16,16 @@
         <target xml:lang="fr" state="translated">Passez en mode visualisation des champs et remplissez les champs obligatoires</target>
         <note>key: infobar.error.message</note>
       </trans-unit>
+      <trans-unit id="42181870d2894db7dece01830473f18bcf2ad9c3" resname="infobar.form.and.page.field.type.error.message">
+        <source>Not all blocks were properly configured. Please, update missing data. Switch to the Field view and fill in the other required fields</source>
+        <target xml:lang="fr" state="translated">Tous les blocs n'ont pas été correctement configurés. Veuillez mettre à jour les données manquantes. Basculez en mode visualisation des champs et de remplissez les champs requis</target>
+        <note>key: infobar.form.and.page.field.type.error.message</note>
+      </trans-unit>
+      <trans-unit id="6d037e40791b42019dc9de45a770945c4ec905cb" resname="infobar.form.error.message">
+        <source>Switch to the Field view and fill in the required fields</source>
+        <target xml:lang="fr" state="translated">Passez en mode visualisation des champs et remplissez les champs obligatoires</target>
+        <note>key: infobar.form.error.message</note>
+      </trans-unit>
       <trans-unit id="e1027757af4cedb3577c7b7e63789ebd329fdb1e" resname="infobar.last_edited">
         <source>Last edited:</source>
         <target xml:lang="fr" state="translated">Dernière édition :</target>
@@ -30,6 +40,11 @@
         <source>Viewing</source>
         <target xml:lang="fr" state="translated">Visualisation</target>
         <note>key: infobar.mode.viewing</note>
+      </trans-unit>
+      <trans-unit id="e6010c4a8967391fc3c84fae454468a4eb5f9a72" resname="infobar.page.field.type.error.message">
+        <source>Not all blocks were properly configured. Please, update missing data</source>
+        <target xml:lang="fr" state="translated">Tous les blocs n'ont pas été correctement configurés. Veuillez mettre à jour les données manquantes</target>
+        <note>key: infobar.page.field.type.error.message</note>
       </trans-unit>
       <trans-unit id="1739daaed5307ca22b5e2f1729a1746c6de8c346" resname="infobar.translation.add">
         <source>Add new translation</source>

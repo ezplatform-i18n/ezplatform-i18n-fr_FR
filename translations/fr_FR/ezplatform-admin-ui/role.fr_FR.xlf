@@ -81,6 +81,11 @@
         <target xml:lang="fr" state="translated">Les politiques de sécurité du rôle «%role%» ont été mises à jour.</target>
         <note>key: policy.update.success</note>
       </trans-unit>
+      <trans-unit id="1ac24fa007363b4280663fba53f7a3b436ed4c8f" resname="policy.view.add.title">
+        <source>Adding a new Policy</source>
+        <target xml:lang="fr" state="translated">Ajouter une nouvelle politique de sécurité</target>
+        <note>key: policy.view.add.title</note>
+      </trans-unit>
       <trans-unit id="aefaf3a17b8493e63c82678611eb6eacbcc45d19" resname="policy.view.edit.title">
         <source>Edit limitations</source>
         <target xml:lang="fr" state="translated">Éditer les limitations</target>
