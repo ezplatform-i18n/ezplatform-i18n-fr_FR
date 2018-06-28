@@ -55,12 +55,12 @@ foreach ($translations as $directory => $data) {
         $directory
     );
     $commands[] = sprintf(
-        'git commit -m "%s translation: %d%% translated (+%d), %d%% approved (+%d)"',
+        'git commit -m "%s translation: %d%% translated (%s), %d%% approved (%s)"',
         $data['name'],
         $data['status']['translated_progress'],
+        $data['progress_delta']['translated_progress'],
         $data['status']['approved_progress'],
-        $data['previous']['translated_progress'],
-        $data['previous']['approved_progress']
+        $data['progress_delta']['approved_progress']
     );
 }
 
@@ -120,13 +120,23 @@ function getLanguagesData()
 
         $directory = $languagesMap[$status->code];
 
-        $previousStatus = ['translated_progress' => 0, 'approved_progress' => 0];
+        $delta = ['translated_progress' => '', 'approved_progress' => ''];
+
         exec("git log --format=%s translations/$directory", $log);
         foreach ($log as $logLine) {
+            if (strstr($logLine, "$status->name translation") === false) {
+                continue;
+            }
             if (preg_match("/([0-9]{1,3})% translated/", $logLine, $m)) {
-                $previousStatus['translated_progress'] = $m[1];
+                $delta['translated_progress'] = (int)$status->translated_progress - $m[1];
+                if ($delta['translated_progress'] >= 0) {
+                    $delta['translated_progress'] = '+' . $delta['translated_progress'];
+                }
                 if (preg_match("/([0-9]{1,3})% approved/", $logLine, $m)) {
-                    $previousStatus['approved_progress'] = $m[1];
+                    $delta['approved_progress'] = (int)$status->approved_progress - $m[1];
+                    if ($delta['approved_progress'] >= 0) {
+                        $delta['approved_progress'] = '+' . $delta['approved_progress'];
+                    }
                 }
                 break;
             }
@@ -135,7 +145,7 @@ function getLanguagesData()
         $languagesData[$directory] = [
             'name' => $status->name,
             'status' => (array)$status,
-            'previous' => $previousStatus,
+            'progress_delta' => $delta,
         ];
     }
 
