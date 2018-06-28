@@ -6,36 +6,51 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="83d2e0cd1746c268c5117d780a245b996c3964ba" resname="content.deleted">
+        <source>Content deleted</source>
+        <target xml:lang="de" state="translated">Inhalt gelöscht</target>
+        <note>key: content.deleted</note>
+      </trans-unit>
+      <trans-unit id="e7818e3c5b5f9b8bda55a4ced6b8934d8f82607e" resname="content.in_review">
+        <source>Content sent to review</source>
+        <target xml:lang="de" state="translated">Inhalt zur Überprüfung gesendet</target>
+        <note>key: content.in_review</note>
+      </trans-unit>
+      <trans-unit id="efeb6a6207370ab249436a8d9e0eaff02a5efb79" resname="content.publish_later.read_more">
+        <source><![CDATA[Read more &raquo;]]></source>
+        <target xml:lang="de" state="translated"><![CDATA[Lesen Sie mehr &raquo;]]></target>
+        <note>key: content.publish_later.read_more</note>
+      </trans-unit>
+      <trans-unit id="057746443dd8e7aff0175db05603443dec7df180" resname="content.published">
+        <source>Content published</source>
+        <target xml:lang="de" state="translated">Inhalt veröffentlicht</target>
+        <note>key: content.published</note>
+      </trans-unit>
+      <trans-unit id="d3271090e4c7db6a79d168181876891a6577fa19" resname="content.scheduled.canceled">
+        <source>Future publication canceled</source>
+        <target xml:lang="de" state="translated">Zukünftige Veröffentlichung abgebrochen</target>
+        <note>key: content.scheduled.canceled</note>
+      </trans-unit>
+      <trans-unit id="34b402006eccad0bda15c91d1c25af637419d933" resname="content.scheduled.published">
+        <source>Future publication published</source>
+        <target xml:lang="de" state="translated">Zukünftige Veröffentlichung veröffentlicht</target>
+        <note>key: content.scheduled.published</note>
+      </trans-unit>
+      <trans-unit id="16f7bbbd6e5ee28d30d0104f38019a0ed0ceaf46" resname="content.scheduled.title">
+        <source>Title:</source>
+        <target xml:lang="de" state="translated">Titel:</target>
+        <note>key: content.scheduled.title</note>
+      </trans-unit>
+      <trans-unit id="d72a29b32751f629c33f6223c5b6477308a0ebb4" resname="content.trashed">
+        <source>Content moved to trash</source>
+        <target xml:lang="de" state="translated">Inhalt in den Papierkorb verschoben</target>
+        <note>key: content.trashed</note>
+      </trans-unit>
+      <trans-unit id="242a195e1172964f09692a16fc39ccb8a2b69605" resname="content.updated">
+        <source>Content updated</source>
+        <target xml:lang="de" state="translated">Inhalt aktualisiert</target>
+        <note>key: content.updated</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
