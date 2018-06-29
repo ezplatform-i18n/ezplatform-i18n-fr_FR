@@ -169,6 +169,16 @@ Eсли вы не запрашивали сброса пароля, пожалу
         <target xml:lang="ru" state="translated"><![CDATA[Эта ссылка больше не действительна, вы можете <a href="%forgot_user_password%">создать новую ссылку</a> для сброса пароля.]]></target>
         <note>key: ezplatform.reset_user_password.link_is_not_valid</note>
       </trans-unit>
+      <trans-unit id="5149c594d64197e519d38a1a2e7368140716bb81" resname="ezplatform.reset_user_password.success">
+        <source><![CDATA[Congrats, your password has been changed, you can now <a href="%login%">login</a> to eZ Platform.]]></source>
+        <target xml:lang="ru" state="translated"><![CDATA[Поздравляю ваш пароль был изменен, вы можете теперь <a href="%login%">войти</a> в eZ Platform.]]></target>
+        <note>key: ezplatform.reset_user_password.success</note>
+      </trans-unit>
+      <trans-unit id="5cf420af18fd4a8d856fd30bc13aea5039369f9b" resname="form.cancel">
+        <source>Cancel</source>
+        <target xml:lang="ru" state="translated">Отменить</target>
+        <note>key: form.cancel</note>
+      </trans-unit>
       <trans-unit id="7fe072f41348fb097b6bb018eec4f1b1bc9cffc3" resname="modal.cancel">
         <source>Cancel</source>
         <target xml:lang="ru" state="translated">Отменить</target>
@@ -178,6 +188,26 @@ Eсли вы не запрашивали сброса пароля, пожалу
         <source>Delete</source>
         <target xml:lang="ru" state="translated">Удалить</target>
         <note>key: modal.delete</note>
+      </trans-unit>
+      <trans-unit id="08232f4c5c3ca88a7f2fd8e29eda7e20ec346aae" resname="search.any_time">
+        <source>Any time</source>
+        <target xml:lang="ru" state="translated">Любое время</target>
+        <note>key: search.any_time</note>
+      </trans-unit>
+      <trans-unit id="03d6d5922fd2012e155e50306eaf98e2dfeb21c6" resname="search.section.any">
+        <source>Any section</source>
+        <target xml:lang="ru" state="translated">Любой раздел</target>
+        <note>key: search.section.any</note>
+      </trans-unit>
+      <trans-unit id="9567771350aff93580f743089937b0c8fe31058e" resname="section.assign,content">
+        <source>Assign Content</source>
+        <target xml:lang="ru" state="translated">Назначить содержимое</target>
+        <note>key: section.assign,content</note>
+      </trans-unit>
+      <trans-unit id="6a17e9f4ed416563fc8c3e188509b8eec8a6f7c0" resname="section.modal.message">
+        <source>Do you want to delete section?</source>
+        <target xml:lang="ru" state="translated">Вы действительно хотите удалить раздел?</target>
+        <note>key: section.modal.message</note>
       </trans-unit>
       <trans-unit id="1152c93462d8bed85642b961f01ed63a6f2525ab" resname="tab.locations.location_content_swap">
         <source>Location Content Swap</source>
@@ -193,6 +223,16 @@ Eсли вы не запрашивали сброса пароля, пожалу
         <source>Content</source>
         <target xml:lang="ru" state="translated">Контент</target>
         <note>key: tab.view.content</note>
+      </trans-unit>
+      <trans-unit id="4e7901a215220faba4d546cd3fb63f3e2a64e849" resname="trash.delete.all.confirm">
+        <source>Are you sure you want to permanently delete %trashItemsCount% item(s)?</source>
+        <target xml:lang="ru" state="translated">Вы точно хотите безвозвратно удалить %trashItemsCount% запись(и)?</target>
+        <note>key: trash.delete.all.confirm</note>
+      </trans-unit>
+      <trans-unit id="48e20c2b09b340ca2e2020edaa30a57c8bc3f26b" resname="trash.delete.all.info">
+        <source>This action cannot be reversed</source>
+        <target xml:lang="ru" state="translated">Это действие не может быть отменено</target>
+        <note>key: trash.delete.all.info</note>
       </trans-unit>
       <trans-unit id="e500e3f1d454e2775bbe89b6267cd77c766df3f1" resname="trash.delete.button.cancel">
         <source>Cancel</source>
