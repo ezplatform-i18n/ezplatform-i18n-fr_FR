@@ -68,8 +68,11 @@
       </trans-unit>
       <trans-unit id="df2f594c4b24eb1a49a45e95a5e7ed5cdef802bd" resname="ezrepoforms.content.fields">
         <source>ezrepoforms.content.fields</source>
-        <target xml:lang="hr" state="translated">Polja iz contenta</target>
+        <target xml:lang="hr" state="translated">Polja iz sadržaja</target>
         <note>key: ezrepoforms.content.fields</note>
+        <alt-trans>
+          <target xml:lang="hr">Polja iz contenta</target>
+        </alt-trans>
       </trans-unit>
     </body>
   </file>

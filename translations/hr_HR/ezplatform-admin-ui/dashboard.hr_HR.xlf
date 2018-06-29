@@ -8,13 +8,19 @@
     <body>
       <trans-unit id="c4d3f17636317e532c589f3008d82c263ab5c39d" resname="tab.name.everyone_content">
         <source>Content</source>
-        <target xml:lang="hr" state="translated">Contenuti</target>
+        <target xml:lang="hr" state="translated">Sadržaj</target>
         <note>key: tab.name.everyone_content</note>
+        <alt-trans>
+          <target xml:lang="hr">Contenuti</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="fdd56e68fb3a108fce6f8ee4c5a191c0aa8f2996" resname="tab.name.my_content">
         <source>Content</source>
-        <target xml:lang="hr" state="translated">Contenuti</target>
+        <target xml:lang="hr" state="translated">Sadržaj</target>
         <note>key: tab.name.my_content</note>
+        <alt-trans>
+          <target xml:lang="hr">Contenuti</target>
+        </alt-trans>
       </trans-unit>
     </body>
   </file>
