@@ -51,6 +51,16 @@
         <target xml:lang="pl" state="translated">Dodaj nowe tłumaczenie</target>
         <note>key: infobar.translation.add</note>
       </trans-unit>
+      <trans-unit id="60ccc34e85fea1e10d1340926cd10d2d692e75b3" resname="infobar.translation.no_fallback_language">
+        <source>You do not have a fallback language</source>
+        <target xml:lang="pl" state="translated">Brak języka zastępczego</target>
+        <note>key: infobar.translation.no_fallback_language</note>
+      </trans-unit>
+      <trans-unit id="2cc4e79efc4101503a381a2440fd864e2cac93a1" resname="infobar.translation.using_fallback_language">
+        <source>You are on the fallback language</source>
+        <target xml:lang="pl" state="translated">Korzystasz z języka zastępczego</target>
+        <note>key: infobar.translation.using_fallback_language</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
