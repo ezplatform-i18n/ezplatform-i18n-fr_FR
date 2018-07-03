@@ -11,6 +11,11 @@
         <target xml:lang="de" state="translated">Bearbeiten</target>
         <note>key: content_type.action.edit</note>
       </trans-unit>
+      <trans-unit id="0a08ba6425acc6e52b75ebbe0b77d90df5cb81a1" resname="content_type.add.missing_language">
+        <source>Cannot create Content Type. Could not find 'Language' with identifier '%languageCode%'</source>
+        <target xml:lang="de" state="translated">Konnte Content-Typ nicht erstellen. 'Sprache' mit Bezeichner '%languageCode%' nicht gefunden</target>
+        <note>key: content_type.add.missing_language</note>
+      </trans-unit>
       <trans-unit id="0aef83746d192c9b507ecabebe250aeb684cc210" resname="content_type.breadcrumb.create">
         <source>Creating a new Content Type</source>
         <target xml:lang="de" state="translated">Neuen Content Typ erstellen</target>

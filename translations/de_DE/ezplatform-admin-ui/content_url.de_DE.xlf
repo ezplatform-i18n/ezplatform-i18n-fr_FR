@@ -86,10 +86,35 @@
         <target xml:lang="de" state="translated">Schliessen</target>
         <note>key: tab.urls.modal_close</note>
       </trans-unit>
+      <trans-unit id="56d218db883ed4cc59dbbca53364dc2e725013e4" resname="tab.urls.no_custom_urls">
+        <source>This content item has no custom url aliases.</source>
+        <target xml:lang="de" state="translated">Dieses Inhaltselement hat keine benutzerdefinierten URL-Aliases.</target>
+        <note>key: tab.urls.no_custom_urls</note>
+      </trans-unit>
+      <trans-unit id="c9fdd1434b44a4592626e8fe493c19141aab24d5" resname="tab.urls.no_system_urls">
+        <source>This content item has no system urls.</source>
+        <target xml:lang="de" state="translated">Dieses Inhaltselement hat keine System URLs.</target>
+        <note>key: tab.urls.no_system_urls</note>
+      </trans-unit>
+      <trans-unit id="902beb4ac170382cb95bd554cb1e763d8fdd413c" resname="tab.urls.system.title">
+        <source>System URL</source>
+        <target xml:lang="de" state="translated">System URL</target>
+        <note>key: tab.urls.system.title</note>
+      </trans-unit>
       <trans-unit id="0de66a25f1019287cf737f27622ca4d05f582764" resname="tab.urls.type">
         <source>Type</source>
         <target xml:lang="de" state="translated">Typ</target>
         <note>key: tab.urls.type</note>
+      </trans-unit>
+      <trans-unit id="1d87d09bd23142580b88dfe4cf987cf0a6b2d993" resname="tab.urls.type.direct">
+        <source>Direct</source>
+        <target xml:lang="de" state="translated">Direkt</target>
+        <note>key: tab.urls.type.direct</note>
+      </trans-unit>
+      <trans-unit id="ea8af6bc33d14986b233c0acb340bd122ff0c2bd" resname="tab.urls.type.redirect">
+        <source>Redirect</source>
+        <target xml:lang="de" state="translated">Weiterleitung</target>
+        <note>key: tab.urls.type.redirect</note>
       </trans-unit>
       <trans-unit id="5028d3abfd74c419dc7a3daee4303b084c94d2e6" resname="tab.urls.url">
         <source>URL</source>
