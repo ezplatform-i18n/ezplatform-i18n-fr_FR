@@ -69,7 +69,7 @@ echo "\n\nRun command (y/n)? ";
 $answer = fgetc(STDIN);
 if ($answer == 'y') {
     foreach ($commands as $command) {
-        echo $command;
+        echo "$command\n";
         system($command);
     }
 }
@@ -114,6 +114,7 @@ function getLanguagesData()
     $languagesData = [];
 
     foreach ($statuses as $status) {
+        $log = [];
         if (!isset($languagesMap[$status->code])) {
             throw new Exception("No mapping found for language code $status->code\n");
         }
@@ -122,11 +123,13 @@ function getLanguagesData()
 
         $delta = ['translated_progress' => '', 'approved_progress' => ''];
 
-        exec("git log --format=%s translations/$directory", $log);
+        $command = "git log --grep=\"^{$status->name} translation:\" --format=%s";
+        exec($command, $log, $return);
         foreach ($log as $logLine) {
             if (strstr($logLine, "$status->name translation") === false) {
                 continue;
             }
+
             if (preg_match("/([0-9]{1,3})% translated/", $logLine, $m)) {
                 $delta['translated_progress'] = (int)$status->translated_progress - $m[1];
                 if ($delta['translated_progress'] >= 0) {
