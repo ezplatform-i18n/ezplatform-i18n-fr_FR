@@ -94,7 +94,7 @@ function getLanguagesData()
         'en-US' => 'en_US',
         'it' => 'it_IT',
         'hr' => 'hr_HR',
-        'nl' => 'nl',
+        'nl' => 'nl_NL',
         'he' => 'he'
     ];
 
