@@ -96,7 +96,7 @@
       </trans-unit>
       <trans-unit id="763e9b64f4f0024e90753727ccc212a3596bfccd" resname="fieldtype.binary_base.upload_file">
         <source>Upload file</source>
-        <target xml:lang="es-ES" state="translated">Subir archivosubirlas</target>
+        <target xml:lang="es-ES" state="translated">Subir archivo</target>
         <note>key: fieldtype.binary_base.upload_file</note>
       </trans-unit>
     </body>
