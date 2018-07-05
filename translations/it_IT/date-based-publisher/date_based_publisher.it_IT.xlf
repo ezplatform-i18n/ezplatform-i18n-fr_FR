@@ -6,36 +6,56 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="f99f89ba09246220d9b545d89a5c6ba76ff7b977" resname="date_based_publisher.error.publish_later">
+        <source>Cannot schedule content: %reason%</source>
+        <target xml:lang="it" state="translated">Non è possibile pianificare contenuto: %reason%</target>
+        <note>key: date_based_publisher.error.publish_later</note>
+      </trans-unit>
+      <trans-unit id="5e2950ca93ce5670c04559781714521d3c64e5ad" resname="date_based_publisher.success.publish_later">
+        <source>Content scheduled for publishing.</source>
+        <target xml:lang="it" state="translated">Contenuto previsto per la pubblicazione.</target>
+        <note>key: date_based_publisher.success.publish_later</note>
+      </trans-unit>
+      <trans-unit id="dcb8f016db59563b21714e4ba0688f7650fc6995" resname="menu.date_based_publisher">
+        <source>Publish later</source>
+        <target xml:lang="it" state="translated">Pubblica più tardi</target>
+        <note>key: menu.date_based_publisher</note>
+      </trans-unit>
+      <trans-unit id="c9d2f1516b204c6e1a54e65850b843f5cc4d7650" resname="menu.date_based_publisher.discard">
+        <source>Discard publish later</source>
+        <target xml:lang="it" state="translated">Scartare e pubblicare più tardi</target>
+        <note>key: menu.date_based_publisher.discard</note>
+      </trans-unit>
+      <trans-unit id="4c1883ba5e2eb4e3a70391d122a474304c1d95df" resname="publish_later.confirm">
+        <source>Confirm</source>
+        <target xml:lang="it" state="translated">Conferma</target>
+        <note>key: publish_later.confirm</note>
+      </trans-unit>
+      <trans-unit id="c369cb0b16138f3c7906590f6ee5cb7cb21ecd42" resname="publish_later.date_and_time">
+        <source><![CDATA[Date & Time]]></source>
+        <target xml:lang="it" state="translated"><![CDATA[Data e ora]]></target>
+        <note>key: publish_later.date_and_time</note>
+      </trans-unit>
+      <trans-unit id="556b388819e694acae15637989c32827c445faed" resname="publish_later.settings">
+        <source>Future publication settings</source>
+        <target xml:lang="it" state="translated">Impostazioni di futura pubblicazione</target>
+        <note>key: publish_later.settings</note>
+      </trans-unit>
+      <trans-unit id="e5a66fd1e539dbf81f810d2022a3d8ee67a7a17c" resname="tab.name.all_scheduled">
+        <source>All scheduled</source>
+        <target xml:lang="it" state="translated">Tutti la programmazione</target>
+        <note>key: tab.name.all_scheduled</note>
+      </trans-unit>
+      <trans-unit id="20a2c0c41c7091973e1490a65b2268e1f7794eda" resname="tab.name.my_scheduled">
+        <source>My scheduled</source>
+        <target xml:lang="it" state="translated">La mia programmazione</target>
+        <note>key: tab.name.my_scheduled</note>
+      </trans-unit>
+      <trans-unit id="49e01918c7a89ab888e3fea20cf0a9f7953b4908" resname="version.deleted">
+        <source>Version deleted</source>
+        <target xml:lang="it" state="translated">Versione eliminata</target>
+        <note>key: version.deleted</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
