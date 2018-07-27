@@ -36,15 +36,20 @@
         <target>Save draft</target>
         <note>key: page_builder__infobar__edit__actions__save_draft</note>
       </trans-unit>
-      <trans-unit id="3018e4b76864991c9ab3281933268ea365468084" resname="page_builder__infobar__edit__tools__add_translation">
+      <trans-unit id="0ba863bd868948ade36a1fc746f300f9f4ec5c28" resname="page_builder__infobar__preview__tools__add_translation">
         <source>Add translation</source>
-        <target>Add translation</target>
-        <note>key: page_builder__infobar__edit__tools__add_translation</note>
+        <target state="new">Add translation</target>
+        <note>key: page_builder__infobar__preview__tools__add_translation</note>
       </trans-unit>
-      <trans-unit id="ecb01550d76c46acfe2e8faed7eb153c9255af01" resname="page_builder__infobar__edit__tools__versions">
+      <trans-unit id="690e22d98e836a0f471b77a96f2f5ea56ca3db81" resname="page_builder__infobar__preview__tools__send_to_trash">
+        <source>Send to Trash</source>
+        <target state="new">Send to Trash</target>
+        <note>key: page_builder__infobar__preview__tools__send_to_trash</note>
+      </trans-unit>
+      <trans-unit id="6e3c5ada174db65381c85e6d12eed44ffe78f23b" resname="page_builder__infobar__preview__tools__versions">
         <source>Versions</source>
-        <target>Versions</target>
-        <note>key: page_builder__infobar__edit__tools__versions</note>
+        <target state="new">Versions</target>
+        <note>key: page_builder__infobar__preview__tools__versions</note>
       </trans-unit>
     </body>
   </file>
