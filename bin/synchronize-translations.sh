@@ -9,6 +9,10 @@ echo "ezsystems/ezplatform-admin-ui"
 rm -f ./vendor/ezsystems/ezplatform-i18n/ezplatform-admin-ui/*
 cp ./vendor/ezsystems/ezplatform-admin-ui/src/bundle/Resources/translations/* ./vendor/ezsystems/ezplatform-i18n/ezplatform-admin-ui
 
+echo "ezsystems/ezplatform-admin-ui-modules"
+rm -f ./vendor/ezsystems/ezplatform-i18n/ezplatform-admin-ui-modules/*
+cp ./vendor/ezsystems/ezplatform-admin-ui-modules/Resources/translations/* ./vendor/ezsystems/ezplatform-i18n/ezplatform-admin-ui
+
 echo "ezsystems/ezpublish-kernel"
 rm -f ./vendor/ezsystems/ezplatform-i18n/ezpublish-kernel/*
 cp ./vendor/ezsystems/ezpublish-kernel/eZ/Bundle/EzPublishCoreBundle/Resources/translations/* ./vendor/ezsystems/ezplatform-i18n/ezpublish-kernel
