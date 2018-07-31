@@ -11,7 +11,7 @@ cp ./vendor/ezsystems/ezplatform-admin-ui/src/bundle/Resources/translations/* ./
 
 echo "ezsystems/ezplatform-admin-ui-modules"
 rm -f ./vendor/ezsystems/ezplatform-i18n/ezplatform-admin-ui-modules/*
-cp ./vendor/ezsystems/ezplatform-admin-ui-modules/Resources/translations/* ./vendor/ezsystems/ezplatform-i18n/ezplatform-admin-ui
+cp ./vendor/ezsystems/ezplatform-admin-ui-modules/Resources/translations/* ./vendor/ezsystems/ezplatform-i18n/ezplatform-admin-ui-modules
 
 echo "ezsystems/ezpublish-kernel"
 rm -f ./vendor/ezsystems/ezplatform-i18n/ezpublish-kernel/*
