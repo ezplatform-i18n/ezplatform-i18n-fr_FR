@@ -36,16 +36,6 @@
         <target xml:lang="fr" state="translated">Enregistrer le brouillon</target>
         <note>key: page_builder__infobar__edit__actions__save_draft</note>
       </trans-unit>
-      <trans-unit id="3018e4b76864991c9ab3281933268ea365468084" resname="page_builder__infobar__edit__tools__add_translation">
-        <source>Add translation</source>
-        <target xml:lang="fr" state="translated">Ajouter une traduction</target>
-        <note>key: page_builder__infobar__edit__tools__add_translation</note>
-      </trans-unit>
-      <trans-unit id="ecb01550d76c46acfe2e8faed7eb153c9255af01" resname="page_builder__infobar__edit__tools__versions">
-        <source>Versions</source>
-        <target xml:lang="fr" state="translated">Versions</target>
-        <note>key: page_builder__infobar__edit__tools__versions</note>
-      </trans-unit>
     </body>
   </file>
 </xliff>
