@@ -234,6 +234,24 @@
         <note>key: fielddefinition.media-player-type.windows_media_player</note>
         <jms:reference-file line="190">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="ee5c85f0dae011c10d9d2bfb1fcd86e529c55536" resname="fielddefinition.min-length.label" approved="yes">
+        <source>Min string length:</source>
+        <target xml:lang="hu">Minimális hossz:</target>
+        <note>key: fielddefinition.min-length.label</note>
+        <jms:reference-file line="18">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="09fff8d9a67512b01bb3e58b5d25cf5d042ba195" resname="fielddefinition.min-length.undefined" approved="yes">
+        <source>No defined minimum string length</source>
+        <target xml:lang="hu">Nincs meghatározott minimális hossz</target>
+        <note>key: fielddefinition.min-length.undefined</note>
+        <jms:reference-file line="23">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="904a83f949dd73a0bed006f8e78a211c80b4816a" resname="fielddefinition.min-length.value" approved="yes">
+        <source>%min% characters</source>
+        <target xml:lang="hu">%min% karakter</target>
+        <note>key: fielddefinition.min-length.value</note>
+        <jms:reference-file line="21">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="1feb12108139bb4d34877c40ade8362c0872b528" resname="fielddefinition.min-value.label" approved="yes">
         <source>Minimum value:</source>
         <target xml:lang="hu">Min. érték:</target>

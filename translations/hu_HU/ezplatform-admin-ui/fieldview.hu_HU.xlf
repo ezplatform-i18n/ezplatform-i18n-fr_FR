@@ -6,9 +6,9 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="977cb55c24b1708d46ccbd753c2cea745976ae21" resname="fieldview.field.empty">
+      <trans-unit id="977cb55c24b1708d46ccbd753c2cea745976ae21" resname="fieldview.field.empty" approved="yes">
         <source>This field is empty</source>
-        <target xml:lang="hu" state="translated">Ez a mező üres.</target>
+        <target xml:lang="hu">Ez a mező üres.</target>
         <note>key: fieldview.field.empty</note>
       </trans-unit>
     </body>
