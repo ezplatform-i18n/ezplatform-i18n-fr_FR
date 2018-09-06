@@ -164,8 +164,11 @@
       </trans-unit>
       <trans-unit id="8a5845bd0e93b67b2ac54a06f2eae85f2cb3b13d" resname="main__admin__roles" approved="yes">
         <source>Roles</source>
-        <target xml:lang="fr">Roles</target>
+        <target xml:lang="fr">Rôles</target>
         <note>key: main__admin__roles</note>
+        <alt-trans>
+          <target xml:lang="fr">Roles</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="e636e8e95f62409b29348795eef55b4450f65673" resname="main__admin__sections" approved="yes">
         <source>Sections</source>

@@ -158,8 +158,11 @@
       </trans-unit>
       <trans-unit id="03e72944d22126b885a65f885ebf8f1b8e2f8579" resname="role.breadcrumb.list">
         <source>Roles</source>
-        <target xml:lang="fr" state="translated">Roles</target>
+        <target xml:lang="fr" state="translated">Rôles</target>
         <note>key: role.breadcrumb.list</note>
+        <alt-trans>
+          <target xml:lang="fr">Roles</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="9756b39574125051ae4fcd1916f5ba8b065eceb9" resname="role.breadcrumb.view">
         <source>%identifier%</source>
@@ -233,8 +236,11 @@
       </trans-unit>
       <trans-unit id="a0c33e3728b23f13b825e36808834a6930551873" resname="role.view.list.title">
         <source>Roles</source>
-        <target xml:lang="fr" state="translated">Roles</target>
+        <target xml:lang="fr" state="translated">Rôles</target>
         <note>key: role.view.list.title</note>
+        <alt-trans>
+          <target xml:lang="fr">Roles</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="ed20cb1159498f2085d5df44b0d43c977abaa791" resname="role.view.view.title">
         <source>Role "%identifier%"</source>
