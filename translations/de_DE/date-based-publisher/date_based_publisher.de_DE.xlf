@@ -51,6 +51,11 @@
         <target xml:lang="de" state="translated">Inhalt aktualisiert</target>
         <note>key: content.updated</note>
       </trans-unit>
+      <trans-unit id="e17a8999c9e44b7e8ea1ba0f5cff596ece264da5" resname="dashboard.table.content_type">
+        <source>Content Type</source>
+        <target xml:lang="de" state="translated">Content Type</target>
+        <note>key: dashboard.table.content_type</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -49,6 +49,11 @@
         <target xml:lang="de" state="translated">Der Sprachcode "%language_code%" wird von einer anderen Sprache verwendet. Sie müssen einen eindeutige Sprache-Code eingeben.</target>
         <note>key: ez.language.code.unique</note>
       </trans-unit>
+      <trans-unit id="8bcee04e8c985239d106e0fa910dfec8bdce3669" resname="ez.url.unique">
+        <source>URL must be unique</source>
+        <target xml:lang="de" state="translated">{0} muss einzigartig sein</target>
+        <note>key: ez.url.unique</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
