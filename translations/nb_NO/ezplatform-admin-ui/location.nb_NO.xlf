@@ -7,12 +7,9 @@
     </header>
     <body>
       <trans-unit id="7f616359fa64ad9a44aba2d7eeebfde7aac7f16f" resname="location.copy.success">
-        <source>Location '%name%' copied to location '%location%'</source>
+        <source>'%name%' copied to '%location%'</source>
         <target xml:lang="nb" state="translated">Plassering '%name%' kopiert under plassering '%location%'</target>
         <note>key: location.copy.success</note>
-        <alt-trans>
-          <target xml:lang="nb">Plassering '%name%' kopiert til plassering '%location%'</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="656c4be212bdf722670400927051cb39593938a5" resname="location.copy_subtree.success">
         <source>Subtree '%name%' copied to location '%location%'</source>
@@ -33,7 +30,7 @@
         <note>key: location.delete.success</note>
       </trans-unit>
       <trans-unit id="9d5d2fb830ae5b1806bcb908c01f115c93de4eda" resname="location.move.success">
-        <source>Location '%name%' moved to location '%location%'</source>
+        <source>'%name%' moved to '%location%'</source>
         <target xml:lang="nb" state="translated">Plassering '%name%' flyttet under plassering '%location%'</target>
         <note>key: location.move.success</note>
       </trans-unit>

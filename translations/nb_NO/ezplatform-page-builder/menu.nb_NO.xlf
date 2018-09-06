@@ -36,11 +36,6 @@
         <target xml:lang="nb" state="translated">Lagre utkast</target>
         <note>key: page_builder__infobar__edit__actions__save_draft</note>
       </trans-unit>
-      <trans-unit id="ecb01550d76c46acfe2e8faed7eb153c9255af01" resname="page_builder__infobar__edit__tools__versions">
-        <source>Versions</source>
-        <target xml:lang="nb" state="translated">Versjoner</target>
-        <note>key: page_builder__infobar__edit__tools__versions</note>
-      </trans-unit>
     </body>
   </file>
 </xliff>
