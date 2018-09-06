@@ -7,7 +7,7 @@
     </header>
     <body>
       <trans-unit id="7f616359fa64ad9a44aba2d7eeebfde7aac7f16f" resname="location.copy.success">
-        <source>Location '%name%' copied to location '%location%'</source>
+        <source>'%name%' copied to '%location%'</source>
         <target xml:lang="es-ES" state="translated">Localización '%name%' copiada a localización '%location%'</target>
         <note>key: location.copy.success</note>
       </trans-unit>
@@ -27,7 +27,7 @@
         <note>key: location.delete.success</note>
       </trans-unit>
       <trans-unit id="9d5d2fb830ae5b1806bcb908c01f115c93de4eda" resname="location.move.success">
-        <source>Location '%name%' moved to location '%location%'</source>
+        <source>'%name%' moved to '%location%'</source>
         <target xml:lang="es-ES" state="translated">Localización '%name%' movida a localización '%location%'</target>
         <note>key: location.move.success</note>
       </trans-unit>
