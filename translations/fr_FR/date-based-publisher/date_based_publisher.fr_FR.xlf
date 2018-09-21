@@ -28,13 +28,19 @@
       </trans-unit>
       <trans-unit id="d3271090e4c7db6a79d168181876891a6577fa19" resname="content.scheduled.canceled">
         <source>Future publication canceled</source>
-        <target xml:lang="fr" state="translated">Future publication annulée</target>
+        <target xml:lang="fr" state="translated">Planification de publication annulée</target>
         <note>key: content.scheduled.canceled</note>
+        <alt-trans>
+          <target xml:lang="fr">Future publication annulée</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="34b402006eccad0bda15c91d1c25af637419d933" resname="content.scheduled.published">
         <source>Future publication published</source>
-        <target xml:lang="fr" state="translated">Future publication publiée</target>
+        <target xml:lang="fr" state="translated">Planification de publication enregistrée</target>
         <note>key: content.scheduled.published</note>
+        <alt-trans>
+          <target xml:lang="fr">Future publication publiée</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="16f7bbbd6e5ee28d30d0104f38019a0ed0ceaf46" resname="content.scheduled.title">
         <source>Title:</source>
@@ -53,13 +59,19 @@
       </trans-unit>
       <trans-unit id="382ab608837ac7a3db830601fd7566b42f2e3fa1" resname="dashboard.tab.all_scheduled.empty">
         <source>No content scheduled for publish.</source>
-        <target xml:lang="fr" state="translated">Aucune future publication n'est prévue.</target>
+        <target xml:lang="fr" state="translated">Aucune planification de publication.</target>
         <note>key: dashboard.tab.all_scheduled.empty</note>
+        <alt-trans>
+          <target xml:lang="fr">Aucune future publication n'est prévue.</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="9264d8cfa846c33592bb9c75fc27d3746b79b069" resname="dashboard.tab.my_scheduled.empty">
         <source>No content scheduled for publish.</source>
-        <target xml:lang="fr" state="translated">Aucune future publication n'est prévue.</target>
+        <target xml:lang="fr" state="translated">Aucune planification de publication.</target>
         <note>key: dashboard.tab.my_scheduled.empty</note>
+        <alt-trans>
+          <target xml:lang="fr">Aucune future publication n'est prévue.</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="e17a8999c9e44b7e8ea1ba0f5cff596ece264da5" resname="dashboard.table.content_type">
         <source>Content Type</source>
@@ -88,13 +100,19 @@
       </trans-unit>
       <trans-unit id="d6004e8b261029b934ea4253dd02a83c23288cd4" resname="date_based_publisher.discard.publish_later">
         <source>Scheduled publication date discarded.</source>
-        <target xml:lang="fr" state="translated">La future publication a été annulée.</target>
+        <target xml:lang="fr" state="translated">La date de planification de publication a été annulée.</target>
         <note>key: date_based_publisher.discard.publish_later</note>
+        <alt-trans>
+          <target xml:lang="fr">La future publication a été annulée.</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="7994323666a7722986c24f7f724e4862f9bbf9a6" resname="date_based_publisher.error.discard.publish_later">
         <source>Cannot discard scheduled publication date: %reason%</source>
-        <target xml:lang="fr" state="translated">Impossible d'annuler la future date de publication: %reason%</target>
+        <target xml:lang="fr" state="translated">Impossible d'annuler la date de planification de publication: %reason%</target>
         <note>key: date_based_publisher.error.discard.publish_later</note>
+        <alt-trans>
+          <target xml:lang="fr">Impossible d'annuler la future date de publication: %reason%</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="f99f89ba09246220d9b545d89a5c6ba76ff7b977" resname="date_based_publisher.error.publish_later">
         <source>Cannot schedule content: %reason%</source>
@@ -108,8 +126,11 @@
       </trans-unit>
       <trans-unit id="7d074c91468b3c1f9e6302ea0432306fef788e95" resname="discard_schedule_publish">
         <source>discard_schedule_publish</source>
-        <target xml:lang="fr" state="translated">Annuler future publication</target>
+        <target xml:lang="fr" state="translated">Annuler planification de publication</target>
         <note>key: discard_schedule_publish</note>
+        <alt-trans>
+          <target xml:lang="fr">Annuler future publication</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="dcb8f016db59563b21714e4ba0688f7650fc6995" resname="menu.date_based_publisher">
         <source>Publish later</source>
@@ -133,23 +154,35 @@
       </trans-unit>
       <trans-unit id="556b388819e694acae15637989c32827c445faed" resname="publish_later.settings">
         <source>Future publication settings</source>
-        <target xml:lang="fr" state="translated">Paramètres de publication future</target>
+        <target xml:lang="fr" state="translated">Paramètres de planification de publication</target>
         <note>key: publish_later.settings</note>
+        <alt-trans>
+          <target xml:lang="fr">Paramètres de publication future</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="b618f3dd85270257ed32cca10210efa9f5faa9f5" resname="schedule_publish">
         <source>schedule_publish</source>
-        <target xml:lang="fr" state="translated">Publier plus tard</target>
+        <target xml:lang="fr" state="translated">Planifier la publication</target>
         <note>key: schedule_publish</note>
+        <alt-trans>
+          <target xml:lang="fr">Publier plus tard</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="e5a66fd1e539dbf81f810d2022a3d8ee67a7a17c" resname="tab.name.all_scheduled">
         <source>All scheduled</source>
-        <target xml:lang="fr" state="translated">Toutes les futures publications</target>
+        <target xml:lang="fr" state="translated">Toutes les publications planifiées</target>
         <note>key: tab.name.all_scheduled</note>
+        <alt-trans>
+          <target xml:lang="fr">Toutes les futures publications</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="20a2c0c41c7091973e1490a65b2268e1f7794eda" resname="tab.name.my_scheduled">
         <source>My scheduled</source>
-        <target xml:lang="fr" state="translated">Mes futures publications</target>
+        <target xml:lang="fr" state="translated">Mes publications planifiées</target>
         <note>key: tab.name.my_scheduled</note>
+        <alt-trans>
+          <target xml:lang="fr">Mes futures publications</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="49e01918c7a89ab888e3fea20cf0a9f7953b4908" resname="version.deleted">
         <source>Version deleted</source>
