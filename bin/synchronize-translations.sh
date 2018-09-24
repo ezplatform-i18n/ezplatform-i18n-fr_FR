@@ -45,6 +45,12 @@ if [ -d "./vendor/ezsystems/ezplatform-page-fieldtype" ]; then
   cp ./vendor/ezsystems/ezplatform-page-fieldtype/src/bundle/Resources/translations/* ./vendor/ezsystems/ezplatform-i18n/ezplatform-page-fieldtype
 fi
 
+if [ -d "./vendor/ezsystems/ezplatform-form-builder" ]; then
+  echo "ezsystems/ezplatform-form-builder"
+  rm -f ./vendor/ezsystems/ezplatform-i18n/ezplatform-form-builder/*
+  cp ./vendor/ezsystems/ezplatform-form-builder/src/bundle/Resources/translations/* ./vendor/ezsystems/ezplatform-i18n/ezplatform-form-builder
+fi
+
 echo '# Fixing .xlf extensions'
 rename -s '.xliff' '.xlf' vendor/ezsystems/ezplatform-i18n/*/*
 
