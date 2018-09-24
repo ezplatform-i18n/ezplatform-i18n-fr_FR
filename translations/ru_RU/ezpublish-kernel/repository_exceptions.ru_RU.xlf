@@ -61,6 +61,30 @@
         <note>key: Argument 'BinaryFile::id' is invalid: '%id%' is wrong value, it does not contain prefix '%prefix%'. Is 'var_dir' config correct?</note>
         <jms:reference-file line="17">eZ/Publish/Core/IO/Exception/InvalidBinaryPrefixException.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="8967aa151e1b84f60c505163d42350eb6a96e948" resname="Content fields did not validate">
+        <source>Content fields did not validate</source>
+        <target xml:lang="ru" state="translated">Поля контента не валидированы</target>
+        <note>key: Content fields did not validate</note>
+        <jms:reference-file line="45">eZ/Publish/Core/Base/Exceptions/ContentFieldValidationException.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ebf71981c65ff4930b2b3f704b9e5383e92e06a6" resname="Content type cannot be unlinked from the only remaining group">
+        <source>Content type cannot be unlinked from the only remaining group</source>
+        <target xml:lang="ru" state="translated">Тип содержимого не могут быть отделены от единственной остающейся группы</target>
+        <note>key: Content type cannot be unlinked from the only remaining group</note>
+        <jms:reference-file line="857">eZ/Publish/Core/REST/Server/Controller/ContentType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="632a0a349b256b80469d59a604d24a52eea93c56" resname="Content type is already linked to provided group">
+        <source>Content type is already linked to provided group</source>
+        <target xml:lang="ru" state="translated">Тип контента уже связан с этой группой</target>
+        <note>key: Content type is already linked to provided group</note>
+        <jms:reference-file line="811">eZ/Publish/Core/REST/Server/Controller/ContentType.php</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1423a591f045a16c96d4b1c11d2c5bdc86ae19a6" resname="ContentType FieldDefinitions did not validate">
+        <source>ContentType FieldDefinitions did not validate</source>
+        <target xml:lang="ru" state="translated">ContentType FieldDefinitions не валидирован</target>
+        <note>key: ContentType FieldDefinitions did not validate</note>
+        <jms:reference-file line="45">eZ/Publish/Core/Base/Exceptions/ContentTypeFieldDefinitionValidationException.php</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>
