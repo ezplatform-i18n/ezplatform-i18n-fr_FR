@@ -16,6 +16,16 @@
         <target xml:lang="es-ES" state="translated">Cambiar a la vista de campo y rellenar los campos requeridos</target>
         <note>key: infobar.error.message</note>
       </trans-unit>
+      <trans-unit id="42181870d2894db7dece01830473f18bcf2ad9c3" resname="infobar.form.and.page.field.type.error.message">
+        <source>Not all blocks were properly configured. Please, update missing data. Switch to the Field view and fill in the other required fields</source>
+        <target xml:lang="es-ES" state="translated">No todos los bloques está configurados de forma correcta. Por favor, actualice los datos que faltan. Cambie a la vista de campo y rellene los otros campos requeridos</target>
+        <note>key: infobar.form.and.page.field.type.error.message</note>
+      </trans-unit>
+      <trans-unit id="6d037e40791b42019dc9de45a770945c4ec905cb" resname="infobar.form.error.message">
+        <source>Switch to the Field view and fill in the required fields</source>
+        <target xml:lang="es-ES" state="translated">Cambiar a la vista de campo y rellenar los campos requeridos</target>
+        <note>key: infobar.form.error.message</note>
+      </trans-unit>
       <trans-unit id="e1027757af4cedb3577c7b7e63789ebd329fdb1e" resname="infobar.last_edited">
         <source>Last edited:</source>
         <target xml:lang="es-ES" state="translated">Última modificación:</target>
@@ -30,6 +40,11 @@
         <source>Viewing</source>
         <target xml:lang="es-ES" state="translated">Viendo</target>
         <note>key: infobar.mode.viewing</note>
+      </trans-unit>
+      <trans-unit id="e6010c4a8967391fc3c84fae454468a4eb5f9a72" resname="infobar.page.field.type.error.message">
+        <source>Not all blocks were properly configured. Please, update missing data</source>
+        <target xml:lang="es-ES" state="translated">No todos los bloques se configuraron correctamente. Por favor, actualizar los datos que faltan</target>
+        <note>key: infobar.page.field.type.error.message</note>
       </trans-unit>
       <trans-unit id="1739daaed5307ca22b5e2f1729a1746c6de8c346" resname="infobar.translation.add">
         <source>Add new translation</source>
