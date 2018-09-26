@@ -251,6 +251,11 @@
         <target xml:lang="de" state="translated">Minimalwert</target>
         <note>key: field_definition.ezfloat.min_value</note>
       </trans-unit>
+      <trans-unit id="784ef2a6786a65136f44158cccc5daa2c16a33bb" resname="field_definition.ezimage.max_file_size">
+        <source>Maximum file size (MB)</source>
+        <target xml:lang="de" state="translated">Maximal erlaubte Dateigröße (MB)</target>
+        <note>key: field_definition.ezimage.max_file_size</note>
+      </trans-unit>
       <trans-unit id="8a95f664895f9c72e5ca52ea43908ad3d54c8966" resname="field_definition.ezinteger.default_value">
         <source>Default value</source>
         <target xml:lang="de" state="translated">Standardwert</target>
@@ -321,6 +326,11 @@
         <target xml:lang="de" state="translated">Windows Media Player</target>
         <note>key: field_definition.ezmedia.type_windows_media_player</note>
       </trans-unit>
+      <trans-unit id="fabc9be57b82439dac2f612b9c2a171eb7ce6e04" resname="field_definition.ezobjectrelation.selection_content_types">
+        <source>Allowed content types</source>
+        <target xml:lang="de" state="translated">Erlaubte Inhaltstypen</target>
+        <note>key: field_definition.ezobjectrelation.selection_content_types</note>
+      </trans-unit>
       <trans-unit id="440d8fe80bb8a07b62f17d843721285b2cf8a4d5" resname="field_definition.ezobjectrelation.selection_root">
         <source>Default selection item</source>
         <target xml:lang="de" state="translated">Standard Auswahl Element</target>
@@ -345,6 +355,11 @@
         <source>Default location</source>
         <target xml:lang="de" state="translated">Standard Location</target>
         <note>key: field_definition.ezobjectrelationlist.selection_default_location</note>
+      </trans-unit>
+      <trans-unit id="14274feead6c1e1a98261c8df42d6e2e2210cb6f" resname="field_definition.ezobjectrelationlist.selection_limit">
+        <source>Selection limit</source>
+        <target xml:lang="de" state="translated">Maximale Verknüpfungen</target>
+        <note>key: field_definition.ezobjectrelationlist.selection_limit</note>
       </trans-unit>
       <trans-unit id="1592c36df8d445c3154d1f639027f97a90739856" resname="field_definition.ezobjectrelationlist.selection_root_udw_button">
         <source>Select location</source>

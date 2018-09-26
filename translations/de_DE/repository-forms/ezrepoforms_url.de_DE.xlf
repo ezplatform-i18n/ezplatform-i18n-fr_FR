@@ -6,9 +6,21 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-            
-            
-            
-        </body>
+      <trans-unit id="adb107df09623b2e7b5ee2011922ce831dec8de4" resname="url.status.all">
+        <source>All</source>
+        <target xml:lang="de" state="translated">Alle</target>
+        <note>key: url.status.all</note>
+      </trans-unit>
+      <trans-unit id="8db54af627b9dd5906670b49e5cbc9769c50f7e9" resname="url.status.invalid">
+        <source>Invalid</source>
+        <target xml:lang="de" state="translated">Ungültig</target>
+        <note>key: url.status.invalid</note>
+      </trans-unit>
+      <trans-unit id="7973ef61ed3bc274aba38a710cee81a982cec3d4" resname="url.status.valid">
+        <source>Valid</source>
+        <target xml:lang="de" state="translated">Gültig</target>
+        <note>key: url.status.valid</note>
+      </trans-unit>
+    </body>
   </file>
 </xliff>

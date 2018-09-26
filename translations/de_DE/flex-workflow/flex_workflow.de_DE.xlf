@@ -6,24 +6,51 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="5bfb4eb8f01f11447cc3c85b28096f96549b34d7" resname="approval.timeline">
+        <source>Approval Timeline</source>
+        <target xml:lang="de" state="translated">Freigabe Zeitlinie</target>
+        <note>key: approval.timeline</note>
+      </trans-unit>
+      <trans-unit id="a7a51410cb1c298c47638de5b509d09dd2f33fa0" resname="content.review.add_message">
+        <source>Message (Optional):</source>
+        <target xml:lang="de" state="translated">Nachricht (Optional):</target>
+        <note>key: content.review.add_message</note>
+      </trans-unit>
+      <trans-unit id="f695b40d6949dd8fabad86abe87612bf9fe0f31a" resname="content.review.add_reviewer">
+        <source>Add a Reviewer</source>
+        <target xml:lang="de" state="translated">Reviewer hinzufügen</target>
+        <note>key: content.review.add_reviewer</note>
+      </trans-unit>
+      <trans-unit id="eca0d518c25ac61553a436334389d163e15790cb" resname="content.review.from">
+        <source>From:</source>
+        <target xml:lang="de" state="translated">Von:</target>
+        <note>key: content.review.from</note>
+      </trans-unit>
+      <trans-unit id="a93fbc1f5561a7badc77e20b3050fd13d70ca465" resname="content.review.message_placeholder">
+        <source>Type your message...</source>
+        <target xml:lang="de" state="translated">Nachricht eingeben...</target>
+        <note>key: content.review.message_placeholder</note>
+      </trans-unit>
+      <trans-unit id="48ec0a3b5f9bf96775a010f49c2ca83fa5a6d9d5" resname="content.review.read_more">
+        <source><![CDATA[Read more &raquo;]]></source>
+        <target xml:lang="de" state="translated"><![CDATA[Mehr lesen &raquo;]]></target>
+        <note>key: content.review.read_more</note>
+      </trans-unit>
+      <trans-unit id="b19cf3651ea59d72545d9e67ccdcd5c4241a0681" resname="content.review.request">
+        <source>Content review request</source>
+        <target xml:lang="de" state="translated">Inhalt Überprüfung Anfrage</target>
+        <note>key: content.review.request</note>
+      </trans-unit>
+      <trans-unit id="e476d7b010b290ee024c243ce41a6935c89f1f28" resname="content.review.reviewer_placeholder">
+        <source>Type to search</source>
+        <target xml:lang="de" state="translated">Tippen, um zu suchen</target>
+        <note>key: content.review.reviewer_placeholder</note>
+      </trans-unit>
+      <trans-unit id="34a7f0dcca4b17aceb2611a5ee005e38e5130d76" resname="content.review.send_for_review">
+        <source>Send for review</source>
+        <target xml:lang="de" state="translated">Zur Prüfung senden</target>
+        <note>key: content.review.send_for_review</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -11,6 +11,26 @@
         <target xml:lang="de" state="translated">ez.section.identifier.format</target>
         <note>key: ez.section.identifier.format</note>
       </trans-unit>
+      <trans-unit id="0727f822c8bebb99cd8a75ec16d4008c74d30b24" resname="ezplatform.change_user_password.not_match">
+        <source>Old password does not match.</source>
+        <target xml:lang="de" state="translated">Das alte Passwort ist nicht korrekt.</target>
+        <note>key: ezplatform.change_user_password.not_match</note>
+      </trans-unit>
+      <trans-unit id="54d912b0089483cfd533714e50262851b6d1421a" resname="ezplatform.change_user_password.passwords_must_match">
+        <source>The password fields must match.</source>
+        <target xml:lang="de" state="translated">Die Passwort-Felder müssen übereinstimmen.</target>
+        <note>key: ezplatform.change_user_password.passwords_must_match</note>
+      </trans-unit>
+      <trans-unit id="1235bb9d75f7a324d6b06742720ab9c18775ddce" resname="ezplatform.copy_subtree.is_not_container">
+        <source>Selected Location is not container.</source>
+        <target xml:lang="de" state="translated">Der ausgewählte Ort ist kein Container.</target>
+        <note>key: ezplatform.copy_subtree.is_not_container</note>
+      </trans-unit>
+      <trans-unit id="f8f63f1b19c0003727cfed4fa1bbeba18b1d9265" resname="ezplatform.copy_subtree.is_root">
+        <source>Selected Location can not be root Location.</source>
+        <target xml:lang="de" state="translated">Der ausgewählte Ort kann kein Stammort sein.</target>
+        <note>key: ezplatform.copy_subtree.is_root</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

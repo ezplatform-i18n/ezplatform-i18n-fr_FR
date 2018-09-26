@@ -6,10 +6,20 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="41bcfef149f877e1abb0ce2cd2aa5afb713ea1de" resname="policy.limitation.identifier_tooltip">
+        <source>"%identifier%" Limitation</source>
+        <target xml:lang="de" state="translated">"%identifier%" Einschränkung</target>
+        <note>key: policy.limitation.identifier_tooltip</note>
+      </trans-unit>
       <trans-unit id="77e814db3b3f1bd68101d274277bee08d164f0a2" resname="policy.limitation.none">
         <source>None</source>
         <target xml:lang="de" state="translated">Keine</target>
         <note>key: policy.limitation.none</note>
+      </trans-unit>
+      <trans-unit id="15c7918829705fa0d6e560ba6697675a1fb3642d" resname="tab.policies.assignment">
+        <source>User/Group</source>
+        <target xml:lang="de" state="translated">Benutzer/Gruppe</target>
+        <note>key: tab.policies.assignment</note>
       </trans-unit>
       <trans-unit id="359681221fc63adcf852c1352342fe531e554503" resname="tab.policies.function">
         <source>Function</source>
@@ -25,6 +35,16 @@
         <source>Module</source>
         <target xml:lang="de" state="translated">Modul</target>
         <note>key: tab.policies.module</note>
+      </trans-unit>
+      <trans-unit id="445e5dce642562c06137fef60c9a7fcf788a9da6" resname="tab.policies.no_policies">
+        <source>This content item has no policies.</source>
+        <target xml:lang="de" state="translated">Dieses Inhaltselement hat keine Richtlinien.</target>
+        <note>key: tab.policies.no_policies</note>
+      </trans-unit>
+      <trans-unit id="1a761d1b544608935dfa6ce9d196cf2c31f7edda" resname="tab.policies.policies">
+        <source>Policies</source>
+        <target xml:lang="de" state="translated">Richtlinien</target>
+        <note>key: tab.policies.policies</note>
       </trans-unit>
       <trans-unit id="1a1635237bc7c5c0b73865100d03763e9bd71e1f" resname="tab.policies.role">
         <source>Role</source>

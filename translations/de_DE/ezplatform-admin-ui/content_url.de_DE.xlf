@@ -38,13 +38,19 @@
       </trans-unit>
       <trans-unit id="e84da49f6798548a0e09f5f7d5095788257f0119" resname="tab.urls.add.redirect.helper.checked">
         <source>Checked will redirect to the destination using an HTTP 301 response.</source>
-        <target xml:lang="de" state="translated">Geprüft wird an das Ziel mit einer HTTP 301 Antwort umleiten.</target>
+        <target xml:lang="de" state="translated">Aktiviert: Leitet mit HTTP 301 Antwort auf das Ziel weiter.</target>
         <note>key: tab.urls.add.redirect.helper.checked</note>
+        <alt-trans>
+          <target xml:lang="de">Geprüft wird an das Ziel mit einer HTTP 301 Antwort umleiten.</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="bccfa7be40c2932ae04a50767aee2184bd5ca4d5" resname="tab.urls.add.redirect.helper.unchecked">
         <source>Unchecked will not redirect to the destination and the URL will stay the same.</source>
-        <target xml:lang="de" state="translated">Ungeprüft wird nicht auf die Zieladresse umgeleitet und die URL bleibt unverändert.</target>
+        <target xml:lang="de" state="translated">Deaktiviert: Leitet nicht auf das Ziel weiter. Die URL bleibt unverändert.</target>
         <note>key: tab.urls.add.redirect.helper.unchecked</note>
+        <alt-trans>
+          <target xml:lang="de">Ungeprüft wird nicht auf die Zieladresse umgeleitet und die URL bleibt unverändert.</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="9ef990fca45f612ab2d3af7b21968803d76d5d77" resname="tab.urls.add.site_root">
         <source>Place alias at the site root</source>
@@ -53,13 +59,19 @@
       </trans-unit>
       <trans-unit id="9fc6fbd86b58ee883321610dd1726551772edaf1" resname="tab.urls.add.site_root.helper.checked">
         <source>Checked will create the alias at the site root.</source>
-        <target xml:lang="de" state="translated">Geprüft erstellt den Alias im Stammverzeichnis der Webseite.</target>
+        <target xml:lang="de" state="translated">Aktiviert: Erstellt den Alias im Stammverzeichnis der Webseite.</target>
         <note>key: tab.urls.add.site_root.helper.checked</note>
+        <alt-trans>
+          <target xml:lang="de">Geprüft erstellt den Alias im Stammverzeichnis der Webseite.</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="db531fb5f993263b5ea57393101781b9d731a738" resname="tab.urls.add.site_root.helper.unchecked">
         <source>Unchecked will create the new alias under %parent_name%</source>
-        <target xml:lang="de" state="translated">Ungeprüft erstellt einen neuen Alias unter %parent_name%</target>
+        <target xml:lang="de" state="translated">Deaktiviert: Erstellt den neuen Alias unter %parent_name%.</target>
         <note>key: tab.urls.add.site_root.helper.unchecked</note>
+        <alt-trans>
+          <target xml:lang="de">Ungeprüft erstellt einen neuen Alias unter %parent_name%</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="25badd959ce69714e8eb349ebddbbbe126c14458" resname="tab.urls.add.title">
         <source>Create new URL alias</source>
@@ -120,6 +132,11 @@
         <source>URL</source>
         <target xml:lang="de" state="translated">URL</target>
         <note>key: tab.urls.url</note>
+      </trans-unit>
+      <trans-unit id="8cbd9ea97c79240d3a2f41a84328c79908cd8265" resname="tabs.urls.add.site_root.helper.no_parent_name">
+        <source>Unchecked will create the new alias under the parent of the location</source>
+        <target xml:lang="de" state="translated">Deaktiviert: Erstellt den neuen Alias unter dem Ort des Elternelements.</target>
+        <note>key: tabs.urls.add.site_root.helper.no_parent_name</note>
       </trans-unit>
     </body>
   </file>
