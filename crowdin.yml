@@ -24,3 +24,6 @@ files:
   - source: /ezplatform-admin-ui-modules
     translation: >-
       /translations/%locale_with_underscore%/%original_path%/%file_name%.%locale_with_underscore%.%file_extension%
+  - source: ezplatform-form-builder/*.xlf
+    translation: >-
+      /translations/%locale_with_underscore%/%original_path%/%file_name%.%locale_with_underscore%.%file_extension%
