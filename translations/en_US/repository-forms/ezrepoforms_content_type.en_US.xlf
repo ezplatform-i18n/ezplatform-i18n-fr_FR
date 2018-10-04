@@ -8,12 +8,12 @@
     <body>
       <trans-unit id="0b5b303097790cd7cf1dde918d885439e60ecbd2" resname="content_type.add_field_definition" approved="yes">
         <source>Add field definition</source>
-        <target xml:lang="en-US">Add Field Definition</target>
+        <target xml:lang="en-US" state="translated">Add Field Definition</target>
         <note>key: content_type.add_field_definition</note>
       </trans-unit>
       <trans-unit id="529a1012c7fe5ca6fafdb5d070ac8ececfe94af6" resname="content_type.create" approved="yes">
         <source>Create a content type</source>
-        <target xml:lang="en-US">Create a ContentType</target>
+        <target xml:lang="en-US" state="translated">Create a ContentType</target>
         <note>key: content_type.create</note>
         <alt-trans>
           <target xml:lang="en-US">Create a Content Type</target>
@@ -21,32 +21,32 @@
       </trans-unit>
       <trans-unit id="7b64ebcf792d888de957eaee1c3734c97c80db98" resname="content_type.default_always_available" approved="yes">
         <source>Default content availability</source>
-        <target xml:lang="en-US">Default Content Availability</target>
+        <target xml:lang="en-US" state="translated">Default Content Availability</target>
         <note>key: content_type.default_always_available</note>
       </trans-unit>
       <trans-unit id="b29f5d9c32e10776ec9fd36c35c4aefc96732cb2" resname="content_type.default_sort_field" approved="yes">
         <source>Default field for sorting children</source>
-        <target xml:lang="en-US">Default Field for Sorting Children</target>
+        <target xml:lang="en-US" state="translated">Default Field for Sorting Children</target>
         <note>key: content_type.default_sort_field</note>
       </trans-unit>
       <trans-unit id="7a67ffefca1339a9e4c5224d773378c2e5f6f378" resname="content_type.default_sort_order" approved="yes">
         <source>Default sort order</source>
-        <target xml:lang="en-US">Default Sort Order</target>
+        <target xml:lang="en-US" state="translated">Default Sort Order</target>
         <note>key: content_type.default_sort_order</note>
       </trans-unit>
       <trans-unit id="be2f64eb4557a3af16a2f32f5e0185c591d3ca8f" resname="content_type.delete" approved="yes">
         <source>Delete</source>
-        <target xml:lang="en-US">Delete</target>
+        <target xml:lang="en-US" state="translated">Delete</target>
         <note>key: content_type.delete</note>
       </trans-unit>
       <trans-unit id="f2a3cc77cdadcff8883b0022e006e24918307687" resname="content_type.description" approved="yes">
         <source>Description</source>
-        <target xml:lang="en-US">Description</target>
+        <target xml:lang="en-US" state="translated">Description</target>
         <note>key: content_type.description</note>
       </trans-unit>
       <trans-unit id="2aecf6f88fd1ee89037907b8743d5873879a0590" resname="content_type.field_definitions_data" approved="yes">
         <source>Content field definitions</source>
-        <target xml:lang="en-US">ContentField Definitions</target>
+        <target xml:lang="en-US" state="translated">ContentField Definitions</target>
         <note>key: content_type.field_definitions_data</note>
         <alt-trans>
           <target xml:lang="en-US">Content Field Definitions</target>
@@ -54,7 +54,7 @@
       </trans-unit>
       <trans-unit id="a43bfd2651eb1f3357e3398286afd5b6e17c101e" resname="content_type.field_type_selection" approved="yes">
         <source>Field type selection</source>
-        <target xml:lang="en-US">FieldType Selection</target>
+        <target xml:lang="en-US" state="translated">FieldType Selection</target>
         <note>key: content_type.field_type_selection</note>
         <alt-trans>
           <target xml:lang="en-US">Field Type Selection</target>
@@ -62,42 +62,42 @@
       </trans-unit>
       <trans-unit id="368a6ffa173a2e9605371392e99e565d9b247382" resname="content_type.group.delete" approved="yes">
         <source>Delete</source>
-        <target xml:lang="en-US">Delete</target>
+        <target xml:lang="en-US" state="translated">Delete</target>
         <note>key: content_type.group.delete</note>
       </trans-unit>
       <trans-unit id="043e7766417bd9d21fe58de76fcaee35eb7d2fb0" resname="content_type.group.identifier" approved="yes">
         <source>Name</source>
-        <target xml:lang="en-US">Name</target>
+        <target xml:lang="en-US" state="translated">Name</target>
         <note>key: content_type.group.identifier</note>
       </trans-unit>
       <trans-unit id="c657344d0bf6b6203b1b9eaf4e44f7a6261dfe1d" resname="content_type.group.save" approved="yes">
         <source>Save</source>
-        <target xml:lang="en-US">Save</target>
+        <target xml:lang="en-US" state="translated">Save</target>
         <note>key: content_type.group.save</note>
       </trans-unit>
       <trans-unit id="238db0c5dee8ec13199b073f7cc78728f53ffa36" resname="content_type.identifier" approved="yes">
         <source>Identifier</source>
-        <target xml:lang="en-US">Identifier</target>
+        <target xml:lang="en-US" state="translated">Identifier</target>
         <note>key: content_type.identifier</note>
       </trans-unit>
       <trans-unit id="338e462a91906d03e5e6b8c00528a38d482a3c9e" resname="content_type.is_container" approved="yes">
         <source>Container</source>
-        <target xml:lang="en-US">Container</target>
+        <target xml:lang="en-US" state="translated">Container</target>
         <note>key: content_type.is_container</note>
       </trans-unit>
       <trans-unit id="7fddd251857df821bd536dd680e1edbc921790a2" resname="content_type.name" approved="yes">
         <source>Name</source>
-        <target xml:lang="en-US">Name</target>
+        <target xml:lang="en-US" state="translated">Name</target>
         <note>key: content_type.name</note>
       </trans-unit>
       <trans-unit id="9e9628fc59643f3167ebe81dfed3e40eecd281c9" resname="content_type.name_schema" approved="yes">
         <source>Content name pattern</source>
-        <target xml:lang="en-US">Content Name Pattern</target>
+        <target xml:lang="en-US" state="translated">Content Name Pattern</target>
         <note>key: content_type.name_schema</note>
       </trans-unit>
       <trans-unit id="49e5f320e6e37cbd53a5d290e3ffd48788226852" resname="content_type.publish" approved="yes">
         <source>OK</source>
-        <target xml:lang="en-US">Ok</target>
+        <target xml:lang="en-US" state="translated">Ok</target>
         <note>key: content_type.publish</note>
         <alt-trans>
           <target xml:lang="en-US">OK</target>
@@ -105,7 +105,7 @@
       </trans-unit>
       <trans-unit id="701cbaa7ea48016d7b0eb5940e810cacd16c19b3" resname="content_type.remove_draft" approved="yes">
         <source>Cancel</source>
-        <target xml:lang="en-US">Cancel</target>
+        <target xml:lang="en-US" state="translated">Cancel</target>
         <note>key: content_type.remove_draft</note>
       </trans-unit>
       <trans-unit id="5fa42f2a0ef1fee12efaa4cdb1c35bbed35e9b7e" resname="content_type.remove_field_definitions">
@@ -118,47 +118,47 @@
       </trans-unit>
       <trans-unit id="946ba9e49beabdacd143e10e343f852736c081d8" resname="content_type.save" approved="yes">
         <source>Apply</source>
-        <target xml:lang="en-US">Apply</target>
+        <target xml:lang="en-US" state="translated">Apply</target>
         <note>key: content_type.save</note>
       </trans-unit>
       <trans-unit id="c625b80940dd9f13842e38446a97391248d0f709" resname="content_type.sort_field.1" approved="yes">
         <source>Location path</source>
-        <target xml:lang="en-US">Location Path</target>
+        <target xml:lang="en-US" state="translated">Location Path</target>
         <note>key: content_type.sort_field.1</note>
       </trans-unit>
       <trans-unit id="4cdfd30bdc30f263b30713d22f714ad46beb120b" resname="content_type.sort_field.2" approved="yes">
         <source>Publication date</source>
-        <target xml:lang="en-US">Publication Date</target>
+        <target xml:lang="en-US" state="translated">Publication Date</target>
         <note>key: content_type.sort_field.2</note>
       </trans-unit>
       <trans-unit id="3b367aa1610d6332d66b2113a1b1ed287e0310a6" resname="content_type.sort_field.3" approved="yes">
         <source>Modification date</source>
-        <target xml:lang="en-US">Modification Date</target>
+        <target xml:lang="en-US" state="translated">Modification Date</target>
         <note>key: content_type.sort_field.3</note>
       </trans-unit>
       <trans-unit id="f0dba52962ff2fceb7ab0de72427b4deb55ffbbc" resname="content_type.sort_field.4" approved="yes">
         <source>Section</source>
-        <target xml:lang="en-US">Section</target>
+        <target xml:lang="en-US" state="translated">Section</target>
         <note>key: content_type.sort_field.4</note>
       </trans-unit>
       <trans-unit id="08c573b0f90eddd499911819f24a58632ceec79b" resname="content_type.sort_field.5" approved="yes">
         <source>Location depth</source>
-        <target xml:lang="en-US">Location Depth</target>
+        <target xml:lang="en-US" state="translated">Location Depth</target>
         <note>key: content_type.sort_field.5</note>
       </trans-unit>
       <trans-unit id="f75919a228809d6de255e3fd535c4eaaf8789241" resname="content_type.sort_field.6" approved="yes">
         <source>ContentType identifier</source>
-        <target xml:lang="en-US">ContentType Identifier</target>
+        <target xml:lang="en-US" state="translated">ContentType Identifier</target>
         <note>key: content_type.sort_field.6</note>
       </trans-unit>
       <trans-unit id="f4bd88a45172f3cf7e268c40cfc27b0c5336bc9b" resname="content_type.sort_field.7" approved="yes">
         <source>ContentType name</source>
-        <target xml:lang="en-US">ContentType Name</target>
+        <target xml:lang="en-US" state="translated">ContentType Name</target>
         <note>key: content_type.sort_field.7</note>
       </trans-unit>
       <trans-unit id="d605ada5b53c58b7d08df3379cdc8c9ffc619a3f" resname="content_type.sort_field.8" approved="yes">
         <source>Location priority</source>
-        <target xml:lang="en-US">Location Priority</target>
+        <target xml:lang="en-US" state="translated">Location Priority</target>
         <note>key: content_type.sort_field.8</note>
       </trans-unit>
       <trans-unit id="d24f4fdc1a193e1526c297e5e30b61bdb396b3bb" resname="content_type.sort_field.9">
@@ -168,27 +168,27 @@
       </trans-unit>
       <trans-unit id="18f4f0dcdd6a1f1a9f7a5c301cc378167f403836" resname="content_type.sort_order.0" approved="yes">
         <source>Descending</source>
-        <target xml:lang="en-US">Descending</target>
+        <target xml:lang="en-US" state="translated">Descending</target>
         <note>key: content_type.sort_order.0</note>
       </trans-unit>
       <trans-unit id="b411f25ded028ccb2ef56a55d69bd2e3f1da4cd5" resname="content_type.sort_order.1" approved="yes">
         <source>Ascending</source>
-        <target xml:lang="en-US">Ascending</target>
+        <target xml:lang="en-US" state="translated">Ascending</target>
         <note>key: content_type.sort_order.1</note>
       </trans-unit>
       <trans-unit id="6ab7362c77b22ff8bc0d14eeaae8514b0a683473" resname="content_type.url_alias_schema" approved="yes">
         <source>URL alias name pattern</source>
-        <target xml:lang="en-US">URL Alias Name Pattern</target>
+        <target xml:lang="en-US" state="translated">URL Alias Name Pattern</target>
         <note>key: content_type.url_alias_schema</note>
       </trans-unit>
       <trans-unit id="f99cc628dc4d82c5ee69eae79039a2f449eec064" resname="field_definition.description" approved="yes">
         <source>Description</source>
-        <target xml:lang="en-US">Description</target>
+        <target xml:lang="en-US" state="translated">Description</target>
         <note>key: field_definition.description</note>
       </trans-unit>
       <trans-unit id="41f781284e4bae2abbb6cfdf1126cc90b48dd35b" resname="field_definition.ezbinaryfile.max_file_size" approved="yes">
         <source>Maximum file size (MB)</source>
-        <target xml:lang="en-US">Maximum File Size (MB)</target>
+        <target xml:lang="en-US" state="translated">Maximum File Size (MB)</target>
         <note>key: field_definition.ezbinaryfile.max_file_size</note>
       </trans-unit>
       <trans-unit id="5ae9eea988dc249d137d285ec360214b238efc26" resname="field_definition.ezboolean.default_value">
@@ -198,7 +198,7 @@
       </trans-unit>
       <trans-unit id="3ef6598f8cd7d60095784845bb24852ac531e47c" resname="field_definition.ezcountry.default_value" approved="yes">
         <source>Select which countries by default</source>
-        <target xml:lang="en-US">Select Default Countries</target>
+        <target xml:lang="en-US" state="translated">Select Default Countries</target>
         <note>key: field_definition.ezcountry.default_value</note>
         <alt-trans>
           <target xml:lang="en-US">Select which Countries by Default</target>
@@ -206,27 +206,27 @@
       </trans-unit>
       <trans-unit id="027f35cf66e5ea571cc7b600dad0ab5ceea20cd6" resname="field_definition.ezcountry.is_multiple" approved="yes">
         <source>Multiple choice</source>
-        <target xml:lang="en-US">Multiple Choice</target>
+        <target xml:lang="en-US" state="translated">Multiple Choice</target>
         <note>key: field_definition.ezcountry.is_multiple</note>
       </trans-unit>
       <trans-unit id="18a5846deb7a3d7dcc9fbd0a2de28d609c2a55c2" resname="field_definition.ezdate.default_type" approved="yes">
         <source>Default value</source>
-        <target xml:lang="en-US">Default Value</target>
+        <target xml:lang="en-US" state="translated">Default Value</target>
         <note>key: field_definition.ezdate.default_type</note>
       </trans-unit>
       <trans-unit id="eb97ae8058956f1babf75555dbdba76c8e409bf1" resname="field_definition.ezdate.default_type_current" approved="yes">
         <source>Current date</source>
-        <target xml:lang="en-US">Current Date</target>
+        <target xml:lang="en-US" state="translated">Current Date</target>
         <note>key: field_definition.ezdate.default_type_current</note>
       </trans-unit>
       <trans-unit id="df532a4ad5878fd0bc3f7842fb6907078efe76f9" resname="field_definition.ezdate.default_type_empty" approved="yes">
         <source>Empty</source>
-        <target xml:lang="en-US">Empty</target>
+        <target xml:lang="en-US" state="translated">Empty</target>
         <note>key: field_definition.ezdate.default_type_empty</note>
       </trans-unit>
       <trans-unit id="dbbf37dee75d40448b725aea9c893a4ea84c8ab6" resname="field_definition.ezdatetime.date_interval" approved="yes">
         <source>Current date and time adjusted by</source>
-        <target xml:lang="en-US">Current Date and Time adjusted by</target>
+        <target xml:lang="en-US" state="translated">Current Date and Time adjusted by</target>
         <note>key: field_definition.ezdatetime.date_interval</note>
         <alt-trans>
           <target xml:lang="en-US">Current Date and Time Adjusted by</target>
@@ -234,12 +234,12 @@
       </trans-unit>
       <trans-unit id="7b4f4729ec64de6f20356ad40f768c98c27590fb" resname="field_definition.ezdatetime.default_type" approved="yes">
         <source>Default value</source>
-        <target xml:lang="en-US">Default Value</target>
+        <target xml:lang="en-US" state="translated">Default Value</target>
         <note>key: field_definition.ezdatetime.default_type</note>
       </trans-unit>
       <trans-unit id="e37e68ecadab17cf7132cd1d5163a4f13d0f759c" resname="field_definition.ezdatetime.default_type_adjusted" approved="yes">
         <source>Adjusted current datetime</source>
-        <target xml:lang="en-US">Adjusted Current DateTime</target>
+        <target xml:lang="en-US" state="translated">Adjusted Current DateTime</target>
         <note>key: field_definition.ezdatetime.default_type_adjusted</note>
         <alt-trans>
           <target xml:lang="en-US">Adjusted Current Datetime</target>
@@ -247,7 +247,7 @@
       </trans-unit>
       <trans-unit id="24ac7fa5478172475d86a2d16829ece8a5e5f59f" resname="field_definition.ezdatetime.default_type_current" approved="yes">
         <source>Current datetime</source>
-        <target xml:lang="en-US">Current DateTime</target>
+        <target xml:lang="en-US" state="translated">Current DateTime</target>
         <note>key: field_definition.ezdatetime.default_type_current</note>
         <alt-trans>
           <target xml:lang="en-US">Current Datetime</target>
@@ -255,12 +255,12 @@
       </trans-unit>
       <trans-unit id="0119e6a5f0c829a61263c3a8a37dda53b9da8dce" resname="field_definition.ezdatetime.default_type_empty" approved="yes">
         <source>Empty</source>
-        <target xml:lang="en-US">Empty</target>
+        <target xml:lang="en-US" state="translated">Empty</target>
         <note>key: field_definition.ezdatetime.default_type_empty</note>
       </trans-unit>
       <trans-unit id="a2fbf20071bc00616d6c927dadd484ad75fbcd4c" resname="field_definition.ezdatetime.use_seconds" approved="yes">
         <source>Use seconds</source>
-        <target xml:lang="en-US">Use Seconds</target>
+        <target xml:lang="en-US" state="translated">Use Seconds</target>
         <note>key: field_definition.ezdatetime.use_seconds</note>
       </trans-unit>
       <trans-unit id="ed0d3cb0a19dd96c1708957f17e15204465c69b6" resname="field_definition.ezfloat.default_value">
@@ -270,12 +270,12 @@
       </trans-unit>
       <trans-unit id="8f6ec24986ca862e96867edc18aa490ff6035e56" resname="field_definition.ezfloat.max_value" approved="yes">
         <source>Maximum value</source>
-        <target xml:lang="en-US">Maximum Value</target>
+        <target xml:lang="en-US" state="translated">Maximum Value</target>
         <note>key: field_definition.ezfloat.max_value</note>
       </trans-unit>
       <trans-unit id="a8eb20f50022f5aa6c623f3f870297f2ee034606" resname="field_definition.ezfloat.min_value" approved="yes">
         <source>Minimum value</source>
-        <target xml:lang="en-US">Minimum Value</target>
+        <target xml:lang="en-US" state="translated">Minimum Value</target>
         <note>key: field_definition.ezfloat.min_value</note>
       </trans-unit>
       <trans-unit id="8a95f664895f9c72e5ca52ea43908ad3d54c8966" resname="field_definition.ezinteger.default_value">
@@ -285,12 +285,12 @@
       </trans-unit>
       <trans-unit id="7529d0af266c6893ae1886faf5578cf4d6d768aa" resname="field_definition.ezinteger.max_value" approved="yes">
         <source>Maximum value</source>
-        <target xml:lang="en-US">Maximum Value</target>
+        <target xml:lang="en-US" state="translated">Maximum Value</target>
         <note>key: field_definition.ezinteger.max_value</note>
       </trans-unit>
       <trans-unit id="9b1e51f5ebbb28c403c7707252c6ca47e6a0a82c" resname="field_definition.ezinteger.min_value" approved="yes">
         <source>Minimum value</source>
-        <target xml:lang="en-US">Minimum Value</target>
+        <target xml:lang="en-US" state="translated">Minimum Value</target>
         <note>key: field_definition.ezinteger.min_value</note>
       </trans-unit>
       <trans-unit id="4afaf19544597331fbc0eb01e75556a312d657ec" resname="field_definition.ezisbn.default_value">

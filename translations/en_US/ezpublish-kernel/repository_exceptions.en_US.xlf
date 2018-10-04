@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="c2993e6873e928a2a635698ce582b4aba5748643" resname="'%actualValue%' is wrong value" approved="yes">
         <source>'%actualValue%' is wrong value</source>
-        <target xml:lang="en-US">'%actualValue%' is an incorrect value</target>
+        <target xml:lang="en-US" state="translated">'%actualValue%' is an incorrect value</target>
         <note>key: '%actualValue%' is wrong value</note>
         <jms:reference-file line="32">eZ/Publish/Core/Base/Exceptions/InvalidArgumentValue.php</jms:reference-file>
         <alt-trans>
@@ -17,7 +17,7 @@
       </trans-unit>
       <trans-unit id="7a87971cc45ac957c7db1a4907f8e7f4325e3e32" resname="'%actualValue%' is wrong value in class '%className%'" approved="yes">
         <source>'%actualValue%' is wrong value in class '%className%'</source>
-        <target xml:lang="en-US">'%actualValue%' is an incorrect value in class '%className%'</target>
+        <target xml:lang="en-US" state="translated">'%actualValue%' is an incorrect value in class '%className%'</target>
         <note>key: '%actualValue%' is wrong value in class '%className%'</note>
         <jms:reference-file line="34">eZ/Publish/Core/Base/Exceptions/InvalidArgumentValue.php</jms:reference-file>
         <alt-trans>
@@ -26,7 +26,7 @@
       </trans-unit>
       <trans-unit id="894070fe84612fd5871c1b09bc79f85c2e17d384" resname="A value is set for non translatable field definition '%identifier%' with language '%languageCode%'" approved="yes">
         <source>A value is set for non translatable field definition '%identifier%' with language '%languageCode%'</source>
-        <target xml:lang="en-US">A value is set for a non-translatable Field Definition identifier '%identifier%' with language code '%languageCode%'</target>
+        <target xml:lang="en-US" state="translated">A value is set for a non-translatable Field Definition identifier '%identifier%' with language code '%languageCode%'</target>
         <note>key: A value is set for non translatable field definition '%identifier%' with language '%languageCode%'</note>
         <jms:reference-file line="1410">eZ/Publish/Core/Repository/ContentService.php</jms:reference-file>
         <jms:reference-file line="770">eZ/Publish/Core/Repository/ContentService.php</jms:reference-file>
@@ -90,7 +90,7 @@
       </trans-unit>
       <trans-unit id="1423a591f045a16c96d4b1c11d2c5bdc86ae19a6" resname="ContentType FieldDefinitions did not validate" approved="yes">
         <source>ContentType FieldDefinitions did not validate</source>
-        <target xml:lang="en-US">ContentType FieldDefinitions did not validate</target>
+        <target xml:lang="en-US" state="translated">ContentType FieldDefinitions did not validate</target>
         <note>key: ContentType FieldDefinitions did not validate</note>
         <jms:reference-file line="45">eZ/Publish/Core/Base/Exceptions/ContentTypeFieldDefinitionValidationException.php</jms:reference-file>
       </trans-unit>
@@ -114,7 +114,7 @@
       </trans-unit>
       <trans-unit id="2f4e9f3ca70239ade7c9789a3da3c26b1216fb16" resname="Current version is already in status DRAFT" approved="yes">
         <source>Current version is already in status DRAFT</source>
-        <target xml:lang="en-US">Current version is already in DRAFT status</target>
+        <target xml:lang="en-US" state="translated">Current version is already in DRAFT status</target>
         <note>key: Current version is already in status DRAFT</note>
         <jms:reference-file line="410">eZ/Publish/Core/REST/Server/Controller/Content.php</jms:reference-file>
         <alt-trans>
@@ -165,7 +165,7 @@
       </trans-unit>
       <trans-unit id="87b49727a4d83168066183cbed772c1bbdfb63f8" resname="Only version in status DRAFT can be published" approved="yes">
         <source>Only version in status DRAFT can be published</source>
-        <target xml:lang="en-US">Only versions in DRAFT status can be published</target>
+        <target xml:lang="en-US" state="translated">Only versions in DRAFT status can be published</target>
         <note>key: Only version in status DRAFT can be published</note>
         <jms:reference-file line="513">eZ/Publish/Core/REST/Server/Controller/Content.php</jms:reference-file>
         <alt-trans>

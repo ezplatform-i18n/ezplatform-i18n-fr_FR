@@ -8,13 +8,13 @@
     <body>
       <trans-unit id="201c1849abe46fd6ea7013ec4bb1bc2630e46e0a" resname="section.form.delete" approved="yes">
         <source>Delete</source>
-        <target xml:lang="en-US">Delete</target>
+        <target xml:lang="en-US" state="translated">Delete</target>
         <note>key: section.form.delete</note>
         <jms:reference-file line="59">lib/Form/Type/Section/SectionDeleteType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="982207646b00655df737a8ac395ab5e0a8f8ede2" resname="section.form.save" approved="yes">
         <source>Save</source>
-        <target xml:lang="en-US">Save</target>
+        <target xml:lang="en-US" state="translated">Save</target>
         <note>key: section.form.save</note>
         <jms:reference-file line="23">lib/Form/Type/Section/SectionType.php</jms:reference-file>
       </trans-unit>

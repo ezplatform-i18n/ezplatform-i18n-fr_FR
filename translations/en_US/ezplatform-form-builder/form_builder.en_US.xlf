@@ -6,15 +6,10 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="df2f594c4b24eb1a49a45e95a5e7ed5cdef802bd" resname="ezrepoforms.content.fields" approved="yes">
-        <source>ezrepoforms.content.fields</source>
-        <target xml:lang="en-US" state="translated">ezrepoforms.content.fields</target>
-        <note>key: ezrepoforms.content.fields</note>
-      </trans-unit>
-      <trans-unit id="745ed48e9eaf1a1a896e411a17317ccbda571d35" resname="user.register_button" approved="yes">
-        <source>Register</source>
-        <target xml:lang="en-US" state="translated">Register</target>
-        <note>key: user.register_button</note>
+      <trans-unit id="e59a9bc08909c5317a5bbb26eafd46ed15948021" resname="form_builder.attribute.button.action.empty">
+        <source>Select an action after form submission </source>
+        <target xml:lang="en-US" state="needs-translation"> </target>
+        <note>key: form_builder.attribute.button.action.empty</note>
       </trans-unit>
     </body>
   </file>
