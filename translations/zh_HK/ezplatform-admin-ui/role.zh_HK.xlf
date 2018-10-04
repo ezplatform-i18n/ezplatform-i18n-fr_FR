@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="zh-HK" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="50fbff4724e8543718a7a0fe08fc1f134bbeb7d6" resname="limitation_type.none">
+        <source>No limitations</source>
+        <target xml:lang="zh-HK" state="translated">沒有限制</target>
+        <note>key: limitation_type.none</note>
+      </trans-unit>
+      <trans-unit id="e4eb27643d4149122e8009b8ca930678eadcd713" resname="limitation_type.section">
+        <source>Sections</source>
+        <target xml:lang="zh-HK" state="translated">區段</target>
+        <note>key: limitation_type.section</note>
+      </trans-unit>
+      <trans-unit id="5e91632f7d9ab6e55cf2df01163acebcb1a124d0" resname="limitation_type.subtree">
+        <source>Subtree</source>
+        <target xml:lang="zh-HK" state="translated">子樹</target>
+        <note>key: limitation_type.subtree</note>
+      </trans-unit>
+      <trans-unit id="35aa96a30453aa7b604432885032fd961a7f508a" resname="policy.view.list.panel.policies.action.edit">
+        <source>Edit</source>
+        <target xml:lang="zh-HK" state="translated">編輯</target>
+        <note>key: policy.view.list.panel.policies.action.edit</note>
+      </trans-unit>
+      <trans-unit id="3023517b9c9a8a05563021a9ac95092fd60dac13" resname="policy.view.list.panel.policies.column.function">
+        <source>Function</source>
+        <target xml:lang="zh-HK" state="translated">功能</target>
+        <note>key: policy.view.list.panel.policies.column.function</note>
+      </trans-unit>
+      <trans-unit id="0bdf2edd15ae0c2e4f9faae4d9aef849c3258767" resname="policy.view.list.panel.policies.column.module">
+        <source>Module</source>
+        <target xml:lang="zh-HK" state="translated">模塊</target>
+        <note>key: policy.view.list.panel.policies.column.module</note>
+      </trans-unit>
+      <trans-unit id="0ac73c4c771df2f5214122aa058b8bc36f2a61a2" resname="policy.view.list.title">
+        <source>Policies</source>
+        <target xml:lang="zh-HK" state="translated">策略</target>
+        <note>key: policy.view.list.title</note>
+      </trans-unit>
+      <trans-unit id="bcb306dff55cc9a5c5b0277414dd1aab59c96176" resname="policy.view.list.title.count">
+        <source>Policies (%count%)</source>
+        <target xml:lang="zh-HK" state="translated">策略(%count%)</target>
+        <note>key: policy.view.list.title.count</note>
+      </trans-unit>
+      <trans-unit id="03e72944d22126b885a65f885ebf8f1b8e2f8579" resname="role.breadcrumb.list">
+        <source>Roles</source>
+        <target xml:lang="zh-HK" state="translated">角色</target>
+        <note>key: role.breadcrumb.list</note>
+      </trans-unit>
+      <trans-unit id="f7b9f2997c5eada07c20a0bde7e89cc0c688e1ea" resname="role_assignment.view.list.panel.assignments.column.limitation">
+        <source>Limitation</source>
+        <target xml:lang="zh-HK" state="translated">限制</target>
+        <note>key: role_assignment.view.list.panel.assignments.column.limitation</note>
+      </trans-unit>
+      <trans-unit id="e978e250aa8284fa54c6f2a73cef9d3c8f0535c8" resname="role_assignment.view.list.panel.assignments.column.limitations">
+        <source>Limitations</source>
+        <target xml:lang="zh-HK" state="translated">限制</target>
+        <note>key: role_assignment.view.list.panel.assignments.column.limitations</note>
+      </trans-unit>
+      <trans-unit id="bedf1e132292302ec09e4646d9a348a56e2c1ce8" resname="role_assignment.view.list.panel.assignments.column.user_group">
+        <source>User/Group</source>
+        <target xml:lang="zh-HK" state="translated">用戶/組</target>
+        <note>key: role_assignment.view.list.panel.assignments.column.user_group</note>
+      </trans-unit>
+      <trans-unit id="e9f659f5717d317c994c7950c14bcb4be644062c" resname="tab.roles.limitation">
+        <source>Limitation</source>
+        <target xml:lang="zh-HK" state="translated">限制</target>
+        <note>key: tab.roles.limitation</note>
+      </trans-unit>
+      <trans-unit id="9e3fbe7cbb68fbe5996471da829e0fab59c3fc8b" resname="tab.roles.no_roles">
+        <source>This content item has no roles.</source>
+        <target xml:lang="zh-HK" state="translated">此內容項沒有角色。</target>
+        <note>key: tab.roles.no_roles</note>
+      </trans-unit>
+      <trans-unit id="cfba356470eba180c21d9a43e9bebbfe5e2d427b" resname="tab.roles.roles">
+        <source>Roles</source>
+        <target xml:lang="zh-HK" state="translated">角色</target>
+        <note>key: tab.roles.roles</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

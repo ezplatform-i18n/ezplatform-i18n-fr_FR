@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="zh-HK" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="a0572cab5c339956a087626a6e62cc12643b8d26" resname="tab.urls.add.language">
+        <source>Language</source>
+        <target xml:lang="zh-HK" state="translated">語言</target>
+        <note>key: tab.urls.add.language</note>
+      </trans-unit>
+      <trans-unit id="c5c776feab332a508b69aa0ff9f5f5ff3fe468e0" resname="tab.urls.add.path">
+        <source>URL</source>
+        <target xml:lang="zh-HK" state="translated">URL</target>
+        <note>key: tab.urls.add.path</note>
+      </trans-unit>
+      <trans-unit id="25badd959ce69714e8eb349ebddbbbe126c14458" resname="tab.urls.add.title">
+        <source>Create new URL alias</source>
+        <target xml:lang="zh-HK" state="translated">創建新的URL alias</target>
+        <note>key: tab.urls.add.title</note>
+      </trans-unit>
+      <trans-unit id="d244966cab8b41f92fd5553d8f33f0e1ca8bf85f" resname="tab.urls.custom_url_aliases">
+        <source>Custom URL aliases for %contentName%</source>
+        <target xml:lang="zh-HK" state="translated"> 自定義%contentName%的URL aliases</target>
+        <note>key: tab.urls.custom_url_aliases</note>
+        <alt-trans>
+          <target xml:lang="zh-HK">  定制%contentName%的URL aliases</target>
+        </alt-trans>
+      </trans-unit>
+      <trans-unit id="5a1947624cf55689d80d38b7583bac538da641bb" resname="tab.urls.language">
+        <source>Language</source>
+        <target xml:lang="zh-HK" state="translated">語言</target>
+        <note>key: tab.urls.language</note>
+      </trans-unit>
+      <trans-unit id="0d3138c0198569f427ab4568fffa5d9d894db72a" resname="tab.urls.modal.message">
+        <source>Do you want to delete selected Custom URLs?</source>
+        <target xml:lang="zh-HK" state="translated">是否要刪除所選的自定義URLs?</target>
+        <note>key: tab.urls.modal.message</note>
+      </trans-unit>
+      <trans-unit id="777d1a83ab6a6c4644dd31409906e48a0a7a4a51" resname="tab.urls.modal_close">
+        <source>Close</source>
+        <target xml:lang="zh-HK" state="translated">關閉</target>
+        <note>key: tab.urls.modal_close</note>
+      </trans-unit>
+      <trans-unit id="902beb4ac170382cb95bd554cb1e763d8fdd413c" resname="tab.urls.system.title">
+        <source>System URL</source>
+        <target xml:lang="zh-HK" state="translated">系統URL</target>
+        <note>key: tab.urls.system.title</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

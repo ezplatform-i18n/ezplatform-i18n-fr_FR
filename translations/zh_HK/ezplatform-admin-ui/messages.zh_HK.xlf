@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="zh-HK" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="86a1d081394a7faba471dc5eaa4b1c112e9ff03a" resname="ezauthor.action.add">
+        <source>Add author</source>
+        <target xml:lang="zh-HK" state="translated">新增作者</target>
+        <note>key: ezauthor.action.add</note>
+      </trans-unit>
+      <trans-unit id="3a0389d073f00ef9a968a5cdc60e2794b434b381" resname="ezauthor.action.delete">
+        <source>Remove author</source>
+        <target xml:lang="zh-HK" state="translated">刪除作者</target>
+        <note>key: ezauthor.action.delete</note>
+      </trans-unit>
+      <trans-unit id="801ba7693e80ca58fbf2a9da2b735bf3f324fd27" resname="ezplatform.forgot_user_password.reset_your_password">
+        <source>Reset your password</source>
+        <target xml:lang="zh-HK" state="translated">重置密碼</target>
+        <note>key: ezplatform.forgot_user_password.reset_your_password</note>
+      </trans-unit>
+      <trans-unit id="40dd2934190789b016771a0fc3b41dcdfe0bb920" resname="ezplatform.reset_user_password.change_password">
+        <source>Change password</source>
+        <target xml:lang="zh-HK" state="translated">更改密碼</target>
+        <note>key: ezplatform.reset_user_password.change_password</note>
+      </trans-unit>
+      <trans-unit id="8359e9b6409139537d0eaeeacaedbc4d0912a105" resname="ezplatform.reset_user_password.link_is_not_valid">
+        <source><![CDATA[This link is not valid anymore, you can <a href="%forgot_user_password%">generate a new link</a> to reset your password.]]></source>
+        <target xml:lang="zh-HK" state="translated"><![CDATA[此鏈接不再有效，您可以<a href="%forgot_user_password%">生成新鏈接</a>以重置密碼。]]></target>
+        <note>key: ezplatform.reset_user_password.link_is_not_valid</note>
+      </trans-unit>
+      <trans-unit id="5cf420af18fd4a8d856fd30bc13aea5039369f9b" resname="form.cancel">
+        <source>Cancel</source>
+        <target xml:lang="zh-HK" state="translated">取消</target>
+        <note>key: form.cancel</note>
+      </trans-unit>
+      <trans-unit id="7fe072f41348fb097b6bb018eec4f1b1bc9cffc3" resname="modal.cancel">
+        <source>Cancel</source>
+        <target xml:lang="zh-HK" state="translated">取消</target>
+        <note>key: modal.cancel</note>
+      </trans-unit>
+      <trans-unit id="9eae227b7c27ab230a6d0ce5947d93e7d2e1626f" resname="modal.delete">
+        <source>Delete</source>
+        <target xml:lang="zh-HK" state="translated">刪除</target>
+        <note>key: modal.delete</note>
+      </trans-unit>
+      <trans-unit id="4e7901a215220faba4d546cd3fb63f3e2a64e849" resname="trash.delete.all.confirm">
+        <source>Are you sure you want to permanently delete %trashItemsCount% item(s)?</source>
+        <target xml:lang="zh-HK" state="translated">您確定要永久刪除％trashItemsCount％項嗎？</target>
+        <note>key: trash.delete.all.confirm</note>
+      </trans-unit>
+      <trans-unit id="48e20c2b09b340ca2e2020edaa30a57c8bc3f26b" resname="trash.delete.all.info">
+        <source>This action cannot be reversed</source>
+        <target xml:lang="zh-HK" state="translated">此操作無法復原</target>
+        <note>key: trash.delete.all.info</note>
+      </trans-unit>
+      <trans-unit id="e500e3f1d454e2775bbe89b6267cd77c766df3f1" resname="trash.delete.button.cancel">
+        <source>Cancel</source>
+        <target xml:lang="zh-HK" state="translated">取消</target>
+        <note>key: trash.delete.button.cancel</note>
+      </trans-unit>
+      <trans-unit id="40288453ad3e95b36719b543af0ffeec57802003" resname="trash.form.cancel">
+        <source>Cancel</source>
+        <target xml:lang="zh-HK" state="translated">取消</target>
+        <note>key: trash.form.cancel</note>
+      </trans-unit>
+      <trans-unit id="2720e3018fc8b1158cb728b1d5dc377ef7293b57" resname="trash.modal.message">
+        <source>Are you sure you want to send this content item to trash?</source>
+        <target xml:lang="zh-HK" state="translated">您確定要將此內容項發送到回收站嗎？</target>
+        <note>key: trash.modal.message</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
