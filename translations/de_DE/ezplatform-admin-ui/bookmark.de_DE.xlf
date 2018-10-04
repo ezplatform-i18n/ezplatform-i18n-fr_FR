@@ -23,8 +23,11 @@
       </trans-unit>
       <trans-unit id="cf687b0218c513d53ad3f52b2547c23500242c48" resname="bookmark.list.content_type">
         <source>Content Type</source>
-        <target xml:lang="de" state="translated">Content-Typ</target>
+        <target xml:lang="de" state="translated">Inhaltstyp</target>
         <note>key: bookmark.list.content_type</note>
+        <alt-trans>
+          <target xml:lang="de">Content-Typ</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="e55cc61e6e0bcd97f329c00790704a381212f55b" resname="bookmark.list.empty">
         <source>The bookmark list is empty. Any Content item you bookmark will end up here.</source>

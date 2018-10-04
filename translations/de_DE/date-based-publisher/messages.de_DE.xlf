@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="efeb6a6207370ab249436a8d9e0eaff02a5efb79" resname="content.publish_later.read_more">
         <source><![CDATA[Read more>>]]></source>
-        <target xml:lang="de" state="translated"><![CDATA[Weiterlesen>>]]></target>
+        <target xml:lang="de" state="translated"><![CDATA[Mehr lesen>>]]></target>
         <note>key: content.publish_later.read_more</note>
       </trans-unit>
       <trans-unit id="d3271090e4c7db6a79d168181876891a6577fa19" resname="content.scheduled.canceled">
@@ -18,7 +18,7 @@
       </trans-unit>
       <trans-unit id="34b402006eccad0bda15c91d1c25af637419d933" resname="content.scheduled.published">
         <source>Future publication published</source>
-        <target xml:lang="de" state="translated">Zukünftige Veröffentlichung abgeschlossen</target>
+        <target xml:lang="de" state="translated">Zukünftige Veröffentlichung veröffentlicht</target>
         <note>key: content.scheduled.published</note>
       </trans-unit>
       <trans-unit id="16f7bbbd6e5ee28d30d0104f38019a0ed0ceaf46" resname="content.scheduled.title">

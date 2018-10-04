@@ -94,6 +94,9 @@
         <source>Drag and drop your files on browser window or upload them</source>
         <target xml:lang="de" state="translated">Hier per Drag &amp; Drop Dateien hinzufügen oder hochladen</target>
         <note>key: fieldtype.binary_base.drag_drop</note>
+        <alt-trans>
+          <target xml:lang="de">Hier per Drag &amp; Drop Dateien hinzufügen oder hochladen</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="858c986173f1ef87d7acda017535b86f01bca87d" resname="fieldtype.binary_base.max_file_size">
         <source>Max file size: %size%</source>

@@ -35,6 +35,9 @@
         <source>Drag and drop your files on browser window or upload them</source>
         <target xml:lang="de" state="translated">Hier per Drag &amp; Drop Dateien hinzufügen oder hochladen</target>
         <note>key: drop_action.message</note>
+        <alt-trans>
+          <target xml:lang="de">Hier per Drag &amp; Drop Dateien hinzufügen oder hochladen</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="ec408ab37730af3a79d49ee278f3b215ce89057c" resname="edit.label">
         <source>Edit</source>
