@@ -8,61 +8,61 @@
     <body>
       <trans-unit id="9c2eb5d844a5e2507a5c0f1ba534b5a392b1a40d" resname="fielddefinition.allowed-content-types.any" approved="yes">
         <source>Any</source>
-        <target xml:lang="it">Qualunque</target>
+        <target xml:lang="it" state="translated">Qualunque</target>
         <note>key: fielddefinition.allowed-content-types.any</note>
         <jms:reference-file line="261">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="70d065216b588dd0cf8c624132941a29f1c1459f" resname="fielddefinition.allowed-content-types.label" approved="yes">
         <source>Allowed content types:</source>
-        <target xml:lang="it">Tipi di contenuto permessi:</target>
+        <target xml:lang="it" state="translated">Tipi di contenuto permessi:</target>
         <note>key: fielddefinition.allowed-content-types.label</note>
         <jms:reference-file line="251">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="403c5c915c461ee1ee00f5c2e193266067672e3a" resname="fielddefinition.default-layout.label" approved="yes">
         <source>Default layout:</source>
-        <target xml:lang="it">Layout predefinito:</target>
+        <target xml:lang="it" state="translated">Layout predefinito:</target>
         <note>key: fielddefinition.default-layout.label</note>
         <jms:reference-file line="273">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="becaad6a0d63182875b2bc7d21b0c6a801ba764f" resname="fielddefinition.default-layout.none" approved="yes">
         <source>None</source>
-        <target xml:lang="it">Nessuno</target>
+        <target xml:lang="it" state="translated">Nessuno</target>
         <note>key: fielddefinition.default-layout.none</note>
         <jms:reference-file line="274">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="eb0eeb83b3f40e1293f0edd593a8cce658d9f35d" resname="fielddefinition.default-value.checked" approved="yes">
         <source>Checked</source>
-        <target xml:lang="it">Controllato</target>
+        <target xml:lang="it" state="translated">Controllato</target>
         <note>key: fielddefinition.default-value.checked</note>
         <jms:reference-file line="69">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="3410f38fd1f44cb841ec374c13daca04dcc5910b" resname="fielddefinition.default-value.current_date" approved="yes">
         <source>Current date</source>
-        <target xml:lang="it">Data corrente</target>
+        <target xml:lang="it" state="translated">Data corrente</target>
         <note>key: fielddefinition.default-value.current_date</note>
         <jms:reference-file line="107">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="d3cda4b47dfae160f1e7f982570b8b544a494701" resname="fielddefinition.default-value.current_datetime" approved="yes">
         <source>Current datetime</source>
-        <target xml:lang="it">Data/ora corrente</target>
+        <target xml:lang="it" state="translated">Data/ora corrente</target>
         <note>key: fielddefinition.default-value.current_datetime</note>
         <jms:reference-file line="83">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="5cdfd0738c76b8fe520f77e56b819fd3a781a514" resname="fielddefinition.default-value.current_datetime_adjust_by" approved="yes">
         <source>Current datetime adjusted by</source>
-        <target xml:lang="it">Data/ora corrente regolata da</target>
+        <target xml:lang="it" state="translated">Data/ora corrente regolata da</target>
         <note>key: fielddefinition.default-value.current_datetime_adjust_by</note>
         <jms:reference-file line="86">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="baf973c669d404a5aa072edce1d84deaaf936a0f" resname="fielddefinition.default-value.current_time" approved="yes">
         <source>Current time</source>
-        <target xml:lang="it">Ora corrente</target>
+        <target xml:lang="it" state="translated">Ora corrente</target>
         <note>key: fielddefinition.default-value.current_time</note>
         <jms:reference-file line="118">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="fa5a2f0bf185c7e872f77b81a24867afb9ef0ec7" resname="fielddefinition.default-value.empty" approved="yes">
         <source>Empty</source>
-        <target xml:lang="it">Vuoto</target>
+        <target xml:lang="it" state="translated">Vuoto</target>
         <note>key: fielddefinition.default-value.empty</note>
         <jms:reference-file line="105">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
         <jms:reference-file line="116">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
@@ -70,20 +70,20 @@
       </trans-unit>
       <trans-unit id="ad6776fd58e0ae4b2ba44ff014986ec6b1ec4de4" resname="fielddefinition.default-value.label" approved="yes">
         <source>Default value:</source>
-        <target xml:lang="it">Valore di default:</target>
+        <target xml:lang="it" state="translated">Valore di default:</target>
         <note>key: fielddefinition.default-value.label</note>
         <jms:reference-file line="347">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
         <jms:reference-file line="66">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="232dd99b54158ff1f3be77113aae16e691ce406a" resname="fielddefinition.default-value.unchecked" approved="yes">
         <source>Unchecked</source>
-        <target xml:lang="it">Non Controllato</target>
+        <target xml:lang="it" state="translated">Non Controllato</target>
         <note>key: fielddefinition.default-value.unchecked</note>
         <jms:reference-file line="71">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="908870d411d8599211d188e35d0240bfecb98b5e" resname="fielddefinition.default-value.undefined" approved="yes">
         <source>No default value</source>
-        <target xml:lang="it">Nessun valore predefinito</target>
+        <target xml:lang="it" state="translated">Nessun valore predefinito</target>
         <note>key: fielddefinition.default-value.undefined</note>
         <jms:reference-file line="352">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
@@ -128,127 +128,127 @@
       </trans-unit>
       <trans-unit id="fa2595f063cfd4284226372dc99eb3dfbbc36498" resname="fielddefinition.isbn.label" approved="yes">
         <source>Selected ISBN format:</source>
-        <target xml:lang="it">Formato selezionato ISBN:</target>
+        <target xml:lang="it" state="translated">Formato selezionato ISBN:</target>
         <note>key: fielddefinition.isbn.label</note>
         <jms:reference-file line="393">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c963dbac20e5526d70d08b17ebffdaaf44e1c2c3" resname="fielddefinition.max-length.label" approved="yes">
         <source>Max string length:</source>
-        <target xml:lang="it">Lunghezza massima della stringa:</target>
+        <target xml:lang="it" state="translated">Lunghezza massima della stringa:</target>
         <note>key: fielddefinition.max-length.label</note>
         <jms:reference-file line="28">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c8c3fa9b71c848069950539011a09b45abb1c11f" resname="fielddefinition.max-length.undefined" approved="yes">
         <source>No defined maximum string length</source>
-        <target xml:lang="it">Nessuna lunghezza di stringa massima definita</target>
+        <target xml:lang="it" state="translated">Nessuna lunghezza di stringa massima definita</target>
         <note>key: fielddefinition.max-length.undefined</note>
         <jms:reference-file line="33">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="9a3d23487e45edf331407c501ead33d70461f9e3" resname="fielddefinition.max-length.value" approved="yes">
         <source>%max% characters</source>
-        <target xml:lang="it">%max% caratteri</target>
+        <target xml:lang="it" state="translated">%max% caratteri</target>
         <note>key: fielddefinition.max-length.value</note>
         <jms:reference-file line="31">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="11e7b0a01edea69919ea6191acdbd5ad7c2bf279" resname="fielddefinition.max-value.label" approved="yes">
         <source>Maximum value:</source>
-        <target xml:lang="it">Valore massimo:</target>
+        <target xml:lang="it" state="translated">Valore massimo:</target>
         <note>key: fielddefinition.max-value.label</note>
         <jms:reference-file line="373">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="444423d6eff78ccc1c92077813a212b4e5a002c8" resname="fielddefinition.max-value.undefined" approved="yes">
         <source>No defined maximum value</source>
-        <target xml:lang="it">Nessun valore massimo definito</target>
+        <target xml:lang="it" state="translated">Nessun valore massimo definito</target>
         <note>key: fielddefinition.max-value.undefined</note>
         <jms:reference-file line="378">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="63f939a170c5c3675f13ca3e330ea981d4a5540c" resname="fielddefinition.maximum-file-size.label" approved="yes">
         <source>Maximum file size:</source>
-        <target xml:lang="it">Dimensione massima file:</target>
+        <target xml:lang="it" state="translated">Dimensione massima file:</target>
         <note>key: fielddefinition.maximum-file-size.label</note>
         <jms:reference-file line="308">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="e58e37a5cd49fa5884d15ea8af61ad6973f33412" resname="fielddefinition.maximum-file-size.undefined" approved="yes">
         <source>No defined maximum size</source>
-        <target xml:lang="it">Nessuna dimensione massima definita</target>
+        <target xml:lang="it" state="translated">Nessuna dimensione massima definita</target>
         <note>key: fielddefinition.maximum-file-size.undefined</note>
         <jms:reference-file line="313">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="3e08813722e7959e982f4d8624c98b83d077cd55" resname="fielddefinition.maximum-file-size.value" approved="yes">
         <source>%max% MB</source>
-        <target xml:lang="it">%max% MB</target>
+        <target xml:lang="it" state="translated">%max% MB</target>
         <note>key: fielddefinition.maximum-file-size.value</note>
         <jms:reference-file line="311">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="b9bb83913e23ad5a59eb7485ca48386bd7fce66e" resname="fielddefinition.media-player-type.flash" approved="yes">
         <source>Flash</source>
-        <target xml:lang="it">Flash</target>
+        <target xml:lang="it" state="translated">Flash</target>
         <note>key: fielddefinition.media-player-type.flash</note>
         <jms:reference-file line="182">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1c31870437c9baa0d08c67140d35fa54c6223922" resname="fielddefinition.media-player-type.html5_audio" approved="yes">
         <source>HTML5 Audio</source>
-        <target xml:lang="it">Audio HTML5</target>
+        <target xml:lang="it" state="translated">Audio HTML5</target>
         <note>key: fielddefinition.media-player-type.html5_audio</note>
         <jms:reference-file line="194">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="22881c3ebee12191bc6f269d943c1140eea4bfb1" resname="fielddefinition.media-player-type.html5_video" approved="yes">
         <source>HTML5 Video</source>
-        <target xml:lang="it">Video HTML5</target>
+        <target xml:lang="it" state="translated">Video HTML5</target>
         <note>key: fielddefinition.media-player-type.html5_video</note>
         <jms:reference-file line="192">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="0aaa90efdf7cc5042723e7500891db70da3f8850" resname="fielddefinition.media-player-type.label" approved="yes">
         <source>Media player type:</source>
-        <target xml:lang="it">Tipo di Media player:</target>
+        <target xml:lang="it" state="translated">Tipo di Media player:</target>
         <note>key: fielddefinition.media-player-type.label</note>
         <jms:reference-file line="179">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c7a28f2ea418dc17e634bf386d5f1db091582fc8" resname="fielddefinition.media-player-type.quick_time" approved="yes">
         <source>Quicktime</source>
-        <target xml:lang="it">QuickTime</target>
+        <target xml:lang="it" state="translated">QuickTime</target>
         <note>key: fielddefinition.media-player-type.quick_time</note>
         <jms:reference-file line="184">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="edd8db0307e234e095d1788540bd026e48e173f8" resname="fielddefinition.media-player-type.real_player" approved="yes">
         <source>Real Player</source>
-        <target xml:lang="it">Real Player</target>
+        <target xml:lang="it" state="translated">Real Player</target>
         <note>key: fielddefinition.media-player-type.real_player</note>
         <jms:reference-file line="186">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="4ad14874021f1b806f9c93b41ef195b12fe5ab3f" resname="fielddefinition.media-player-type.silverlight" approved="yes">
         <source>Silverlight</source>
-        <target xml:lang="it">Silverlight</target>
+        <target xml:lang="it" state="translated">Silverlight</target>
         <note>key: fielddefinition.media-player-type.silverlight</note>
         <jms:reference-file line="188">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="738ddf9e6b12ae22e5f8e62839f63221c24f1431" resname="fielddefinition.media-player-type.undefined" approved="yes">
         <source>No defined value</source>
-        <target xml:lang="it">Nessun valore definito</target>
+        <target xml:lang="it" state="translated">Nessun valore definito</target>
         <note>key: fielddefinition.media-player-type.undefined</note>
         <jms:reference-file line="196">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="61d9fc8a2cbcb067d39496dba7e884caf51cf245" resname="fielddefinition.media-player-type.windows_media_player" approved="yes">
         <source>Window Media Player</source>
-        <target xml:lang="it">Window Media Player</target>
+        <target xml:lang="it" state="translated">Window Media Player</target>
         <note>key: fielddefinition.media-player-type.windows_media_player</note>
         <jms:reference-file line="190">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1feb12108139bb4d34877c40ade8362c0872b528" resname="fielddefinition.min-value.label" approved="yes">
         <source>Minimum value:</source>
-        <target xml:lang="it">Valore minimo:</target>
+        <target xml:lang="it" state="translated">Valore minimo:</target>
         <note>key: fielddefinition.min-value.label</note>
         <jms:reference-file line="360">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="625d3f00da19e0e839ad54eb5cc6b3504033b882" resname="fielddefinition.min-value.undefined" approved="yes">
         <source>No defined minimum value</source>
-        <target xml:lang="it">Nessun valore minimo definito</target>
+        <target xml:lang="it" state="translated">Nessun valore minimo definito</target>
         <note>key: fielddefinition.min-value.undefined</note>
         <jms:reference-file line="365">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="694dc611591facca075a581721e399e272b758fe" resname="fielddefinition.multiple.label" approved="yes">
         <source>Allow multiple choices:</source>
-        <target xml:lang="it">Consenti scelte multiple:</target>
+        <target xml:lang="it" state="translated">Consenti scelte multiple:</target>
         <note>key: fielddefinition.multiple.label</note>
         <jms:reference-file line="386">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>

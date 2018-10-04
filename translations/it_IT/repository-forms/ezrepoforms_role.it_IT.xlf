@@ -32,7 +32,7 @@
       </trans-unit>
       <trans-unit id="d0f7a460463941ed043e46909f5b73e7062db88a" resname="role.create" approved="yes">
         <source>Create a role</source>
-        <target xml:lang="it">Crea un ruolo</target>
+        <target xml:lang="it" state="translated">Crea un ruolo</target>
         <note>key: role.create</note>
         <jms:reference-file line="34">lib/Form/Type/Role/RoleCreateType.php</jms:reference-file>
       </trans-unit>
