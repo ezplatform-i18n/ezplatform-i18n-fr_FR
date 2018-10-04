@@ -147,6 +147,14 @@ function getLanguagesData()
             }
         }
 
+        if (!$delta['translated_progress']) {
+            $delta['translated_progress'] = '+' . (int)$status->translated_progress;
+        }
+
+        if (!$delta['approved_progress']) {
+            $delta['approved_progress'] = '+' . (int)$status->approved_progress;
+        }
+
         $languagesData[$directory] = [
             'name' => $status->name,
             'status' => (array)$status,
