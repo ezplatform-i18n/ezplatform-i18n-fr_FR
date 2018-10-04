@@ -72,8 +72,11 @@
       </trans-unit>
       <trans-unit id="5c26acfa4532917d4763c44d5b7ec8dd180b98a4" resname="js.error.invalid_file_size" approved="yes">
         <source>{fieldName}: Cannot upload. File exceeds file size limit.</source>
-        <target xml:lang="pl" state="translated">{fieldName}: Nie można wgrać. Rozmiar pliku przekracza limit.</target>
+        <target xml:lang="pl" state="translated">{fieldName}: Nie można przesłać. Rozmiar pliku przekracza limit.</target>
         <note>key: js.error.invalid_file_size</note>
+        <alt-trans>
+          <target xml:lang="pl">{fieldName}: Nie można wgrać. Rozmiar pliku przekracza limit.</target>
+        </alt-trans>
         <alt-trans>
           <target xml:lang="pl">{fieldName}: Nie można wgrać. Rozmiar pliku przekacza limit.</target>
         </alt-trans>

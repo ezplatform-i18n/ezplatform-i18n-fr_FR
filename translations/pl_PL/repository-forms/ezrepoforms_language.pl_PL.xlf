@@ -8,13 +8,13 @@
     <body>
       <trans-unit id="06869c8162f8a2914b5a5b10af189b8b0a532e7d" resname="language.form.delete" approved="yes">
         <source>Delete</source>
-        <target xml:lang="pl">Usuń</target>
+        <target xml:lang="pl" state="translated">Usuń</target>
         <note>key: language.form.delete</note>
         <jms:reference-file line="32">lib/Form/Type/Language/LanguageDeleteType.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="f471f1ba7a9fddf9bcaf869218b35fe26147a4ab" resname="language.form.save" approved="yes">
         <source>Save</source>
-        <target xml:lang="pl">Zapisz</target>
+        <target xml:lang="pl" state="translated">Zapisz</target>
         <note>key: language.form.save</note>
         <jms:reference-file line="25">lib/Form/Type/Language/LanguageType.php</jms:reference-file>
       </trans-unit>

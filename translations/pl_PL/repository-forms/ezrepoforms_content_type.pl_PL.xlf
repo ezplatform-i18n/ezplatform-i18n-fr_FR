@@ -13,8 +13,11 @@
       </trans-unit>
       <trans-unit id="529a1012c7fe5ca6fafdb5d070ac8ececfe94af6" resname="content_type.create" approved="yes">
         <source>Create a content type</source>
-        <target xml:lang="pl" state="translated">Stwórz typ treści</target>
+        <target xml:lang="pl" state="translated">Utwórz typ treści</target>
         <note>key: content_type.create</note>
+        <alt-trans>
+          <target xml:lang="pl">Stwórz typ treści</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="7b64ebcf792d888de957eaee1c3734c97c80db98" resname="content_type.default_always_available" approved="yes">
         <source>Default content availability</source>

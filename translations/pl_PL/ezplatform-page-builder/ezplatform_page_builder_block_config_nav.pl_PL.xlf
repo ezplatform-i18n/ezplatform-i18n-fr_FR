@@ -6,17 +6,17 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="dcb7d5c604f93fdc65aa4b1ff853e8ed27237f45" resname="tab.label.basic">
+      <trans-unit id="dcb7d5c604f93fdc65aa4b1ff853e8ed27237f45" resname="tab.label.basic" approved="yes">
         <source>Basic</source>
         <target xml:lang="pl" state="translated">Podstawowa</target>
         <note>key: tab.label.basic</note>
       </trans-unit>
-      <trans-unit id="2d40f74124be77d408be57368842ef5e7bd64d98" resname="tab.label.design">
+      <trans-unit id="2d40f74124be77d408be57368842ef5e7bd64d98" resname="tab.label.design" approved="yes">
         <source>Design</source>
         <target xml:lang="pl" state="translated">Układ</target>
         <note>key: tab.label.design</note>
       </trans-unit>
-      <trans-unit id="463e1f81cb933c5f4edba2bb89d767d00d231f81" resname="tab.label.visibility">
+      <trans-unit id="463e1f81cb933c5f4edba2bb89d767d00d231f81" resname="tab.label.visibility" approved="yes">
         <source>Visibility</source>
         <target xml:lang="pl" state="translated">Widoczność</target>
         <note>key: tab.label.visibility</note>
