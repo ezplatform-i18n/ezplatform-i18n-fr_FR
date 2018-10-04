@@ -8,12 +8,12 @@
     <body>
       <trans-unit id="e5a66fd1e539dbf81f810d2022a3d8ee67a7a17c" resname="tab.name.all_scheduled" approved="yes">
         <source>All scheduled</source>
-        <target xml:lang="nl">Gepland</target>
+        <target xml:lang="nl" state="translated">Gepland</target>
         <note>key: tab.name.all_scheduled</note>
       </trans-unit>
       <trans-unit id="20a2c0c41c7091973e1490a65b2268e1f7794eda" resname="tab.name.my_scheduled" approved="yes">
         <source>My scheduled</source>
-        <target xml:lang="nl">Gepland</target>
+        <target xml:lang="nl" state="translated">Gepland</target>
         <note>key: tab.name.my_scheduled</note>
       </trans-unit>
     </body>

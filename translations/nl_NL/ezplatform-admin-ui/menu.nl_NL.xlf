@@ -8,27 +8,27 @@
     <body>
       <trans-unit id="95e1979b41321209d200f2e75416fd47270954b4" resname="main__content" approved="yes">
         <source>Content</source>
-        <target xml:lang="nl">Inhoud</target>
+        <target xml:lang="nl" state="translated">Inhoud</target>
         <note>key: main__content</note>
       </trans-unit>
       <trans-unit id="1f5824f08c1b09cf6511dee2352e6f1681f94893" resname="main_admin" approved="yes">
         <source>Admin</source>
-        <target xml:lang="nl">Beheer</target>
+        <target xml:lang="nl" state="translated">Beheer</target>
         <note>key: main_admin</note>
       </trans-unit>
       <trans-unit id="8acab9e005da20efe4001fac5f84ff2c835bb7c8" resname="user__bookmark" approved="yes">
         <source>Bookmarks</source>
-        <target xml:lang="nl">Bladwijzers</target>
+        <target xml:lang="nl" state="translated">Bladwijzers</target>
         <note>key: user__bookmark</note>
       </trans-unit>
       <trans-unit id="da5c7f4f526c2dd5b1e1f51ab5238ef4ba86d421" resname="user__change_password" approved="yes">
         <source>Change password</source>
-        <target xml:lang="nl">Wijzig wachtwoord</target>
+        <target xml:lang="nl" state="translated">Wijzig wachtwoord</target>
         <note>key: user__change_password</note>
       </trans-unit>
       <trans-unit id="06accb26fbb1b72012942af2b3e03f7c138e28c3" resname="user__content" approved="yes">
         <source>Logout</source>
-        <target xml:lang="nl">Uitloggen</target>
+        <target xml:lang="nl" state="translated">Uitloggen</target>
         <note>key: user__content</note>
       </trans-unit>
     </body>
