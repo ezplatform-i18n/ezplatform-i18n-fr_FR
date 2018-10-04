@@ -66,6 +66,7 @@ Synchronization is done using [dflydev/git-subsplit][dflydev].
         translations/en_US:git@github.com:ezplatform-i18n/ezplatform-i18n-en_US.git
         translations/nl:git@github.com:ezplatform-i18n/dutch.git
         translations/he:git@github.com:ezplatform-i18n/hebrew.git
+        translations/zh_hk:git@github.com:ezplatform-i18n/chinese-hong-kong.git
     " --heads=master
 
 `--heads=master` specifies which branches are split. Multiple branches can be provided: `--heads="master 1.0".

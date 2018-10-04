@@ -95,7 +95,8 @@ function getLanguagesData()
         'it' => 'it_IT',
         'hr' => 'hr_HR',
         'nl' => 'nl_NL',
-        'he' => 'he'
+        'he' => 'he',
+        'zh-HK' => 'zh_HK',
     ];
 
     if (!$crowdinApiKey = getenv('CROWDIN_API_KEY')) {
@@ -116,7 +117,8 @@ function getLanguagesData()
     foreach ($statuses as $status) {
         $log = [];
         if (!isset($languagesMap[$status->code])) {
-            throw new Exception("No mapping found for language code $status->code\n");
+            echo "Warning: no mapping found for language code $status->code\n";
+            continue;
         }
 
         $directory = $languagesMap[$status->code];
