@@ -8,17 +8,17 @@
     <body>
       <trans-unit id="0173399db18eb7fe3a297f66fac4bf3a98378733" resname="pagination.next_message" approved="yes">
         <source>Next</source>
-        <target xml:lang="hu"> Következő</target>
+        <target xml:lang="hu" state="translated"> Következő</target>
         <note>key: pagination.next_message</note>
       </trans-unit>
       <trans-unit id="ccf59d9760c08875a8b87b5fac62105841415c40" resname="pagination.prev_message" approved="yes">
         <source>Back</source>
-        <target xml:lang="hu">Vissza</target>
+        <target xml:lang="hu" state="translated">Vissza</target>
         <note>key: pagination.prev_message</note>
       </trans-unit>
       <trans-unit id="663d5cd498c0849675ac4fd684d4270a1a3f1acb" resname="pagination.viewing" approved="yes">
         <source><![CDATA[Viewing <strong>%viewing%</strong> out of <strong>%total%</strong> items]]></source>
-        <target xml:lang="hu"><![CDATA[<strong>%viewing%</strong> megjelenítése ennyiből:  <strong>%total%</strong> ]]></target>
+        <target xml:lang="hu" state="translated"><![CDATA[<strong>%viewing%</strong> megjelenítése ennyiből:  <strong>%total%</strong> ]]></target>
         <note>key: pagination.viewing</note>
       </trans-unit>
     </body>

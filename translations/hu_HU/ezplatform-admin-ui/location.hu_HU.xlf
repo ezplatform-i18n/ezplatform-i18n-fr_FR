@@ -8,52 +8,52 @@
     <body>
       <trans-unit id="7f616359fa64ad9a44aba2d7eeebfde7aac7f16f" resname="location.copy.success" approved="yes">
         <source>'%name%' copied to '%location%'</source>
-        <target xml:lang="hu">%name% másolva ide: %location%</target>
+        <target xml:lang="hu" state="translated">%name% másolva ide: %location%</target>
         <note>key: location.copy.success</note>
       </trans-unit>
       <trans-unit id="656c4be212bdf722670400927051cb39593938a5" resname="location.copy_subtree.success" approved="yes">
         <source>Subtree '%name%' copied to location '%location%'</source>
-        <target xml:lang="hu">%name% részfát átmásoltuk ide: %location%</target>
+        <target xml:lang="hu" state="translated">%name% részfát átmásoltuk ide: %location%</target>
         <note>key: location.copy_subtree.success</note>
       </trans-unit>
       <trans-unit id="a9e3a80cf0b00f8a6b7d4e6ba0fa3ace6fe3f1f3" resname="location.create.success" approved="yes">
         <source>Location '%name%' created.</source>
-        <target xml:lang="hu">%name% lokáció létrehozva.</target>
+        <target xml:lang="hu" state="translated">%name% lokáció létrehozva.</target>
         <note>key: location.create.success</note>
       </trans-unit>
       <trans-unit id="db5b9465108df897937beb4a6fc71ccf1d7a4948" resname="location.delete.success" approved="yes">
         <source>Location '%name%' removed.</source>
-        <target xml:lang="hu">%name% lokáció eltávolítva.</target>
+        <target xml:lang="hu" state="translated">%name% lokáció eltávolítva.</target>
         <note>key: location.delete.success</note>
       </trans-unit>
       <trans-unit id="9d5d2fb830ae5b1806bcb908c01f115c93de4eda" resname="location.move.success" approved="yes">
         <source>'%name%' moved to '%location%'</source>
-        <target xml:lang="hu">%name% áthelyezve ide: %location%</target>
+        <target xml:lang="hu" state="translated">%name% áthelyezve ide: %location%</target>
         <note>key: location.move.success</note>
       </trans-unit>
       <trans-unit id="20dae8cf8c7cf8972d802224728554706e2b4699" resname="location.swap.success" approved="yes">
         <source>Location '%name%' swaped with location '%location%'</source>
-        <target xml:lang="hu">%name% lokáicót felcseréltük ezzel: %location%</target>
+        <target xml:lang="hu" state="translated">%name% lokáicót felcseréltük ezzel: %location%</target>
         <note>key: location.swap.success</note>
       </trans-unit>
       <trans-unit id="48699e3e0320623a7ac78df3b808f6341dd7d4c3" resname="location.trash.success" approved="yes">
         <source>Location '%name%' moved to trash.</source>
-        <target xml:lang="hu">%name% lokáció lomtárba helyezve.</target>
+        <target xml:lang="hu" state="translated">%name% lokáció lomtárba helyezve.</target>
         <note>key: location.trash.success</note>
       </trans-unit>
       <trans-unit id="d42824d95700bfdb3f95a6c408be1cab227988f5" resname="location.update.success" approved="yes">
         <source>Location '%name%' updated.</source>
-        <target xml:lang="hu">%name% lokáció frissítve.</target>
+        <target xml:lang="hu" state="translated">%name% lokáció frissítve.</target>
         <note>key: location.update.success</note>
       </trans-unit>
       <trans-unit id="fd862d4fb8a866fe95bf0435080f9f1091f99551" resname="location.update_success.success.hidden" approved="yes">
         <source>Location '%name%' hidden.</source>
-        <target xml:lang="hu">%name% lokáció elrejtve.</target>
+        <target xml:lang="hu" state="translated">%name% lokáció elrejtve.</target>
         <note>key: location.update_success.success.hidden</note>
       </trans-unit>
       <trans-unit id="687bb78ae5d6531f6a5dbaaa91b90db7a0700f6e" resname="location.update_success.success.unhidden" approved="yes">
         <source>Location '%name%' unhidden.</source>
-        <target xml:lang="hu">%name% lokáció újra látható.</target>
+        <target xml:lang="hu" state="translated">%name% lokáció újra látható.</target>
         <note>key: location.update_success.success.unhidden</note>
       </trans-unit>
     </body>

@@ -8,52 +8,52 @@
     <body>
       <trans-unit id="f3902e2cf1dc7593d56db51492f2c93763e17550" resname="add_location.title" approved="yes">
         <source>Select location</source>
-        <target xml:lang="hu">Lokáció kiválasztása</target>
+        <target xml:lang="hu" state="translated">Lokáció kiválasztása</target>
         <note>key: add_location.title</note>
       </trans-unit>
       <trans-unit id="b03000247ec164f0aca90e64643bd510dce50cfa" resname="browse.title" approved="yes">
         <source>Browse content</source>
-        <target xml:lang="hu">Tartalom böngészése</target>
+        <target xml:lang="hu" state="translated">Tartalom böngészése</target>
         <note>key: browse.title</note>
       </trans-unit>
       <trans-unit id="2833f6d1654708301ec537add9ff0b14744c24a3" resname="copy.title" approved="yes">
         <source>Select location</source>
-        <target xml:lang="hu">Lokáció kiválasztása</target>
+        <target xml:lang="hu" state="translated">Lokáció kiválasztása</target>
         <note>key: copy.title</note>
       </trans-unit>
       <trans-unit id="b449a59d74243753a504665c352d161371545f15" resname="dashboard.create.title" approved="yes">
         <source>Create your content</source>
-        <target xml:lang="hu">Tartalom létrehozása</target>
+        <target xml:lang="hu" state="translated">Tartalom létrehozása</target>
         <note>key: dashboard.create.title</note>
       </trans-unit>
       <trans-unit id="005c6256355de38d3f5cb90b08945053ac28cf9e" resname="ezobjectrelationlist.title" approved="yes">
         <source>Select content</source>
-        <target xml:lang="hu">Tartalom kiválasztása</target>
+        <target xml:lang="hu" state="translated">Tartalom kiválasztása</target>
         <note>key: ezobjectrelationlist.title</note>
       </trans-unit>
       <trans-unit id="56faf4ff9f2deaae1d34c1abcecae0413dc24a78" resname="move.title" approved="yes">
         <source>Select destination</source>
-        <target xml:lang="hu">Cél kiválasztása</target>
+        <target xml:lang="hu" state="translated">Cél kiválasztása</target>
         <note>key: move.title</note>
       </trans-unit>
       <trans-unit id="0a2b01d9e287d0669cdd89b8067e119bbf749550" resname="restore_under_new_location.title" approved="yes">
         <source>Select a location to restore you content item(s)</source>
-        <target xml:lang="hu">Válassz egy helyet az elemek visszaállítására</target>
+        <target xml:lang="hu" state="translated">Válassz egy helyet az elemek visszaállítására</target>
         <note>key: restore_under_new_location.title</note>
       </trans-unit>
       <trans-unit id="987330c357d2475b80942e5c449e4215b623a459" resname="subtree.title" approved="yes">
         <source>Select location</source>
-        <target xml:lang="hu">Hely kiválasztása</target>
+        <target xml:lang="hu" state="translated">Hely kiválasztása</target>
         <note>key: subtree.title</note>
       </trans-unit>
       <trans-unit id="5a3a6e5c6a88da5a26a9638e8a796974bd3c8dd7" resname="subtree_limitation.title" approved="yes">
         <source>Choose locations</source>
-        <target xml:lang="hu">Válassz helyet</target>
+        <target xml:lang="hu" state="translated">Válassz helyet</target>
         <note>key: subtree_limitation.title</note>
       </trans-unit>
       <trans-unit id="7dad0dfeafd90e145f0e9efff5313d2a6040ba4c" resname="swap.title" approved="yes">
         <source>Select location to be swapped with</source>
-        <target xml:lang="hu">Válassz lokációt, amivel cserélni szeretnéd</target>
+        <target xml:lang="hu" state="translated">Válassz lokációt, amivel cserélni szeretnéd</target>
         <note>key: swap.title</note>
       </trans-unit>
     </body>

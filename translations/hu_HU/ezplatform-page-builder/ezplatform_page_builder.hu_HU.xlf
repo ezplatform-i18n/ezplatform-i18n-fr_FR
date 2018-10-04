@@ -8,12 +8,12 @@
     <body>
       <trans-unit id="473791d4ee73c0b1401f37519728414c339edc21" resname="javascript.disabled.required" approved="yes">
         <source>javascript.disabled.required</source>
-        <target xml:lang="hu">Kikapcsolt javascript szükséges</target>
+        <target xml:lang="hu" state="translated">Kikapcsolt javascript szükséges</target>
         <note>key: javascript.disabled.required</note>
       </trans-unit>
       <trans-unit id="1ac530659b5b57d48cf6d95bc51ead90f1a2ac6d" resname="javascript.enable" approved="yes">
         <source>javascript.enable</source>
-        <target xml:lang="hu">Engedélyezd a javascriptet</target>
+        <target xml:lang="hu" state="translated">Engedélyezd a javascriptet</target>
         <note>key: javascript.enable</note>
       </trans-unit>
     </body>

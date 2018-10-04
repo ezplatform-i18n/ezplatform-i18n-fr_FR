@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="1df0459eb752a2e2c95e371d287f2af3e8bff1a3" resname="create_and_edit" approved="yes">
         <source>Create and edit</source>
-        <target xml:lang="hu">Léterhozás és szerkesztés</target>
+        <target xml:lang="hu" state="translated">Léterhozás és szerkesztés</target>
         <note>key: create_and_edit</note>
       </trans-unit>
     </body>

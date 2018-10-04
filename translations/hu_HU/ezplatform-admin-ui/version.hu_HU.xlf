@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="885ec7aab950e05f729031321cddbb6d7f9c3246" resname="version.delete.success" approved="yes">
         <source>Versions removed from '%name%' content.</source>
-        <target xml:lang="hu">A "%name%" tartalom verzióit eltávolítottuk.</target>
+        <target xml:lang="hu" state="translated">A "%name%" tartalom verzióit eltávolítottuk.</target>
         <note>key: version.delete.success</note>
       </trans-unit>
     </body>

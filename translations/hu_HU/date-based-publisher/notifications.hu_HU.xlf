@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="057746443dd8e7aff0175db05603443dec7df180" resname="content.published" approved="yes">
         <source>content.published</source>
-        <target xml:lang="hu">Tartalom publikálva</target>
+        <target xml:lang="hu" state="translated">Tartalom publikálva</target>
         <note>key: content.published</note>
       </trans-unit>
     </body>

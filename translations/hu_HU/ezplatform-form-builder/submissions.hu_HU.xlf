@@ -6,11 +6,15 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="259ee44a2294b34a9019a811dc70c5f8d190d622" resname="page_builder.mode.non_location_based.warning" approved="yes">
-        <source>Previewed page is not based on a content item. Page Builder is working with limited set of features.</source>
-        <target xml:lang="hu" state="translated">Az előnézetben megtekintett oldal nem tartalom elemen alapul. A Page Builder alkalmazás korlátozott funkcionalitással működik.</target>
-        <note>key: page_builder.mode.non_location_based.warning</note>
-      </trans-unit>
+      
+      
+      
+      
+      
+      
+      
+      
+      
     </body>
   </file>
 </xliff>

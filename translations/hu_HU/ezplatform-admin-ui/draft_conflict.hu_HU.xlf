@@ -8,22 +8,22 @@
     <body>
       <trans-unit id="1020ca59a2c9fa207ebe162fd6727fd1a81027c0" resname="draft.conflict.choice" approved="yes">
         <source>You can either edit any of your existing draft(s) or add a new one.</source>
-        <target xml:lang="hu">Szerkesztheted a meglévő vázlataidat, vagy létrehozhatsz újat.</target>
+        <target xml:lang="hu" state="translated">Szerkesztheted a meglévő vázlataidat, vagy létrehozhatsz újat.</target>
         <note>key: draft.conflict.choice</note>
       </trans-unit>
       <trans-unit id="57ae8e493adef8a884a3f0c5e9e4501b7f2ec395" resname="draft.conflict.header" approved="yes">
         <source>Draft conflict when editing</source>
-        <target xml:lang="hu">A vázlatok ütköztek szerkesztéskor</target>
+        <target xml:lang="hu" state="translated">A vázlatok ütköztek szerkesztéskor</target>
         <note>key: draft.conflict.header</note>
       </trans-unit>
       <trans-unit id="d5fdbb680e6950e955c933e05f15f861c2020517" resname="draft.conflict.number" approved="yes">
         <source>{1}There are %number% draft for this content item.|]1,Inf[ There are %number% drafts for this content item</source>
-        <target xml:lang="hu">{1} %number% vázlat van már ehhez a tartalomhoz. |]1,Inf[ %number% vázlat van már ehhez a tartalomhoz</target>
+        <target xml:lang="hu" state="translated">{1} %number% vázlat van már ehhez a tartalomhoz. |]1,Inf[ %number% vázlat van már ehhez a tartalomhoz</target>
         <note>key: draft.conflict.number</note>
       </trans-unit>
       <trans-unit id="a4297fe31e8eb3307caa2cf855328056c3b98962" resname="tab.versions.action.delete" approved="yes">
         <source>Add draft</source>
-        <target xml:lang="hu">Vázlat létrehozása</target>
+        <target xml:lang="hu" state="translated">Vázlat létrehozása</target>
         <note>key: tab.versions.action.delete</note>
       </trans-unit>
     </body>

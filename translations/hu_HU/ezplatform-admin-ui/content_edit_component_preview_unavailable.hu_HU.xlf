@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="50833698162171103793dc9cb6367839a8e063a4" resname="preview_unavailable" approved="yes">
         <source>You cannot preview this translation: there is no site available for this language. Please contact the website administrator.</source>
-        <target xml:lang="hu">Nincs előnézet a fordításhoz, mert nincs elérhető oldal ezen a nyelven. Kérlek, fordulj az adminisztrátorhoz!</target>
+        <target xml:lang="hu" state="translated">Nincs előnézet a fordításhoz, mert nincs elérhető oldal ezen a nyelven. Kérlek, fordulj az adminisztrátorhoz!</target>
         <note>key: preview_unavailable</note>
       </trans-unit>
     </body>

@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="e4b8188e898e654dae14fc6b18133958f8e56084" resname="translation.remove.success" approved="yes">
         <source>Translation '%languageCode%' removed from content '%name%'.</source>
-        <target xml:lang="hu">A %languageCode% fordítást eltávolítottuk a "%name%" tartalomtól</target>
+        <target xml:lang="hu" state="translated">A %languageCode% fordítást eltávolítottuk a "%name%" tartalomtól</target>
         <note>key: translation.remove.success</note>
       </trans-unit>
     </body>

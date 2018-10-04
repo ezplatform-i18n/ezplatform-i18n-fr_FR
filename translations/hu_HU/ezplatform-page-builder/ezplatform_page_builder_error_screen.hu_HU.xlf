@@ -8,17 +8,17 @@
     <body>
       <trans-unit id="b49a71d6c57ec6bbdb6b43f2a5180d76522e9a34" resname="cannot.display.this.page" approved="yes">
         <source>Cannot display this page in Page Builder app. Sorry!</source>
-        <target xml:lang="hu">Ezt az oldalt nem tudjuk megjeleníteni a Page Builder alkalmazásban. Sajnáljuk.</target>
+        <target xml:lang="hu" state="translated">Ezt az oldalt nem tudjuk megjeleníteni a Page Builder alkalmazásban. Sajnáljuk.</target>
         <note>key: cannot.display.this.page</note>
       </trans-unit>
       <trans-unit id="f298d2852684440367a0b6c1549f818ecd6ceb3b" resname="preview.could.not.be.loaded" approved="yes">
         <source>The preview couldn’t be loaded. This preview page is on another domain, that is not configured to work with Page Builder.</source>
-        <target xml:lang="hu">Az előnézetet nem tudtuk betölteni. Más domainen van, amit nem rendeltek hozzá a Page Builder alkalmazáshoz.</target>
+        <target xml:lang="hu" state="translated">Az előnézetet nem tudtuk betölteni. Más domainen van, amit nem rendeltek hozzá a Page Builder alkalmazáshoz.</target>
         <note>key: preview.could.not.be.loaded</note>
       </trans-unit>
       <trans-unit id="a89fa23dda796749c6bb7c0290ee22ae4a731c23" resname="you.can.go.back.to.previous.page" approved="yes">
         <source><![CDATA[You can go back to the previous website or to <a class="ez-error-screen__link">the previous previewed page</a>]]></source>
-        <target xml:lang="hu"><![CDATA[Visszatérhetsz az előző website-ra, vagy <a class="ez-error-screen__link">az előzőleg megtekintett oldalra</a>]]></target>
+        <target xml:lang="hu" state="translated"><![CDATA[Visszatérhetsz az előző website-ra, vagy <a class="ez-error-screen__link">az előzőleg megtekintett oldalra</a>]]></target>
         <note>key: you.can.go.back.to.previous.page</note>
       </trans-unit>
     </body>

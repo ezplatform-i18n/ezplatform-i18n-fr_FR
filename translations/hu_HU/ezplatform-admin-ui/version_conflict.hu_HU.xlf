@@ -8,32 +8,32 @@
     <body>
       <trans-unit id="e3134aea8177d5285a440a147f434f843d81e0dc" resname="version.conflict.are_you_sure" approved="yes">
         <source>Are you sure you want to continue and overwrite the latest version?</source>
-        <target xml:lang="hu">Biztosan folytatod és felülírod az előző verziót?</target>
+        <target xml:lang="hu" state="translated">Biztosan folytatod és felülírod az előző verziót?</target>
         <note>key: version.conflict.are_you_sure</note>
       </trans-unit>
       <trans-unit id="f77f809ec953a9ee0a8fe642ab53e2763e5eaed2" resname="version.conflict.choices" approved="yes">
         <source>To resolve the conflict, click Cancel and delete the draft. Then edit the published Content Item.</source>
-        <target xml:lang="hu">Hogy a konfliktust felold, kattints a "Mégsem" gombra és töröld a vázlatot. Ezt követően pedig szerkeszd a publikus verziót.</target>
+        <target xml:lang="hu" state="translated">Hogy a konfliktust felold, kattints a "Mégsem" gombra és töröld a vázlatot. Ezt követően pedig szerkeszd a publikus verziót.</target>
         <note>key: version.conflict.choices</note>
       </trans-unit>
       <trans-unit id="9fad7ad8b2a4215487f98fc67dd7d793dd0382e8" resname="version.conflict.consequences" approved="yes">
         <source>If you continue, the previous version will be overwritten.</source>
-        <target xml:lang="hu">Ha folytatod, az előző verziót felülírod.</target>
+        <target xml:lang="hu" state="translated">Ha folytatod, az előző verziót felülírod.</target>
         <note>key: version.conflict.consequences</note>
       </trans-unit>
       <trans-unit id="5b6635730e66eb50ae26455406ca774eac8fd8e1" resname="version.conflict.form.cancel" approved="yes">
         <source>Cancel</source>
-        <target xml:lang="hu">Mégse</target>
+        <target xml:lang="hu" state="translated">Mégse</target>
         <note>key: version.conflict.form.cancel</note>
       </trans-unit>
       <trans-unit id="c70ab0acdd2b67e3043949422191e75e6e09440e" resname="version.conflict.form.continue" approved="yes">
         <source>Continue</source>
-        <target xml:lang="hu">Tovább</target>
+        <target xml:lang="hu" state="translated">Tovább</target>
         <note>key: version.conflict.form.continue</note>
       </trans-unit>
       <trans-unit id="0fcf485b042da069359444e8395122974ad929fc" resname="version.conflict.header" approved="yes">
         <source>Version conflict when editing</source>
-        <target xml:lang="hu">A vázlatok ütköztek szerkesztéskor</target>
+        <target xml:lang="hu" state="translated">A vázlatok ütköztek szerkesztéskor</target>
         <note>key: version.conflict.header</note>
       </trans-unit>
     </body>

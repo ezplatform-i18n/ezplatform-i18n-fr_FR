@@ -8,17 +8,17 @@
     <body>
       <trans-unit id="5022ce879be6a69956541173bf658dccff5d7280" resname="tab.translations.add.base_language" approved="yes">
         <source>Base this translation on an existing translation</source>
-        <target xml:lang="hu">Állítsd be alapként ezt a fordítást</target>
+        <target xml:lang="hu" state="translated">Állítsd be alapként ezt a fordítást</target>
         <note>key: tab.translations.add.base_language</note>
       </trans-unit>
       <trans-unit id="c22e9f75640384f917cc76e6736b3a6e91d70f1d" resname="tab.translations.add.cancel" approved="yes">
         <source>Cancel</source>
-        <target xml:lang="hu">Mégsem</target>
+        <target xml:lang="hu" state="translated">Mégsem</target>
         <note>key: tab.translations.add.cancel</note>
       </trans-unit>
       <trans-unit id="2d1ceec2bfb85db323e21e358b6be6aad547e1d0" resname="tab.translations.add.title" approved="yes">
         <source>Create new translation</source>
-        <target xml:lang="hu">Fordítás létrehozása</target>
+        <target xml:lang="hu" state="translated">Fordítás létrehozása</target>
         <note>key: tab.translations.add.title</note>
       </trans-unit>
     </body>

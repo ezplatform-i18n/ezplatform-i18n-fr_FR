@@ -8,17 +8,17 @@
     <body>
       <trans-unit id="a70aa15d1cda488f82acf9c626bca931a53d01a2" resname="error.preview" approved="yes">
         <source>Cannot save content draft.</source>
-        <target xml:lang="hu">Nem tudtuk menteni a vázlatot.</target>
+        <target xml:lang="hu" state="translated">Nem tudtuk menteni a vázlatot.</target>
         <note>key: error.preview</note>
       </trans-unit>
       <trans-unit id="1aa787fe0cfb373575fc2c0f6f826e7c6dc9fd41" resname="preview" approved="yes">
         <source>Preview</source>
-        <target xml:lang="hu">Előnézet</target>
+        <target xml:lang="hu" state="translated">Előnézet</target>
         <note>key: preview</note>
       </trans-unit>
       <trans-unit id="4f8fad3c2cfe284942ebc83149ede92126ba2dc7" resname="previewing" approved="yes">
         <source>Previewing</source>
-        <target xml:lang="hu">Előnézet</target>
+        <target xml:lang="hu" state="translated">Előnézet</target>
         <note>key: previewing</note>
       </trans-unit>
     </body>

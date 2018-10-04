@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="a4375495adcce484120d20721cc4d62da331540e" resname="infobar.mode.editing" approved="yes">
         <source>Editing</source>
-        <target xml:lang="hu">Szerkesztés</target>
+        <target xml:lang="hu" state="translated">Szerkesztés</target>
         <note>key: infobar.mode.editing</note>
       </trans-unit>
     </body>
