@@ -118,6 +118,11 @@
         <target xml:lang="nb" state="translated">Innhold som er planlagt publisert.</target>
         <note>key: date_based_publisher.success.publish_later</note>
       </trans-unit>
+      <trans-unit id="7d074c91468b3c1f9e6302ea0432306fef788e95" resname="discard_schedule_publish">
+        <source>discard_schedule_publish</source>
+        <target xml:lang="nb" state="translated">Forkast planlagt publisering</target>
+        <note>key: discard_schedule_publish</note>
+      </trans-unit>
       <trans-unit id="dcb8f016db59563b21714e4ba0688f7650fc6995" resname="menu.date_based_publisher">
         <source>Publish later</source>
         <target xml:lang="nb" state="translated">Publiser senere</target>
@@ -142,6 +147,11 @@
         <source>Future publication settings</source>
         <target xml:lang="nb" state="translated">Innstillinger for planlagt publisering</target>
         <note>key: publish_later.settings</note>
+      </trans-unit>
+      <trans-unit id="b618f3dd85270257ed32cca10210efa9f5faa9f5" resname="schedule_publish">
+        <source>schedule_publish</source>
+        <target xml:lang="nb" state="translated">Planlegg publisering</target>
+        <note>key: schedule_publish</note>
       </trans-unit>
       <trans-unit id="e5a66fd1e539dbf81f810d2022a3d8ee67a7a17c" resname="tab.name.all_scheduled">
         <source>All scheduled</source>
