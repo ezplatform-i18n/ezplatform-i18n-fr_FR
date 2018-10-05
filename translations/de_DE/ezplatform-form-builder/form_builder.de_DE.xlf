@@ -20,6 +20,9 @@
         <source>Create a form by dragging and dropping elements here</source>
         <target xml:lang="de" state="translated">Formular erstellen, indem Element hier via Drag &amp; Drop eingefügt werden</target>
         <note>key: drag.drop.call.to.action</note>
+        <alt-trans>
+          <target xml:lang="de">Formular erstellen, indem Element hier via Drag &amp; Drop eingefügt werden</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="81feac9c1754220f9ea3354d88cf49d263c09941" resname="field.remove">
         <source>Remove</source>

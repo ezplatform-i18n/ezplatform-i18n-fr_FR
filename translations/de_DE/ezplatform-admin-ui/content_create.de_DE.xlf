@@ -11,6 +11,9 @@
         <target xml:lang="de" state="translated">Erstelle - %contentTypeName% in %languageName%</target>
         <note>key: creating_in_language</note>
         <alt-trans>
+          <target xml:lang="de">Erstellung - %contentTypeName% in %languageName%</target>
+        </alt-trans>
+        <alt-trans>
           <target xml:lang="de">Erstellt - %contentTypeName% in %languageName%</target>
         </alt-trans>
       </trans-unit>
