@@ -91,6 +91,11 @@
         <target xml:lang="zh-HK" state="translated">字符集</target>
         <note>key: symfony_kernel.charset</note>
       </trans-unit>
+      <trans-unit id="8da408eada2e85ad98868421df6185d1c8e4bdb2" resname="symfony_kernel.debugMode">
+        <source>Debug mode</source>
+        <target xml:lang="zh-HK" state="translated">調試模式</target>
+        <note>key: symfony_kernel.debugMode</note>
+      </trans-unit>
       <trans-unit id="b279d615747857a87b80e268ef4a8eefc631cd3c" resname="symfony_kernel.debugMode.disabled">
         <source>Disabled</source>
         <target xml:lang="zh-HK" state="translated">已停用</target>
@@ -100,6 +105,11 @@
         <source>Enabled</source>
         <target xml:lang="zh-HK" state="translated">已啟用</target>
         <note>key: symfony_kernel.debugMode.enabled</note>
+      </trans-unit>
+      <trans-unit id="ae50a8c234dbf0d24521f3aec3a5f430b79ccb4c" resname="symfony_kernel.environment">
+        <source>Environment</source>
+        <target xml:lang="zh-HK" state="translated">系統環境</target>
+        <note>key: symfony_kernel.environment</note>
       </trans-unit>
       <trans-unit id="b04c158895f34062a8748223da67059fe45b3a60" resname="symfony_kernel.logDir">
         <source>Log directory</source>

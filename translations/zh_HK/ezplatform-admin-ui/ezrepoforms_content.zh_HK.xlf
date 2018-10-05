@@ -46,6 +46,11 @@
         <target xml:lang="zh-HK" state="translated">最大文件大小: %size%</target>
         <note>key: fieldtype.binary_base.max_file_size</note>
       </trans-unit>
+      <trans-unit id="763e9b64f4f0024e90753727ccc212a3596bfccd" resname="fieldtype.binary_base.upload_file">
+        <source>Upload file</source>
+        <target xml:lang="zh-HK" state="translated">上傳文件</target>
+        <note>key: fieldtype.binary_base.upload_file</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

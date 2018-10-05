@@ -6,24 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="52301360c45fd1f17f0c98140c4dc5296ed08eb6" resname="send_for_review">
+        <source>send_for_review</source>
+        <target xml:lang="zh-HK" state="translated">send_for_review</target>
+        <note>key: send_for_review</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

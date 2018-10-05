@@ -93,6 +93,117 @@
         <note>key: fielddefinition.maximum-file-size.label</note>
         <jms:reference-file line="308">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="b9bb83913e23ad5a59eb7485ca48386bd7fce66e" resname="fielddefinition.media-player-type.flash">
+        <source>Flash</source>
+        <target xml:lang="zh-HK" state="translated">Flash</target>
+        <note>key: fielddefinition.media-player-type.flash</note>
+        <jms:reference-file line="182">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1c31870437c9baa0d08c67140d35fa54c6223922" resname="fielddefinition.media-player-type.html5_audio">
+        <source>HTML5 Audio</source>
+        <target xml:lang="zh-HK" state="translated">HTML5 audio</target>
+        <note>key: fielddefinition.media-player-type.html5_audio</note>
+        <jms:reference-file line="194">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="22881c3ebee12191bc6f269d943c1140eea4bfb1" resname="fielddefinition.media-player-type.html5_video">
+        <source>HTML5 Video</source>
+        <target xml:lang="zh-HK" state="translated">HTML5 video</target>
+        <note>key: fielddefinition.media-player-type.html5_video</note>
+        <jms:reference-file line="192">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0aaa90efdf7cc5042723e7500891db70da3f8850" resname="fielddefinition.media-player-type.label">
+        <source>Media player type:</source>
+        <target xml:lang="zh-HK" state="translated">媒體播放器類型:</target>
+        <note>key: fielddefinition.media-player-type.label</note>
+        <jms:reference-file line="179">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="c7a28f2ea418dc17e634bf386d5f1db091582fc8" resname="fielddefinition.media-player-type.quick_time">
+        <source>Quicktime</source>
+        <target xml:lang="zh-HK" state="translated">QuickTime</target>
+        <note>key: fielddefinition.media-player-type.quick_time</note>
+        <jms:reference-file line="184">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="edd8db0307e234e095d1788540bd026e48e173f8" resname="fielddefinition.media-player-type.real_player">
+        <source>Real Player</source>
+        <target xml:lang="zh-HK" state="translated">Real Player</target>
+        <note>key: fielddefinition.media-player-type.real_player</note>
+        <jms:reference-file line="186">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4ad14874021f1b806f9c93b41ef195b12fe5ab3f" resname="fielddefinition.media-player-type.silverlight">
+        <source>Silverlight</source>
+        <target xml:lang="zh-HK" state="translated">Silverlight</target>
+        <note>key: fielddefinition.media-player-type.silverlight</note>
+        <jms:reference-file line="188">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="738ddf9e6b12ae22e5f8e62839f63221c24f1431" resname="fielddefinition.media-player-type.undefined">
+        <source>No defined value</source>
+        <target xml:lang="zh-HK" state="translated">無預設值</target>
+        <note>key: fielddefinition.media-player-type.undefined</note>
+        <jms:reference-file line="196">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="61d9fc8a2cbcb067d39496dba7e884caf51cf245" resname="fielddefinition.media-player-type.windows_media_player">
+        <source>Window Media Player</source>
+        <target xml:lang="zh-HK" state="translated">Windows Media Player</target>
+        <note>key: fielddefinition.media-player-type.windows_media_player</note>
+        <jms:reference-file line="190">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ee5c85f0dae011c10d9d2bfb1fcd86e529c55536" resname="fielddefinition.min-length.label">
+        <source>Min string length:</source>
+        <target xml:lang="zh-HK" state="translated">最小字符長度:</target>
+        <note>key: fielddefinition.min-length.label</note>
+        <jms:reference-file line="18">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="09fff8d9a67512b01bb3e58b5d25cf5d042ba195" resname="fielddefinition.min-length.undefined">
+        <source>No defined minimum string length</source>
+        <target xml:lang="zh-HK" state="translated">沒有定義最小字符串長度</target>
+        <note>key: fielddefinition.min-length.undefined</note>
+        <jms:reference-file line="23">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="1feb12108139bb4d34877c40ade8362c0872b528" resname="fielddefinition.min-value.label">
+        <source>Minimum value:</source>
+        <target xml:lang="zh-HK" state="translated">最大值:</target>
+        <note>key: fielddefinition.min-value.label</note>
+        <jms:reference-file line="360">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="77c3603526e153eea2b11a851601dabd3bfdbd9a" resname="fielddefinition.multiple.yes_no">
+        <source>{0} No|{1} Yes</source>
+        <target xml:lang="zh-HK" state="translated">{0} 否|{1} 是</target>
+        <note>key: fielddefinition.multiple.yes_no</note>
+        <jms:reference-file line="387">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="030aa959f56ae9ba0e1d84a99606995a02c5bd97" resname="fielddefinition.preferred-rows-number.label">
+        <source>Preferred number of rows:</source>
+        <target xml:lang="zh-HK" state="translated">首選行數：</target>
+        <note>key: fielddefinition.preferred-rows-number.label</note>
+        <jms:reference-file line="321">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ac0aff5c558fb078621da0f46b2ae5b0e04afcaa" resname="fielddefinition.preferred-rows-number.value">
+        <source>%rows% rows</source>
+        <target xml:lang="zh-HK" state="translated">%rows%行</target>
+        <note>key: fielddefinition.preferred-rows-number.value</note>
+        <jms:reference-file line="324">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="b21527196a76acac750d478bfe8137cae7aff914" resname="fielddefinition.selection-method.browse">
+        <source>Browse</source>
+        <target xml:lang="zh-HK" state="translated">瀏覽</target>
+        <note>key: fielddefinition.selection-method.browse</note>
+        <jms:reference-file line="215">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <jms:reference-file line="234">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="cd94d6146477b427bdc6dbbe19be20bd6db31542" resname="fielddefinition.selection-method.list">
+        <source>Drop-down list</source>
+        <target xml:lang="zh-HK" state="translated">下拉列表</target>
+        <note>key: fielddefinition.selection-method.list</note>
+        <jms:reference-file line="217">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <jms:reference-file line="236">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="f875a84fc9f3c1e0610a90197722f04b9442fa01" resname="fielddefinition.use-seconds.yes_no">
+        <source>{0} No|{1} Yes</source>
+        <target xml:lang="zh-HK" state="translated">{0} 否|{1} 是</target>
+        <note>key: fielddefinition.use-seconds.yes_no</note>
+        <jms:reference-file line="123">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <jms:reference-file line="97">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
     </body>
   </file>
 </xliff>

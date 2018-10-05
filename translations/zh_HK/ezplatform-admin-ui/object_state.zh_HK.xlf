@@ -56,6 +56,16 @@
         <target xml:lang="zh-HK" state="translated">儲存</target>
         <note>key: object_state.update.submit</note>
       </trans-unit>
+      <trans-unit id="8cf30d6244f713b936c76e01f5bf70b1f5d62332" resname="object_state.view.list.action.edit">
+        <source>Edit</source>
+        <target xml:lang="zh-HK" state="translated">編輯</target>
+        <note>key: object_state.view.list.action.edit</note>
+      </trans-unit>
+      <trans-unit id="07ac5094606572ca7304175bb3af30e0a78662aa" resname="object_state_.delete.submit">
+        <source>Delete</source>
+        <target xml:lang="zh-HK" state="translated">刪除</target>
+        <note>key: object_state_.delete.submit</note>
+      </trans-unit>
       <trans-unit id="2db8c3e77568f759b118b23aec8cfacaca3d96c0" resname="object_state_group.update.identifier">
         <source>Identifier</source>
         <target xml:lang="zh-HK" state="translated">識別符</target>

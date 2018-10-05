@@ -26,6 +26,26 @@
         <target xml:lang="zh-HK" state="translated">刪除已選取的回收站項目？</target>
         <note>key: trash.deleted.success</note>
       </trans-unit>
+      <trans-unit id="eb7cd78bb919141f66cabfea95a60e0e6b02e9f4" resname="trash.headline">
+        <source>Trash</source>
+        <target xml:lang="zh-HK" state="translated">回收站</target>
+        <note>key: trash.headline</note>
+      </trans-unit>
+      <trans-unit id="34525fc5da381111c2104d20a55021eb8b698c7c" resname="trash.name">
+        <source>Name</source>
+        <target xml:lang="zh-HK" state="translated">名稱</target>
+        <note>key: trash.name</note>
+      </trans-unit>
+      <trans-unit id="06b530d8c8b3d7af7b3f2df9f5102927e7275de4" resname="trash.table.header">
+        <source>Trash</source>
+        <target xml:lang="zh-HK" state="translated">回收站</target>
+        <note>key: trash.table.header</note>
+      </trans-unit>
+      <trans-unit id="04098b87c58e41ab39820db75eee1d13856f9616" resname="trash.type">
+        <source>Type</source>
+        <target xml:lang="zh-HK" state="translated">類型</target>
+        <note>key: trash.type</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

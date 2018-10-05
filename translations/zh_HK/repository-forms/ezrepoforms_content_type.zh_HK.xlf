@@ -6,10 +6,25 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="0b5b303097790cd7cf1dde918d885439e60ecbd2" resname="content_type.add_field_definition">
+        <source>Add field definition</source>
+        <target xml:lang="zh-HK" state="translated">添加欄位定義</target>
+        <note>key: content_type.add_field_definition</note>
+      </trans-unit>
       <trans-unit id="529a1012c7fe5ca6fafdb5d070ac8ececfe94af6" resname="content_type.create">
         <source>Create a content type</source>
         <target xml:lang="zh-HK" state="translated">創建內容類型</target>
         <note>key: content_type.create</note>
+      </trans-unit>
+      <trans-unit id="7b64ebcf792d888de957eaee1c3734c97c80db98" resname="content_type.default_always_available">
+        <source>Default content availability</source>
+        <target xml:lang="zh-HK" state="translated">預設內容可用性</target>
+        <note>key: content_type.default_always_available</note>
+      </trans-unit>
+      <trans-unit id="b29f5d9c32e10776ec9fd36c35c4aefc96732cb2" resname="content_type.default_sort_field">
+        <source>Default field for sorting children</source>
+        <target xml:lang="zh-HK" state="translated">用於對子級進行排序的預設欄位</target>
+        <note>key: content_type.default_sort_field</note>
       </trans-unit>
       <trans-unit id="7a67ffefca1339a9e4c5224d773378c2e5f6f378" resname="content_type.default_sort_order">
         <source>Default sort order</source>
@@ -25,6 +40,11 @@
         <source>Description</source>
         <target xml:lang="zh-HK" state="translated">描述</target>
         <note>key: content_type.description</note>
+      </trans-unit>
+      <trans-unit id="2aecf6f88fd1ee89037907b8743d5873879a0590" resname="content_type.field_definitions_data">
+        <source>Content field definitions</source>
+        <target xml:lang="zh-HK" state="translated">內容欄位定義</target>
+        <note>key: content_type.field_definitions_data</note>
       </trans-unit>
       <trans-unit id="368a6ffa173a2e9605371392e99e565d9b247382" resname="content_type.group.delete">
         <source>Delete</source>
@@ -155,6 +175,11 @@
         <source>Default value</source>
         <target xml:lang="zh-HK" state="translated">預設值</target>
         <note>key: field_definition.ezboolean.default_value</note>
+      </trans-unit>
+      <trans-unit id="3ef6598f8cd7d60095784845bb24852ac531e47c" resname="field_definition.ezcountry.default_value">
+        <source>Select which countries by default</source>
+        <target xml:lang="zh-HK" state="translated">選擇預設的國家</target>
+        <note>key: field_definition.ezcountry.default_value</note>
       </trans-unit>
       <trans-unit id="027f35cf66e5ea571cc7b600dad0ab5ceea20cd6" resname="field_definition.ezcountry.is_multiple">
         <source>Multiple choice</source>
@@ -290,6 +315,14 @@
         <source>Allowed content types</source>
         <target xml:lang="zh-HK" state="translated">允許的內容類型</target>
         <note>key: field_definition.ezobjectrelation.selection_content_types</note>
+      </trans-unit>
+      <trans-unit id="440d8fe80bb8a07b62f17d843721285b2cf8a4d5" resname="field_definition.ezobjectrelation.selection_root">
+        <source>Default selection item</source>
+        <target xml:lang="zh-HK" state="translated">預設選擇項目</target>
+        <note>key: field_definition.ezobjectrelation.selection_root</note>
+        <alt-trans>
+          <target xml:lang="zh-HK">默認選擇項目</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="e03e262fad0802fdee49aac136644b35450e1eab" resname="field_definition.ezobjectrelation.selection_root_udw_button">
         <source>Select item</source>

@@ -31,6 +31,11 @@
         <target xml:lang="zh-HK" state="translated">自動播放</target>
         <note>key: content.field_type.ezmedia.autoplay</note>
       </trans-unit>
+      <trans-unit id="f0176a5e197c6c207e09affb1a027db2ab48a506" resname="content.field_type.ezmedia.display_controls">
+        <source>Display controls</source>
+        <target xml:lang="zh-HK" state="translated">播放控制</target>
+        <note>key: content.field_type.ezmedia.display_controls</note>
+      </trans-unit>
       <trans-unit id="eb3b924b6a2d94344ea5e1e51636ef5b92a7a57a" resname="content.field_type.ezmedia.height">
         <source>Height</source>
         <target xml:lang="zh-HK" state="translated">高度</target>
@@ -40,6 +45,11 @@
         <source>Loop</source>
         <target xml:lang="zh-HK" state="translated">循環</target>
         <note>key: content.field_type.ezmedia.loop</note>
+      </trans-unit>
+      <trans-unit id="e5940ee516f3edb1d09e7ac4eed4fe7a28d3cacd" resname="content.field_type.ezmedia.width">
+        <source>Width</source>
+        <target xml:lang="zh-HK" state="translated">寬度</target>
+        <note>key: content.field_type.ezmedia.width</note>
       </trans-unit>
     </body>
   </file>

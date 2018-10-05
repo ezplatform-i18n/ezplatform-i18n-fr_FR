@@ -16,6 +16,11 @@
         <target xml:lang="zh-HK" state="translated">內容類型說明不能超過255個字元。</target>
         <note>key: ez.content_type.descriptions</note>
       </trans-unit>
+      <trans-unit id="924826be1015d20c1f4524754c690e10935abaac" resname="ez.section.identifier.format">
+        <source>Section identifier may only contain letters from "a" to "z", numbers and underscores.</source>
+        <target xml:lang="zh-HK" state="translated">區段標識符只能包含“a”到“z”的字母，數字及下劃線。</target>
+        <note>key: ez.section.identifier.format</note>
+      </trans-unit>
       <trans-unit id="8bcee04e8c985239d106e0fa910dfec8bdce3669" resname="ez.url.unique">
         <source>URL must be unique</source>
         <target xml:lang="zh-HK" state="translated">URL必須是唯一的</target>
