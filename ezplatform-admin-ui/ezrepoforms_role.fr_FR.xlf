@@ -11,6 +11,11 @@
         <target xml:lang="fr" state="translated">Mettre à jour</target>
         <note>key: policy_create.save</note>
       </trans-unit>
+      <trans-unit id="c418f83922f6a4ea7412120a3b731a3e8665eead" resname="policy_create.update">
+        <source>Update</source>
+        <target xml:lang="fr" state="translated">Mettre à jour</target>
+        <note>key: policy_create.update</note>
+      </trans-unit>
       <trans-unit id="05cc1fd4658faa760de6e98cb71e1054157e63a0" resname="policy_delete.delete">
         <source>Delete</source>
         <target xml:lang="fr" state="translated">Supprimer</target>
@@ -30,6 +35,16 @@
         <source>All modules / All functions</source>
         <target xml:lang="fr" state="translated">Tous les modules / toutes les fonctions</target>
         <note>key: role.policy.all_modules_all_functions</note>
+      </trans-unit>
+      <trans-unit id="0eda0d605bd42eb8989a82e546d09ace8bc1b4d9" resname="role.policy.limitation.location.udw_button">
+        <source>Select locations</source>
+        <target xml:lang="fr" state="translated">Sélectionnez les emplacements</target>
+        <note>key: role.policy.limitation.location.udw_button</note>
+      </trans-unit>
+      <trans-unit id="73a82ac42476a68fb0216ebecd04f01f11bf44b2" resname="role.policy.limitation.location.udw_title">
+        <source>Select locations to use as policy limitation</source>
+        <target xml:lang="fr" state="translated">Sélectionnez les emplacements à utiliser pour la règle de restriction</target>
+        <note>key: role.policy.limitation.location.udw_title</note>
       </trans-unit>
       <trans-unit id="d3c70d265ab037db5ade02a8b738b5981353c7ac" resname="role.policy.type">
         <source>Type</source>

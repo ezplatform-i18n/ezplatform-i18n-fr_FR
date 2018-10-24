@@ -6,11 +6,6 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="1cea3c1fab7233ec7948b0aa22fb3e45643b7a9a" resname="config_form.widgets.collection.udw.title">
-        <source>Select content</source>
-        <target xml:lang="fr" state="translated">Sélectionner un contenu</target>
-        <note>key: config_form.widgets.collection.udw.title</note>
-      </trans-unit>
       <trans-unit id="5a88a93c8b1cd819dc183fcd3b252b24acbe487b" resname="config_popup.close.label">
         <source>config_popup.close.label</source>
         <target xml:lang="fr" state="translated">Fermer</target>
