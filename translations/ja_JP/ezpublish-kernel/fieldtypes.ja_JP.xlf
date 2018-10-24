@@ -36,11 +36,6 @@
         <target xml:lang="ja" state="translated">日付と時刻</target>
         <note>key: ezdatetime.name</note>
       </trans-unit>
-      <trans-unit id="d772ac8909929964906cbefd41c468c9a5d2be26" resname="ezemail.name">
-        <source>E-mail address</source>
-        <target xml:lang="ja" state="translated">メールアドレス</target>
-        <note>key: ezemail.name</note>
-      </trans-unit>
       <trans-unit id="6300f890f00d9999466b4abc478857b0d29022b4" resname="ezimage.name">
         <source>Image</source>
         <target xml:lang="ja" state="translated">画像</target>
