@@ -11,11 +11,6 @@
         <target xml:lang="ru" state="translated"><![CDATA[by <span class="ez-content-details__author">%name%</span>]]></target>
         <note>key: infobar.author.name</note>
       </trans-unit>
-      <trans-unit id="8cae04221f80a7be222bfb773c07e5c6394bd7da" resname="infobar.error.message">
-        <source>Switch to the Field view and fill in the required fields</source>
-        <target xml:lang="ru" state="translated">Переключитесь в режим редактирования полей и заполните обязательные поля</target>
-        <note>key: infobar.error.message</note>
-      </trans-unit>
       <trans-unit id="42181870d2894db7dece01830473f18bcf2ad9c3" resname="infobar.form.and.page.field.type.error.message">
         <source>Not all blocks were properly configured. Please, update missing data. Switch to the Field view and fill in the other required fields</source>
         <target xml:lang="ru" state="translated">Не все блоки были правильно настроены. Пожалуйста обновите отсутствующие даннык. Переключитесь в режим редактирования полей и заполните обязательные поля</target>
