@@ -6,20 +6,15 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="dcb7d5c604f93fdc65aa4b1ff853e8ed27237f45" resname="tab.label.basic">
-        <source>Basic</source>
-        <target>Basic</target>
-        <note>key: tab.label.basic</note>
+      <trans-unit id="dc2dfb4a937fee7119e733e0b6715a09320d5078" resname="ezimageasset.create.message.error">
+        <source>Error while creating image asset: %error%</source>
+        <target state="new">Error while creating image asset: %error%</target>
+        <note>key: ezimageasset.create.message.error</note>
       </trans-unit>
-      <trans-unit id="2d40f74124be77d408be57368842ef5e7bd64d98" resname="tab.label.design">
-        <source>Design</source>
-        <target>Design</target>
-        <note>key: tab.label.design</note>
-      </trans-unit>
-      <trans-unit id="cdea1f34eff224ab9592f83235d861466aaec351" resname="tab.label.scheduler">
-        <source>Scheduler</source>
-        <target>Scheduler</target>
-        <note>key: tab.label.scheduler</note>
+      <trans-unit id="56d1cc1d279fa173f9f73ab42a61df985aeb5b0c" resname="ezimageasset.create.message.success">
+        <source>Image has been published and can now be reused</source>
+        <target state="new">Image has been published and can now be reused</target>
+        <note>key: ezimageasset.create.message.success</note>
       </trans-unit>
     </body>
   </file>

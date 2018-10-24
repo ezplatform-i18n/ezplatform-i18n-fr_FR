@@ -11,10 +11,10 @@
         <target><![CDATA[by <span class="ez-content-details__author">%name%</span>]]></target>
         <note>key: infobar.author.name</note>
       </trans-unit>
-      <trans-unit id="8cae04221f80a7be222bfb773c07e5c6394bd7da" resname="infobar.error.message">
-        <source>Switch to the Field view and fill in the required fields</source>
-        <target>Switch to the Field view and fill in the required fields</target>
-        <note>key: infobar.error.message</note>
+      <trans-unit id="144ac8aaa8994ed0736a29a4eefb8f719bbbe9f2" resname="infobar.author.not_found">
+        <source>Can’t fetch author</source>
+        <target>Can’t fetch author</target>
+        <note>key: infobar.author.not_found</note>
       </trans-unit>
       <trans-unit id="42181870d2894db7dece01830473f18bcf2ad9c3" resname="infobar.form.and.page.field.type.error.message">
         <source>Not all blocks were properly configured. Please, update missing data. Switch to the Field view and fill in the other required fields</source>

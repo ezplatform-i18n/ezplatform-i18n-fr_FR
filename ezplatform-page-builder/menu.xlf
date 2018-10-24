@@ -38,17 +38,17 @@
       </trans-unit>
       <trans-unit id="0ba863bd868948ade36a1fc746f300f9f4ec5c28" resname="page_builder__infobar__preview__tools__add_translation">
         <source>Add translation</source>
-        <target state="new">Add translation</target>
+        <target>Add translation</target>
         <note>key: page_builder__infobar__preview__tools__add_translation</note>
       </trans-unit>
       <trans-unit id="690e22d98e836a0f471b77a96f2f5ea56ca3db81" resname="page_builder__infobar__preview__tools__send_to_trash">
         <source>Send to Trash</source>
-        <target state="new">Send to Trash</target>
+        <target>Send to Trash</target>
         <note>key: page_builder__infobar__preview__tools__send_to_trash</note>
       </trans-unit>
       <trans-unit id="6e3c5ada174db65381c85e6d12eed44ffe78f23b" resname="page_builder__infobar__preview__tools__versions">
         <source>Versions</source>
-        <target state="new">Versions</target>
+        <target>Versions</target>
         <note>key: page_builder__infobar__preview__tools__versions</note>
       </trans-unit>
     </body>

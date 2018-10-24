@@ -16,6 +16,11 @@
         <target>Select content</target>
         <note>key: config_form.widgets.collection.udw.title</note>
       </trans-unit>
+      <trans-unit id="0b4c883fbcdbb12f3612d374db26c3303757640a" resname="config_form.widgets.schedule.udw.title">
+        <source>Select content</source>
+        <target>Select content</target>
+        <note>key: config_form.widgets.schedule.udw.title</note>
+      </trans-unit>
       <trans-unit id="5a88a93c8b1cd819dc183fcd3b252b24acbe487b" resname="config_popup.close.label">
         <source>Close</source>
         <target>Close</target>

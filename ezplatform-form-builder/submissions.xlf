@@ -32,8 +32,8 @@
         <note>key: tab.submissions.modal.message</note>
       </trans-unit>
       <trans-unit id="9d6392988953776a755089a0d93dae4512cb2758" resname="tab.submissions.no_submissions">
-        <source>This content item has no submissions.</source>
-        <target>This content item has no submissions.</target>
+        <source>This form has no submissions.</source>
+        <target state="new">This form has no submissions.</target>
         <note>key: tab.submissions.no_submissions</note>
       </trans-unit>
       <trans-unit id="6039d73f32eecd317821da4068d559bedf487549" resname="tab.submissions.submissions">
