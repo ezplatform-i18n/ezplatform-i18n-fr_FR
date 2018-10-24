@@ -78,7 +78,7 @@
       </trans-unit>
       <trans-unit id="84c1e46564bf281d22c3b554a0af412a8bbbdacc" resname="ezmedia.browser_does_not_support_html5_video">
         <source>Your browser does not support HTML5 video</source>
-        <target xml:lang="de" state="translated">Ihr Browser unterstützt HTML5 Videos nicht</target>
+        <target xml:lang="de" state="translated">Ihr Browser unterstützt keine HTML5 Videos</target>
         <note>key: ezmedia.browser_does_not_support_html5_video</note>
       </trans-unit>
       <trans-unit id="8f298e16cc3766b185e4e45db13e4f84f03f5d89" resname="ezmedia.display_controls">
@@ -113,8 +113,11 @@
       </trans-unit>
       <trans-unit id="207f2af6642a19b3e2ee254f82bd71ae2351d6f0" resname="ezmedia.video_file_properties">
         <source>Video file properties</source>
-        <target xml:lang="de" state="translated">Video-Datei-Eigenschaften</target>
+        <target xml:lang="de" state="translated">Video-Datei Eigenschaften</target>
         <note>key: ezmedia.video_file_properties</note>
+        <alt-trans>
+          <target xml:lang="de">Video-Datei-Eigenschaften</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="2f9f973623d548ff2cac08afcd1de234bd2493c8" resname="ezmedia.yes">
         <source>Yes</source>
@@ -123,48 +126,61 @@
       </trans-unit>
       <trans-unit id="df17c526bb1674b64ac8a4cd4eda1af9e0c5e7e5" resname="ezobjectrelation.content_type">
         <source>Content Type</source>
-        <target xml:lang="de" state="translated">Content-Typ</target>
+        <target xml:lang="de" state="translated">Inhaltstyp</target>
         <note>key: ezobjectrelation.content_type</note>
+        <alt-trans>
+          <target xml:lang="de">Content-Typ</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="79f0c6856a30e0436b61aa28cfc859df8289edfb" resname="ezobjectrelation.created">
         <source>Created</source>
-        <target xml:lang="de" state="translated">Erzeugt</target>
+        <target xml:lang="de" state="translated">Erstellt</target>
         <note>key: ezobjectrelation.created</note>
+        <alt-trans>
+          <target xml:lang="de">Erzeugt</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="feb25b24199466f077038c5e6e38209deae21471" resname="ezobjectrelation.name">
         <source>Name</source>
-        <target xml:lang="de" state="translated">Nom</target>
+        <target xml:lang="de" state="translated">Name</target>
         <note>key: ezobjectrelation.name</note>
+        <alt-trans>
+          <target xml:lang="de">Nom</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="bd321e94e97034129cf78323f54e93c782250971" resname="ezobjectrelation.single_relation">
         <source>Single relation</source>
-        <target xml:lang="de" state="translated">Einfache Relation</target>
+        <target xml:lang="de" state="translated">Einfache Verknüpfung</target>
         <note>key: ezobjectrelation.single_relation</note>
       </trans-unit>
       <trans-unit id="61c7580e3e4d4547527322089f577eca2ff1ea5b" resname="ezobjectrelationlist.content_type">
         <source>Content Type</source>
-        <target xml:lang="de" state="translated">Content-Typ</target>
+        <target xml:lang="de" state="translated">Inhaltstyp</target>
         <note>key: ezobjectrelationlist.content_type</note>
+        <alt-trans>
+          <target xml:lang="de">Content-Typ</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="07ffe77032c4f0b4f8c64f7c40218274e805491f" resname="ezobjectrelationlist.created">
         <source>Created</source>
-        <target xml:lang="de" state="translated">Erzeugt</target>
+        <target xml:lang="de" state="translated">Erstellt</target>
         <note>key: ezobjectrelationlist.created</note>
+        <alt-trans>
+          <target xml:lang="de">Erzeugt</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="ac6f4439a9d7e655920f9789346d6c928182127e" resname="ezobjectrelationlist.multiple_relations">
         <source>Multiple relations</source>
-        <target xml:lang="de" state="translated">Mehrfache Relationen</target>
+        <target xml:lang="de" state="translated">Mehrfache Verknüpfungen</target>
         <note>key: ezobjectrelationlist.multiple_relations</note>
       </trans-unit>
       <trans-unit id="44d2ac9ae83f6b73fa8f61fad66a77d76d2159f0" resname="ezobjectrelationlist.name">
         <source>Name</source>
-        <target xml:lang="de" state="translated">Nom</target>
+        <target xml:lang="de" state="translated">Name</target>
         <note>key: ezobjectrelationlist.name</note>
-      </trans-unit>
-      <trans-unit id="eb451c657d2bd24b90aaea1619ba0ffb33ba52cc" resname="ezuser.email">
-        <source>E-mail</source>
-        <target xml:lang="de" state="translated">E-Mail</target>
-        <note>key: ezuser.email</note>
+        <alt-trans>
+          <target xml:lang="de">Nom</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="09acf9d3220515cf63f284525c54ed3f88b7a396" resname="ezuser.enabled">
         <source>Enabled</source>

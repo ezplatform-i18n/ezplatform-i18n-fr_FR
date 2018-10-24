@@ -51,8 +51,11 @@
       </trans-unit>
       <trans-unit id="df33d5cc8c00514b2c50d4949b872cc3cd99284c" resname="ezobjectrelationlist.cta.select">
         <source>Select content</source>
-        <target xml:lang="de" state="translated">Content auswählen</target>
+        <target xml:lang="de" state="translated">Inhalt auswählen</target>
         <note>key: ezobjectrelationlist.cta.select</note>
+        <alt-trans>
+          <target xml:lang="de">Content auswählen</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="91cee9d11eeed40768d4e5270d91cd5165f4562f" resname="ezobjectrelationlist.limit">
         <source>Limit %limit% max</source>
@@ -74,8 +77,11 @@
       </trans-unit>
       <trans-unit id="13034b18b2f4c315e7fbfe4b4735259f6db82bb8" resname="ezobjectrelationlist.table.row.created">
         <source>Created</source>
-        <target xml:lang="de" state="translated">Erzeugt</target>
+        <target xml:lang="de" state="translated">Erstellt</target>
         <note>key: ezobjectrelationlist.table.row.created</note>
+        <alt-trans>
+          <target xml:lang="de">Erzeugt</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="2099e51f91926408c9e9514a5d05eaca332f371a" resname="ezobjectrelationlist.table.row.name">
         <source>Name</source>
@@ -94,9 +100,6 @@
         <source>Drag and drop your files on browser window or upload them</source>
         <target xml:lang="de" state="translated">Hier per Drag &amp; Drop Dateien hinzufügen oder hochladen</target>
         <note>key: fieldtype.binary_base.drag_drop</note>
-        <alt-trans>
-          <target xml:lang="de">Hier per Drag &amp; Drop Dateien hinzufügen oder hochladen</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="858c986173f1ef87d7acda017535b86f01bca87d" resname="fieldtype.binary_base.max_file_size">
         <source>Max file size: %size%</source>

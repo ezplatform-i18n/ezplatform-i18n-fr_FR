@@ -53,8 +53,11 @@
       </trans-unit>
       <trans-unit id="e17a8999c9e44b7e8ea1ba0f5cff596ece264da5" resname="dashboard.table.content_type">
         <source>Content Type</source>
-        <target xml:lang="de" state="translated">Content-Typ</target>
+        <target xml:lang="de" state="translated">Inhaltstyp</target>
         <note>key: dashboard.table.content_type</note>
+        <alt-trans>
+          <target xml:lang="de">Content-Typ</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="841a1c1c491e1adec03ce7e9476879c4bb32edb7" resname="dashboard.table.contributor">
         <source>Contributor</source>
@@ -63,8 +66,11 @@
       </trans-unit>
       <trans-unit id="e7790665f417ad7d9479f8b7c0920d212e4e24f6" resname="dashboard.table.contributor.not_found">
         <source>Can’t fetch contributor</source>
-        <target xml:lang="de" state="translated">Beitragender wurde nicht gefunden</target>
+        <target xml:lang="de" state="translated">Beitragender kann nicht angezeigt werden</target>
         <note>key: dashboard.table.contributor.not_found</note>
+        <alt-trans>
+          <target xml:lang="de">Beitragender wurde nicht gefunden</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="93a5fc53032106ea0ae1658261fd187e5c9c6a94" resname="dashboard.table.draft.edit">
         <source>Edit Draft</source>

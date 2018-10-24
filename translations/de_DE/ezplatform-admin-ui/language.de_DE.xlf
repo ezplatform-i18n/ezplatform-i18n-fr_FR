@@ -43,7 +43,7 @@
       </trans-unit>
       <trans-unit id="a11e2bfe5281d9163ca46f0e051832659104287f" resname="language.edit.identifier">
         <source>Editing Language "%language%"</source>
-        <target xml:lang="de" state="translated">Sprache "%language%" bearbeiten</target>
+        <target xml:lang="de" state="translated">Bearbeite Sprache "%language%"</target>
         <note>key: language.edit.identifier</note>
       </trans-unit>
       <trans-unit id="065fdff561c25266ec49bbdaf8c5d0bdd6e9dd7f" resname="language.enabled">

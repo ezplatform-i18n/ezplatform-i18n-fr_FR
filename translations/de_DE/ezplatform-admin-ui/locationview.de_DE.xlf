@@ -13,17 +13,17 @@
       </trans-unit>
       <trans-unit id="f599001c1ab9442f20e23d535e1dad8f3b75c337" resname="content.create.select_content_type">
         <source>Select Content Type</source>
-        <target xml:lang="de" state="translated">Inhaltstyp wählen</target>
+        <target xml:lang="de" state="translated">Inhaltstyp auswählen</target>
         <note>key: content.create.select_content_type</note>
       </trans-unit>
       <trans-unit id="8b5180d90c79245ed3e491e6f682842daaa0bec5" resname="content.create.select_language">
         <source>Select language</source>
-        <target xml:lang="de" state="translated">Sprache wählen</target>
+        <target xml:lang="de" state="translated">Sprache auswählen</target>
         <note>key: content.create.select_language</note>
       </trans-unit>
       <trans-unit id="5e8851497aae3ba774d163d5fd191fd69ac871c0" resname="content.edit.select_language">
         <source>Select language</source>
-        <target xml:lang="de" state="translated">Sprache wählen</target>
+        <target xml:lang="de" state="translated">Sprache auswählen</target>
         <note>key: content.edit.select_language</note>
       </trans-unit>
       <trans-unit id="9c91d85bc7658ec7dc6bbb07b720979177c0846a" resname="content.view.subitems">
@@ -46,8 +46,11 @@
       </trans-unit>
       <trans-unit id="c0b36efcf0ebbe2ac0f9861cae35e12e668cbcc0" resname="tab.details.content_details">
         <source>Content details</source>
-        <target xml:lang="de" state="translated">Inhaltsdetails</target>
+        <target xml:lang="de" state="translated">Inhalt Details</target>
         <note>key: tab.details.content_details</note>
+        <alt-trans>
+          <target xml:lang="de">Inhaltsdetails</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="6e1488d3bb54efc176d8766d3c22751b06890e2f" resname="tab.details.content_id">
         <source>Content ID</source>
@@ -71,8 +74,11 @@
       </trans-unit>
       <trans-unit id="acc17a8db8d00036233faa9948ad9a496cd621b3" resname="tab.details.last_contributor">
         <source>Last contributor</source>
-        <target xml:lang="de" state="translated">Letzter Autor</target>
+        <target xml:lang="de" state="translated">Letzter Beitragender</target>
         <note>key: tab.details.last_contributor</note>
+        <alt-trans>
+          <target xml:lang="de">Letzter Autor</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="ba5ca8a7f923f6ee3a0e6bf9aca428403d0158fd" resname="tab.details.last_contributor.not_found">
         <source>Can’t fetch last contributor</source>
@@ -96,8 +102,11 @@
       </trans-unit>
       <trans-unit id="cd8ccac573601690d7e364174cf3fb8a931c805e" resname="tab.details.section_details">
         <source>Section details</source>
-        <target xml:lang="de" state="translated">Section Details</target>
+        <target xml:lang="de" state="translated">Sektion Details</target>
         <note>key: tab.details.section_details</note>
+        <alt-trans>
+          <target xml:lang="de">Section Details</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="67ff5cca435b058142e77b820d5d72090fa26346" resname="tab.details.section_id">
         <source>Section ID</source>
@@ -184,12 +193,15 @@
       </trans-unit>
       <trans-unit id="8eb3feb6461dacdbd425ef30fc4848a94ab3db0d" resname="tab.locations.action.add">
         <source>Add Location</source>
-        <target xml:lang="de" state="translated">Location hinzufügen</target>
+        <target xml:lang="de" state="translated">Ort hinzufügen</target>
         <note>key: tab.locations.action.add</note>
+        <alt-trans>
+          <target xml:lang="de">Location hinzufügen</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="80808d78f600e925ec3e2dd4b2a0e7570169fd83" resname="tab.locations.action.delete">
         <source>Delete Location</source>
-        <target xml:lang="de" state="translated">Ort entfernen</target>
+        <target xml:lang="de" state="translated">Ort löschen</target>
         <note>key: tab.locations.action.delete</note>
       </trans-unit>
       <trans-unit id="7ac57e88d1f970747986392b6689075ba64cf270" resname="tab.locations.content_locations">
@@ -207,8 +219,11 @@
       </trans-unit>
       <trans-unit id="cd57f6ee339fa6c35e2a75cc760f391676fca490" resname="tab.locations.hidden_by_superior">
         <source>Hidden by superior</source>
-        <target xml:lang="de" state="translated">Versteckt vom Vorgesetzten</target>
+        <target xml:lang="de" state="translated">Versteckt durch übergeordnetes Element</target>
         <note>key: tab.locations.hidden_by_superior</note>
+        <alt-trans>
+          <target xml:lang="de">Versteckt vom Vorgesetzten</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="64554d66c71f33e7d3ac52c75b17717c334ef9dd" resname="tab.locations.main">
         <source>Main</source>
@@ -260,7 +275,7 @@
       </trans-unit>
       <trans-unit id="8954433abc5d011c00f81f317c7eebec41fbb1c0" resname="tab.name.relations">
         <source>Relations</source>
-        <target xml:lang="de" state="translated">Relationen</target>
+        <target xml:lang="de" state="translated">Verknüpfungen</target>
         <note>key: tab.name.relations</note>
       </trans-unit>
       <trans-unit id="c58716ba1092b0208a11137dc226327a3ddf84dc" resname="tab.name.roles">
@@ -310,8 +325,11 @@
       </trans-unit>
       <trans-unit id="d667f9ef2cf04ce8966bc908b8930be596925561" resname="tab.relations.table.content_type">
         <source>Content type</source>
-        <target xml:lang="de" state="translated">Content-Typ</target>
+        <target xml:lang="de" state="translated">Inhaltstyp</target>
         <note>key: tab.relations.table.content_type</note>
+        <alt-trans>
+          <target xml:lang="de">Content-Typ</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="e649f067bcea898ef987cd5ebce6a9a6fca570f2" resname="tab.relations.table.name">
         <source>Name</source>
@@ -323,8 +341,11 @@
       </trans-unit>
       <trans-unit id="06422c0c484b663ec929d1049a228a26b9d48476" resname="tab.relations.table.relation_type">
         <source>Relation type</source>
-        <target xml:lang="de" state="translated">Relation Typ</target>
+        <target xml:lang="de" state="translated">Verknüpfung Typ</target>
         <note>key: tab.relations.table.relation_type</note>
+        <alt-trans>
+          <target xml:lang="de">Relation Typ</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="d8360b13746f836dc7c28998696a69b24ea30b18" resname="tab.relations.table.relation_type.content_level_relation">
         <source>Content level relation</source>
@@ -333,8 +354,11 @@
       </trans-unit>
       <trans-unit id="79779455bd3c932297c6b8cefdcd1251836525c5" resname="tab.relations.table.relation_type.embed">
         <source>Embed</source>
-        <target xml:lang="de" state="translated">Embed</target>
+        <target xml:lang="de" state="translated">Eingebettet</target>
         <note>key: tab.relations.table.relation_type.embed</note>
+        <alt-trans>
+          <target xml:lang="de">Embed</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="9a9a16a9516cdda3bc3213bbdf77a02ff04b8fc8" resname="tab.relations.table.relation_type.field">
         <source>Field</source>
@@ -353,13 +377,16 @@
       </trans-unit>
       <trans-unit id="8c29b038407b67badc381aca362d4770d299df8b" resname="tab.translations.action.delete">
         <source>Delete Translation</source>
-        <target xml:lang="de" state="translated">Übersetzung entfernen</target>
+        <target xml:lang="de" state="translated">Übersetzung löschen</target>
         <note>key: tab.translations.action.delete</note>
       </trans-unit>
       <trans-unit id="5022ce879be6a69956541173bf658dccff5d7280" resname="tab.translations.add.base_language">
         <source>Base this translation on an existing translation</source>
-        <target xml:lang="de" state="translated">Diese Übersetzung auf eine bestehende Übersetzung stützen</target>
+        <target xml:lang="de" state="translated">Diese Übersetzung auf einer bestehenden Übersetzung basieren</target>
         <note>key: tab.translations.add.base_language</note>
+        <alt-trans>
+          <target xml:lang="de">Diese Übersetzung auf eine bestehende Übersetzung stützen</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="c22e9f75640384f917cc76e6736b3a6e91d70f1d" resname="tab.translations.add.cancel">
         <source>Cancel</source>
@@ -398,7 +425,7 @@
       </trans-unit>
       <trans-unit id="a4297fe31e8eb3307caa2cf855328056c3b98962" resname="tab.versions.action.delete">
         <source>Delete Version</source>
-        <target xml:lang="de" state="translated">Version entfernen</target>
+        <target xml:lang="de" state="translated">Version löschen</target>
         <note>key: tab.versions.action.delete</note>
       </trans-unit>
       <trans-unit id="699b5bf627b908f8d270984ab9a4734a48b28abe" resname="tab.versions.archived_versions">
@@ -408,8 +435,11 @@
       </trans-unit>
       <trans-unit id="b098881c168c540aaa9e23417fa38934a70300d6" resname="tab.versions.draft_under_edit">
         <source>Draft under edit</source>
-        <target xml:lang="de" state="translated">Draft wird bearbeitet</target>
+        <target xml:lang="de" state="translated">Entwurf wird bearbeitet</target>
         <note>key: tab.versions.draft_under_edit</note>
+        <alt-trans>
+          <target xml:lang="de">Draft wird bearbeitet</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="134ac8f9b086171dcda7931b3bb7acc0042bb1c9" resname="tab.versions.modal.message">
         <source>Do you want to delete Versions?</source>

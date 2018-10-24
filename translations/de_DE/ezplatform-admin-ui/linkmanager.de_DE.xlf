@@ -28,7 +28,7 @@
       </trans-unit>
       <trans-unit id="e890168e1ef7753c250affa3fcdfb21074c35c6f" resname="url.editing">
         <source>Editing URL: %url%</source>
-        <target xml:lang="de" state="translated">URL %url% bearbeiten</target>
+        <target xml:lang="de" state="translated">Bearbeite URL: %url%</target>
         <note>key: url.editing</note>
       </trans-unit>
       <trans-unit id="8c27173bd289fbab90a41c921e3a0d742acd9042" resname="url.label.address">

@@ -88,8 +88,11 @@
       </trans-unit>
       <trans-unit id="7e920869e5863044fa54ffb855890d4e53f42c6b" resname="ezplatform.language.create.name">
         <source>Name</source>
-        <target xml:lang="de" state="translated">Nom</target>
+        <target xml:lang="de" state="translated">Name</target>
         <note>key: ezplatform.language.create.name</note>
+        <alt-trans>
+          <target xml:lang="de">Nom</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="ffd97ca1026795d6942cdff21e76596229baa2dd" resname="ezplatform.language.create.save">
         <source>Create</source>
@@ -108,13 +111,19 @@
       </trans-unit>
       <trans-unit id="2ec293c62175282c5a3ff7a75a56093446485dad" resname="ezplatform.language.update.name">
         <source>Name</source>
-        <target xml:lang="de" state="translated">Nom</target>
+        <target xml:lang="de" state="translated">Name</target>
         <note>key: ezplatform.language.update.name</note>
+        <alt-trans>
+          <target xml:lang="de">Nom</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="87ed807e48a8c3fc19eba5338ddbaa91df68d19d" resname="ezplatform.language.update.save">
         <source>Save</source>
-        <target xml:lang="de" state="translated">Entwurf speichern</target>
+        <target xml:lang="de" state="translated">Speichern</target>
         <note>key: ezplatform.language.update.save</note>
+        <alt-trans>
+          <target xml:lang="de">Entwurf speichern</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="877b8a2a4e3b2c7c137b7776a54cd7531421e5d3" resname="ezplatform.reset_user_password.confirm_new_password">
         <source>Confirm password</source>
@@ -208,8 +217,11 @@
       </trans-unit>
       <trans-unit id="e36e86d3568ccc02a097560444b35c69c469c531" resname="role_create.name">
         <source>Name</source>
-        <target xml:lang="de" state="translated">Nom</target>
+        <target xml:lang="de" state="translated">Name</target>
         <note>key: role_create.name</note>
+        <alt-trans>
+          <target xml:lang="de">Nom</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="776c77290a994aebb3c657ee11dd2c5cff117dca" resname="role_create.save">
         <source>Create</source>
@@ -266,8 +278,11 @@
       </trans-unit>
       <trans-unit id="a8e6cb63af5cccaf0b468435ce04fd304aa77e5c" resname="section_form.name">
         <source>Name</source>
-        <target xml:lang="de" state="translated">Nom</target>
+        <target xml:lang="de" state="translated">Name</target>
         <note>key: section_form.name</note>
+        <alt-trans>
+          <target xml:lang="de">Nom</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="ecaa9ee7b46159c99796726b8e14693d821e5500" resname="section_update_form.update">
         <source>Update</source>

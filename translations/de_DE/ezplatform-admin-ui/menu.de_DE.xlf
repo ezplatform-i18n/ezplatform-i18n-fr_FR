@@ -58,8 +58,11 @@
       </trans-unit>
       <trans-unit id="bfb33ee23eb46e991693adf1d52d350d0a29e688" resname="content_create__sidebar_right__save_draft">
         <source>Save</source>
-        <target xml:lang="de" state="translated">Entwurf speichern</target>
+        <target xml:lang="de" state="translated">Speichern</target>
         <note>key: content_create__sidebar_right__save_draft</note>
+        <alt-trans>
+          <target xml:lang="de">Entwurf speichern</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="af459eaf05dedc87eb0c462732e59da18bedb340" resname="content_edit__sidebar_right__cancel">
         <source>Delete draft</source>
@@ -78,8 +81,11 @@
       </trans-unit>
       <trans-unit id="21ec910650ae078371f26d8e6a7964d13b5a5216" resname="content_edit__sidebar_right__save_draft">
         <source>Save</source>
-        <target xml:lang="de" state="translated">Entwurf speichern</target>
+        <target xml:lang="de" state="translated">Speichern</target>
         <note>key: content_edit__sidebar_right__save_draft</note>
+        <alt-trans>
+          <target xml:lang="de">Entwurf speichern</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="750939fc55f9a3143db99bed66680e8646e029a0" resname="content_type_create__sidebar_right__cancel">
         <source>Discard changes</source>
@@ -271,8 +277,11 @@
       </trans-unit>
       <trans-unit id="6a2ed71b1ade1376874c2dffd3f5c85f6449a4af" resname="policy_edit__sidebar_right__cancel">
         <source>Discard changes</source>
-        <target xml:lang="de" state="translated">Verwerfen</target>
+        <target xml:lang="de" state="translated">Änderungen verwerfen</target>
         <note>key: policy_edit__sidebar_right__cancel</note>
+        <alt-trans>
+          <target xml:lang="de">Verwerfen</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="cb47e2c35d152c762cc9923eed5ca55bad4a1d8f" resname="policy_edit__sidebar_right__save">
         <source>Update</source>
