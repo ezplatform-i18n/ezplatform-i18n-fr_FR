@@ -51,11 +51,6 @@
         <target xml:lang="hu" state="translated">Utolsó módositás</target>
         <note>key: content_meta_preview.last_modified.label</note>
       </trans-unit>
-      <trans-unit id="ccc953c91a624710a9811bb6d02cffadf22125ae" resname="content_meta_preview.select.label" approved="yes">
-        <source>Select content</source>
-        <target xml:lang="hu" state="translated">Tartalom kiválasztása</target>
-        <note>key: content_meta_preview.select.label</note>
-      </trans-unit>
       <trans-unit id="2faa37c3b3ca4cb7dff16ef157fd9a4ca4858f5b" resname="content_meta_preview.title" approved="yes">
         <source>Content Meta Preview</source>
         <target xml:lang="hu" state="translated">Tartalom meta előnézet</target>
