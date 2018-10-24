@@ -6,11 +6,6 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="6260dd9d5ab0c906cc6663a7599f5381d3173f20" resname="block.collection.placeholder">
-        <source>Placeholder</source>
-        <target xml:lang="zh-HK" state="translated">佔位符</target>
-        <note>key: block.collection.placeholder</note>
-      </trans-unit>
       <trans-unit id="f7f914561d720817076c4caa6497d8a61f765fa8" resname="block.collection.select.content">
         <source>Select Content</source>
         <target xml:lang="zh-HK" state="translated">選擇內容</target>

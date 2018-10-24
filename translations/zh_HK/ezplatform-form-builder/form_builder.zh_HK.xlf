@@ -21,11 +21,6 @@
         <target xml:lang="zh-HK" state="translated">True</target>
         <note>key: form_builder.submission.boolean.true</note>
       </trans-unit>
-      <trans-unit id="6ae999552a0d2dca14d62e2bc8b764d377b1dd6c" resname="name">
-        <source>Name</source>
-        <target xml:lang="zh-HK" state="translated">名稱</target>
-        <note>key: name</note>
-      </trans-unit>
     </body>
   </file>
 </xliff>

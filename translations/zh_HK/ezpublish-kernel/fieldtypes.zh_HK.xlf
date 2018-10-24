@@ -39,11 +39,6 @@
         <target xml:lang="zh-HK" state="translated">日期和時間</target>
         <note>key: ezdatetime.name</note>
       </trans-unit>
-      <trans-unit id="d772ac8909929964906cbefd41c468c9a5d2be26" resname="ezemail.name">
-        <source>E-mail address</source>
-        <target xml:lang="zh-HK" state="translated">電郵地址</target>
-        <note>key: ezemail.name</note>
-      </trans-unit>
       <trans-unit id="0a1f3297ccc08882f5a4610f9af8fc4148c74adc" resname="ezfloat.name">
         <source>Float</source>
         <target xml:lang="zh-HK" state="translated">Float</target>
