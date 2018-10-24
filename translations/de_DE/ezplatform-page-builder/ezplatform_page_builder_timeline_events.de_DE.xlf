@@ -6,11 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
+      <trans-unit id="d8b3119657b27aba1cd1441c19867ace88adfa03" resname="event.description.date">
+        <source>Date</source>
+        <target xml:lang="de" state="translated">Datum</target>
+        <note>key: event.description.date</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
