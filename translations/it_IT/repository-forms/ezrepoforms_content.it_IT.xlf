@@ -11,11 +11,6 @@
         <target xml:lang="it" state="translated">Annulla</target>
         <note>key: content.cancel_button</note>
       </trans-unit>
-      <trans-unit id="7a3eb3ea13db1c9d6a0bd64c7d249a45e7b83b52" resname="content.field_type.ezuser.email">
-        <source>E-mail</source>
-        <target xml:lang="it" state="translated">E-Mail:</target>
-        <note>key: content.field_type.ezuser.email</note>
-      </trans-unit>
       <trans-unit id="4c65e5d17516c19e311161e374bbd39f053b5e6b" resname="content.field_type.ezuser.password">
         <source>Password</source>
         <target xml:lang="it" state="translated">Password:</target>
