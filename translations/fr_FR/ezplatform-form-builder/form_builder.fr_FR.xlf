@@ -31,43 +31,10 @@
         <target xml:lang="fr" state="translated">Réglages</target>
         <note>key: field.settings</note>
       </trans-unit>
-      <trans-unit id="d00b39815c187d832cef3239eb7a77580728dc47" resname="form">
-        <source>Form</source>
-        <target xml:lang="fr" state="translated">Formulaire</target>
-        <note>key: form</note>
-      </trans-unit>
-      <trans-unit id="2b24e8a77a5856e68018ff59e13bd319e400c546" resname="form.name">
-        <source>Name of a form</source>
-        <target xml:lang="fr" state="translated">Nom d'un formulaire</target>
-        <note>key: form.name</note>
-      </trans-unit>
       <trans-unit id="99c07fbdbe0c40a68138652eb91532d9737ed7b2" resname="form.no_preview">
         <source>Preview is not available.</source>
         <target xml:lang="fr" state="translated">La prévisualisation n'est pas disponible.</target>
         <note>key: form.no_preview</note>
-      </trans-unit>
-      <trans-unit id="c88a64c6517d43ccbc9538c60be5b376dd8d1c2f" resname="form.submit.redirect.to.location">
-        <source>Redirect to a content item</source>
-        <target xml:lang="fr" state="translated">Rediriger vers un élément de contenu</target>
-        <note>key: form.submit.redirect.to.location</note>
-      </trans-unit>
-      <trans-unit id="65fd44ca95e6b01a674925b4634f939c0c280066" resname="form.submit.redirect.url">
-        <source>Redirect to URL</source>
-        <target xml:lang="fr" state="translated">Rediriger vers une URL</target>
-        <note>key: form.submit.redirect.url</note>
-      </trans-unit>
-      <trans-unit id="ad3eefd76947df269b9a9c6e0874ffe2c02bc5d2" resname="form.submit.select.action" approved="yes">
-        <source>Select an action after form submission</source>
-        <target xml:lang="fr" state="translated">Sélectionner une action après l’envoi du formulaire</target>
-        <note>key: form.submit.select.action</note>
-        <alt-trans>
-          <target xml:lang="fr">Sélectionnez une action après l’envoi du formulaire</target>
-        </alt-trans>
-      </trans-unit>
-      <trans-unit id="a50421fb4401c76f96c426c892f1033497b6f4c7" resname="form.submit.show.message">
-        <source>Show a message</source>
-        <target xml:lang="fr" state="translated">Montrer un message</target>
-        <note>key: form.submit.show.message</note>
       </trans-unit>
       <trans-unit id="e59a9bc08909c5317a5bbb26eafd46ed15948021" resname="form_builder.attribute.button.action.empty">
         <source>Select an action after form submission </source>
@@ -84,11 +51,6 @@
         <target xml:lang="fr" state="translated">Montrer un message</target>
         <note>key: form_builder.attribute.button.action.message</note>
       </trans-unit>
-      <trans-unit id="43674c0b8bc95876a42040af25012c52eed5cc8a" resname="form_builder.attribute.button.action.url">
-        <source>Redirect to URL</source>
-        <target xml:lang="fr" state="translated">Rediriger vers une URL</target>
-        <note>key: form_builder.attribute.button.action.url</note>
-      </trans-unit>
       <trans-unit id="f476b2afcc5cefebd29d6d0136ad8c1f0d721194" resname="form_builder.submission.boolean.false">
         <source>False</source>
         <target xml:lang="fr" state="translated">Faux</target>
@@ -103,11 +65,6 @@
         <source>Not all the fields were configured correctly. Please, provide a proper configuration.</source>
         <target xml:lang="fr" state="translated">Tous les champs n'ont pa été configurés correctement. S'il vous plait, fournir une configuration correcte.</target>
         <note>key: invalid.fields</note>
-      </trans-unit>
-      <trans-unit id="6ae999552a0d2dca14d62e2bc8b764d377b1dd6c" resname="name">
-        <source>Name</source>
-        <target xml:lang="fr" state="translated">Nom</target>
-        <note>key: name</note>
       </trans-unit>
       <trans-unit id="4ca91a461622421947258e5e7e305704088e4b7b" resname="no.fields.in.form">
         <source>There are no fields in this form. Create your form.</source>

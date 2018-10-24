@@ -36,9 +36,9 @@
         <target xml:lang="fr" state="translated">Date et heure</target>
         <note>key: ezdatetime.name</note>
       </trans-unit>
-      <trans-unit id="d772ac8909929964906cbefd41c468c9a5d2be26" resname="ezemail.name" approved="yes">
-        <source>E-mail address</source>
-        <target xml:lang="fr" state="translated">Adresse e-mail</target>
+      <trans-unit id="d772ac8909929964906cbefd41c468c9a5d2be26" resname="ezemail.name">
+        <source>Email address</source>
+        <target xml:lang="fr" state="translated">Adresse E-mail</target>
         <note>key: ezemail.name</note>
       </trans-unit>
       <trans-unit id="0a1f3297ccc08882f5a4610f9af8fc4148c74adc" resname="ezfloat.name" approved="yes">

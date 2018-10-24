@@ -11,12 +11,12 @@
         <target xml:lang="fr" state="translated">Fermer</target>
         <note>key: alert.close</note>
       </trans-unit>
-      <trans-unit id="d2293b387ecddbc6173fd579abd37873fcbc5e97" resname="authentication.forgot_password">
+      <trans-unit id="d2293b387ecddbc6173fd579abd37873fcbc5e97" resname="authentication.forgot_password" approved="yes">
         <source>Forgot password?</source>
         <target xml:lang="fr" state="translated">Mot de passe oublié ?</target>
         <note>key: authentication.forgot_password</note>
       </trans-unit>
-      <trans-unit id="da44d8915172b0c8a874e26956f44aa5501c7e6b" resname="authentication.password">
+      <trans-unit id="da44d8915172b0c8a874e26956f44aa5501c7e6b" resname="authentication.password" approved="yes">
         <source>Password</source>
         <target xml:lang="fr" state="translated">Mot de passe</target>
         <note>key: authentication.password</note>
@@ -26,12 +26,12 @@
         <target xml:lang="fr" state="translated">Réinitialiser votre mot de passe</target>
         <note>key: authentication.reset_your_password</note>
       </trans-unit>
-      <trans-unit id="8785f4abdfdf72fe9001fe0553c6e3a582cfcc08" resname="authentication.submit">
+      <trans-unit id="8785f4abdfdf72fe9001fe0553c6e3a582cfcc08" resname="authentication.submit" approved="yes">
         <source>Login</source>
         <target xml:lang="fr" state="translated">Ouvrir une session</target>
         <note>key: authentication.submit</note>
       </trans-unit>
-      <trans-unit id="9143793289ea0e20c3dc9f752d43cc727f2dba01" resname="authentication.username">
+      <trans-unit id="9143793289ea0e20c3dc9f752d43cc727f2dba01" resname="authentication.username" approved="yes">
         <source>Username</source>
         <target xml:lang="fr" state="translated">Nom d'utilisateur</target>
         <note>key: authentication.username</note>
