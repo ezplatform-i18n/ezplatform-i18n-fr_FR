@@ -71,11 +71,6 @@
         <target xml:lang="nb" state="translated">Til:</target>
         <note>key: search.date.to</note>
       </trans-unit>
-      <trans-unit id="9db82102d1da5efb63380ca328a83d13732a02ee" resname="search.filter">
-        <source>Filter</source>
-        <target xml:lang="nb" state="translated">Filter</target>
-        <note>key: search.filter</note>
-      </trans-unit>
       <trans-unit id="0ec8148d681b43e87a6d0751fff188517be1ea26" resname="search.header">
         <source>Search results (%total%)</source>
         <target xml:lang="nb" state="translated">Søkeresultater (%total%)</target>
