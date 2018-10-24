@@ -31,11 +31,6 @@
         <target xml:lang="pl" state="translated">Czy chcesz usunąć odpowiedź?</target>
         <note>key: tab.submissions.modal.message</note>
       </trans-unit>
-      <trans-unit id="9d6392988953776a755089a0d93dae4512cb2758" resname="tab.submissions.no_submissions" approved="yes">
-        <source>This content item has no submissions.</source>
-        <target xml:lang="pl" state="translated">Ten element nie ma odpowiedzi.</target>
-        <note>key: tab.submissions.no_submissions</note>
-      </trans-unit>
       <trans-unit id="6039d73f32eecd317821da4068d559bedf487549" resname="tab.submissions.submissions" approved="yes">
         <source>Submissions (%count%)</source>
         <target xml:lang="pl" state="translated">Odpowiedzi (%count%)</target>

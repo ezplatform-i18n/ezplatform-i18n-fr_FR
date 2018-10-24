@@ -26,11 +26,6 @@
         <target xml:lang="pl" state="translated">Podstawy</target>
         <note>key: tab.label.basic</note>
       </trans-unit>
-      <trans-unit id="26b95f9616567097991c1884a9c4a374ef93ea00" resname="tab.label.validators" approved="yes">
-        <source>Validators</source>
-        <target xml:lang="pl" state="translated">Walidatory</target>
-        <note>key: tab.label.validators</note>
-      </trans-unit>
     </body>
   </file>
 </xliff>
