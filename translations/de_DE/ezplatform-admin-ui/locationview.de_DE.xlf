@@ -507,6 +507,11 @@
         <target xml:lang="de" state="translated">Schließen</target>
         <note>key: translation.modal_close</note>
       </trans-unit>
+      <trans-unit id="c285bc654712e44ed56cd6f18262a2d6485f4fb9" resname="user.edit.select_language">
+        <source>Select language</source>
+        <target xml:lang="de" state="translated">Sprache auswählen</target>
+        <note>key: user.edit.select_language</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -403,6 +403,11 @@
         <target xml:lang="de" state="translated">Abmelden</target>
         <note>key: user__content</note>
       </trans-unit>
+      <trans-unit id="d4a0cfb90774164e94f11e2a4f019a2538faebcf" resname="user__settings">
+        <source>User Settings</source>
+        <target xml:lang="de" state="translated">Benutzereinstellungen</target>
+        <note>key: user__settings</note>
+      </trans-unit>
       <trans-unit id="40679174821cfa2ce3d3a4dc046f0ef65df6f483" resname="user_create__sidebar_right__cancel">
         <source>Cancel</source>
         <target xml:lang="de" state="translated">Abbrechen</target>

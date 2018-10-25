@@ -71,6 +71,11 @@
         <target xml:lang="de" state="translated">Bis:</target>
         <note>key: search.date.to</note>
       </trans-unit>
+      <trans-unit id="bf24ae2c9083c948931ad1b4d4405b6261eb9bc6" resname="search.filters">
+        <source>Filters</source>
+        <target xml:lang="de" state="translated">Filter</target>
+        <note>key: search.filters</note>
+      </trans-unit>
       <trans-unit id="0ec8148d681b43e87a6d0751fff188517be1ea26" resname="search.header">
         <source>Search results (%total%)</source>
         <target xml:lang="de" state="translated">Suchergebnisse (%total%)</target>

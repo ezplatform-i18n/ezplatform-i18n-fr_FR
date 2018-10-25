@@ -56,6 +56,11 @@
         <target xml:lang="de" state="translated">Benachrichtigungen</target>
         <note>key: notifications</note>
       </trans-unit>
+      <trans-unit id="79036b8a9fecbed5d0c14a94c5639d611c6ab6d1" resname="notifications.modal.message.error">
+        <source>Cannot update notifications count</source>
+        <target xml:lang="de" state="translated">Anzahl der Benachrichtigungen kann nicht aktualisiert werden</target>
+        <note>key: notifications.modal.message.error</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
