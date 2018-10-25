@@ -151,6 +151,11 @@
         <target xml:lang="zh-HK" state="translated">角色</target>
         <note>key: main__admin__roles</note>
       </trans-unit>
+      <trans-unit id="2cc622305036d330c00683520df433ef82f60c9a" resname="main__admin__systeminfo">
+        <source>System Information</source>
+        <target xml:lang="zh-HK" state="translated">系統資訊</target>
+        <note>key: main__admin__systeminfo</note>
+      </trans-unit>
       <trans-unit id="975e43875a74d509e3e0cedd926de1223d09cdf4" resname="main__admin__users">
         <source>Users</source>
         <target xml:lang="zh-HK" state="translated">用戶</target>

@@ -46,6 +46,11 @@
         <target xml:lang="zh-HK" state="translated">內容欄位定義</target>
         <note>key: content_type.field_definitions_data</note>
       </trans-unit>
+      <trans-unit id="a43bfd2651eb1f3357e3398286afd5b6e17c101e" resname="content_type.field_type_selection">
+        <source>Field type selection</source>
+        <target xml:lang="zh-HK" state="translated">欄位類型選擇</target>
+        <note>key: content_type.field_type_selection</note>
+      </trans-unit>
       <trans-unit id="368a6ffa173a2e9605371392e99e565d9b247382" resname="content_type.group.delete">
         <source>Delete</source>
         <target xml:lang="zh-HK" state="translated">刪除</target>
@@ -165,6 +170,16 @@
         <source>Description</source>
         <target xml:lang="zh-HK" state="translated">描述</target>
         <note>key: field_definition.description</note>
+      </trans-unit>
+      <trans-unit id="f64d0d1be6b62d75f7c77bf08ec560abd3addfb4" resname="field_definition.ezauthor.default_user_current">
+        <source>Current User</source>
+        <target xml:lang="zh-HK" state="translated">當前使用者</target>
+        <note>key: field_definition.ezauthor.default_user_current</note>
+      </trans-unit>
+      <trans-unit id="60b0ee9222a502c38adf1be704d4984564190e8e" resname="field_definition.ezauthor.default_author">
+        <source>Default value</source>
+        <target xml:lang="zh-HK" state="translated">預設值</target>
+        <note>key: field_definition.ezauthor.default_author</note>
       </trans-unit>
       <trans-unit id="41f781284e4bae2abbb6cfdf1126cc90b48dd35b" resname="field_definition.ezbinaryfile.max_file_size">
         <source>Maximum file size (MB)</source>
