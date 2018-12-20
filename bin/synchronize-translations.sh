@@ -51,6 +51,18 @@ if [ -d "./vendor/ezsystems/ezplatform-form-builder" ]; then
   cp ./vendor/ezsystems/ezplatform-form-builder/src/bundle/Resources/translations/* ./vendor/ezsystems/ezplatform-i18n/ezplatform-form-builder
 fi
 
+if [ -d "./vendor/ezsystems/ezplatform-workflow" ]; then
+  echo "ezsystems/ezplatform-workflow"
+  rm -f ./vendor/ezsystems/ezplatform-i18n/ezplatform-workflow/*
+  cp ./vendor/ezsystems/ezplatform-workflow/src/bundle/Resources/translations/* ./vendor/ezsystems/ezplatform-i18n/ezplatform-workflow
+fi
+
+if [ -d "./vendor/ezsystems/ezplatform-richtext" ]; then
+  echo "ezsystems/ezplatform-richtext"
+  rm -f ./vendor/ezsystems/ezplatform-i18n/ezplatform-richtext/*
+  cp ./vendor/ezsystems/ezplatform-richtext/src/bundle/Resources/translations/* ./vendor/ezsystems/ezplatform-i18n/ezplatform-richtext
+fi
+
 echo '# Fixing .xlf extensions'
 rename -s '.xliff' '.xlf' vendor/ezsystems/ezplatform-i18n/*/*
 
