@@ -6,6 +6,56 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="35e03083bfdfafc073cf343c74385bec3945b4ac" resname="bulk_delete.error.message">
+        <source><![CDATA[%notDeletedCount% of the %totalCount% selected item(s) could not be deleted because you do not have proper user permissions. <u><a class='ez-notification-btn ez-notification-btn--show-modal'>Click here for more information.</a></u><br>Please contact your Administrator to obtain permissions.]]></source>
+        <target state="new"><![CDATA[%notDeletedCount% of the %totalCount% selected item(s) could not be deleted because you do not have proper user permissions. <u><a class='ez-notification-btn ez-notification-btn--show-modal'>Click here for more information.</a></u><br>Please contact your Administrator to obtain permissions.]]></target>
+        <note>key: bulk_delete.error.message</note>
+      </trans-unit>
+      <trans-unit id="23c9d6861623cc0b2f5f454afa841f1e368123cc" resname="bulk_delete.error.modal.table_title">
+        <source>Content item(s) cannot be sent to trash (%itemsCount%)</source>
+        <target state="new">Content item(s) cannot be sent to trash (%itemsCount%)</target>
+        <note>key: bulk_delete.error.modal.table_title</note>
+      </trans-unit>
+      <trans-unit id="410f2ebb276d839b6606da042d0327a32e949093" resname="bulk_delete.popup.cancel">
+        <source>Cancel</source>
+        <target state="new">Cancel</target>
+        <note>key: bulk_delete.popup.cancel</note>
+      </trans-unit>
+      <trans-unit id="a668a561527cc0e3e2c7952fbf300558d9d4f877" resname="bulk_delete.popup.confirm">
+        <source>Send to trash</source>
+        <target state="new">Send to trash</target>
+        <note>key: bulk_delete.popup.confirm</note>
+      </trans-unit>
+      <trans-unit id="02d93b03435046c6bcf08ce15ae7970f7ff8f746" resname="bulk_delete.popup.message">
+        <source>Are you sure you want to send the selected content item(s) to trash?</source>
+        <target state="new">Are you sure you want to send the selected content item(s) to trash?</target>
+        <note>key: bulk_delete.popup.message</note>
+      </trans-unit>
+      <trans-unit id="684c07e2248d815e6eb6bc3f92d3cd49c6952cbe" resname="bulk_delete.success.message">
+        <source>The selected content item(s) have been sent to trash</source>
+        <target state="new">The selected content item(s) have been sent to trash</target>
+        <note>key: bulk_delete.success.message</note>
+      </trans-unit>
+      <trans-unit id="364a3498e021163497d9110380736b876beb326f" resname="bulk_move.error.message">
+        <source><![CDATA[%notMovedCount% of the %totalCount% selected item(s) could not be moved because you do not have proper user permissions. <u><a class='ez-notification-btn ez-notification-btn--show-modal'>Click here for more information.</a></u><br>Please contact your Administrator to obtain permissions.]]></source>
+        <target state="new"><![CDATA[%notMovedCount% of the %totalCount% selected item(s) could not be moved because you do not have proper user permissions. <u><a class='ez-notification-btn ez-notification-btn--show-modal'>Click here for more information.</a></u><br>Please contact your Administrator to obtain permissions.]]></target>
+        <note>key: bulk_move.error.message</note>
+      </trans-unit>
+      <trans-unit id="44a971e3ea91b95b9fbbd596f54ca632ef0865d4" resname="bulk_move.error.modal.table_title">
+        <source>Content items cannot be moved (%itemsCount%)</source>
+        <target state="new">Content items cannot be moved (%itemsCount%)</target>
+        <note>key: bulk_move.error.modal.table_title</note>
+      </trans-unit>
+      <trans-unit id="ac326404ff958f8e3fa903df5750024602b812de" resname="bulk_move.success.message">
+        <source><![CDATA[The selected content item(s) have been sent to <u><a href='%locationHref%'>%locationName%</a></u>]]></source>
+        <target state="new"><![CDATA[The selected content item(s) have been sent to <u><a href='%locationHref%'>%locationName%</a></u>]]></target>
+        <note>key: bulk_move.success.message</note>
+      </trans-unit>
+      <trans-unit id="93850319ec8e493cc4d0b8bb1ae2a87cdf26d3d6" resname="bulk_request.error.message">
+        <source>An unexpected error occurred while deleting the content item(s). Please try again later.</source>
+        <target state="new">An unexpected error occurred while deleting the content item(s). Please try again later.</target>
+        <note>key: bulk_request.error.message</note>
+      </trans-unit>
       <trans-unit id="e95c7e2e8f7a1a4bb1f64cc48ca2eae0b0af78b6" resname="content_type.not_available.label">
         <source>N/A</source>
         <target>N/A</target>
@@ -51,20 +101,30 @@
         <target>Invalid response format</target>
         <note>key: load_content_items.invalid_response_format.error.message</note>
       </trans-unit>
-      <trans-unit id="3b84946bc3cacc7c087ccdf3546c3e1d32718075" resname="load_more.action.text">
-        <source>Show %limit% more results</source>
-        <target>Show %limit% more results</target>
-        <note>key: load_more.action.text</note>
-      </trans-unit>
-      <trans-unit id="0b518af9d0e5e0471ad7c9aefbcda068ff71d0ab" resname="load_more.info.text">
-        <source><![CDATA[Viewing <strong>%loaded%</strong> out of <strong>%total%</strong> sub-items]]></source>
-        <target><![CDATA[Viewing <strong>%loaded%</strong> out of <strong>%total%</strong> sub-items]]></target>
-        <note>key: load_more.info.text</note>
+      <trans-unit id="e3c395cec9466f06c8f2f3f4b2bfcd9021537714" resname="move_btn.label">
+        <source>Move selected items</source>
+        <target state="new">Move selected items</target>
+        <note>key: move_btn.label</note>
       </trans-unit>
       <trans-unit id="276a7024903672cd0476c82ba8845453e13db95e" resname="no_items.message">
         <source>This location has no sub-items</source>
         <target>This location has no sub-items</target>
         <note>key: no_items.message</note>
+      </trans-unit>
+      <trans-unit id="a0e2bd4beeb6680ff81add5686bbf2ee9b8ad0ca" resname="page.loading_error.message">
+        <source>An error occurred while loading items in the Sub Items module</source>
+        <target state="new">An error occurred while loading items in the Sub Items module</target>
+        <note>key: page.loading_error.message</note>
+      </trans-unit>
+      <trans-unit id="af3bcdfcdcd33a16838a6f2b88c845c92fcb0938" resname="pagination.back">
+        <source>Back</source>
+        <target state="new">Back</target>
+        <note>key: pagination.back</note>
+      </trans-unit>
+      <trans-unit id="b10157de76c0f57fa166904d97c06336e10559ca" resname="pagination.next">
+        <source>Next</source>
+        <target state="new">Next</target>
+        <note>key: pagination.next</note>
       </trans-unit>
       <trans-unit id="af207d1e719904a39524b34212a1ea6116cb3d46" resname="switch_to_grid_view.btn.label">
         <source>View as grid</source>
@@ -75,6 +135,21 @@
         <source>View as list</source>
         <target>View as list</target>
         <note>key: switch_to_list_view.btn.label</note>
+      </trans-unit>
+      <trans-unit id="11b5de206f496e357ede3c3798b8e113c2946a60" resname="trash_btn.label">
+        <source>Delete selected items</source>
+        <target state="new">Delete selected items</target>
+        <note>key: trash_btn.label</note>
+      </trans-unit>
+      <trans-unit id="cd8466f8e727278543a7e1ded7f3a0c67243c276" resname="udw.choose_location.title">
+        <source>Choose location</source>
+        <target state="new">Choose location</target>
+        <note>key: udw.choose_location.title</note>
+      </trans-unit>
+      <trans-unit id="5ae5a511a5c344781ad0caa53efe7b33429c6132" resname="viewing_message">
+        <source><![CDATA[Viewing <strong>%viewingCount%</strong> out of <strong>%totalCount%</strong> sub-items]]></source>
+        <target state="new"><![CDATA[Viewing <strong>%viewingCount%</strong> out of <strong>%totalCount%</strong> sub-items]]></target>
+        <note>key: viewing_message</note>
       </trans-unit>
     </body>
   </file>

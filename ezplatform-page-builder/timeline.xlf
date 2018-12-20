@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="4ff3eb43aa4a55f256abee7ac4351dce58fa1685" resname="back_to_current_time.info.text">
         <source>Go back to current time</source>
-        <target state="new">Go back to current time</target>
+        <target>Go back to current time</target>
         <note>key: back_to_current_time.info.text</note>
       </trans-unit>
       <trans-unit id="258c0c6baf5618d7e07897b16e391bbfb59096d9" resname="back_to_current_time.warning.text">

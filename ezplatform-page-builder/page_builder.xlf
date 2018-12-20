@@ -6,6 +6,26 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="4469ef580653e092258a59f262e526230903fd7a" resname="airtime_popup.discard.btn">
+        <source>Discard</source>
+        <target>Discard</target>
+        <note>key: airtime_popup.discard.btn</note>
+      </trans-unit>
+      <trans-unit id="ab252a2b69fb6f158ae38d8eb8c0d3e9d9a1635a" resname="airtime_popup.submit.btn">
+        <source>Submit</source>
+        <target>Submit</target>
+        <note>key: airtime_popup.submit.btn</note>
+      </trans-unit>
+      <trans-unit id="9717fa924c93123aa1f57b01a3e231670d690052" resname="airtime_popup.title">
+        <source>Content airtime settings</source>
+        <target>Content airtime settings</target>
+        <note>key: airtime_popup.title</note>
+      </trans-unit>
+      <trans-unit id="0d3560fefeb4dad8efccaff909e9e7765995893c" resname="block.drop.incorrect">
+        <source>Block dropped incorrectly</source>
+        <target>Block dropped incorrectly</target>
+        <note>key: block.drop.incorrect</note>
+      </trans-unit>
       <trans-unit id="dfbc84f747379ac08358ac78f5756d91dc9dd715" resname="config_form.block_config.embed_field_base.udw.title">
         <source>Browse content</source>
         <target>Browse content</target>
@@ -26,9 +46,24 @@
         <target>Close</target>
         <note>key: config_popup.close.label</note>
       </trans-unit>
+      <trans-unit id="195a806c1a0668adbea700cd92ec432cd9e08854" resname="date_picker.label">
+        <source><![CDATA[Date & Time]]></source>
+        <target><![CDATA[Date & Time]]></target>
+        <note>key: date_picker.label</note>
+      </trans-unit>
+      <trans-unit id="6eab7e919136479499cfa377b9f63bae39d22c54" resname="drop.block.here">
+        <source>Drop block here</source>
+        <target>Drop block here</target>
+        <note>key: drop.block.here</note>
+      </trans-unit>
+      <trans-unit id="602346fbb59fa13321388beb02c3ac56122fd318" resname="drop.blocks.here">
+        <source>Drop blocks here</source>
+        <target>Drop blocks here</target>
+        <note>key: drop.blocks.here</note>
+      </trans-unit>
       <trans-unit id="79bf5a9df7f033c0b853263adb274a8045791ab0" resname="empty_block.info.text">
         <source>Empty block: %type%. Click here to show action menu.</source>
-        <target>Empty block: %type%. Click here to show action menu.</target>
+        <target>%type% block</target>
         <note>key: empty_block.info.text</note>
       </trans-unit>
       <trans-unit id="36cdc651708919d9a830acb2c742b325fd23aeb5" resname="error.message">
