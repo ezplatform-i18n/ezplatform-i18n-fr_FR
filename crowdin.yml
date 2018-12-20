@@ -27,3 +27,9 @@ files:
   - source: /ezplatform-form-builder/*.xlf
     translation: >-
       /translations/%locale_with_underscore%/%original_path%/%file_name%.%locale_with_underscore%.%file_extension%
+  - source: /ezplatform-workflow/*
+    translation: >-
+      /translations/%locale_with_underscore%/%original_path%/%file_name%.%locale_with_underscore%.%file_extension%
+  - source: /ezplatform-richtext/*
+    translation: >-
+      /translations/%locale_with_underscore%/%original_path%/%file_name%.%locale_with_underscore%.%file_extension%
