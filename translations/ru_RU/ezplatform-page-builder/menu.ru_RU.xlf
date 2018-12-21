@@ -7,7 +7,7 @@
     </header>
     <body>
       <trans-unit id="245265a629e4d9fe109e2dea3564749962d6b89d" resname="page_builder__infobar__create__actions__cancel">
-        <source>Discard changes</source>
+        <source>Delete draft</source>
         <target xml:lang="ru" state="translated">Отменить изменения</target>
         <note>key: page_builder__infobar__create__actions__cancel</note>
       </trans-unit>
@@ -22,7 +22,7 @@
         <note>key: page_builder__infobar__create__actions__save_draft</note>
       </trans-unit>
       <trans-unit id="3bab40b277199437ea55a0d713be6bddd6dc3a55" resname="page_builder__infobar__edit__actions__cancel">
-        <source>Discard changes</source>
+        <source>Delete draft</source>
         <target xml:lang="ru" state="translated">Отменить изменения</target>
         <note>key: page_builder__infobar__edit__actions__cancel</note>
       </trans-unit>

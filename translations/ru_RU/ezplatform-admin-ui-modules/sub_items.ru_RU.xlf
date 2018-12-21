@@ -51,16 +51,6 @@
         <target xml:lang="ru" state="translated">Недопустимый формат ответа</target>
         <note>key: load_content_items.invalid_response_format.error.message</note>
       </trans-unit>
-      <trans-unit id="3b84946bc3cacc7c087ccdf3546c3e1d32718075" resname="load_more.action.text">
-        <source>Show %limit% more results</source>
-        <target xml:lang="ru" state="translated">Показать еще %limit% результатов</target>
-        <note>key: load_more.action.text</note>
-      </trans-unit>
-      <trans-unit id="0b518af9d0e5e0471ad7c9aefbcda068ff71d0ab" resname="load_more.info.text">
-        <source><![CDATA[Viewing <strong>%loaded%</strong> out of <strong>%total%</strong> sub-items]]></source>
-        <target xml:lang="ru" state="translated"><![CDATA[Просмотр <strong>%loaded%</strong> из <strong>%total%</strong> под-элементов]]></target>
-        <note>key: load_more.info.text</note>
-      </trans-unit>
       <trans-unit id="276a7024903672cd0476c82ba8845453e13db95e" resname="no_items.message">
         <source>This location has no sub-items</source>
         <target xml:lang="ru" state="translated">Это расположение не имеет под-элементов</target>
