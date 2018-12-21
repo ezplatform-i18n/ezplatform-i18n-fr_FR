@@ -21,11 +21,6 @@
         <target>Content airtime settings</target>
         <note>key: airtime_popup.title</note>
       </trans-unit>
-      <trans-unit id="0d3560fefeb4dad8efccaff909e9e7765995893c" resname="block.drop.incorrect">
-        <source>Block dropped incorrectly</source>
-        <target>Block dropped incorrectly</target>
-        <note>key: block.drop.incorrect</note>
-      </trans-unit>
       <trans-unit id="dfbc84f747379ac08358ac78f5756d91dc9dd715" resname="config_form.block_config.embed_field_base.udw.title">
         <source>Browse content</source>
         <target>Browse content</target>

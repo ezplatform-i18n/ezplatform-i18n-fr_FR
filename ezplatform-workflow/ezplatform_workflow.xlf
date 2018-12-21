@@ -6,10 +6,25 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="69d209af35c14beea98532124dedb66214e3f691" resname="content_edit.component.events_timeline.title">
-        <source>Events timeline</source>
-        <target state="new">Events timeline</target>
-        <note>key: content_edit.component.events_timeline.title</note>
+      <trans-unit id="eca0d518c25ac61553a436334389d163e15790cb" resname="content.review.from">
+        <source>From:</source>
+        <target state="new">From:</target>
+        <note>key: content.review.from</note>
+      </trans-unit>
+      <trans-unit id="48ec0a3b5f9bf96775a010f49c2ca83fa5a6d9d5" resname="content.review.read_more">
+        <source><![CDATA[Read more &raquo;]]></source>
+        <target state="new"><![CDATA[Read more &raquo;]]></target>
+        <note>key: content.review.read_more</note>
+      </trans-unit>
+      <trans-unit id="ae6d8d014d80092d6c7254b3baaa05e9a4cea7ae" resname="content.review.ready">
+        <source>Content is ready for review</source>
+        <target state="new">Content is ready for review</target>
+        <note>key: content.review.ready</note>
+      </trans-unit>
+      <trans-unit id="c682e81e5f634fa80a21c654aa254f8aea97eb59" resname="content_edit.component.events">
+        <source>Event(s)</source>
+        <target state="new">Event(s)</target>
+        <note>key: content_edit.component.events</note>
       </trans-unit>
       <trans-unit id="2643fa671d83192c257a6228677c5686691ce3c3" resname="dashboard.block.review_queue.title">
         <source>Review queue</source>
@@ -26,6 +41,21 @@
         <target state="new">No content item(s) under review. Any content item under review by you or your user group will appear here.</target>
         <note>key: dashboard.tab.my_drafts_under_review.empty</note>
       </trans-unit>
+      <trans-unit id="a878bd15386bacea4af5e3356c731640710d3618" resname="dashboard.table.activity">
+        <source>Activity</source>
+        <target state="new">Activity</target>
+        <note>key: dashboard.table.activity</note>
+      </trans-unit>
+      <trans-unit id="3edbcdd64ab409f29ba5c7fd3a91f98f3d868ea6" resname="dashboard.table.activity.edited_on_by_user">
+        <source>Edited by %creatorName% %relativeTime%</source>
+        <target state="new">Edited by %creatorName% %relativeTime%</target>
+        <note>key: dashboard.table.activity.edited_on_by_user</note>
+      </trans-unit>
+      <trans-unit id="12689e8f5d888ba5fe75fa028d62a06a94e2881c" resname="dashboard.table.activity.edited_on_no_user">
+        <source>Edited %relativeTime%</source>
+        <target state="new">Edited %relativeTime%</target>
+        <note>key: dashboard.table.activity.edited_on_no_user</note>
+      </trans-unit>
       <trans-unit id="e17a8999c9e44b7e8ea1ba0f5cff596ece264da5" resname="dashboard.table.content_type">
         <source>Content Type</source>
         <target state="new">Content Type</target>
@@ -40,11 +70,6 @@
         <source>Show history</source>
         <target state="new">Show history</target>
         <note>key: dashboard.table.draft.transition.list</note>
-      </trans-unit>
-      <trans-unit id="3a857cc58c009830e22845ef1edbd43794206aed" resname="dashboard.table.last_saved">
-        <source>Last Saved</source>
-        <target state="new">Last Saved</target>
-        <note>key: dashboard.table.last_saved</note>
       </trans-unit>
       <trans-unit id="0ccebfdea2e8be0bcae0f3cab3f3db5ef47d71c8" resname="dashboard.table.modified_language">
         <source>Modified Language</source>
@@ -92,8 +117,8 @@
         <note>key: matcher.none</note>
       </trans-unit>
       <trans-unit id="3966df7d25826e3f6c5313b625810c1334559e7c" resname="modal.transition.list.title">
-        <source>Event</source>
-        <target state="new">Event</target>
+        <source>Event timeline</source>
+        <target state="new">Event timeline</target>
         <note>key: modal.transition.list.title</note>
       </trans-unit>
       <trans-unit id="ed129ea3c9e2f6f00bc2ab26aa664d8ca17d3636" resname="tab.name.my_drafts_under_review">

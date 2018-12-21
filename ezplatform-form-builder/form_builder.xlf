@@ -86,11 +86,6 @@
         <target state="new">Redirect to a URL</target>
         <note>key: form_builder.attribute.button.action.url</note>
       </trans-unit>
-      <trans-unit id="2626e0baea748882fea57bb1b4260c5fe619f4e8" resname="form_builder.new.content.title">
-        <source>New %contentType%</source>
-        <target state="new">New %contentType%</target>
-        <note>key: form_builder.new.content.title</note>
-      </trans-unit>
       <trans-unit id="f476b2afcc5cefebd29d6d0136ad8c1f0d721194" resname="form_builder.submission.boolean.false">
         <source>False</source>
         <target>False</target>
