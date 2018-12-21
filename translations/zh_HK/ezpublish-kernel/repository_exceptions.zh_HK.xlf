@@ -18,6 +18,12 @@
         <note>key: Content fields did not validate</note>
         <jms:reference-file line="45">eZ/Publish/Core/Base/Exceptions/ContentFieldValidationException.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="1423a591f045a16c96d4b1c11d2c5bdc86ae19a6" resname="ContentType FieldDefinitions did not validate">
+        <source>ContentType FieldDefinitions did not validate</source>
+        <target xml:lang="zh-HK" state="translated">內容類型欄位定義未驗證</target>
+        <note>key: ContentType FieldDefinitions did not validate</note>
+        <jms:reference-file line="45">eZ/Publish/Core/Base/Exceptions/ContentTypeFieldDefinitionValidationException.php</jms:reference-file>
+      </trans-unit>
       <trans-unit id="2b84fad03f5a98d0fa25c78b1d3717ba108835e6" resname="Could not find class '%className%'">
         <source>Could not find class '%className%'</source>
         <target xml:lang="zh-HK" state="translated">找不到類 "%className%"</target>

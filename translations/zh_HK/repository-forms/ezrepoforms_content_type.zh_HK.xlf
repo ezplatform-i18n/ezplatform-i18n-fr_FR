@@ -176,6 +176,11 @@
         <target xml:lang="zh-HK" state="translated">當前使用者</target>
         <note>key: field_definition.ezauthor.default_user_current</note>
       </trans-unit>
+      <trans-unit id="904471ac6da01e95b90c1f0f8ec7740b59931e6b" resname="field_definition.ezauthor.default_user_empty">
+        <source>Empty</source>
+        <target xml:lang="zh-HK" state="translated">空</target>
+        <note>key: field_definition.ezauthor.default_user_empty</note>
+      </trans-unit>
       <trans-unit id="60b0ee9222a502c38adf1be704d4984564190e8e" resname="field_definition.ezauthor.default_author">
         <source>Default value</source>
         <target xml:lang="zh-HK" state="translated">預設值</target>

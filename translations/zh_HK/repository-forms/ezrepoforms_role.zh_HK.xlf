@@ -18,6 +18,12 @@
         <note>key: policy.limitation.owner.self</note>
         <jms:reference-file line="30">lib/Limitation/Mapper/OwnerLimitationMapper.php</jms:reference-file>
       </trans-unit>
+      <trans-unit id="8199e9b3c9cfe019c9a9c07424abe35374ff0321" resname="role.assignment.form.delete">
+        <source>Delete assignment</source>
+        <target xml:lang="zh-HK" state="translated">刪除分配</target>
+        <note>key: role.assignment.form.delete</note>
+        <jms:reference-file line="32">lib/Form/Type/Role/RoleAssignmentDeleteType.php</jms:reference-file>
+      </trans-unit>
       <trans-unit id="2055432dd7586fdb260245c2eee60e3869bc5b23" resname="role.cancel">
         <source>Cancel</source>
         <target xml:lang="zh-HK" state="translated">取消</target>

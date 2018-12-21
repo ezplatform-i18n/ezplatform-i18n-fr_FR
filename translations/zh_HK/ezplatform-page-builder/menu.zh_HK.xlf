@@ -7,7 +7,7 @@
     </header>
     <body>
       <trans-unit id="245265a629e4d9fe109e2dea3564749962d6b89d" resname="page_builder__infobar__create__actions__cancel">
-        <source>Discard changes</source>
+        <source>Delete draft</source>
         <target xml:lang="zh-HK" state="translated">放棄更改</target>
         <note>key: page_builder__infobar__create__actions__cancel</note>
       </trans-unit>

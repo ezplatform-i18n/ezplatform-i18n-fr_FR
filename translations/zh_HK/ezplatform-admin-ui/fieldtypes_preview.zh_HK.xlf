@@ -8,8 +8,11 @@
     <body>
       <trans-unit id="540d6bae1cf130f98f00799d4ef1c6f6b5752907" resname="ezboolean.no">
         <source>No</source>
-        <target xml:lang="zh-HK" state="translated"> 否</target>
+        <target xml:lang="zh-HK" state="translated">否</target>
         <note>key: ezboolean.no</note>
+        <alt-trans>
+          <target xml:lang="zh-HK"> 否</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="706821bf7c10bf965680842f9e0b0bad3ab737ed" resname="ezgmaplocation.latitude">
         <source>Latitude</source>
