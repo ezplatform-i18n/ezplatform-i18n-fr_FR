@@ -111,6 +111,11 @@
         <target state="new">on %date%</target>
         <note>key: transition.list.entry.date</note>
       </trans-unit>
+      <trans-unit id="db84cfaed6f2b9a52d159b6d9b12e41bdf2c27bf" resname="transition.list.entry.title">
+        <source>Stage changed to %stageNames%</source>
+        <target state="new">Stage changed to %stageNames%</target>
+        <note>key: transition.list.entry.title</note>
+      </trans-unit>
       <trans-unit id="3c190ea2e3bb750d29e646512ef8902bca079d61" resname="widget.leave_comment">
         <source>Leave a comment</source>
         <target state="new">Leave a comment</target>

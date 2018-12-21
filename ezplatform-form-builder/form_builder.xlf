@@ -47,8 +47,8 @@
         <note>key: field.settings</note>
       </trans-unit>
       <trans-unit id="1ef0657bf94b6c1594d67f719920c7fb66d51ed6" resname="form.cannot.be.empty">
-        <source>A form cannot be empty</source>
-        <target state="new">A form cannot be empty</target>
+        <source>Form field is required</source>
+        <target state="new">Form field is required</target>
         <note>key: form.cannot.be.empty</note>
       </trans-unit>
       <trans-unit id="99c07fbdbe0c40a68138652eb91532d9737ed7b2" resname="form.no_preview">
