@@ -107,7 +107,7 @@
         <note>key: link_edit_btn.button_row.block.placeholder.text</note>
       </trans-unit>
       <trans-unit id="d9139bdb7978ed01bb6a7fd7f2ba31bfee633de2" resname="link_edit_btn.button_row.link_to">
-        <source>Link to</source>
+        <source>Link to:</source>
         <target xml:lang="de" state="translated">Link</target>
         <note>key: link_edit_btn.button_row.link_to</note>
       </trans-unit>
@@ -137,7 +137,7 @@
         <note>key: link_edit_btn.info_row.same_tab</note>
       </trans-unit>
       <trans-unit id="706afc3b545461082f7d1d7c14ef5c2a25b5cc97" resname="link_edit_btn.info_row.title">
-        <source>Title</source>
+        <source>Title:</source>
         <target xml:lang="de" state="translated">Titel</target>
         <note>key: link_edit_btn.info_row.title</note>
       </trans-unit>

@@ -6,12 +6,16 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
+      <trans-unit id="14a95e986cd6b94301e0f44fd5ef2d5e7cdf90a4" resname="field_definition.ezselection.add_option">
+        <source>Add an option</source>
+        <target xml:lang="de" state="translated">Option hinzufügen</target>
+        <note>key: field_definition.ezselection.add_option</note>
+      </trans-unit>
+      <trans-unit id="c8017c71074191e0e6ebe4eb1a3a278eecbcc874" resname="field_definition.ezselection.remove_selected_options">
+        <source>Remove selected options</source>
+        <target xml:lang="de" state="translated">Ausgewählte Optionen entfernen</target>
+        <note>key: field_definition.ezselection.remove_selected_options</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

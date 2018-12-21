@@ -21,6 +21,11 @@
         <target xml:lang="de" state="translated">Gespeichertes Bild in Feld '%label%'</target>
         <note>key: content.field_type.ezimage.img_alt</note>
       </trans-unit>
+      <trans-unit id="03ebd0d1e50c8323be782f1095d9d4d7f9edffa4" resname="content.field_type.ezimageasset.img_alt">
+        <source>Image stored in field '%label%'</source>
+        <target xml:lang="de" state="translated">Gespeichertes Bild in Feld '%label%'</target>
+        <note>key: content.field_type.ezimageasset.img_alt</note>
+      </trans-unit>
       <trans-unit id="093c498e82bd382a4732e4bb8356c7d88b671f25" resname="content.field_type.ezmedia.player_settings">
         <source>Player settings</source>
         <target xml:lang="de" state="translated">Player Einstellungen</target>
