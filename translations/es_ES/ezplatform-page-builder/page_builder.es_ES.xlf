@@ -21,11 +21,6 @@
         <target xml:lang="es-ES" state="translated">Cerrar</target>
         <note>key: config_popup.close.label</note>
       </trans-unit>
-      <trans-unit id="79bf5a9df7f033c0b853263adb274a8045791ab0" resname="empty_block.info.text">
-        <source>Empty block: %type%. Click here to show action menu.</source>
-        <target xml:lang="es-ES" state="translated">Bloque de vacío: %type%. Haga clic aquí para mostrar el menú de Acciones.</target>
-        <note>key: empty_block.info.text</note>
-      </trans-unit>
       <trans-unit id="36cdc651708919d9a830acb2c742b325fd23aeb5" resname="error.message">
         <source>Something went wrong</source>
         <target xml:lang="es-ES" state="translated">Algo ha fallado</target>

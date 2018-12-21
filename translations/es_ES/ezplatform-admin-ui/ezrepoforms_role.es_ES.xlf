@@ -16,21 +16,6 @@
         <target xml:lang="es-ES" state="translated">Eliminar</target>
         <note>key: policy_delete.delete</note>
       </trans-unit>
-      <trans-unit id="deab5c91a76488732d0405e72c36702ed2aea3d6" resname="role.policy.all_functions">
-        <source>All functions</source>
-        <target xml:lang="es-ES" state="translated">Todas las funciones</target>
-        <note>key: role.policy.all_functions</note>
-      </trans-unit>
-      <trans-unit id="d29c07272fff793138cbb6f7dbb41b08a16ff815" resname="role.policy.all_modules">
-        <source>All modules</source>
-        <target xml:lang="es-ES" state="translated">Todos los módulos</target>
-        <note>key: role.policy.all_modules</note>
-      </trans-unit>
-      <trans-unit id="d4690e1d0c7d2cf0468ab5aa04caa891e1b5efbd" resname="role.policy.all_modules_all_functions">
-        <source>All modules / All functions</source>
-        <target xml:lang="es-ES" state="translated">Todos los módulos / Todas las funciones</target>
-        <note>key: role.policy.all_modules_all_functions</note>
-      </trans-unit>
       <trans-unit id="d3c70d265ab037db5ade02a8b738b5981353c7ac" resname="role.policy.type">
         <source>Type</source>
         <target xml:lang="es-ES" state="translated">Tipo</target>
