@@ -107,7 +107,7 @@
         <note>key: link_edit_btn.info_row.new_tab</note>
       </trans-unit>
       <trans-unit id="706afc3b545461082f7d1d7c14ef5c2a25b5cc97" resname="link_edit_btn.info_row.title">
-        <source>Title</source>
+        <source>Title:</source>
         <target xml:lang="hi" state="translated">शीर्षक</target>
         <note>key: link_edit_btn.info_row.title</note>
       </trans-unit>
