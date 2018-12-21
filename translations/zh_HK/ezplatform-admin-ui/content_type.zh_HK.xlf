@@ -21,11 +21,6 @@
         <target xml:lang="zh-HK" state="translated">%identifier%</target>
         <note>key: content_type.breadcrumb.edit</note>
       </trans-unit>
-      <trans-unit id="5626938e64bdad8be0c090d0018c868960859d0a" resname="content_type.breadcrumb.view">
-        <source>%identifier%</source>
-        <target xml:lang="zh-HK" state="translated">%identifier%</target>
-        <note>key: content_type.breadcrumb.view</note>
-      </trans-unit>
       <trans-unit id="3066b4a1b2277f4e299d9c91ad3134d725467b39" resname="content_type.content_type">
         <source>Content Type</source>
         <target xml:lang="zh-HK" state="translated">內容類型</target>
@@ -195,11 +190,6 @@
         <source>Content Types in %identifier%</source>
         <target xml:lang="zh-HK" state="translated">%identifier% 中的內容類型</target>
         <note>key: content_type.view.list.title</note>
-      </trans-unit>
-      <trans-unit id="dc7335e54d834bb6a342bf0bcb113850de4b69f9" resname="content_type.view.view.title">
-        <source>%name%</source>
-        <target xml:lang="zh-HK" state="translated">%name%</target>
-        <note>key: content_type.view.view.title</note>
       </trans-unit>
       <trans-unit id="d74d01091280ceabfb457980ddd459dc841ad957" resname="content_type_group.breadcrumb.add">
         <source>Creating a new Content Type Group</source>
