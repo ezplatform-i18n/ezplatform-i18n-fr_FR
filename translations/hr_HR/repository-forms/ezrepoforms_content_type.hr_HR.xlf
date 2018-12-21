@@ -41,11 +41,6 @@
         <target xml:lang="hr" state="translated">Minimalna vrijednost</target>
         <note>key: field_definition.ezfloat.min_value</note>
       </trans-unit>
-      <trans-unit id="784ef2a6786a65136f44158cccc5daa2c16a33bb" resname="field_definition.ezimage.max_file_size">
-        <source>Maximum file size (MB)</source>
-        <target xml:lang="hr" state="translated">Max veličina datoteke (MB)</target>
-        <note>key: field_definition.ezimage.max_file_size</note>
-      </trans-unit>
       <trans-unit id="e03e262fad0802fdee49aac136644b35450e1eab" resname="field_definition.ezobjectrelation.selection_root_udw_button">
         <source>Select item</source>
         <target xml:lang="hr" state="translated">Odaberite stavku</target>
