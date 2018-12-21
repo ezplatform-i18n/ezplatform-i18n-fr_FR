@@ -49,10 +49,25 @@
         <target xml:lang="nb" state="translated">Høyre</target>
         <note>key: embed_align_right_btn.label</note>
       </trans-unit>
+      <trans-unit id="5761446626d26974269cd5f7fb428e268928932b" resname="embed_btn.label">
+        <source>Embed</source>
+        <target xml:lang="nb" state="translated">Bygg inn</target>
+        <note>key: embed_btn.label</note>
+      </trans-unit>
+      <trans-unit id="8527fe7f41af8879f558034d2b2cf316d20eb5e3" resname="embed_btn.udw.title">
+        <source>Select a content to embed</source>
+        <target xml:lang="nb" state="translated">Velg et innhold for å bygge inn</target>
+        <note>key: embed_btn.udw.title</note>
+      </trans-unit>
       <trans-unit id="f646efa9564da382019a8267461d76231bb688e2" resname="embed_update_btn.label">
         <source>Select another content item</source>
         <target xml:lang="nb" state="translated">Velg et annet innholdselement</target>
         <note>key: embed_update_btn.label</note>
+      </trans-unit>
+      <trans-unit id="e7a9e3844a638a4ee009a878206b96c9d0af681e" resname="embed_update_btn.udw.title">
+        <source>Select a content to embed</source>
+        <target xml:lang="nb" state="translated">Velg et innhold for å bygge inn</target>
+        <note>key: embed_update_btn.udw.title</note>
       </trans-unit>
       <trans-unit id="841a18570b88796e700e0d0cd2f8d4e99f9e13bd" resname="heading_btn.label">
         <source>Heading</source>
@@ -64,10 +79,20 @@
         <target xml:lang="nb" state="translated">Bilde</target>
         <note>key: image_btn.label</note>
       </trans-unit>
+      <trans-unit id="392f9d82a172655fbfe702c584ca3e5880fac25e" resname="image_btn.udw.label">
+        <source>Select an image to embed</source>
+        <target xml:lang="nb" state="translated">Velg et bilde for å bygge inn</target>
+        <note>key: image_btn.udw.label</note>
+      </trans-unit>
       <trans-unit id="85da4c4b98bb2f13b880845e1f5850134ace276d" resname="image_update_btn.label">
         <source>Select another image item</source>
         <target xml:lang="nb" state="translated">Velg et annet bilde</target>
         <note>key: image_update_btn.label</note>
+      </trans-unit>
+      <trans-unit id="d8edff94c5ba9f6148382057d71339ba75bc3903" resname="image_update_btn.udw.title">
+        <source>Select an image to embed</source>
+        <target xml:lang="nb" state="translated">Velg et bilde for å bygge inn</target>
+        <note>key: image_update_btn.udw.title</note>
       </trans-unit>
       <trans-unit id="15e27e2548df7ace117c1dd3b119db5798d34e9a" resname="link_edit_btn.action_row.remove">
         <source>Remove</source>
@@ -85,7 +110,7 @@
         <note>key: link_edit_btn.button_row.block.placeholder.text</note>
       </trans-unit>
       <trans-unit id="d9139bdb7978ed01bb6a7fd7f2ba31bfee633de2" resname="link_edit_btn.button_row.link_to">
-        <source>Link to</source>
+        <source>Link to:</source>
         <target xml:lang="nb" state="translated">Koble til</target>
         <note>key: link_edit_btn.button_row.link_to</note>
       </trans-unit>
@@ -115,7 +140,7 @@
         <note>key: link_edit_btn.info_row.same_tab</note>
       </trans-unit>
       <trans-unit id="706afc3b545461082f7d1d7c14ef5c2a25b5cc97" resname="link_edit_btn.info_row.title">
-        <source>Title</source>
+        <source>Title:</source>
         <target xml:lang="nb" state="translated">Tittel</target>
         <note>key: link_edit_btn.info_row.title</note>
       </trans-unit>

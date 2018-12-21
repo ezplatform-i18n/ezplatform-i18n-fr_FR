@@ -65,6 +65,11 @@
           <target xml:lang="nb">Om valgt vil opprette aliaset nettstedet rot adresse.</target>
         </alt-trans>
       </trans-unit>
+      <trans-unit id="cf65d6c865f18c51e3edcd90c6779079b994595c" resname="tab.urls.add.site_root.helper.no_parent_name">
+        <source>Unchecked will create the new alias under the parent of this location</source>
+        <target xml:lang="nb" state="translated">Ikke avmerket oppretter det nye aliaset under overordnet på denne plasseringen</target>
+        <note>key: tab.urls.add.site_root.helper.no_parent_name</note>
+      </trans-unit>
       <trans-unit id="db531fb5f993263b5ea57393101781b9d731a738" resname="tab.urls.add.site_root.helper.unchecked">
         <source>Unchecked will create the new alias under %parent_name%</source>
         <target xml:lang="nb" state="translated">Om ikke avmerket oppretter det nye aliaset under %parent_name%</target>

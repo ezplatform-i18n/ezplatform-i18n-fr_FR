@@ -258,6 +258,11 @@
         <target xml:lang="nb" state="translated">Er du sikker på at du vil sende dette innholdet til papirkurven?</target>
         <note>key: trash.modal.message</note>
       </trans-unit>
+      <trans-unit id="0d57f9b91203aa4d9920e63d793b8e62c0bb242c" resname="trash_asset_single.modal.header">
+        <source>Deleting content</source>
+        <target xml:lang="nb" state="translated">Slett innhold</target>
+        <note>key: trash_asset_single.modal.header</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

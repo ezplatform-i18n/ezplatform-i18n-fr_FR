@@ -146,6 +146,11 @@
         <target xml:lang="nb" state="translated">Flytt</target>
         <note>key: location_move.move</note>
       </trans-unit>
+      <trans-unit id="4b7b2b4de853db0d1fb1851e07f3ccc51e5713fc" resname="location_trash_form.default_trash">
+        <source>Delete only %content_name% (%content_type%)</source>
+        <target xml:lang="nb" state="translated">Slett bare %content_name% (%content_type%)</target>
+        <note>key: location_trash_form.default_trash</note>
+      </trans-unit>
       <trans-unit id="796f8196b2bc086fe788e6689a6189c79b8e047e" resname="location_trash_form.trash">
         <source>Send to Trash</source>
         <target xml:lang="nb" state="translated">Legg i papirkurven</target>

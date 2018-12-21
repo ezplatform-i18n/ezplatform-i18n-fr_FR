@@ -151,6 +151,11 @@
         <target xml:lang="nb" state="translated">Språk</target>
         <note>key: main__admin__languages</note>
       </trans-unit>
+      <trans-unit id="1d350945e7732f519fd5d2f6a69c926a193d6146" resname="main__admin__object_states">
+        <source>Object States</source>
+        <target xml:lang="nb" state="translated">Objekt statuser</target>
+        <note>key: main__admin__object_states</note>
+      </trans-unit>
       <trans-unit id="8a5845bd0e93b67b2ac54a06f2eae85f2cb3b13d" resname="main__admin__roles">
         <source>Roles</source>
         <target xml:lang="nb" state="translated">Roller</target>
@@ -355,6 +360,11 @@
         <source>Logout</source>
         <target xml:lang="nb" state="translated">Logg ut</target>
         <note>key: user__content</note>
+      </trans-unit>
+      <trans-unit id="d4a0cfb90774164e94f11e2a4f019a2538faebcf" resname="user__settings">
+        <source>User Settings</source>
+        <target xml:lang="nb" state="translated">Brukerinnstillinger</target>
+        <note>key: user__settings</note>
       </trans-unit>
       <trans-unit id="40679174821cfa2ce3d3a4dc046f0ef65df6f483" resname="user_create__sidebar_right__cancel">
         <source>Cancel</source>

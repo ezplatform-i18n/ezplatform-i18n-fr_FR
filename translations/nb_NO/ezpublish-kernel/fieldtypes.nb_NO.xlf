@@ -36,6 +36,11 @@
         <target xml:lang="nb" state="translated">Dato og klokkeslett</target>
         <note>key: ezdatetime.name</note>
       </trans-unit>
+      <trans-unit id="d772ac8909929964906cbefd41c468c9a5d2be26" resname="ezemail.name">
+        <source>Email address</source>
+        <target xml:lang="nb" state="translated">E-postadresse</target>
+        <note>key: ezemail.name</note>
+      </trans-unit>
       <trans-unit id="0a1f3297ccc08882f5a4610f9af8fc4148c74adc" resname="ezfloat.name">
         <source>Float</source>
         <target xml:lang="nb" state="translated">Desimaltall</target>
@@ -50,6 +55,11 @@
         <source>Image</source>
         <target xml:lang="nb" state="translated">Bilde</target>
         <note>key: ezimage.name</note>
+      </trans-unit>
+      <trans-unit id="3afdca17c734ecb3a077bcc4ba7f75a7544e845d" resname="ezimageasset.name">
+        <source>Image Asset</source>
+        <target xml:lang="nb" state="translated">Bildeobjekt</target>
+        <note>key: ezimageasset.name</note>
       </trans-unit>
       <trans-unit id="3b0f44cd332c71e78209a1a4b235bc6a1e6d374b" resname="ezinteger.name">
         <source>Integer</source>
