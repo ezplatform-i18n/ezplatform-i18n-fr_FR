@@ -171,20 +171,15 @@
         <target xml:lang="de" state="translated">Beschreibung</target>
         <note>key: field_definition.description</note>
       </trans-unit>
-      <trans-unit id="f64d0d1be6b62d75f7c77bf08ec560abd3addfb4" resname="field_definition.ezauthor.default_user_current">
-        <source>Current User</source>
-        <target xml:lang="de" state="translated">Aktueller Benutzer</target>
-        <note>key: field_definition.ezauthor.default_user_current</note>
-      </trans-unit>
-      <trans-unit id="904471ac6da01e95b90c1f0f8ec7740b59931e6b" resname="field_definition.ezauthor.default_user_empty">
-        <source>Empty</source>
-        <target xml:lang="de" state="translated">Leer</target>
-        <note>key: field_definition.ezauthor.default_user_empty</note>
-      </trans-unit>
       <trans-unit id="60b0ee9222a502c38adf1be704d4984564190e8e" resname="field_definition.ezauthor.default_author">
         <source>Default value</source>
         <target xml:lang="de" state="translated">Standardwert</target>
         <note>key: field_definition.ezauthor.default_author</note>
+      </trans-unit>
+      <trans-unit id="f64d0d1be6b62d75f7c77bf08ec560abd3addfb4" resname="field_definition.ezauthor.default_user_current">
+        <source>Current User</source>
+        <target xml:lang="de" state="translated">Aktueller Benutzer</target>
+        <note>key: field_definition.ezauthor.default_user_current</note>
       </trans-unit>
       <trans-unit id="41f781284e4bae2abbb6cfdf1126cc90b48dd35b" resname="field_definition.ezbinaryfile.max_file_size">
         <source>Maximum file size (MB)</source>
@@ -265,11 +260,6 @@
         <source>Minimum value</source>
         <target xml:lang="de" state="translated">Minimalwert</target>
         <note>key: field_definition.ezfloat.min_value</note>
-      </trans-unit>
-      <trans-unit id="784ef2a6786a65136f44158cccc5daa2c16a33bb" resname="field_definition.ezimage.max_file_size">
-        <source>Maximum file size (MB)</source>
-        <target xml:lang="de" state="translated">Maximal erlaubte Dateigröße (MB)</target>
-        <note>key: field_definition.ezimage.max_file_size</note>
       </trans-unit>
       <trans-unit id="8a95f664895f9c72e5ca52ea43908ad3d54c8966" resname="field_definition.ezinteger.default_value">
         <source>Default value</source>
