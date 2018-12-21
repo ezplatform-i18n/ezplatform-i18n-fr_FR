@@ -6,45 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="c4c1eef54c552362a25b3666b0dbda46349ad7ad" resname="notification_email.header.created_at">
+        <source>Send at %datetime% </source>
+        <target xml:lang="it" state="needs-translation"> </target>
+        <note>key: notification_email.header.created_at</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
