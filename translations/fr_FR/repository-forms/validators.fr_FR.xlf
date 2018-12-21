@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file date="2017-01-17T11:01:24Z" source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
@@ -36,25 +36,20 @@
         <target xml:lang="fr" state="translated">Les noms de définition de champ ne peuvent pas être vide ni dépasser 255 caractères.</target>
         <note>key: ez.field_definition.names</note>
       </trans-unit>
-      <trans-unit id="924826be1015d20c1f4524754c690e10935abaac" resname="ez.section.identifier.format" approved="yes">
-        <source>Section identifier may only contain letters from "a" to "z", numbers and underscores.</source>
-        <target xml:lang="fr" state="translated">Les identifiants de section ne peuvent contenir que les lettres "a" à "z", des chiffres et des blancs soulignés.</target>
-        <note>key: ez.section.identifier.format</note>
-      </trans-unit>
-      <trans-unit id="963a415cd08151ecf8726e651a7a36140e05f4b5" resname="ez.role.identifier.unique" approved="yes">
-        <source>The role identifier "%identifier%" is used by another role. You must enter a unique identifier.</source>
-        <target xml:lang="fr" state="translated">L’identificateur de rôle « %identifier% » est utilisé par un autre rôle. Vous devez entrer un identificateur unique.</target>
-        <note>key: ez.role.identifier.unique</note>
-      </trans-unit>
-      <trans-unit id="e7e08263e46325665a4d7f85d5f3465c37d49bb7" resname="ez.language.code.unique" approved="yes">
+      <trans-unit id="8666b9bac694063a73e477fed0531653db9577cf" resname="ez.language.code.unique" approved="yes">
         <source>The language code "%language_code%" is used by another language. You must enter a unique language code.</source>
         <target xml:lang="fr" state="translated">Le code de langue « %language_code% » est utilisé par une autre langue. Vous devez entrer un code de langue unique.</target>
         <note>key: ez.language.code.unique</note>
       </trans-unit>
-      <trans-unit id="8bcee04e8c985239d106e0fa910dfec8bdce3669" resname="ez.url.unique">
-        <source>URL must be unique</source>
-        <target xml:lang="fr" state="translated">L'URL doit être unique</target>
-        <note>key: ez.url.unique</note>
+      <trans-unit id="79c4015f3cf2d5b6312d5ca07a0ab2e5682cc720" resname="ez.role.identifier.unique" approved="yes">
+        <source>The role identifier "%identifier%" is used by another role. You must enter a unique identifier.</source>
+        <target xml:lang="fr" state="translated">L’identificateur de rôle « %identifier% » est utilisé par un autre rôle. Vous devez entrer un identificateur unique.</target>
+        <note>key: ez.role.identifier.unique</note>
+      </trans-unit>
+      <trans-unit id="924826be1015d20c1f4524754c690e10935abaac" resname="ez.section.identifier.format" approved="yes">
+        <source>Section identifier may only contain letters from "a" to "z", numbers and underscores.</source>
+        <target xml:lang="fr" state="translated">Les identifiants de section ne peuvent contenir que les lettres "a" à "z", des chiffres et des blancs soulignés.</target>
+        <note>key: ez.section.identifier.format</note>
       </trans-unit>
     </body>
   </file>
