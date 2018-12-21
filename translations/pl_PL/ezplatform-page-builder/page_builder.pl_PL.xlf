@@ -21,11 +21,6 @@
         <target xml:lang="pl" state="translated">Zamknij</target>
         <note>key: config_popup.close.label</note>
       </trans-unit>
-      <trans-unit id="79bf5a9df7f033c0b853263adb274a8045791ab0" resname="empty_block.info.text" approved="yes">
-        <source>Empty block: %type%. Click here to show action menu.</source>
-        <target xml:lang="pl" state="translated">Pusty blok: %type%. Kliknij aby wyświetlić menu.</target>
-        <note>key: empty_block.info.text</note>
-      </trans-unit>
       <trans-unit id="36cdc651708919d9a830acb2c742b325fd23aeb5" resname="error.message" approved="yes">
         <source>Something went wrong</source>
         <target xml:lang="pl" state="translated">Coś poszło nie tak</target>

@@ -110,7 +110,7 @@
         </alt-trans>
       </trans-unit>
       <trans-unit id="d9139bdb7978ed01bb6a7fd7f2ba31bfee633de2" resname="link_edit_btn.button_row.link_to" approved="yes">
-        <source>Link to</source>
+        <source>Link to:</source>
         <target xml:lang="pl" state="translated">Linkuj do</target>
         <note>key: link_edit_btn.button_row.link_to</note>
       </trans-unit>
@@ -140,7 +140,7 @@
         <note>key: link_edit_btn.info_row.same_tab</note>
       </trans-unit>
       <trans-unit id="706afc3b545461082f7d1d7c14ef5c2a25b5cc97" resname="link_edit_btn.info_row.title" approved="yes">
-        <source>Title</source>
+        <source>Title:</source>
         <target xml:lang="pl" state="translated">Tytuł</target>
         <note>key: link_edit_btn.info_row.title</note>
       </trans-unit>
