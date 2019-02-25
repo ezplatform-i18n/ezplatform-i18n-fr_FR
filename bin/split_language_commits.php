@@ -78,7 +78,7 @@ echo "\n\n";
 
 function getLanguagesData()
 {
-    $languagesMap= [
+    $languagesMap = [
         'de' => 'de_DE',
         'el' => 'el_GR',
         'es-ES' => 'es_ES',
@@ -98,6 +98,33 @@ function getLanguagesData()
         'he' => 'he',
         'zh-HK' => 'zh_HK',
     ];
+
+    $translationsFilesRenamed = false;
+
+    foreach (glob("translations/*/*/*.xlf") as $filepath) {
+        if (!preg_match('|translations/([a-z]{2,3}_[a-z]{2,3})/(.*)\.([a-z]{2,3}_[a-z]{2,3})\.xlf|i', $filepath, $m)) {
+            continue;
+        }
+
+        if (in_array($m[3], $languagesMap, true)) {
+            $newfilepath = preg_replace_callback(
+                '|(.*\.)([a-z]{2,3}_[a-z]{2,3})(\.xlf)|i',
+                function ($matches) use ($languagesMap) {
+                    [, $dirName, $locale, $extension] = $matches;
+                    return $dirName . str_replace(array_values($languagesMap), array_keys($languagesMap), $locale) . $extension;
+                },
+                $filepath
+            );
+
+            $command = 'git mv $filepath {$newfilepath}';
+            system($command);
+            $translationsFilesRenamed = true;
+        }
+    }
+
+    if ($translationsFilesRenamed) {
+        system('git commit -m "Rename translations files."');
+    }
 
     if (!$crowdinApiKey = getenv('CROWDIN_API_KEY')) {
         throw new InvalidArgumentException("Environment variable CROWDIN_API_KEY must be set for the ezplatform project");
