@@ -1,35 +1,34 @@
 project_identifier: ezplatform
-files:
-  - source: /ezpublish-kernel/*.xlf
-    translation: >-
-      /translations/%locale_with_underscore%/%original_path%/%file_name%.%locale_with_underscore%.%file_extension%
-  - source: /repository-forms/*.xlf
-    translation: >-
-      /translations/%locale_with_underscore%/%original_path%/%file_name%.%locale_with_underscore%.%file_extension%
-  - source: /ezplatform-admin-ui/*.xlf
-    translation: >-
-      /translations/%locale_with_underscore%/%original_path%/%file_name%.%locale_with_underscore%.%file_extension%
-  - source: /date-based-publisher/*
-    translation: >-
-      /translations/%locale_with_underscore%/%original_path%/%file_name%.%locale_with_underscore%.%file_extension%
-  - source: /flex-workflow/*
-    translation: >-
-      /translations/%locale_with_underscore%/%original_path%/%file_name%.%locale_with_underscore%.%file_extension%
-  - source: /ezplatform-page-fieldtype/*
-    translation: >-
-      /translations/%locale_with_underscore%/%original_path%/%file_name%.%locale_with_underscore%.%file_extension%
-  - source: /ezplatform-page-builder/*
-    translation: >-
-      /translations/%locale_with_underscore%/%original_path%/%file_name%.%locale_with_underscore%.%file_extension%
-  - source: /ezplatform-admin-ui-modules
-    translation: >-
-      /translations/%locale_with_underscore%/%original_path%/%file_name%.%locale_with_underscore%.%file_extension%
-  - source: /ezplatform-form-builder/*.xlf
-    translation: >-
-      /translations/%locale_with_underscore%/%original_path%/%file_name%.%locale_with_underscore%.%file_extension%
-  - source: /ezplatform-workflow/*
-    translation: >-
-      /translations/%locale_with_underscore%/%original_path%/%file_name%.%locale_with_underscore%.%file_extension%
-  - source: /ezplatform-richtext/*
-    translation: >-
-      /translations/%locale_with_underscore%/%original_path%/%file_name%.%locale_with_underscore%.%file_extension%
+files: [
+    {
+        source: "/**/*.xlf",
+        translation: "/translations/%locale_with_underscore%/**/%file_name%.%locale_with_underscore%.%file_extension%",
+        languages_mapping: {
+            "locale": {
+                "en-US": "en_US",
+                "pl": "pl",
+                "de": "de",
+                "el": "el",
+                "es": "es",
+                "fi": "fi",
+                "fr": "fr",
+                "hi": "hi",
+                "hr": "hr",
+                "hu": "hu",
+                "it": "it",
+                "ja": "ja",
+                "nb": "nb",
+                "no": "no",
+                "nl": "nl",
+                "pt-PT": "pt",
+                "ru": "ru",
+                "zh-HK": "zh_HK"
+            }
+        },
+        ignore: [
+          "/translations",
+          "/bin",
+          "/docs"
+        ]
+    }
+]
