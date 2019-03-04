@@ -2,7 +2,7 @@ project_identifier: ezplatform
 files: [
     {
         source: "/**/*.xlf",
-        translation: "/translations/%locale_with_underscore%/**/%file_name%.%locale_with_underscore%.%file_extension%",
+        translation: "/translations/%locale_with_underscore%/**/%file_name%.%locale%.%file_extension%",
         languages_mapping: {
             "locale": {
                 "en-US": "en_US",
