@@ -31,28 +31,13 @@
         <target xml:lang="en-US" state="translated">Published Version</target>
         <note>key: tab.details.published_version</note>
       </trans-unit>
-      <trans-unit id="67ff5cca435b058142e77b820d5d72090fa26346" resname="tab.details.section_id">
-        <source>Section ID</source>
-        <target xml:lang="en-US" state="translated">Section ID</target>
-        <note>key: tab.details.section_id</note>
-      </trans-unit>
-      <trans-unit id="0ab2029f0a194849d3f90531f03e37780491d1a6" resname="tab.details.section_identifier">
-        <source>Section identifier</source>
-        <target xml:lang="en-US" state="translated">Section Identifier</target>
-        <note>key: tab.details.section_identifier</note>
-      </trans-unit>
       <trans-unit id="30775f4a9e0512f181cf857fb0f0ea23fe79320d" resname="tab.details.section_name">
         <source>Section name</source>
         <target xml:lang="en-US" state="translated">Section Name</target>
         <note>key: tab.details.section_name</note>
       </trans-unit>
-      <trans-unit id="e185e68f61ce9867e2cafcf406650e12c3a81d05" resname="tab.details.state_identifier">
-        <source>Identifier</source>
-        <target xml:lang="en-US" state="translated">Identifier</target>
-        <note>key: tab.details.state_identifier</note>
-      </trans-unit>
       <trans-unit id="69dea878e2926e6a40b3d4e79b1f723d0aa801c7" resname="tab.details.state_name">
-        <source>Name</source>
+        <source>Current object state</source>
         <target xml:lang="en-US" state="translated">Name</target>
         <note>key: tab.details.state_name</note>
       </trans-unit>

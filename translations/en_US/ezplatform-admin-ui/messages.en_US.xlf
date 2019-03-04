@@ -46,11 +46,6 @@
         <target xml:lang="en-US" state="translated">Delete</target>
         <note>key: modal.delete</note>
       </trans-unit>
-      <trans-unit id="ebe1352e4bc48c8ec1a4e5f7352c0d20f3d0a18f" resname="tab.view.content">
-        <source>Content</source>
-        <target xml:lang="en-US" state="translated">Content</target>
-        <note>key: tab.view.content</note>
-      </trans-unit>
       <trans-unit id="e500e3f1d454e2775bbe89b6267cd77c766df3f1" resname="trash.delete.button.cancel">
         <source>Cancel</source>
         <target xml:lang="en-US" state="translated">Cancel</target>
