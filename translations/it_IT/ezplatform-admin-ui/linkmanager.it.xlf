@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="it" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="23bfb0e222eeac1bfa481ba09c5b4aea1d0295da" resname="url.edit">
+        <source>Edit</source>
+        <target xml:lang="it" state="translated">Modifica</target>
+        <note>key: url.edit</note>
+      </trans-unit>
+      <trans-unit id="ed6ebb919604a265c372578f297370881bfe4220" resname="url.label.created">
+        <source>Created</source>
+        <target xml:lang="it" state="translated">Creato il</target>
+        <note>key: url.label.created</note>
+      </trans-unit>
+      <trans-unit id="d23c2f190381df7d8a1ac3c3de0df4631c161818" resname="url.label.modified">
+        <source>Modified</source>
+        <target xml:lang="it" state="translated">Modificato</target>
+        <note>key: url.label.modified</note>
+      </trans-unit>
+      <trans-unit id="226d3de8d2685074e329b9eca1657c96d9c89ead" resname="url.search">
+        <source>Search</source>
+        <target xml:lang="it" state="translated">Ricerca</target>
+        <note>key: url.search</note>
+      </trans-unit>
+      <trans-unit id="ab21b5c3a570d491adc4ab793f2ce4f13f0f2ca7" resname="url.tab.information">
+        <source>Details</source>
+        <target xml:lang="it" state="translated">Dettagli</target>
+        <note>key: url.tab.information</note>
+      </trans-unit>
+      <trans-unit id="8fe54f2938f83a529ad5d7aa94d4e2fc9934bac1" resname="url.usages.column.name">
+        <source>Name</source>
+        <target xml:lang="it" state="translated">Etichetta per il campo</target>
+        <note>key: url.usages.column.name</note>
+      </trans-unit>
+      <trans-unit id="d831a1a74184672a12e3b9ae099692d1b4fd55b1" resname="url.usages.content_status.published">
+        <source>Published</source>
+        <target xml:lang="it" state="translated">Pubblicato</target>
+        <note>key: url.usages.content_status.published</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

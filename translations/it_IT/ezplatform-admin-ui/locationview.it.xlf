@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="it" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="9c91d85bc7658ec7dc6bbb07b720979177c0846a" resname="content.view.subitems">
+        <source>Sub-items</source>
+        <target xml:lang="it" state="translated">Sotto elementi</target>
+        <note>key: content.view.subitems</note>
+      </trans-unit>
+      <trans-unit id="c0b36efcf0ebbe2ac0f9861cae35e12e668cbcc0" resname="tab.details.content_details">
+        <source>Content details</source>
+        <target xml:lang="it" state="translated">Dettaglio contenuto</target>
+        <note>key: tab.details.content_details</note>
+      </trans-unit>
+      <trans-unit id="dc195b32e812b751daa7a3321844c9712e1460ba" resname="tab.details.creator">
+        <source>Creator</source>
+        <target xml:lang="it" state="translated">Autore</target>
+        <note>key: tab.details.creator</note>
+      </trans-unit>
+      <trans-unit id="acc17a8db8d00036233faa9948ad9a496cd621b3" resname="tab.details.last_contributor">
+        <source>Last contributor</source>
+        <target xml:lang="it" state="translated">Ultimo contributo</target>
+        <note>key: tab.details.last_contributor</note>
+      </trans-unit>
+      <trans-unit id="26bd81ee7b010fa5846859eb4c2464764effeb81" resname="tab.details.published_version">
+        <source>Published version</source>
+        <target xml:lang="it" state="translated">Versione pubblicata</target>
+        <note>key: tab.details.published_version</note>
+      </trans-unit>
+      <trans-unit id="30775f4a9e0512f181cf857fb0f0ea23fe79320d" resname="tab.details.section_name">
+        <source>Section name</source>
+        <target xml:lang="it" state="translated">Nome della sezione</target>
+        <note>key: tab.details.section_name</note>
+      </trans-unit>
+      <trans-unit id="69dea878e2926e6a40b3d4e79b1f723d0aa801c7" resname="tab.details.state_name">
+        <source>Current object state</source>
+        <target xml:lang="it" state="translated">Etichetta per il campo</target>
+        <note>key: tab.details.state_name</note>
+      </trans-unit>
+      <trans-unit id="09fcd5ad39b9c2b778be171f88559f6c117ff48b" resname="tab.details.technical_details">
+        <source>Technical details</source>
+        <target xml:lang="it" state="translated">Dettagli tecnici</target>
+        <note>key: tab.details.technical_details</note>
+      </trans-unit>
+      <trans-unit id="69ca343732e6be688ff4606c3a9b15d83d531233" resname="tab.details.translations">
+        <source>Translations</source>
+        <target xml:lang="it" state="translated">Traduzioni</target>
+        <note>key: tab.details.translations</note>
+      </trans-unit>
+      <trans-unit id="8eb3feb6461dacdbd425ef30fc4848a94ab3db0d" resname="tab.locations.action.add">
+        <source>Add Location</source>
+        <target xml:lang="it" state="translated">Aggiungi posizione</target>
+        <note>key: tab.locations.action.add</note>
+      </trans-unit>
+      <trans-unit id="7ac57e88d1f970747986392b6689075ba64cf270" resname="tab.locations.content_locations">
+        <source>Content locations</source>
+        <target xml:lang="it" state="translated">Posizione del contenuto</target>
+        <note>key: tab.locations.content_locations</note>
+      </trans-unit>
+      <trans-unit id="64554d66c71f33e7d3ac52c75b17717c334ef9dd" resname="tab.locations.main">
+        <source>Main</source>
+        <target xml:lang="it" state="translated">Principale</target>
+        <note>key: tab.locations.main</note>
+      </trans-unit>
+      <trans-unit id="7514a2a1e82c82fa3a197dc3da8be56a9c68f136" resname="tab.locations.path">
+        <source>Path</source>
+        <target xml:lang="it" state="translated">Percorso</target>
+        <note>key: tab.locations.path</note>
+      </trans-unit>
+      <trans-unit id="b5d6fe3a752b0c391bfa751acb7c4c3ac82e2c0c" resname="tab.locations.subitems">
+        <source>Sub-items</source>
+        <target xml:lang="it" state="translated">Sotto elementi</target>
+        <note>key: tab.locations.subitems</note>
+      </trans-unit>
+      <trans-unit id="1932d409236634ffbe828e683f35db760ec25323" resname="tab.locations.visibility">
+        <source>Visibility</source>
+        <target xml:lang="it" state="translated">Visibilità</target>
+        <note>key: tab.locations.visibility</note>
+      </trans-unit>
+      <trans-unit id="5d92b84a6c78bd443010f172c47d01ce0dacacd7" resname="tab.name.details">
+        <source>Details</source>
+        <target xml:lang="it" state="translated">Dettagli</target>
+        <note>key: tab.name.details</note>
+      </trans-unit>
+      <trans-unit id="bc992b410ec56cce18c994806d7518fd47da2caa" resname="tab.name.locations">
+        <source>Locations</source>
+        <target xml:lang="it" state="translated">Posizioni</target>
+        <note>key: tab.name.locations</note>
+      </trans-unit>
+      <trans-unit id="c58716ba1092b0208a11137dc226327a3ddf84dc" resname="tab.name.roles">
+        <source>Roles</source>
+        <target xml:lang="it" state="translated">Ruoli</target>
+        <note>key: tab.name.roles</note>
+      </trans-unit>
+      <trans-unit id="0b83b391386f47130b2d3ac1869fe27aa8c45fb7" resname="tab.name.translations">
+        <source>Translations</source>
+        <target xml:lang="it" state="translated">Traduzioni</target>
+        <note>key: tab.name.translations</note>
+      </trans-unit>
+      <trans-unit id="50741647d206010a8c2ac911901f3c31d6bbfc6a" resname="tab.name.urls">
+        <source>URL</source>
+        <target xml:lang="it" state="translated">URL</target>
+        <note>key: tab.name.urls</note>
+      </trans-unit>
+      <trans-unit id="337828c348b881920f84d17cc184f4c24e40c894" resname="tab.name.versions">
+        <source>Versions</source>
+        <target xml:lang="it" state="translated">Versioni</target>
+        <note>key: tab.name.versions</note>
+      </trans-unit>
+      <trans-unit id="eb3b504a0281951f15692e888226579aa99bb512" resname="tab.name.view">
+        <source>View</source>
+        <target xml:lang="it" state="translated">Vedi</target>
+        <note>key: tab.name.view</note>
+      </trans-unit>
+      <trans-unit id="d667f9ef2cf04ce8966bc908b8930be596925561" resname="tab.relations.table.content_type">
+        <source>Content type</source>
+        <target xml:lang="it" state="translated">Content type</target>
+        <note>key: tab.relations.table.content_type</note>
+      </trans-unit>
+      <trans-unit id="e649f067bcea898ef987cd5ebce6a9a6fca570f2" resname="tab.relations.table.name">
+        <source>Name</source>
+        <target xml:lang="it" state="translated">Etichetta per il campo</target>
+        <note>key: tab.relations.table.name</note>
+      </trans-unit>
+      <trans-unit id="79779455bd3c932297c6b8cefdcd1251836525c5" resname="tab.relations.table.relation_type.embed">
+        <source>Embed</source>
+        <target xml:lang="it" state="translated">Embed</target>
+        <note>key: tab.relations.table.relation_type.embed</note>
+      </trans-unit>
+      <trans-unit id="5022ce879be6a69956541173bf658dccff5d7280" resname="tab.translations.add.base_language">
+        <source>Base this translation on an existing translation</source>
+        <target xml:lang="it" state="translated">Base questa traduzione su una traduzione esistente</target>
+        <note>key: tab.translations.add.base_language</note>
+      </trans-unit>
+      <trans-unit id="c22e9f75640384f917cc76e6736b3a6e91d70f1d" resname="tab.translations.add.cancel">
+        <source>Cancel</source>
+        <target xml:lang="it" state="translated">Annulla</target>
+        <note>key: tab.translations.add.cancel</note>
+      </trans-unit>
+      <trans-unit id="d494d753de03a08f7a10792b727ec88ca74d4913" resname="tab.translations.language_code">
+        <source>Language code</source>
+        <target xml:lang="it" state="translated">Codice della lingua</target>
+        <note>key: tab.translations.language_code</note>
+      </trans-unit>
+      <trans-unit id="0becdca42cbaa039a6166b8aa778a86657bb362f" resname="tab.translations.language_name">
+        <source>Language name</source>
+        <target xml:lang="it" state="translated">Nome della lingua</target>
+        <note>key: tab.translations.language_name</note>
+      </trans-unit>
+      <trans-unit id="699b5bf627b908f8d270984ab9a4734a48b28abe" resname="tab.versions.archived_versions">
+        <source>Archived versions</source>
+        <target xml:lang="it" state="translated">Versioni archiviate</target>
+        <note>key: tab.versions.archived_versions</note>
+      </trans-unit>
+      <trans-unit id="f6c48627db1d026d9f3fbc3b5b1cb1b3c60af4b3" resname="tab.versions.published_version">
+        <source>Published version</source>
+        <target xml:lang="it" state="translated">Versione pubblicata</target>
+        <note>key: tab.versions.published_version</note>
+      </trans-unit>
+      <trans-unit id="4c6353b63f5bc2031c8380c4007edf9c5f6be456" resname="tab.versions.table.created">
+        <source>Created</source>
+        <target xml:lang="it" state="translated">Creato il</target>
+        <note>key: tab.versions.table.created</note>
+      </trans-unit>
+      <trans-unit id="472157bdf440a9c6636057ac194d53029ac589dd" resname="tab.versions.table.last_saved">
+        <source>Last saved</source>
+        <target xml:lang="it" state="translated">Ultimo salvataggio</target>
+        <note>key: tab.versions.table.last_saved</note>
+      </trans-unit>
+      <trans-unit id="ddc70b29ad8ac6544843566a146ed1ea4ddab817" resname="tab.versions.table.version">
+        <source>Version</source>
+        <target xml:lang="it" state="translated">Versione</target>
+        <note>key: tab.versions.table.version</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
