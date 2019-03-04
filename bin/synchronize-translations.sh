@@ -21,6 +21,18 @@ echo "ezsystems/repository-forms"
 rm -f ./vendor/ezsystems/ezplatform-i18n/repository-forms/*
 cp ./vendor/ezsystems/repository-forms/bundle/Resources/translations/* ./vendor/ezsystems/ezplatform-i18n/repository-forms
 
+echo "ezsystems/ez-support-tools"
+rm -f ./vendor/ezsystems/ezplatform-i18n/ez-support-tools/*
+cp ./vendor/ezsystems/ez-support-tools/Resources/translations/* ./vendor/ezsystems/ezplatform-i18n/ez-support-tools
+
+echo "ezsystems/ezplatform-user"
+rm -f ./vendor/ezsystems/ezplatform-i18n/ezplatform-user/*
+cp ./vendor/ezsystems/ezplatform-user/src/bundle/Resources/translations/* ./vendor/ezsystems/ezplatform-i18n/ezplatform-user
+
+echo "ezsystems/ezplatform-matrix-fieldtype"
+rm -f ./vendor/ezsystems/ezplatform-i18n/ezplatform-matrix-fieldtype/*
+cp ./vendor/ezsystems/ezplatform-matrix-fieldtype/src/bundle/Resources/translations/* ./vendor/ezsystems/ezplatform-i18n/ezplatform-matrix-fieldtype
+
 if [ -d "./vendor/ezsystems/date-based-publisher" ]; then
   echo "ezsystems/date-based-publisher"
   rm -f ./vendor/ezsystems/ezplatform-i18n/date-based-publisher/*
