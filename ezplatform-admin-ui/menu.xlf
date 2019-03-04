@@ -31,10 +31,20 @@
         <target state="new">Edit</target>
         <note>key: content__sidebar_right__edit</note>
       </trans-unit>
+      <trans-unit id="4edbd819e96b4bea94ad02f9ce655c2f81f1b4d0" resname="content__sidebar_right__hide">
+        <source>Hide</source>
+        <target state="new">Hide</target>
+        <note>key: content__sidebar_right__hide</note>
+      </trans-unit>
       <trans-unit id="522a7eb05659ac849a762954effc22db818b8323" resname="content__sidebar_right__move">
         <source>Move</source>
         <target state="new">Move</target>
         <note>key: content__sidebar_right__move</note>
+      </trans-unit>
+      <trans-unit id="bbf7b43821e5ac0ce57d977a3ce156baf9a9d7b7" resname="content__sidebar_right__reveal">
+        <source>Reveal</source>
+        <target state="new">Reveal</target>
+        <note>key: content__sidebar_right__reveal</note>
       </trans-unit>
       <trans-unit id="9445b360492505d3a8d7be4c316e2cc62f381e03" resname="content__sidebar_right__send_to_trash">
         <source>Send to Trash</source>
@@ -335,6 +345,11 @@
         <source>Trash</source>
         <target state="new">Trash</target>
         <note>key: sidebar_left__trash</note>
+      </trans-unit>
+      <trans-unit id="af4736ff799291d6658545d0afb52240d7250cf3" resname="sidebar_left__tree">
+        <source>Content Tree</source>
+        <target state="new">Content Tree</target>
+        <note>key: sidebar_left__tree</note>
       </trans-unit>
       <trans-unit id="ae876d2c3fdb4f08383aefae6106b69dfe124b38" resname="trash__sidebar_right__empty_trash">
         <source>Empty Trash</source>
