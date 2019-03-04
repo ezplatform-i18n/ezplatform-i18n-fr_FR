@@ -153,11 +153,6 @@
         <target xml:lang="zh-HK" state="translated">您確定要刪除區段？</target>
         <note>key: section.modal.message</note>
       </trans-unit>
-      <trans-unit id="ebe1352e4bc48c8ec1a4e5f7352c0d20f3d0a18f" resname="tab.view.content">
-        <source>Content</source>
-        <target xml:lang="zh-HK" state="translated">內容</target>
-        <note>key: tab.view.content</note>
-      </trans-unit>
       <trans-unit id="4e7901a215220faba4d546cd3fb63f3e2a64e849" resname="trash.delete.all.confirm">
         <source>Are you sure you want to permanently delete %trashItemsCount% item(s)?</source>
         <target xml:lang="zh-HK" state="translated">您確定要永久刪除％trashItemsCount％項嗎？</target>
