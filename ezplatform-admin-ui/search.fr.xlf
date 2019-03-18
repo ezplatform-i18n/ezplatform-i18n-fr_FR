@@ -23,8 +23,11 @@
       </trans-unit>
       <trans-unit id="2c0d71c1688c1f04ff156bb9dff167ca5ae663b6" resname="search.any.content.type">
         <source>Any content type</source>
-        <target xml:lang="fr" state="translated">Tout type de contenu</target>
+        <target xml:lang="fr" state="translated">Tout Type de Contenu</target>
         <note>key: search.any.content.type</note>
+        <alt-trans>
+          <target xml:lang="fr">Tout type de contenu</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="8605c5030193beebc7097a652f6c9dcb648cccec" resname="search.apply">
         <source>Apply</source>
@@ -107,8 +110,11 @@
       </trans-unit>
       <trans-unit id="2d007a8d9fc080db790dc5c45c12dd369d144fbe" resname="search.last_month">
         <source>Last month</source>
-        <target xml:lang="fr" state="translated">Le Mois dernier</target>
+        <target xml:lang="fr" state="translated">Le mois dernier</target>
         <note>key: search.last_month</note>
+        <alt-trans>
+          <target xml:lang="fr">Le Mois dernier</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="967e0a47af2b621d7e8fa29b2429a30644f8d6bb" resname="search.last_week">
         <source>Last week</source>
@@ -205,6 +211,9 @@
         <source>Viewing %viewing% out of %total% sub-items</source>
         <target xml:lang="fr" state="translated">Affichage de %viewing% sous-éléments sur %total%</target>
         <note>key: search.viewing</note>
+        <alt-trans>
+          <target xml:lang="fr">Affichage de %viewing% sur %total% sous-éléments</target>
+        </alt-trans>
       </trans-unit>
     </body>
   </file>

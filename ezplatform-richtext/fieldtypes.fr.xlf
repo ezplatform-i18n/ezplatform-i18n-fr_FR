@@ -6,7 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
+      <trans-unit id="213da4efa5baa8b47c34dc4b645df7115d07d66e" resname="ezrichtext.name">
+        <source>Rich text</source>
+        <target xml:lang="fr" state="translated">Texte riche</target>
+        <note>key: ezrichtext.name</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

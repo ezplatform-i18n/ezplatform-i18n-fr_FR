@@ -411,6 +411,16 @@
         <target xml:lang="fr" state="translated">État / Administrer</target>
         <note>key: role.policy.state.administrate</note>
       </trans-unit>
+      <trans-unit id="5a57c4086c786d6c767dfca68486d64c60ec58bf" resname="role.policy.state.all_functions">
+        <source>State / All functions</source>
+        <target xml:lang="fr" state="translated">État / Toutes les fonctions</target>
+        <note>key: role.policy.state.all_functions</note>
+      </trans-unit>
+      <trans-unit id="8c144b2e58f6ba9388517a5929bfd12a0773ddd2" resname="role.policy.state.assign">
+        <source>State / Assign</source>
+        <target xml:lang="fr" state="translated">État / Assigner</target>
+        <note>key: role.policy.state.assign</note>
+      </trans-unit>
       <trans-unit id="d3c70d265ab037db5ade02a8b738b5981353c7ac" resname="role.policy.type">
         <source>Type</source>
         <target xml:lang="fr" state="translated">Type</target>
@@ -420,6 +430,81 @@
         <source>Choose a type</source>
         <target xml:lang="fr" state="translated">Choisissez une politique</target>
         <note>key: role.policy.type.choose</note>
+      </trans-unit>
+      <trans-unit id="73c3d3a21c7264a991abf4e6ffe68751a1dbdb58" resname="role.policy.url">
+        <source>Url</source>
+        <target xml:lang="fr" state="translated">Url</target>
+        <note>key: role.policy.url</note>
+      </trans-unit>
+      <trans-unit id="4b00222e7c5b268480fe9db2de1744d0f25b677f" resname="role.policy.url.all_functions">
+        <source>Url / All functions</source>
+        <target xml:lang="fr" state="translated">Url / Toutes les fonctions</target>
+        <note>key: role.policy.url.all_functions</note>
+      </trans-unit>
+      <trans-unit id="4bf7f289b67892bf61f10b4f9a1db7b6dc09e69a" resname="role.policy.url.update">
+        <source>Url / Update</source>
+        <target xml:lang="fr" state="translated">Url / Mettre à jour</target>
+        <note>key: role.policy.url.update</note>
+      </trans-unit>
+      <trans-unit id="a9e0e8261157424542b507b9ae39b4e1193d24cd" resname="role.policy.url.view">
+        <source>Url / View</source>
+        <target xml:lang="fr" state="translated">Url / Vue</target>
+        <note>key: role.policy.url.view</note>
+      </trans-unit>
+      <trans-unit id="78b9d0d52e636ef2d0d1f919de16154404c2be0f" resname="role.policy.user">
+        <source>User</source>
+        <target xml:lang="fr" state="translated">Utilisateur</target>
+        <note>key: role.policy.user</note>
+      </trans-unit>
+      <trans-unit id="647dfa7992026277b6d73295b2ffaefe4cfa12d0" resname="role.policy.user.activation">
+        <source>User / Activation</source>
+        <target xml:lang="fr" state="translated">Utilisateur / Activation</target>
+        <note>key: role.policy.user.activation</note>
+      </trans-unit>
+      <trans-unit id="d44ce8c33cbc780cff9ca6f05ad2f70002550cd0" resname="role.policy.user.all_functions">
+        <source>User / All functions</source>
+        <target xml:lang="fr" state="translated">User / Toutes les fonctions</target>
+        <note>key: role.policy.user.all_functions</note>
+      </trans-unit>
+      <trans-unit id="f25505dc2f59df21e3125664c4fdad951d82df3b" resname="role.policy.user.login">
+        <source>User / Login</source>
+        <target xml:lang="fr" state="translated">Utilisateur / Connexion</target>
+        <note>key: role.policy.user.login</note>
+      </trans-unit>
+      <trans-unit id="d971078868184d3d233fb14032fda9ef614c2baa" resname="role.policy.user.password">
+        <source>User / Password</source>
+        <target xml:lang="fr" state="translated">Utilisateur / Mot de passe</target>
+        <note>key: role.policy.user.password</note>
+      </trans-unit>
+      <trans-unit id="28d15501824f89951d4068af32fbc52eb1412b8d" resname="role.policy.user.preferences">
+        <source>User / Preferences</source>
+        <target xml:lang="fr" state="translated">Utilisateur / Préférences</target>
+        <note>key: role.policy.user.preferences</note>
+      </trans-unit>
+      <trans-unit id="8f79f6008557e588c0a8b13ccdc42d6babc073c9" resname="role.policy.user.register">
+        <source>User / Register</source>
+        <target xml:lang="fr" state="translated">Utilisateur / S’inscrire</target>
+        <note>key: role.policy.user.register</note>
+      </trans-unit>
+      <trans-unit id="106b2a3fa38c660c838efe1905c904ce689a2d75" resname="role.policy.user.selfedit">
+        <source>User / Selfedit</source>
+        <target xml:lang="fr" state="translated">Utilisateur / Auto-édition</target>
+        <note>key: role.policy.user.selfedit</note>
+      </trans-unit>
+      <trans-unit id="30c5e1c11a520e499ad68130a2c7b844c2243888" resname="role.policy.workflow">
+        <source>Workflow</source>
+        <target xml:lang="fr" state="translated">Workflow</target>
+        <note>key: role.policy.workflow</note>
+      </trans-unit>
+      <trans-unit id="2b2742373d60445d02b866c30e21db99f0755ae6" resname="role.policy.workflow.all_functions">
+        <source>Workflow / All functions</source>
+        <target xml:lang="fr" state="translated">Workflow / Toutes les fonctions</target>
+        <note>key: role.policy.workflow.all_functions</note>
+      </trans-unit>
+      <trans-unit id="4ec99016d9af53130aaf043f9b6bce7ced2a1739" resname="role.policy.workflow.change_stage">
+        <source>Workflow / Change stage</source>
+        <target xml:lang="fr" state="translated">Workflow / Changer l'étape</target>
+        <note>key: role.policy.workflow.change_stage</note>
       </trans-unit>
       <trans-unit id="f11a379ba38d1a4e5fb7de3bc3a2fb76b72fe9dd" resname="role_assignment.delete">
         <source>Delete</source>
@@ -515,6 +600,11 @@
         <source>Name</source>
         <target xml:lang="fr" state="translated">Nom</target>
         <note>key: section_form.name</note>
+      </trans-unit>
+      <trans-unit id="c33da889af5b91c7a19b0b6e522757d65b81a40d" resname="section_subtree_assign_form.assign">
+        <source>Change section</source>
+        <target xml:lang="fr" state="translated">Changer de section</target>
+        <note>key: section_subtree_assign_form.assign</note>
       </trans-unit>
       <trans-unit id="ecaa9ee7b46159c99796726b8e14693d821e5500" resname="section_update_form.update">
         <source>Update</source>

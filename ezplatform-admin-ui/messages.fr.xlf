@@ -36,6 +36,11 @@
         <target xml:lang="fr" state="translated">Nom d'utilisateur</target>
         <note>key: authentication.username</note>
       </trans-unit>
+      <trans-unit id="b1b04388859d233f757e4f6376af3fc317d4baa6" resname="base.footer_copyright">
+        <source>eZ Platform ©1999-%current_year% %ez_link_open%eZ Systems AS%ez_link_close% and others.</source>
+        <target xml:lang="fr" state="translated">eZ Platform ©1999-%current_year% %ez_link_open%eZ Systems AS%ez_link_close% et autres.</target>
+        <note>key: base.footer_copyright</note>
+      </trans-unit>
       <trans-unit id="d21d07085caa55b0fee2fc054a6878bbdb24ae78" resname="breadcrumb.admin">
         <source>Admin</source>
         <target xml:lang="fr" state="translated">Administration</target>
@@ -46,10 +51,65 @@
         <target xml:lang="fr" state="translated">Préférences utilisateur</target>
         <note>key: breadcrumb.user_preferences</note>
       </trans-unit>
+      <trans-unit id="d23f0200b4769a69d2414de6d96117fed4601326" resname="character_counter.characters">
+        <source>characters</source>
+        <target xml:lang="fr" state="translated">caractères</target>
+        <note>key: character_counter.characters</note>
+      </trans-unit>
+      <trans-unit id="b3640cba0a21cf24519f469dc0bf31c036efdc28" resname="character_counter.words">
+        <source>words</source>
+        <target xml:lang="fr" state="translated">mots</target>
+        <note>key: character_counter.words</note>
+      </trans-unit>
+      <trans-unit id="22d5072ec8766c24df085f05aaeda403f02ec585" resname="content.hide.modal.cancel">
+        <source>Cancel</source>
+        <target xml:lang="fr" state="translated">Annuler</target>
+        <note>key: content.hide.modal.cancel</note>
+      </trans-unit>
+      <trans-unit id="0d905b86763ff15a40c8c15f0960d6038bdfd008" resname="content.hide.modal.confirm">
+        <source>Confirm</source>
+        <target xml:lang="fr" state="translated">Confirmer</target>
+        <note>key: content.hide.modal.confirm</note>
+      </trans-unit>
+      <trans-unit id="5c48055acad8df653edc1f8f65130d784fed3d88" resname="content.hide.modal.please_confirm_to_continue">
+        <source>If you wish to continue, please click on Confirm.</source>
+        <target xml:lang="fr" state="translated">Si vous souhaitez continuer, veuillez cliquer sur Confirmer.</target>
+        <note>key: content.hide.modal.please_confirm_to_continue</note>
+      </trans-unit>
+      <trans-unit id="7932e7fd6d6b90a8264cf5805586cab3294290ed" resname="content.hide.modal.title">
+        <source>Conflict when hiding content item</source>
+        <target xml:lang="fr" state="translated">Conflit en voulant cacher l’élément de contenu</target>
+        <note>key: content.hide.modal.title</note>
+      </trans-unit>
+      <trans-unit id="0f260745fb36618170e86bd6407bb2facd3a05a1" resname="content.hide.modal.warning_content_used_by_other_content">
+        <source>This item is being used by other content item(s). Please remove all instance(s) to avoid a 404 error.</source>
+        <target xml:lang="fr" state="translated">Cet élément est utilisé par d'autre(s) élément(s) de contenu. Veuillez supprimer toutes les instances pour éviter une erreur 404.</target>
+        <note>key: content.hide.modal.warning_content_used_by_other_content</note>
+      </trans-unit>
       <trans-unit id="fb19ae886e63bac3aa3b851ac00aae8a3b777992" resname="content.in_trash">
         <source>In Trash</source>
         <target xml:lang="fr" state="translated">Dans la corbeille</target>
         <note>key: content.in_trash</note>
+      </trans-unit>
+      <trans-unit id="5626938e64bdad8be0c090d0018c868960859d0a" resname="content_type.breadcrumb.view">
+        <source>%identifier%</source>
+        <target xml:lang="fr" state="translated">%identifier%</target>
+        <note>key: content_type.breadcrumb.view</note>
+      </trans-unit>
+      <trans-unit id="dc7335e54d834bb6a342bf0bcb113850de4b69f9" resname="content_type.view.view.title">
+        <source>%name%</source>
+        <target xml:lang="fr" state="translated">%name%</target>
+        <note>key: content_type.view.view.title</note>
+      </trans-unit>
+      <trans-unit id="83a16866c8ff14a4966553088657aafbb9db8edb" resname="content_type_group.breadcrumb.list">
+        <source>Content Types</source>
+        <target xml:lang="fr" state="translated">Types de Contenu</target>
+        <note>key: content_type_group.breadcrumb.list</note>
+      </trans-unit>
+      <trans-unit id="541e02854f7e561d84637ce99ec6fd6e8404bce4" resname="content_type_group.breadcrumb.view">
+        <source>%identifier%</source>
+        <target xml:lang="fr" state="translated">%identifier%</target>
+        <note>key: content_type_group.breadcrumb.view</note>
       </trans-unit>
       <trans-unit id="fe1c876b1a9bcde155f03227bce4ae4fbd54c24f" resname="custom_url_alias_add_form.add">
         <source>Create</source>
@@ -219,6 +279,11 @@
         <target xml:lang="fr" state="translated">Échanger le contenu de cet emplacement avec un autre</target>
         <note>key: tab.locations.swap_with_another</note>
       </trans-unit>
+      <trans-unit id="1246bcf8752e249bdec2067d43cfae2a5103bc5f" resname="tab.view.preview">
+        <source>Preview</source>
+        <target xml:lang="fr" state="translated">Prévisualisation</target>
+        <note>key: tab.view.preview</note>
+      </trans-unit>
       <trans-unit id="4e7901a215220faba4d546cd3fb63f3e2a64e849" resname="trash.delete.all.confirm">
         <source>Are you sure you want to permanently delete %trashItemsCount% item(s)?</source>
         <target xml:lang="fr" state="translated">Êtes-vous sûr de vouloir supprimer définitivement %trashItemsCount% élément(s) ?</target>
@@ -243,6 +308,41 @@
         <source>Are you sure you want to send this content item to trash?</source>
         <target xml:lang="fr" state="translated">Etes-vous sûr de vouloir envoyer cet élément de contenu à la corbeille ?</target>
         <note>key: trash.modal.message</note>
+      </trans-unit>
+      <trans-unit id="bd97a738137e75de44544db1104bab3a46222791" resname="trash_asset.modal.message_body">
+        <source>If you wish to delete this(/these) asset(s) too, first make sure they are not used by other content. You can check these content going to the asset(s) and looking at their content relations in the Relation tab.</source>
+        <target xml:lang="fr" state="translated">Si vous souhaitez aussi supprimer ce(s) contenu(s) image, assurez-vous d'abord qu'ils ne soient pas utilisés par d'autres contenus. Vous pouvez vérifier ces contenus image et regarder les relations dans l'onglet Relation.</target>
+        <note>key: trash_asset.modal.message_body</note>
+      </trans-unit>
+      <trans-unit id="17c7abad79d72d771a25b064e0de38b72fc6c926" resname="trash_asset.modal.message_header">
+        <source>You are about to delete a content that has one or several asset(s) field(s) used by other content items. These assets will remain available in system.</source>
+        <target xml:lang="fr" state="translated">Vous êtes sur le point de supprimer un contenu qui possède un ou plusieurs contenu(s) image utilisé(s) par d'autres éléments de contenu. Ces actifs resteront disponibles dans le système.</target>
+        <note>key: trash_asset.modal.message_header</note>
+      </trans-unit>
+      <trans-unit id="0d57f9b91203aa4d9920e63d793b8e62c0bb242c" resname="trash_asset_single.modal.header">
+        <source>Deleting content</source>
+        <target xml:lang="fr" state="translated">Suppression du contenu</target>
+        <note>key: trash_asset_single.modal.header</note>
+      </trans-unit>
+      <trans-unit id="e81a14f38ebe272cb11ef90e2948a8c6602307ca" resname="trash_asset_single.modal.message">
+        <source>You have the option to delete %content_name% (%content_type%) only or to also delete the assets it is using. Make your choice:</source>
+        <target xml:lang="fr" state="translated">Vous avez la possibilité de supprimer %content_name% (%content_type%) uniquement ou également supprimer les contenus associés qu’il utilise. Faites votre choix :</target>
+        <note>key: trash_asset_single.modal.message</note>
+      </trans-unit>
+      <trans-unit id="ff537a1e092270edf7497dc13ce051cdb458958b" resname="trash_asset_single.modal.message_main">
+        <source>You are about to delete a content with one or several asset(s) field(s).</source>
+        <target xml:lang="fr" state="translated">Vous êtes sur le point de supprimer un contenu ayant un ou plusieurs champ(s) connecté à d'autres contenus.</target>
+        <note>key: trash_asset_single.modal.message_main</note>
+      </trans-unit>
+      <trans-unit id="a70d984d62d43229009fefdbfdc740199ede75ca" resname="trash_container.modal.header">
+        <source>Deleting content</source>
+        <target xml:lang="fr" state="translated">Suppression du contenu</target>
+        <note>key: trash_container.modal.header</note>
+      </trans-unit>
+      <trans-unit id="1e6a1d97cca01a288e47d2d14479274b90e6c6c1" resname="trash_container.modal.message_main">
+        <source>Deleting %content_name% will also delete its sub-items, under its location(s). To confirm, please check below</source>
+        <target xml:lang="fr" state="translated">La suppression de %content_name% supprimera également ses sous-éléments, sous ses emplacements. Pour confirmer, veuillez cocher la case ci-dessous</target>
+        <note>key: trash_container.modal.message_main</note>
       </trans-unit>
     </body>
   </file>

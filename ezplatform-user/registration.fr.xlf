@@ -6,8 +6,16 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
+      <trans-unit id="264649149b7563144f9e2c462b13477dc7441302" resname="ezplatform.registration_confirmation.header">
+        <source>Your account has been created</source>
+        <target xml:lang="fr" state="translated">Votre compte a été créé</target>
+        <note>key: ezplatform.registration_confirmation.header</note>
+      </trans-unit>
+      <trans-unit id="63659642d9d91abcadbb45d00a12db2277ce53b5" resname="ezplatform.registration_confirmation.message">
+        <source><![CDATA[Thank you for registering an account. You can now <a href="%login%">login</a>]]></source>
+        <target xml:lang="fr" state="translated"><![CDATA[Merci d'avoir créer un compte. Vous pouvez maintenant vous <a href="%login%">connecter</a>]]></target>
+        <note>key: ezplatform.registration_confirmation.message</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -52,6 +52,11 @@
           <target xml:lang="fr">Toutes fonctions</target>
         </alt-trans>
       </trans-unit>
+      <trans-unit id="d29c07272fff793138cbb6f7dbb41b08a16ff815" resname="role.policy.all_modules">
+        <source>All modules</source>
+        <target xml:lang="fr" state="translated">Tous les modules</target>
+        <note>key: role.policy.all_modules</note>
+      </trans-unit>
       <trans-unit id="d4690e1d0c7d2cf0468ab5aa04caa891e1b5efbd" resname="role.policy.all_modules_all_functions">
         <source>All modules / All functions</source>
         <target xml:lang="fr" state="translated">Tous les modules / toutes les fonctions</target>

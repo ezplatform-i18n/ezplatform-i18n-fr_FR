@@ -8,8 +8,11 @@
     <body>
       <trans-unit id="5bfb4eb8f01f11447cc3c85b28096f96549b34d7" resname="approval.timeline">
         <source>Approval Timeline</source>
-        <target xml:lang="fr" state="translated">Chronologie d’approbation</target>
+        <target xml:lang="fr" state="translated">Calendrier d’approbation</target>
         <note>key: approval.timeline</note>
+        <alt-trans>
+          <target xml:lang="fr">Chronologie d’approbation</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="a7a51410cb1c298c47638de5b509d09dd2f33fa0" resname="content.review.add_message">
         <source>Message (Optional):</source>
@@ -20,6 +23,9 @@
         <source>Add a Reviewer</source>
         <target xml:lang="fr" state="translated">Ajouter un relecteur</target>
         <note>key: content.review.add_reviewer</note>
+        <alt-trans>
+          <target xml:lang="fr">Ajouter un Relecteur</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="eca0d518c25ac61553a436334389d163e15790cb" resname="content.review.from">
         <source>From:</source>
@@ -58,13 +64,22 @@
       </trans-unit>
       <trans-unit id="bec9c3c6dd19267375283c7e65cdec4b05a52e0c" resname="email.review_button">
         <source>Review Content</source>
-        <target xml:lang="fr" state="translated">Réviser le contenu</target>
+        <target xml:lang="fr" state="translated">Réviser le Contenu</target>
         <note>key: email.review_button</note>
+        <alt-trans>
+          <target xml:lang="fr">Réviser le contenu</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="a92726bad87c5ac3957fab36da70813dcf6061be" resname="email.title">
         <source>Flex Workflow Notification</source>
-        <target xml:lang="fr" state="translated">Notifications du processus de publication</target>
+        <target xml:lang="fr" state="translated">Notifications de révisions</target>
         <note>key: email.title</note>
+        <alt-trans>
+          <target xml:lang="fr">Notifications du Workflow de révision</target>
+        </alt-trans>
+        <alt-trans>
+          <target xml:lang="fr">Notifications du processus de publication</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="4941fb749a78b9f544695dbf68b2df2928ff9508" resname="email.with_message">
         <source>%sender_firstname% %sender_lastname% has requested you to review a draft of %content%. %sender_firstname% says:</source>

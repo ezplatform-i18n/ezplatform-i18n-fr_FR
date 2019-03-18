@@ -16,6 +16,11 @@
         <target xml:lang="fr" state="translated">Mise en page</target>
         <note>key: tab.label.design</note>
       </trans-unit>
+      <trans-unit id="cdea1f34eff224ab9592f83235d861466aaec351" resname="tab.label.scheduler">
+        <source>Scheduler</source>
+        <target xml:lang="fr" state="translated">Planificateur</target>
+        <note>key: tab.label.scheduler</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

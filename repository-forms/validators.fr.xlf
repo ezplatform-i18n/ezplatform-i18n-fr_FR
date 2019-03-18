@@ -51,6 +51,11 @@
         <target xml:lang="fr" state="translated">Les identifiants de section ne peuvent contenir que les lettres "a" à "z", des chiffres et des blancs soulignés.</target>
         <note>key: ez.section.identifier.format</note>
       </trans-unit>
+      <trans-unit id="958acf87f2f977fdf8334af608a11fade8b79509" resname="ez.url.unique">
+        <source>URL must be unique</source>
+        <target xml:lang="fr" state="translated">L'URL doit être unique</target>
+        <note>key: ez.url.unique</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

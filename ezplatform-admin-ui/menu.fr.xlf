@@ -31,10 +31,20 @@
         <target xml:lang="fr" state="translated">Modifier</target>
         <note>key: content__sidebar_right__edit</note>
       </trans-unit>
+      <trans-unit id="4edbd819e96b4bea94ad02f9ce655c2f81f1b4d0" resname="content__sidebar_right__hide">
+        <source>Hide</source>
+        <target xml:lang="fr" state="translated">Cacher</target>
+        <note>key: content__sidebar_right__hide</note>
+      </trans-unit>
       <trans-unit id="522a7eb05659ac849a762954effc22db818b8323" resname="content__sidebar_right__move" approved="yes">
         <source>Move</source>
         <target xml:lang="fr" state="translated">Déplacer</target>
         <note>key: content__sidebar_right__move</note>
+      </trans-unit>
+      <trans-unit id="bbf7b43821e5ac0ce57d977a3ce156baf9a9d7b7" resname="content__sidebar_right__reveal">
+        <source>Reveal</source>
+        <target xml:lang="fr" state="translated">Rendre visible</target>
+        <note>key: content__sidebar_right__reveal</note>
       </trans-unit>
       <trans-unit id="9445b360492505d3a8d7be4c316e2cc62f381e03" resname="content__sidebar_right__send_to_trash" approved="yes">
         <source>Send to Trash</source>
@@ -86,6 +96,11 @@
         <source>Save</source>
         <target xml:lang="fr" state="translated">Sauvegarder</target>
         <note>key: content_edit__sidebar_right__save_draft</note>
+      </trans-unit>
+      <trans-unit id="3b59d1cdd9c85ff781a3a442345bb648cc49dd31" resname="content_type__sidebar_right__edit">
+        <source>Edit</source>
+        <target xml:lang="fr" state="translated">Modifier</target>
+        <note>key: content_type__sidebar_right__edit</note>
       </trans-unit>
       <trans-unit id="750939fc55f9a3143db99bed66680e8646e029a0" resname="content_type_create__sidebar_right__cancel" approved="yes">
         <source>Discard changes</source>
@@ -340,6 +355,11 @@
         <target xml:lang="fr" state="translated">Corbeille</target>
         <note>key: sidebar_left__trash</note>
       </trans-unit>
+      <trans-unit id="af4736ff799291d6658545d0afb52240d7250cf3" resname="sidebar_left__tree">
+        <source>Content Tree</source>
+        <target xml:lang="fr" state="translated">Arborescence</target>
+        <note>key: sidebar_left__tree</note>
+      </trans-unit>
       <trans-unit id="ae876d2c3fdb4f08383aefae6106b69dfe124b38" resname="trash__sidebar_right__empty_trash" approved="yes">
         <source>Empty Trash</source>
         <target xml:lang="fr" state="translated">Vider la corbeille</target>
@@ -369,6 +389,19 @@
         <source>Logout</source>
         <target xml:lang="fr" state="translated">Déconnexion</target>
         <note>key: user__content</note>
+      </trans-unit>
+      <trans-unit id="22a2aa3863b8f6a0ab24403998badeb4bb196254" resname="user__drafts">
+        <source>Drafts</source>
+        <target xml:lang="fr" state="translated">Brouillons</target>
+        <note>key: user__drafts</note>
+      </trans-unit>
+      <trans-unit id="d4a0cfb90774164e94f11e2a4f019a2538faebcf" resname="user__settings">
+        <source>User Settings</source>
+        <target xml:lang="fr" state="translated">Paramètres utilisateur</target>
+        <note>key: user__settings</note>
+        <alt-trans>
+          <target xml:lang="fr">Paramètres d'utilisateur</target>
+        </alt-trans>
       </trans-unit>
       <trans-unit id="40679174821cfa2ce3d3a4dc046f0ef65df6f483" resname="user_create__sidebar_right__cancel" approved="yes">
         <source>Cancel</source>

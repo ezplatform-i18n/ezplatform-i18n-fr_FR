@@ -202,6 +202,11 @@
         <target xml:lang="fr" state="translated">Utilisateur Actuel</target>
         <note>key: field_definition.ezauthor.default_user_current</note>
       </trans-unit>
+      <trans-unit id="837d1179e58011e51733e1420a6f868f94fb9b16" resname="field_definition.ezauthor.default_user_empty">
+        <source>Empty</source>
+        <target xml:lang="fr" state="translated">Vide</target>
+        <note>key: field_definition.ezauthor.default_user_empty</note>
+      </trans-unit>
       <trans-unit id="41f781284e4bae2abbb6cfdf1126cc90b48dd35b" resname="field_definition.ezbinaryfile.max_file_size">
         <source>Maximum file size (MB)</source>
         <target xml:lang="fr" state="translated">Taille de fichier maximale (MB)</target>
@@ -293,6 +298,11 @@
         <source>Minimum value</source>
         <target xml:lang="fr" state="translated">Valeur minimale</target>
         <note>key: field_definition.ezfloat.min_value</note>
+      </trans-unit>
+      <trans-unit id="5b275c762831def3c6ea393e3e0c25762e0844b3" resname="field_definition.ezimage.max_file_size">
+        <source>Maximum file size (MB)</source>
+        <target xml:lang="fr" state="translated">Taille de fichier maximale (MB)</target>
+        <note>key: field_definition.ezimage.max_file_size</note>
       </trans-unit>
       <trans-unit id="8a95f664895f9c72e5ca52ea43908ad3d54c8966" resname="field_definition.ezinteger.default_value">
         <source>Default value</source>
@@ -500,6 +510,31 @@
         <source>Use seconds</source>
         <target xml:lang="fr" state="translated">Utiliser les secondes</target>
         <note>key: field_definition.eztime.use_seconds</note>
+      </trans-unit>
+      <trans-unit id="eee9fb58aa8da0feaa9ae51a29ef33fd13dd1f70" resname="field_definition.ezuser.min_length">
+        <source>Minimum password length</source>
+        <target xml:lang="fr" state="translated">Longueur minimale du mot de passe</target>
+        <note>key: field_definition.ezuser.min_length</note>
+      </trans-unit>
+      <trans-unit id="98c42f6735c213cd7c7580fdcc918aeec57920da" resname="field_definition.ezuser.require_at_least_one_lower_case_character">
+        <source>Password must contain at least one lowercase letter</source>
+        <target xml:lang="fr" state="translated">Le mot de passe doit contenir au moins 1 lettre minuscule</target>
+        <note>key: field_definition.ezuser.require_at_least_one_lower_case_character</note>
+      </trans-unit>
+      <trans-unit id="d694dab8e90b1f2b1a633c0f6ba200e66c18ce02" resname="field_definition.ezuser.require_at_least_one_non_alphanumeric_character">
+        <source>Password must contain at least one non-alphanumeric character</source>
+        <target xml:lang="fr" state="translated">Le mot de passe doit contenir au moins un caractère non alphanumérique</target>
+        <note>key: field_definition.ezuser.require_at_least_one_non_alphanumeric_character</note>
+      </trans-unit>
+      <trans-unit id="26cb6ab7ae7e190a9d8d8b0411512b531c8c42ff" resname="field_definition.ezuser.require_at_least_one_numeric_character">
+        <source>Password must contain at least one number</source>
+        <target xml:lang="fr" state="translated">Le mot de passe doit contenir au moins un chiffre</target>
+        <note>key: field_definition.ezuser.require_at_least_one_numeric_character</note>
+      </trans-unit>
+      <trans-unit id="5bac176749950e52e2499c099cc6fd83333b60df" resname="field_definition.ezuser.require_at_least_one_upper_case_character">
+        <source>Password must contain at least one uppercase letter</source>
+        <target xml:lang="fr" state="translated">Le mot de passe doit contenir au moins 1 lettre majuscule</target>
+        <note>key: field_definition.ezuser.require_at_least_one_upper_case_character</note>
       </trans-unit>
       <trans-unit id="92d9243bb9fac540233dc376b41a3bcd41615ccc" resname="field_definition.field_group" approved="yes">
         <source>Category</source>

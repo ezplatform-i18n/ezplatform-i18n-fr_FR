@@ -6,11 +6,31 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
+      <trans-unit id="cdb9db26c141c324d166ead3a0d15a1aaa76ab6f" resname="event.description.block">
+        <source>Block</source>
+        <target xml:lang="fr" state="translated">Bloc</target>
+        <note>key: event.description.block</note>
+      </trans-unit>
+      <trans-unit id="d8b3119657b27aba1cd1441c19867ace88adfa03" resname="event.description.date">
+        <source>Date</source>
+        <target xml:lang="fr" state="translated">Date</target>
+        <note>key: event.description.date</note>
+      </trans-unit>
+      <trans-unit id="72a430a9747ccc122d0d362a2d85bd9aff1858cf" resname="event.hide_block.title">
+        <source>Hide block</source>
+        <target xml:lang="fr" state="translated">Masquer le bloc</target>
+        <note>key: event.hide_block.title</note>
+      </trans-unit>
+      <trans-unit id="4ed8d3970d39af4bdd24bd15a6bb406fda63bd09" resname="event.reveal_block.title">
+        <source>Reveal block</source>
+        <target xml:lang="fr" state="translated">Révéler le bloc</target>
+        <note>key: event.reveal_block.title</note>
+      </trans-unit>
+      <trans-unit id="4795deb1e3cccc2572408602ff718b8f9efee4c1" resname="event.schedule_block.item_added.title">
+        <source>%contentTypeName% '%contentName%' added to block - %blockName%</source>
+        <target xml:lang="fr" state="translated">%contentTypeName% '%contentName%' ajouté au bloc - %blockName%</target>
+        <note>key: event.schedule_block.item_added.title</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -11,6 +11,11 @@
         <target xml:lang="fr" state="translated">Fermer</target>
         <note>key: config_popup.close.label</note>
       </trans-unit>
+      <trans-unit id="6eab7e919136479499cfa377b9f63bae39d22c54" resname="drop.block.here">
+        <source>drop.block.here</source>
+        <target xml:lang="fr" state="translated">Déposer les blocs ici</target>
+        <note>key: drop.block.here</note>
+      </trans-unit>
       <trans-unit id="36cdc651708919d9a830acb2c742b325fd23aeb5" resname="error.message">
         <source>error.message</source>
         <target xml:lang="fr" state="translated">Erreur</target>
