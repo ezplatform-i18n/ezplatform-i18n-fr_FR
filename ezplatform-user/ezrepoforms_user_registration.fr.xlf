@@ -6,15 +6,10 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="162598561536040cab3f1048f991da4edf838677" resname="user_change_password.change_password">
-        <source>Change Password</source>
-        <target xml:lang="fr" state="translated">Modifier mot de passe</target>
-        <note>key: user_change_password.change_password</note>
-      </trans-unit>
-      <trans-unit id="e929a5ca0e735e5a1da59d20d7448973af39392d" resname="user_change_password.title">
-        <source>Change my password</source>
-        <target xml:lang="fr" state="translated">Changer mon mot de passe</target>
-        <note>key: user_change_password.title</note>
+      <trans-unit id="745ed48e9eaf1a1a896e411a17317ccbda571d35" resname="user.register_button">
+        <source>Register</source>
+        <target xml:lang="fr" state="translated">S’inscrire</target>
+        <note>key: user.register_button</note>
       </trans-unit>
     </body>
   </file>

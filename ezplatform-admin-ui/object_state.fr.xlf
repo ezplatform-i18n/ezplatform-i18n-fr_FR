@@ -191,11 +191,6 @@
         <target xml:lang="fr" state="translated">Créer</target>
         <note>key: object_state_group.create.submit</note>
       </trans-unit>
-      <trans-unit id="0b3303ec319a0c482f87d38b1a422288d9f1712b" resname="object_state_group.create.success">
-        <source>Object state type group '%name%' created.</source>
-        <target xml:lang="fr" state="translated">Le groupe d'état d’objet «%name%» a été créé.</target>
-        <note>key: object_state_group.create.success</note>
-      </trans-unit>
       <trans-unit id="0f857d4dff9c8232ede300a39010d289d31c2937" resname="object_state_group.delete.bulk_delete.submit">
         <source>Delete Object State Group</source>
         <target xml:lang="fr" state="translated">Supprimer le groupe d'état d'objet</target>
@@ -205,11 +200,6 @@
         <source>Delete</source>
         <target xml:lang="fr" state="translated">Supprimer</target>
         <note>key: object_state_group.delete.submit</note>
-      </trans-unit>
-      <trans-unit id="f33647d41b6e4ddd150317c9ef8cf2b3bd8d8b4b" resname="object_state_group.delete.success">
-        <source>Object state type group '%name%' deleted.</source>
-        <target xml:lang="fr" state="translated">Le groupe d'état d’objet «%name%» a été supprimé.</target>
-        <note>key: object_state_group.delete.success</note>
       </trans-unit>
       <trans-unit id="940f19a907923467a0fc0084f21dc689a18ab804" resname="object_state_group.id">
         <source>ID</source>

@@ -121,6 +121,11 @@
         <target xml:lang="fr" state="translated">Tous les champs n'ont pa été configurés correctement. S'il vous plait, fournir une configuration correcte.</target>
         <note>key: invalid.fields</note>
       </trans-unit>
+      <trans-unit id="0a01e36bbd3d88beacae4e0c3b9f79d8523c2daa" resname="moved.field.data.not.exists">
+        <source>Moved field data does not exist!</source>
+        <target xml:lang="fr" state="translated">Les données du champ déplacé n'existent pas !</target>
+        <note>key: moved.field.data.not.exists</note>
+      </trans-unit>
       <trans-unit id="4ca91a461622421947258e5e7e305704088e4b7b" resname="no.fields.in.form">
         <source>There are no fields in this form. Create your form.</source>
         <target xml:lang="fr" state="translated">Il n'y a pas de champs dans ce formulaire. Créer votre formulaire.</target>

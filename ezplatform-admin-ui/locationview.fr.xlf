@@ -36,11 +36,6 @@
         <target xml:lang="fr" state="translated">Sélectionner une langue</target>
         <note>key: content.edit.select_language</note>
       </trans-unit>
-      <trans-unit id="e136be672df8eb27dc4eb2f1ce0650096090bf81" resname="content.hidden.message">
-        <source>This content item is hidden and is not publicly available</source>
-        <target xml:lang="fr" state="translated">Cet élément de contenu est caché et n'est pas accessible publiquement</target>
-        <note>key: content.hidden.message</note>
-      </trans-unit>
       <trans-unit id="9c91d85bc7658ec7dc6bbb07b720979177c0846a" resname="content.view.subitems">
         <source>Sub-items</source>
         <target xml:lang="fr" state="translated">Sous-éléments</target>
@@ -188,11 +183,6 @@
         <source>Content locations</source>
         <target xml:lang="fr" state="translated">Emplacements du contenu</target>
         <note>key: tab.locations.content_locations</note>
-      </trans-unit>
-      <trans-unit id="cd57f6ee339fa6c35e2a75cc760f391676fca490" resname="tab.locations.hidden_by_superior">
-        <source>Hidden by superior</source>
-        <target xml:lang="fr" state="translated">Masqué par un parent</target>
-        <note>key: tab.locations.hidden_by_superior</note>
       </trans-unit>
       <trans-unit id="64554d66c71f33e7d3ac52c75b17717c334ef9dd" resname="tab.locations.main">
         <source>Main</source>

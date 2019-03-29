@@ -41,6 +41,11 @@
         <target xml:lang="fr" state="translated">Mes Préférences</target>
         <note>key: section.my_preferences</note>
       </trans-unit>
+      <trans-unit id="befc3e49a7bee4547f8c720a0fbb9d03d0d3e265" resname="settings.datetime_format.preview_label">
+        <source><![CDATA[Date & Time will be displayed in this format:]]></source>
+        <target xml:lang="fr" state="translated"><![CDATA[Date et heure seront affichées dans ce format :]]></target>
+        <note>key: settings.datetime_format.preview_label</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>
