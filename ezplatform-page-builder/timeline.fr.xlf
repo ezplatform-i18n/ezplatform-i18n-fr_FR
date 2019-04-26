@@ -8,27 +8,27 @@
     <body>
       <trans-unit id="4ff3eb43aa4a55f256abee7ac4351dce58fa1685" resname="back_to_current_time.info.text">
         <source>Go back to current time</source>
-        <target xml:lang="fr" state="translated">Revenir à l’heure actuelle</target>
+        <target state="translated">Revenir à l’heure actuelle</target>
         <note>key: back_to_current_time.info.text</note>
       </trans-unit>
       <trans-unit id="258c0c6baf5618d7e07897b16e391bbfb59096d9" resname="back_to_current_time.warning.text">
         <source>Previewing content in the future</source>
-        <target xml:lang="fr" state="translated">Prévisualisation du contenu dans le futur</target>
+        <target state="translated">Prévisualisation du contenu dans le futur</target>
         <note>key: back_to_current_time.warning.text</note>
       </trans-unit>
       <trans-unit id="163cc65eb485b6e6ea486543f97f53e24d948b6f" resname="events_table.date.header">
         <source>Date</source>
-        <target xml:lang="fr" state="translated">Date</target>
+        <target state="translated">Date</target>
         <note>key: events_table.date.header</note>
       </trans-unit>
       <trans-unit id="bf431aa92c86e5f7ea95bbb43a667b847d58b611" resname="events_table.event.header">
         <source>Event</source>
-        <target xml:lang="fr" state="translated">Événement</target>
+        <target state="translated">Événement</target>
         <note>key: events_table.event.header</note>
       </trans-unit>
       <trans-unit id="ee97caad08c2e3308f12b9eb54f8e5e3464df2ab" resname="events_table.title">
         <source>Upcoming scheduled events</source>
-        <target xml:lang="fr" state="translated">Événements planifiés à venir</target>
+        <target state="translated">Événements planifiés à venir</target>
         <note>key: events_table.title</note>
       </trans-unit>
     </body>

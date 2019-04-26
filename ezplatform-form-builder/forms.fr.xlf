@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="0fd13c4496b1982032e93310dd72dd4f1213e7e7" resname="submission_remove_form.remove">
         <source>Remove submission</source>
-        <target xml:lang="fr" state="translated">Supprimer la soumission</target>
+        <target state="translated">Supprimer la soumission</target>
         <note>key: submission_remove_form.remove</note>
       </trans-unit>
     </body>

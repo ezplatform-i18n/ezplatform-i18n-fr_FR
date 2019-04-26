@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="259ee44a2294b34a9019a811dc70c5f8d190d622" resname="page_builder.mode.non_location_based.warning">
         <source>Previewed page is not based on a content item. Page Builder is working with limited set of features.</source>
-        <target xml:lang="fr" state="translated">L'aperçu de la page n'est pas basé sur du contenu. Le fonctionnement du constructeur de page est limité.</target>
+        <target state="translated">L'aperçu de la page n'est pas basé sur du contenu. Le fonctionnement du constructeur de page est limité.</target>
         <note>key: page_builder.mode.non_location_based.warning</note>
       </trans-unit>
     </body>

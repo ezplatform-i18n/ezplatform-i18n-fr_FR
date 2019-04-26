@@ -8,10 +8,10 @@
     <body>
       <trans-unit id="924826be1015d20c1f4524754c690e10935abaac" resname="ez.section.identifier.format" approved="yes">
         <source>ez.section.identifier.format</source>
-        <target xml:lang="fr" state="translated">Les identifiants de section ne peuvent contenir que les lettres "a" à "z", des chiffres et des blancs soulignés</target>
+        <target state="translated">Les identifiants de section ne peuvent contenir que les lettres "a" à "z", des chiffres et des blancs soulignés</target>
         <note>key: ez.section.identifier.format</note>
         <alt-trans>
-          <target xml:lang="fr">Mauvais format</target>
+          <target>Mauvais format</target>
         </alt-trans>
       </trans-unit>
     </body>

@@ -8,15 +8,15 @@
     <body>
       <trans-unit id="06869c8162f8a2914b5a5b10af189b8b0a532e7d" resname="language.form.delete" approved="yes">
         <source>Delete</source>
-        <target xml:lang="fr" state="translated">Supprimer</target>
+        <target state="translated">Supprimer</target>
         <note>key: language.form.delete</note>
       </trans-unit>
       <trans-unit id="f471f1ba7a9fddf9bcaf869218b35fe26147a4ab" resname="language.form.save" approved="yes">
         <source>Save</source>
-        <target xml:lang="fr" state="translated">Enregistrer</target>
+        <target state="translated">Enregistrer</target>
         <note>key: language.form.save</note>
         <alt-trans>
-          <target xml:lang="fr">Sauvegarder</target>
+          <target>Sauvegarder</target>
         </alt-trans>
       </trans-unit>
     </body>

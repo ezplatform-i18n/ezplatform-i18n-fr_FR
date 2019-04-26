@@ -8,17 +8,17 @@
     <body>
       <trans-unit id="80c3052d33ccdee15ffaaa110c5c39072495fe63" resname="Never">
         <source>Never</source>
-        <target xml:lang="fr" state="translated">Jamais</target>
+        <target state="translated">Jamais</target>
         <note>key: Never</note>
       </trans-unit>
       <trans-unit id="e3b82040565bb4be6b11f778a2e3df327ed20a3b" resname="Now">
         <source>Now</source>
-        <target xml:lang="fr" state="translated">Maintenant</target>
+        <target state="translated">Maintenant</target>
         <note>key: Now</note>
       </trans-unit>
       <trans-unit id="46aef6fc467bbe065bc8a91cab998a0bffd48ec1" resname="Set date">
         <source>Set date</source>
-        <target xml:lang="fr" state="translated">Définir la date</target>
+        <target state="translated">Définir la date</target>
         <note>key: Set date</note>
       </trans-unit>
     </body>

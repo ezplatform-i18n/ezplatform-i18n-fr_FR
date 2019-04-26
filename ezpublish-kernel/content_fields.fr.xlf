@@ -8,12 +8,12 @@
     <body>
       <trans-unit id="f337a8fd9042dbc4de8b5d305b6d8df3c0c374c4" resname="content-field.latitude.not_set">
         <source>Not set</source>
-        <target xml:lang="fr" state="translated">Non défini</target>
+        <target state="translated">Non défini</target>
         <note>key: content-field.latitude.not_set</note>
       </trans-unit>
       <trans-unit id="687973ca20983f27a99c50243e364e346c9c4814" resname="content-field.longitude.not_set">
         <source>Not set</source>
-        <target xml:lang="fr" state="translated">Non défini</target>
+        <target state="translated">Non défini</target>
         <note>key: content-field.longitude.not_set</note>
       </trans-unit>
     </body>

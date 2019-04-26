@@ -8,17 +8,17 @@
     <body>
       <trans-unit id="a70aa15d1cda488f82acf9c626bca931a53d01a2" resname="error.preview">
         <source>Cannot save content draft.</source>
-        <target xml:lang="fr" state="translated">Impossible d’enregistrer le brouillon.</target>
+        <target state="translated">Impossible d’enregistrer le brouillon.</target>
         <note>key: error.preview</note>
       </trans-unit>
       <trans-unit id="1aa787fe0cfb373575fc2c0f6f826e7c6dc9fd41" resname="preview">
         <source>Preview</source>
-        <target xml:lang="fr" state="translated">Aperçu</target>
+        <target state="translated">Aperçu</target>
         <note>key: preview</note>
       </trans-unit>
       <trans-unit id="4f8fad3c2cfe284942ebc83149ede92126ba2dc7" resname="previewing">
         <source>Previewing</source>
-        <target xml:lang="fr" state="translated">Aperçu</target>
+        <target state="translated">Aperçu</target>
         <note>key: previewing</note>
       </trans-unit>
     </body>

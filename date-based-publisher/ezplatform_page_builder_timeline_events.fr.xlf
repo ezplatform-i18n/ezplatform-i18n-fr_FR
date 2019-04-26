@@ -8,17 +8,17 @@
     <body>
       <trans-unit id="d8b3119657b27aba1cd1441c19867ace88adfa03" resname="event.description.date">
         <source>Date</source>
-        <target xml:lang="fr" state="translated">Date</target>
+        <target state="translated">Date</target>
         <note>key: event.description.date</note>
       </trans-unit>
       <trans-unit id="f0f107023aea2b3caba4d0cd820978c0aaf53754" resname="event.description.page">
         <source>Page</source>
-        <target xml:lang="fr" state="translated">Page</target>
+        <target state="translated">Page</target>
         <note>key: event.description.page</note>
       </trans-unit>
       <trans-unit id="335e24662b66f4afd0ef58d7a98afc0b1fc24059" resname="event.future_publication.title">
         <source>New version of %contentName% published</source>
-        <target xml:lang="fr" state="translated">Nouvelle version de %contentName% publiée</target>
+        <target state="translated">Nouvelle version de %contentName% publiée</target>
         <note>key: event.future_publication.title</note>
       </trans-unit>
     </body>

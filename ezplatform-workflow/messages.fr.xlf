@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="d21d07085caa55b0fee2fc054a6878bbdb24ae78" resname="breadcrumb.admin">
         <source>Admin</source>
-        <target xml:lang="fr" state="translated">Administration</target>
+        <target state="translated">Administration</target>
         <note>key: breadcrumb.admin</note>
       </trans-unit>
     </body>

@@ -8,12 +8,12 @@
     <body>
       <trans-unit id="920f6a0525d6ba93ff83f46e22baa981ff0b483c" resname="policy.limitation.identifier.workflowstage">
         <source>Workflow Stage</source>
-        <target xml:lang="fr" state="translated">Étape du Workflow</target>
+        <target state="translated">Étape du Workflow</target>
         <note>key: policy.limitation.identifier.workflowstage</note>
       </trans-unit>
       <trans-unit id="017b3370e919f545dbf4e889252c00419fde6fde" resname="policy.limitation.identifier.workflowtransition">
         <source>Workflow Transition</source>
-        <target xml:lang="fr" state="translated">Transition du Workflow</target>
+        <target state="translated">Transition du Workflow</target>
         <note>key: policy.limitation.identifier.workflowtransition</note>
       </trans-unit>
     </body>

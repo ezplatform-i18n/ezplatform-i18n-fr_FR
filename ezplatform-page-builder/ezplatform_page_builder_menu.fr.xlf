@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="68d3c56957f36f507e2c3deedaad40f75ba5f18e" resname="ezplatform_page_manager">
         <source>Page</source>
-        <target xml:lang="fr" state="translated">Page</target>
+        <target state="translated">Page</target>
         <note>key: ezplatform_page_manager</note>
       </trans-unit>
     </body>

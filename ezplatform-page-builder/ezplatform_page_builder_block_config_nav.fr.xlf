@@ -8,17 +8,17 @@
     <body>
       <trans-unit id="dcb7d5c604f93fdc65aa4b1ff853e8ed27237f45" resname="tab.label.basic">
         <source>Basic</source>
-        <target xml:lang="fr" state="translated">Paramètres de base</target>
+        <target state="translated">Paramètres de base</target>
         <note>key: tab.label.basic</note>
       </trans-unit>
       <trans-unit id="2d40f74124be77d408be57368842ef5e7bd64d98" resname="tab.label.design">
         <source>Design</source>
-        <target xml:lang="fr" state="translated">Mise en page</target>
+        <target state="translated">Mise en page</target>
         <note>key: tab.label.design</note>
       </trans-unit>
       <trans-unit id="cdea1f34eff224ab9592f83235d861466aaec351" resname="tab.label.scheduler">
         <source>Scheduler</source>
-        <target xml:lang="fr" state="translated">Planificateur</target>
+        <target state="translated">Planificateur</target>
         <note>key: tab.label.scheduler</note>
       </trans-unit>
     </body>

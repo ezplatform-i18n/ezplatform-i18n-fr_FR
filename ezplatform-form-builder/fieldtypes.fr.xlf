@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="d806b91f8d71c9ddae32c5a1d34d29b412956f91" resname="ezform.name">
         <source>Form</source>
-        <target xml:lang="fr" state="translated">Formulaire</target>
+        <target state="translated">Formulaire</target>
         <note>key: ezform.name</note>
       </trans-unit>
     </body>

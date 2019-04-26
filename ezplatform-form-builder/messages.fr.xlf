@@ -8,12 +8,12 @@
     <body>
       <trans-unit id="e41b61aeb61f481b5c3f88d51edfcc084e19a829" resname="Could not find Form Field with ID: '%identifier%'">
         <source>Could not find Form Field with ID: '%identifier%'</source>
-        <target xml:lang="fr" state="translated">Ne peut pas trouver le champs de formulaire avec ID : '%identifier%'</target>
+        <target state="translated">Ne peut pas trouver le champs de formulaire avec ID : '%identifier%'</target>
         <note>key: Could not find Form Field with ID: '%identifier%'</note>
       </trans-unit>
       <trans-unit id="7b55e8321d0ec85b5be8b034f35c4f809d174ba9" resname="Could not find Form for '%identifier%'">
         <source>Could not find Form for '%identifier%'</source>
-        <target xml:lang="fr" state="translated">Ne peut pas trouver le formulaire pour '%identifier%'</target>
+        <target state="translated">Ne peut pas trouver le formulaire pour '%identifier%'</target>
         <note>key: Could not find Form for '%identifier%'</note>
       </trans-unit>
     </body>

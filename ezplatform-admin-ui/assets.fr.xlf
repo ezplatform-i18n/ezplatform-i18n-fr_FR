@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="aba90860c7115fd786796930267c78c815b93f25" resname="asset.upload.invalid_csrf">
         <source>Missing or invalid CSRF token</source>
-        <target xml:lang="fr" state="translated">Jeton CSRF manquant ou non valide</target>
+        <target state="translated">Jeton CSRF manquant ou non valide</target>
         <note>key: asset.upload.invalid_csrf</note>
       </trans-unit>
     </body>

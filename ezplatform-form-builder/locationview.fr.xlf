@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="c0d915b4d6c0c0a37ea56a81c91f1b8e4ab0f6bb" resname="tab.name.submissions">
         <source>Submissions</source>
-        <target xml:lang="fr" state="translated">Soumissions</target>
+        <target state="translated">Soumissions</target>
         <note>key: tab.name.submissions</note>
       </trans-unit>
     </body>

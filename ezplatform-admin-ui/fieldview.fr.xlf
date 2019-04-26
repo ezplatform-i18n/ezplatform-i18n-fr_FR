@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="977cb55c24b1708d46ccbd753c2cea745976ae21" resname="fieldview.field.empty">
         <source>This field is empty</source>
-        <target xml:lang="fr" state="translated">Ce champ est vide</target>
+        <target state="translated">Ce champ est vide</target>
         <note>key: fieldview.field.empty</note>
       </trans-unit>
     </body>

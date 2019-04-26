@@ -6,144 +6,164 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="35e03083bfdfafc073cf343c74385bec3945b4ac" resname="bulk_delete.error.message">
+        <source>%notDeletedCount% of the %totalCount% selected item(s) could not be deleted because you do not have proper user permissions. {{ moreInformationLink }} Please contact your Administrator to obtain permissions.</source>
+        <target state="translated">%notDeletedCount% sur %totalCount% éléments sélectionnés n’ont pas pu être supprimés, car vous n’avez pas les autorisations nécessaires. {{ moreInformationLink }} Veuillez contacter votre Administrateur pour obtenir les autorisations.</target>
+        <note>key: bulk_delete.error.message</note>
+      </trans-unit>
       <trans-unit id="23c9d6861623cc0b2f5f454afa841f1e368123cc" resname="bulk_delete.error.modal.table_title">
         <source>Content item(s) cannot be sent to trash (%itemsCount%)</source>
-        <target xml:lang="fr" state="translated">Les éléments de contenu ne peuvent pas être envoyés à la corbeille (%itemsCount%)</target>
+        <target state="translated">Les éléments de contenu ne peuvent pas être envoyés à la corbeille (%itemsCount%)</target>
         <note>key: bulk_delete.error.modal.table_title</note>
       </trans-unit>
       <trans-unit id="c1ffafa700d4b0ba80a626363f9dfe853571e080" resname="bulk_delete.error.more_info">
         <source><![CDATA[<u><a class='ez-notification-btn ez-notification-btn--show-modal'>Click here for more information.</a></u><br>]]></source>
-        <target xml:lang="fr" state="needs-translation"><![CDATA[<br>]]></target>
+        <target state="translated"><![CDATA[<u><a class='ez-notification-btn ez-notification-btn--show-modal'>Cliquez ici pour plus d'informations.</a></u><br>]]></target>
         <note>key: bulk_delete.error.more_info</note>
       </trans-unit>
       <trans-unit id="410f2ebb276d839b6606da042d0327a32e949093" resname="bulk_delete.popup.cancel">
         <source>Cancel</source>
-        <target xml:lang="fr" state="translated">Annuler</target>
+        <target state="translated">Annuler</target>
         <note>key: bulk_delete.popup.cancel</note>
       </trans-unit>
       <trans-unit id="a668a561527cc0e3e2c7952fbf300558d9d4f877" resname="bulk_delete.popup.confirm">
         <source>Send to trash</source>
-        <target xml:lang="fr" state="translated">Envoyer à la corbeille</target>
+        <target state="translated">Envoyer à la corbeille</target>
         <note>key: bulk_delete.popup.confirm</note>
       </trans-unit>
       <trans-unit id="02d93b03435046c6bcf08ce15ae7970f7ff8f746" resname="bulk_delete.popup.message">
         <source>Are you sure you want to send the selected content item(s) to trash?</source>
-        <target xml:lang="fr" state="translated">Êtes-vous sûr de vouloir envoyer les éléments sélectionnés à la corbeille?</target>
+        <target state="translated">Êtes-vous sûr de vouloir envoyer les éléments sélectionnés à la corbeille?</target>
         <note>key: bulk_delete.popup.message</note>
       </trans-unit>
       <trans-unit id="684c07e2248d815e6eb6bc3f92d3cd49c6952cbe" resname="bulk_delete.success.message">
         <source>The selected content item(s) have been sent to trash</source>
-        <target xml:lang="fr" state="translated">Les éléments de contenu sélectionnés ont été envoyés à la corbeille</target>
+        <target state="translated">Les éléments de contenu sélectionnés ont été envoyés à la corbeille</target>
         <note>key: bulk_delete.success.message</note>
+      </trans-unit>
+      <trans-unit id="364a3498e021163497d9110380736b876beb326f" resname="bulk_move.error.message">
+        <source>%notMovedCount% of the %totalCount% selected item(s) could not be moved because you do not have proper user permissions. {{ moreInformationLink }} Please contact your Administrator to obtain permissions.</source>
+        <target state="translated">%notMovedCount% sur %totalCount% éléments sélectionnés n’ont pas pu être déplacés car vous n’avez pas les autorisations nécessaires. {{ moreInformationLink }} Veuillez contacter votre Administrateur pour obtenir les autorisations.</target>
+        <note>key: bulk_move.error.message</note>
       </trans-unit>
       <trans-unit id="44a971e3ea91b95b9fbbd596f54ca632ef0865d4" resname="bulk_move.error.modal.table_title">
         <source>Content items cannot be moved (%itemsCount%)</source>
-        <target xml:lang="fr" state="translated">Les éléments de contenu ne peuvent pas être déplacés (%itemsCount%)</target>
+        <target state="translated">Les éléments de contenu ne peuvent pas être déplacés (%itemsCount%)</target>
         <note>key: bulk_move.error.modal.table_title</note>
       </trans-unit>
       <trans-unit id="704ee7a643332c4112613751caaf764496b8c5ac" resname="bulk_move.error.more_info">
         <source><![CDATA[<u><a class='ez-notification-btn ez-notification-btn--show-modal'>Click here for more information.</a></u><br>]]></source>
-        <target xml:lang="fr" state="needs-translation"><![CDATA[<br>]]></target>
+        <target state="translated"><![CDATA[<u><a class='ez-notification-btn ez-notification-btn--show-modal'>Cliquez ici pour plus d'informations.</a></u><br>]]></target>
         <note>key: bulk_move.error.more_info</note>
+      </trans-unit>
+      <trans-unit id="a1944f6944ef07fd9c744119c970b32ad6085954" resname="bulk_move.success.link_to_location">
+        <source><![CDATA[<u><a href='%locationHref%'>%locationName%</a></u>]]></source>
+        <target state="translated"><![CDATA[<u><a href='%locationHref%'>%locationName%</a></u>]]></target>
+        <note>key: bulk_move.success.link_to_location</note>
+      </trans-unit>
+      <trans-unit id="ac326404ff958f8e3fa903df5750024602b812de" resname="bulk_move.success.message">
+        <source>The selected content item(s) have been sent to {{ locationLink }}</source>
+        <target state="translated">Les éléments de contenu sélectionnés ont été envoyés à {{ locationLink }}</target>
+        <note>key: bulk_move.success.message</note>
       </trans-unit>
       <trans-unit id="93850319ec8e493cc4d0b8bb1ae2a87cdf26d3d6" resname="bulk_request.error.message">
         <source>An unexpected error occurred while deleting the content item(s). Please try again later.</source>
-        <target xml:lang="fr" state="translated">Une erreur inattendue s'est produite lors de la suppression du ou des éléments de contenu. Veuillez réessayer plus tard.</target>
+        <target state="translated">Une erreur inattendue s'est produite lors de la suppression du ou des éléments de contenu. Veuillez réessayer plus tard.</target>
         <note>key: bulk_request.error.message</note>
       </trans-unit>
       <trans-unit id="e95c7e2e8f7a1a4bb1f64cc48ca2eae0b0af78b6" resname="content_type.not_available.label">
         <source>N/A</source>
-        <target xml:lang="fr" state="translated">N/A</target>
+        <target state="translated">N/A</target>
         <note>key: content_type.not_available.label</note>
       </trans-unit>
       <trans-unit id="5e1792d4a193550fe8afd9a4be6d0a8c3f6596e9" resname="edit_item_btn.label">
         <source>Edit</source>
-        <target xml:lang="fr" state="translated">Modifier</target>
+        <target state="translated">Modifier</target>
         <note>key: edit_item_btn.label</note>
       </trans-unit>
       <trans-unit id="2a9e4002be191374ee14674d2e67eb9fe2d631d2" resname="items_list.title">
         <source>Sub-items</source>
-        <target xml:lang="fr" state="translated">Sous-élements</target>
+        <target state="translated">Sous-élements</target>
         <note>key: items_list.title</note>
       </trans-unit>
       <trans-unit id="a72b23e13c6c44cfd6fc6661f83bc0b5e7c8a90c" resname="items_table.header.content_type">
         <source>Content type</source>
-        <target xml:lang="fr" state="translated">Type</target>
+        <target state="translated">Type</target>
         <note>key: items_table.header.content_type</note>
       </trans-unit>
       <trans-unit id="8f1583d031a1cc60061659b8a55291496f0a40c6" resname="items_table.header.modified">
         <source>Modified</source>
-        <target xml:lang="fr" state="translated">Modifié</target>
+        <target state="translated">Modifié</target>
         <note>key: items_table.header.modified</note>
       </trans-unit>
       <trans-unit id="2527737a2f92308589f03f3b73fed29ef744eb50" resname="items_table.header.name">
         <source>Name</source>
-        <target xml:lang="fr" state="translated">Nom</target>
+        <target state="translated">Nom</target>
         <note>key: items_table.header.name</note>
       </trans-unit>
       <trans-unit id="ee6e79244a03c8adceb13aa6a7aff2cb496cb9d0" resname="items_table.header.priority">
         <source>Priority</source>
-        <target xml:lang="fr" state="translated">Priorité</target>
+        <target state="translated">Priorité</target>
         <note>key: items_table.header.priority</note>
       </trans-unit>
       <trans-unit id="2efb1da52dd6f25dd90474e85b5c73761adb4183" resname="items_table.header.translations">
         <source>Translations</source>
-        <target xml:lang="fr" state="translated">Traductions</target>
+        <target state="translated">Traductions</target>
         <note>key: items_table.header.translations</note>
       </trans-unit>
       <trans-unit id="b8c369db292d50595af6db4380326dbdf549bc4b" resname="load_content_items.invalid_response_format.error.message">
         <source>Invalid response format</source>
-        <target xml:lang="fr" state="translated">Format de réponse non valide</target>
+        <target state="translated">Format de réponse non valide</target>
         <note>key: load_content_items.invalid_response_format.error.message</note>
       </trans-unit>
       <trans-unit id="e3c395cec9466f06c8f2f3f4b2bfcd9021537714" resname="move_btn.label">
         <source>Move selected items</source>
-        <target xml:lang="fr" state="translated">Déplacer les éléments sélectionnés</target>
+        <target state="translated">Déplacer les éléments sélectionnés</target>
         <note>key: move_btn.label</note>
       </trans-unit>
       <trans-unit id="276a7024903672cd0476c82ba8845453e13db95e" resname="no_items.message">
         <source>This location has no sub-items</source>
-        <target xml:lang="fr" state="translated">Cet emplacement n'a pas de sous-éléments</target>
+        <target state="translated">Cet emplacement n'a pas de sous-éléments</target>
         <note>key: no_items.message</note>
       </trans-unit>
       <trans-unit id="a0e2bd4beeb6680ff81add5686bbf2ee9b8ad0ca" resname="page.loading_error.message">
         <source>An error occurred while loading items in the Sub Items module</source>
-        <target xml:lang="fr" state="translated">Une erreur est survenue lors du chargement de la liste des sous-éléments</target>
+        <target state="translated">Une erreur est survenue lors du chargement de la liste des sous-éléments</target>
         <note>key: page.loading_error.message</note>
       </trans-unit>
       <trans-unit id="af3bcdfcdcd33a16838a6f2b88c845c92fcb0938" resname="pagination.back">
         <source>Back</source>
-        <target xml:lang="fr" state="translated">Précédent</target>
+        <target state="translated">Précédent</target>
         <note>key: pagination.back</note>
       </trans-unit>
       <trans-unit id="b10157de76c0f57fa166904d97c06336e10559ca" resname="pagination.next">
         <source>Next</source>
-        <target xml:lang="fr" state="translated">Suivant</target>
+        <target state="translated">Suivant</target>
         <note>key: pagination.next</note>
       </trans-unit>
       <trans-unit id="af207d1e719904a39524b34212a1ea6116cb3d46" resname="switch_to_grid_view.btn.label">
         <source>View as grid</source>
-        <target xml:lang="fr" state="translated">Voir sous forme de grille</target>
+        <target state="translated">Voir sous forme de grille</target>
         <note>key: switch_to_grid_view.btn.label</note>
       </trans-unit>
       <trans-unit id="b5bfcc24141601264b6c03972d8e45bbb7c49a09" resname="switch_to_list_view.btn.label">
         <source>View as list</source>
-        <target xml:lang="fr" state="translated">Voir sous forme de liste</target>
+        <target state="translated">Voir sous forme de liste</target>
         <note>key: switch_to_list_view.btn.label</note>
       </trans-unit>
       <trans-unit id="11b5de206f496e357ede3c3798b8e113c2946a60" resname="trash_btn.label">
         <source>Delete selected items</source>
-        <target xml:lang="fr" state="translated">Supprimer les éléments sélectionnés</target>
+        <target state="translated">Supprimer les éléments sélectionnés</target>
         <note>key: trash_btn.label</note>
       </trans-unit>
       <trans-unit id="cd8466f8e727278543a7e1ded7f3a0c67243c276" resname="udw.choose_location.title">
         <source>Choose location</source>
-        <target xml:lang="fr" state="translated">Choisir un emplacement</target>
+        <target state="translated">Choisir un emplacement</target>
         <note>key: udw.choose_location.title</note>
       </trans-unit>
       <trans-unit id="5ae5a511a5c344781ad0caa53efe7b33429c6132" resname="viewing_message">
         <source><![CDATA[Viewing <strong>%viewingCount%</strong> out of <strong>%totalCount%</strong> sub-items]]></source>
-        <target xml:lang="fr" state="translated"><![CDATA[Affichage de <strong>%viewingCount%</strong> éléments sur <strong>%totalCount%</strong>]]></target>
+        <target state="translated"><![CDATA[Affichage de <strong>%viewingCount%</strong> éléments sur <strong>%totalCount%</strong>]]></target>
         <note>key: viewing_message</note>
       </trans-unit>
     </body>

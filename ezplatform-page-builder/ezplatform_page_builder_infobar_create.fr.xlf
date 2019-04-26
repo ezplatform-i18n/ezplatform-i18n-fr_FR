@@ -8,12 +8,12 @@
     <body>
       <trans-unit id="615b833e43b4a5cd73af91d4bb8347a9c7c9828d" resname="context.creating_new_landing_page">
         <source>Creating new Landing Page</source>
-        <target xml:lang="fr" state="translated">Création d'une nouvelle page de renvoi</target>
+        <target state="translated">Création d'une nouvelle page de renvoi</target>
         <note>key: context.creating_new_landing_page</note>
       </trans-unit>
       <trans-unit id="b8a74ee93a78609c69343a3667b60bac64dc1d04" resname="infobar.mode.preview_language">
         <source>Language</source>
-        <target xml:lang="fr" state="translated">Langue</target>
+        <target state="translated">Langue</target>
         <note>key: infobar.mode.preview_language</note>
       </trans-unit>
     </body>

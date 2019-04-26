@@ -8,102 +8,102 @@
     <body>
       <trans-unit id="4469ef580653e092258a59f262e526230903fd7a" resname="airtime_popup.discard.btn">
         <source>Discard</source>
-        <target xml:lang="fr" state="translated">Annuler</target>
+        <target state="translated">Annuler</target>
         <note>key: airtime_popup.discard.btn</note>
       </trans-unit>
       <trans-unit id="ab252a2b69fb6f158ae38d8eb8c0d3e9d9a1635a" resname="airtime_popup.submit.btn">
         <source>Submit</source>
-        <target xml:lang="fr" state="translated">Valider</target>
+        <target state="translated">Valider</target>
         <note>key: airtime_popup.submit.btn</note>
       </trans-unit>
       <trans-unit id="9717fa924c93123aa1f57b01a3e231670d690052" resname="airtime_popup.title">
         <source>Content airtime settings</source>
-        <target xml:lang="fr" state="translated">Paramètres de temps d’antenne du contenu</target>
+        <target state="translated">Paramètres de temps d’antenne du contenu</target>
         <note>key: airtime_popup.title</note>
       </trans-unit>
       <trans-unit id="dfbc84f747379ac08358ac78f5756d91dc9dd715" resname="config_form.block_config.embed_field_base.udw.title">
         <source>Browse content</source>
-        <target xml:lang="fr" state="translated">Parcourir le contenu</target>
+        <target state="translated">Parcourir le contenu</target>
         <note>key: config_form.block_config.embed_field_base.udw.title</note>
       </trans-unit>
       <trans-unit id="1cea3c1fab7233ec7948b0aa22fb3e45643b7a9a" resname="config_form.widgets.collection.udw.title">
         <source>Select content</source>
-        <target xml:lang="fr" state="translated">Sélectionner des contenus</target>
+        <target state="translated">Sélectionner des contenus</target>
         <note>key: config_form.widgets.collection.udw.title</note>
       </trans-unit>
       <trans-unit id="0b4c883fbcdbb12f3612d374db26c3303757640a" resname="config_form.widgets.schedule.udw.title">
         <source>Select content</source>
-        <target xml:lang="fr" state="translated">Sélectionner des contenus</target>
+        <target state="translated">Sélectionner des contenus</target>
         <note>key: config_form.widgets.schedule.udw.title</note>
       </trans-unit>
       <trans-unit id="5a88a93c8b1cd819dc183fcd3b252b24acbe487b" resname="config_popup.close.label">
         <source>Close</source>
-        <target xml:lang="fr" state="translated">Fermer</target>
+        <target state="translated">Fermer</target>
         <note>key: config_popup.close.label</note>
       </trans-unit>
       <trans-unit id="195a806c1a0668adbea700cd92ec432cd9e08854" resname="date_picker.label">
         <source><![CDATA[Date & Time]]></source>
-        <target xml:lang="fr" state="translated"><![CDATA[Date et heure]]></target>
+        <target state="translated"><![CDATA[Date et heure]]></target>
         <note>key: date_picker.label</note>
       </trans-unit>
       <trans-unit id="6eab7e919136479499cfa377b9f63bae39d22c54" resname="drop.block.here">
         <source>Drop block here</source>
-        <target xml:lang="fr" state="translated">Déposer le bloc ici</target>
+        <target state="translated">Déposer le bloc ici</target>
         <note>key: drop.block.here</note>
       </trans-unit>
       <trans-unit id="602346fbb59fa13321388beb02c3ac56122fd318" resname="drop.blocks.here">
         <source>Drop blocks here</source>
-        <target xml:lang="fr" state="translated">Déposer les blocs ici</target>
+        <target state="translated">Déposer les blocs ici</target>
         <note>key: drop.blocks.here</note>
       </trans-unit>
       <trans-unit id="79bf5a9df7f033c0b853263adb274a8045791ab0" resname="empty_block.info.text">
         <source>%name% block</source>
-        <target xml:lang="fr" state="translated">Bloc %name%</target>
+        <target state="translated">Bloc %name%</target>
         <note>key: empty_block.info.text</note>
       </trans-unit>
       <trans-unit id="36cdc651708919d9a830acb2c742b325fd23aeb5" resname="error.message">
         <source>Something went wrong</source>
-        <target xml:lang="fr" state="translated">Une erreur s'est produite</target>
+        <target state="translated">Une erreur s'est produite</target>
         <note>key: error.message</note>
       </trans-unit>
       <trans-unit id="4a59666b61e8dc389b7390ad051bb8ef705ae1e4" resname="fieldtype.landing_page.missing_proper_configuration.error.message">
         <source>Some blocks are missing proper configuration</source>
-        <target xml:lang="fr" state="translated">Certains blocs n'ont pas une configuration correcte</target>
+        <target state="translated">Certains blocs n'ont pas une configuration correcte</target>
         <note>key: fieldtype.landing_page.missing_proper_configuration.error.message</note>
       </trans-unit>
       <trans-unit id="9883bd31212048bc2352b92dcc30b541e6eac5b5" resname="layout_selector.close.label">
         <source>Close</source>
-        <target xml:lang="fr" state="translated">Fermer</target>
+        <target state="translated">Fermer</target>
         <note>key: layout_selector.close.label</note>
       </trans-unit>
       <trans-unit id="d261894808d96929e7ff95449a433021cb9476ec" resname="layout_selector.create.confirm.label">
         <source>Create</source>
-        <target xml:lang="fr" state="translated">Créer</target>
+        <target state="translated">Créer</target>
         <note>key: layout_selector.create.confirm.label</note>
       </trans-unit>
       <trans-unit id="cacca78c6c00e60e652f42e41b6c404d76548a59" resname="layout_selector.create.title">
         <source>Page creation</source>
-        <target xml:lang="fr" state="translated">Création de la page</target>
+        <target state="translated">Création de la page</target>
         <note>key: layout_selector.create.title</note>
       </trans-unit>
       <trans-unit id="4a825e3c6cecb70c8488d232e887a76396c53022" resname="layout_selector.switch.confirm.label">
         <source>Submit</source>
-        <target xml:lang="fr" state="translated">Envoyer</target>
+        <target state="translated">Envoyer</target>
         <note>key: layout_selector.switch.confirm.label</note>
       </trans-unit>
       <trans-unit id="e62232514d32c4702bff65aff020543ecfa920dc" resname="layout_selector.switch.title">
         <source>Switch layout</source>
-        <target xml:lang="fr" state="translated">Changer la disposition</target>
+        <target state="translated">Changer la disposition</target>
         <note>key: layout_selector.switch.title</note>
       </trans-unit>
       <trans-unit id="3757c8d49f2f414947ad6e44afc53498b4474d55" resname="sidebar.title">
         <source>Elements</source>
-        <target xml:lang="fr" state="translated">Éléments</target>
+        <target state="translated">Éléments</target>
         <note>key: sidebar.title</note>
       </trans-unit>
       <trans-unit id="720578005f4f9df5991d84e11d283389de3f5801" resname="switch_layout.label">
         <source>Switch layout</source>
-        <target xml:lang="fr" state="translated">Changer la disposition</target>
+        <target state="translated">Changer la disposition</target>
         <note>key: switch_layout.label</note>
       </trans-unit>
     </body>

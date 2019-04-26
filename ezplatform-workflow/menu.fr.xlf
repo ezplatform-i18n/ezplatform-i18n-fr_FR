@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="2b838fc25a23cbfee0679e39a202f2bc63c41996" resname="main__admin__workflow">
         <source>Workflow</source>
-        <target xml:lang="fr" state="translated">Workflow</target>
+        <target state="translated">Workflow</target>
         <note>key: main__admin__workflow</note>
       </trans-unit>
     </body>

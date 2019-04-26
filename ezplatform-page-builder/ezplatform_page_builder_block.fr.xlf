@@ -8,12 +8,12 @@
     <body>
       <trans-unit id="7bfef54619593ae2fe5dc3f47da88df13a888f32" resname="common.content_unavailable">
         <source>Selected Content is deleted or unavailable.</source>
-        <target xml:lang="fr" state="translated">Le contenu sélectionné est supprimé ou indisponible.</target>
+        <target state="translated">Le contenu sélectionné est supprimé ou indisponible.</target>
         <note>key: common.content_unavailable</note>
       </trans-unit>
       <trans-unit id="106df4dc953df10cee4ddc93d7f0665d42d0cbe4" resname="general.render_error">
         <source>Block %name% couldn't be rendered due to internal error.</source>
-        <target xml:lang="fr" state="translated">Le bloc %name% n'a pas pu être rendu en raison d'une erreur interne.</target>
+        <target state="translated">Le bloc %name% n'a pas pu être rendu en raison d'une erreur interne.</target>
         <note>key: general.render_error</note>
       </trans-unit>
     </body>

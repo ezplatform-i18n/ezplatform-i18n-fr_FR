@@ -8,32 +8,32 @@
     <body>
       <trans-unit id="5545db232bd86319ec49973648fb5d0efa6794ad" resname="notification_email.data.empty">
         <source>-</source>
-        <target xml:lang="fr" state="translated">-</target>
+        <target state="translated">-</target>
         <note>key: notification_email.data.empty</note>
       </trans-unit>
       <trans-unit id="5e3b0ae0b553effddeea6f015e2803051524b41f" resname="notification_email.data.header.field">
         <source>Field</source>
-        <target xml:lang="fr" state="translated">Champ </target>
+        <target state="translated">Champ </target>
         <note>key: notification_email.data.header.field</note>
       </trans-unit>
       <trans-unit id="0708883c26c814ed9479845117b9fc1bf1b077b8" resname="notification_email.data.header.value">
         <source>Value</source>
-        <target xml:lang="fr" state="translated">Valeur</target>
+        <target state="translated">Valeur</target>
         <note>key: notification_email.data.header.value</note>
       </trans-unit>
       <trans-unit id="bd6a4a6eaa2ac888c71c224b7f0bc6e732fa04e9" resname="notification_email.header">
         <source>New %name% form submission</source>
-        <target xml:lang="fr" state="translated">Nouvelle soumission pour le formulaire %name%</target>
+        <target state="translated">Nouvelle soumission pour le formulaire %name%</target>
         <note>key: notification_email.header</note>
       </trans-unit>
       <trans-unit id="c4c1eef54c552362a25b3666b0dbda46349ad7ad" resname="notification_email.header.created_at">
         <source>Send at %datetime% </source>
-        <target xml:lang="fr" state="translated">Envoyer à %datetime% </target>
+        <target state="translated">Envoyer à %datetime% </target>
         <note>key: notification_email.header.created_at</note>
       </trans-unit>
       <trans-unit id="9ae7ee329319310387b096b199936c8bd2ccd89a" resname="notification_email.subject">
         <source>New %name% form submission</source>
-        <target xml:lang="fr" state="translated">Nouvelle soumission pour le formulaire %name%</target>
+        <target state="translated">Nouvelle soumission pour le formulaire %name%</target>
         <note>key: notification_email.subject</note>
       </trans-unit>
     </body>

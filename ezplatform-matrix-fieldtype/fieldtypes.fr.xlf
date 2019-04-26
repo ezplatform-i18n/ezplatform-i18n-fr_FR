@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="9b320b4900667da4bd9353127c1f70114587bec4" resname="ezmatrix.name">
         <source>Matrix</source>
-        <target xml:lang="fr" state="translated">Matrix</target>
+        <target state="translated">Matrix</target>
         <note>key: ezmatrix.name</note>
       </trans-unit>
     </body>

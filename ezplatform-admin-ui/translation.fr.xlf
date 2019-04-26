@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="e4b8188e898e654dae14fc6b18133958f8e56084" resname="translation.remove.success">
         <source>Translation '%languageCode%' removed from content '%name%'.</source>
-        <target xml:lang="fr" state="translated">La traduction «%languageCode%» a été retirée du contenu «%name% ».</target>
+        <target state="translated">La traduction «%languageCode%» a été retirée du contenu «%name% ».</target>
         <note>key: translation.remove.success</note>
       </trans-unit>
     </body>

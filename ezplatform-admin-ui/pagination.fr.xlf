@@ -8,17 +8,17 @@
     <body>
       <trans-unit id="0173399db18eb7fe3a297f66fac4bf3a98378733" resname="pagination.next_message">
         <source>Next</source>
-        <target xml:lang="fr" state="translated">Suivant</target>
+        <target state="translated">Suivant</target>
         <note>key: pagination.next_message</note>
       </trans-unit>
       <trans-unit id="ccf59d9760c08875a8b87b5fac62105841415c40" resname="pagination.prev_message">
         <source>Back</source>
-        <target xml:lang="fr" state="translated">Précédent</target>
+        <target state="translated">Précédent</target>
         <note>key: pagination.prev_message</note>
       </trans-unit>
       <trans-unit id="663d5cd498c0849675ac4fd684d4270a1a3f1acb" resname="pagination.viewing">
         <source><![CDATA[Viewing <strong>%viewing%</strong> out of <strong>%total%</strong> items]]></source>
-        <target xml:lang="fr" state="translated"><![CDATA[Affichage de <strong>%viewing%</strong> éléments sur <strong>%total%</strong>]]></target>
+        <target state="translated"><![CDATA[Affichage de <strong>%viewing%</strong> éléments sur <strong>%total%</strong>]]></target>
         <note>key: pagination.viewing</note>
       </trans-unit>
     </body>

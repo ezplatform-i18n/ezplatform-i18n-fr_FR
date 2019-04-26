@@ -8,17 +8,17 @@
     <body>
       <trans-unit id="5022ce879be6a69956541173bf658dccff5d7280" resname="tab.translations.add.base_language">
         <source>Base this translation on an existing translation</source>
-        <target xml:lang="fr" state="translated">Baser cette traduction sur une version existante</target>
+        <target state="translated">Baser cette traduction sur une version existante</target>
         <note>key: tab.translations.add.base_language</note>
       </trans-unit>
       <trans-unit id="c22e9f75640384f917cc76e6736b3a6e91d70f1d" resname="tab.translations.add.cancel">
         <source>Cancel</source>
-        <target xml:lang="fr" state="translated">Annuler</target>
+        <target state="translated">Annuler</target>
         <note>key: tab.translations.add.cancel</note>
       </trans-unit>
       <trans-unit id="2d1ceec2bfb85db323e21e358b6be6aad547e1d0" resname="tab.translations.add.title">
         <source>Create new translation</source>
-        <target xml:lang="fr" state="translated">Créer nouvelle traduction</target>
+        <target state="translated">Créer nouvelle traduction</target>
         <note>key: tab.translations.add.title</note>
       </trans-unit>
     </body>

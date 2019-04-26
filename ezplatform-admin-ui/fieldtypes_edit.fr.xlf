@@ -8,12 +8,12 @@
     <body>
       <trans-unit id="dc2dfb4a937fee7119e733e0b6715a09320d5078" resname="ezimageasset.create.message.error">
         <source>Error while creating image asset: %error%</source>
-        <target xml:lang="fr" state="translated">Erreur lors de la création de l’image : %error%</target>
+        <target state="translated">Erreur lors de la création de l’image : %error%</target>
         <note>key: ezimageasset.create.message.error</note>
       </trans-unit>
       <trans-unit id="56d1cc1d279fa173f9f73ab42a61df985aeb5b0c" resname="ezimageasset.create.message.success">
         <source>Image has been published and can now be reused</source>
-        <target xml:lang="fr" state="translated">L'image a été publiée et peut maintenant être réutilisée</target>
+        <target state="translated">L'image a été publiée et peut maintenant être réutilisée</target>
         <note>key: ezimageasset.create.message.success</note>
       </trans-unit>
     </body>
