@@ -45,22 +45,10 @@
                 veuillez planifier une mise à jour. Si vous avez besoin d’aide, n’hésitez pas à <a target="_blank" href="%contact_url%">contacter eZ</a>.]]></target>
         <note>key: dashboard.ez_version.end_of_life_upgrade</note>
       </trans-unit>
-      <trans-unit id="d620cc5d1f36ef74cbf6c042e07c0ad89bf47d9f" resname="dashboard.ez_version.end_of_maintenance">
+      <trans-unit id="d620cc5d1f36ef74cbf6c042e07c0ad89bf47d9f" resname="dashboard.ez_version.trial_end_of_maintenance">
         <source>Your trial period is coming to an end.</source>
         <target state="translated">Votre période d’essai touche à sa fin.</target>
-        <note>key: dashboard.ez_version.end_of_maintenance</note>
-      </trans-unit>
-      <trans-unit id="7b47468c70176c3f6c78ca0e29b1378e2685d2e1" resname="dashboard.ez_version.end_of_maintenance_contanct">
-        <source><![CDATA[<a target="_blank" href="%contact_url%">Contact eZ or its partner(s)</a> to purchase a subscription
-                    and follow the <a target="_blank" href="%install_ee%">online documentation</a> to configure your project.]]></source>
-        <target state="translated"><![CDATA[<a target="_blank" href="%contact_url%">Contactez eZ ou ses partenaires</a> pour acheter un abonnement
-                    et suivez la documentation en ligne <a target="_blank" href="%install_ee%">pour configurer votre projet</a>.]]></target>
-        <note>key: dashboard.ez_version.end_of_maintenance_contanct</note>
-      </trans-unit>
-      <trans-unit id="99cfacc8eb18b57ad83dccc62b053ad0aea20b79" resname="dashboard.ez_version.non_stable">
-        <source>Your setup is running with unstable packages, this is not recommended besides when testing updates.</source>
-        <target state="translated">Votre configuration utilise des paquets instables, ceci n’est pas recommandé sauf pour tester des mises à jour.</target>
-        <note>key: dashboard.ez_version.non_stable</note>
+        <note>key: dashboard.ez_version.trial_end_of_maintenance</note>
       </trans-unit>
       <trans-unit id="59967d79ef1f521fd483dbb057f15bc756b80423" resname="dashboard.ez_version.non_stable_ee">
         <source><![CDATA[If you need assistance, don't hesitate to <a target="_blank" href="%support_url%">get in touch with eZ support</a>.]]></source>
@@ -74,35 +62,17 @@
             votre installation eZ. Il est recommandé de le garder lors du développement du projet pour s’assurer que les mêmes versions de paquet sont utilisées sur tous les environnements.]]></target>
         <note>key: dashboard.ez_version.release_not_determined</note>
       </trans-unit>
-      <trans-unit id="b0b5f4a2312f9a25f310e6d5044046ce0146a9c3" resname="dashboard.ez_version.severity_non">
+      <trans-unit id="b0b5f4a2312f9a25f310e6d5044046ce0146a9c3" resname="dashboard.ez_version.trial_notice">
         <source><![CDATA[Welcome to %name%, check our <a target="_blank" href="%doc_url%">online documentation</a>, <a target="_blank" href="%consulting_url%">consulting</a>
                     or <a target="_blank" href="%training_url%">training</a> services in order to get the most out of your trial.]]></source>
         <target state="translated"><![CDATA[Bienvenue sur %name%, vérifiez notre <a target="_blank" href="%doc_url%">documentation en ligne</a>, <a target="_blank" href="%consulting_url%">notre service de consulting</a>
                     ou <a target="_blank" href="%training_url%">les formation</a> pour tirer le maximum de votre version d'essai.]]></target>
-        <note>key: dashboard.ez_version.severity_non</note>
-      </trans-unit>
-      <trans-unit id="977ad02930ea5e0ae86eab268d0628786ad6b909" resname="dashboard.ez_version.severity_non_contant">
-        <source><![CDATA[<a target="_blank" href="%contact_url%">Contact eZ or its partner(s)</a> to purchase a subscription
-                    and follow the <a target="_blank" href="%install_ee%">online documentation</a> to configure your project.]]></source>
-        <target state="translated"><![CDATA[<a target="_blank" href="%contact_url%">Contactez eZ ou ses partenaires</a> pour acheter un abonnement
-                    et suivez la <a target="_blank" href="%install_ee%">documentation en ligne</a> pour configurer votre projet.]]></target>
-        <note>key: dashboard.ez_version.severity_non_contant</note>
-        <alt-trans>
-          <target><![CDATA[<a target="_blank" href="%contact_url%">Contactez eZ ou ses partenaires</a> pour acheter un abonnement
-                    et suivez la documentation en ligne <a target="_blank" href="%install_ee%">pour configurer votre projet</a>.]]></target>
-        </alt-trans>
+        <note>key: dashboard.ez_version.trial_notice</note>
       </trans-unit>
       <trans-unit id="10afa9a6e250d82f948ea1e6cbcdf7aac8bd7a4b" resname="dashboard.ez_version.trial_expired">
         <source><![CDATA[Unfortunately your trial period has expired and your <a target="_blank" href="%ttl_url%">TTL license</a> is no longer valid.]]></source>
         <target state="translated"><![CDATA[Malheureusement, votre période d’essai a expiré et votre <a target="_blank" href="%ttl_url%">licence TTL</a> n’est plus valide.]]></target>
         <note>key: dashboard.ez_version.trial_expired</note>
-      </trans-unit>
-      <trans-unit id="fad8721d93ef0b882327327f52921f656a8e206b" resname="dashboard.ez_version.trial_expired_contant">
-        <source><![CDATA[<a target="_blank" href="%contact_url%">Contact eZ or its partner(s)</a> to purchase a subscription
-                    and follow the <a target="_blank" href="%install_ee%">online documentation</a> to configure your project.]]></source>
-        <target state="translated"><![CDATA[<a target="_blank" href="%contact_url%">Contactez eZ ou ses partenaires</a> pour acheter un abonnement
-                    et <a target="_blank" href="%install_ee%">suivez la documentation en ligne</a> pour configurer votre projet.]]></target>
-        <note>key: dashboard.ez_version.trial_expired_contant</note>
       </trans-unit>
     </body>
   </file>
