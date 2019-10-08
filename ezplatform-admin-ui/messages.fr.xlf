@@ -13,12 +13,12 @@
       </trans-unit>
       <trans-unit id="d2293b387ecddbc6173fd579abd37873fcbc5e97" resname="authentication.forgot_password" approved="yes">
         <source>Forgot password?</source>
-        <target state="translated">Mot de passe oublié ?</target>
+        <target state="final">Mot de passe oublié ?</target>
         <note>key: authentication.forgot_password</note>
       </trans-unit>
       <trans-unit id="da44d8915172b0c8a874e26956f44aa5501c7e6b" resname="authentication.password" approved="yes">
         <source>Password</source>
-        <target state="translated">Mot de passe</target>
+        <target state="final">Mot de passe</target>
         <note>key: authentication.password</note>
       </trans-unit>
       <trans-unit id="7a3631c8f70b8b52f902530ad052c71609eb7177" resname="authentication.reset_your_password">
@@ -28,12 +28,12 @@
       </trans-unit>
       <trans-unit id="8785f4abdfdf72fe9001fe0553c6e3a582cfcc08" resname="authentication.submit" approved="yes">
         <source>Login</source>
-        <target state="translated">Ouvrir une session</target>
+        <target state="final">Ouvrir une session</target>
         <note>key: authentication.submit</note>
       </trans-unit>
       <trans-unit id="9143793289ea0e20c3dc9f752d43cc727f2dba01" resname="authentication.username" approved="yes">
         <source>Username</source>
-        <target state="translated">Nom d'utilisateur</target>
+        <target state="final">Nom d'utilisateur</target>
         <note>key: authentication.username</note>
       </trans-unit>
       <trans-unit id="b1b04388859d233f757e4f6376af3fc317d4baa6" resname="base.footer_copyright">
@@ -82,7 +82,7 @@
         <note>key: content.hide.modal.title</note>
       </trans-unit>
       <trans-unit id="0f260745fb36618170e86bd6407bb2facd3a05a1" resname="content.hide.modal.warning_content_used_by_other_content">
-        <source>This item is being used by other content item(s). Please remove all instance(s) to avoid a 404 error.</source>
+        <source>This item is being used by other content item(s). To avoid errors, please update or remove all related objects listed in the Relations tab.</source>
         <target state="translated">Cet élément est utilisé par d'autre(s) élément(s) de contenu. Veuillez supprimer toutes les instances pour éviter une erreur 404.</target>
         <note>key: content.hide.modal.warning_content_used_by_other_content</note>
       </trans-unit>
@@ -319,11 +319,6 @@
         <target state="translated">Vous êtes sur le point de supprimer un contenu qui possède un ou plusieurs contenu(s) image utilisé(s) par d'autres éléments de contenu. Ces actifs resteront disponibles dans le système.</target>
         <note>key: trash_asset.modal.message_header</note>
       </trans-unit>
-      <trans-unit id="0d57f9b91203aa4d9920e63d793b8e62c0bb242c" resname="trash_asset_single.modal.header">
-        <source>Deleting content</source>
-        <target state="translated">Suppression du contenu</target>
-        <note>key: trash_asset_single.modal.header</note>
-      </trans-unit>
       <trans-unit id="e81a14f38ebe272cb11ef90e2948a8c6602307ca" resname="trash_asset_single.modal.message">
         <source>You have the option to delete %content_name% (%content_type%) only or to also delete the assets it is using. Make your choice:</source>
         <target state="translated">Vous avez la possibilité de supprimer %content_name% (%content_type%) uniquement ou également supprimer les contenus associés qu’il utilise. Faites votre choix :</target>
@@ -333,11 +328,6 @@
         <source>You are about to delete a content with one or several asset(s) field(s).</source>
         <target state="translated">Vous êtes sur le point de supprimer un contenu ayant un ou plusieurs champ(s) connecté à d'autres contenus.</target>
         <note>key: trash_asset_single.modal.message_main</note>
-      </trans-unit>
-      <trans-unit id="a70d984d62d43229009fefdbfdc740199ede75ca" resname="trash_container.modal.header">
-        <source>Deleting content</source>
-        <target state="translated">Suppression du contenu</target>
-        <note>key: trash_container.modal.header</note>
       </trans-unit>
       <trans-unit id="1e6a1d97cca01a288e47d2d14479274b90e6c6c1" resname="trash_container.modal.message_main">
         <source>Deleting %content_name% will also delete its sub-items, under its location(s). To confirm, please check below</source>

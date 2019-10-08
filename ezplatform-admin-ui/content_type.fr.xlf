@@ -409,7 +409,7 @@
       </trans-unit>
       <trans-unit id="1769b5258d896d9ccb207c09e04534ce9a01c571" resname="content_type_group.view.view.title" approved="yes">
         <source>%identifier%</source>
-        <target state="translated">%identifier%</target>
+        <target state="final">%identifier%</target>
         <note>key: content_type_group.view.view.title</note>
       </trans-unit>
       <trans-unit id="62ac918fce5389cd868b988e65b4ab96477a1344" resname="location_update_form.sort_field">

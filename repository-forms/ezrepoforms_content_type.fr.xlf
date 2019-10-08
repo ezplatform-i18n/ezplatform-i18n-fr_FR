@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="0b5b303097790cd7cf1dde918d885439e60ecbd2" resname="content_type.add_field_definition" approved="yes">
         <source>Add field definition</source>
-        <target state="translated">Ajouter la définition du champ</target>
+        <target state="final">Ajouter la définition du champ</target>
         <note>key: content_type.add_field_definition</note>
         <alt-trans>
           <target>Ajouter la définition de champ</target>
@@ -16,12 +16,12 @@
       </trans-unit>
       <trans-unit id="529a1012c7fe5ca6fafdb5d070ac8ececfe94af6" resname="content_type.create" approved="yes">
         <source>Create a content type</source>
-        <target state="translated">Créer un type de contenu</target>
+        <target state="final">Créer un type de contenu</target>
         <note>key: content_type.create</note>
       </trans-unit>
       <trans-unit id="7b64ebcf792d888de957eaee1c3734c97c80db98" resname="content_type.default_always_available" approved="yes">
         <source>Default content availability</source>
-        <target state="translated">Disponibilité du contenu par défaut</target>
+        <target state="final">Disponibilité du contenu par défaut</target>
         <note>key: content_type.default_always_available</note>
         <alt-trans>
           <target>Disponibilité de contenu par défaut</target>
@@ -29,47 +29,47 @@
       </trans-unit>
       <trans-unit id="b29f5d9c32e10776ec9fd36c35c4aefc96732cb2" resname="content_type.default_sort_field" approved="yes">
         <source>Default field for sorting children</source>
-        <target state="translated">Champ par défaut pour trier les enfants</target>
+        <target state="final">Champ par défaut pour trier les enfants</target>
         <note>key: content_type.default_sort_field</note>
       </trans-unit>
       <trans-unit id="7a67ffefca1339a9e4c5224d773378c2e5f6f378" resname="content_type.default_sort_order" approved="yes">
         <source>Default sort order</source>
-        <target state="translated">Ordre de tri par défaut</target>
+        <target state="final">Ordre de tri par défaut</target>
         <note>key: content_type.default_sort_order</note>
       </trans-unit>
       <trans-unit id="be2f64eb4557a3af16a2f32f5e0185c591d3ca8f" resname="content_type.delete" approved="yes">
         <source>Delete</source>
-        <target state="translated">Supprimer</target>
+        <target state="final">Supprimer</target>
         <note>key: content_type.delete</note>
       </trans-unit>
       <trans-unit id="f2a3cc77cdadcff8883b0022e006e24918307687" resname="content_type.description" approved="yes">
         <source>Description</source>
-        <target state="translated">Description</target>
+        <target state="final">Description</target>
         <note>key: content_type.description</note>
       </trans-unit>
       <trans-unit id="2aecf6f88fd1ee89037907b8743d5873879a0590" resname="content_type.field_definitions_data" approved="yes">
         <source>Content field definitions</source>
-        <target state="translated">Définitions de champ de contenu</target>
+        <target state="final">Définitions de champ de contenu</target>
         <note>key: content_type.field_definitions_data</note>
       </trans-unit>
       <trans-unit id="a43bfd2651eb1f3357e3398286afd5b6e17c101e" resname="content_type.field_type_selection" approved="yes">
         <source>Field type selection</source>
-        <target state="translated">Sélection de type de champ</target>
+        <target state="final">Sélection de type de champ</target>
         <note>key: content_type.field_type_selection</note>
       </trans-unit>
       <trans-unit id="368a6ffa173a2e9605371392e99e565d9b247382" resname="content_type.group.delete" approved="yes">
         <source>Delete</source>
-        <target state="translated">Supprimer</target>
+        <target state="final">Supprimer</target>
         <note>key: content_type.group.delete</note>
       </trans-unit>
       <trans-unit id="043e7766417bd9d21fe58de76fcaee35eb7d2fb0" resname="content_type.group.identifier" approved="yes">
         <source>Name</source>
-        <target state="translated">Nom</target>
+        <target state="final">Nom</target>
         <note>key: content_type.group.identifier</note>
       </trans-unit>
       <trans-unit id="c657344d0bf6b6203b1b9eaf4e44f7a6261dfe1d" resname="content_type.group.save" approved="yes">
         <source>Save</source>
-        <target state="translated">Enregistrer</target>
+        <target state="final">Enregistrer</target>
         <note>key: content_type.group.save</note>
         <alt-trans>
           <target>Sauvegarder</target>
@@ -77,22 +77,22 @@
       </trans-unit>
       <trans-unit id="238db0c5dee8ec13199b073f7cc78728f53ffa36" resname="content_type.identifier" approved="yes">
         <source>Identifier</source>
-        <target state="translated">Identifiant</target>
+        <target state="final">Identifiant</target>
         <note>key: content_type.identifier</note>
       </trans-unit>
       <trans-unit id="338e462a91906d03e5e6b8c00528a38d482a3c9e" resname="content_type.is_container" approved="yes">
         <source>Container</source>
-        <target state="translated">Peut contenir des sous éléments</target>
+        <target state="final">Peut contenir des sous éléments</target>
         <note>key: content_type.is_container</note>
       </trans-unit>
       <trans-unit id="7fddd251857df821bd536dd680e1edbc921790a2" resname="content_type.name" approved="yes">
         <source>Name</source>
-        <target state="translated">Nom</target>
+        <target state="final">Nom</target>
         <note>key: content_type.name</note>
       </trans-unit>
       <trans-unit id="9e9628fc59643f3167ebe81dfed3e40eecd281c9" resname="content_type.name_schema" approved="yes">
         <source>Content name pattern</source>
-        <target state="translated">Modèle de nom de contenu</target>
+        <target state="final">Modèle de nom de contenu</target>
         <note>key: content_type.name_schema</note>
         <alt-trans>
           <target>Gabarit de nom de contenu</target>
@@ -100,12 +100,12 @@
       </trans-unit>
       <trans-unit id="49e5f320e6e37cbd53a5d290e3ffd48788226852" resname="content_type.publish" approved="yes">
         <source>OK</source>
-        <target state="translated">OK</target>
+        <target state="final">OK</target>
         <note>key: content_type.publish</note>
       </trans-unit>
       <trans-unit id="701cbaa7ea48016d7b0eb5940e810cacd16c19b3" resname="content_type.remove_draft" approved="yes">
         <source>Cancel</source>
-        <target state="translated">Annuler le brouillon</target>
+        <target state="final">Annuler le brouillon</target>
         <note>key: content_type.remove_draft</note>
         <alt-trans>
           <target>Annuler</target>
@@ -113,32 +113,32 @@
       </trans-unit>
       <trans-unit id="5fa42f2a0ef1fee12efaa4cdb1c35bbed35e9b7e" resname="content_type.remove_field_definitions" approved="yes">
         <source>Remove selected field definitions</source>
-        <target state="translated">Supprimer les définitions de champs sélectionnées</target>
+        <target state="final">Supprimer les définitions de champs sélectionnées</target>
         <note>key: content_type.remove_field_definitions</note>
       </trans-unit>
       <trans-unit id="946ba9e49beabdacd143e10e343f852736c081d8" resname="content_type.save" approved="yes">
         <source>Apply</source>
-        <target state="translated">Appliquer</target>
+        <target state="final">Appliquer</target>
         <note>key: content_type.save</note>
       </trans-unit>
       <trans-unit id="c625b80940dd9f13842e38446a97391248d0f709" resname="content_type.sort_field.1" approved="yes">
         <source>Location path</source>
-        <target state="translated">Chemin de l'emplacement</target>
+        <target state="final">Chemin de l'emplacement</target>
         <note>key: content_type.sort_field.1</note>
       </trans-unit>
       <trans-unit id="4cdfd30bdc30f263b30713d22f714ad46beb120b" resname="content_type.sort_field.2" approved="yes">
         <source>Publication date</source>
-        <target state="translated">Date de publication</target>
+        <target state="final">Date de publication</target>
         <note>key: content_type.sort_field.2</note>
       </trans-unit>
       <trans-unit id="3b367aa1610d6332d66b2113a1b1ed287e0310a6" resname="content_type.sort_field.3" approved="yes">
         <source>Modification date</source>
-        <target state="translated">Date de modification</target>
+        <target state="final">Date de modification</target>
         <note>key: content_type.sort_field.3</note>
       </trans-unit>
       <trans-unit id="f0dba52962ff2fceb7ab0de72427b4deb55ffbbc" resname="content_type.sort_field.4" approved="yes">
         <source>Section</source>
-        <target state="translated">Section</target>
+        <target state="final">Section</target>
         <note>key: content_type.sort_field.4</note>
       </trans-unit>
       <trans-unit id="08c573b0f90eddd499911819f24a58632ceec79b" resname="content_type.sort_field.5">
@@ -369,12 +369,12 @@
       </trans-unit>
       <trans-unit id="efa6e36c8ec4e2d5c258e780cbefeb54d77f6bc9" resname="field_definition.ezmedia.type_silverlight" approved="yes">
         <source>Silverlight</source>
-        <target state="translated">Silverlight</target>
+        <target state="final">Silverlight</target>
         <note>key: field_definition.ezmedia.type_silverlight</note>
       </trans-unit>
       <trans-unit id="57951280ffe27b8afe3f6c65f8cda4696267d64a" resname="field_definition.ezmedia.type_windows_media_player" approved="yes">
         <source>Windows Media Player</source>
-        <target state="translated">Windows Media Player</target>
+        <target state="final">Windows Media Player</target>
         <note>key: field_definition.ezmedia.type_windows_media_player</note>
       </trans-unit>
       <trans-unit id="fabc9be57b82439dac2f612b9c2a171eb7ce6e04" resname="field_definition.ezobjectrelation.selection_content_types">
@@ -384,27 +384,27 @@
       </trans-unit>
       <trans-unit id="440d8fe80bb8a07b62f17d843721285b2cf8a4d5" resname="field_definition.ezobjectrelation.selection_root" approved="yes">
         <source>Default selection item</source>
-        <target state="translated">Élément sélectionné par défaut</target>
+        <target state="final">Élément sélectionné par défaut</target>
         <note>key: field_definition.ezobjectrelation.selection_root</note>
       </trans-unit>
       <trans-unit id="e03e262fad0802fdee49aac136644b35450e1eab" resname="field_definition.ezobjectrelation.selection_root_udw_button" approved="yes">
         <source>Select item</source>
-        <target state="translated">Sélectionner l'élément</target>
+        <target state="final">Sélectionner l'élément</target>
         <note>key: field_definition.ezobjectrelation.selection_root_udw_button</note>
       </trans-unit>
       <trans-unit id="d892163a41d816c03db3c4a04e35550f02169c11" resname="field_definition.ezobjectrelation.selection_root_udw_title" approved="yes">
         <source>Select a start location for browsing for relation</source>
-        <target state="translated">Sélectonnez un emplacement initial pour rechercher une relation</target>
+        <target state="final">Sélectonnez un emplacement initial pour rechercher une relation</target>
         <note>key: field_definition.ezobjectrelation.selection_root_udw_title</note>
       </trans-unit>
       <trans-unit id="7e061dc7c88fe38c11714695d4034f935788efb3" resname="field_definition.ezobjectrelationlist.selection_content_types" approved="yes">
         <source>Allowed content types</source>
-        <target state="translated">Types de contenu autorisés</target>
+        <target state="final">Types de contenu autorisés</target>
         <note>key: field_definition.ezobjectrelationlist.selection_content_types</note>
       </trans-unit>
       <trans-unit id="b08d97ea9175eef7352c7e9c5c8ee0516798bdfa" resname="field_definition.ezobjectrelationlist.selection_default_location" approved="yes">
         <source>Default location</source>
-        <target state="translated">Emplacement par défaut</target>
+        <target state="final">Emplacement par défaut</target>
         <note>key: field_definition.ezobjectrelationlist.selection_default_location</note>
         <alt-trans>
           <target>Localisation par défaut</target>
@@ -417,7 +417,7 @@
       </trans-unit>
       <trans-unit id="1592c36df8d445c3154d1f639027f97a90739856" resname="field_definition.ezobjectrelationlist.selection_root_udw_button" approved="yes">
         <source>Select location</source>
-        <target state="translated">Sélectionner l'emplacement</target>
+        <target state="final">Sélectionner l'emplacement</target>
         <note>key: field_definition.ezobjectrelationlist.selection_root_udw_button</note>
         <alt-trans>
           <target>Localisation par défaut</target>
@@ -425,7 +425,7 @@
       </trans-unit>
       <trans-unit id="17d8f3e8bbd5b5f0f5b4b02ddaeaf2af82b0d222" resname="field_definition.ezobjectrelationlist.selection_root_udw_title" approved="yes">
         <source>Select a start location for browsing for relations</source>
-        <target state="translated">Sélectionnez un emplacement initial pour rechercher une relation</target>
+        <target state="final">Sélectionnez un emplacement initial pour rechercher une relation</target>
         <note>key: field_definition.ezobjectrelationlist.selection_root_udw_title</note>
         <alt-trans>
           <target>Sélectonnez un emplacement initial pour rechercher une relation</target>
@@ -433,7 +433,7 @@
       </trans-unit>
       <trans-unit id="8c89d231e7f1b33a8e0b84ad81fc964785a59cbd" resname="field_definition.ezpage.default_layout" approved="yes">
         <source>Default layout</source>
-        <target state="translated">Mise en page par défaut</target>
+        <target state="final">Mise en page par défaut</target>
         <note>key: field_definition.ezpage.default_layout</note>
         <alt-trans>
           <target>Layout par défaut</target>
@@ -441,12 +441,12 @@
       </trans-unit>
       <trans-unit id="14a95e986cd6b94301e0f44fd5ef2d5e7cdf90a4" resname="field_definition.ezselection.add_option" approved="yes">
         <source>Add an option</source>
-        <target state="translated">Ajouter une option</target>
+        <target state="final">Ajouter une option</target>
         <note>key: field_definition.ezselection.add_option</note>
       </trans-unit>
       <trans-unit id="e9e5a43d734719bf6ca42940c1cf5bc78b234e2b" resname="field_definition.ezselection.is_multiple" approved="yes">
         <source>Multiple choice</source>
-        <target state="translated">Choix multiples</target>
+        <target state="final">Choix multiples</target>
         <note>key: field_definition.ezselection.is_multiple</note>
         <alt-trans>
           <target>Choix multiple</target>
@@ -454,12 +454,12 @@
       </trans-unit>
       <trans-unit id="ac85420bb89c319433f4d0e8e988b6fa8363e8b9" resname="field_definition.ezselection.options" approved="yes">
         <source>Options</source>
-        <target state="translated">Options</target>
+        <target state="final">Options</target>
         <note>key: field_definition.ezselection.options</note>
       </trans-unit>
       <trans-unit id="c8017c71074191e0e6ebe4eb1a3a278eecbcc874" resname="field_definition.ezselection.remove_selected_options" approved="yes">
         <source>Remove selected options</source>
-        <target state="translated">Supprimer les options sélectionnées</target>
+        <target state="final">Supprimer les options sélectionnées</target>
         <note>key: field_definition.ezselection.remove_selected_options</note>
         <alt-trans>
           <target>Supprimer les options sélectionnés</target>
@@ -467,7 +467,7 @@
       </trans-unit>
       <trans-unit id="e8ede1605bfed09023397f8662ca28c40e7c460a" resname="field_definition.ezstring.default_value" approved="yes">
         <source>Default value</source>
-        <target state="translated">Valeur par defaut</target>
+        <target state="final">Valeur par defaut</target>
         <note>key: field_definition.ezstring.default_value</note>
         <alt-trans>
           <target>Valeur par défaut</target>
@@ -475,7 +475,7 @@
       </trans-unit>
       <trans-unit id="aeb5a467102cac589770bb08efe1ae15c2845cca" resname="field_definition.ezstring.max_length" approved="yes">
         <source>Maximum length</source>
-        <target state="translated">Longueur maximum</target>
+        <target state="final">Longueur maximum</target>
         <note>key: field_definition.ezstring.max_length</note>
         <alt-trans>
           <target>Longueur maximale</target>
@@ -483,32 +483,32 @@
       </trans-unit>
       <trans-unit id="b3ccbbb1d949cd2ce5971857c15d8c972ee82691" resname="field_definition.ezstring.min_length" approved="yes">
         <source>Minimum length</source>
-        <target state="translated">Longueur minimale</target>
+        <target state="final">Longueur minimale</target>
         <note>key: field_definition.ezstring.min_length</note>
       </trans-unit>
       <trans-unit id="0a5ed21a62aec2cda555012922b97975d97bc95c" resname="field_definition.eztext.text_rows" approved="yes">
         <source>Number of text rows</source>
-        <target state="translated">Nombre de ligne de texte</target>
+        <target state="final">Nombre de ligne de texte</target>
         <note>key: field_definition.eztext.text_rows</note>
       </trans-unit>
       <trans-unit id="0f8aa615d0ec1b242535348fecb702d9b75ca2eb" resname="field_definition.eztime.default_type" approved="yes">
         <source>Default value</source>
-        <target state="translated">Valeur par défaut</target>
+        <target state="final">Valeur par défaut</target>
         <note>key: field_definition.eztime.default_type</note>
       </trans-unit>
       <trans-unit id="95dc4af57dce875f9140238d276ed77f0236746f" resname="field_definition.eztime.default_type_current" approved="yes">
         <source>Current time</source>
-        <target state="translated">Heure courante</target>
+        <target state="final">Heure courante</target>
         <note>key: field_definition.eztime.default_type_current</note>
       </trans-unit>
       <trans-unit id="0a0e3e8eb5d13b0e9e8ca8348615a5c00e2e51c1" resname="field_definition.eztime.default_type_empty" approved="yes">
         <source>Empty</source>
-        <target state="translated">Vide</target>
+        <target state="final">Vide</target>
         <note>key: field_definition.eztime.default_type_empty</note>
       </trans-unit>
       <trans-unit id="3095005d6d92b499602347e3692b69346a35a845" resname="field_definition.eztime.use_seconds" approved="yes">
         <source>Use seconds</source>
-        <target state="translated">Utiliser les secondes</target>
+        <target state="final">Utiliser les secondes</target>
         <note>key: field_definition.eztime.use_seconds</note>
       </trans-unit>
       <trans-unit id="eee9fb58aa8da0feaa9ae51a29ef33fd13dd1f70" resname="field_definition.ezuser.min_length">
@@ -538,37 +538,37 @@
       </trans-unit>
       <trans-unit id="92d9243bb9fac540233dc376b41a3bcd41615ccc" resname="field_definition.field_group" approved="yes">
         <source>Category</source>
-        <target state="translated">Catégorie</target>
+        <target state="final">Catégorie</target>
         <note>key: field_definition.field_group</note>
       </trans-unit>
       <trans-unit id="8b863a9c7cd91565182ad0a3a5e30ca8090f84c7" resname="field_definition.identifier" approved="yes">
         <source>Identifier</source>
-        <target state="translated">Identifiant</target>
+        <target state="final">Identifiant</target>
         <note>key: field_definition.identifier</note>
       </trans-unit>
       <trans-unit id="6e91f443eb0cd4ab99331950f20cdbcc03f0b88c" resname="field_definition.is_required" approved="yes">
         <source>Required</source>
-        <target state="translated">Obligatoire</target>
+        <target state="final">Obligatoire</target>
         <note>key: field_definition.is_required</note>
       </trans-unit>
       <trans-unit id="a0267d640a8276b546263c23a5dfdf8e99cc3468" resname="field_definition.is_searchable" approved="yes">
         <source>Searchable</source>
-        <target state="translated">Recherchable</target>
+        <target state="final">Recherchable</target>
         <note>key: field_definition.is_searchable</note>
       </trans-unit>
       <trans-unit id="83aba8c0c4c654d481c4520feb76e789fbc64c22" resname="field_definition.is_translatable" approved="yes">
         <source>Translatable</source>
-        <target state="translated">Traduisible</target>
+        <target state="final">Traduisible</target>
         <note>key: field_definition.is_translatable</note>
       </trans-unit>
       <trans-unit id="9a02e329edf4c1e41c97c8be922137c284c249c4" resname="field_definition.name" approved="yes">
         <source>Name</source>
-        <target state="translated">Nom</target>
+        <target state="final">Nom</target>
         <note>key: field_definition.name</note>
       </trans-unit>
       <trans-unit id="f6d7350ade5162400b0848796720fe586392fa46" resname="field_definition.position" approved="yes">
         <source>Position</source>
-        <target state="translated">Position</target>
+        <target state="final">Position</target>
         <note>key: field_definition.position</note>
       </trans-unit>
     </body>

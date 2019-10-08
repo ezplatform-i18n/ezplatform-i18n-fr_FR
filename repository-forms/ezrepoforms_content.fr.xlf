@@ -8,7 +8,7 @@
     <body>
       <trans-unit id="2fc1a78f3fa390c99fd859e73280919ae0fc76fc" resname="content.cancel_button" approved="yes">
         <source>Cancel</source>
-        <target state="translated">Annuler</target>
+        <target state="final">Annuler</target>
         <note>key: content.cancel_button</note>
       </trans-unit>
       <trans-unit id="db5d6f82fe5ba6f40d1d159dca89c659c76aad06" resname="content.field_type.ezauthor.email">
@@ -43,7 +43,7 @@
       </trans-unit>
       <trans-unit id="4c65e5d17516c19e311161e374bbd39f053b5e6b" resname="content.field_type.ezuser.password" approved="yes">
         <source>Password</source>
-        <target state="translated">Mot de passe:</target>
+        <target state="final">Mot de passe:</target>
         <note>key: content.field_type.ezuser.password</note>
         <alt-trans>
           <target>Mot de passe</target>
@@ -51,7 +51,7 @@
       </trans-unit>
       <trans-unit id="d2fe533f4032896195d524038c3abeb2209adece" resname="content.field_type.ezuser.password_confirm" approved="yes">
         <source>Confirm password</source>
-        <target state="translated">Confirmation du mot de passe :</target>
+        <target state="final">Confirmation du mot de passe :</target>
         <note>key: content.field_type.ezuser.password_confirm</note>
         <alt-trans>
           <target>Confirmez le mot de passe</target>
@@ -59,7 +59,7 @@
       </trans-unit>
       <trans-unit id="d1f5c5fcee7eb206e496dd5073b0f95427431a1c" resname="content.field_type.ezuser.username" approved="yes">
         <source>Username</source>
-        <target state="translated">Nom d'utilisateur:</target>
+        <target state="final">Nom d'utilisateur:</target>
         <note>key: content.field_type.ezuser.username</note>
         <alt-trans>
           <target>Nom d'utilisateur</target>
@@ -67,17 +67,17 @@
       </trans-unit>
       <trans-unit id="1120fc646c853c462aa4cdf634f476004846fc1b" resname="content.publish_button" approved="yes">
         <source>Publish</source>
-        <target state="translated">Publier</target>
+        <target state="final">Publier</target>
         <note>key: content.publish_button</note>
       </trans-unit>
       <trans-unit id="49c0762cf87e038e38a06090625eadb4fbbc99ed" resname="content.save_button" approved="yes">
         <source>Save draft</source>
-        <target state="translated">Enregistrer le brouillon</target>
+        <target state="final">Enregistrer le brouillon</target>
         <note>key: content.save_button</note>
       </trans-unit>
       <trans-unit id="df2f594c4b24eb1a49a45e95a5e7ed5cdef802bd" resname="ezrepoforms.content.fields" approved="yes">
         <source>ezrepoforms.content.fields</source>
-        <target state="translated">ezrepoforms.content.fields</target>
+        <target state="final">ezrepoforms.content.fields</target>
         <note>key: ezrepoforms.content.fields</note>
       </trans-unit>
     </body>
