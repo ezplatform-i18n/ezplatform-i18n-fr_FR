@@ -11,19 +11,6 @@
         <target state="translated">Non</target>
         <note>key: ezboolean.no</note>
       </trans-unit>
-      <trans-unit id="dfb5fd4a5dec38539847d92bb5e8417c5b82b96a" resname="ezboolean.yes">
-        <source>yes</source>
-        <target state="translated">oui</target>
-        <note>key: ezboolean.yes</note>
-      </trans-unit>
-      <trans-unit id="a871dec7f18c06b9061bc2aae9af1aafe1ad1600" resname="ezdatetime.useseconds.enabled">
-        <source>`The date format is based on your user preferences and does not include seconds even if the field allows it`</source>
-        <target state="translated">`Le format de date est basé sur vos préférences utilisateur et ne contient pas de secondes même si le champ le permet`</target>
-        <note>key: ezdatetime.useseconds.enabled</note>
-        <alt-trans>
-          <target>Le format de date est basé sur vos préférences utilisateur et n'inclut pas les secondes même si les attributs le permettent</target>
-        </alt-trans>
-      </trans-unit>
       <trans-unit id="bf1525899659fa5ea6c18aa4bf63d596fecbf97e" resname="ezgmaplocation.address">
         <source>Address</source>
         <target state="translated">Adresse</target>
@@ -74,11 +61,6 @@
         <target state="translated">Taille</target>
         <note>key: ezimage.size</note>
       </trans-unit>
-      <trans-unit id="d34002f3e81ae0592b02f40872388e0adea41279" resname="ezimage.width_and_height">
-        <source>%width%px Width - %height%px Height</source>
-        <target state="translated">%width%px largeur - %height%px hauteur</target>
-        <note>key: ezimage.width_and_height</note>
-      </trans-unit>
       <trans-unit id="85038ddf9e38bbf3da26c38adff609012d65a53a" resname="ezimageasset.alternative_text">
         <source>Alternative text</source>
         <target state="translated">Texte alternatif</target>
@@ -99,11 +81,6 @@
         <target state="translated">Dimensions originales</target>
         <note>key: ezimageasset.master_dimensions</note>
       </trans-unit>
-      <trans-unit id="c63a925d645b5365654bfaa2e5ac129280388bc0" resname="ezimageasset.not_available">
-        <source>Image asset is not available (related content has been deleted or insufficient permissions)</source>
-        <target state="translated">L'image n'est pas disponible (le contenu lié a été supprimé ou les permissions sont insuffisantes)</target>
-        <note>key: ezimageasset.not_available</note>
-      </trans-unit>
       <trans-unit id="9d8611731543740ff64e9e1a69f9c18812301879" resname="ezimageasset.ratio">
         <source>Ratio</source>
         <target state="translated">Ratio</target>
@@ -113,16 +90,6 @@
         <source>Size</source>
         <target state="translated">Taille</target>
         <note>key: ezimageasset.size</note>
-      </trans-unit>
-      <trans-unit id="06c54d9e5476af34defb52323b7b1ebacce6a38c" resname="ezimageasset.width_and_height">
-        <source>%width%px Width - %height%px Height</source>
-        <target state="translated">%width%px largeur - %height%px hauteur</target>
-        <note>key: ezimageasset.width_and_height</note>
-      </trans-unit>
-      <trans-unit id="e371d4573dda857ef4a58cebd2420f87992b8864" resname="ezmedia.auto_play">
-        <source>Auto play</source>
-        <target state="translated">Lecture automatique</target>
-        <note>key: ezmedia.auto_play</note>
       </trans-unit>
       <trans-unit id="84c1e46564bf281d22c3b554a0af412a8bbbdacc" resname="ezmedia.browser_does_not_support_html5_video">
         <source>Your browser does not support HTML5 video</source>

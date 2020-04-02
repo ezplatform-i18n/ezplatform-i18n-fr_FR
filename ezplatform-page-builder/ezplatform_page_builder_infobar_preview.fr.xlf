@@ -6,21 +6,6 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="a4b9e9b4898dd285237fc60130970ce7ed988871" resname="content.create.choose_content_type">
-        <source>Choose content type</source>
-        <target state="translated">Choisir un type de contenu</target>
-        <note>key: content.create.choose_content_type</note>
-      </trans-unit>
-      <trans-unit id="f599001c1ab9442f20e23d535e1dad8f3b75c337" resname="content.create.select_content_type">
-        <source>Select Content Type</source>
-        <target state="translated">Sélectionner le Type de Contenu</target>
-        <note>key: content.create.select_content_type</note>
-      </trans-unit>
-      <trans-unit id="8b5180d90c79245ed3e491e6f682842daaa0bec5" resname="content.create.select_language">
-        <source>Select language</source>
-        <target state="translated">Sélectionner une langue</target>
-        <note>key: content.create.select_language</note>
-      </trans-unit>
       <trans-unit id="5e8851497aae3ba774d163d5fd191fd69ac871c0" resname="content.edit.select_language">
         <source>Select language</source>
         <target state="translated">Sélectionner une langue</target>
@@ -51,11 +36,6 @@
         <target state="translated">Archivée</target>
         <note>key: versions.archived</note>
       </trans-unit>
-      <trans-unit id="fdacd4e9889756946f3c71ec738cd4235e19d2d1" resname="versions.cant.fetch.contributor">
-        <source>Can’t fetch contributor</source>
-        <target state="translated">Impossible de récupérer le contributeur</target>
-        <note>key: versions.cant.fetch.contributor</note>
-      </trans-unit>
       <trans-unit id="db9d866f6bcc68c3fe4832b03061be4485efaad9" resname="versions.create">
         <source>Created</source>
         <target state="translated">Créée</target>
@@ -65,11 +45,6 @@
         <source>Draft</source>
         <target state="translated">Brouillon</target>
         <note>key: versions.draft</note>
-      </trans-unit>
-      <trans-unit id="4cee4ab324127a55bbad1f6f278243b5f4d6d5fe" resname="versions.modified.language">
-        <source>Modified Language</source>
-        <target state="translated">Langue modifiée</target>
-        <note>key: versions.modified.language</note>
       </trans-unit>
       <trans-unit id="c5da841c5cfb95ad344560906b3704a2761fc9e8" resname="versions.owner">
         <source>Owner</source>

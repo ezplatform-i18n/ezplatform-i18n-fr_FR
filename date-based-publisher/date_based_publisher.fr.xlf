@@ -26,25 +26,6 @@
         <target state="translated">Contenu publié</target>
         <note>key: content.published</note>
       </trans-unit>
-      <trans-unit id="d3271090e4c7db6a79d168181876891a6577fa19" resname="content.scheduled.canceled">
-        <source>Future publication canceled</source>
-        <target state="translated">Future publication annulée</target>
-        <note>key: content.scheduled.canceled</note>
-        <alt-trans>
-          <target>Planification de publication annulée</target>
-        </alt-trans>
-      </trans-unit>
-      <trans-unit id="34b402006eccad0bda15c91d1c25af637419d933" resname="content.scheduled.published">
-        <source>Future publication published</source>
-        <target state="translated">Future publication enregistrée</target>
-        <note>key: content.scheduled.published</note>
-        <alt-trans>
-          <target>Planification de publication enregistrée</target>
-        </alt-trans>
-        <alt-trans>
-          <target>Future publication publiée</target>
-        </alt-trans>
-      </trans-unit>
       <trans-unit id="16f7bbbd6e5ee28d30d0104f38019a0ed0ceaf46" resname="content.scheduled.title">
         <source>Title:</source>
         <target state="translated">Titre:</target>
@@ -53,31 +34,10 @@
           <target>Titre :</target>
         </alt-trans>
       </trans-unit>
-      <trans-unit id="d72a29b32751f629c33f6223c5b6477308a0ebb4" resname="content.trashed">
-        <source>Content moved to trash</source>
-        <target state="translated">Contenu déplacé vers la corbeille</target>
-        <note>key: content.trashed</note>
-      </trans-unit>
       <trans-unit id="242a195e1172964f09692a16fc39ccb8a2b69605" resname="content.updated">
         <source>Content updated</source>
         <target state="translated">Contenu mis à jour</target>
         <note>key: content.updated</note>
-      </trans-unit>
-      <trans-unit id="382ab608837ac7a3db830601fd7566b42f2e3fa1" resname="dashboard.tab.all_scheduled.empty">
-        <source>No content scheduled for publish.</source>
-        <target state="translated">Aucune planification de publication.</target>
-        <note>key: dashboard.tab.all_scheduled.empty</note>
-        <alt-trans>
-          <target>Aucune future publication n'est prévue.</target>
-        </alt-trans>
-      </trans-unit>
-      <trans-unit id="9264d8cfa846c33592bb9c75fc27d3746b79b069" resname="dashboard.tab.my_scheduled.empty">
-        <source>No content scheduled for publish.</source>
-        <target state="translated">Aucune planification de publication.</target>
-        <note>key: dashboard.tab.my_scheduled.empty</note>
-        <alt-trans>
-          <target>Aucune future publication n'est prévue.</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="e17a8999c9e44b7e8ea1ba0f5cff596ece264da5" resname="dashboard.table.content_type">
         <source>Content Type</source>
@@ -89,42 +49,10 @@
         <target state="translated">Contributeur</target>
         <note>key: dashboard.table.contributor</note>
       </trans-unit>
-      <trans-unit id="3a857cc58c009830e22845ef1edbd43794206aed" resname="dashboard.table.last_saved">
-        <source>Last Saved</source>
-        <target state="translated">Dernière sauvegarde</target>
-        <note>key: dashboard.table.last_saved</note>
-      </trans-unit>
       <trans-unit id="8ba6a26d5deb87771ede293eccde417dfafb8c67" resname="dashboard.table.name">
         <source>Name</source>
         <target state="translated">Nom</target>
         <note>key: dashboard.table.name</note>
-      </trans-unit>
-      <trans-unit id="225c63842a6fc284bf8c39ee3201f7a9772154d3" resname="dashboard.table.publication_date">
-        <source>Publication Date</source>
-        <target state="translated">Date de publication</target>
-        <note>key: dashboard.table.publication_date</note>
-      </trans-unit>
-      <trans-unit id="d6004e8b261029b934ea4253dd02a83c23288cd4" resname="date_based_publisher.discard.publish_later">
-        <source>Scheduled publication date discarded.</source>
-        <target state="translated">Date de publication planifiée annulée.</target>
-        <note>key: date_based_publisher.discard.publish_later</note>
-        <alt-trans>
-          <target>La date de planification de publication a été annulée.</target>
-        </alt-trans>
-        <alt-trans>
-          <target>La future publication a été annulée.</target>
-        </alt-trans>
-      </trans-unit>
-      <trans-unit id="7994323666a7722986c24f7f724e4862f9bbf9a6" resname="date_based_publisher.error.discard.publish_later">
-        <source>Cannot discard scheduled publication date: %reason%</source>
-        <target state="translated">Impossible d'annuler la date de planification de publication : %reason%</target>
-        <note>key: date_based_publisher.error.discard.publish_later</note>
-        <alt-trans>
-          <target>Impossible d'annuler la date de planification de publication: %reason%</target>
-        </alt-trans>
-        <alt-trans>
-          <target>Impossible d'annuler la future date de publication: %reason%</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="f99f89ba09246220d9b545d89a5c6ba76ff7b977" resname="date_based_publisher.error.publish_later">
         <source>Cannot schedule content: %reason%</source>
@@ -133,11 +61,6 @@
         <alt-trans>
           <target>Impossible de planifier le contenu: %reason%</target>
         </alt-trans>
-      </trans-unit>
-      <trans-unit id="5e2950ca93ce5670c04559781714521d3c64e5ad" resname="date_based_publisher.success.publish_later">
-        <source>Content scheduled for publishing.</source>
-        <target state="translated">Contenu planifié pour future publication.</target>
-        <note>key: date_based_publisher.success.publish_later</note>
       </trans-unit>
       <trans-unit id="7d074c91468b3c1f9e6302ea0432306fef788e95" resname="discard_schedule_publish">
         <source>discard_schedule_publish</source>
@@ -165,11 +88,6 @@
         <target state="translated">Confirmer</target>
         <note>key: publish_later.confirm</note>
       </trans-unit>
-      <trans-unit id="c369cb0b16138f3c7906590f6ee5cb7cb21ecd42" resname="publish_later.date_and_time">
-        <source><![CDATA[Date & Time]]></source>
-        <target state="translated"><![CDATA[Date et heure]]></target>
-        <note>key: publish_later.date_and_time</note>
-      </trans-unit>
       <trans-unit id="556b388819e694acae15637989c32827c445faed" resname="publish_later.settings">
         <source>Future publication settings</source>
         <target state="translated">Paramètres de planification de publication</target>
@@ -192,14 +110,6 @@
         <note>key: tab.name.all_scheduled</note>
         <alt-trans>
           <target>Toutes les futures publications</target>
-        </alt-trans>
-      </trans-unit>
-      <trans-unit id="20a2c0c41c7091973e1490a65b2268e1f7794eda" resname="tab.name.my_scheduled">
-        <source>My scheduled</source>
-        <target state="translated">Mes publications planifiées</target>
-        <note>key: tab.name.my_scheduled</note>
-        <alt-trans>
-          <target>Mes futures publications</target>
         </alt-trans>
       </trans-unit>
       <trans-unit id="49e01918c7a89ab888e3fea20cf0a9f7953b4908" resname="version.deleted">

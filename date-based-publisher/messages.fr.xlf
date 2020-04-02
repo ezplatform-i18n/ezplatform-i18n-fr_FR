@@ -11,16 +11,6 @@
         <target state="translated"><![CDATA[En savoir plus>>]]></target>
         <note>key: content.publish_later.read_more</note>
       </trans-unit>
-      <trans-unit id="d3271090e4c7db6a79d168181876891a6577fa19" resname="content.scheduled.canceled">
-        <source>Future publication canceled</source>
-        <target state="translated">Future publication annulée</target>
-        <note>key: content.scheduled.canceled</note>
-      </trans-unit>
-      <trans-unit id="34b402006eccad0bda15c91d1c25af637419d933" resname="content.scheduled.published">
-        <source>Future publication published</source>
-        <target state="translated">Future publication publiée</target>
-        <note>key: content.scheduled.published</note>
-      </trans-unit>
       <trans-unit id="16f7bbbd6e5ee28d30d0104f38019a0ed0ceaf46" resname="content.scheduled.title">
         <source>Title:</source>
         <target state="translated">Titre:</target>

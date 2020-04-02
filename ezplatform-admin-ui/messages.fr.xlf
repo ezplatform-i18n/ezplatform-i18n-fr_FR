@@ -71,21 +71,6 @@
         <target state="translated">Confirmer</target>
         <note>key: content.hide.modal.confirm</note>
       </trans-unit>
-      <trans-unit id="5c48055acad8df653edc1f8f65130d784fed3d88" resname="content.hide.modal.please_confirm_to_continue">
-        <source>If you wish to continue, please click on Confirm.</source>
-        <target state="translated">Si vous souhaitez continuer, veuillez cliquer sur Confirmer.</target>
-        <note>key: content.hide.modal.please_confirm_to_continue</note>
-      </trans-unit>
-      <trans-unit id="7932e7fd6d6b90a8264cf5805586cab3294290ed" resname="content.hide.modal.title">
-        <source>Conflict when hiding content item</source>
-        <target state="translated">Conflit en voulant cacher l’élément de contenu</target>
-        <note>key: content.hide.modal.title</note>
-      </trans-unit>
-      <trans-unit id="0f260745fb36618170e86bd6407bb2facd3a05a1" resname="content.hide.modal.warning_content_used_by_other_content">
-        <source>This item is being used by other content item(s). To avoid errors, please update or remove all related objects listed in the Relations tab.</source>
-        <target state="translated">Cet élément est utilisé par d'autre(s) élément(s) de contenu. Veuillez supprimer toutes les instances pour éviter une erreur 404.</target>
-        <note>key: content.hide.modal.warning_content_used_by_other_content</note>
-      </trans-unit>
       <trans-unit id="fb19ae886e63bac3aa3b851ac00aae8a3b777992" resname="content.in_trash">
         <source>In Trash</source>
         <target state="translated">Dans la corbeille</target>
@@ -121,46 +106,6 @@
         <target state="translated">Supprimer</target>
         <note>key: custom_url_alias_add_form.remove</note>
       </trans-unit>
-      <trans-unit id="7cb40cbc703336ab1285e81ebf100b82b05a0e27" resname="error.page.403.actions">
-        <source><![CDATA[You can also go back to the <a class="error-page__link" href="%dashboard%">dashboard</a> here or <a class="error-page__link" href="%search%">search</a> for other content.]]></source>
-        <target state="translated"><![CDATA[Vous pouvez également retourner au <a class="error-page__link" href="%dashboard%">tableau de bord</a> ou effectuer une<a class="error-page__link" href="%search%">recherche</a> pour tout autre contenu.]]></target>
-        <note>key: error.page.403.actions</note>
-      </trans-unit>
-      <trans-unit id="2532cb9ce6fdf46258c107f3d20888c506115ef6" resname="error.page.403.message">
-        <source><![CDATA[It’s an error 403. You don’t have permission to retrieve or access this page.<br/>Please contact your eZ Platform Administrator to request access to<br/>this content or modify your profile.]]></source>
-        <target state="translated"><![CDATA[C’est une erreur 403. Vous n’avez pas l’autorisation d’accéder à cette page.<br/>Veuillez contacter votre administrateur pour demander l’accès à<br/>ce contenu ou modifier votre profil.]]></target>
-        <note>key: error.page.403.message</note>
-      </trans-unit>
-      <trans-unit id="b1712cfa4c13874debdcc0f1f4a3b9fa4af3c966" resname="error.page.403.title">
-        <source>You don’t have permission for this page. Sorry!</source>
-        <target state="translated">Vous n’avez pas l’autorisation d'accès à cette page. Désolé !</target>
-        <note>key: error.page.403.title</note>
-      </trans-unit>
-      <trans-unit id="638be721c063eee72e70484fe99a25b2a990bb18" resname="error.page.404.actions">
-        <source><![CDATA[Check the URL, in case there would be an error in there.<br/>If not, go to the <a class="error-page__link" href="%dashboard%">dashboard</a> or <a class="error-page__link" href="%search%">search</a> for specific content.]]></source>
-        <target state="translated"><![CDATA[Veuillez vérifier l’URL, dans le cas où il y aurait une erreur.<br/>Si ce n'est pas le cas, vous pouvez allez au <a class="error-page__link" href="%dashboard%">tableau de bord</a> ou effectuer une <a class="error-page__link" href="%search%">recherche</a> pour un contenu spécifique.]]></target>
-        <note>key: error.page.404.actions</note>
-      </trans-unit>
-      <trans-unit id="7027b2adcf028b82111334763e40823cd85a52fa" resname="error.page.404.message">
-        <source><![CDATA[It’s an error 404. The page you requested was not found.<br/>It might have been deleted or might be temporarily unavailable.]]></source>
-        <target state="translated"><![CDATA[C'est une erreur 404. La page demandée n’a pas été trouvée.<br/>Il se pourrait qu'elle ait été supprimée ou soit temporairement indisponible.]]></target>
-        <note>key: error.page.404.message</note>
-      </trans-unit>
-      <trans-unit id="156b8a7f797412e60bdba432064e2dade6d4a7af" resname="error.page.404.title">
-        <source>Something went wrong. Sorry!</source>
-        <target state="translated">Quelque chose c'est mal passé. Désolé !</target>
-        <note>key: error.page.404.title</note>
-      </trans-unit>
-      <trans-unit id="a599d59a63814826906caa9842f0b3c33db24d09" resname="error.page.default.actions">
-        <source><![CDATA[Please contact your eZ Platform Administrator and inform her/him about the time the error occurred, the URL in your browser window and anything related you think may have caused the error.<br/>You can also go back or try to reload the application.]]></source>
-        <target state="translated"><![CDATA[Veuillez contacter votre administrateur et informer cette personne du moment où l’erreur s’est produite, de l’URL dans la fenêtre de votre navigateur et de n’importe quelle information ayant un lien avec l’erreur.<br/>Vous pouvez également revenir en arrière ou essayez de recharger l’application.]]></target>
-        <note>key: error.page.default.actions</note>
-      </trans-unit>
-      <trans-unit id="8338c190462d420926edf71e8d4cddcae710d361" resname="error.page.default.message">
-        <source>It's an error 500, an internal server error. The server was unable to complete your request and it's not your fault.</source>
-        <target state="translated">C'est une erreur 500, une erreur de serveur interne. Le serveur n’a pas pu répondre à votre demande, et ce n’est pas votre faute.</target>
-        <note>key: error.page.default.message</note>
-      </trans-unit>
       <trans-unit id="889ba15bcc2f87bfac9b80282f659eaeb7c175d4" resname="error.page.default.title">
         <source>Something went wrong. Sorry!</source>
         <target state="translated">Quelque chose c'est mal passé. Désolé !</target>
@@ -176,48 +121,10 @@
         <target state="translated">Supprimer l'auteur</target>
         <note>key: ezauthor.action.delete</note>
       </trans-unit>
-      <trans-unit id="f73d03811ba3033d6b44986d55ca728c5a88b168" resname="ezplatform.forgot_user_password.contact_administrator">
-        <source>If you do not remember your login, please contact the site administrator.</source>
-        <target state="translated">Si vous ne vous souvenez pas de votre identifiant, veuillez contacter l'administrateur du site.</target>
-        <note>key: ezplatform.forgot_user_password.contact_administrator</note>
-      </trans-unit>
-      <trans-unit id="ffb6990d5e75fe6dc86e94166b77e40a79e4e2a3" resname="ezplatform.forgot_user_password.login">
-        <source>This email is connected with several accounts. Please enter your login.</source>
-        <target state="translated">Cet e-mail est connecté avec plusieurs comptes. Entrez votre nom d’utilisateur.</target>
-        <note>key: ezplatform.forgot_user_password.login</note>
-      </trans-unit>
-      <trans-unit id="db6dd97ed4776bb0e9843554c48e3962327e8f50" resname="ezplatform.forgot_user_password.message">
-        <source><![CDATA[Hi,
-        <br /><br />
-        We have received a request to reset the password for your account on site. Click “reset password” below to choose a new password:
-        <br /><br />
-        <a href="%reset_password%">Reset password<a/>
-        <br /><br />
-        If you did not request a password reset, please ignore this email, and your password will remain the same.]]></source>
-        <target state="translated"><![CDATA[Bonjour,
-        <br /><br />
-        Nous avons reçu une demande de réinitialiser le mot de passe pour votre compte. Cliquez sur « Réinitialiser le mot de passe » ci-dessous pour choisir un nouveau mot de passe :
-        <br /><br />
-        <a href="%reset_password%">Réinitialiser mot de passe<a/>
-        <br /><br />
-        Si vous n’avez pas effectuer une demande de réinitialisation de mot de passe, veuillez ignorer cet email. Votre mot de passe restera inchangé.]]></target>
-        <note>key: ezplatform.forgot_user_password.message</note>
-      </trans-unit>
       <trans-unit id="801ba7693e80ca58fbf2a9da2b735bf3f324fd27" resname="ezplatform.forgot_user_password.reset_your_password">
         <source>Reset your password</source>
         <target state="translated">Réinitialiser votre mot de passe</target>
         <note>key: ezplatform.forgot_user_password.reset_your_password</note>
-      </trans-unit>
-      <trans-unit id="36aa6723300a41ba80ee0096c0d2bcf34fd48aca" resname="ezplatform.forgot_user_password.success">
-        <source><![CDATA[<p>We have sent an email to the email address of your account. You should receive the email shortly.</p>
-            <p>If the email is slow to arrive, check your spam folders.</p>
-            <p>If you receive no email, it’s that your username or email is unknown to us, so please double check.</p>
-            <p>If you reset your password multiple times, only the most recent email link will be valid</p>]]></source>
-        <target state="translated"><![CDATA[<p>Nous avons envoyé un courriel à l’adresse e-mail de votre compte. Vous devriez recevoir l’email sous peu.</p>
-            <p>Si l’email est lent à arriver, vérifier vos dossiers indésirables.</p>
-            <p>Si vous ne recevez aucun email, c’est que votre nom d’utilisateur ou votre e-mail nous est inconnu, veuillez vérifier s'il vous plaît.</p>
-            <p>Si vous avez réinitialisé votre mot de passe plusieurs fois, seul le lien dans le courriel le plus récent sera valable</p>]]></target>
-        <note>key: ezplatform.forgot_user_password.success</note>
       </trans-unit>
       <trans-unit id="40dd2934190789b016771a0fc3b41dcdfe0bb920" resname="ezplatform.reset_user_password.change_password">
         <source>Change password</source>
@@ -228,11 +135,6 @@
         <source><![CDATA[This link is not valid anymore, you can <a href="%forgot_user_password%">generate a new link</a> to reset your password.]]></source>
         <target state="translated"><![CDATA[Ce lien n'est plus valide, vous pouvez <a href="%forgot_user_password%">générer un nouveau lien</a> pour réinitialiser votre mot de passe.]]></target>
         <note>key: ezplatform.reset_user_password.link_is_not_valid</note>
-      </trans-unit>
-      <trans-unit id="5149c594d64197e519d38a1a2e7368140716bb81" resname="ezplatform.reset_user_password.success">
-        <source><![CDATA[Congrats, your password has been changed, you can now <a href="%login%">login</a> to eZ Platform.]]></source>
-        <target state="translated"><![CDATA[Félicitations, votre mot de passe a été modifié, vous pouvez maintenant vous <a href="%login%">connecter</a> à eZ Platform.]]></target>
-        <note>key: ezplatform.reset_user_password.success</note>
       </trans-unit>
       <trans-unit id="5cf420af18fd4a8d856fd30bc13aea5039369f9b" resname="form.cancel">
         <source>Cancel</source>
@@ -264,21 +166,6 @@
         <target state="translated">Assigner au contenu</target>
         <note>key: section.assign,content</note>
       </trans-unit>
-      <trans-unit id="6a17e9f4ed416563fc8c3e188509b8eec8a6f7c0" resname="section.modal.message">
-        <source>Do you want to delete section?</source>
-        <target state="translated">Voulez-vous vraiment supprimer la section ?</target>
-        <note>key: section.modal.message</note>
-      </trans-unit>
-      <trans-unit id="1152c93462d8bed85642b961f01ed63a6f2525ab" resname="tab.locations.location_content_swap">
-        <source>Location Content Swap</source>
-        <target state="translated">Échange d'emplacement de contenu</target>
-        <note>key: tab.locations.location_content_swap</note>
-      </trans-unit>
-      <trans-unit id="27d429c3dcff70494c4080957b05a9db5255f854" resname="tab.locations.swap_with_another">
-        <source>Swap the content item at this location with another</source>
-        <target state="translated">Échanger le contenu de cet emplacement avec un autre</target>
-        <note>key: tab.locations.swap_with_another</note>
-      </trans-unit>
       <trans-unit id="1246bcf8752e249bdec2067d43cfae2a5103bc5f" resname="tab.view.preview">
         <source>Preview</source>
         <target state="translated">Prévisualisation</target>
@@ -303,36 +190,6 @@
         <source>Cancel</source>
         <target state="translated">Annuler</target>
         <note>key: trash.form.cancel</note>
-      </trans-unit>
-      <trans-unit id="2720e3018fc8b1158cb728b1d5dc377ef7293b57" resname="trash.modal.message">
-        <source>Are you sure you want to send this content item to trash?</source>
-        <target state="translated">Etes-vous sûr de vouloir envoyer cet élément de contenu à la corbeille ?</target>
-        <note>key: trash.modal.message</note>
-      </trans-unit>
-      <trans-unit id="bd97a738137e75de44544db1104bab3a46222791" resname="trash_asset.modal.message_body">
-        <source>If you wish to delete this(/these) asset(s) too, first make sure they are not used by other content. You can check these content going to the asset(s) and looking at their content relations in the Relation tab.</source>
-        <target state="translated">Si vous souhaitez aussi supprimer ce(s) contenu(s) image, assurez-vous d'abord qu'ils ne soient pas utilisés par d'autres contenus. Vous pouvez vérifier ces contenus image et regarder les relations dans l'onglet Relation.</target>
-        <note>key: trash_asset.modal.message_body</note>
-      </trans-unit>
-      <trans-unit id="17c7abad79d72d771a25b064e0de38b72fc6c926" resname="trash_asset.modal.message_header">
-        <source>You are about to delete a content that has one or several asset(s) field(s) used by other content items. These assets will remain available in system.</source>
-        <target state="translated">Vous êtes sur le point de supprimer un contenu qui possède un ou plusieurs contenu(s) image utilisé(s) par d'autres éléments de contenu. Ces actifs resteront disponibles dans le système.</target>
-        <note>key: trash_asset.modal.message_header</note>
-      </trans-unit>
-      <trans-unit id="e81a14f38ebe272cb11ef90e2948a8c6602307ca" resname="trash_asset_single.modal.message">
-        <source>You have the option to delete %content_name% (%content_type%) only or to also delete the assets it is using. Make your choice:</source>
-        <target state="translated">Vous avez la possibilité de supprimer %content_name% (%content_type%) uniquement ou également supprimer les contenus associés qu’il utilise. Faites votre choix :</target>
-        <note>key: trash_asset_single.modal.message</note>
-      </trans-unit>
-      <trans-unit id="ff537a1e092270edf7497dc13ce051cdb458958b" resname="trash_asset_single.modal.message_main">
-        <source>You are about to delete a content with one or several asset(s) field(s).</source>
-        <target state="translated">Vous êtes sur le point de supprimer un contenu ayant un ou plusieurs champ(s) connecté à d'autres contenus.</target>
-        <note>key: trash_asset_single.modal.message_main</note>
-      </trans-unit>
-      <trans-unit id="1e6a1d97cca01a288e47d2d14479274b90e6c6c1" resname="trash_container.modal.message_main">
-        <source>Deleting %content_name% will also delete its sub-items, under its location(s). To confirm, please check below</source>
-        <target state="translated">La suppression de %content_name% supprimera également ses sous-éléments, sous ses emplacements. Pour confirmer, veuillez cocher la case ci-dessous</target>
-        <note>key: trash_container.modal.message_main</note>
       </trans-unit>
     </body>
   </file>

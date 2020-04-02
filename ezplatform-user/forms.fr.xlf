@@ -21,11 +21,6 @@
         <target state="translated">Nouveau mot de passe</target>
         <note>key: ezplatform.change_user_password.new_password</note>
       </trans-unit>
-      <trans-unit id="7d2421be11a5351c12c952611c7a1a7f00f51cd9" resname="ezplatform.change_user_password.old_password">
-        <source>Old password</source>
-        <target state="translated">Ancien mot de passe</target>
-        <note>key: ezplatform.change_user_password.old_password</note>
-      </trans-unit>
       <trans-unit id="859bfc3d21113eecb4a19d4a9305f2519eb4b331" resname="ezplatform.forgot_user_password.email">
         <source>Enter your email address:</source>
         <target state="translated">Entrer votre adresse email :</target>

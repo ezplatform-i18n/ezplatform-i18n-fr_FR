@@ -36,11 +36,6 @@
         <target state="translated">Module</target>
         <note>key: tab.policies.module</note>
       </trans-unit>
-      <trans-unit id="445e5dce642562c06137fef60c9a7fcf788a9da6" resname="tab.policies.no_policies">
-        <source>This content item has no policies.</source>
-        <target state="translated">Cet élément de contenu n’a aucun politique de sécurité.</target>
-        <note>key: tab.policies.no_policies</note>
-      </trans-unit>
       <trans-unit id="1a761d1b544608935dfa6ce9d196cf2c31f7edda" resname="tab.policies.policies">
         <source>Policies</source>
         <target state="translated">Politiques de sécurité</target>

@@ -11,11 +11,6 @@
         <target state="translated">Brouillons</target>
         <note>key: drafts.list</note>
       </trans-unit>
-      <trans-unit id="7a00fa1045089ab6b05a30314644f3f53477ecbf" resname="drafts.list.action.edit">
-        <source>Edit Draft</source>
-        <target state="translated">Modifier le brouillon</target>
-        <note>key: drafts.list.action.edit</note>
-      </trans-unit>
       <trans-unit id="887b9056de68ebd1c33c43af14093c2cafb38c5d" resname="drafts.list.action.remove">
         <source>Remove</source>
         <target state="translated">Supprimer</target>
@@ -26,20 +21,10 @@
         <target state="translated">Souhaitez-vous vraiment supprimer de façon permanente le(s) brouillon(s) sélectionné(s) ?</target>
         <note>key: drafts.list.action.remove.confirmation.text</note>
       </trans-unit>
-      <trans-unit id="61be4cf21a9d454b832543ae2ecb5b2b10f94583" resname="drafts.list.action.remove.confirmation.title">
-        <source>Delete selected drafts</source>
-        <target state="translated">Supprimer les brouillons sélectionnés</target>
-        <note>key: drafts.list.action.remove.confirmation.title</note>
-      </trans-unit>
       <trans-unit id="b62c11ec52c71a7923851340a98932ed8ac8704b" resname="drafts.list.content_type">
         <source>Content Type</source>
         <target state="translated">Type de Contenu</target>
         <note>key: drafts.list.content_type</note>
-      </trans-unit>
-      <trans-unit id="1b21c0ebc62c6a9d0c320a08a9ca807231fab739" resname="drafts.list.empty">
-        <source>The draft list is empty. Any Content draft you create will end up here.</source>
-        <target state="translated">La liste des brouillons est vide. Tout brouillon de Contenu que vous créerez apparaîtra ici.</target>
-        <note>key: drafts.list.empty</note>
       </trans-unit>
       <trans-unit id="3cdd0ca8cb41c22f9120de646cc5734f7cad7ffb" resname="drafts.list.last_saved">
         <source>Last Saved</source>

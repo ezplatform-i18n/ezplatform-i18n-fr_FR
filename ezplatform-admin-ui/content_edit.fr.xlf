@@ -11,14 +11,6 @@
         <target state="translated">Le brouillon du contenu a été sauvegardé.</target>
         <note>key: content.draft_saved.success</note>
       </trans-unit>
-      <trans-unit id="e735240930546ee4e9ae782ffa95ee09d846665a" resname="content.field.non_editable">
-        <source>Field type is not editable</source>
-        <target state="translated">Ce type de champ n’est pas modifiable</target>
-        <note>key: content.field.non_editable</note>
-        <alt-trans>
-          <target>Type de champ n’est pas modifiable</target>
-        </alt-trans>
-      </trans-unit>
       <trans-unit id="07d6fb7c02b8730592a3bb68a315caa63031d44e" resname="content.published.success">
         <source>Content published.</source>
         <target state="translated">Contenu publié.</target>
@@ -36,26 +28,6 @@
         <source>Created by %name%</source>
         <target state="translated">Créé par %name%</target>
         <note>key: created_by</note>
-      </trans-unit>
-      <trans-unit id="0474be007e2cbb859dcec4d70ced364af71ba119" resname="editing_in_language">
-        <source>Editing - %contentName% in %languageName%</source>
-        <target state="translated">Edition - %contentName% en %languageName%</target>
-        <note>key: editing_in_language</note>
-      </trans-unit>
-      <trans-unit id="4e46e160f661315fed793049088d1426ae440b56" resname="editing_in_language_based_on">
-        <source>Editing - %contentName% in %languageName% based on %baseLanguageName%</source>
-        <target state="translated">Edition - %contentName% en %languageName% à partir de %baseLanguageName%</target>
-        <note>key: editing_in_language_based_on</note>
-      </trans-unit>
-      <trans-unit id="669edeb37bec7cf4ec99288b90b02ba65e84b4cf" resname="errors.in.the.form">
-        <source>Looks like something went wrong. Please check for required fields or errors and correct them</source>
-        <target state="translated">Il semble qu'une erreur est survenue. Veuillez vérifier les champs obligatoires ou les erreurs et les corriger</target>
-        <note>key: errors.in.the.form</note>
-      </trans-unit>
-      <trans-unit id="009667fab56f0bec66634f009a75ffd9425f2987" resname="fieldtype.translation_is_disabled">
-        <source>Translation for %fieldName% is disabled</source>
-        <target state="translated">La traduction du champ %fieldName% est désactivée</target>
-        <note>key: fieldtype.translation_is_disabled</note>
       </trans-unit>
       <trans-unit id="876d7bdba03c72251ec4c2dc827fc54af7889091" resname="location_id">
         <source>Location ID: %locationId%</source>

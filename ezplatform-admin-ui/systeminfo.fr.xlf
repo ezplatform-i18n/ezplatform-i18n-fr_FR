@@ -161,11 +161,6 @@
         <target state="translated">Chemin</target>
         <note>key: symfony_kernel.path</note>
       </trans-unit>
-      <trans-unit id="56014c7eba59799c182934e3a0eb97eff6fd8a97" resname="symfony_kernel.rootDir">
-        <source>Root directory</source>
-        <target state="translated">Dossier racine</target>
-        <note>key: symfony_kernel.rootDir</note>
-      </trans-unit>
       <trans-unit id="74fd4792096e74360c7508e16bbe7c1e121d393e" resname="symfony_kernel.version">
         <source>Version</source>
         <target state="translated">Version</target>

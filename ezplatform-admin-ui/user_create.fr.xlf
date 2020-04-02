@@ -6,11 +6,6 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="ad4e9a4e42b99d945f972bab5a2eff694d283793" resname="creating">
-        <source>Creating - %contentType%</source>
-        <target state="translated">Création - %contentType%</target>
-        <note>key: creating</note>
-      </trans-unit>
       <trans-unit id="256aa0fda9b1de1a73ee0b7106b95efada81b5d6" resname="group_id">
         <source>Group ID: %groupId%</source>
         <target state="translated">ID du groupe : %groupId%</target>

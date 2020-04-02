@@ -11,16 +11,6 @@
         <target state="translated">Modifier URL</target>
         <note>key: url.action.edit</note>
       </trans-unit>
-      <trans-unit id="f561064964d324f7697c98336f2e4ef5a247e7db" resname="url.action.item.edit">
-        <source>Edit Item</source>
-        <target state="translated">Editer l'élément</target>
-        <note>key: url.action.item.edit</note>
-      </trans-unit>
-      <trans-unit id="6a23ab14fca2c76fe7ea84f53221ed5caf907f45" resname="url.detail">
-        <source>Link detail</source>
-        <target state="translated">Détail du lien</target>
-        <note>key: url.detail</note>
-      </trans-unit>
       <trans-unit id="23bfb0e222eeac1bfa481ba09c5b4aea1d0295da" resname="url.edit">
         <source>Edit</source>
         <target state="translated">Modifier</target>

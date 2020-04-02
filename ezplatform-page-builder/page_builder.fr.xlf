@@ -41,11 +41,6 @@
         <target state="translated">Fermer</target>
         <note>key: config_popup.close.label</note>
       </trans-unit>
-      <trans-unit id="195a806c1a0668adbea700cd92ec432cd9e08854" resname="date_picker.label">
-        <source><![CDATA[Date & Time]]></source>
-        <target state="translated"><![CDATA[Date et heure]]></target>
-        <note>key: date_picker.label</note>
-      </trans-unit>
       <trans-unit id="6eab7e919136479499cfa377b9f63bae39d22c54" resname="drop.block.here">
         <source>Drop block here</source>
         <target state="translated">Déposer le bloc ici</target>
@@ -65,11 +60,6 @@
         <source>Something went wrong</source>
         <target state="translated">Une erreur s'est produite</target>
         <note>key: error.message</note>
-      </trans-unit>
-      <trans-unit id="4a59666b61e8dc389b7390ad051bb8ef705ae1e4" resname="fieldtype.landing_page.missing_proper_configuration.error.message">
-        <source>Some blocks are missing proper configuration</source>
-        <target state="translated">Certains blocs n'ont pas une configuration correcte</target>
-        <note>key: fieldtype.landing_page.missing_proper_configuration.error.message</note>
       </trans-unit>
       <trans-unit id="9883bd31212048bc2352b92dcc30b541e6eac5b5" resname="layout_selector.close.label">
         <source>Close</source>
