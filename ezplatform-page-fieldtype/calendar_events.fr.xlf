@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="e9e749d54f8be230e31ce9eeec8f66e6fe0656e0" resname="page_block_reveal.label">
+        <source>Block reveal</source>
+        <target state="translated">Révéler le bloc</target>
+        <note>key: page_block_reveal.label</note>
+      </trans-unit>
+      <trans-unit id="15204acbfb66b707e1870987e2df8dd43d87fb23" resname="page_block_hide.label">
+        <source>Block hide</source>
+        <target state="translated">Cacher le bloc</target>
+        <note>key: page_block_hide.label</note>
+      </trans-unit>
+      <trans-unit id="3f33d0924567a52a3b81e930591e5fcfa899dfd3" resname="page_block_visibility.attribute.content_type.label">
+        <source>Content Type</source>
+        <target state="translated">Type de contenu</target>
+        <note>key: page_block_visibility.attribute.content_type.label</note>
+      </trans-unit>
+      <trans-unit id="c9f927de803212415a68ff596c26821af8585bc3" resname="page_block_visibility.attribute.modified_language.label">
+        <source>Modified language</source>
+        <target state="translated">Langue modifiée</target>
+        <note>key: page_block_visibility.attribute.modified_language.label</note>
+      </trans-unit>
+      <trans-unit id="353ee0baf1d2304e82aaaf541340699f797db3ea" resname="page_block_visibility.attribute.block_type.label">
+        <source>Block type</source>
+        <target state="translated">Type de bloc</target>
+        <note>key: page_block_visibility.attribute.element.label</note>
+      </trans-unit>
+      <trans-unit id="9dde86dd23891073c129c2d4e176ff6bb6ae28a4" resname="page_block_visibility.attribute.content_name.label">
+        <source>Content Name</source>
+        <target state="translated">Nom de contenu</target>
+        <note>key: page_block_visibility.attribute.content_name.label</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="6e67415bab373d3c039b95555fe5dd32b58ff488" resname="ezplatform.content.is_not_expected_content_container">
+        <source>The selected Content item isn't a container.</source>
+        <target state="translated">L'élément de contenu sélectionné n'est pas un conteneur.</target>
+        <note>key: ezplatform.content.is_not_expected_content_container</note>
+      </trans-unit>
+      <trans-unit id="1ebd18b27bb58dd8d34bb3ad0da7162a5aec36ff" resname="ezplatform.content.is_not_expected_content_type">
+        <source>The selected Content item isn't of the expected Content Type.</source>
+        <target state="translated">L'élément de contenu sélectionné n'est pas du type de contenu attendu.</target>
+        <note>key: ezplatform.content.is_not_expected_content_type</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

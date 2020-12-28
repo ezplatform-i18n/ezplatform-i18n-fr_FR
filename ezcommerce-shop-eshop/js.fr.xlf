@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="bcd5159adfe807b3a8fb03ed55d5370b745a1651" resname="js.datepicker.days.monday" approved="yes">
+        <source>Monday</source>
+        <target state="final">Lundi</target>
+        <note>key: js.datepicker.days.monday</note>
+      </trans-unit>
+      <trans-unit id="b9023d7eb178e7bae1e1d294f119e138f96add26" resname="js.datepicker.days.saturday" approved="yes">
+        <source>Saturday</source>
+        <target state="final">Samedi</target>
+        <note>key: js.datepicker.days.saturday</note>
+      </trans-unit>
+      <trans-unit id="c75ca4b1f52bb75c7d407f9c6d161b7cf0032458" resname="js.datepicker.days.sunday" approved="yes">
+        <source>Sunday</source>
+        <target state="final">Dimanche</target>
+        <note>key: js.datepicker.days.sunday</note>
+      </trans-unit>
+      <trans-unit id="c0cca2b56e4f6ba974cd3044e4c520218e896e91" resname="js.datepicker.days.thursday" approved="yes">
+        <source>Thursday</source>
+        <target state="final">Jeudi</target>
+        <note>key: js.datepicker.days.thursday</note>
+      </trans-unit>
+      <trans-unit id="bb30b9d0a0f5eb7a1cb42ff42b8948103cd781ec" resname="js.datepicker.days.tuesday" approved="yes">
+        <source>Tuesday</source>
+        <target state="final">Mardi</target>
+        <note>key: js.datepicker.days.tuesday</note>
+      </trans-unit>
+      <trans-unit id="4d258f31ee060363422115e18ad73034f2a2ad3e" resname="js.datepicker.days.wednesday" approved="yes">
+        <source>Wednesday</source>
+        <target state="final">Mercredi</target>
+        <note>key: js.datepicker.days.wednesday</note>
+      </trans-unit>
+      <trans-unit id="22191363af40fd50736d35a030862f2da5365588" resname="js.datepicker.months.april" approved="yes">
+        <source>April</source>
+        <target state="final">Avril</target>
+        <note>key: js.datepicker.months.april</note>
+      </trans-unit>
+      <trans-unit id="535b216ff5d66296aada62aeb53b4887516c1872" resname="js.datepicker.months.august" approved="yes">
+        <source>August</source>
+        <target state="final">Août</target>
+        <note>key: js.datepicker.months.august</note>
+      </trans-unit>
+      <trans-unit id="6f61299cb89be869ecdfc7cd6c5cfc07719e6a9b" resname="js.datepicker.months.december" approved="yes">
+        <source>December</source>
+        <target state="final">Décembre</target>
+        <note>key: js.datepicker.months.december</note>
+      </trans-unit>
+      <trans-unit id="cd2a12a43bf8fe5e5821cda34f4f3fdae7a53f4a" resname="js.datepicker.months.february" approved="yes">
+        <source>February</source>
+        <target state="final">Février</target>
+        <note>key: js.datepicker.months.february</note>
+      </trans-unit>
+      <trans-unit id="139347ad370109b40b2afd4e50eb8daa448e16ce" resname="js.datepicker.months.january" approved="yes">
+        <source>January</source>
+        <target state="final">Janvier</target>
+        <note>key: js.datepicker.months.january</note>
+      </trans-unit>
+      <trans-unit id="331e361c38e020b2af38f427aa05417f11c1d939" resname="js.datepicker.months.july" approved="yes">
+        <source>July</source>
+        <target state="final">Juillet</target>
+        <note>key: js.datepicker.months.july</note>
+      </trans-unit>
+      <trans-unit id="0642e249a80415b1be44ac4fcc73085443d69512" resname="js.datepicker.months.june" approved="yes">
+        <source>June</source>
+        <target state="final">Juin</target>
+        <note>key: js.datepicker.months.june</note>
+      </trans-unit>
+      <trans-unit id="d96213680ce2b2d5e841576431028a984bc61867" resname="js.datepicker.months.march" approved="yes">
+        <source>March</source>
+        <target state="final">Mars</target>
+        <note>key: js.datepicker.months.march</note>
+      </trans-unit>
+      <trans-unit id="955ebdf8c6c782f8176544fd46dc2fddff832a8f" resname="js.datepicker.months.may" approved="yes">
+        <source>May</source>
+        <target state="final">Mai</target>
+        <note>key: js.datepicker.months.may</note>
+      </trans-unit>
+      <trans-unit id="7a42f28cfde4f88311ed0adc3fa00fdaab8f59c5" resname="js.datepicker.months.november" approved="yes">
+        <source>November</source>
+        <target state="final">Novembre</target>
+        <note>key: js.datepicker.months.november</note>
+      </trans-unit>
+      <trans-unit id="6e24722161452b8d14f30830fef26990a49c2766" resname="js.datepicker.months.october" approved="yes">
+        <source>October</source>
+        <target state="final">Octobre</target>
+        <note>key: js.datepicker.months.october</note>
+      </trans-unit>
+      <trans-unit id="10951605aabdb40419e38009137f9f31507c187d" resname="js.datepicker.months.september" approved="yes">
+        <source>September</source>
+        <target state="final">Septembre</target>
+        <note>key: js.datepicker.months.september</note>
+      </trans-unit>
+      <trans-unit id="33658f1ab3a97e7ac39d5900a73205c66242886c" resname="js.datepicker.today">
+        <source>Today</source>
+        <target state="translated">Aujourd'hui</target>
+        <note>key: js.datepicker.today</note>
+      </trans-unit>
+      <trans-unit id="6d670d24f4be02d7e9e5405ec66b8f52ee000277" resname="js.msgs.close">
+        <source>Close</source>
+        <target state="translated">Fermer</target>
+        <note>key: js.msgs.close</note>
+      </trans-unit>
+      <trans-unit id="bcc269b16846070b6f830342b622edd9b8b0fbdf" resname="js.msgs.remove">
+        <source>Remove</source>
+        <target state="translated">Supprimer</target>
+        <note>key: js.msgs.remove</note>
+      </trans-unit>
+      <trans-unit id="a2b43f0e2b66ad12911a87a9778ab47bc4a2b2a4" resname="js.rwd.menu_toggle">
+        <source>Toggle menu</source>
+        <target state="translated">Afficher/Masquer le menu</target>
+        <note>key: js.rwd.menu_toggle</note>
+      </trans-unit>
+      <trans-unit id="313ab9377368d4291b725200e319af38f5ffd4f6" resname="js.social.fb_alt">
+        <source>Activate Facebook</source>
+        <target state="translated">Activer Facebook</target>
+        <note>key: js.social.fb_alt</note>
+      </trans-unit>
+      <trans-unit id="79752919d7e483520bda03171e52672fa9749f4f" resname="js.social.fb_off">
+        <source>Not connected with Facebook</source>
+        <target state="translated">Non connecté avec Facebook</target>
+        <note>key: js.social.fb_off</note>
+      </trans-unit>
+      <trans-unit id="f557faaeb56e86f20eb26366b6893b0769368afa" resname="js.social.fb_on">
+        <source>Connected with Facebook</source>
+        <target state="translated">Connecté avec Facebook</target>
+        <note>key: js.social.fb_on</note>
+      </trans-unit>
+      <trans-unit id="68492b1159d9a5f0fa5b18b765e0d7edf20b28de" resname="js.social.pinterest_alt">
+        <source>Activate Pinterest</source>
+        <target state="translated">Activer Pinterest</target>
+        <note>key: js.social.pinterest_alt</note>
+      </trans-unit>
+      <trans-unit id="66042d3f43237d5a3f9332116fd230211d0c0cdc" resname="js.social.settings">
+        <source>Settings</source>
+        <target state="translated">Réglages</target>
+        <note>key: js.social.settings</note>
+      </trans-unit>
+      <trans-unit id="a35a0a51fc00e645434197331f144f7e07e8a778" resname="js.social.twitter_on">
+        <source>Connected with Twitter</source>
+        <target state="translated">Connecté avec Twitter</target>
+        <note>key: js.social.twitter_on</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

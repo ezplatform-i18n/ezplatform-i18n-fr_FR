@@ -163,12 +163,6 @@
         <note>key: Only version in status DRAFT can be updated</note>
         <jms:reference-file line="461">eZ/Publish/Core/REST/Server/Controller/Content.php</jms:reference-file>
       </trans-unit>
-      <trans-unit id="3467ebb6448f4d8dd9f8a99cbea79415f25fa26d" resname="Path '%path%' already exists for the given language" approved="yes">
-        <source>Path '%path%' already exists for the given language</source>
-        <target state="final">Le chemin '%path%' existe déjà pour la langue donnée</target>
-        <note>key: Path '%path%' already exists for the given language</note>
-        <jms:reference-file line="397">eZ/Publish/Core/Persistence/Legacy/Content/UrlAlias/Handler.php</jms:reference-file>
-      </trans-unit>
       <trans-unit id="b2d83ff8d535b64b36eaab04237a3091fc10ee5a" resname="Placeholders are not matching with wildcards." approved="yes">
         <source>Placeholders are not matching with wildcards.</source>
         <target state="final">Les espaces réservés ne correspondent pas avec des caractères génériques.</target>
@@ -232,6 +226,11 @@
         <source>expected value to be of type '%expectedType%', got '%actualType%'</source>
         <target state="final">le type de la valeur attendu est %expectedType%, le type obtenu est %actualType%</target>
         <note>key: expected value to be of type '%expectedType%', got '%actualType%'</note>
+      </trans-unit>
+      <trans-unit id="9307ee9a550b5c318fbbd6f5750e95d1de1d3483" resname="non_verbose_error">
+        <source>An error has occurred. Please try again later or contact your Administrator.</source>
+        <target state="translated">Une erreur s'est produite. Merci de réessayer plus tard ou contacter votre administrateur•rice.</target>
+        <note>key: non_verbose_error</note>
       </trans-unit>
     </body>
   </file>

@@ -6,9 +6,9 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="d21d07085caa55b0fee2fc054a6878bbdb24ae78" resname="breadcrumb.admin">
+      <trans-unit id="d21d07085caa55b0fee2fc054a6878bbdb24ae78" resname="breadcrumb.admin" approved="yes">
         <source>Admin</source>
-        <target state="translated">Administration</target>
+        <target state="final">Administration</target>
         <note>key: breadcrumb.admin</note>
       </trans-unit>
     </body>

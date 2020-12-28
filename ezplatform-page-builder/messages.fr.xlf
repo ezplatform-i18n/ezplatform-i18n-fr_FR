@@ -6,7 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
+      <trans-unit id="e136be672df8eb27dc4eb2f1ce0650096090bf81" resname="content.hidden.message">
+        <source>The content item or its location is hidden. It will no longer be publicly available.</source>
+        <target state="translated">L'élément de contenu ou son emplacement est caché. Il ne sera plus disponible publiquement.</target>
+        <note>key: content.hidden.message</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

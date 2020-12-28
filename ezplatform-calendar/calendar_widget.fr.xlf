@@ -6,37 +6,161 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="1c432a52add696f3bb78c868ca3b643a73110d8e" resname="calendar.collapse.sidebar">
+        <source>Collapse sidebar</source>
+        <target state="translated">Réduire la barre latérale</target>
+        <note>key: calendar.collapse.sidebar</note>
+      </trans-unit>
+      <trans-unit id="7d5ef25bcc86308de6f09962dec8215a07dfa65c" resname="calendar.date_paginator.today">
+        <source>Today</source>
+        <target state="translated">Aujourd'hui</target>
+        <note>key: calendar.date_paginator.today</note>
+      </trans-unit>
+      <trans-unit id="71ed1d8df1592110b83f6375575fe9503dcc85d8" resname="calendar.expand.sidebar">
+        <source>Expand sidebar</source>
+        <target state="translated">Étendre la barre latérale</target>
+        <note>key: calendar.expand.sidebar</note>
+      </trans-unit>
+      <trans-unit id="ef16e74e63f02a8ae701704b5c31b1513da922be" resname="calendar.filters">
+        <source>Filters</source>
+        <target state="translated">Filtres</target>
+        <note>key: calendar.filters</note>
+      </trans-unit>
+      <trans-unit id="e93e7556391e67ee7308e321a271d224c6bdf58b" resname="calendar.filters.all_langauges">
+        <source>All languages</source>
+        <target state="translated">Toutes les langues</target>
+        <note>key: calendar.filters.all_langauges</note>
+      </trans-unit>
+      <trans-unit id="d7e7d23a9c363db8c35427d038398f822f213f6a" resname="calendar.filters.modified_langauge">
+        <source>Modified language</source>
+        <target state="translated">Langue modifiée</target>
+        <note>key: calendar.filters.modified_langauge</note>
+      </trans-unit>
+      <trans-unit id="df77d6ad5d75abff892899e8f5667e00fc63a005" resname="calendar.filters.types">
+        <source>Types</source>
+        <target state="translated">Types</target>
+        <note>key: calendar.filters.types</note>
+      </trans-unit>
+      <trans-unit id="110bbf5f9c0aaf33a13cc2d1a974dd1e27a84d62" resname="calendar.headline">
+        <source>Scheduled content</source>
+        <target state="translated">Contenu planifié</target>
+        <note>key: calendar.headline</note>
+      </trans-unit>
+      <trans-unit id="f4a9c72023d74a25f22147c3ab173e737e7f1510" resname="calendar.list.view">
+        <source>List view</source>
+        <target state="translated">Vue liste</target>
+        <note>key: calendar.list.view</note>
+      </trans-unit>
+      <trans-unit id="b7dfa1703967ef01984afceb4e9a4736bfd4da4b" resname="calendar.list_view.action_message">
+        <source>To continue, click 'Refresh list'. The selected list will update and the new item will be added to the list</source>
+        <target state="translated">Pour continuer, cliquez sur 'Rafraîchir la liste'. La liste sélectionnée sera mise à jour et le nouvel élément sera ajouté à la liste</target>
+        <note>key: calendar.list_view.action_message</note>
+      </trans-unit>
+      <trans-unit id="64d3a43bd33767824e15aad2cf7c193be3dbf845" resname="calendar.list_view.no_events">
+        <source>No events to show.</source>
+        <target state="translated">Aucun événement à afficher.</target>
+        <note>key: calendar.list_view.no_events</note>
+      </trans-unit>
+      <trans-unit id="8a03b37261c52255f64f53ed75ef0f82536727e1" resname="calendar.list_view.table_header.details">
+        <source>Details</source>
+        <target state="translated">Détails</target>
+        <note>key: calendar.list_view.table_header.details</note>
+      </trans-unit>
+      <trans-unit id="274a700b5bc60b7990c75259b98bb49bbeb0b5b0" resname="calendar.list_view.table_header.name">
+        <source>Name</source>
+        <target state="translated">Nom</target>
+        <note>key: calendar.list_view.table_header.name</note>
+      </trans-unit>
+      <trans-unit id="bfb752680366439e23bba2928865c84dae54cac8" resname="calendar.list_view.table_header.time">
+        <source>Time</source>
+        <target state="translated">Heure</target>
+        <note>key: calendar.list_view.table_header.time</note>
+      </trans-unit>
+      <trans-unit id="67a6b3f8f193c2e332c06e13640fb7269a28e678" resname="calendar.list_view.table_header.type">
+        <source>Type</source>
+        <target state="translated">Type</target>
+        <note>key: calendar.list_view.table_header.type</note>
+      </trans-unit>
+      <trans-unit id="3e4a58626123d7c904749e662815948b713b8f42" resname="calendar.load_events.error.message">
+        <source>Cannot load calendar data</source>
+        <target state="translated">Impossible de charger les données du calendrier</target>
+        <note>key: calendar.load_events.error.message</note>
+      </trans-unit>
+      <trans-unit id="899ff3697336ae3d29665eab91848c0681cc8a6b" resname="calendar.load_more_btn.label">
+        <source>Load More</source>
+        <target state="translated">Afficher Plus</target>
+        <note>key: calendar.load_more_btn.label</note>
+      </trans-unit>
+      <trans-unit id="af4ae109d8c31844dd30577e77d6e9ee215c1939" resname="calendar.remove">
+        <source>Remove</source>
+        <target state="translated">Supprimer</target>
+        <note>key: calendar.remove</note>
+      </trans-unit>
+      <trans-unit id="c994822d9ead3cac901ee5669d434a378e23f1bf" resname="calendar.selection_confirmation_popup.cancel.btn">
+        <source>Cancel</source>
+        <target state="translated">Annuler</target>
+        <note>key: calendar.selection_confirmation_popup.cancel.btn</note>
+      </trans-unit>
+      <trans-unit id="dd0914a48f8e356c24d7edf0cc60e95c091fb634" resname="calendar.selection_confirmation_popup.confirm.btn">
+        <source>Refresh list</source>
+        <target state="translated">Actualiser la liste</target>
+        <note>key: calendar.selection_confirmation_popup.confirm.btn</note>
+      </trans-unit>
+      <trans-unit id="e6314c23a986620cf4c604c71b6ebc2f754d6a2b" resname="calendar.selection_confirmation_popup.message">
+        <source>This event has different actions from the items currently selected in the list.</source>
+        <target state="translated">Cet événement a des actions différentes des éléments actuellement sélectionnés dans la liste.</target>
+        <note>key: calendar.selection_confirmation_popup.message</note>
+      </trans-unit>
+      <trans-unit id="dedc7ac32bb555c7a8ed92826303ca781c4ce676" resname="calendar.selection_confirmation_popup.no_events">
+        <source>Conflict when selecting items</source>
+        <target state="translated">Conflit lors de la sélection d'éléments</target>
+        <note>key: calendar.selection_confirmation_popup.no_events</note>
+      </trans-unit>
+      <trans-unit id="92e5329083074b289431bee769ff041949acac0e" resname="calendar.selection_sidebar.selected_info">
+        <source>selected</source>
+        <target state="translated">sélectionné</target>
+        <note>key: calendar.selection_sidebar.selected_info</note>
+      </trans-unit>
+      <trans-unit id="07d8842da3d9fe4c5c1564d18415e12cbcc0e626" resname="calendar.tooltips.backward">
+        <source>Backward</source>
+        <target state="translated">En arrière</target>
+        <note>key: calendar.tooltips.backward</note>
+      </trans-unit>
+      <trans-unit id="5a3e06bdfd7deed040b6ed3bc41e5b53c3c48b37" resname="calendar.tooltips.day">
+        <source>Day view</source>
+        <target state="translated">Vue par jour</target>
+        <note>key: calendar.tooltips.day</note>
+      </trans-unit>
+      <trans-unit id="faeb6e1b3f9b7027db26a9f89d57d8f227d6c272" resname="calendar.tooltips.forward">
+        <source>Forward</source>
+        <target state="translated">Avancer</target>
+        <note>key: calendar.tooltips.forward</note>
+      </trans-unit>
+      <trans-unit id="94ddc4162ee7f00136d3762b904a8d65d243b043" resname="calendar.tooltips.month">
+        <source>Month view</source>
+        <target state="translated">Vue par mois</target>
+        <note>key: calendar.tooltips.month</note>
+      </trans-unit>
+      <trans-unit id="9efc548cd2c43473f61939293edcaa989b33334c" resname="calendar.tooltips.week">
+        <source>Week view</source>
+        <target state="translated">Vue hebdomadaire</target>
+        <note>key: calendar.tooltips.week</note>
+      </trans-unit>
+      <trans-unit id="d4cddd2ef20d8cd6eaa68a8b317d8123ef7ff7b0" resname="calendar.view_switcher.day">
+        <source>Day</source>
+        <target state="translated">Jour</target>
+        <note>key: calendar.view_switcher.day</note>
+      </trans-unit>
+      <trans-unit id="91ab2c16d10a590748a95b3a79909f85c5ee8260" resname="calendar.view_switcher.month">
+        <source>Month</source>
+        <target state="translated">Mois</target>
+        <note>key: calendar.view_switcher.month</note>
+      </trans-unit>
+      <trans-unit id="6ad5890bfc0f61932f33981c6187e7e35c4d6a9a" resname="calendar.view_switcher.week">
+        <source>Week</source>
+        <target state="translated">Semaine</target>
+        <note>key: calendar.view_switcher.week</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -6,8 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
+      <trans-unit id="7f5b557877d0f5c0f1edc65368efcdfe472df3d8" resname="form.validate.error">
+        <source>%fieldName% Field is required</source>
+        <target state="translated">Le champ %fieldName% est requis</target>
+        <note>key: form.validate.error</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -6,7 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
+      <trans-unit id="2a37dc0a3f4494d945e4e83be3986e5d3c64039f" resname="content__sidebar_right__schedule_hide">
+        <source>Hide</source>
+        <target state="translated">Cacher</target>
+        <note>key: content__sidebar_right__schedule_hide</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

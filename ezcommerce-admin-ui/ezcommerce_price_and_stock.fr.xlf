@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="95152a121b383f5dd34363055566146f0a9d2398" resname="breadcrumb.ecommerce">
+        <source>e-commerce</source>
+        <target state="translated">e-commerce</target>
+        <note>key: breadcrumb.ecommerce</note>
+      </trans-unit>
+      <trans-unit id="863664ecbe5292359648c6ed5cff4fdf5378ed4b" resname="price_and_stock.price">
+        <source>Price management</source>
+        <target state="translated">Gestion des prix</target>
+        <note>key: price_and_stock.price</note>
+      </trans-unit>
+      <trans-unit id="1a29dba71977811a77d0c5bd07ae534b85990d5e" resname="price_and_stock.stock">
+        <source>Stock management</source>
+        <target state="translated">Gestion des stocks</target>
+        <note>key: price_and_stock.stock</note>
+      </trans-unit>
+      <trans-unit id="54be21c54ea1069ccad68f8017dd91c475bb5bbe" resname="price_and_stock.title">
+        <source>Price and stock management</source>
+        <target state="translated">Gestion des prix et des stocks</target>
+        <note>key: price_and_stock.title</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

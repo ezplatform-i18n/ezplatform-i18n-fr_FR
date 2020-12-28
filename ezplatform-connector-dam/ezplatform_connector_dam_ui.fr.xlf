@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="cc61601fea35048ac9eefb3fb2f19f243c761741" resname="dam.error.message">
+        <source>Something went wrong.</source>
+        <target state="translated">Une erreur est survenue.</target>
+        <note>key: dam.error.message</note>
+      </trans-unit>
+      <trans-unit id="ec403158b3fd1e13dbc66f2de51e235fdb178188" resname="modal.close">
+        <source>Close</source>
+        <target state="translated">Fermer</target>
+        <note>key: modal.close</note>
+      </trans-unit>
+      <trans-unit id="af3bcdfcdcd33a16838a6f2b88c845c92fcb0938" resname="pagination.back">
+        <source>Back</source>
+        <target state="translated">Retour</target>
+        <note>key: pagination.back</note>
+      </trans-unit>
+      <trans-unit id="b10157de76c0f57fa166904d97c06336e10559ca" resname="pagination.next">
+        <source>Next</source>
+        <target state="translated">Suivant</target>
+        <note>key: pagination.next</note>
+      </trans-unit>
+      <trans-unit id="3559d7accf00360971961ca18989adc0614089c0" resname="search">
+        <source>Search</source>
+        <target state="translated">Rechercher</target>
+        <note>key: search</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

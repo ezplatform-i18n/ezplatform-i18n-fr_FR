@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="43f4682efff5d5a58ca3d8acd666eb3ec93a4713" resname="Address2">
+        <source>Additional address line</source>
+        <target state="translated">Complément d'adresse 1</target>
+        <note>key: Address2</note>
+      </trans-unit>
+      <trans-unit id="4271627f4f0bef6104a95cca7bb21cda4d74503e" resname="City">
+        <source>City</source>
+        <target state="translated">Ville</target>
+        <note>key: City</note>
+      </trans-unit>
+      <trans-unit id="153d7a58b3a3e898fcbdd04c462af308414bd09d" resname="Comment">
+        <source>Comment</source>
+        <target state="translated">Commentaire</target>
+        <note>key: Comment</note>
+      </trans-unit>
+      <trans-unit id="d523ebbd10146cdfd39dee077f04c9d08468d0bc" resname="Country">
+        <source>Country</source>
+        <target state="translated">Pays</target>
+        <note>key: Country</note>
+      </trans-unit>
+      <trans-unit id="492dca19f68470a019592069af4d7da92ee5da51" resname="Order confirmation">
+        <source>Order confirmation</source>
+        <target state="translated">Confirmation de commande</target>
+        <note>key: Order confirmation</note>
+      </trans-unit>
+      <trans-unit id="0e55fb3b04e225d83af1a64ec1cedc121fb61c32" resname="Payment method">
+        <source>Payment method</source>
+        <target state="translated">Mode de paiement</target>
+        <note>key: Payment method</note>
+      </trans-unit>
+      <trans-unit id="da4725a3306d8386ac42c90352ae668b0289c8ac" resname="State/County">
+        <source>State/County</source>
+        <target state="translated">État/Pays</target>
+        <note>key: State/County</note>
+      </trans-unit>
+      <trans-unit id="bae7d5be70820ed56467bd9a63744e23b47bd711" resname="Status">
+        <source>Status</source>
+        <target state="translated">Statut</target>
+        <note>key: Status</note>
+      </trans-unit>
+      <trans-unit id="b454109993438542163d132d897313eee1b480fa" resname="Street">
+        <source>Street</source>
+        <target state="translated">Rue</target>
+        <note>key: Street</note>
+      </trans-unit>
+      <trans-unit id="98aa64de7bc791f7b8c35fe219bbf89820ebaf9e" resname="Your order number is">
+        <source>Your order number is</source>
+        <target state="translated">Votre numéro de commande est</target>
+        <note>key: Your order number is</note>
+      </trans-unit>
+      <trans-unit id="1ed01e7c71996c604337478270c81704193265d0" resname="ZIP code">
+        <source>ZIP code</source>
+        <target state="translated">Code postal</target>
+        <note>key: ZIP code</note>
+      </trans-unit>
+      <trans-unit id="5350e9dd4078e80de250ba264db41368498fbc7e" resname="credit_card">
+        <source>Credit Card</source>
+        <target state="translated">Carte de crédit</target>
+        <note>key: credit_card</note>
+      </trans-unit>
+      <trans-unit id="72755923fdac4c9647d0fdae7a2b150c83cd3cc7" resname="error_message_checkout_shipping_payment">
+        <source>Please check the following error message.</source>
+        <target state="translated">Merci de corriger les erreurs suivantes :</target>
+        <note>key: error_message_checkout_shipping_payment</note>
+      </trans-unit>
+      <trans-unit id="22f4e56cdf190914e923d29c587b4a12c63a1026" resname="label.customer_reference">
+        <source>Customer Reference</source>
+        <target state="translated">Référence client</target>
+        <note>key: label.customer_reference</note>
+      </trans-unit>
+      <trans-unit id="c49a8318ae253e81381b6a2347e9f37d3b5b86af" resname="msg.prices_changed_before_ordering">
+        <source><![CDATA[Attention, the price for the products: %skuList% has been changed in our system. Please visit your <a href='%basketUrl%'>basket</a>, where you can possibly delete them.]]></source>
+        <target state="translated"><![CDATA[Attention, le prix des produits : %skuList% a été modifié dans notre système. Veuillez visiter votre <a href='%basketUrl%'>panier</a>, où vous pouvez éventuellement les supprimer.]]></target>
+        <note>key: msg.prices_changed_before_ordering</note>
+      </trans-unit>
+      <trans-unit id="17e113685d39d9a7b762319af9761a11152657dc" resname="msg.prices_changed_confirm_basket">
+        <source>The prices in your basket have been updated. Here you have the possibility to check them again.</source>
+        <target state="translated">Les prix dans votre panier ont été mis à jour. Ici, vous avez la possibilité de les vérifier à nouveau.</target>
+        <note>key: msg.prices_changed_confirm_basket</note>
+      </trans-unit>
+      <trans-unit id="a389234aa210f8a8d899ed6789bcd4af422357f8" resname="paypal_express_checkout">
+        <source>Paypal</source>
+        <target state="translated">PayPal</target>
+        <note>key: paypal_express_checkout</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

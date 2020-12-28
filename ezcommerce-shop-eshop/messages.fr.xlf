@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="3dcad638d088540a2dd7bed653bdadce0b357a55" resname="%vat% VAT">
+        <source>%vat% VAT</source>
+        <target state="translated">%vat% TVA</target>
+        <note>key: %vat% VAT</note>
+      </trans-unit>
+      <trans-unit id="b293520c0156c5889d1df26ece1e34542c8898ee" resname=", Size|search">
+        <source>Size</source>
+        <target state="translated">Taille</target>
+        <note>key: , Size|search</note>
+      </trans-unit>
+      <trans-unit id="75ceebf4fcd60557d8d98c7f2779f09138fb8a93" resname="Add all items to basket">
+        <source>Add all items to basket</source>
+        <target state="translated">Ajouter tous les articles au panier</target>
+        <note>key: Add all items to basket</note>
+      </trans-unit>
+      <trans-unit id="1d978ebd10b1bca55bb1b347380cdc3a7fd75a85" resname="Add to basket">
+        <source>Add to basket</source>
+        <target state="translated">Ajouter au panier</target>
+        <note>key: Add to basket</note>
+      </trans-unit>
+      <trans-unit id="c7a159eeb9d2c76024812c0849f23cc8e5df3639" resname="Add to wishlist">
+        <source>Add to wishlist</source>
+        <target state="translated">Ajouter à ma liste d'envies</target>
+        <note>key: Add to wishlist</note>
+      </trans-unit>
+      <trans-unit id="303d981333083bd89973e1b5f61e66b36d9d7f42" resname="Address:">
+        <source>Address:</source>
+        <target state="translated">Adresse :</target>
+        <note>key: Address:</note>
+      </trans-unit>
+      <trans-unit id="cfea419c3b4e8b02ee586e70a28bf846e44cdda4" resname="Apply">
+        <source>Apply</source>
+        <target state="translated">Appliquer</target>
+        <note>key: Apply</note>
+      </trans-unit>
+      <trans-unit id="cdcc456629195ed5a337a4be78100dda7a14aef3" resname="Article|search">
+        <source>Article</source>
+        <target state="translated">Article</target>
+        <note>key: Article|search</note>
+      </trans-unit>
+      <trans-unit id="7c62a1424469b1c1cf402f254409a96a0e6770cf" resname="Available">
+        <source>Available</source>
+        <target state="translated">Disponible</target>
+        <note>key: Available</note>
+      </trans-unit>
+      <trans-unit id="b52b36b7269fbfc58ec24bb724691951a3decbe8" resname="Back">
+        <source>Back</source>
+        <target state="translated">Retour</target>
+        <note>key: Back</note>
+      </trans-unit>
+      <trans-unit id="fbe2f800f0f4a7c6f623967e6fa7235892cbe24d" resname="Bad credentials.">
+        <source>Bad credentials.</source>
+        <target state="translated">Identifiants inconnus</target>
+        <note>key: Bad credentials.</note>
+      </trans-unit>
+      <trans-unit id="e11b80e40fef432a5b0557fa5d0bd77221430f26" resname="Best clients">
+        <source>Best clients</source>
+        <target state="translated">Meilleurs clients</target>
+        <note>key: Best clients</note>
+      </trans-unit>
+      <trans-unit id="83b8e400c77a27ad6489143d6c1ec78cfb0ecf48" resname="Bestsellers">
+        <source>Bestsellers</source>
+        <target state="translated">Meilleures ventes</target>
+        <note>key: Bestsellers</note>
+      </trans-unit>
+      <trans-unit id="d6663dda5fe9b2524bf91f13a7621ec735f8a155" resname="Business">
+        <source>Business</source>
+        <target state="translated">Business</target>
+        <note>key: Business</note>
+      </trans-unit>
+      <trans-unit id="4186c93a90f9edada5a3cc67b9d6325a85d57e05" resname="Buyer">
+        <source>Name</source>
+        <target state="translated">Nom</target>
+        <note>key: Buyer</note>
+      </trans-unit>
+      <trans-unit id="77dfd2135f4db726c47299bb55be26f7f4525a46" resname="Cancel">
+        <source>Cancel</source>
+        <target state="translated">Annuler</target>
+        <note>key: Cancel</note>
+      </trans-unit>
+      <trans-unit id="319aaae4dec46a75861fd10bcf8d182f4a77298d" resname="Cancellation">
+        <source>Cancellation</source>
+        <target state="translated">Annulation</target>
+        <note>key: Cancellation</note>
+      </trans-unit>
+      <trans-unit id="5df6eb23103361c79b45f2c3cb7bd307a9fb5fea" resname="Category|search">
+        <source>Category</source>
+        <target state="translated">Catégorie</target>
+        <note>key: Category|search</note>
+      </trans-unit>
+      <trans-unit id="8c684290ce0b8a8e6cee79a145e17554064a4760" resname="Change password">
+        <source>Change password</source>
+        <target state="translated">Modifier le mot de passe</target>
+        <note>key: Change password</note>
+      </trans-unit>
+      <trans-unit id="4271627f4f0bef6104a95cca7bb21cda4d74503e" resname="City">
+        <source>City</source>
+        <target state="translated">Ville</target>
+        <note>key: City</note>
+      </trans-unit>
+      <trans-unit id="b56631bc8890459851f4998909f97b253a715c89" resname="Cockpit">
+        <source>Cockpit</source>
+        <target state="translated">Cockpit</target>
+        <note>key: Cockpit</note>
+      </trans-unit>
+      <trans-unit id="adac69379a626c2436948a4ef1792c7d719ef929" resname="Code">
+        <source>Code</source>
+        <target state="translated">Code</target>
+        <note>key: Code</note>
+      </trans-unit>
+      <trans-unit id="1d0c8304baedcf8e3a78982c2e7c0b04622bf2a0" resname="Color">
+        <source>Color</source>
+        <target state="translated">Couleur </target>
+        <note>key: Color</note>
+      </trans-unit>
+      <trans-unit id="7a1994999d181deea68e4304b3346e78f838ecb7" resname="Company">
+        <source>Company</source>
+        <target state="translated">Entreprise</target>
+        <note>key: Company</note>
+      </trans-unit>
+      <trans-unit id="1e5f7dc45cec3cd7bc991d3b958e0053fc564b67" resname="Company name">
+        <source>Company name</source>
+        <target state="translated">Raison sociale</target>
+        <note>key: Company name</note>
+      </trans-unit>
+      <trans-unit id="b37456c4530be810dc040f50da72eda09addfb0a" resname="Contact">
+        <source>Contact</source>
+        <target state="translated">Contact</target>
+        <note>key: Contact</note>
+      </trans-unit>
+      <trans-unit id="8a42a57da0aaf5c42c4397859d152c1f1513ec66" resname="Contact Name">
+        <source>Name</source>
+        <target state="translated">Nom</target>
+        <note>key: Contact Name</note>
+      </trans-unit>
+      <trans-unit id="649a46339b91739ddb6d6a23e3511424d6c1057d" resname="Contact Person">
+        <source>Contact Person</source>
+        <target state="translated">Personne à contacter</target>
+        <note>key: Contact Person</note>
+      </trans-unit>
+      <trans-unit id="b7d7efc8043852690a3f9cd69ce55241083d6b6b" resname="Contact Telephone">
+        <source>Phone number</source>
+        <target state="translated">Numéro de téléphone</target>
+        <note>key: Contact Telephone</note>
+      </trans-unit>
+      <trans-unit id="cbe46a961215ba8e6037d5b489fc565a55f37d93" resname="Contact us e-mail">
+        <source>Contact us!</source>
+        <target state="translated">Contactez-nous !</target>
+        <note>key: Contact us e-mail</note>
+      </trans-unit>
+      <trans-unit id="d523ebbd10146cdfd39dee077f04c9d08468d0bc" resname="Country">
+        <source>Country</source>
+        <target state="translated">Pays</target>
+        <note>key: Country</note>
+      </trans-unit>
+      <trans-unit id="2eb6c4c537294780cab482adb19a0ffa48ebe345" resname="Country code">
+        <source>Country code</source>
+        <target state="translated">Code pays</target>
+        <note>key: Country code</note>
+      </trans-unit>
+      <trans-unit id="32a5e72bb922184cde3d0f77dc0458166b97c4ce" resname="Country of Origin">
+        <source>Country of Origin</source>
+        <target state="translated">Pays d'origine</target>
+        <note>key: Country of Origin</note>
+      </trans-unit>
+      <trans-unit id="eb9a4bc1c0c153e4e4b042a79113b815b7e3021d" resname="Date">
+        <source>Date</source>
+        <target state="translated">Date</target>
+        <note>key: Date</note>
+      </trans-unit>
+      <trans-unit id="52ee92a702ba208760016cd03ddf506b26289a1e" resname="Dear">
+        <source>Dear</source>
+        <target state="translated">Cher(ère)</target>
+        <note>key: Dear</note>
+      </trans-unit>
+      <trans-unit id="8deabb5c18abcb6cf7567d120514aacda1c236aa" resname="Dear Admin">
+        <source>Dear Admin</source>
+        <target state="translated">Cher Admin</target>
+        <note>key: Dear Admin</note>
+      </trans-unit>
+      <trans-unit id="bc8c3d7bf420f3cd96a5374d95d42124b7cb14c6" resname="Dear Admin!">
+        <source>Dear Admin!</source>
+        <target state="translated">Cher Admin!</target>
+        <note>key: Dear Admin!</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

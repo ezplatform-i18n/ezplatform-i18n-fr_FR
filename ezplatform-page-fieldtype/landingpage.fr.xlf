@@ -6,7 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
+      <trans-unit id="2e3afabe437a888c663498e7bb86dba37c35fdcd" resname="landingpage.no_preview">
+        <source>Preview is not available.</source>
+        <target state="translated">La prévisualisation n'est pas disponible.</target>
+        <note>key: landingpage.no_preview</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="1c443dd3f8d2dd7bdfce645c7a8d59b110316d7b" resname="tab.name.url_wildcards">
+        <source>URL wildcards</source>
+        <target state="translated">URLs avec joker</target>
+        <note>key: tab.name.url_wildcards</note>
+      </trans-unit>
+      <trans-unit id="51df229352cfd712057d2838eea22362c6c627f0" resname="url_wildcard.create.source_url">
+        <source>Source URL</source>
+        <target state="translated">URL source</target>
+        <note>key: url_wildcard.create.source_url</note>
+      </trans-unit>
+      <trans-unit id="63ccc5088f619a05bd33117e5545d24bda4f4b7a" resname="url_wildcard.create.submit">
+        <source>Create</source>
+        <target state="translated">Créer</target>
+        <note>key: url_wildcard.create.submit</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -6,6 +6,31 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="f7f914561d720817076c4caa6497d8a61f765fa8" resname="block.collection.select.content">
+        <source>Select content</source>
+        <target state="translated">Sélectionner un contenu</target>
+        <note>key: block.collection.select.content</note>
+      </trans-unit>
+      <trans-unit id="97c4cb68717b724a45deff1be7748a2db95b44e8" resname="block.schedule.btn.select_content">
+        <source>Select content</source>
+        <target state="translated">Sélectionner un contenu</target>
+        <note>key: block.schedule.btn.select_content</note>
+      </trans-unit>
+      <trans-unit id="1c4a6d684902457f6eb00c5b00b508d583347c11" resname="block.schedule.item_unavailable">
+        <source>This Content item has been deleted and cannot be displayed</source>
+        <target state="translated">L'élément du contenu a été supprimé et ne peut pas être affiché</target>
+        <note>key: block.schedule.item_unavailable</note>
+      </trans-unit>
+      <trans-unit id="756bc6e3581ac09355448d4923e83c019ed3b964" resname="block.schedule.no_items">
+        <source>No Content item(s) are displayed in the block</source>
+        <target state="translated">Aucun élément de contenu n'est affiché dans le bloc</target>
+        <note>key: block.schedule.no_items</note>
+      </trans-unit>
+      <trans-unit id="695268abcf13ba7cdaa94d5effd5b28448cbf32c" resname="block.schedule.no_items_scheduled">
+        <source>No Content item(s) scheduled to display in the block</source>
+        <target state="translated">Aucun élément de contenu programmé à afficher dans le bloc</target>
+        <note>key: block.schedule.no_items_scheduled</note>
+      </trans-unit>
       <trans-unit id="09c5180f1ea143dcc29686f8b1e07a71d76be34c" resname="block.schedule.now_showing">
         <source>Now showing</source>
         <target state="translated">Actuellement affiché</target>
@@ -15,6 +40,21 @@
         <source>Queue</source>
         <target state="translated">File d'attente</target>
         <note>key: block.schedule.queue</note>
+      </trans-unit>
+      <trans-unit id="2aaa2a096cfd7ef52b21574b79756e9fd3efa263" resname="block.schedule.select_content.label">
+        <source>Select Content item(s)</source>
+        <target state="translated">Sélectionnez un ou des élément(s) de contenu</target>
+        <note>key: block.schedule.select_content.label</note>
+      </trans-unit>
+      <trans-unit id="ce63f0ad9dc60242493136bc6a34a24eb7e69de5" resname="change.airtime">
+        <source>Change airtime</source>
+        <target state="translated">Changer le temps de diffusion</target>
+        <note>key: change.airtime</note>
+      </trans-unit>
+      <trans-unit id="9485989ff514b5106b7738850fd73c23e8c1e3f7" resname="delete">
+        <source>Delete</source>
+        <target state="translated">Supprimer</target>
+        <note>key: delete</note>
       </trans-unit>
       <trans-unit id="8f471b1b27d61346fdea81d93fc467fe08637010" resname="page_builder.block_configuration.class">
         <source>Class</source>

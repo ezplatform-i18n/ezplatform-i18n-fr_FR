@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="ad4e634b7a562503b6e50d2b057490b8d7dc6336" resname="role.policy.siso_control_center.all_functions">
+        <source>Control center</source>
+        <target state="translated">Centre de contrôle</target>
+        <note>key: role.policy.siso_control_center.all_functions</note>
+      </trans-unit>
+      <trans-unit id="f5fd141280162ef0849b611320d7a0dd8443089e" resname="role.policy.siso_control_center.api_erp">
+        <source>Access ERP Rest API</source>
+        <target state="translated">Accéder à l'API ERP Rest</target>
+        <note>key: role.policy.siso_control_center.api_erp</note>
+      </trans-unit>
+      <trans-unit id="d9d75b3eea946a68bc4aa78d3810f6b6a04ebada" resname="role.policy.siso_control_center.manage_jobs">
+        <source>Manage eCommerce jobs</source>
+        <target state="translated">Gérer les jobs eCommerce</target>
+        <note>key: role.policy.siso_control_center.manage_jobs</note>
+      </trans-unit>
+      <trans-unit id="d0eda3f74916f845aa6a68df2023ae369f2ede1b" resname="siso_control_center.api_econtent">
+        <source>Access econtent Rest API</source>
+        <target state="translated">Accéder à l'API d'econtent Rest</target>
+        <note>key: siso_control_center.api_econtent</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

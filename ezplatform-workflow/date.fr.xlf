@@ -6,79 +6,64 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="614b91c467f0ca438989a4e49e78652a1f4565f3" resname="diff.ago.day">
+      <trans-unit id="614b91c467f0ca438989a4e49e78652a1f4565f3" resname="diff.ago.day" approved="yes">
         <source>1 day ago|%count% days ago</source>
-        <target state="translated">Il y a 1 jour |Il y a %count% jours</target>
+        <target state="final">Il y a 1 jour |Il y a %count% jours</target>
         <note>key: diff.ago.day</note>
-        <alt-trans>
-          <target>Il y a 1 jour | Il y a %count% jours</target>
-        </alt-trans>
-        <alt-trans>
-          <target>Il y a 1 jour | il y a %count% jours</target>
-        </alt-trans>
       </trans-unit>
-      <trans-unit id="b3caf2127ff7fb3fd977af365ec4f104d6ab7687" resname="diff.ago.hour">
+      <trans-unit id="b3caf2127ff7fb3fd977af365ec4f104d6ab7687" resname="diff.ago.hour" approved="yes">
         <source>1 hour ago|%count% hours ago</source>
-        <target state="translated">Il y a 1 heure|Il y a %count% heures</target>
+        <target state="final">Il y a 1 heure|Il y a %count% heures</target>
         <note>key: diff.ago.hour</note>
       </trans-unit>
-      <trans-unit id="0f2fbc7aab2cdee45a9a33d5a240469b3c18bfdc" resname="diff.ago.minute">
+      <trans-unit id="0f2fbc7aab2cdee45a9a33d5a240469b3c18bfdc" resname="diff.ago.minute" approved="yes">
         <source>1 minute ago|%count% minutes ago</source>
-        <target state="translated">Il y a 1 minute|Il y a %count% minutes</target>
+        <target state="final">Il y a 1 minute|Il y a %count% minutes</target>
         <note>key: diff.ago.minute</note>
-        <alt-trans>
-          <target>Il y a 1 minute| Il y a %count% minutes</target>
-        </alt-trans>
       </trans-unit>
-      <trans-unit id="4423772b70e920742bdbd9e1d0af26584ad78a9f" resname="diff.ago.month">
+      <trans-unit id="4423772b70e920742bdbd9e1d0af26584ad78a9f" resname="diff.ago.month" approved="yes">
         <source>1 month ago|%count% months ago</source>
-        <target state="translated">Il y a 1 mois|Il y a %count% mois</target>
+        <target state="final">Il y a 1 mois|Il y a %count% mois</target>
         <note>key: diff.ago.month</note>
-        <alt-trans>
-          <target>Il y a 1 mois| Il y a %count% mois</target>
-        </alt-trans>
       </trans-unit>
-      <trans-unit id="c975933018445b92dca8aff134de3b3fb93faad3" resname="diff.ago.second">
+      <trans-unit id="c975933018445b92dca8aff134de3b3fb93faad3" resname="diff.ago.second" approved="yes">
         <source>1 second ago|%count% seconds ago</source>
-        <target state="translated">Il y a 1 seconde|Il y a %count% secondes</target>
+        <target state="final">Il y a 1 seconde|Il y a %count% secondes</target>
         <note>key: diff.ago.second</note>
-        <alt-trans>
-          <target>Il y a 1 seconde| Il y a %count% secondes</target>
-        </alt-trans>
       </trans-unit>
-      <trans-unit id="082fd9b2eb27ef4e774a9c0e4b88d2c3b65ea39d" resname="diff.ago.year">
+      <trans-unit id="082fd9b2eb27ef4e774a9c0e4b88d2c3b65ea39d" resname="diff.ago.year" approved="yes">
         <source>1 year ago|%count% years ago</source>
-        <target state="translated">Il y a 1 an| Il y a %count% ans</target>
+        <target state="final">Il y a 1 an| Il y a %count% ans</target>
         <note>key: diff.ago.year</note>
       </trans-unit>
-      <trans-unit id="76830d7696db77e898e6a7c8cfa7cfba6c0073ba" resname="diff.in.day">
+      <trans-unit id="76830d7696db77e898e6a7c8cfa7cfba6c0073ba" resname="diff.in.day" approved="yes">
         <source>in 1 day|in %count% days</source>
-        <target state="translated">dans 1 jour|dans %count% jours</target>
+        <target state="final">dans 1 jour|dans %count% jours</target>
         <note>key: diff.in.day</note>
       </trans-unit>
-      <trans-unit id="560ea5a89a4328043b9e851bc7d2682f7ac2ff98" resname="diff.in.hour">
+      <trans-unit id="560ea5a89a4328043b9e851bc7d2682f7ac2ff98" resname="diff.in.hour" approved="yes">
         <source>in 1 hour|in %count% hours</source>
-        <target state="translated">dans 1 heure|dans %count% heures</target>
+        <target state="final">dans 1 heure|dans %count% heures</target>
         <note>key: diff.in.hour</note>
       </trans-unit>
-      <trans-unit id="ee4c327d284cf0a84994eafa7e851c16cc338ca0" resname="diff.in.minute">
+      <trans-unit id="ee4c327d284cf0a84994eafa7e851c16cc338ca0" resname="diff.in.minute" approved="yes">
         <source>in 1 minute|in %count% minutes</source>
-        <target state="translated">dans 1 minute|dans %count% minutes</target>
+        <target state="final">dans 1 minute|dans %count% minutes</target>
         <note>key: diff.in.minute</note>
       </trans-unit>
-      <trans-unit id="40d2bbb78c324de12e084dba2266b4faf43325ee" resname="diff.in.month">
+      <trans-unit id="40d2bbb78c324de12e084dba2266b4faf43325ee" resname="diff.in.month" approved="yes">
         <source>in 1 month|in %count% months</source>
-        <target state="translated">dans 1 mois|dans %count% mois</target>
+        <target state="final">dans 1 mois|dans %count% mois</target>
         <note>key: diff.in.month</note>
       </trans-unit>
-      <trans-unit id="15b5427458b3b746bfc0934d6fb25f021fd15f47" resname="diff.in.second">
+      <trans-unit id="15b5427458b3b746bfc0934d6fb25f021fd15f47" resname="diff.in.second" approved="yes">
         <source>in 1 second|in %count% seconds</source>
-        <target state="translated">dans 1 seconde|dans %count% secondes</target>
+        <target state="final">dans 1 seconde|dans %count% secondes</target>
         <note>key: diff.in.second</note>
       </trans-unit>
-      <trans-unit id="8d5947aadf04f3a3bc9fbb77a3322a7c51252b92" resname="diff.in.year">
+      <trans-unit id="8d5947aadf04f3a3bc9fbb77a3322a7c51252b92" resname="diff.in.year" approved="yes">
         <source>in 1 year|in %count% years</source>
-        <target state="translated">dans 1 an|dans %count% années</target>
+        <target state="final">dans 1 an|dans %count% années</target>
         <note>key: diff.in.year</note>
       </trans-unit>
     </body>

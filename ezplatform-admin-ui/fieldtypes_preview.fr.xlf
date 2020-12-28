@@ -11,6 +11,16 @@
         <target state="translated">Non</target>
         <note>key: ezboolean.no</note>
       </trans-unit>
+      <trans-unit id="dfb5fd4a5dec38539847d92bb5e8417c5b82b96a" resname="ezboolean.yes">
+        <source>Yes</source>
+        <target state="translated">Oui</target>
+        <note>key: ezboolean.yes</note>
+      </trans-unit>
+      <trans-unit id="a871dec7f18c06b9061bc2aae9af1aafe1ad1600" resname="ezdatetime.useseconds.enabled">
+        <source>`The date format is based on your user preferences and does not include seconds even if the Field allows it`</source>
+        <target state="translated">`Le format de date est basé sur vos préférences utilisateur et ne contient pas de secondes même si le champ le permet`</target>
+        <note>key: ezdatetime.useseconds.enabled</note>
+      </trans-unit>
       <trans-unit id="bf1525899659fa5ea6c18aa4bf63d596fecbf97e" resname="ezgmaplocation.address">
         <source>Address</source>
         <target state="translated">Adresse</target>
@@ -61,6 +71,11 @@
         <target state="translated">Taille</target>
         <note>key: ezimage.size</note>
       </trans-unit>
+      <trans-unit id="d34002f3e81ae0592b02f40872388e0adea41279" resname="ezimage.width_and_height">
+        <source>Width: %width%px height: %height%px</source>
+        <target state="translated">Largeur : %width%px de hauteur: %height%px</target>
+        <note>key: ezimage.width_and_height</note>
+      </trans-unit>
       <trans-unit id="85038ddf9e38bbf3da26c38adff609012d65a53a" resname="ezimageasset.alternative_text">
         <source>Alternative text</source>
         <target state="translated">Texte alternatif</target>
@@ -81,6 +96,11 @@
         <target state="translated">Dimensions originales</target>
         <note>key: ezimageasset.master_dimensions</note>
       </trans-unit>
+      <trans-unit id="c63a925d645b5365654bfaa2e5ac129280388bc0" resname="ezimageasset.not_available">
+        <source>Image asset is not available (related content has been deleted or you have insufficient permissions)</source>
+        <target state="translated">L'image n'est pas disponible (le contenu lié a été supprimé ou les permissions sont insuffisantes)</target>
+        <note>key: ezimageasset.not_available</note>
+      </trans-unit>
       <trans-unit id="9d8611731543740ff64e9e1a69f9c18812301879" resname="ezimageasset.ratio">
         <source>Ratio</source>
         <target state="translated">Ratio</target>
@@ -90,6 +110,16 @@
         <source>Size</source>
         <target state="translated">Taille</target>
         <note>key: ezimageasset.size</note>
+      </trans-unit>
+      <trans-unit id="06c54d9e5476af34defb52323b7b1ebacce6a38c" resname="ezimageasset.width_and_height">
+        <source>Width: %width%px height: %height%px</source>
+        <target state="translated">Largeur : %width%px de hauteur: %height%px</target>
+        <note>key: ezimageasset.width_and_height</note>
+      </trans-unit>
+      <trans-unit id="e371d4573dda857ef4a58cebd2420f87992b8864" resname="ezmedia.auto_play">
+        <source>Autoplay</source>
+        <target state="translated">Lecture automatique</target>
+        <note>key: ezmedia.auto_play</note>
       </trans-unit>
       <trans-unit id="84c1e46564bf281d22c3b554a0af412a8bbbdacc" resname="ezmedia.browser_does_not_support_html5_video">
         <source>Your browser does not support HTML5 video</source>
@@ -190,6 +220,21 @@
         <source>No</source>
         <target state="translated">Non</target>
         <note>key: ezuser.no</note>
+      </trans-unit>
+      <trans-unit id="7db7e702a32f5265b8ea0db196b4a41ea5ea6988" resname="ezuser.password_already_expired">
+        <source>Password has expired</source>
+        <target state="translated">Le mot de passe a expiré</target>
+        <note>key: ezuser.password_already_expired</note>
+      </trans-unit>
+      <trans-unit id="dbfe48152c3022f68affdb8798eaa36f07dcb147" resname="ezuser.password_expires_in">
+        <source><![CDATA[Current password <b>expires in %count% days</b>]]></source>
+        <target state="translated"><![CDATA[Le mot de passe actuel <b>expire dans %count% jours</b>]]></target>
+        <note>key: ezuser.password_expires_in</note>
+      </trans-unit>
+      <trans-unit id="7771c9e2b90e9636e8fbb858cf7e5204ada687e9" resname="ezuser.password_expires_today">
+        <source><![CDATA[Current password <b>expires today</b>]]></source>
+        <target state="translated"><![CDATA[Le mot de passe actuel <b>expire aujourd'hui</b>]]></target>
+        <note>key: ezuser.password_expires_today</note>
       </trans-unit>
       <trans-unit id="fc4b6b718b2cee2f8a91703c070fd69756d5c4cd" resname="ezuser.username">
         <source>Username</source>

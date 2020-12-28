@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="5df6eb23103361c79b45f2c3cb7bd307a9fb5fea" resname="Category|search">
+        <source>Category</source>
+        <target state="translated">Catégorie</target>
+        <note>key: Category|search</note>
+      </trans-unit>
+      <trans-unit id="348d4df41438485e5a66f7fb8d7cfea6d06841e1" resname="Details|search">
+        <source>Details</source>
+        <target state="translated">Détails</target>
+        <note>key: Details|search</note>
+      </trans-unit>
+      <trans-unit id="77b04291aa3b2a684ce91a970efffec6c6f90ca7" resname="Show video|search">
+        <source>Show video</source>
+        <target state="translated">Afficher la vidéo</target>
+        <note>key: Show video|search</note>
+      </trans-unit>
+      <trans-unit id="c941343a6cf6fbee4048ecd47b6eba2c857f72a5" resname="availability_econtent|search">
+        <source>Availability</source>
+        <target state="translated">Disponibilité</target>
+        <note>key: availability_econtent|search</note>
+      </trans-unit>
+      <trans-unit id="0127ec9704c96c9c5375aae6e13a3636bfeea802" resname="availability|search">
+        <source>Availability</source>
+        <target state="translated">Disponibilité</target>
+        <note>key: availability|search</note>
+      </trans-unit>
+      <trans-unit id="ff449580f9521bf0ebcb194a24e751ae7423057d" resname="brand|search" approved="yes">
+        <source>Brand</source>
+        <target state="final">Marque</target>
+        <note>key: brand|search</note>
+      </trans-unit>
+      <trans-unit id="0c3aba6a7ebad65886430e6ddf2729e652131e7e" resname="catalog|search">
+        <source>Catalog</source>
+        <target state="translated">Catalogue</target>
+        <note>key: catalog|search</note>
+      </trans-unit>
+      <trans-unit id="b4518fcdec1e4471473c2c67913ed8cc80a78871" resname="category_econtent|search">
+        <source>Category</source>
+        <target state="translated">Catégorie</target>
+        <note>key: category_econtent|search</note>
+      </trans-unit>
+      <trans-unit id="4b218d0502f50b2ac6fd50976e3e3267021e1a23" resname="category|search">
+        <source>Category</source>
+        <target state="translated">Catégorie</target>
+        <note>key: category|search</note>
+      </trans-unit>
+      <trans-unit id="e118e7860d87eb61153d31f9b9aa62fd371f074c" resname="content_type_econtent|search">
+        <source>Content type</source>
+        <target state="translated">Type de Contenu</target>
+        <note>key: content_type_econtent|search</note>
+      </trans-unit>
+      <trans-unit id="df5f33387acdb1350aaab6a50889edce98639913" resname="content|search">
+        <source>Content</source>
+        <target state="translated">Contenu</target>
+        <note>key: content|search</note>
+      </trans-unit>
+      <trans-unit id="b435e91ada854a297f76b6f86f1a7bea5fe9289e" resname="dimensions|search">
+        <source>Dimensions</source>
+        <target state="translated">Dimensions</target>
+        <note>key: dimensions|search</note>
+      </trans-unit>
+      <trans-unit id="9f6f4fbb03ef10cfde3ba65edf6754a1a1532959" resname="files|search">
+        <source>Downloads</source>
+        <target state="translated">Téléchargements</target>
+        <note>key: files|search</note>
+      </trans-unit>
+      <trans-unit id="c33b1c75f08178295d553ee867d6d3284718a257" resname="media|search">
+        <source>Video</source>
+        <target state="translated">Vidéo</target>
+        <note>key: media|search</note>
+      </trans-unit>
+      <trans-unit id="f4ad46e7337e423f2c0104321af53fac6d2b5b17" resname="price_range_econtent|search">
+        <source>Price range</source>
+        <target state="translated">Gamme de prix</target>
+        <note>key: price_range_econtent|search</note>
+      </trans-unit>
+      <trans-unit id="9bce5c7f825c2c28ca6b149605df7a24d81b0b62" resname="price_range|search">
+        <source>Price range</source>
+        <target state="translated">Gamme de prix</target>
+        <note>key: price_range|search</note>
+      </trans-unit>
+      <trans-unit id="5bf36235a8192f1ceb3359565c4466323aea9b80" resname="specifications|search">
+        <source>Specifications</source>
+        <target state="translated">Specifications</target>
+        <note>key: specifications|search</note>
+      </trans-unit>
+      <trans-unit id="d073ec4d114be99a5c8b3116367d769662096152" resname="weight|search">
+        <source>Weight</source>
+        <target state="translated">Poids</target>
+        <note>key: weight|search</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

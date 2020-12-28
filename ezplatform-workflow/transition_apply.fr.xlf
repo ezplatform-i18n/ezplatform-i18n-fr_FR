@@ -6,7 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
+      <trans-unit id="03002e3e9483870d40a0b546c3f958e8707a2300" resname="load.reviewers.error" approved="yes">
+        <source>Can't load reviewer list</source>
+        <target state="final">Impossible de charger la liste des réviseurs</target>
+        <note>key: load.reviewers.error</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

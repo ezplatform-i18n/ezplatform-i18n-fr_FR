@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="6ce4b03fab140f5c9675c5e56c4b363c3d854157" resname="price.not_saved">
+        <source>Couldn't save the prices</source>
+        <target state="translated">Impossible d'enregistrer les prix</target>
+        <note>key: price.not_saved</note>
+      </trans-unit>
+      <trans-unit id="62dc9e3f91a4ad309d3e1054834007a2159b4b1e" resname="price.saved">
+        <source>Prices saved successfully</source>
+        <target state="translated">Prix enregistrés avec succès</target>
+        <note>key: price.saved</note>
+      </trans-unit>
+      <trans-unit id="a846154e17c5f91dbda951052d9055d4595bbe71" resname="price.table.header">
+        <source>Prices for %contentName%, List price %price%</source>
+        <target state="translated">Prix pour %contentName%, Prix catalogue %price%</target>
+        <note>key: price.table.header</note>
+      </trans-unit>
+      <trans-unit id="9bc29a8f2d0572814b18e74af9bb5a11f9bdbafd" resname="product.not_found">
+        <source>Product not found</source>
+        <target state="translated">Le produit n'a pas été trouvé</target>
+        <note>key: product.not_found</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

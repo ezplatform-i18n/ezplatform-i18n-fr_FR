@@ -21,6 +21,21 @@
         <target state="translated">Paramètres de temps d’antenne du contenu</target>
         <note>key: airtime_popup.title</note>
       </trans-unit>
+      <trans-unit id="e61d69c5b35faa8c43084885c01641cd96683877" resname="block.delete">
+        <source>Delete block</source>
+        <target state="translated">Supprimer le bloc</target>
+        <note>key: block.delete</note>
+      </trans-unit>
+      <trans-unit id="2a2fe3def10e04d741369aa5ddf4d4ea00680ca6" resname="block.settings">
+        <source>Block settings</source>
+        <target state="translated">Paramètres du bloc</target>
+        <note>key: block.settings</note>
+      </trans-unit>
+      <trans-unit id="27557cc8101e53aa465cdb6d32850673a348e953" resname="block_filter.placeholder">
+        <source>Type to refine</source>
+        <target state="translated">Taper pour affiner</target>
+        <note>key: block_filter.placeholder</note>
+      </trans-unit>
       <trans-unit id="dfbc84f747379ac08358ac78f5756d91dc9dd715" resname="config_form.block_config.embed_field_base.udw.title">
         <source>Browse content</source>
         <target state="translated">Parcourir le contenu</target>
@@ -40,6 +55,16 @@
         <source>Close</source>
         <target state="translated">Fermer</target>
         <note>key: config_popup.close.label</note>
+      </trans-unit>
+      <trans-unit id="21da7339cc717191e4d452b11e10da9fd1f6df1e" resname="date_picker.clear">
+        <source>Clear</source>
+        <target state="translated">Effacer</target>
+        <note>key: date_picker.clear</note>
+      </trans-unit>
+      <trans-unit id="195a806c1a0668adbea700cd92ec432cd9e08854" resname="date_picker.label">
+        <source>Date and time</source>
+        <target state="translated">Date et heure</target>
+        <note>key: date_picker.label</note>
       </trans-unit>
       <trans-unit id="6eab7e919136479499cfa377b9f63bae39d22c54" resname="drop.block.here">
         <source>Drop block here</source>
@@ -61,14 +86,19 @@
         <target state="translated">Une erreur s'est produite</target>
         <note>key: error.message</note>
       </trans-unit>
+      <trans-unit id="4a59666b61e8dc389b7390ad051bb8ef705ae1e4" resname="fieldtype.landing_page.missing_proper_configuration.error.message">
+        <source>Some blocks are missing configuration</source>
+        <target state="translated">Certains blocs n'ont pas une configuration correcte</target>
+        <note>key: fieldtype.landing_page.missing_proper_configuration.error.message</note>
+      </trans-unit>
       <trans-unit id="9883bd31212048bc2352b92dcc30b541e6eac5b5" resname="layout_selector.close.label">
         <source>Close</source>
         <target state="translated">Fermer</target>
         <note>key: layout_selector.close.label</note>
       </trans-unit>
       <trans-unit id="d261894808d96929e7ff95449a433021cb9476ec" resname="layout_selector.create.confirm.label">
-        <source>Create</source>
-        <target state="translated">Créer</target>
+        <source>Create draft</source>
+        <target state="translated">Créer un brouillon</target>
         <note>key: layout_selector.create.confirm.label</note>
       </trans-unit>
       <trans-unit id="cacca78c6c00e60e652f42e41b6c404d76548a59" resname="layout_selector.create.title">
@@ -85,6 +115,11 @@
         <source>Switch layout</source>
         <target state="translated">Changer la disposition</target>
         <note>key: layout_selector.switch.title</note>
+      </trans-unit>
+      <trans-unit id="71c903ad87f59b59b56f8275b47d53204d3632b8" resname="layout_selector.warning.message">
+        <source>Switching layout saves the current Page draft</source>
+        <target state="translated">Le changement de disposition enregistre le brouillon actuel de la page</target>
+        <note>key: layout_selector.warning.message</note>
       </trans-unit>
       <trans-unit id="3757c8d49f2f414947ad6e44afc53498b4474d55" resname="sidebar.title">
         <source>Elements</source>

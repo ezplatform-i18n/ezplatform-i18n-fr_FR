@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="35fbe1b67f6080e73941cfd6ce1f8082f0150bf7" resname="field_definition.sesprofiledata.default_value" approved="yes">
+        <source>Default value</source>
+        <target state="final">Valeur par défaut</target>
+        <note>key: field_definition.sesprofiledata.default_value</note>
+      </trans-unit>
+      <trans-unit id="2cc521fcfe2dd10f7673bcab53deeff023a93463" resname="field_definition.uivarvarianttype.default_value" approved="yes">
+        <source>Default value</source>
+        <target state="final">Valeur par défaut</target>
+        <note>key: field_definition.uivarvarianttype.default_value</note>
+      </trans-unit>
+      <trans-unit id="7cb8bc55f91fdc1ec6f68cba486baefdeb791a26" resname="sesprofiledata.name">
+        <source>eCommerce user profile data</source>
+        <target state="translated">Données du profil utilisateur eCommerce</target>
+        <note>key: sesprofiledata.name</note>
+      </trans-unit>
+      <trans-unit id="5c1feb91d8d7f0fb6cbd5a57f552808bbba89fb5" resname="sesselection.name">
+        <source>Selection (yml based)</source>
+        <target state="translated">Sélection (basé sur yml)</target>
+        <note>key: sesselection.name</note>
+      </trans-unit>
+      <trans-unit id="1daca53bcbd74b1a22204e7bdffba0760cf1aae6" resname="uivarvarianttype.name">
+        <source>Product variants</source>
+        <target state="translated">Variantes de produit</target>
+        <note>key: uivarvarianttype.name</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

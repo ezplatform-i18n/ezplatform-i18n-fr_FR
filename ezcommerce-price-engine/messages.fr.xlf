@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="681b5b5ae10b994e61d9fc53cf8a95498ff0df39" resname="Availability">
+        <source>Availability</source>
+        <target state="translated">Disponibilité</target>
+        <note>key: Availability</note>
+      </trans-unit>
+      <trans-unit id="a21e3056bca73910983f4b70d04ba4ae89aa63b2" resname="CurrencyCode">
+        <source>Currency code</source>
+        <target state="translated">Code devise</target>
+        <note>key: CurrencyCode</note>
+      </trans-unit>
+      <trans-unit id="e30cc3fcf33b1618b1d9bb2bb5642626317a6cad" resname="Group A">
+        <source>Group A</source>
+        <target state="translated">Groupe A</target>
+        <note>key: Group A</note>
+      </trans-unit>
+      <trans-unit id="70f117fcf19c6c8802db5b428e607bca30511a57" resname="Group B">
+        <source>Group B</source>
+        <target state="translated">Groupe B</target>
+        <note>key: Group B</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

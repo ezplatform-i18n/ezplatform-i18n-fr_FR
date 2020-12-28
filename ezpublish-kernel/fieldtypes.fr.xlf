@@ -36,9 +36,9 @@
         <target state="final">Date et heure</target>
         <note>key: ezdatetime.name</note>
       </trans-unit>
-      <trans-unit id="d772ac8909929964906cbefd41c468c9a5d2be26" resname="ezemail.name">
+      <trans-unit id="d772ac8909929964906cbefd41c468c9a5d2be26" resname="ezemail.name" approved="yes">
         <source>Email address</source>
-        <target state="translated">Adresse E-mail</target>
+        <target state="final">Adresse E-mail</target>
         <note>key: ezemail.name</note>
       </trans-unit>
       <trans-unit id="0a1f3297ccc08882f5a4610f9af8fc4148c74adc" resname="ezfloat.name" approved="yes">
@@ -56,9 +56,9 @@
         <target state="final">Image</target>
         <note>key: ezimage.name</note>
       </trans-unit>
-      <trans-unit id="3afdca17c734ecb3a077bcc4ba7f75a7544e845d" resname="ezimageasset.name">
+      <trans-unit id="3afdca17c734ecb3a077bcc4ba7f75a7544e845d" resname="ezimageasset.name" approved="yes">
         <source>Image Asset</source>
-        <target state="translated">Contenu image</target>
+        <target state="final">Contenu image</target>
         <note>key: ezimageasset.name</note>
       </trans-unit>
       <trans-unit id="3b0f44cd332c71e78209a1a4b235bc6a1e6d374b" resname="ezinteger.name" approved="yes">
@@ -75,9 +75,6 @@
         <source>Keywords</source>
         <target state="final">Mot-clés</target>
         <note>key: ezkeyword.name</note>
-        <alt-trans>
-          <target>Mots-clé</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="fc0d2c8719e7c36f101ff6ddcbdfc804bf8f3da7" resname="ezmedia.name" approved="yes">
         <source>Media</source>

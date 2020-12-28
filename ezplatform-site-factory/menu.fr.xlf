@@ -6,13 +6,41 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="92984210bb74f5c966f64c7518549bd9e2fa9f68" resname="ezplatform_site_factory">
+        <source>Site</source>
+        <target state="translated">Site</target>
+        <note>key: ezplatform_site_factory</note>
+      </trans-unit>
+      <trans-unit id="47856322d947e9bcd834a6c7b41f3a023411723d" resname="site_create__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target state="translated">Annuler les modifications </target>
+        <note>key: site_create__sidebar_right__cancel</note>
+      </trans-unit>
+      <trans-unit id="06bb4a29b429451dbb7368369b146304b42a2cc3" resname="site_create__sidebar_right__save">
+        <source>Create</source>
+        <target state="translated">Créer</target>
+        <note>key: site_create__sidebar_right__save</note>
+      </trans-unit>
+      <trans-unit id="758ba56b267dfa19d3e22d15b9284129e4e6eb3b" resname="site_edit__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target state="translated">Annuler les modifications </target>
+        <note>key: site_edit__sidebar_right__cancel</note>
+      </trans-unit>
+      <trans-unit id="9867f89eb1630216334d72af9a6da78763e80ab6" resname="site_edit__sidebar_right__save">
+        <source>Save</source>
+        <target state="translated">Sauvegarder</target>
+        <note>key: site_edit__sidebar_right__save</note>
+      </trans-unit>
+      <trans-unit id="6753d417b6695c2c63ffb219579304ed1d2bb886" resname="site_view__sidebar_right__delete">
+        <source>Delete</source>
+        <target state="translated">Supprimer</target>
+        <note>key: site_view__sidebar_right__delete</note>
+      </trans-unit>
+      <trans-unit id="1f1b19090f4d34cb788c2036aa74d30460148247" resname="site_view__sidebar_right__edit">
+        <source>Edit</source>
+        <target state="translated">Modifier</target>
+        <note>key: site_view__sidebar_right__edit</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

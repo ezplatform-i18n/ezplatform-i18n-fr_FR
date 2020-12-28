@@ -26,6 +26,11 @@
         <target state="final">Pays</target>
         <note>key: ezcountry.name</note>
       </trans-unit>
+      <trans-unit id="3bd547a05c5a7b5ee111cc5ca608df9199f04c51" resname="ezdate.name">
+        <source>Date</source>
+        <target state="translated">Date</target>
+        <note>key: ezdate.name</note>
+      </trans-unit>
       <trans-unit id="42d9e26b6e8e65856f709461b589cb7925a9f43e" resname="ezdatetime.name" approved="yes">
         <source>Date and time</source>
         <target state="final">Date et heure</target>
@@ -46,6 +51,11 @@
         <target state="final">Emplacement géographique</target>
         <note>key: ezgmaplocation.name</note>
       </trans-unit>
+      <trans-unit id="6300f890f00d9999466b4abc478857b0d29022b4" resname="ezimage.name">
+        <source>Image</source>
+        <target state="translated">Image</target>
+        <note>key: ezimage.name</note>
+      </trans-unit>
       <trans-unit id="3afdca17c734ecb3a077bcc4ba7f75a7544e845d" resname="ezimageasset.name">
         <source>Image Asset</source>
         <target state="translated">Contenu image</target>
@@ -55,6 +65,11 @@
         <source>Integer</source>
         <target state="final">Nombre entier</target>
         <note>key: ezinteger.name</note>
+      </trans-unit>
+      <trans-unit id="b55e4568224820cbddc794f6c2bd002baec6a5d0" resname="ezisbn.name">
+        <source>ISBN</source>
+        <target state="translated">ISBN</target>
+        <note>key: ezisbn.name</note>
       </trans-unit>
       <trans-unit id="c564457bc5723491788fa3d0723e3716824b4a0d" resname="ezkeyword.name" approved="yes">
         <source>Keywords</source>
@@ -95,6 +110,11 @@
         <source>Time</source>
         <target state="final">Heure</target>
         <note>key: eztime.name</note>
+      </trans-unit>
+      <trans-unit id="69c0e446226061b7f2ca2b22fd4eb09e6b4e9518" resname="ezurl.name">
+        <source>URL</source>
+        <target state="translated">URL</target>
+        <note>key: ezurl.name</note>
       </trans-unit>
       <trans-unit id="0317c233c19b3c191acc92971bfb616c7fe298de" resname="ezuser.name" approved="yes">
         <source>User account</source>

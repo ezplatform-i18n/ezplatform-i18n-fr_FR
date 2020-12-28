@@ -6,7 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
+      <trans-unit id="168b41d8f0b7d904679bdd1896939c6f6c54f3fc" resname="ezlandingpage.name">
+        <source>Landing Page</source>
+        <target state="translated">Page d’atterrissage</target>
+        <note>key: ezlandingpage.name</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

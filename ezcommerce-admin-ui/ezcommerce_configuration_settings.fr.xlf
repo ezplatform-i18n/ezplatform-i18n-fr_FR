@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="95152a121b383f5dd34363055566146f0a9d2398" resname="breadcrumb.ecommerce" approved="yes">
+        <source>e-commerce</source>
+        <target state="final">e-commerce</target>
+        <note>key: breadcrumb.ecommerce</note>
+      </trans-unit>
+      <trans-unit id="271cbf6a3dd817f5ffece39771cb4553c3610862" resname="configuration_settings.actions.save" approved="yes">
+        <source>Save configuration</source>
+        <target state="final">Enregistrer la configuration</target>
+        <note>key: configuration_settings.actions.save</note>
+      </trans-unit>
+      <trans-unit id="2914eb168bfc7c89905a42df73a85f814d7992b1" resname="configuration_settings.breadcrumb.configuration_settings" approved="yes">
+        <source>Configuration Settings</source>
+        <target state="final">Paramètres de configuration</target>
+        <note>key: configuration_settings.breadcrumb.configuration_settings</note>
+      </trans-unit>
+      <trans-unit id="70702a864e8dc5221c332b34e68961b52b77aa45" resname="configuration_settings.description">
+        <source><![CDATA[The tabs displayed are depending on the siteaccesses that are configured for your shop.
+                                The main tab contains the central configuration options for the default settings that can be set by the shop admin.
+                                Make sure to set the country specific configuration as they overwrite the default settings!<br /><br />
+                                In case of problems please check the <a href="%url%">stored configuration</a><br />
+                                If you are looking for price and stock management go to <a href="%priceAndStockUrl%">price and stock management</a>]]></source>
+        <target state="translated"><![CDATA[Les onglets affichés dépendent des accès au site qui sont configurés pour votre boutique.
+                                L'onglet principal contient les options de configuration centrale pour les paramètres par défaut qui peuvent être définis par l'administrateur de la boutique.
+                                Assurez-vous de définir la configuration spécifique au pays car ils écrasent les paramètres par défaut !<br /><br />
+                                En cas de problème veuillez vérifier la <a href="%url%">configuration stockée</a><br />
+                                Si vous recherchez la gestion des prix et des stocks aller à <a href="%priceAndStockUrl%">la gestion des prix et des stocks</a>]]></target>
+        <note>key: configuration_settings.description</note>
+      </trans-unit>
+      <trans-unit id="878202c3163fb973d0608bea2bca60e472b55dce" resname="configuration_settings.group_descriptions.miscellaneous">
+        <source>Define settings for additional features</source>
+        <target state="translated">Définir les paramètres pour les fonctionnalités supplémentaires</target>
+        <note>key: configuration_settings.group_descriptions.miscellaneous</note>
+      </trans-unit>
+      <trans-unit id="274628b410b0d84be6d8f39bd2151e20a20fad22" resname="configuration_settings.group_names.basket" approved="yes">
+        <source>Basket</source>
+        <target state="final">Panier</target>
+        <note>key: configuration_settings.group_names.basket</note>
+      </trans-unit>
+      <trans-unit id="0f35873fedd39f0c7e93ad949c1934b862c9222e" resname="configuration_settings.group_names.catalog" approved="yes">
+        <source>Catalog</source>
+        <target state="final">Catalogue</target>
+        <note>key: configuration_settings.group_names.catalog</note>
+      </trans-unit>
+      <trans-unit id="f34b5e71b4039e0bc030f5ec2d19a5a69f41f4f0" resname="configuration_settings.group_names.customer" approved="yes">
+        <source>Customer</source>
+        <target state="final">Client</target>
+        <note>key: configuration_settings.group_names.customer</note>
+      </trans-unit>
+      <trans-unit id="bbdf1c9dd76bac3e1a12cb8da4bba8a1332b263f" resname="configuration_settings.group_names.mail">
+        <source>mail information</source>
+        <target state="translated">informations d'email</target>
+        <note>key: configuration_settings.group_names.mail</note>
+      </trans-unit>
+      <trans-unit id="41575556f2efdd329b294d90c1aa1d8f28bde0bb" resname="configuration_settings.group_names.mail_and_newsletter" approved="yes">
+        <source>Mail and newsletter</source>
+        <target state="final">Mail et newsletter</target>
+        <note>key: configuration_settings.group_names.mail_and_newsletter</note>
+      </trans-unit>
+      <trans-unit id="f95883d88fe023ed5be16b278de774d91c63f31b" resname="configuration_settings.group_names.price" approved="yes">
+        <source>Price</source>
+        <target state="final">Prix</target>
+        <note>key: configuration_settings.group_names.price</note>
+      </trans-unit>
+      <trans-unit id="2be3a9b5ba7664ed68fdc6b713553b35eecfe46e" resname="configuration_settings.group_names.search" approved="yes">
+        <source>search information</source>
+        <target state="final">rechercher des informations</target>
+        <note>key: configuration_settings.group_names.search</note>
+      </trans-unit>
+      <trans-unit id="e988dafdc1d589d8ceabef9690adbc2acb5b54f3" resname="configuration_settings.group_names.stored_basket">
+        <source>Stored basket</source>
+        <target state="translated">Panier stocké</target>
+        <note>key: configuration_settings.group_names.stored_basket</note>
+      </trans-unit>
+      <trans-unit id="fb547e48aa72c5e4b9932af14339dfd9b99aa06a" resname="configuration_settings.group_names.wishlist">
+        <source>Wishlist</source>
+        <target state="translated">Liste de souhaits</target>
+        <note>key: configuration_settings.group_names.wishlist</note>
+      </trans-unit>
+      <trans-unit id="3644cf8e1e35186314665b894c9093716d1092d8" resname="configuration_settings.page_title" approved="yes">
+        <source>Configuration Settings</source>
+        <target state="final">Paramètres de configuration</target>
+        <note>key: configuration_settings.page_title</note>
+      </trans-unit>
+      <trans-unit id="f993f980c79847fe2803566a8c4b90f688727d79" resname="configuration_settings.table.header.description" approved="yes">
+        <source>Description</source>
+        <target state="final">Description</target>
+        <note>key: configuration_settings.table.header.description</note>
+      </trans-unit>
+      <trans-unit id="1dc5a580b89c89bba141aa6cb0c4477ff8c04c0f" resname="configuration_settings.table.header.name" approved="yes">
+        <source>Name</source>
+        <target state="final">Nom</target>
+        <note>key: configuration_settings.table.header.name</note>
+      </trans-unit>
+      <trans-unit id="a0e97fb05fced34b08fbe9257af87e9b3c163489" resname="configuration_settings.table.header.value" approved="yes">
+        <source>Value</source>
+        <target state="final">Valeur</target>
+        <note>key: configuration_settings.table.header.value</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

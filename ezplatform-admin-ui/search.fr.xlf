@@ -11,6 +11,11 @@
         <target state="translated">Rechercher</target>
         <note>key: search</note>
       </trans-unit>
+      <trans-unit id="2c0d71c1688c1f04ff156bb9dff167ca5ae663b6" resname="search.any.content.type">
+        <source>Any Content Type</source>
+        <target state="translated">Tout Type de Contenu</target>
+        <note>key: search.any.content.type</note>
+      </trans-unit>
       <trans-unit id="8605c5030193beebc7097a652f6c9dcb648cccec" resname="search.apply">
         <source>Apply</source>
         <target state="translated">Appliquer</target>
@@ -21,26 +26,10 @@
         <target state="translated">Effacer</target>
         <note>key: search.clear</note>
       </trans-unit>
-      <trans-unit id="52574f2c1d5e0b3ffcd4f105b770e91ae1e519fa" resname="search.content.type">
-        <source>Content Type:</source>
-        <target state="translated">Type de Contenu :</target>
-        <note>key: search.content.type</note>
-        <alt-trans>
-          <target>Type de contenu :</target>
-        </alt-trans>
-      </trans-unit>
-      <trans-unit id="738c66eb92535505455b34b383f8089fb1bc0479" resname="search.created">
-        <source>Created:</source>
-        <target state="translated">Créé :</target>
-        <note>key: search.created</note>
-        <alt-trans>
-          <target>Crée :</target>
-        </alt-trans>
-      </trans-unit>
-      <trans-unit id="a32fe0699ebb4545ab1a39bab0311633c3f92fc3" resname="search.creator">
-        <source>Creator:</source>
-        <target state="translated">Créateur :</target>
-        <note>key: search.creator</note>
+      <trans-unit id="3d9f547776de4846ff54fcd1cd173ac5937e5a46" resname="search.creator_input.placeholder">
+        <source>Type creator's name</source>
+        <target state="translated">Nom du créateur de type</target>
+        <note>key: search.creator_input.placeholder</note>
       </trans-unit>
       <trans-unit id="a18d7835f5b4a97ac94331f82e729abcb698be41" resname="search.custom_range">
         <source>Custom range</source>
@@ -62,21 +51,10 @@
         <target state="translated">Rechercher</target>
         <note>key: search.headline</note>
       </trans-unit>
-      <trans-unit id="c2e9df867c114a94918c00f775d3a54d24358dfa" resname="search.last.modified">
-        <source>Last modified:</source>
-        <target state="translated">Modifié :</target>
-        <note>key: search.last.modified</note>
-        <alt-trans>
-          <target>Modifié le :</target>
-        </alt-trans>
-      </trans-unit>
       <trans-unit id="2d007a8d9fc080db790dc5c45c12dd369d144fbe" resname="search.last_month">
         <source>Last month</source>
         <target state="translated">Le mois dernier</target>
         <note>key: search.last_month</note>
-        <alt-trans>
-          <target>Le Mois dernier</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="967e0a47af2b621d7e8fa29b2429a30644f8d6bb" resname="search.last_week">
         <source>Last week</source>
@@ -98,30 +76,35 @@
         <target state="translated">Nom</target>
         <note>key: search.name</note>
       </trans-unit>
+      <trans-unit id="8c11cc36acf58db9ff898f3a4cf02fd0fc293f67" resname="search.no_result">
+        <source>No results found for "%query%".</source>
+        <target state="translated">Aucun résultat trouvé pour "%query%".</target>
+        <note>key: search.no_result</note>
+      </trans-unit>
       <trans-unit id="6fa93ef4dfbce97076a254427bb30bf7c5819c5d" resname="search.perform">
         <source>Search</source>
         <target state="translated">Rechercher</target>
         <note>key: search.perform</note>
-      </trans-unit>
-      <trans-unit id="34cd11448c2016e5c0a098947eb3e2aef01a9ac5" resname="search.section">
-        <source>Section:</source>
-        <target state="translated">Section :</target>
-        <note>key: search.section</note>
       </trans-unit>
       <trans-unit id="1ac4d5da88d06451590cade73ec7e2c4a8b98c2e" resname="search.select_content">
         <source>Select Content</source>
         <target state="translated">Sélectionner un contenu</target>
         <note>key: search.select_content</note>
       </trans-unit>
-      <trans-unit id="b484be9d33f5cd9961f4ddd89c628f2cbca2a6a1" resname="search.subtree">
-        <source>Subtree:</source>
-        <target state="translated">Sous-arborescence :</target>
-        <note>key: search.subtree</note>
+      <trans-unit id="777cc1ef279096d5a978aa3553e9434d828f8248" resname="search.tips.check_spelling">
+        <source>Check the spelling of keywords.</source>
+        <target state="translated">Vérifiez l’orthographe des mots clés.</target>
+        <note>key: search.tips.check_spelling</note>
       </trans-unit>
       <trans-unit id="d89a8ff5c4b03f1dd7bd1ce3e3306862e1855751" resname="search.tips.different_keywords">
         <source>Try different keywords.</source>
         <target state="translated">Essayez des mots clés différents.</target>
         <note>key: search.tips.different_keywords</note>
+      </trans-unit>
+      <trans-unit id="013ced9a3284ecebf5a5356397dc9a79eaf76496" resname="search.tips.fewer_keywords">
+        <source>Try fewer keywords. Reducing keywords results in more matches.</source>
+        <target state="translated">Essayez avec moins de mots clés. Réduire le nombre de mots clés peut générer plus de résultats.</target>
+        <note>key: search.tips.fewer_keywords</note>
       </trans-unit>
       <trans-unit id="4af1e76946070e5f61320621d12a171f4206e06c" resname="search.tips.headline">
         <source>Some helpful search tips:</source>
@@ -133,13 +116,15 @@
         <target state="translated">Essayez des mots clés plus génériques.</target>
         <note>key: search.tips.more_general_keywords</note>
       </trans-unit>
+      <trans-unit id="e477a87ca96bb3e22e8eed710e54e9a6bffefc52" resname="search.translations">
+        <source>Translations</source>
+        <target state="translated">Traductions</target>
+        <note>key: search.translations</note>
+      </trans-unit>
       <trans-unit id="0c9866a19fd5d3074bdb05b339df05b7c05a5661" resname="search.type">
         <source>Content Type</source>
         <target state="translated">Type de Contenu</target>
         <note>key: search.type</note>
-        <alt-trans>
-          <target>Type</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="c33e03cc28d02c59ac241dba3a1bb3ea0ab1f358" resname="search.udw.select_content">
         <source>Select Content</source>

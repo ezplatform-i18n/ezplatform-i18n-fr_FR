@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="2c0d71c1688c1f04ff156bb9dff167ca5ae663b6" resname="search.any.content.type">
+        <source>Any Content Type</source>
+        <target state="translated">Tout Type de Contenu</target>
+        <note>key: search.any.content.type</note>
+      </trans-unit>
+      <trans-unit id="52574f2c1d5e0b3ffcd4f105b770e91ae1e519fa" resname="search.content.type">
+        <source>Content Type</source>
+        <target state="translated">Type de contenu</target>
+        <note>key: search.content.type</note>
+      </trans-unit>
+      <trans-unit id="738c66eb92535505455b34b383f8089fb1bc0479" resname="search.created">
+        <source>Created</source>
+        <target state="translated">Créé</target>
+        <note>key: search.created</note>
+      </trans-unit>
+      <trans-unit id="a32fe0699ebb4545ab1a39bab0311633c3f92fc3" resname="search.creator">
+        <source>Creator</source>
+        <target state="translated">Créateur</target>
+        <note>key: search.creator</note>
+      </trans-unit>
+      <trans-unit id="0ec8148d681b43e87a6d0751fff188517be1ea26" resname="search.header">
+        <source>Search results (%total%)</source>
+        <target state="translated">Résultat de la recherche (%total%)</target>
+        <note>key: search.header</note>
+      </trans-unit>
+      <trans-unit id="c2e9df867c114a94918c00f775d3a54d24358dfa" resname="search.last.modified">
+        <source>Last modified</source>
+        <target state="translated">Dernière mise à jour</target>
+        <note>key: search.last.modified</note>
+      </trans-unit>
+      <trans-unit id="0ea91510ce49731de30d4d412dc62c83c91b359d" resname="search.modified">
+        <source>Modified</source>
+        <target state="translated">Modifié</target>
+        <note>key: search.modified</note>
+      </trans-unit>
+      <trans-unit id="6fc6d2e87716ae8feb2ff4536efa8c9db0904509" resname="search.name">
+        <source>Name</source>
+        <target state="translated">Nom</target>
+        <note>key: search.name</note>
+      </trans-unit>
+      <trans-unit id="8c11cc36acf58db9ff898f3a4cf02fd0fc293f67" resname="search.no_result">
+        <source>No results found for "%query%".</source>
+        <target state="translated">Aucun résultat trouvé pour "%query%".</target>
+        <note>key: search.no_result</note>
+      </trans-unit>
+      <trans-unit id="6ffbb9b14f98e94b8dda5418ef3910942b42c44e" resname="search.search">
+        <source>Search</source>
+        <target state="translated">Rechercher</target>
+        <note>key: search.search</note>
+      </trans-unit>
+      <trans-unit id="34cd11448c2016e5c0a098947eb3e2aef01a9ac5" resname="search.section">
+        <source>Section</source>
+        <target state="translated">Section</target>
+        <note>key: search.section</note>
+      </trans-unit>
+      <trans-unit id="777cc1ef279096d5a978aa3553e9434d828f8248" resname="search.tips.check_spelling">
+        <source>Check the spelling of keywords.</source>
+        <target state="translated">Vérifiez l’orthographe des mots clés.</target>
+        <note>key: search.tips.check_spelling</note>
+      </trans-unit>
+      <trans-unit id="d89a8ff5c4b03f1dd7bd1ce3e3306862e1855751" resname="search.tips.different_keywords">
+        <source>Try different keywords.</source>
+        <target state="translated">Essayez des mots clés différents.</target>
+        <note>key: search.tips.different_keywords</note>
+      </trans-unit>
+      <trans-unit id="013ced9a3284ecebf5a5356397dc9a79eaf76496" resname="search.tips.fewer_keywords">
+        <source>Try fewer keywords. Reducing keywords results in more matches.</source>
+        <target state="translated">Essayez avec moins de mots clés. Réduire le nombre de mots clés peut générer plus de résultats.</target>
+        <note>key: search.tips.fewer_keywords</note>
+      </trans-unit>
+      <trans-unit id="4af1e76946070e5f61320621d12a171f4206e06c" resname="search.tips.headline">
+        <source>Some helpful search tips:</source>
+        <target state="translated">Quelques conseils utiles de recherche :</target>
+        <note>key: search.tips.headline</note>
+      </trans-unit>
+      <trans-unit id="dd61516edc919235a13e3cfadb5d961b8614b744" resname="search.tips.more_general_keywords">
+        <source>Try more general keywords.</source>
+        <target state="translated">Essayez des mots clés plus génériques.</target>
+        <note>key: search.tips.more_general_keywords</note>
+      </trans-unit>
+      <trans-unit id="e477a87ca96bb3e22e8eed710e54e9a6bffefc52" resname="search.translations">
+        <source>Translations</source>
+        <target state="translated">Traductions</target>
+        <note>key: search.translations</note>
+      </trans-unit>
+      <trans-unit id="0c9866a19fd5d3074bdb05b339df05b7c05a5661" resname="search.type">
+        <source>Content Type</source>
+        <target state="translated">Type de contenu</target>
+        <note>key: search.type</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

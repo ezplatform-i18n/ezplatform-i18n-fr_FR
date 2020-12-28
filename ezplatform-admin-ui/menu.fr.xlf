@@ -65,9 +65,6 @@
         <source>Publish</source>
         <target state="final">Publier</target>
         <note>key: content_create__sidebar_right__publish</note>
-        <alt-trans>
-          <target>content.publish_button</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="bfb33ee23eb46e991693adf1d52d350d0a29e688" resname="content_create__sidebar_right__save_draft" approved="yes">
         <source>Save</source>
@@ -88,9 +85,6 @@
         <source>Publish</source>
         <target state="final">Publier</target>
         <note>key: content_edit__sidebar_right__publish</note>
-        <alt-trans>
-          <target>content.publish_button</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="21ec910650ae078371f26d8e6a7964d13b5a5216" resname="content_edit__sidebar_right__save_draft" approved="yes">
         <source>Save</source>
@@ -181,9 +175,6 @@
         <source>Roles</source>
         <target state="final">Rôles</target>
         <note>key: main__admin__roles</note>
-        <alt-trans>
-          <target>Roles</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="e636e8e95f62409b29348795eef55b4450f65673" resname="main__admin__sections" approved="yes">
         <source>Sections</source>
@@ -194,6 +185,11 @@
         <source>System Information</source>
         <target state="final">Informations système</target>
         <note>key: main__admin__systeminfo</note>
+      </trans-unit>
+      <trans-unit id="82375ef2c63989a07c692f526407d75316414dff" resname="main__admin__url_management">
+        <source>URL Management</source>
+        <target state="translated">Gestion des URL</target>
+        <note>key: main__admin__url_management</note>
       </trans-unit>
       <trans-unit id="975e43875a74d509e3e0cedd926de1223d09cdf4" resname="main__admin__users" approved="yes">
         <source>Users</source>
@@ -209,11 +205,6 @@
         <source>Content structure</source>
         <target state="final">Contenu</target>
         <note>key: main__content__content_structure</note>
-      </trans-unit>
-      <trans-unit id="2887dd09dcb0f287e947da3e735133c540991df1" resname="main__content__linkmanager" approved="yes">
-        <source>Link Manager</source>
-        <target state="final">Gestionnaire de liens</target>
-        <note>key: main__content__linkmanager</note>
       </trans-unit>
       <trans-unit id="e8c5aefc86b31ee2bed9359787ddf0a2b1cad4a6" resname="main__content__media" approved="yes">
         <source>Media</source>
@@ -295,6 +286,16 @@
         <target state="final">Sauvegarder</target>
         <note>key: role_assignment_create__sidebar_right__save</note>
       </trans-unit>
+      <trans-unit id="88bfe7703596452559485dd44c7a7dbf289584a5" resname="role_copy__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target state="translated">Annuler les modifications </target>
+        <note>key: role_copy__sidebar_right__cancel</note>
+      </trans-unit>
+      <trans-unit id="36e448abb1ab7844befaf5a70ac65edf976bae85" resname="role_copy__sidebar_right__save">
+        <source>Save</source>
+        <target state="translated">Sauvegarder</target>
+        <note>key: role_copy__sidebar_right__save</note>
+      </trans-unit>
       <trans-unit id="ec3a03215b15b79b7db72bac312b5e59734ac99c" resname="role_create__sidebar_right__cancel" approved="yes">
         <source>Discard changes</source>
         <target state="final">Annuler modifications</target>
@@ -375,6 +376,16 @@
         <target state="final">Sauvegarder</target>
         <note>key: url_edit__sidebar_right__save</note>
       </trans-unit>
+      <trans-unit id="279fb028abf07d3fadda07ff6e00b91f0fd53932" resname="url_wildcard_edit__sidebar_right__cancel">
+        <source>Discard changes</source>
+        <target state="translated">Annuler les modifications </target>
+        <note>key: url_wildcard_edit__sidebar_right__cancel</note>
+      </trans-unit>
+      <trans-unit id="02bb48356132caeef070ebc7eb4d266884044e85" resname="url_wildcard_edit__sidebar_right__save">
+        <source>Save</source>
+        <target state="translated">Sauvegarder</target>
+        <note>key: url_wildcard_edit__sidebar_right__save</note>
+      </trans-unit>
       <trans-unit id="8acab9e005da20efe4001fac5f84ff2c835bb7c8" resname="user__bookmark" approved="yes">
         <source>Bookmarks</source>
         <target state="final">Favoris</target>
@@ -394,9 +405,6 @@
         <source>User Settings</source>
         <target state="translated">Paramètres utilisateur</target>
         <note>key: user__settings</note>
-        <alt-trans>
-          <target>Paramètres d'utilisateur</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="40679174821cfa2ce3d3a4dc046f0ef65df6f483" resname="user_create__sidebar_right__cancel" approved="yes">
         <source>Cancel</source>

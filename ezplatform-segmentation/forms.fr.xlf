@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="9a069765672a2f2b864751f1bb933202a8dab393" resname="segment_create_form.create">
+        <source>Create</source>
+        <target state="translated">Créer</target>
+        <note>key: segment_create_form.create</note>
+      </trans-unit>
+      <trans-unit id="89b4e639fd50276fdaa2def0bd01f262c4ea0686" resname="segment_group_bulk_delete_form.delete">
+        <source>Delete</source>
+        <target state="translated">Supprimer</target>
+        <note>key: segment_group_bulk_delete_form.delete</note>
+      </trans-unit>
+      <trans-unit id="d4bad89505ed54f60df85a8d458fa2e4ac1ac8db" resname="segment_group_create.identifier">
+        <source>Identifier</source>
+        <target state="translated">Identifiant</target>
+        <note>key: segment_group_create.identifier</note>
+      </trans-unit>
+      <trans-unit id="20d5e75dd76b6dc414be25970c59dd92a262182d" resname="segment_group_create.name">
+        <source>Name</source>
+        <target state="translated">Nom</target>
+        <note>key: segment_group_create.name</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

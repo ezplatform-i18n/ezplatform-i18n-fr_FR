@@ -140,9 +140,6 @@
         <target state="final">Aucune longueur maximale définie pour la chaîne</target>
         <note>key: fielddefinition.max-length.undefined</note>
         <jms:reference-file line="33">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
-        <alt-trans>
-          <target>Aucune longueur maximale maximale définie pour la chaîne</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="9a3d23487e45edf331407c501ead33d70461f9e3" resname="fielddefinition.max-length.value" approved="yes">
         <source>%max% characters</source>
@@ -203,9 +200,6 @@
         <target state="final">Type de lecteur de media&amp;nbsp;:</target>
         <note>key: fielddefinition.media-player-type.label</note>
         <jms:reference-file line="179">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
-        <alt-trans>
-          <target>Type de lecteur de media&amp;nbsp;:</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="c7a28f2ea418dc17e634bf386d5f1db091582fc8" resname="fielddefinition.media-player-type.quick_time" approved="yes">
         <source>Quicktime</source>
@@ -237,21 +231,21 @@
         <note>key: fielddefinition.media-player-type.windows_media_player</note>
         <jms:reference-file line="190">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="ee5c85f0dae011c10d9d2bfb1fcd86e529c55536" resname="fielddefinition.min-length.label">
+      <trans-unit id="ee5c85f0dae011c10d9d2bfb1fcd86e529c55536" resname="fielddefinition.min-length.label" approved="yes">
         <source>Min string length:</source>
-        <target state="translated">Longueur minimale de la chaîne :</target>
+        <target state="final">Longueur minimale de la chaîne :</target>
         <note>key: fielddefinition.min-length.label</note>
         <jms:reference-file line="18">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="09fff8d9a67512b01bb3e58b5d25cf5d042ba195" resname="fielddefinition.min-length.undefined">
+      <trans-unit id="09fff8d9a67512b01bb3e58b5d25cf5d042ba195" resname="fielddefinition.min-length.undefined" approved="yes">
         <source>No defined minimum string length</source>
-        <target state="translated">Aucune longueur minimale définie pour la chaîne</target>
+        <target state="final">Aucune longueur minimale définie pour la chaîne</target>
         <note>key: fielddefinition.min-length.undefined</note>
         <jms:reference-file line="23">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
-      <trans-unit id="904a83f949dd73a0bed006f8e78a211c80b4816a" resname="fielddefinition.min-length.value">
+      <trans-unit id="904a83f949dd73a0bed006f8e78a211c80b4816a" resname="fielddefinition.min-length.value" approved="yes">
         <source>%min% characters</source>
-        <target state="translated">%min% caractères</target>
+        <target state="final">%min% caractères</target>
         <note>key: fielddefinition.min-length.value</note>
         <jms:reference-file line="21">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
@@ -353,9 +347,6 @@
         <target state="final">Modèle de base, unique</target>
         <note>key: fielddefinition.selection-method.single_template</note>
         <jms:reference-file line="246">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
-        <alt-trans>
-          <target>Modèle de base, simple</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="e0b6bc6950269d05c7318553912abe4042d6a423" resname="fielddefinition.selection-method.tree" approved="yes">
         <source>Drop-down tree</source>

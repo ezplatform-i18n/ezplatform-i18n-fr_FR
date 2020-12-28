@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="3dcad638d088540a2dd7bed653bdadce0b357a55" resname="%vat% VAT">
+        <source>%vat% VAT</source>
+        <target state="translated">%vat% VAT</target>
+        <note>key: %vat% VAT</note>
+      </trans-unit>
+      <trans-unit id="88d503f872fc95f14bf550b50b0cf4f1fb301dd6" resname="0|OrderHistoryStatus">
+        <source>delivered</source>
+        <target state="translated">Livré</target>
+        <note>key: 0|OrderHistoryStatus</note>
+      </trans-unit>
+      <trans-unit id="75ceebf4fcd60557d8d98c7f2779f09138fb8a93" resname="Add all items to basket">
+        <source>Add all items to basket</source>
+        <target state="translated">Ajouter tous les articles au panier</target>
+        <note>key: Add all items to basket</note>
+      </trans-unit>
+      <trans-unit id="1d978ebd10b1bca55bb1b347380cdc3a7fd75a85" resname="Add to basket">
+        <source>Add to basket</source>
+        <target state="translated">Ajouter au panier</target>
+        <note>key: Add to basket</note>
+      </trans-unit>
+      <trans-unit id="d3df9e97876647f381f0ab19dfad49c2f17e8e3b" resname="Buyer address">
+        <source>Buyer address</source>
+        <target state="translated">Adresse de facturation</target>
+        <note>key: Buyer address</note>
+      </trans-unit>
+      <trans-unit id="beacd3ba4e7ba8ee510e252a7fbf1bddaa4bffa9" resname="Delivery address">
+        <source>Delivery address</source>
+        <target state="translated">Adresse de livraison</target>
+        <note>key: Delivery address</note>
+      </trans-unit>
+      <trans-unit id="5cbbdf0c164a3bc7e44ab188604f1b40884909a6" resname="Delivery_ActualDeliveryDate">
+        <source>Delivery date</source>
+        <target state="translated">Date de livraison</target>
+        <note>key: Delivery_ActualDeliveryDate</note>
+      </trans-unit>
+      <trans-unit id="b0901bd246347236a8e3997bb68b0e23d3ebf054" resname="SesExtension_Invoice">
+        <source>Invoice</source>
+        <target state="translated">Facture</target>
+        <note>key: SesExtension_Invoice</note>
+      </trans-unit>
+      <trans-unit id="a654ab1d26027c4092e476750ae78de24ea87cdf" resname="SesExtension_ShipmentMethod">
+        <source>Delivery</source>
+        <target state="translated">Livraison</target>
+        <note>key: SesExtension_ShipmentMethod</note>
+      </trans-unit>
+      <trans-unit id="d07c252f428c8b0a34c9a2684de99dca53ecba15" resname="Standard delivery">
+        <source>Standard delivery</source>
+        <target state="translated">Livraison standard</target>
+        <note>key: Standard delivery</note>
+      </trans-unit>
+      <trans-unit id="0bb22d649cc96d83ae2eb211140bd73ca6fda463" resname="Start date must be lower than end date.">
+        <source>Start date must be lower than end date.</source>
+        <target state="translated">La date de début doit être antérieure à la date de fin</target>
+        <note>key: Start date must be lower than end date.</note>
+      </trans-unit>
+      <trans-unit id="bae7d5be70820ed56467bd9a63744e23b47bd711" resname="Status">
+        <source>Status</source>
+        <target state="translated">Statut</target>
+        <note>key: Status</note>
+      </trans-unit>
+      <trans-unit id="baeba7e7b9ec453e23b5bac313219285d6292358" resname="invoice">
+        <source>invoice</source>
+        <target state="translated">facture</target>
+        <note>key: invoice</note>
+      </trans-unit>
+      <trans-unit id="0276022459b916b6a27d4b99c25fc0f23c567a29" resname="invoice|orderhistory">
+        <source>Invoice</source>
+        <target state="translated">Facture</target>
+        <note>key: invoice|orderhistory</note>
+      </trans-unit>
+      <trans-unit id="e06757f7a1679219486bbea176f05cbfb35ac3a9" resname="label.invoice_address|order_history">
+        <source>Invoice Address</source>
+        <target state="translated">Adresse de facturation</target>
+        <note>key: label.invoice_address|order_history</note>
+      </trans-unit>
+      <trans-unit id="c1cbb1a39d002bbc834f41c974dd217d630d2045" resname="label.invoice_sum">
+        <source>Total</source>
+        <target state="translated">Total</target>
+        <note>key: label.invoice_sum</note>
+      </trans-unit>
+      <trans-unit id="2e4a324e47557e8b46cc011ad0dad16c1e3ff238" resname="label.my_documents">
+        <source>Your documents</source>
+        <target state="translated">Vos documents</target>
+        <note>key: label.my_documents</note>
+      </trans-unit>
+      <trans-unit id="d297e5e766d72cac5d1578188f5142d02471167b" resname="label.subtotal">
+        <source>Subtotal</source>
+        <target state="translated">Sous-total</target>
+        <note>key: label.subtotal</note>
+      </trans-unit>
+      <trans-unit id="65c4aaaab5989949a929cc5f7e96eb7017c2d9f4" resname="loading...">
+        <source>loading...</source>
+        <target state="translated">chargement...</target>
+        <note>key: loading...</note>
+      </trans-unit>
+      <trans-unit id="aa4c942a007e815802915bb5c309a3bdcbe97ca2" resname="order|orderhistory">
+        <source>Order</source>
+        <target state="translated">Commande</target>
+        <note>key: order|orderhistory</note>
+      </trans-unit>
+      <trans-unit id="6a8437dd0009e4aa220215ad24cf7c7d2e8c95c8" resname="plus">
+        <source>plus</source>
+        <target state="translated">plus</target>
+        <note>key: plus</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

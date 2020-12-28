@@ -16,6 +16,11 @@
         <target state="translated">Ne peut pas trouver le formulaire pour '%identifier%'</target>
         <note>key: Could not find Form for '%identifier%'</note>
       </trans-unit>
+      <trans-unit id="fb19ae886e63bac3aa3b851ac00aae8a3b777992" resname="content.in_trash">
+        <source>In Trash</source>
+        <target state="translated">Dans la corbeille</target>
+        <note>key: content.in_trash</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

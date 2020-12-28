@@ -11,18 +11,12 @@
         <target state="final">Fournissez votre identifiant ou votre adresse email</target>
         <note>key: Enter login or email</note>
         <jms:reference-file line="18">eZ/Bundle/EzPublishCoreBundle/Resources/views/Security/login.html.twig</jms:reference-file>
-        <alt-trans>
-          <target>Entrez votre login ou e-mail</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="570591c060a999e9ab1592763c74d881b7654ee1" resname="Enter password" approved="yes">
         <source>Enter password</source>
         <target state="final">Entrez votre mot de passe</target>
         <note>key: Enter password</note>
         <jms:reference-file line="22">eZ/Bundle/EzPublishCoreBundle/Resources/views/Security/login.html.twig</jms:reference-file>
-        <alt-trans>
-          <target>Saisissez le mot de passe</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="4e5a2893bdcc7d239c1db72e4c4ffbe4bea73174" resname="Login" approved="yes">
         <source>Login</source>
@@ -30,27 +24,18 @@
         <note>key: Login</note>
         <jms:reference-file line="32">eZ/Bundle/EzPublishCoreBundle/Resources/views/Security/login.html.twig</jms:reference-file>
         <jms:reference-file line="6">eZ/Bundle/EzPublishCoreBundle/Resources/views/Security/login.html.twig</jms:reference-file>
-        <alt-trans>
-          <target>Ouvrir une session</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="be81ab98cb9ccf753975f50fa70cd32581a821fc" resname="Password:" approved="yes">
         <source>Password:</source>
         <target state="final">Mot de passe :</target>
         <note>key: Password:</note>
         <jms:reference-file line="21">eZ/Bundle/EzPublishCoreBundle/Resources/views/Security/login.html.twig</jms:reference-file>
-        <alt-trans>
-          <target>Mot de passe:</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="17dfb031e086e3415d71f3928e6ce08d6b1c1d4d" resname="Username:" approved="yes">
         <source>Username:</source>
         <target state="final">Nom d'utilisateur :</target>
         <note>key: Username:</note>
         <jms:reference-file line="17">eZ/Bundle/EzPublishCoreBundle/Resources/views/Security/login.html.twig</jms:reference-file>
-        <alt-trans>
-          <target>Nom d'utilisateur:</target>
-        </alt-trans>
       </trans-unit>
     </body>
   </file>

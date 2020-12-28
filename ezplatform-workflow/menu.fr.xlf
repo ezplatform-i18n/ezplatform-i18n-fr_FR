@@ -6,9 +6,9 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="2b838fc25a23cbfee0679e39a202f2bc63c41996" resname="main__admin__workflow">
+      <trans-unit id="2b838fc25a23cbfee0679e39a202f2bc63c41996" resname="main__admin__workflow" approved="yes">
         <source>Workflow</source>
-        <target state="translated">Workflow</target>
+        <target state="final">Workflow</target>
         <note>key: main__admin__workflow</note>
       </trans-unit>
     </body>

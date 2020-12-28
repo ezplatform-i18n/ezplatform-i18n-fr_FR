@@ -6,45 +6,236 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="ad4e9a4e42b99d945f972bab5a2eff694d283793" resname="creating">
+        <source>Creating</source>
+        <target state="translated">Création en cours</target>
+        <note>key: creating</note>
+      </trans-unit>
+      <trans-unit id="b9b7f78038b71a27e7b4c2d2978a3946bb48c90b" resname="dashboard.create">
+        <source>Create</source>
+        <target state="translated">Créer</target>
+        <note>key: dashboard.create</note>
+      </trans-unit>
+      <trans-unit id="8a848dd69c514b773958b84bc5973ce638a8c0c3" resname="edit_site">
+        <source>Site "%name%"</source>
+        <target state="translated">Site "%name%"</target>
+        <note>key: edit_site</note>
+      </trans-unit>
+      <trans-unit id="f34946beab1da2af6535a8e4a88145e9557de0aa" resname="editing">
+        <source>Editing</source>
+        <target state="translated">En cours d'édition</target>
+        <note>key: editing</note>
+      </trans-unit>
+      <trans-unit id="7d04ae342a68cc290cd9ac77424c3e7863fcfcc2" resname="header.create.unavailable">
+        <source>There is a design configuration error and you will not be able to create a new site. Please update the configuration.</source>
+        <target state="translated">Il y a une erreur de configuration et vous ne serez pas en mesure de créer un nouveau site. Veuillez mettre à jour la configuration.</target>
+        <note>key: header.create.unavailable</note>
+      </trans-unit>
+      <trans-unit id="f60b504e4b5465ca8ef5322de7068f70a5f633b7" resname="header.grid_view">
+        <source>Grid view</source>
+        <target state="translated">Vue grille</target>
+        <note>key: header.grid_view</note>
+      </trans-unit>
+      <trans-unit id="fec12680d0d0abaf9fd42b13e090ae0529a02018" resname="header.list_view">
+        <source>List view</source>
+        <target state="translated">Vue liste</target>
+        <note>key: header.list_view</note>
+      </trans-unit>
+      <trans-unit id="d1e4928cb58cd886efb326dfa99d120d4dee0264" resname="new_site">
+        <source>New Site</source>
+        <target state="translated">Nouveau site</target>
+        <note>key: new_site</note>
+      </trans-unit>
+      <trans-unit id="6fa93ef4dfbce97076a254427bb30bf7c5819c5d" resname="search.perform">
+        <source>Search</source>
+        <target state="translated">Rechercher</target>
+        <note>key: search.perform</note>
+      </trans-unit>
+      <trans-unit id="5fc1c478330164115ae83709aa7d387bbe35fb7d" resname="site.action.delete">
+        <source>Delete</source>
+        <target state="translated">Supprimer</target>
+        <note>key: site.action.delete</note>
+      </trans-unit>
+      <trans-unit id="da118654009b46e2a310494bc6796e6540d98ae6" resname="site.action.location_preview">
+        <source>Location preview</source>
+        <target state="translated">Prévisualisation de l'emplacement</target>
+        <note>key: site.action.location_preview</note>
+      </trans-unit>
+      <trans-unit id="ee77ac5c5ffd206c915b52de8934529284cc6576" resname="site.action.root">
+        <source>Go to root</source>
+        <target state="translated">Aller à la racine</target>
+        <note>key: site.action.root</note>
+      </trans-unit>
+      <trans-unit id="12e7cbd67a7e40e130bbce5c3a199fe521190084" resname="site.action.settings">
+        <source>Site settings</source>
+        <target state="translated">Paramètres du site</target>
+        <note>key: site.action.settings</note>
+      </trans-unit>
+      <trans-unit id="a9fb803a701f3226aff42f2d5ad2b87c4a5fbac3" resname="site.create.success">
+        <source>Site '%name%' has been created.</source>
+        <target state="translated">Le site «%name%» a été créé.</target>
+        <note>key: site.create.success</note>
+      </trans-unit>
+      <trans-unit id="c9d452254d19fafeec83d25b6b537cb3d8362f91" resname="site.creating">
+        <source>Creating a new Site</source>
+        <target state="translated">Créer un nouveau site</target>
+        <note>key: site.creating</note>
+      </trans-unit>
+      <trans-unit id="d0276207f7c538aa63b6aa105be2fc682ed8ec60" resname="site.delete.success">
+        <source>Site '%name%' removed.</source>
+        <target state="translated">Le site «%name%» a été supprimé.</target>
+        <note>key: site.delete.success</note>
+      </trans-unit>
+      <trans-unit id="007ba6d0de07ea286428b4fc70e7dc1f7387efe5" resname="site.edit">
+        <source>Editing Site "%name%"</source>
+        <target state="translated">Modification du site "%name%"</target>
+        <note>key: site.edit</note>
+      </trans-unit>
+      <trans-unit id="c1c77f935e9f4b9c5905d7980fcf0478ffb03753" resname="site.editing">
+        <source>Editing Site "%name%"</source>
+        <target state="translated">Modification du site "%name%"</target>
+        <note>key: site.editing</note>
+      </trans-unit>
+      <trans-unit id="aef7dfbda52feec2df0703dc800138796d3b7bfd" resname="site.factory.page.status.building">
+        <source>Building...</source>
+        <target state="translated">En cours de construction...</target>
+        <note>key: site.factory.page.status.building</note>
+      </trans-unit>
+      <trans-unit id="8dd7282e7f7ac897ae11ca7e0ed006c937d60149" resname="site.factory.page.status.offline">
+        <source>Offline</source>
+        <target state="translated">Hors-ligne</target>
+        <note>key: site.factory.page.status.offline</note>
+      </trans-unit>
+      <trans-unit id="60211b86dfdc3a4ab0baf7d3041a55c11d8e3595" resname="site.factory.page.status.online">
+        <source>Live</source>
+        <target state="translated">En ligne</target>
+        <note>key: site.factory.page.status.online</note>
+      </trans-unit>
+      <trans-unit id="6c045a143a764bfdd04985e957bb1b9cbef43b9f" resname="site.list">
+        <source>Sites</source>
+        <target state="translated">Sites</target>
+        <note>key: site.list</note>
+      </trans-unit>
+      <trans-unit id="8b94081bbe2854988afb5e47ea8362219f08942e" resname="site.modal.delete.message">
+        <source>Are you sure you want to delete this site and all the related elements?</source>
+        <target state="translated">Êtes-vous sûr de vouloir supprimer ce site ainsi que tous ses contenus liés ?</target>
+        <note>key: site.modal.delete.message</note>
+      </trans-unit>
+      <trans-unit id="5369420ba17d5d62a4ebebfade4873d2b82cf591" resname="site.update.success">
+        <source>Site '%name%' has been update.</source>
+        <target state="translated">Le site %name% a été mis à jour.</target>
+        <note>key: site.update.success</note>
+      </trans-unit>
+      <trans-unit id="f8743f73809e6c5aeae34e151e0f9ce5fa7066ce" resname="site.view.create">
+        <source>Create</source>
+        <target state="translated">Créer</target>
+        <note>key: site.view.create</note>
+      </trans-unit>
+      <trans-unit id="fb67639d775ccef0abfcb2033c503519e40cf113" resname="site.view.create.access.label">
+        <source>Domain name</source>
+        <target state="translated">Nom de domaine</target>
+        <note>key: site.view.create.access.label</note>
+      </trans-unit>
+      <trans-unit id="7958da3e9d68781fe74243b5d3f88cfc33383cb7" resname="site.view.create.access.path.label">
+        <source>Path</source>
+        <target state="translated">Chemin</target>
+        <note>key: site.view.create.access.path.label</note>
+      </trans-unit>
+      <trans-unit id="1f538c5067011e42905b5dfa1fb7e977f6fdab72" resname="site.view.create.design.selected.theme">
+        <source>Selected theme</source>
+        <target state="translated">Thème sélectionné</target>
+        <note>key: site.view.create.design.selected.theme</note>
+      </trans-unit>
+      <trans-unit id="54c847d70c86d68aa2a4c739cc3380d5082ceb15" resname="site.view.create.global_properties">
+        <source>Global properties</source>
+        <target state="translated">Propriétés globales</target>
+        <note>key: site.view.create.global_properties</note>
+      </trans-unit>
+      <trans-unit id="9476aac8581d0b852a36f6fc0d54fc4f1f3872be" resname="site.view.create.languages.button.add">
+        <source>Add Language</source>
+        <target state="translated">Ajouter une langue</target>
+        <note>key: site.view.create.languages.button.add</note>
+      </trans-unit>
+      <trans-unit id="00f38ed66479eac96a3561c4ad8767afad53b2d4" resname="site.view.create.languages.button.delete">
+        <source>Delete Language(s)</source>
+        <target state="translated">Supprimer la ou les langue(s)</target>
+        <note>key: site.view.create.languages.button.delete</note>
+      </trans-unit>
+      <trans-unit id="a053216e073900892aeaeb1b44532f5b7a135730" resname="site.view.create.languages.empty">
+        <source>No languages are configured for this access</source>
+        <target state="translated">Aucune langue n'est configurée pour cet accès</target>
+        <note>key: site.view.create.languages.empty</note>
+      </trans-unit>
+      <trans-unit id="f531bd3e2b89c1733d22befd2211983c87710773" resname="site.view.create.languages.label.name">
+        <source>Name</source>
+        <target state="translated">Nom</target>
+        <note>key: site.view.create.languages.label.name</note>
+      </trans-unit>
+      <trans-unit id="76dcecdd92571da6749c099ff53b2b25ec903466" resname="site.view.create.languages.list.title">
+        <source>Select language</source>
+        <target state="translated">Sélectionner la langue</target>
+        <note>key: site.view.create.languages.list.title</note>
+      </trans-unit>
+      <trans-unit id="4fa6e14f89a9e105c630108ffa6d5f3347b55329" resname="site.view.create.new_public_access.label">
+        <source>New public access</source>
+        <target state="translated">Nouvel accès public</target>
+        <note>key: site.view.create.new_public_access.label</note>
+      </trans-unit>
+      <trans-unit id="58145f540d76ee074532ff6c3dc82a5697cfd77c" resname="site.view.create.public_access">
+        <source>Public access</source>
+        <target state="translated">Accès public</target>
+        <note>key: site.view.create.public_access</note>
+      </trans-unit>
+      <trans-unit id="6efc361f26cc0edcb91942503a700c1a1ed571a0" resname="site.view.create.select_location.label">
+        <source>Select location</source>
+        <target state="translated">Sélectionner l'emplacement</target>
+        <note>key: site.view.create.select_location.label</note>
+      </trans-unit>
+      <trans-unit id="d350120908ef264419df59262d47c9e8c1fbdf6e" resname="site.view.global_properties.design">
+        <source>Design</source>
+        <target state="translated">Design</target>
+        <note>key: site.view.global_properties.design</note>
+      </trans-unit>
+      <trans-unit id="5f6945f1f44a0cd6f56b9a5ef1cee580dd48c839" resname="site.view.global_properties.header">
+        <source>Global properties</source>
+        <target state="translated">Propriétés globales</target>
+        <note>key: site.view.global_properties.header</note>
+      </trans-unit>
+      <trans-unit id="ad4fb4d341141b546c9260a6d3599283110d6b2f" resname="site.view.global_properties.name">
+        <source>Name</source>
+        <target state="translated">Nom</target>
+        <note>key: site.view.global_properties.name</note>
+      </trans-unit>
+      <trans-unit id="f9500a5a4a226256446513269ad1f0b17598d12c" resname="site.view.public_access.list.identifier">
+        <source>Identifier</source>
+        <target state="translated">Identifiant</target>
+        <note>key: site.view.public_access.list.identifier</note>
+      </trans-unit>
+      <trans-unit id="184f0860aedba97a1dd7ca8c6f52d2f900a5968c" resname="site.view.public_access.list.languages">
+        <source>Language(s)</source>
+        <target state="translated">Langue(s)</target>
+        <note>key: site.view.public_access.list.languages</note>
+      </trans-unit>
+      <trans-unit id="714cf1152ce32d3c9726e8b81b5e14fc39bbe680" resname="site.view.public_access.list.name">
+        <source>Access</source>
+        <target state="translated">Accès</target>
+        <note>key: site.view.public_access.list.name</note>
+      </trans-unit>
+      <trans-unit id="e8ddd180559fa0631246fb65f2f1fb65ae022079" resname="site.view.public_access.list.status">
+        <source>Status</source>
+        <target state="translated">Statut</target>
+        <note>key: site.view.public_access.list.status</note>
+      </trans-unit>
+      <trans-unit id="3e02813ff5cab72cd9fa944a218618866ca8b404" resname="site.view.public_access.list.title">
+        <source>Public access</source>
+        <target state="translated">Accès public</target>
+        <note>key: site.view.public_access.list.title</note>
+      </trans-unit>
+      <trans-unit id="c44803be556bb169a71de2d6830f3a626375f39f" resname="site.view.remove">
+        <source>Remove</source>
+        <target state="translated">Supprimer</target>
+        <note>key: site.view.remove</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

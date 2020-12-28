@@ -6,7 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
+      <trans-unit id="a4a4af14149baeec06c2e212202b0e9b863e964c" resname="Could not find Page for '%identifier%'">
+        <source>Could not find Page for '%identifier%'</source>
+        <target state="translated">Impossible de trouver la Page correspondant à '%identifier%'</target>
+        <note>key: Could not find Page for '%identifier%'</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

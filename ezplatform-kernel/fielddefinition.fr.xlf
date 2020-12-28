@@ -99,6 +99,12 @@
         <note>key: fielddefinition.interval.hour</note>
         <jms:reference-file line="90">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="388ff2c36717a410a72060911657dce61108ed3c" resname="fielddefinition.interval.minute">
+        <source>%default% %minute% minute(s)</source>
+        <target state="translated">%default% %minute% minute(s)</target>
+        <note>key: fielddefinition.interval.minute</note>
+        <jms:reference-file line="91">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="b93b6a1548ffa873b1ef5a95c727f93d7be2fd0c" resname="fielddefinition.interval.month" approved="yes">
         <source>%default% %month% month(s)</source>
         <target state="final">%default% %month% mois</target>
@@ -171,6 +177,12 @@
         <note>key: fielddefinition.maximum-file-size.value</note>
         <jms:reference-file line="311">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
+      <trans-unit id="b9bb83913e23ad5a59eb7485ca48386bd7fce66e" resname="fielddefinition.media-player-type.flash">
+        <source>Flash</source>
+        <target state="translated">Flash</target>
+        <note>key: fielddefinition.media-player-type.flash</note>
+        <jms:reference-file line="182">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
       <trans-unit id="1c31870437c9baa0d08c67140d35fa54c6223922" resname="fielddefinition.media-player-type.html5_audio" approved="yes">
         <source>HTML5 Audio</source>
         <target state="final">Audio HTML5</target>
@@ -194,6 +206,18 @@
         <target state="final">QuickTime</target>
         <note>key: fielddefinition.media-player-type.quick_time</note>
         <jms:reference-file line="184">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="edd8db0307e234e095d1788540bd026e48e173f8" resname="fielddefinition.media-player-type.real_player">
+        <source>Real Player</source>
+        <target state="translated">Real Player</target>
+        <note>key: fielddefinition.media-player-type.real_player</note>
+        <jms:reference-file line="186">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="4ad14874021f1b806f9c93b41ef195b12fe5ab3f" resname="fielddefinition.media-player-type.silverlight">
+        <source>Silverlight</source>
+        <target state="translated">Silverlight</target>
+        <note>key: fielddefinition.media-player-type.silverlight</note>
+        <jms:reference-file line="188">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="738ddf9e6b12ae22e5f8e62839f63221c24f1431" resname="fielddefinition.media-player-type.undefined" approved="yes">
         <source>No defined value</source>
@@ -242,6 +266,18 @@
         <target state="final">Autoriser les choix multiples :</target>
         <note>key: fielddefinition.multiple.label</note>
         <jms:reference-file line="386">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="ec31a6088a9e8cb3266bf0b99e057ca0677fcd82" resname="fielddefinition.multiple.yes">
+        <source>Yes</source>
+        <target state="translated">Oui</target>
+        <note>key: fielddefinition.multiple.yes</note>
+        <jms:reference-file line="387">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="0b8ef090df7e5c7780364c51f060db3f5b8f076a" resname="fielddefinition.multiple.no">
+        <source>No</source>
+        <target state="translated">Non</target>
+        <note>key: fielddefinition.multiple.no</note>
+        <jms:reference-file line="387">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="4d59776118124c81734aacab8a71198ee555479c" resname="fielddefinition.options.label" approved="yes">
         <source>Defined options</source>
@@ -342,6 +378,20 @@
         <note>key: fielddefinition.use-seconds.label</note>
         <jms:reference-file line="122">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
         <jms:reference-file line="96">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="edc26cd0186a48016fc5bc286c4d64e238043658" resname="fielddefinition.use-seconds.yes">
+        <source>Yes</source>
+        <target state="translated">Oui</target>
+        <note>key: fielddefinition.use-seconds.yes</note>
+        <jms:reference-file line="123">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <jms:reference-file line="97">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+      </trans-unit>
+      <trans-unit id="8c785cf266419d05f444b0e88bbf34f07c0b6fde" resname="fielddefinition.use-seconds.no">
+        <source>No</source>
+        <target state="translated">Non</target>
+        <note>key: fielddefinition.use-seconds.no</note>
+        <jms:reference-file line="123">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
+        <jms:reference-file line="97">eZ/Bundle/EzPublishCoreBundle/Resources/views/fielddefinition_settings.html.twig</jms:reference-file>
       </trans-unit>
     </body>
   </file>

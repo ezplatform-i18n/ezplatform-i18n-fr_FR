@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="3b19f63d1cb2b66e98542149bf055772eca3fd3d" resname="config_form.widgets.segmentation.udw.title">
+        <source>Select content</source>
+        <target state="translated">Sélectionner des contenus</target>
+        <note>key: config_form.widgets.segmentation.udw.title</note>
+      </trans-unit>
+      <trans-unit id="5b8a9a5fceb4991b77b50983c34df8a18a900a09" resname="select_location.error">
+        <source>Cannot find children Locations with ID %idList%</source>
+        <target state="translated">Impossible de trouver les emplacements des enfants avec l'ID - %idList%</target>
+        <note>key: select_location.error</note>
+      </trans-unit>
+      <trans-unit id="9822444f9678d810cd6d3076721a7b9bcd124737" resname="targeted_content_map.no_configuration">
+        <source>No segments defined. Create Segments in the Admin panel to use this block.</source>
+        <target state="translated">Aucune segmentation définie. Créez des segmentations dans le panneau d'administration pour utiliser ce bloc.</target>
+        <note>key: targeted_content_map.no_configuration</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

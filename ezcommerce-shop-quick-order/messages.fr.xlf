@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="4166645ecb4438d6033150b6844fa57271fb6dd0" resname="CSV file content is empty.">
+        <source>CSV file content is empty.</source>
+        <target state="translated">Le contenu du fichier CSV est vide.</target>
+        <note>key: CSV file content is empty.</note>
+      </trans-unit>
+      <trans-unit id="26d9026459e691b2a38b0c44acc9f283b1acc72d" resname="No file uploaded!">
+        <source>No file uploaded!</source>
+        <target state="translated">Aucun fichier téléchargé !</target>
+        <note>key: No file uploaded!</note>
+      </trans-unit>
+      <trans-unit id="71ff50eaa8815e7adc63bfa18830cd23e6db9684" resname="Only csv file allowed!">
+        <source>Only csv file allowed!</source>
+        <target state="translated">Seuls les fichiers csv sont autorisés!</target>
+        <note>key: Only csv file allowed!</note>
+      </trans-unit>
+      <trans-unit id="e1a0e5b278573ae50164171a09f2db74924fc9e0" resname="Only one file allowed!">
+        <source>Only one file allowed!</source>
+        <target state="translated">Un seul fichier est autorisé</target>
+        <note>key: Only one file allowed!</note>
+      </trans-unit>
+      <trans-unit id="9286be6122025f408635f46bae18700124d893db" resname="Products were added to the basket">
+        <source>Products were added to the basket</source>
+        <target state="translated">Les produits ont été ajoutés au panier</target>
+        <note>key: Products were added to the basket</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

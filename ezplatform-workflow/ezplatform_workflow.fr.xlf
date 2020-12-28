@@ -6,163 +6,265 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="eca0d518c25ac61553a436334389d163e15790cb" resname="content.review.from">
+      <trans-unit id="eca0d518c25ac61553a436334389d163e15790cb" resname="content.review.from" approved="yes">
         <source>From:</source>
-        <target state="translated">De :</target>
+        <target state="final">De :</target>
         <note>key: content.review.from</note>
       </trans-unit>
-      <trans-unit id="48ec0a3b5f9bf96775a010f49c2ca83fa5a6d9d5" resname="content.review.read_more">
+      <trans-unit id="48ec0a3b5f9bf96775a010f49c2ca83fa5a6d9d5" resname="content.review.read_more" approved="yes">
         <source>Read more</source>
-        <target state="translated">Lire la suite</target>
+        <target state="final">Lire la suite</target>
         <note>key: content.review.read_more</note>
       </trans-unit>
-      <trans-unit id="ae6d8d014d80092d6c7254b3baaa05e9a4cea7ae" resname="content.review.ready">
+      <trans-unit id="ae6d8d014d80092d6c7254b3baaa05e9a4cea7ae" resname="content.review.ready" approved="yes">
         <source>Content is ready for review</source>
-        <target state="translated">Le contenu est prêt à être revu</target>
+        <target state="final">Le contenu est prêt à être revu</target>
         <note>key: content.review.ready</note>
       </trans-unit>
-      <trans-unit id="c682e81e5f634fa80a21c654aa254f8aea97eb59" resname="content_edit.component.events">
+      <trans-unit id="b19cf3651ea59d72545d9e67ccdcd5c4241a0681" resname="content.review.request" approved="yes">
+        <source>Content review request</source>
+        <target state="final">Demande de relecture de contenu</target>
+        <note>key: content.review.request</note>
+      </trans-unit>
+      <trans-unit id="c682e81e5f634fa80a21c654aa254f8aea97eb59" resname="content_edit.component.events" approved="yes">
         <source>Event(s)</source>
-        <target state="translated">Événement(s)</target>
+        <target state="final">Événement(s)</target>
         <note>key: content_edit.component.events</note>
       </trans-unit>
-      <trans-unit id="2643fa671d83192c257a6228677c5686691ce3c3" resname="dashboard.block.review_queue.title">
+      <trans-unit id="2643fa671d83192c257a6228677c5686691ce3c3" resname="dashboard.block.review_queue.title" approved="yes">
         <source>Review queue</source>
-        <target state="translated">File d'attente</target>
+        <target state="final">File d'attente</target>
         <note>key: dashboard.block.review_queue.title</note>
       </trans-unit>
-      <trans-unit id="221444732b869f8a1a4139d1fa9eb119698c1e54" resname="dashboard.pagination.viewing">
+      <trans-unit id="221444732b869f8a1a4139d1fa9eb119698c1e54" resname="dashboard.pagination.viewing" approved="yes">
         <source><![CDATA[Viewing <strong>%viewing%</strong> out of <strong>%total%</strong> items]]></source>
-        <target state="translated"><![CDATA[Affichage de <strong>%viewing%</strong> sur <strong>%total%</strong> éléments]]></target>
+        <target state="final"><![CDATA[Affichage de <strong>%viewing%</strong> sur <strong>%total%</strong> éléments]]></target>
         <note>key: dashboard.pagination.viewing</note>
       </trans-unit>
-      <trans-unit id="a878bd15386bacea4af5e3356c731640710d3618" resname="dashboard.table.activity">
+      <trans-unit id="03b3eebd6de51e6ab83ae31dd89afb4be4d487aa" resname="dashboard.tab.my_drafts_under_review.empty" approved="yes">
+        <source>No content to review. Content item(s) you or your User group can review will show up here.</source>
+        <target state="final">Aucun contenu à relire. Le(s) élément(s) de contenu que vous ou votre groupe d'utilisateurs pouvez consulter apparaîtront ici.</target>
+        <note>key: dashboard.tab.my_drafts_under_review.empty</note>
+      </trans-unit>
+      <trans-unit id="a878bd15386bacea4af5e3356c731640710d3618" resname="dashboard.table.activity" approved="yes">
         <source>Activity</source>
-        <target state="translated">Activité</target>
+        <target state="final">Activité</target>
         <note>key: dashboard.table.activity</note>
       </trans-unit>
-      <trans-unit id="3edbcdd64ab409f29ba5c7fd3a91f98f3d868ea6" resname="dashboard.table.activity.edited_on_by_user">
+      <trans-unit id="3edbcdd64ab409f29ba5c7fd3a91f98f3d868ea6" resname="dashboard.table.activity.edited_on_by_user" approved="yes">
         <source>Edited by %creatorName% %relativeTime%</source>
-        <target state="translated">Modifié par %creatorName% %relativeTime%</target>
+        <target state="final">Modifié par %creatorName% %relativeTime%</target>
         <note>key: dashboard.table.activity.edited_on_by_user</note>
       </trans-unit>
-      <trans-unit id="12689e8f5d888ba5fe75fa028d62a06a94e2881c" resname="dashboard.table.activity.edited_on_no_user">
+      <trans-unit id="12689e8f5d888ba5fe75fa028d62a06a94e2881c" resname="dashboard.table.activity.edited_on_no_user" approved="yes">
         <source>Edited %relativeTime%</source>
-        <target state="translated">Modifié %relativeTime%</target>
+        <target state="final">Modifié %relativeTime%</target>
         <note>key: dashboard.table.activity.edited_on_no_user</note>
       </trans-unit>
-      <trans-unit id="e17a8999c9e44b7e8ea1ba0f5cff596ece264da5" resname="dashboard.table.content_type">
+      <trans-unit id="e17a8999c9e44b7e8ea1ba0f5cff596ece264da5" resname="dashboard.table.content_type" approved="yes">
         <source>Content Type</source>
-        <target state="translated">Type de Contenu</target>
+        <target state="final">Type de Contenu</target>
         <note>key: dashboard.table.content_type</note>
       </trans-unit>
-      <trans-unit id="3854d449547263e6056997c3ed9135006b158de8" resname="dashboard.table.draft.transition.list">
+      <trans-unit id="93a5fc53032106ea0ae1658261fd187e5c9c6a94" resname="dashboard.table.draft.edit" approved="yes">
+        <source>Edit draft</source>
+        <target state="final">Modifier le brouillon</target>
+        <note>key: dashboard.table.draft.edit</note>
+      </trans-unit>
+      <trans-unit id="3854d449547263e6056997c3ed9135006b158de8" resname="dashboard.table.draft.transition.list" approved="yes">
         <source>Show history</source>
-        <target state="translated">Afficher l'historique</target>
+        <target state="final">Afficher l'historique</target>
         <note>key: dashboard.table.draft.transition.list</note>
       </trans-unit>
-      <trans-unit id="8ba6a26d5deb87771ede293eccde417dfafb8c67" resname="dashboard.table.name">
+      <trans-unit id="0ccebfdea2e8be0bcae0f3cab3f3db5ef47d71c8" resname="dashboard.table.modified_language" approved="yes">
+        <source>Modified language</source>
+        <target state="final">Langue modifiée</target>
+        <note>key: dashboard.table.modified_language</note>
+      </trans-unit>
+      <trans-unit id="8ba6a26d5deb87771ede293eccde417dfafb8c67" resname="dashboard.table.name" approved="yes">
         <source>Name</source>
-        <target state="translated">Nom</target>
+        <target state="final">Nom</target>
         <note>key: dashboard.table.name</note>
       </trans-unit>
-      <trans-unit id="7529fdc51d8c1e668c8a1c2c1d508e870acbb695" resname="dashboard.table.status">
+      <trans-unit id="7529fdc51d8c1e668c8a1c2c1d508e870acbb695" resname="dashboard.table.status" approved="yes">
         <source>Status</source>
-        <target state="translated">Statut</target>
+        <target state="final">Statut</target>
         <note>key: dashboard.table.status</note>
       </trans-unit>
-      <trans-unit id="c77999d76931ead1fedf62e15d68ce0a5ad8be17" resname="location_view.tab.versions.pagination.viewing">
+      <trans-unit id="ce7ec27cb7ed669df0c7863ccf9d7059b804bbeb" resname="location_view.tab.versions.column.workflow" approved="yes">
+        <source>Workflow</source>
+        <target state="final">Workflow</target>
+        <note>key: location_view.tab.versions.column.workflow</note>
+      </trans-unit>
+      <trans-unit id="c77999d76931ead1fedf62e15d68ce0a5ad8be17" resname="location_view.tab.versions.pagination.viewing" approved="yes">
         <source><![CDATA[Viewing <strong>%viewing%</strong> out of <strong>%total%</strong> items]]></source>
-        <target state="translated"><![CDATA[Affichage de <strong>%viewing%</strong> sur <strong>%total%</strong> éléments]]></target>
+        <target state="final"><![CDATA[Affichage de <strong>%viewing%</strong> sur <strong>%total%</strong> éléments]]></target>
         <note>key: location_view.tab.versions.pagination.viewing</note>
       </trans-unit>
-      <trans-unit id="f19d765219df9973b16f4c4fec04284643ae4413" resname="matcher.content_status">
+      <trans-unit id="f19d765219df9973b16f4c4fec04284643ae4413" resname="matcher.content_status" approved="yes">
         <source>Content status</source>
-        <target state="translated">Statut du contenu</target>
+        <target state="final">Statut du contenu</target>
         <note>key: matcher.content_status</note>
       </trans-unit>
-      <trans-unit id="c712d6d1fad65a495b837720601dd7b2f6732d8a" resname="matcher.content_type">
+      <trans-unit id="c712d6d1fad65a495b837720601dd7b2f6732d8a" resname="matcher.content_type" approved="yes">
         <source>Content Type</source>
-        <target state="translated">Type de Contenu</target>
+        <target state="final">Type de Contenu</target>
         <note>key: matcher.content_type</note>
       </trans-unit>
-      <trans-unit id="d397c8abb0ffe2c4dda1ff9faea015d9c99f9f8d" resname="matcher.none">
+      <trans-unit id="d397c8abb0ffe2c4dda1ff9faea015d9c99f9f8d" resname="matcher.none" approved="yes">
         <source>None</source>
-        <target state="translated">Aucun</target>
+        <target state="final">Aucun</target>
         <note>key: matcher.none</note>
       </trans-unit>
-      <trans-unit id="3966df7d25826e3f6c5313b625810c1334559e7c" resname="modal.transition.list.title">
+      <trans-unit id="c1881886ded5201f8e3995cfb4ab2cfe7637b329" resname="modal.transition.list.close_label" approved="yes">
+        <source>Close</source>
+        <target state="final">Fermer</target>
+        <note>key: modal.transition.list.close_label</note>
+      </trans-unit>
+      <trans-unit id="3966df7d25826e3f6c5313b625810c1334559e7c" resname="modal.transition.list.title" approved="yes">
         <source>Event timeline</source>
-        <target state="translated">Chronologie</target>
+        <target state="final">Chronologie</target>
         <note>key: modal.transition.list.title</note>
       </trans-unit>
-      <trans-unit id="ada0fcebefac344a2447069bba0039e73865b67d" resname="transition.list.entry.author">
+      <trans-unit id="ed129ea3c9e2f6f00bc2ab26aa664d8ca17d3636" resname="tab.name.my_drafts_under_review" approved="yes">
+        <source>Drafts to review</source>
+        <target state="final">Brouillons à relire</target>
+        <note>key: tab.name.my_drafts_under_review</note>
+      </trans-unit>
+      <trans-unit id="b098881c168c540aaa9e23417fa38934a70300d6" resname="tab.versions.draft_under_edit" approved="yes">
+        <source>Drafts to review</source>
+        <target state="final">Brouillons à relire</target>
+        <note>key: tab.versions.draft_under_edit</note>
+      </trans-unit>
+      <trans-unit id="ada0fcebefac344a2447069bba0039e73865b67d" resname="transition.list.entry.author" approved="yes">
         <source>by %name%</source>
-        <target state="translated">par %name%</target>
+        <target state="final">par %name%</target>
         <note>key: transition.list.entry.author</note>
       </trans-unit>
-      <trans-unit id="86c591b194c7849d9efaacc4c3f19f5722ace8e9" resname="transition.list.entry.date">
+      <trans-unit id="7066aa6d51c017bd3649242247aa658d0d3e69d3" resname="transition.list.entry.author.not_found" approved="yes">
+        <source>Can't fetch author</source>
+        <target state="final">Impossible de récupérer l'auteur</target>
+        <note>key: transition.list.entry.author.not_found</note>
+      </trans-unit>
+      <trans-unit id="86c591b194c7849d9efaacc4c3f19f5722ace8e9" resname="transition.list.entry.date" approved="yes">
         <source>on %date%</source>
-        <target state="translated">le %date%</target>
+        <target state="final">le %date%</target>
         <note>key: transition.list.entry.date</note>
       </trans-unit>
-      <trans-unit id="db84cfaed6f2b9a52d159b6d9b12e41bdf2c27bf" resname="transition.list.entry.title">
+      <trans-unit id="db84cfaed6f2b9a52d159b6d9b12e41bdf2c27bf" resname="transition.list.entry.title" approved="yes">
         <source>Stage changed to %stageNames%</source>
-        <target state="translated">Étape changée en %stageNames%</target>
+        <target state="final">Étape changée en %stageNames%</target>
         <note>key: transition.list.entry.title</note>
+      </trans-unit>
+      <trans-unit id="b68f65d4e6b1cef42c9c47203c4d64505b5e6e33" resname="widget.message" approved="yes">
+        <source>Message (optional):</source>
+        <target state="final">Message (facultatif) :</target>
+        <note>key: widget.message</note>
       </trans-unit>
       <trans-unit id="c020300ac290bd2f5b59ad2fc190620991545286" resname="widget.message.placeholder">
         <source>Type your message...</source>
         <target state="translated">Tapez votre message...</target>
         <note>key: widget.message.placeholder</note>
       </trans-unit>
-      <trans-unit id="80d070fe8257420d8f890afbf18c47475f7ddc24" resname="workflow.list.limitations">
+      <trans-unit id="450b7cf32c9304b760988626a0f49ef0e121069c" resname="widget.reviewer.add" approved="yes">
+        <source>Add a reviewer</source>
+        <target state="final">Ajouter un relecteur</target>
+        <note>key: widget.reviewer.add</note>
+      </trans-unit>
+      <trans-unit id="e156c740c9f2733e39f21f7a3ee9dd10698efe89" resname="widget.reviewer.not_permitted" approved="yes">
+        <source>You cannot select a User who does not have permission to view/edit this Content item</source>
+        <target state="final">Vous ne pouvez pas sélectionner un utilisateur qui n'a pas la permission de voir/modifier cet élément de contenu</target>
+        <note>key: widget.reviewer.not_permitted</note>
+      </trans-unit>
+      <trans-unit id="a9d1fd8122c75131e2806f5a65414f1d8e286b77" resname="widget.reviewer.placeholder" approved="yes">
+        <source>Type to search</source>
+        <target state="final">Taper pour rechercher</target>
+        <note>key: widget.reviewer.placeholder</note>
+      </trans-unit>
+      <trans-unit id="3bffad6f39729eebf93f44554e1f5fb348b82354" resname="widget.submit" approved="yes">
+        <source>Send to review</source>
+        <target state="final">Envoyer pour relecture</target>
+        <note>key: widget.submit</note>
+      </trans-unit>
+      <trans-unit id="2be785be35c3a8f0ade224cfa68292614a943d78" resname="workflow.list.empty" approved="yes">
+        <source>No workflows configured. All workflows will show up here.</source>
+        <target state="final">Aucun workflow configuré. Tous les workflows apparaîtront ici.</target>
+        <note>key: workflow.list.empty</note>
+      </trans-unit>
+      <trans-unit id="80d070fe8257420d8f890afbf18c47475f7ddc24" resname="workflow.list.limitations" approved="yes">
         <source>Limitations</source>
-        <target state="translated">Restrictions</target>
+        <target state="final">Restrictions</target>
         <note>key: workflow.list.limitations</note>
       </trans-unit>
-      <trans-unit id="7773cc19a09b17ae0b4dd6f0c0702af52f34983a" resname="workflow.list.name">
+      <trans-unit id="7773cc19a09b17ae0b4dd6f0c0702af52f34983a" resname="workflow.list.name" approved="yes">
         <source>Name</source>
-        <target state="translated">Nom</target>
+        <target state="final">Nom</target>
         <note>key: workflow.list.name</note>
       </trans-unit>
-      <trans-unit id="4634ff400c5742cfe2c3985fcfb966e6b9a622a9" resname="workflow.list.stages">
+      <trans-unit id="4634ff400c5742cfe2c3985fcfb966e6b9a622a9" resname="workflow.list.stages" approved="yes">
         <source>Stages</source>
-        <target state="translated">Étapes</target>
+        <target state="final">Étapes</target>
         <note>key: workflow.list.stages</note>
       </trans-unit>
-      <trans-unit id="101b75a4d7cd2e88611810107868fdf7ee813937" resname="workflow.list.title">
+      <trans-unit id="101b75a4d7cd2e88611810107868fdf7ee813937" resname="workflow.list.title" approved="yes">
         <source>Workflow</source>
-        <target state="translated">Workflow</target>
+        <target state="final">Workflow</target>
         <note>key: workflow.list.title</note>
       </trans-unit>
-      <trans-unit id="60defc14349bf190fd343945bba1ea4a5257e96f" resname="workflow.list.viewing">
+      <trans-unit id="60defc14349bf190fd343945bba1ea4a5257e96f" resname="workflow.list.viewing" approved="yes">
         <source><![CDATA[Viewing <strong>%viewing%</strong> out of <strong>%total%</strong> items]]></source>
-        <target state="translated"><![CDATA[Affichage de <strong>%viewing%</strong> sur <strong>%total%</strong> éléments]]></target>
+        <target state="final"><![CDATA[Affichage de <strong>%viewing%</strong> sur <strong>%total%</strong> éléments]]></target>
         <note>key: workflow.list.viewing</note>
-        <alt-trans>
-          <target><![CDATA[Affichage de <strong>%viewing%</strong> éléments sur <strong>%total%</strong>]]></target>
-        </alt-trans>
       </trans-unit>
-      <trans-unit id="434e7197d8ef9a80bded55e3eeec99ed5d1b28eb" resname="workflow.view.content_list.table.content_type">
+      <trans-unit id="434e7197d8ef9a80bded55e3eeec99ed5d1b28eb" resname="workflow.view.content_list.table.content_type" approved="yes">
         <source>Content Type</source>
-        <target state="translated">Type de Contenu</target>
+        <target state="final">Type de Contenu</target>
         <note>key: workflow.view.content_list.table.content_type</note>
       </trans-unit>
-      <trans-unit id="0c07def57bc5366e4b014b5634deeea824648a15" resname="workflow.view.content_list.table.name">
+      <trans-unit id="0ce5b99c4ebf3a06b4291b9cc7587a01c0c54a73" resname="workflow.view.content_list.table.empty" approved="yes">
+        <source>No content to review. Content item(s) to review in the %stageName% stage will show up here.</source>
+        <target state="final">Aucun contenu à relire. Le(s) élément(s) de contenu à relire à l'étape %stageName% s'affichera(ont) ici.</target>
+        <note>key: workflow.view.content_list.table.empty</note>
+      </trans-unit>
+      <trans-unit id="a460d78b8223b8833763f45da7e70b6f7cc250cc" resname="workflow.view.content_list.table.modified_language" approved="yes">
+        <source>Modified language</source>
+        <target state="final">Langue modifiée</target>
+        <note>key: workflow.view.content_list.table.modified_language</note>
+      </trans-unit>
+      <trans-unit id="0c07def57bc5366e4b014b5634deeea824648a15" resname="workflow.view.content_list.table.name" approved="yes">
         <source>Name</source>
-        <target state="translated">Nom</target>
+        <target state="final">Nom</target>
         <note>key: workflow.view.content_list.table.name</note>
       </trans-unit>
-      <trans-unit id="20ad53e76ebb459ccc386fcc1e142f9a3cffcbcc" resname="workflow.view.content_list.table.viewing_page">
+      <trans-unit id="7fd29e64293f361faa1f436ccb8f03064058d790" resname="workflow.view.content_list.table.title" approved="yes">
+        <source>Content in %stageName% stage (%count%)</source>
+        <target state="final">Élément(s) de contenu à l'étape %stageName% (%count%)</target>
+        <note>key: workflow.view.content_list.table.title</note>
+      </trans-unit>
+      <trans-unit id="20ad53e76ebb459ccc386fcc1e142f9a3cffcbcc" resname="workflow.view.content_list.table.viewing_page" approved="yes">
         <source><![CDATA[Viewing <strong>%viewing%</strong> out of <strong>%total%</strong> items]]></source>
-        <target state="translated"><![CDATA[Affichage de <strong>%viewing%</strong> éléments sur <strong>%total%</strong>]]></target>
+        <target state="final"><![CDATA[Affichage de <strong>%viewing%</strong> éléments sur <strong>%total%</strong>]]></target>
         <note>key: workflow.view.content_list.table.viewing_page</note>
       </trans-unit>
-      <trans-unit id="1c7c17941fd081fc0d090a50133fcef9b5ea163e" resname="workflow.view.tab.details">
+      <trans-unit id="f47c31349e59ab533fb5d0cab02364c7405470f4" resname="workflow.view.diagram" approved="yes">
+        <source>Workflow diagram</source>
+        <target state="final">Diagramme de workflow</target>
+        <note>key: workflow.view.diagram</note>
+      </trans-unit>
+      <trans-unit id="2852fd5a9fd7bc497fa5fe26d6f0f0ad3cb0cdf4" resname="workflow.view.tab.content_list" approved="yes">
+        <source>Content under review</source>
+        <target state="final">Contenu en relecture</target>
+        <note>key: workflow.view.tab.content_list</note>
+      </trans-unit>
+      <trans-unit id="1c7c17941fd081fc0d090a50133fcef9b5ea163e" resname="workflow.view.tab.details" approved="yes">
         <source>Details</source>
-        <target state="translated">Détails</target>
+        <target state="final">Détails</target>
         <note>key: workflow.view.tab.details</note>
+      </trans-unit>
+      <trans-unit id="d383f9c102d01c10e71c120aa1b08f80dcd20fe9" resname="workflow.view.title" approved="yes">
+        <source>Workflow information</source>
+        <target state="final">Information du Workflow</target>
+        <note>key: workflow.view.title</note>
       </trans-unit>
     </body>
   </file>

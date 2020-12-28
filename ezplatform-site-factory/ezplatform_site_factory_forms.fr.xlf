@@ -6,12 +6,36 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
+      <trans-unit id="6b579733b629dee9aa1a9e05aaa37b7687d5aa44" resname="choices.offline">
+        <source>Offline</source>
+        <target state="translated">Hors ligne</target>
+        <note>key: choices.offline</note>
+      </trans-unit>
+      <trans-unit id="8f5b44dbecad4f6c39c5871098f5ebfac5a26faf" resname="choices.online">
+        <source>Online</source>
+        <target state="translated">En ligne</target>
+        <note>key: choices.online</note>
+      </trans-unit>
+      <trans-unit id="813c0825c4190d08e42a9dd2171d804f2ad012b7" resname="languages.label">
+        <source>Language(s)</source>
+        <target state="translated">Langue(s)</target>
+        <note>key: languages.label</note>
+      </trans-unit>
+      <trans-unit id="22051bfb289327b100e12541f7284b0600f14593" resname="matcher_configuration.label">
+        <source>Site Access Matching</source>
+        <target state="translated">Correspondance de Site Access</target>
+        <note>key: matcher_configuration.label</note>
+      </trans-unit>
+      <trans-unit id="8913bb9ab32e82b7dace33343f506f1fea38193d" resname="name.label">
+        <source>Name</source>
+        <target state="translated">Nom</target>
+        <note>key: name.label</note>
+      </trans-unit>
+      <trans-unit id="1d1534ae4e770c4c35bade740b10ad3d2af2a703" resname="site_delete_form.delete">
+        <source>Delete</source>
+        <target state="translated">Supprimer</target>
+        <note>key: site_delete_form.delete</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

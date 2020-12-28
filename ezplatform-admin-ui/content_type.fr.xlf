@@ -6,10 +6,25 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="7caaa79d36b0520845802cfa3f7ebcc94318115b" resname="content_type.action.copy">
+        <source>Copy</source>
+        <target state="translated">Copier</target>
+        <note>key: content_type.action.copy</note>
+      </trans-unit>
       <trans-unit id="779646634b8d89b40f5abaa2ccd6107b300bf429" resname="content_type.action.edit">
         <source>Edit</source>
         <target state="translated">Modifier</target>
         <note>key: content_type.action.edit</note>
+      </trans-unit>
+      <trans-unit id="0a08ba6425acc6e52b75ebbe0b77d90df5cb81a1" resname="content_type.add.missing_language">
+        <source>Cannot create Content Type. Could not find language with identifier '%languageCode%'</source>
+        <target state="translated">Impossible de créer le type de contenu. Impossible de trouver la langue avec l'identifiant '%languageCode%'</target>
+        <note>key: content_type.add.missing_language</note>
+      </trans-unit>
+      <trans-unit id="0b5b303097790cd7cf1dde918d885439e60ecbd2" resname="content_type.add_field_definition">
+        <source>Add field definition</source>
+        <target state="translated">Ajouter la définition de champ</target>
+        <note>key: content_type.add_field_definition</note>
       </trans-unit>
       <trans-unit id="0aef83746d192c9b507ecabebe250aeb684cc210" resname="content_type.breadcrumb.create">
         <source>Creating a new Content Type</source>
@@ -25,32 +40,151 @@
         <source>Container</source>
         <target state="translated">Conteneur</target>
         <note>key: content_type.container</note>
-        <alt-trans>
-          <target>Peut contenir des sous éléments</target>
-        </alt-trans>
+      </trans-unit>
+      <trans-unit id="694d6cbecfee848cf42a300c0b310f45ece6a09b" resname="content_type.content_field_definitions">
+        <source>Content Field definitions</source>
+        <target state="translated">Définitions de champ de contenu</target>
+        <note>key: content_type.content_field_definitions</note>
       </trans-unit>
       <trans-unit id="3066b4a1b2277f4e299d9c91ad3134d725467b39" resname="content_type.content_type">
         <source>Content Type</source>
         <target state="translated">Type de Contenu</target>
         <note>key: content_type.content_type</note>
-        <alt-trans>
-          <target>Type</target>
-        </alt-trans>
+      </trans-unit>
+      <trans-unit id="e7a6e28719e705ca85e715114370d15deee0cd59" resname="content_type.copy.error">
+        <source>Error occoured while copying the '%name%' Content Type.</source>
+        <target state="translated">Erreur lors de la copie du type de contenu '%name%'.</target>
+        <note>key: content_type.copy.error</note>
+      </trans-unit>
+      <trans-unit id="31674753c7d944af06b98387a96ce93f36f6adb4" resname="content_type.copy.success">
+        <source>Content Type '%name%' successfully copied.</source>
+        <target state="translated">Type de contenu '%name%' copié avec succès.</target>
+        <note>key: content_type.copy.success</note>
+      </trans-unit>
+      <trans-unit id="529a1012c7fe5ca6fafdb5d070ac8ececfe94af6" resname="content_type.create">
+        <source>Create a Content Type</source>
+        <target state="translated">Créer un type de contenu</target>
+        <note>key: content_type.create</note>
+      </trans-unit>
+      <trans-unit id="7b64ebcf792d888de957eaee1c3734c97c80db98" resname="content_type.default_always_available">
+        <source>Make content available even with missing translations</source>
+        <target state="translated">Rendre le contenu disponible même avec les traductions manquantes</target>
+        <note>key: content_type.default_always_available</note>
+      </trans-unit>
+      <trans-unit id="693f9ade0c2bb6a7c19b6f9b818d96aa23f1e013" resname="content_type.default_availability">
+        <source>Make content available even with missing translations</source>
+        <target state="translated">Rendre le contenu disponible même avec les traductions manquantes</target>
+        <note>key: content_type.default_availability</note>
+      </trans-unit>
+      <trans-unit id="944e509cd754c05d24aea116e6b307a350da42ea" resname="content_type.default_availability.available">
+        <source>Available</source>
+        <target state="translated">Disponible</target>
+        <note>key: content_type.default_availability.available</note>
+      </trans-unit>
+      <trans-unit id="3b3fc626a669a5462ec9fa7c94280a3573d8b106" resname="content_type.default_availability.help">
+        <source>Content of this Content Type will be avalable in the main language even if there is no translation.</source>
+        <target state="translated">Le contenu de ce type sera disponible dans la langue principale, même s'il n'y a pas de traduction.</target>
+        <note>key: content_type.default_availability.help</note>
+      </trans-unit>
+      <trans-unit id="da6afb475bbd2efbe3929af770d0fc17e6e86132" resname="content_type.default_availability.not_available">
+        <source>Not available</source>
+        <target state="translated">Non disponible</target>
+        <note>key: content_type.default_availability.not_available</note>
+      </trans-unit>
+      <trans-unit id="5ebf6515da27060877064931a5ac1d5a8540e28d" resname="content_type.default_children_sorting">
+        <source>Sort children by default by:</source>
+        <target state="translated">Trier les enfants par défaut par:</target>
+        <note>key: content_type.default_children_sorting</note>
+      </trans-unit>
+      <trans-unit id="cefc13177fd81d4c9df6f8e86eb5278fccbe5a5a" resname="content_type.default_sort">
+        <source>Sort children by default in order:</source>
+        <target state="translated">Trier les enfants par défaut dans l'ordre :</target>
+        <note>key: content_type.default_sort</note>
+      </trans-unit>
+      <trans-unit id="b29f5d9c32e10776ec9fd36c35c4aefc96732cb2" resname="content_type.default_sort_field">
+        <source>Sort children by default by</source>
+        <target state="translated">Trier les enfants par défaut par</target>
+        <note>key: content_type.default_sort_field</note>
+      </trans-unit>
+      <trans-unit id="7a67ffefca1339a9e4c5224d773378c2e5f6f378" resname="content_type.default_sort_order">
+        <source>Sort children by default in order</source>
+        <target state="translated">Trier les enfants par défaut dans l'ordre </target>
+        <note>key: content_type.default_sort_order</note>
+      </trans-unit>
+      <trans-unit id="be2f64eb4557a3af16a2f32f5e0185c591d3ca8f" resname="content_type.delete">
+        <source>Delete</source>
+        <target state="translated">Supprimer</target>
+        <note>key: content_type.delete</note>
+      </trans-unit>
+      <trans-unit id="5ecc210ad42274409db7ec4e56ba286b487639c6" resname="content_type.delete.success">
+        <source>Content Type '%name%' deleted.</source>
+        <target state="translated">Le Type de Contenu «%name%» a été supprimé.</target>
+        <note>key: content_type.delete.success</note>
       </trans-unit>
       <trans-unit id="f2a3cc77cdadcff8883b0022e006e24918307687" resname="content_type.description">
         <source>Description</source>
         <target state="translated">Description</target>
         <note>key: content_type.description</note>
       </trans-unit>
+      <trans-unit id="2f9cb676bb073af7a8e4b52b374384dfc0aa9551" resname="content_type.edit.error.already_exists">
+        <source>Draft of Content Type '%name%' already exists and is locked by '%userContentName%'</source>
+        <target state="translated">Un brouillon du Type de Contenu '%name%' existe déjà et est verrouillé par l'utilisateur '%userContentName%'</target>
+        <note>key: content_type.edit.error.already_exists</note>
+      </trans-unit>
+      <trans-unit id="f0338ef34826caa021c41ff85413e48601af30b7" resname="content_type.edit.select_language">
+        <source>Select a language:</source>
+        <target state="translated">Sélectionnez une langue :</target>
+        <note>key: content_type.edit.select_language</note>
+      </trans-unit>
+      <trans-unit id="9eb89a2f51954babc5ff51f9060cbcda91dcf408" resname="content_type.field_definitions.modal.message">
+        <source>Do you want to delete the selected Field definition(s)?</source>
+        <target state="translated">Voulez-vous supprimer les définitions de champ sélectionnées ?</target>
+        <note>key: content_type.field_definitions.modal.message</note>
+      </trans-unit>
+      <trans-unit id="2aecf6f88fd1ee89037907b8743d5873879a0590" resname="content_type.field_definitions_data">
+        <source>Content Field definitions</source>
+        <target state="translated">Définitions de champ de contenu</target>
+        <note>key: content_type.field_definitions_data</note>
+      </trans-unit>
+      <trans-unit id="a43bfd2651eb1f3357e3398286afd5b6e17c101e" resname="content_type.field_type_selection">
+        <source>Field Type selection</source>
+        <target state="translated">Sélection de type de champ</target>
+        <note>key: content_type.field_type_selection</note>
+      </trans-unit>
       <trans-unit id="8bf6d91a6b0731a38103e04e03f3f9e8bf4459a1" resname="content_type.global_properties">
         <source>Global properties</source>
         <target state="translated">Propriétés globales</target>
         <note>key: content_type.global_properties</note>
       </trans-unit>
+      <trans-unit id="368a6ffa173a2e9605371392e99e565d9b247382" resname="content_type.group.delete">
+        <source>Delete</source>
+        <target state="translated">Supprimer</target>
+        <note>key: content_type.group.delete</note>
+      </trans-unit>
+      <trans-unit id="043e7766417bd9d21fe58de76fcaee35eb7d2fb0" resname="content_type.group.identifier">
+        <source>Name</source>
+        <target state="translated">Nom</target>
+        <note>key: content_type.group.identifier</note>
+      </trans-unit>
+      <trans-unit id="c657344d0bf6b6203b1b9eaf4e44f7a6261dfe1d" resname="content_type.group.save">
+        <source>Save</source>
+        <target state="translated">Sauvegarder</target>
+        <note>key: content_type.group.save</note>
+      </trans-unit>
       <trans-unit id="238db0c5dee8ec13199b073f7cc78728f53ffa36" resname="content_type.identifier">
         <source>Identifier</source>
         <target state="translated">Identifiant</target>
         <note>key: content_type.identifier</note>
+      </trans-unit>
+      <trans-unit id="338e462a91906d03e5e6b8c00528a38d482a3c9e" resname="content_type.is_container">
+        <source>Container</source>
+        <target state="translated">Peut contenir des sous éléments</target>
+        <note>key: content_type.is_container</note>
+      </trans-unit>
+      <trans-unit id="02f6ddfcdd8bbd05cdd1b954503a3801288b74eb" resname="content_type.modal.message">
+        <source>Do you want to delete the Content Type?</source>
+        <target state="translated">Voulez-vous vraiment supprimer le Type de Contenu ?</target>
+        <note>key: content_type.modal.message</note>
       </trans-unit>
       <trans-unit id="7fddd251857df821bd536dd680e1edbc921790a2" resname="content_type.name">
         <source>Name</source>
@@ -61,9 +195,71 @@
         <source>Content name pattern</source>
         <target state="translated">Modèle de nom de contenu</target>
         <note>key: content_type.name_schema</note>
-        <alt-trans>
-          <target>Gabarit de nom de contenu</target>
-        </alt-trans>
+      </trans-unit>
+      <trans-unit id="49e5f320e6e37cbd53a5d290e3ffd48788226852" resname="content_type.publish">
+        <source>OK</source>
+        <target state="translated">OK</target>
+        <note>key: content_type.publish</note>
+      </trans-unit>
+      <trans-unit id="701cbaa7ea48016d7b0eb5940e810cacd16c19b3" resname="content_type.remove_draft">
+        <source>Cancel</source>
+        <target state="translated">Annuler</target>
+        <note>key: content_type.remove_draft</note>
+      </trans-unit>
+      <trans-unit id="5fa42f2a0ef1fee12efaa4cdb1c35bbed35e9b7e" resname="content_type.remove_field_definitions">
+        <source>Remove selected Field definitions</source>
+        <target state="translated">Supprimer les définitions de champs sélectionnées</target>
+        <note>key: content_type.remove_field_definitions</note>
+      </trans-unit>
+      <trans-unit id="946ba9e49beabdacd143e10e343f852736c081d8" resname="content_type.save">
+        <source>Apply</source>
+        <target state="translated">Appliquer</target>
+        <note>key: content_type.save</note>
+      </trans-unit>
+      <trans-unit id="c625b80940dd9f13842e38446a97391248d0f709" resname="content_type.sort_field.1">
+        <source>Location path</source>
+        <target state="translated">Chemin de l'emplacement</target>
+        <note>key: content_type.sort_field.1</note>
+      </trans-unit>
+      <trans-unit id="4cdfd30bdc30f263b30713d22f714ad46beb120b" resname="content_type.sort_field.2">
+        <source>Publication date</source>
+        <target state="translated">Date de publication</target>
+        <note>key: content_type.sort_field.2</note>
+      </trans-unit>
+      <trans-unit id="3b367aa1610d6332d66b2113a1b1ed287e0310a6" resname="content_type.sort_field.3">
+        <source>Modification date</source>
+        <target state="translated">Date de modification</target>
+        <note>key: content_type.sort_field.3</note>
+      </trans-unit>
+      <trans-unit id="f0dba52962ff2fceb7ab0de72427b4deb55ffbbc" resname="content_type.sort_field.4">
+        <source>Section</source>
+        <target state="translated">Section</target>
+        <note>key: content_type.sort_field.4</note>
+      </trans-unit>
+      <trans-unit id="08c573b0f90eddd499911819f24a58632ceec79b" resname="content_type.sort_field.5">
+        <source>Location depth</source>
+        <target state="translated">Profondeur de l'emplacement</target>
+        <note>key: content_type.sort_field.5</note>
+      </trans-unit>
+      <trans-unit id="f75919a228809d6de255e3fd535c4eaaf8789241" resname="content_type.sort_field.6">
+        <source>Content Type identifier</source>
+        <target state="translated">Identifiant du type de contenu</target>
+        <note>key: content_type.sort_field.6</note>
+      </trans-unit>
+      <trans-unit id="f4bd88a45172f3cf7e268c40cfc27b0c5336bc9b" resname="content_type.sort_field.7">
+        <source>Content Type name</source>
+        <target state="translated">Nom du type de contenu</target>
+        <note>key: content_type.sort_field.7</note>
+      </trans-unit>
+      <trans-unit id="d605ada5b53c58b7d08df3379cdc8c9ffc619a3f" resname="content_type.sort_field.8">
+        <source>Location priority</source>
+        <target state="translated">Priorité des emplacements</target>
+        <note>key: content_type.sort_field.8</note>
+      </trans-unit>
+      <trans-unit id="d24f4fdc1a193e1526c297e5e30b61bdb396b3bb" resname="content_type.sort_field.9">
+        <source>Content name</source>
+        <target state="translated">Nom du contenu</target>
+        <note>key: content_type.sort_field.9</note>
       </trans-unit>
       <trans-unit id="da59e6ae77cae375a30d7285970b1b2d9690049e" resname="content_type.sort_field.ascending">
         <source>Ascending</source>
@@ -120,6 +316,21 @@
         <target state="translated">Identifiant de la section</target>
         <note>key: content_type.sort_field.section_identifier</note>
       </trans-unit>
+      <trans-unit id="18f4f0dcdd6a1f1a9f7a5c301cc378167f403836" resname="content_type.sort_order.0">
+        <source>Descending</source>
+        <target state="translated">Décroissant</target>
+        <note>key: content_type.sort_order.0</note>
+      </trans-unit>
+      <trans-unit id="b411f25ded028ccb2ef56a55d69bd2e3f1da4cd5" resname="content_type.sort_order.1">
+        <source>Ascending</source>
+        <target state="translated">Croissant</target>
+        <note>key: content_type.sort_order.1</note>
+      </trans-unit>
+      <trans-unit id="48d3eb66c0f8928777189eab11eae254866852b2" resname="content_type.update.success">
+        <source>Content Type '%name%' updated.</source>
+        <target state="translated">Le type de contenu «%name%» a été mis à jour.</target>
+        <note>key: content_type.update.success</note>
+      </trans-unit>
       <trans-unit id="6ab7362c77b22ff8bc0d14eeaae8514b0a683473" resname="content_type.url_alias_schema">
         <source>URL alias name pattern</source>
         <target state="translated">Modèle de génération de l'URL</target>
@@ -129,6 +340,11 @@
         <source>another user</source>
         <target state="translated">autre utilisateur</target>
         <note>key: content_type.user_name.can_not_be_fetched</note>
+      </trans-unit>
+      <trans-unit id="56a9f26e930ab0493fc9cb9609318ea699cf8b76" resname="content_type.view.create.content_field_definitions">
+        <source>Field definitions</source>
+        <target state="translated">Définitions de champs</target>
+        <note>key: content_type.view.create.content_field_definitions</note>
       </trans-unit>
       <trans-unit id="2ce3314c2ca5e24215b0935148a3693ba4fda221" resname="content_type.view.create.global_properties">
         <source>Global properties</source>
@@ -140,10 +356,30 @@
         <target state="translated">Création d’un nouveau Type de Contenu</target>
         <note>key: content_type.view.create.title</note>
       </trans-unit>
+      <trans-unit id="621f64c5f4acef41bca216c9d712860e3438f742" resname="content_type.view.edit.content_field_definition.delete">
+        <source>Delete Field definition(s)</source>
+        <target state="translated">Supprimer la(les) définition(s) de champ</target>
+        <note>key: content_type.view.edit.content_field_definition.delete</note>
+      </trans-unit>
+      <trans-unit id="94367a951b897bc2964d0c45286b560c59ebb996" resname="content_type.view.edit.content_field_definitions">
+        <source>Field definitions</source>
+        <target state="translated">Définitions de champs</target>
+        <note>key: content_type.view.edit.content_field_definitions</note>
+      </trans-unit>
       <trans-unit id="a32a5e3d2d67da43b4c5f0f5574c90520868b36a" resname="content_type.view.edit.global_properties">
         <source>Global properties</source>
         <target state="translated">Propriétés globales</target>
         <note>key: content_type.view.edit.global_properties</note>
+      </trans-unit>
+      <trans-unit id="36fb0205d165f72c996205435b5a06ba42695bb6" resname="content_type.view.edit.notranslatable_fields_disabled">
+        <source>Some of the Fields are disabled when translating a Content Type. To modify them, edit the Content Type in the main language.</source>
+        <target state="translated">Certains champs sont désactivés lors de la traduction d'un type de contenu. Pour les modifier, éditez le type de contenu dans sa langue principale.</target>
+        <note>key: content_type.view.edit.notranslatable_fields_disabled</note>
+      </trans-unit>
+      <trans-unit id="7eee653a60490713df6bcf4b847853020b79a1ee" resname="content_type.view.edit.title">
+        <source>Editing Content Type '%name%'</source>
+        <target state="translated">Édition du type de contenu: "%name%"</target>
+        <note>key: content_type.view.edit.title</note>
       </trans-unit>
       <trans-unit id="803a61fc8cf4e7bdfcf27432bb35e379a4971134" resname="content_type.view.list.action.add">
         <source>Create a Content Type</source>
@@ -175,6 +411,21 @@
         <target state="translated">Nom</target>
         <note>key: content_type.view.list.column.name</note>
       </trans-unit>
+      <trans-unit id="7c8c43d61131312dbeeeac5dc536a4f95154f33d" resname="content_type.view.list.title">
+        <source>Content Types in '%identifier%'</source>
+        <target state="translated">Types de contenu dans %identifier%</target>
+        <note>key: content_type.view.list.title</note>
+      </trans-unit>
+      <trans-unit id="d74d01091280ceabfb457980ddd459dc841ad957" resname="content_type_group.breadcrumb.add">
+        <source>Creating a new Content Type group</source>
+        <target state="translated">Création d’un nouveau groupe de type de contenu</target>
+        <note>key: content_type_group.breadcrumb.add</note>
+      </trans-unit>
+      <trans-unit id="20ee2fba1b6d560dd296bbe696975e92b78ce578" resname="content_type_group.breadcrumb.edit">
+        <source>Editing Content Type group '%identifier%'</source>
+        <target state="translated">Éditer le groupe de type de contenu "%identifier%"</target>
+        <note>key: content_type_group.breadcrumb.edit</note>
+      </trans-unit>
       <trans-unit id="83a16866c8ff14a4966553088657aafbb9db8edb" resname="content_type_group.breadcrumb.list">
         <source>Content Types</source>
         <target state="translated">Types de Contenu</target>
@@ -195,10 +446,25 @@
         <target state="translated">Créer</target>
         <note>key: content_type_group.create.submit</note>
       </trans-unit>
+      <trans-unit id="00f7021226b49438a6e4b36cfd212b9553deb762" resname="content_type_group.create.success">
+        <source>Created Content Type group '%name%'.</source>
+        <target state="translated">Groupe de type de contenu '%name%' créé.</target>
+        <note>key: content_type_group.create.success</note>
+      </trans-unit>
       <trans-unit id="eec79e4a9109f28892797768f085eab39eaedc31" resname="content_type_group.delete.submit">
         <source>Delete</source>
         <target state="translated">Supprimer</target>
         <note>key: content_type_group.delete.submit</note>
+      </trans-unit>
+      <trans-unit id="7d3672fcf2f0e1982152c4e6759bd03143f9f028" resname="content_type_group.delete.success">
+        <source>Deleted Content Type group '%name%'.</source>
+        <target state="translated">Groupe de type de contenu '%name%' supprimé.</target>
+        <note>key: content_type_group.delete.success</note>
+      </trans-unit>
+      <trans-unit id="09f63694559a9149fb1297e33be843cf54788b95" resname="content_type_group.modal.message">
+        <source>Do you want to delete the Content Type group?</source>
+        <target state="translated">Voulez-vous vraiment supprimer le groupe de type de contenu ?</target>
+        <note>key: content_type_group.modal.message</note>
       </trans-unit>
       <trans-unit id="4c6dfb0b81f5b9d70fed0dda3840f0677ece9570" resname="content_type_group.update.name">
         <source>Name</source>
@@ -210,10 +476,40 @@
         <target state="translated">Mettre à jour</target>
         <note>key: content_type_group.update.submit</note>
       </trans-unit>
+      <trans-unit id="ff50d4b8d26d81f538b0ebabc392cbb05b6da162" resname="content_type_group.update.success">
+        <source>Updated Content Type group '%name%'.</source>
+        <target state="translated">Groupe de type de contenu '%name%' mis à jour.</target>
+        <note>key: content_type_group.update.success</note>
+      </trans-unit>
+      <trans-unit id="1bd4c745d76ae79ef7e95baea27281fff04e77f6" resname="content_type_group.view.add.title">
+        <source>Creating a new Content Type group</source>
+        <target state="translated">Création d’un nouveau groupe de type de contenu</target>
+        <note>key: content_type_group.view.add.title</note>
+      </trans-unit>
+      <trans-unit id="1b6ebace1ed08d4e8de6a84a5523e19b53dfd443" resname="content_type_group.view.edit.title">
+        <source>Editing Content Type group '%identifier%'</source>
+        <target state="translated">Édition du groupe de type de contenu '%identifier%'</target>
+        <note>key: content_type_group.view.edit.title</note>
+      </trans-unit>
+      <trans-unit id="8eb8668549f90436db605805680144f4b87c7fc0" resname="content_type_group.view.list.action.add">
+        <source>Create a Content Type group</source>
+        <target state="translated">Créer un groupe de type de contenu</target>
+        <note>key: content_type_group.view.list.action.add</note>
+      </trans-unit>
+      <trans-unit id="ceb2e962eccd99d66a600df886fb1ff3253c2f16" resname="content_type_group.view.list.action.delete">
+        <source>Delete Content Type group(s)</source>
+        <target state="translated">Supprimer le(s) groupe(s) de type de contenu</target>
+        <note>key: content_type_group.view.list.action.delete</note>
+      </trans-unit>
       <trans-unit id="e078a8733eac84a6f85ccb7883df2767d357528e" resname="content_type_group.view.list.action.edit">
         <source>Edit</source>
         <target state="translated">Modifier</target>
         <note>key: content_type_group.view.list.action.edit</note>
+      </trans-unit>
+      <trans-unit id="125bee275441fe2bd28cb9388b790c634d8ae3c6" resname="content_type_group.view.list.column.content_types_count">
+        <source>Number of Content Types</source>
+        <target state="translated">Nombre de types de contenu</target>
+        <note>key: content_type_group.view.list.column.content_types_count</note>
       </trans-unit>
       <trans-unit id="cd462ce30cd4d0b21393e24ca2c9e974369c1f57" resname="content_type_group.view.list.column.id">
         <source>ID</source>
@@ -225,10 +521,385 @@
         <target state="translated">Nom</target>
         <note>key: content_type_group.view.list.column.identifier</note>
       </trans-unit>
+      <trans-unit id="9522e89ad894375dcf878ae282bdd793946fc375" resname="content_type_group.view.list.title">
+        <source>Content Type groups</source>
+        <target state="translated">Groupes de type de contenu</target>
+        <note>key: content_type_group.view.list.title</note>
+      </trans-unit>
       <trans-unit id="1769b5258d896d9ccb207c09e04534ce9a01c571" resname="content_type_group.view.view.title" approved="yes">
         <source>%identifier%</source>
         <target state="final">%identifier%</target>
         <note>key: content_type_group.view.view.title</note>
+      </trans-unit>
+      <trans-unit id="f99cc628dc4d82c5ee69eae79039a2f449eec064" resname="field_definition.description">
+        <source>Description</source>
+        <target state="translated">Description</target>
+        <note>key: field_definition.description</note>
+      </trans-unit>
+      <trans-unit id="60b0ee9222a502c38adf1be704d4984564190e8e" resname="field_definition.ezauthor.default_author">
+        <source>Default value</source>
+        <target state="translated">Valeur par défaut</target>
+        <note>key: field_definition.ezauthor.default_author</note>
+      </trans-unit>
+      <trans-unit id="f64d0d1be6b62d75f7c77bf08ec560abd3addfb4" resname="field_definition.ezauthor.default_user_current">
+        <source>Current User</source>
+        <target state="translated">Utilisateur Actuel</target>
+        <note>key: field_definition.ezauthor.default_user_current</note>
+      </trans-unit>
+      <trans-unit id="837d1179e58011e51733e1420a6f868f94fb9b16" resname="field_definition.ezauthor.default_user_empty">
+        <source>Empty</source>
+        <target state="translated">Vide</target>
+        <note>key: field_definition.ezauthor.default_user_empty</note>
+      </trans-unit>
+      <trans-unit id="41f781284e4bae2abbb6cfdf1126cc90b48dd35b" resname="field_definition.ezbinaryfile.max_file_size">
+        <source>Maximum file size (MB)</source>
+        <target state="translated">Taille de fichier maximale (MB)</target>
+        <note>key: field_definition.ezbinaryfile.max_file_size</note>
+      </trans-unit>
+      <trans-unit id="5ae9eea988dc249d137d285ec360214b238efc26" resname="field_definition.ezboolean.default_value">
+        <source>Default value</source>
+        <target state="translated">Valeur par défaut</target>
+        <note>key: field_definition.ezboolean.default_value</note>
+      </trans-unit>
+      <trans-unit id="3ef6598f8cd7d60095784845bb24852ac531e47c" resname="field_definition.ezcountry.default_value">
+        <source>Default country</source>
+        <target state="translated">Pays par défaut</target>
+        <note>key: field_definition.ezcountry.default_value</note>
+      </trans-unit>
+      <trans-unit id="027f35cf66e5ea571cc7b600dad0ab5ceea20cd6" resname="field_definition.ezcountry.is_multiple">
+        <source>Multiple choice</source>
+        <target state="translated">Choix multiple</target>
+        <note>key: field_definition.ezcountry.is_multiple</note>
+      </trans-unit>
+      <trans-unit id="18a5846deb7a3d7dcc9fbd0a2de28d609c2a55c2" resname="field_definition.ezdate.default_type">
+        <source>Default value</source>
+        <target state="translated">Valeur par défaut</target>
+        <note>key: field_definition.ezdate.default_type</note>
+      </trans-unit>
+      <trans-unit id="eb97ae8058956f1babf75555dbdba76c8e409bf1" resname="field_definition.ezdate.default_type_current">
+        <source>Current date</source>
+        <target state="translated">Date courante</target>
+        <note>key: field_definition.ezdate.default_type_current</note>
+      </trans-unit>
+      <trans-unit id="df532a4ad5878fd0bc3f7842fb6907078efe76f9" resname="field_definition.ezdate.default_type_empty">
+        <source>Empty</source>
+        <target state="translated">Vide</target>
+        <note>key: field_definition.ezdate.default_type_empty</note>
+      </trans-unit>
+      <trans-unit id="dbbf37dee75d40448b725aea9c893a4ea84c8ab6" resname="field_definition.ezdatetime.date_interval">
+        <source>Current date and time adjusted by</source>
+        <target state="translated">Date et Heure courantes ajustée par</target>
+        <note>key: field_definition.ezdatetime.date_interval</note>
+      </trans-unit>
+      <trans-unit id="7b4f4729ec64de6f20356ad40f768c98c27590fb" resname="field_definition.ezdatetime.default_type">
+        <source>Default value</source>
+        <target state="translated">Valeur par défaut</target>
+        <note>key: field_definition.ezdatetime.default_type</note>
+      </trans-unit>
+      <trans-unit id="e37e68ecadab17cf7132cd1d5163a4f13d0f759c" resname="field_definition.ezdatetime.default_type_adjusted">
+        <source>Adjusted current datetime</source>
+        <target state="translated">Date/Heure courante ajustée</target>
+        <note>key: field_definition.ezdatetime.default_type_adjusted</note>
+      </trans-unit>
+      <trans-unit id="24ac7fa5478172475d86a2d16829ece8a5e5f59f" resname="field_definition.ezdatetime.default_type_current">
+        <source>Current datetime</source>
+        <target state="translated">Date/Heure courante</target>
+        <note>key: field_definition.ezdatetime.default_type_current</note>
+      </trans-unit>
+      <trans-unit id="0119e6a5f0c829a61263c3a8a37dda53b9da8dce" resname="field_definition.ezdatetime.default_type_empty">
+        <source>Empty</source>
+        <target state="translated">Vide</target>
+        <note>key: field_definition.ezdatetime.default_type_empty</note>
+      </trans-unit>
+      <trans-unit id="a2fbf20071bc00616d6c927dadd484ad75fbcd4c" resname="field_definition.ezdatetime.use_seconds">
+        <source>Use seconds</source>
+        <target state="translated">Utiliser les secondes</target>
+        <note>key: field_definition.ezdatetime.use_seconds</note>
+      </trans-unit>
+      <trans-unit id="ed0d3cb0a19dd96c1708957f17e15204465c69b6" resname="field_definition.ezfloat.default_value">
+        <source>Default value</source>
+        <target state="translated">Valeur par défaut</target>
+        <note>key: field_definition.ezfloat.default_value</note>
+      </trans-unit>
+      <trans-unit id="8f6ec24986ca862e96867edc18aa490ff6035e56" resname="field_definition.ezfloat.max_value">
+        <source>Maximum value</source>
+        <target state="translated">Valeur maximale</target>
+        <note>key: field_definition.ezfloat.max_value</note>
+      </trans-unit>
+      <trans-unit id="a8eb20f50022f5aa6c623f3f870297f2ee034606" resname="field_definition.ezfloat.min_value">
+        <source>Minimum value</source>
+        <target state="translated">Valeur minimale</target>
+        <note>key: field_definition.ezfloat.min_value</note>
+      </trans-unit>
+      <trans-unit id="5b275c762831def3c6ea393e3e0c25762e0844b3" resname="field_definition.ezimage.max_file_size">
+        <source>Maximum file size (MB)</source>
+        <target state="translated">Taille de fichier maximale (MB)</target>
+        <note>key: field_definition.ezimage.max_file_size</note>
+      </trans-unit>
+      <trans-unit id="8a95f664895f9c72e5ca52ea43908ad3d54c8966" resname="field_definition.ezinteger.default_value">
+        <source>Default value</source>
+        <target state="translated">Valeur par défaut</target>
+        <note>key: field_definition.ezinteger.default_value</note>
+      </trans-unit>
+      <trans-unit id="7529d0af266c6893ae1886faf5578cf4d6d768aa" resname="field_definition.ezinteger.max_value">
+        <source>Maximum value</source>
+        <target state="translated">Valeur maximale</target>
+        <note>key: field_definition.ezinteger.max_value</note>
+      </trans-unit>
+      <trans-unit id="9b1e51f5ebbb28c403c7707252c6ca47e6a0a82c" resname="field_definition.ezinteger.min_value">
+        <source>Minimum value</source>
+        <target state="translated">Valeur minimale</target>
+        <note>key: field_definition.ezinteger.min_value</note>
+      </trans-unit>
+      <trans-unit id="4afaf19544597331fbc0eb01e75556a312d657ec" resname="field_definition.ezisbn.default_value">
+        <source>Default value</source>
+        <target state="translated">Valeur par défaut</target>
+        <note>key: field_definition.ezisbn.default_value</note>
+      </trans-unit>
+      <trans-unit id="461c05cd80b29eb37dc4f7e1f9e1d2454b380332" resname="field_definition.ezisbn.is_isbn13">
+        <source>ISBN-13 format</source>
+        <target state="translated">Format ISBN-13</target>
+        <note>key: field_definition.ezisbn.is_isbn13</note>
+      </trans-unit>
+      <trans-unit id="fd243acf201f0150bda1c01399850c7ad9fc0c2d" resname="field_definition.ezmedia.max_file_size">
+        <source>Maximum file size (MB)</source>
+        <target state="translated">Taille de fichier maximale (MB)</target>
+        <note>key: field_definition.ezmedia.max_file_size</note>
+      </trans-unit>
+      <trans-unit id="1ae04670268864a185efbed749015b7ea14f079b" resname="field_definition.ezmedia.media_type">
+        <source>Media type</source>
+        <target state="translated">Type de média</target>
+        <note>key: field_definition.ezmedia.media_type</note>
+      </trans-unit>
+      <trans-unit id="adfb7d8a234a1500c70ea82dac5f6d8bebff4234" resname="field_definition.ezmedia.type_flash">
+        <source>Flash</source>
+        <target state="translated">Flash</target>
+        <note>key: field_definition.ezmedia.type_flash</note>
+      </trans-unit>
+      <trans-unit id="fb4e0e47312060617df5c281c7fc5a537929369f" resname="field_definition.ezmedia.type_html5_audio">
+        <source>HTML5 audio</source>
+        <target state="translated">Audio HTML5</target>
+        <note>key: field_definition.ezmedia.type_html5_audio</note>
+      </trans-unit>
+      <trans-unit id="2039c43bb8832c53f19d0a027c64e40e51f22899" resname="field_definition.ezmedia.type_html5_video">
+        <source>HTML5 video</source>
+        <target state="translated">Vidéo HTML5</target>
+        <note>key: field_definition.ezmedia.type_html5_video</note>
+      </trans-unit>
+      <trans-unit id="e78eb62bcd9c8b47ff51f38c4a828cf91749d38b" resname="field_definition.ezmedia.type_quick_time">
+        <source>QuickTime</source>
+        <target state="translated">QuickTime</target>
+        <note>key: field_definition.ezmedia.type_quick_time</note>
+      </trans-unit>
+      <trans-unit id="a44f707a9ede4f970de7833a2ca29e281fe695d8" resname="field_definition.ezmedia.type_real_player">
+        <source>RealPlayer</source>
+        <target state="translated">RealPlayer</target>
+        <note>key: field_definition.ezmedia.type_real_player</note>
+      </trans-unit>
+      <trans-unit id="efa6e36c8ec4e2d5c258e780cbefeb54d77f6bc9" resname="field_definition.ezmedia.type_silverlight">
+        <source>Silverlight</source>
+        <target state="translated">Silverlight</target>
+        <note>key: field_definition.ezmedia.type_silverlight</note>
+      </trans-unit>
+      <trans-unit id="57951280ffe27b8afe3f6c65f8cda4696267d64a" resname="field_definition.ezmedia.type_windows_media_player">
+        <source>Windows Media Player</source>
+        <target state="translated">Windows Media Player</target>
+        <note>key: field_definition.ezmedia.type_windows_media_player</note>
+      </trans-unit>
+      <trans-unit id="fabc9be57b82439dac2f612b9c2a171eb7ce6e04" resname="field_definition.ezobjectrelation.selection_content_types">
+        <source>Allowed Content Types</source>
+        <target state="translated">Types de contenu autorisés</target>
+        <note>key: field_definition.ezobjectrelation.selection_content_types</note>
+      </trans-unit>
+      <trans-unit id="440d8fe80bb8a07b62f17d843721285b2cf8a4d5" resname="field_definition.ezobjectrelation.selection_root">
+        <source>Starting Location</source>
+        <target state="translated">Emplacement de départ</target>
+        <note>key: field_definition.ezobjectrelation.selection_root</note>
+      </trans-unit>
+      <trans-unit id="e03e262fad0802fdee49aac136644b35450e1eab" resname="field_definition.ezobjectrelation.selection_root_udw_button">
+        <source>Select starting Location</source>
+        <target state="translated">Sélectionnez un emplacement de départ</target>
+        <note>key: field_definition.ezobjectrelation.selection_root_udw_button</note>
+      </trans-unit>
+      <trans-unit id="d892163a41d816c03db3c4a04e35550f02169c11" resname="field_definition.ezobjectrelation.selection_root_udw_title">
+        <source>Select where to start browsing for a Relation</source>
+        <target state="translated">Sélectionnez à partir de quel emplacement commencer à parcourir pour une relation</target>
+        <note>key: field_definition.ezobjectrelation.selection_root_udw_title</note>
+      </trans-unit>
+      <trans-unit id="7e061dc7c88fe38c11714695d4034f935788efb3" resname="field_definition.ezobjectrelationlist.selection_content_types">
+        <source>Allowed Content Types</source>
+        <target state="translated">Types de contenu autorisés</target>
+        <note>key: field_definition.ezobjectrelationlist.selection_content_types</note>
+      </trans-unit>
+      <trans-unit id="b08d97ea9175eef7352c7e9c5c8ee0516798bdfa" resname="field_definition.ezobjectrelationlist.selection_default_location">
+        <source>Default Location</source>
+        <target state="translated">Emplacement par défaut</target>
+        <note>key: field_definition.ezobjectrelationlist.selection_default_location</note>
+      </trans-unit>
+      <trans-unit id="14274feead6c1e1a98261c8df42d6e2e2210cb6f" resname="field_definition.ezobjectrelationlist.selection_limit">
+        <source>Selection limit</source>
+        <target state="translated">Limite de sélection</target>
+        <note>key: field_definition.ezobjectrelationlist.selection_limit</note>
+      </trans-unit>
+      <trans-unit id="1592c36df8d445c3154d1f639027f97a90739856" resname="field_definition.ezobjectrelationlist.selection_root_udw_button">
+        <source>Select Location</source>
+        <target state="translated">Sélectionnez l'emplacement</target>
+        <note>key: field_definition.ezobjectrelationlist.selection_root_udw_button</note>
+      </trans-unit>
+      <trans-unit id="17d8f3e8bbd5b5f0f5b4b02ddaeaf2af82b0d222" resname="field_definition.ezobjectrelationlist.selection_root_udw_title">
+        <source>Select where to start browsing for Relations</source>
+        <target state="translated">Sélectionnez où commencer à parcourir les relations</target>
+        <note>key: field_definition.ezobjectrelationlist.selection_root_udw_title</note>
+      </trans-unit>
+      <trans-unit id="14a95e986cd6b94301e0f44fd5ef2d5e7cdf90a4" resname="field_definition.ezselection.add_option">
+        <source>Add an option</source>
+        <target state="translated">Ajouter une option</target>
+        <note>key: field_definition.ezselection.add_option</note>
+      </trans-unit>
+      <trans-unit id="e9e5a43d734719bf6ca42940c1cf5bc78b234e2b" resname="field_definition.ezselection.is_multiple">
+        <source>Multiple choice</source>
+        <target state="translated">Choix multiple</target>
+        <note>key: field_definition.ezselection.is_multiple</note>
+      </trans-unit>
+      <trans-unit id="ac85420bb89c319433f4d0e8e988b6fa8363e8b9" resname="field_definition.ezselection.options">
+        <source>Options</source>
+        <target state="translated">Options</target>
+        <note>key: field_definition.ezselection.options</note>
+      </trans-unit>
+      <trans-unit id="c8017c71074191e0e6ebe4eb1a3a278eecbcc874" resname="field_definition.ezselection.remove_selected_options">
+        <source>Remove selected options</source>
+        <target state="translated">Supprimer les options sélectionnées</target>
+        <note>key: field_definition.ezselection.remove_selected_options</note>
+      </trans-unit>
+      <trans-unit id="e8ede1605bfed09023397f8662ca28c40e7c460a" resname="field_definition.ezstring.default_value">
+        <source>Default value</source>
+        <target state="translated">Valeur par defaut</target>
+        <note>key: field_definition.ezstring.default_value</note>
+      </trans-unit>
+      <trans-unit id="aeb5a467102cac589770bb08efe1ae15c2845cca" resname="field_definition.ezstring.max_length">
+        <source>Maximum length</source>
+        <target state="translated">Longueur maximale</target>
+        <note>key: field_definition.ezstring.max_length</note>
+      </trans-unit>
+      <trans-unit id="b3ccbbb1d949cd2ce5971857c15d8c972ee82691" resname="field_definition.ezstring.min_length">
+        <source>Minimum length</source>
+        <target state="translated">Longueur minimale</target>
+        <note>key: field_definition.ezstring.min_length</note>
+      </trans-unit>
+      <trans-unit id="0a5ed21a62aec2cda555012922b97975d97bc95c" resname="field_definition.eztext.text_rows">
+        <source>Number of text rows</source>
+        <target state="translated">Nombre de lignes de texte</target>
+        <note>key: field_definition.eztext.text_rows</note>
+      </trans-unit>
+      <trans-unit id="0f8aa615d0ec1b242535348fecb702d9b75ca2eb" resname="field_definition.eztime.default_type">
+        <source>Default value</source>
+        <target state="translated">Valeur par défaut</target>
+        <note>key: field_definition.eztime.default_type</note>
+      </trans-unit>
+      <trans-unit id="95dc4af57dce875f9140238d276ed77f0236746f" resname="field_definition.eztime.default_type_current">
+        <source>Current time</source>
+        <target state="translated">Heure courante</target>
+        <note>key: field_definition.eztime.default_type_current</note>
+      </trans-unit>
+      <trans-unit id="0a0e3e8eb5d13b0e9e8ca8348615a5c00e2e51c1" resname="field_definition.eztime.default_type_empty">
+        <source>Empty</source>
+        <target state="translated">Vide</target>
+        <note>key: field_definition.eztime.default_type_empty</note>
+      </trans-unit>
+      <trans-unit id="3095005d6d92b499602347e3692b69346a35a845" resname="field_definition.eztime.use_seconds">
+        <source>Use seconds</source>
+        <target state="translated">Utiliser les secondes</target>
+        <note>key: field_definition.eztime.use_seconds</note>
+      </trans-unit>
+      <trans-unit id="eee9fb58aa8da0feaa9ae51a29ef33fd13dd1f70" resname="field_definition.ezuser.min_length">
+        <source>Minimum password length</source>
+        <target state="translated">Longueur minimale du mot de passe</target>
+        <note>key: field_definition.ezuser.min_length</note>
+      </trans-unit>
+      <trans-unit id="9ad3fff9bb6ca7a5afdc438f99851dd87228699c" resname="field_definition.ezuser.password_ttl">
+        <source>Days before password expires</source>
+        <target state="translated">Nombre de jours avant l'expiration du mot de passe</target>
+        <note>key: field_definition.ezuser.password_ttl</note>
+      </trans-unit>
+      <trans-unit id="1b81ac541baeeaf535b19ae644965c799c218329" resname="field_definition.ezuser.password_ttl_warning">
+        <source>Days before a user is notified about expiration</source>
+        <target state="translated">Nombre de jours avant qu'un utilisateur ne soit informé de son expiration</target>
+        <note>key: field_definition.ezuser.password_ttl_warning</note>
+      </trans-unit>
+      <trans-unit id="98c42f6735c213cd7c7580fdcc918aeec57920da" resname="field_definition.ezuser.require_at_least_one_lower_case_character">
+        <source>Password must contain at least one lowercase letter</source>
+        <target state="translated">Le mot de passe doit contenir au moins 1 lettre minuscule</target>
+        <note>key: field_definition.ezuser.require_at_least_one_lower_case_character</note>
+      </trans-unit>
+      <trans-unit id="d694dab8e90b1f2b1a633c0f6ba200e66c18ce02" resname="field_definition.ezuser.require_at_least_one_non_alphanumeric_character">
+        <source>Password must contain at least one non-alphanumeric character</source>
+        <target state="translated">Le mot de passe doit contenir au moins un caractère non alphanumérique</target>
+        <note>key: field_definition.ezuser.require_at_least_one_non_alphanumeric_character</note>
+      </trans-unit>
+      <trans-unit id="26cb6ab7ae7e190a9d8d8b0411512b531c8c42ff" resname="field_definition.ezuser.require_at_least_one_numeric_character">
+        <source>Password must contain at least one number</source>
+        <target state="translated">Le mot de passe doit contenir au moins un chiffre</target>
+        <note>key: field_definition.ezuser.require_at_least_one_numeric_character</note>
+      </trans-unit>
+      <trans-unit id="5bac176749950e52e2499c099cc6fd83333b60df" resname="field_definition.ezuser.require_at_least_one_upper_case_character">
+        <source>Password must contain at least one uppercase letter</source>
+        <target state="translated">Le mot de passe doit contenir au moins 1 lettre majuscule</target>
+        <note>key: field_definition.ezuser.require_at_least_one_upper_case_character</note>
+      </trans-unit>
+      <trans-unit id="fdf4c879ef3e13c5cba9292d388a846fd07d6fc5" resname="field_definition.ezuser.require_new_password">
+        <source>Prevent reusing old password</source>
+        <target state="translated">Empêcher la réutilisation de l'ancien mot de passe</target>
+        <note>key: field_definition.ezuser.require_new_password</note>
+      </trans-unit>
+      <trans-unit id="100096c9b93ce532e7bf2f184d8e3f43374ae921" resname="field_definition.ezuser.require_unique_email">
+        <source>Email must be unique</source>
+        <target state="translated">L'e-mail doit être unique</target>
+        <note>key: field_definition.ezuser.require_unique_email</note>
+      </trans-unit>
+      <trans-unit id="8e511c53eccc10ed0f41aa2c1b2fccd9184d9e47" resname="field_definition.ezuser.username_pattern">
+        <source>Username pattern</source>
+        <target state="translated">Modèle d'identifiant utilisateur</target>
+        <note>key: field_definition.ezuser.username_pattern</note>
+      </trans-unit>
+      <trans-unit id="92d9243bb9fac540233dc376b41a3bcd41615ccc" resname="field_definition.field_group">
+        <source>Category</source>
+        <target state="translated">Catégorie</target>
+        <note>key: field_definition.field_group</note>
+      </trans-unit>
+      <trans-unit id="8b863a9c7cd91565182ad0a3a5e30ca8090f84c7" resname="field_definition.identifier">
+        <source>Identifier</source>
+        <target state="translated">Identifiant</target>
+        <note>key: field_definition.identifier</note>
+      </trans-unit>
+      <trans-unit id="6e91f443eb0cd4ab99331950f20cdbcc03f0b88c" resname="field_definition.is_required">
+        <source>Required</source>
+        <target state="translated">Obligatoire</target>
+        <note>key: field_definition.is_required</note>
+      </trans-unit>
+      <trans-unit id="a0267d640a8276b546263c23a5dfdf8e99cc3468" resname="field_definition.is_searchable">
+        <source>Searchable</source>
+        <target state="translated">Recherchable</target>
+        <note>key: field_definition.is_searchable</note>
+      </trans-unit>
+      <trans-unit id="84eed8c69d2ed1727569c36cda88c9781d37dd92" resname="field_definition.is_thumbnail">
+        <source>Can be a thumbnail</source>
+        <target state="translated">Peut être utilisé comme miniature</target>
+        <note>key: field_definition.is_thumbnail</note>
+      </trans-unit>
+      <trans-unit id="83aba8c0c4c654d481c4520feb76e789fbc64c22" resname="field_definition.is_translatable">
+        <source>Translatable</source>
+        <target state="translated">Traduisible</target>
+        <note>key: field_definition.is_translatable</note>
+      </trans-unit>
+      <trans-unit id="9a02e329edf4c1e41c97c8be922137c284c249c4" resname="field_definition.name">
+        <source>Name</source>
+        <target state="translated">Nom</target>
+        <note>key: field_definition.name</note>
+      </trans-unit>
+      <trans-unit id="f6d7350ade5162400b0848796720fe586392fa46" resname="field_definition.position">
+        <source>Position</source>
+        <target state="translated">Profession</target>
+        <note>key: field_definition.position</note>
       </trans-unit>
       <trans-unit id="62ac918fce5389cd868b988e65b4ab96477a1344" resname="location_update_form.sort_field">
         <source>Sort field</source>
@@ -255,6 +926,11 @@
         <target state="translated">Supprimer</target>
         <note>key: modal.delete</note>
       </trans-unit>
+      <trans-unit id="fd1286353570c5703799ba76999323b7c7447b06" resname="no">
+        <source>No</source>
+        <target state="translated">Non</target>
+        <note>key: no</note>
+      </trans-unit>
       <trans-unit id="0b83b391386f47130b2d3ac1869fe27aa8c45fb7" resname="tab.name.translations">
         <source>Translations</source>
         <target state="translated">Traductions</target>
@@ -264,6 +940,11 @@
         <source>View</source>
         <target state="translated">Afficher</target>
         <note>key: tab.name.view</note>
+      </trans-unit>
+      <trans-unit id="fb360f9c09ac8c5edb2f18be5de4e80ea4c430d0" resname="yes">
+        <source>Yes</source>
+        <target state="translated">Oui</target>
+        <note>key: yes</note>
       </trans-unit>
     </body>
   </file>

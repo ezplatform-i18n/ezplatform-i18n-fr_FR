@@ -50,6 +50,23 @@
         <target state="translated">Votre période d’essai touche à sa fin.</target>
         <note>key: dashboard.ez_version.trial_end_of_maintenance</note>
       </trans-unit>
+      <trans-unit id="7b47468c70176c3f6c78ca0e29b1378e2685d2e1" resname="dashboard.ez_version.trial_contact">
+        <source><![CDATA[<a target="_blank" href="%contact_url%">Contact eZ or its partner(s)</a> to purchase a subscription
+                    and follow the <a target="_blank" href="%install_ee%">online documentation</a> to configure composer.json 'repositories' url for 'bul' instead of 'ttl'.]]></source>
+        <target state="translated"><![CDATA[<a target="_blank" href="%contact_url%">Contactez eZ ou ses partenaires</a> pour acheter un abonnement
+                    et suivez la <a target="_blank" href="%install_ee%">documentation en ligne</a> pour configurer l'url 'repositories' à 'bul' au lieu de 'ttl' dans le composer.json'.]]></target>
+        <note>key: dashboard.ez_version.trial_contact</note>
+      </trans-unit>
+      <trans-unit id="99cfacc8eb18b57ad83dccc62b053ad0aea20b79" resname="dashboard.ez_version.non_stable_packages">
+        <source>Your setup is running with @%stability% composer packages. This is not recommended except when testing updates or during development.</source>
+        <target state="translated">Votre installation fonctionne avec les paquets composer @%stability%. Ce n'est pas recommandé sauf lors de tests de mises à jour ou pendant le développement.</target>
+        <note>key: dashboard.ez_version.non_stable_packages</note>
+      </trans-unit>
+      <trans-unit id="6a0387251f6e862fedb59341ccc65722f169438a" resname="dashboard.ez_version.unstable_minimum_stability">
+        <source>Your setup is running with '%minimum_stability%' as composer.json minimum-stability. This is not recommended except when testing updates or during development.</source>
+        <target state="translated">Votre configuration fonctionne avec '%minimum_stability%' comme la valeur de minimum-stability du  composer.json. Ce n'est pas recommandé sauf lors de tests de mises à jour ou pendant le développement.</target>
+        <note>key: dashboard.ez_version.unstable_minimum_stability</note>
+      </trans-unit>
       <trans-unit id="59967d79ef1f521fd483dbb057f15bc756b80423" resname="dashboard.ez_version.non_stable_ee">
         <source><![CDATA[If you need assistance, don't hesitate to <a target="_blank" href="%support_url%">get in touch with eZ support</a>.]]></source>
         <target state="translated"><![CDATA[Si vous avez besoin d'aide, n'hésitez pas à <a target="_blank" href="%support_url%">contacter le support eZ</a>.]]></target>

@@ -6,16 +6,56 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="0a4bb064aedec95b2083a0b8f07080385883803a" resname="content.comparison.close_label" approved="yes">
+        <source>Close</source>
+        <target state="final">Fermer</target>
+        <note>key: content.comparison.close_label</note>
+      </trans-unit>
+      <trans-unit id="e790ca3c99b7c89c93c96206b4c98853a3262926" resname="content.comparison.side.by.side.first" approved="yes">
+        <source>1 column</source>
+        <target state="final">1 colonne</target>
+        <note>key: content.comparison.side.by.side.first</note>
+      </trans-unit>
+      <trans-unit id="a976f8c7f9bcd4e78c126ece26909975e329ece4" resname="content.comparison.side.by.side.second" approved="yes">
+        <source>2 column</source>
+        <target state="final">2 colonnes</target>
+        <note>key: content.comparison.side.by.side.second</note>
+      </trans-unit>
+      <trans-unit id="88ee23804e21af17492f778144f3f8be16959b90" resname="content.comparison.title" approved="yes">
+        <source>Comparing versions</source>
+        <target state="final">Comparer les versions</target>
+        <note>key: content.comparison.title</note>
+      </trans-unit>
+      <trans-unit id="7d61d1117395c8c60ee55b37a1103b212f56492f" resname="tab.versions.table.action.version_compare" approved="yes">
+        <source>Version Compare</source>
+        <target state="final">Comparer les versions</target>
+        <note>key: tab.versions.table.action.version_compare</note>
+      </trans-unit>
+      <trans-unit id="664d2e29c7d676aa99c558d7d2bb663168b70e8e" resname="version_info.comparison.select_name" approved="yes">
+        <source>%status% - Version %version% - %language%</source>
+        <target state="final">%status% - Version %version% - %language%</target>
+        <note>key: version_info.comparison.select_name</note>
+      </trans-unit>
+      <trans-unit id="a7f78628f4533483d54c7648511cc2720d9eda45" resname="version_info.comparison.select_placeholder" approved="yes">
+        <source>Select a version to compare</source>
+        <target state="final">Sélectionner une version à comparer</target>
+        <note>key: version_info.comparison.select_placeholder</note>
+      </trans-unit>
+      <trans-unit id="2606e3196d40ee3cdfbdb7c62334d8c4e0dfb87a" resname="version_info.status.archived" approved="yes">
+        <source>Archived</source>
+        <target state="final">Archivé</target>
+        <note>key: version_info.status.archived</note>
+      </trans-unit>
+      <trans-unit id="785ea96b442ac54b8a25423b3edd36dcc574a8a4" resname="version_info.status.draft" approved="yes">
+        <source>Draft</source>
+        <target state="final">Brouillon</target>
+        <note>key: version_info.status.draft</note>
+      </trans-unit>
+      <trans-unit id="8d33e24a1a15c90ea3eac14dd7888a14eec26f87" resname="version_info.status.published" approved="yes">
+        <source>Published</source>
+        <target state="final">Publié</target>
+        <note>key: version_info.status.published</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

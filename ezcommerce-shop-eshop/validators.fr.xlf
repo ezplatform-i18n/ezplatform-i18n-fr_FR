@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="7f2f6a15cf8da2b27e5a4af47b58e7ad71c0b3d9" resname="Error">
+        <source>Error</source>
+        <target state="translated">Erreur</target>
+        <note>key: Error</note>
+      </trans-unit>
+      <trans-unit id="3f66052a107eaf9bae7cad0f61fb462f47ec2c47" resname="From">
+        <source>From</source>
+        <target state="translated">De :</target>
+        <note>key: From</note>
+      </trans-unit>
+      <trans-unit id="786751fcd635d4da061ae82f2a70955f9a967436" resname="Maximum {{ limit }} chars">
+        <source>Maximum {{ limit }} chars</source>
+        <target state="translated">Maximum de {{ limit }} caractères</target>
+        <note>key: Maximum {{ limit }} chars</note>
+      </trans-unit>
+      <trans-unit id="d2b8f68e05729b9c08bcf2ffd0430fb5e8009c4c" resname="Please enter a message">
+        <source>Please enter a message</source>
+        <target state="translated">Veuillez saisir un message</target>
+        <note>key: Please enter a message</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="9008dbb87dbead873f5e7d83d690bc1f6cf454c7" resname="ecommerce_jobs">
+        <source>e-commerce jobs</source>
+        <target state="translated">Emplois e-commerce</target>
+        <note>key: ecommerce_jobs</note>
+      </trans-unit>
+      <trans-unit id="52d7e82a53af31c0cf4b2d17f2e9852c632b672a" resname="econtent.temporary_tables.swap.active">
+        <source>Import is active</source>
+        <target state="translated">L'import est actif</target>
+        <note>key: econtent.temporary_tables.swap.active</note>
+      </trans-unit>
+      <trans-unit id="45d99ebb0739f390d4eac6857b3fe9b41d7c62aa" resname="econtent_type.table.id.title">
+        <source>ID</source>
+        <target state="translated">ID</target>
+        <note>key: econtent_type.table.id.title</note>
+      </trans-unit>
+      <trans-unit id="69aaaa0142de9a471b402d47655405fba7fff31d" resname="econtent_type.table.name.title">
+        <source>Name</source>
+        <target state="translated">Nom</target>
+        <note>key: econtent_type.table.name.title</note>
+      </trans-unit>
+      <trans-unit id="32d78af6b1c67df8cf4e744431c9357323e1cdab" resname="emails_table.recipient.title">
+        <source>Recipient</source>
+        <target state="translated">Destinataire</target>
+        <note>key: emails_table.recipient.title</note>
+      </trans-unit>
+      <trans-unit id="013f1304fba27327a51f20520cb0809e3dc6bb0f" resname="emails_table.sent_date.title" approved="yes">
+        <source>Sent date</source>
+        <target state="final">Date d'envoi</target>
+        <note>key: emails_table.sent_date.title</note>
+      </trans-unit>
+      <trans-unit id="405536bf7a0eaa63730ac7124ead185f47378786" resname="emails_table.status.title" approved="yes">
+        <source>Status</source>
+        <target state="final">Statut</target>
+        <note>key: emails_table.status.title</note>
+      </trans-unit>
+      <trans-unit id="552f4ac42b7335dbcb16551f2fda6e9c321bba9a" resname="emails_table.subject.title">
+        <source>Subject</source>
+        <target state="translated">Objet</target>
+        <note>key: emails_table.subject.title</note>
+      </trans-unit>
+      <trans-unit id="64729947e49708adfb736c0ec7d2169b4b74ee5b" resname="jobs_list.active_jobs">
+        <source>Active jobs</source>
+        <target state="translated">Tâches actives</target>
+        <note>key: jobs_list.active_jobs</note>
+      </trans-unit>
+      <trans-unit id="9a22d11076402f1cc8852f83d2e2156fe16b1fce" resname="jobs_list.command">
+        <source>Command</source>
+        <target state="translated">Commande</target>
+        <note>key: jobs_list.command</note>
+      </trans-unit>
+      <trans-unit id="941d61698e2035977f2664f19b7be65cece3acad" resname="jobs_list.id">
+        <source>ID</source>
+        <target state="translated">ID</target>
+        <note>key: jobs_list.id</note>
+      </trans-unit>
+      <trans-unit id="7a0598fc2d481ec39c96a5855c9a5aaf822b7fa4" resname="modal.show_job.arguments">
+        <source>Arguments</source>
+        <target state="translated">Arguments</target>
+        <note>key: modal.show_job.arguments</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

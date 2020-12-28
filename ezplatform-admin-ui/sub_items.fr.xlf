@@ -25,9 +25,6 @@
         <source>Content type</source>
         <target state="translated">Type de Contenu</target>
         <note>key: items_table.header.content_type</note>
-        <alt-trans>
-          <target>Type</target>
-        </alt-trans>
       </trans-unit>
       <trans-unit id="8f1583d031a1cc60061659b8a55291496f0a40c6" resname="items_table.header.modified">
         <source>Modified</source>
