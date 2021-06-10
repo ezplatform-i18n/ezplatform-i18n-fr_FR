@@ -6,9 +6,9 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="fe26119d2e2ecb9e24ec8575fae174ff079a1e16" resname="versions.future">
+      <trans-unit id="fe26119d2e2ecb9e24ec8575fae174ff079a1e16" resname="versions.future" approved="yes">
         <source>FUTURE</source>
-        <target state="translated">FUTUR</target>
+        <target state="final">FUTUR</target>
         <note>key: versions.future</note>
       </trans-unit>
     </body>

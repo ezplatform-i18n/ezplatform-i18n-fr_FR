@@ -6,7 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
+      <trans-unit id="0e70eaeb76b239bd72fbfeff1359fb3dc28d4af7" resname="content.field_type.ezimage.edit">
+        <source>Edit image</source>
+        <target state="translated">Modifier l'image</target>
+        <note>key: content.field_type.ezimage.edit</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

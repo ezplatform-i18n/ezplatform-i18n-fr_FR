@@ -11,11 +11,6 @@
         <target state="translated">Création en cours</target>
         <note>key: creating</note>
       </trans-unit>
-      <trans-unit id="b9b7f78038b71a27e7b4c2d2978a3946bb48c90b" resname="dashboard.create">
-        <source>Create</source>
-        <target state="translated">Créer</target>
-        <note>key: dashboard.create</note>
-      </trans-unit>
       <trans-unit id="8a848dd69c514b773958b84bc5973ce638a8c0c3" resname="edit_site">
         <source>Site "%name%"</source>
         <target state="translated">Site "%name%"</target>
@@ -91,11 +86,6 @@
         <target state="translated">Modification du site "%name%"</target>
         <note>key: site.edit</note>
       </trans-unit>
-      <trans-unit id="c1c77f935e9f4b9c5905d7980fcf0478ffb03753" resname="site.editing">
-        <source>Editing Site "%name%"</source>
-        <target state="translated">Modification du site "%name%"</target>
-        <note>key: site.editing</note>
-      </trans-unit>
       <trans-unit id="aef7dfbda52feec2df0703dc800138796d3b7bfd" resname="site.factory.page.status.building">
         <source>Building...</source>
         <target state="translated">En cours de construction...</target>
@@ -151,35 +141,10 @@
         <target state="translated">Propriétés globales</target>
         <note>key: site.view.create.global_properties</note>
       </trans-unit>
-      <trans-unit id="9476aac8581d0b852a36f6fc0d54fc4f1f3872be" resname="site.view.create.languages.button.add">
-        <source>Add Language</source>
-        <target state="translated">Ajouter une langue</target>
-        <note>key: site.view.create.languages.button.add</note>
-      </trans-unit>
-      <trans-unit id="00f38ed66479eac96a3561c4ad8767afad53b2d4" resname="site.view.create.languages.button.delete">
-        <source>Delete Language(s)</source>
-        <target state="translated">Supprimer la ou les langue(s)</target>
-        <note>key: site.view.create.languages.button.delete</note>
-      </trans-unit>
-      <trans-unit id="a053216e073900892aeaeb1b44532f5b7a135730" resname="site.view.create.languages.empty">
-        <source>No languages are configured for this access</source>
-        <target state="translated">Aucune langue n'est configurée pour cet accès</target>
-        <note>key: site.view.create.languages.empty</note>
-      </trans-unit>
-      <trans-unit id="f531bd3e2b89c1733d22befd2211983c87710773" resname="site.view.create.languages.label.name">
-        <source>Name</source>
-        <target state="translated">Nom</target>
-        <note>key: site.view.create.languages.label.name</note>
-      </trans-unit>
       <trans-unit id="76dcecdd92571da6749c099ff53b2b25ec903466" resname="site.view.create.languages.list.title">
         <source>Select language</source>
         <target state="translated">Sélectionner la langue</target>
         <note>key: site.view.create.languages.list.title</note>
-      </trans-unit>
-      <trans-unit id="4fa6e14f89a9e105c630108ffa6d5f3347b55329" resname="site.view.create.new_public_access.label">
-        <source>New public access</source>
-        <target state="translated">Nouvel accès public</target>
-        <note>key: site.view.create.new_public_access.label</note>
       </trans-unit>
       <trans-unit id="58145f540d76ee074532ff6c3dc82a5697cfd77c" resname="site.view.create.public_access">
         <source>Public access</source>

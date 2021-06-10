@@ -6,28 +6,28 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="1710718593a511e351e6da36e3bb280e532bb768" resname="dashboard.ez_version.community_end_of_maintenance">
+      <trans-unit id="1710718593a511e351e6da36e3bb280e532bb768" resname="dashboard.ez_version.community_end_of_maintenance" approved="yes">
         <source><![CDATA[Unfortunately %release% open source version has reached end of life, <a target="_blank" href="%update_url%">please upgrade</a>.]]></source>
-        <target state="translated"><![CDATA[Malheureusement la version open source %release% a atteint sa fin de vie, <a target="_blank" href="%update_url%">veuillez la mettre à jour</a>.]]></target>
+        <target state="final"><![CDATA[Malheureusement la version open source %release% a atteint sa fin de vie, <a target="_blank" href="%update_url%">veuillez la mettre à jour</a>.]]></target>
         <note>key: dashboard.ez_version.community_end_of_maintenance</note>
       </trans-unit>
-      <trans-unit id="c0d043ecd29c0bdfa32e8bb7faee57111d5ddaf7" resname="dashboard.ez_version.community_end_of_maintenance_upgrade">
+      <trans-unit id="c0d043ecd29c0bdfa32e8bb7faee57111d5ddaf7" resname="dashboard.ez_version.community_end_of_maintenance_upgrade" approved="yes">
         <source><![CDATA[Tip: If you upgrade to eZ Platform Enterprise you'll get access to:
                         <a target="_blank" href="%license_url%">A business friendly license</a>,
                         <a target="_blank" href="%ee_product_url%">several productivity features</a>,
                         <a target="_blank" href="%support_service_url%">professional Support</a> and
                         <a target="_blank" href="%service_life_url%">longer maintenance periode of your release</a>.]]></source>
-        <target state="translated"><![CDATA[Astuce : si vous mettez à niveau votre version vers eZ Platform Enterprise, vous aurez accès à :
+        <target state="final"><![CDATA[Astuce : si vous mettez à niveau votre version vers eZ Platform Enterprise, vous aurez accès à :
                         <a target="_blank" href="%license_url%">Une licence professionnelle</a>,
                         <a target="_blank" href="%ee_product_url%">plusieurs fonctionnalités pour améliorer votre productivité</a>,
                         <a target="_blank" href="%support_service_url%">un support professionnel</a> et
                         <a target="_blank" href="%service_life_url%">une durée de maintenance prolongée de votre version</a>.]]></target>
         <note>key: dashboard.ez_version.community_end_of_maintenance_upgrade</note>
       </trans-unit>
-      <trans-unit id="7eb6ab2973439efa8ff820310952e02bc81209cb" resname="dashboard.ez_version.community_severity_non">
+      <trans-unit id="7eb6ab2973439efa8ff820310952e02bc81209cb" resname="dashboard.ez_version.community_severity_non" approved="yes">
         <source><![CDATA[Welcome to the open source %release% release. Using the community friendly <a target="_blank" href="%license_url%">GPL license</a>,
                     <a target="_blank" href="%gpl_faq_url%">sharing your code</a> is what it's all about.]]></source>
-        <target state="translated"><![CDATA[Bienvenue dans la version open source %release% . Utilisation de la <a target="_blank" href="%license_url%">licence GPL</a> open source,
+        <target state="final"><![CDATA[Bienvenue dans la version open source %release% . Utilisation de la <a target="_blank" href="%license_url%">licence GPL</a> open source,
                     <a target="_blank" href="%gpl_faq_url%">partager librement votre code</a> est tout de ce dont il s'agit.]]></target>
         <note>key: dashboard.ez_version.community_severity_non</note>
       </trans-unit>
@@ -86,9 +86,9 @@
                     ou <a target="_blank" href="%training_url%">les formation</a> pour tirer le maximum de votre version d'essai.]]></target>
         <note>key: dashboard.ez_version.trial_notice</note>
       </trans-unit>
-      <trans-unit id="10afa9a6e250d82f948ea1e6cbcdf7aac8bd7a4b" resname="dashboard.ez_version.trial_expired">
+      <trans-unit id="10afa9a6e250d82f948ea1e6cbcdf7aac8bd7a4b" resname="dashboard.ez_version.trial_expired" approved="yes">
         <source><![CDATA[Unfortunately your trial period has expired and your <a target="_blank" href="%ttl_url%">TTL license</a> is no longer valid.]]></source>
-        <target state="translated"><![CDATA[Malheureusement, votre période d’essai a expiré et votre <a target="_blank" href="%ttl_url%">licence TTL</a> n’est plus valide.]]></target>
+        <target state="final"><![CDATA[Malheureusement, votre période d’essai a expiré et votre <a target="_blank" href="%ttl_url%">licence TTL</a> n’est plus valide.]]></target>
         <note>key: dashboard.ez_version.trial_expired</note>
       </trans-unit>
     </body>

@@ -46,11 +46,6 @@
         <target state="translated">Résultat de la recherche (%total%)</target>
         <note>key: search.header</note>
       </trans-unit>
-      <trans-unit id="1d83218940b91b2cc81ae9d0a694682f6cb04813" resname="search.headline">
-        <source>Search</source>
-        <target state="translated">Rechercher</target>
-        <note>key: search.headline</note>
-      </trans-unit>
       <trans-unit id="2d007a8d9fc080db790dc5c45c12dd369d144fbe" resname="search.last_month">
         <source>Last month</source>
         <target state="translated">Le mois dernier</target>

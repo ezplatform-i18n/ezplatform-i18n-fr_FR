@@ -11,6 +11,31 @@
         <target state="translated">Administration</target>
         <note>key: breadcrumb.admin</note>
       </trans-unit>
+      <trans-unit id="9485989ff514b5106b7738850fd73c23e8c1e3f7" resname="delete">
+        <source>Delete</source>
+        <target state="translated">Supprimer</target>
+        <note>key: delete</note>
+      </trans-unit>
+      <trans-unit id="f2b182ac0f78d68d059e24c6d0364dac9bba1f79" resname="site.action.domain">
+        <source>Open link in browser</source>
+        <target state="translated">Ouvrir le lien dans le navigateur</target>
+        <note>key: site.action.domain</note>
+      </trans-unit>
+      <trans-unit id="81bd5dd3c979d2e3105c77611ce12b16882c4c19" resname="site.label.actions">
+        <source>Actions</source>
+        <target state="translated">Actions</target>
+        <note>key: site.label.actions</note>
+      </trans-unit>
+      <trans-unit id="2e615a5fd6dfb27060236fbda119f04a58b5fcc0" resname="site.label.main_languages">
+        <source>Main languages</source>
+        <target state="translated">Langues principales</target>
+        <note>key: site.label.main_languages</note>
+      </trans-unit>
+      <trans-unit id="28f4324b209c4a68dd684a336b5efc5e38119262" resname="site.label.name">
+        <source>Name</source>
+        <target state="translated">Nom</target>
+        <note>key: site.label.name</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

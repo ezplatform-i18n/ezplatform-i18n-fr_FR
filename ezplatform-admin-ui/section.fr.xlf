@@ -136,11 +136,6 @@
         <target state="translated">Section : %identifier%</target>
         <note>key: section.view.title.identifier</note>
       </trans-unit>
-      <trans-unit id="71f8af5e83f31ae3c618ff2b0d55b63ac131cfa3" resname="section.viewing">
-        <source><![CDATA[Viewing <strong>%viewing%</strong> out of <strong>%total%</strong> items]]></source>
-        <target state="translated"><![CDATA[Affichage de <strong>%viewing%</strong> éléments sur <strong>%total%</strong>]]></target>
-        <note>key: section.viewing</note>
-      </trans-unit>
     </body>
   </file>
 </xliff>

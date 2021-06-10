@@ -36,11 +36,6 @@
         <target state="translated">Les identifiants de section ne peuvent contenir que les lettres "a" à "z", des chiffres et des blancs soulignés.</target>
         <note>key: ez.section.identifier.format</note>
       </trans-unit>
-      <trans-unit id="0727f822c8bebb99cd8a75ec16d4008c74d30b24" resname="ezplatform.change_user_password.not_match">
-        <source>Incorrect current password.</source>
-        <target state="translated">Mot de passe actuel incorrect.</target>
-        <note>key: ezplatform.change_user_password.not_match</note>
-      </trans-unit>
       <trans-unit id="54d912b0089483cfd533714e50262851b6d1421a" resname="ezplatform.change_user_password.passwords_must_match">
         <source>Passwords do not match.</source>
         <target state="translated">Les mots de passe ne sont pas identiques.</target>

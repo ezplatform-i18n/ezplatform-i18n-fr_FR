@@ -36,11 +36,6 @@
         <target state="translated">Dossier</target>
         <note>key: Folder|search</note>
       </trans-unit>
-      <trans-unit id="1e51172c998063eeeab701f00044088f8563492d" resname="basket.widget.total">
-        <source>Total</source>
-        <target state="translated">Total</target>
-        <note>key: basket.widget.total</note>
-      </trans-unit>
       <trans-unit id="a88b7dcd1a9e3e17770bbaa6d7515b31a2d7e85d" resname="email">
         <source>email</source>
         <target state="translated">e-mail</target>

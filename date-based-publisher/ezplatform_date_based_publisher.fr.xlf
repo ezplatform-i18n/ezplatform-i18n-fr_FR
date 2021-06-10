@@ -6,34 +6,34 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="f48c4e472bd9e86a066060225f621949424f2b81" resname="reschedule.error.message">
+      <trans-unit id="f48c4e472bd9e86a066060225f621949424f2b81" resname="reschedule.error.message" approved="yes">
         <source>An unexpected error occurred while rescheduling the selected draft(s). Please try again.</source>
-        <target state="translated">Une erreur inattendue s'est produite lors de la replanification du(des) brouillon(s) sélectionné(s). Veuillez réessayer plus tard.</target>
+        <target state="final">Une erreur inattendue s'est produite lors de la replanification du(des) brouillon(s) sélectionné(s). Veuillez réessayer plus tard.</target>
         <note>key: reschedule.error.message</note>
       </trans-unit>
-      <trans-unit id="3e7c7f7ed781f0f39037d2b9e624196918bfd739" resname="reschedule.fail.message">
+      <trans-unit id="3e7c7f7ed781f0f39037d2b9e624196918bfd739" resname="reschedule.fail.message" approved="yes">
         <source>%failedCount% out of %totalCount% selected drafts could not be rescheduled. Please try again.</source>
-        <target state="translated">%failedCount% des %totalCount% brouillons sélectionnés n'ont pas pu être replanifiés. Veuillez réessayer.</target>
+        <target state="final">%failedCount% des %totalCount% brouillons sélectionnés n'ont pas pu être replanifiés. Veuillez réessayer.</target>
         <note>key: reschedule.fail.message</note>
       </trans-unit>
-      <trans-unit id="cad872e276597b29864f43d081afa4be3aee742e" resname="reschedule.success.message">
+      <trans-unit id="cad872e276597b29864f43d081afa4be3aee742e" resname="reschedule.success.message" approved="yes">
         <source>Rescheduled all drafts.</source>
-        <target state="translated">Tous les brouillons ont été replanifiés.</target>
+        <target state="final">Tous les brouillons ont été replanifiés.</target>
         <note>key: reschedule.success.message</note>
       </trans-unit>
-      <trans-unit id="efe280f52ff7d384892d51a05ca8fe577ab73d78" resname="unschedule.error.message">
+      <trans-unit id="efe280f52ff7d384892d51a05ca8fe577ab73d78" resname="unschedule.error.message" approved="yes">
         <source>An error occurred while removing the selected publication dates. Please try again.</source>
-        <target state="translated">Une erreur s'est produite lors de la suppression des dates de publication sélectionnées. Veuillez réessayer.</target>
+        <target state="final">Une erreur s'est produite lors de la suppression des dates de publication sélectionnées. Veuillez réessayer.</target>
         <note>key: unschedule.error.message</note>
       </trans-unit>
-      <trans-unit id="505c2e16d2d41c2b03c225ee8fa809135f20f30e" resname="unschedule.fail.message">
+      <trans-unit id="505c2e16d2d41c2b03c225ee8fa809135f20f30e" resname="unschedule.fail.message" approved="yes">
         <source>%failedCount% out of %totalCount% selected publication dates could not be removed. Please try again.</source>
-        <target state="translated">%failedCount% des %totalCount% publications sélectionnés n'ont pas pu être replanifiées. Veuillez réessayer.</target>
+        <target state="final">%failedCount% des %totalCount% publications sélectionnés n'ont pas pu être replanifiées. Veuillez réessayer.</target>
         <note>key: unschedule.fail.message</note>
       </trans-unit>
-      <trans-unit id="fb26c08c460347ee25626a016ff11a9accbe08a6" resname="unschedule.success.message">
+      <trans-unit id="fb26c08c460347ee25626a016ff11a9accbe08a6" resname="unschedule.success.message" approved="yes">
         <source>Removed all selected publication dates.</source>
-        <target state="translated">Toutes les dates de publication sélectionnées ont été supprimées.</target>
+        <target state="final">Toutes les dates de publication sélectionnées ont été supprimées.</target>
         <note>key: unschedule.success.message</note>
       </trans-unit>
     </body>

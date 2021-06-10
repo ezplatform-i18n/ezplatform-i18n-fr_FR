@@ -36,11 +36,6 @@
         <target state="final">File d'attente</target>
         <note>key: dashboard.block.review_queue.title</note>
       </trans-unit>
-      <trans-unit id="221444732b869f8a1a4139d1fa9eb119698c1e54" resname="dashboard.pagination.viewing" approved="yes">
-        <source><![CDATA[Viewing <strong>%viewing%</strong> out of <strong>%total%</strong> items]]></source>
-        <target state="final"><![CDATA[Affichage de <strong>%viewing%</strong> sur <strong>%total%</strong> éléments]]></target>
-        <note>key: dashboard.pagination.viewing</note>
-      </trans-unit>
       <trans-unit id="03b3eebd6de51e6ab83ae31dd89afb4be4d487aa" resname="dashboard.tab.my_drafts_under_review.empty" approved="yes">
         <source>No content to review. Content item(s) you or your User group can review will show up here.</source>
         <target state="final">Aucun contenu à relire. Le(s) élément(s) de contenu que vous ou votre groupe d'utilisateurs pouvez consulter apparaîtront ici.</target>
@@ -210,11 +205,6 @@
         <source>Workflow</source>
         <target state="final">Workflow</target>
         <note>key: workflow.list.title</note>
-      </trans-unit>
-      <trans-unit id="60defc14349bf190fd343945bba1ea4a5257e96f" resname="workflow.list.viewing" approved="yes">
-        <source><![CDATA[Viewing <strong>%viewing%</strong> out of <strong>%total%</strong> items]]></source>
-        <target state="final"><![CDATA[Affichage de <strong>%viewing%</strong> sur <strong>%total%</strong> éléments]]></target>
-        <note>key: workflow.list.viewing</note>
       </trans-unit>
       <trans-unit id="434e7197d8ef9a80bded55e3eeec99ed5d1b28eb" resname="workflow.view.content_list.table.content_type" approved="yes">
         <source>Content Type</source>

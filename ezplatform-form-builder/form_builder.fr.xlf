@@ -21,11 +21,6 @@
         <target state="translated">Sélectionnez l'emplacement</target>
         <note>key: attribute.location.select_location</note>
       </trans-unit>
-      <trans-unit id="f1e1b8bb7e1d4a685e7dd441f107206a8e2505aa" resname="create.form">
-        <source>Create a form</source>
-        <target state="translated">Créer un formulaire</target>
-        <note>key: create.form</note>
-      </trans-unit>
       <trans-unit id="3f906d4d0bd35a175f501ab96fc7d4c2b2c3ec71" resname="drag.drop.call.to.action">
         <source>Create a form by dragging elements here</source>
         <target state="translated">Créer un formulaire en faisant glisser des éléments ici</target>

@@ -46,6 +46,11 @@
         <target state="translated">Si non coché, l'alias ne redirigera pas vers la destination et l'URL restera la même.</target>
         <note>key: tab.urls.add.redirect.helper.unchecked</note>
       </trans-unit>
+      <trans-unit id="f933f01aef7b171904b5c0b1ed4327413828f96f" resname="tab.urls.add.site_access">
+        <source>SiteAccess</source>
+        <target state="translated">SiteAccess</target>
+        <note>key: tab.urls.add.site_access</note>
+      </trans-unit>
       <trans-unit id="9ef990fca45f612ab2d3af7b21968803d76d5d77" resname="tab.urls.add.site_root">
         <source>Place at the site root</source>
         <target state="translated">Placer l'alias d'URL à la racine du site</target>

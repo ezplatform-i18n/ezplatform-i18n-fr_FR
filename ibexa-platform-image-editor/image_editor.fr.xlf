@@ -6,36 +6,21 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="e8a1110c060cdbf254f17e3570d112845e0be036" resname="image_editor.actions.crop.apply">
+        <source>Apply</source>
+        <target state="translated">Appliquer</target>
+        <note>key: image_editor.actions.crop.apply</note>
+      </trans-unit>
+      <trans-unit id="8f18dae80b35c667f5078299dfef8eab35468e1f" resname="image_editor.cancel">
+        <source>Cancel</source>
+        <target state="translated">Annuler</target>
+        <note>key: image_editor.cancel</note>
+      </trans-unit>
+      <trans-unit id="663f0903b964c2ce77933a71874b5698671e9fac" resname="image_editor.close">
+        <source>Close</source>
+        <target state="translated">Fermer</target>
+        <note>key: image_editor.close</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

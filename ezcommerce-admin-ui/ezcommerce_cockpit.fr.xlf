@@ -6,14 +6,14 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="95152a121b383f5dd34363055566146f0a9d2398" resname="breadcrumb.ecommerce" approved="yes">
+      <trans-unit id="95152a121b383f5dd34363055566146f0a9d2398" resname="breadcrumb.ecommerce">
         <source>e-commerce</source>
-        <target state="final">e-commerce</target>
+        <target state="translated">e-commerce</target>
         <note>key: breadcrumb.ecommerce</note>
       </trans-unit>
-      <trans-unit id="0f67ad424c6bec3e6ffb8cb6f644c932e1536c30" resname="cockpit.breadcrumb.cockpit">
+      <trans-unit id="0f67ad424c6bec3e6ffb8cb6f644c932e1536c30" resname="cockpit.breadcrumb.cockpit" approved="yes">
         <source>Cockpit</source>
-        <target state="translated">Cockpit</target>
+        <target state="final">Cockpit</target>
         <note>key: cockpit.breadcrumb.cockpit</note>
       </trans-unit>
       <trans-unit id="0dcc20efa4447b51beec0f49763eb587f07ebf7a" resname="cockpit.filters.currency" approved="yes">
@@ -26,19 +26,19 @@
         <target state="final">Boutique</target>
         <note>key: cockpit.filters.shop_id</note>
       </trans-unit>
-      <trans-unit id="50c380badd9919619702b2f36588622c7ec439bf" resname="cockpit.page_title">
+      <trans-unit id="50c380badd9919619702b2f36588622c7ec439bf" resname="cockpit.page_title" approved="yes">
         <source>Cockpit</source>
-        <target state="translated">Cockpit</target>
+        <target state="final">Cockpit</target>
         <note>key: cockpit.page_title</note>
       </trans-unit>
-      <trans-unit id="0ef8fe6b2c548406af5af4373a0e6c4a2014df14" resname="cockpit.products.and.sales.bestsellers">
+      <trans-unit id="0ef8fe6b2c548406af5af4373a0e6c4a2014df14" resname="cockpit.products.and.sales.bestsellers" approved="yes">
         <source>Bestsellers</source>
-        <target state="translated">Meilleures ventes</target>
+        <target state="final">Meilleures ventes</target>
         <note>key: cockpit.products.and.sales.bestsellers</note>
       </trans-unit>
-      <trans-unit id="ae6b50cdc6f39873a9c4ea3c1410a0f781b327d9" resname="cockpit.products.and.sales.count">
+      <trans-unit id="ae6b50cdc6f39873a9c4ea3c1410a0f781b327d9" resname="cockpit.products.and.sales.count" approved="yes">
         <source>Count</source>
-        <target state="translated">Nombre</target>
+        <target state="final">Nombre</target>
         <note>key: cockpit.products.and.sales.count</note>
       </trans-unit>
       <trans-unit id="4c7f45850df925296cfcd12a2dbaff59cafed92e" resname="cockpit.products.and.sales.currency" approved="yes">
@@ -46,199 +46,199 @@
         <target state="final">Devise</target>
         <note>key: cockpit.products.and.sales.currency</note>
       </trans-unit>
-      <trans-unit id="0b9ee5e7227f972059ea84e95581bb2ea956633f" resname="cockpit.products.and.sales.customer.name">
+      <trans-unit id="0b9ee5e7227f972059ea84e95581bb2ea956633f" resname="cockpit.products.and.sales.customer.name" approved="yes">
         <source>Customer name</source>
-        <target state="translated">Nom du Client</target>
+        <target state="final">Nom du Client</target>
         <note>key: cockpit.products.and.sales.customer.name</note>
       </trans-unit>
-      <trans-unit id="91ed41b6355866179cd572f68b8ab703e773553a" resname="cockpit.products.and.sales.date.time">
+      <trans-unit id="91ed41b6355866179cd572f68b8ab703e773553a" resname="cockpit.products.and.sales.date.time" approved="yes">
         <source>Date/Time</source>
-        <target state="translated">Date / Heure</target>
+        <target state="final">Date / Heure</target>
         <note>key: cockpit.products.and.sales.date.time</note>
       </trans-unit>
-      <trans-unit id="abba096a63720abefa64d5fc146d4deadd2a295c" resname="cockpit.products.and.sales.last.orders" approved="yes">
+      <trans-unit id="abba096a63720abefa64d5fc146d4deadd2a295c" resname="cockpit.products.and.sales.last.orders">
         <source>Last orders</source>
-        <target state="final">Dernières commandes</target>
+        <target state="translated">Dernières commandes</target>
         <note>key: cockpit.products.and.sales.last.orders</note>
       </trans-unit>
-      <trans-unit id="7a8b70ab33add2a710d124e144b35d4a02ff89fb" resname="cockpit.products.and.sales.nest.clients">
+      <trans-unit id="7a8b70ab33add2a710d124e144b35d4a02ff89fb" resname="cockpit.products.and.sales.nest.clients" approved="yes">
         <source>Best clients</source>
-        <target state="translated">Meilleurs clients</target>
+        <target state="final">Meilleurs clients</target>
         <note>key: cockpit.products.and.sales.nest.clients</note>
       </trans-unit>
-      <trans-unit id="301931207640b4613882f87042b52b5e4bd1df89" resname="cockpit.products.and.sales.product.name">
+      <trans-unit id="301931207640b4613882f87042b52b5e4bd1df89" resname="cockpit.products.and.sales.product.name" approved="yes">
         <source>Product name</source>
-        <target state="translated">Nom du produit</target>
+        <target state="final">Nom du produit</target>
         <note>key: cockpit.products.and.sales.product.name</note>
       </trans-unit>
-      <trans-unit id="8bed8f6587de270802a12a5ac822520396d6f20d" resname="cockpit.products.and.sales.sku">
+      <trans-unit id="8bed8f6587de270802a12a5ac822520396d6f20d" resname="cockpit.products.and.sales.sku" approved="yes">
         <source>SKU</source>
-        <target state="translated">SKU</target>
+        <target state="final">SKU</target>
         <note>key: cockpit.products.and.sales.sku</note>
       </trans-unit>
-      <trans-unit id="61fdd78a9584bbb69377cb506e98bca0e83c7848" resname="cockpit.products.and.sales.total.sales">
+      <trans-unit id="61fdd78a9584bbb69377cb506e98bca0e83c7848" resname="cockpit.products.and.sales.total.sales" approved="yes">
         <source>Total sales</source>
-        <target state="translated">Ventes totales</target>
+        <target state="final">Ventes totales</target>
         <note>key: cockpit.products.and.sales.total.sales</note>
       </trans-unit>
-      <trans-unit id="80fb415b9e3f9d34e664ff9011047d3f591f961d" resname="cockpit.sales.and.orders.filters.custom.range">
+      <trans-unit id="80fb415b9e3f9d34e664ff9011047d3f591f961d" resname="cockpit.sales.and.orders.filters.custom.range" approved="yes">
         <source>Custom range</source>
-        <target state="translated">Intervalle personnalisé</target>
+        <target state="final">Intervalle personnalisé</target>
         <note>key: cockpit.sales.and.orders.filters.custom.range</note>
       </trans-unit>
-      <trans-unit id="3cf1cdabcd7fc7fc33f18d2e311b8f65220beb62" resname="cockpit.sales.and.orders.filters.date.from">
+      <trans-unit id="3cf1cdabcd7fc7fc33f18d2e311b8f65220beb62" resname="cockpit.sales.and.orders.filters.date.from" approved="yes">
         <source>Date from</source>
-        <target state="translated">À partir du</target>
+        <target state="final">À partir du</target>
         <note>key: cockpit.sales.and.orders.filters.date.from</note>
       </trans-unit>
-      <trans-unit id="1f91643f1ee4012a81eab5179f2e3edcb451fda3" resname="cockpit.sales.and.orders.filters.date.to">
+      <trans-unit id="1f91643f1ee4012a81eab5179f2e3edcb451fda3" resname="cockpit.sales.and.orders.filters.date.to" approved="yes">
         <source>Date to</source>
-        <target state="translated">Jusqu'au</target>
+        <target state="final">Jusqu'au</target>
         <note>key: cockpit.sales.and.orders.filters.date.to</note>
       </trans-unit>
-      <trans-unit id="21303cda2bc7ef912ba4df49cd7493d6f8967223" resname="cockpit.sales.and.orders.filters.last.14">
+      <trans-unit id="21303cda2bc7ef912ba4df49cd7493d6f8967223" resname="cockpit.sales.and.orders.filters.last.14" approved="yes">
         <source>Last 14 days</source>
-        <target state="translated">14 derniers jours</target>
+        <target state="final">14 derniers jours</target>
         <note>key: cockpit.sales.and.orders.filters.last.14</note>
       </trans-unit>
-      <trans-unit id="cd9635d37ec1b3032c61430a97094f612952a151" resname="cockpit.sales.and.orders.filters.last.30">
+      <trans-unit id="cd9635d37ec1b3032c61430a97094f612952a151" resname="cockpit.sales.and.orders.filters.last.30" approved="yes">
         <source>Last 30 days</source>
-        <target state="translated">30 derniers jours</target>
+        <target state="final">30 derniers jours</target>
         <note>key: cockpit.sales.and.orders.filters.last.30</note>
       </trans-unit>
-      <trans-unit id="476f5762630c0244db01aaaa39ce65dd544a3634" resname="cockpit.sales.and.orders.filters.last.7">
+      <trans-unit id="476f5762630c0244db01aaaa39ce65dd544a3634" resname="cockpit.sales.and.orders.filters.last.7" approved="yes">
         <source>Last 7 days</source>
-        <target state="translated">7 Derniers Jours</target>
+        <target state="final">7 Derniers Jours</target>
         <note>key: cockpit.sales.and.orders.filters.last.7</note>
       </trans-unit>
-      <trans-unit id="2714c276cc28425ca4de2b0bbf79a088f734a661" resname="cockpit.sales.and.orders.filters.predefined">
+      <trans-unit id="2714c276cc28425ca4de2b0bbf79a088f734a661" resname="cockpit.sales.and.orders.filters.predefined" approved="yes">
         <source>Predefined</source>
-        <target state="translated">Prédéfini</target>
+        <target state="final">Prédéfini</target>
         <note>key: cockpit.sales.and.orders.filters.predefined</note>
       </trans-unit>
-      <trans-unit id="d01778da44cc4128afb60706a25e6818b2044a83" resname="cockpit.sales.and.orders.filters.this.month">
+      <trans-unit id="d01778da44cc4128afb60706a25e6818b2044a83" resname="cockpit.sales.and.orders.filters.this.month" approved="yes">
         <source>This month</source>
-        <target state="translated">Ce mois</target>
+        <target state="final">Ce mois</target>
         <note>key: cockpit.sales.and.orders.filters.this.month</note>
       </trans-unit>
-      <trans-unit id="e9621f090e732e7cffa4b2a41db7191d7cd42abc" resname="cockpit.sales.and.orders.filters.this.week">
+      <trans-unit id="e9621f090e732e7cffa4b2a41db7191d7cd42abc" resname="cockpit.sales.and.orders.filters.this.week" approved="yes">
         <source>This week</source>
-        <target state="translated">Cette semaine</target>
+        <target state="final">Cette semaine</target>
         <note>key: cockpit.sales.and.orders.filters.this.week</note>
       </trans-unit>
-      <trans-unit id="011f32815060afd2da7dbf6fd0a949a5f620a3ea" resname="cockpit.sales.and.orders.orders">
+      <trans-unit id="011f32815060afd2da7dbf6fd0a949a5f620a3ea" resname="cockpit.sales.and.orders.orders" approved="yes">
         <source>Orders</source>
-        <target state="translated">Commandes</target>
+        <target state="final">Commandes</target>
         <note>key: cockpit.sales.and.orders.orders</note>
       </trans-unit>
-      <trans-unit id="5da919c3a01e916471c50203d02cdbf8731a43cc" resname="cockpit.sales.and.orders.sales">
+      <trans-unit id="5da919c3a01e916471c50203d02cdbf8731a43cc" resname="cockpit.sales.and.orders.sales" approved="yes">
         <source>Sales</source>
-        <target state="translated">Ventes</target>
+        <target state="final">Ventes</target>
         <note>key: cockpit.sales.and.orders.sales</note>
       </trans-unit>
-      <trans-unit id="628806852fdb1b2466082f0616a78b1340d0f1fc" resname="cockpit.sales.and.orders.total.orders">
+      <trans-unit id="628806852fdb1b2466082f0616a78b1340d0f1fc" resname="cockpit.sales.and.orders.total.orders" approved="yes">
         <source>Total Orders</source>
-        <target state="translated">Nombre total de commandes</target>
+        <target state="final">Nombre total de commandes</target>
         <note>key: cockpit.sales.and.orders.total.orders</note>
       </trans-unit>
-      <trans-unit id="5eb7403a19d80d8786f28aeaaa8f18866d1df5a8" resname="cockpit.sales.and.orders.total.sales">
+      <trans-unit id="5eb7403a19d80d8786f28aeaaa8f18866d1df5a8" resname="cockpit.sales.and.orders.total.sales" approved="yes">
         <source>Total Sales</source>
-        <target state="translated">Nombre total de ventes</target>
+        <target state="final">Nombre total de ventes</target>
         <note>key: cockpit.sales.and.orders.total.sales</note>
       </trans-unit>
-      <trans-unit id="dde35573bce4e5426192fc34863f5aff59f6f596" resname="cockpit.search.date.time">
+      <trans-unit id="dde35573bce4e5426192fc34863f5aff59f6f596" resname="cockpit.search.date.time" approved="yes">
         <source>Date/Time</source>
-        <target state="translated">Date / Heure</target>
+        <target state="final">Date / Heure</target>
         <note>key: cockpit.search.date.time</note>
       </trans-unit>
-      <trans-unit id="983d2867d87387edc164e7443f30b1a3685f5824" resname="cockpit.search.hits">
+      <trans-unit id="983d2867d87387edc164e7443f30b1a3685f5824" resname="cockpit.search.hits" approved="yes">
         <source>Hits</source>
-        <target state="translated">Résultats</target>
+        <target state="final">Résultats</target>
         <note>key: cockpit.search.hits</note>
       </trans-unit>
-      <trans-unit id="d706aac42be568ed6ff97ea55ca6d78fd0a9df36" resname="cockpit.search.last.search.terms">
+      <trans-unit id="d706aac42be568ed6ff97ea55ca6d78fd0a9df36" resname="cockpit.search.last.search.terms" approved="yes">
         <source>Last search terms</source>
-        <target state="translated">Derniers termes recherchés</target>
+        <target state="final">Derniers termes recherchés</target>
         <note>key: cockpit.search.last.search.terms</note>
       </trans-unit>
-      <trans-unit id="20eec11e0a14b52c0edf902eaf69a73dbae29cc3" resname="cockpit.search.most.search.terms.with.less.hits">
+      <trans-unit id="20eec11e0a14b52c0edf902eaf69a73dbae29cc3" resname="cockpit.search.most.search.terms.with.less.hits" approved="yes">
         <source>Most searched terms with less hits</source>
-        <target state="translated">Termes les plus recherchés avec le moins de résultats</target>
+        <target state="final">Termes les plus recherchés avec le moins de résultats</target>
         <note>key: cockpit.search.most.search.terms.with.less.hits</note>
       </trans-unit>
-      <trans-unit id="c4a3d089fbbaa1752d17db865cf9732a3017287f" resname="cockpit.search.search.term">
+      <trans-unit id="c4a3d089fbbaa1752d17db865cf9732a3017287f" resname="cockpit.search.search.term" approved="yes">
         <source>Search Term</source>
-        <target state="translated">Terme de recherche</target>
+        <target state="final">Terme de recherche</target>
         <note>key: cockpit.search.search.term</note>
       </trans-unit>
-      <trans-unit id="a82617a0e3350ff85bebfda358c9c429e352a284" resname="cockpit.search.times.searched">
+      <trans-unit id="a82617a0e3350ff85bebfda358c9c429e352a284" resname="cockpit.search.times.searched" approved="yes">
         <source>Times Searched</source>
-        <target state="translated">Nombre de fois recherchés</target>
+        <target state="final">Nombre de fois recherchés</target>
         <note>key: cockpit.search.times.searched</note>
       </trans-unit>
-      <trans-unit id="75d2fd8d347ccb9978352f01646a821b0154a17b" resname="cockpit.search.top.search.terms">
+      <trans-unit id="75d2fd8d347ccb9978352f01646a821b0154a17b" resname="cockpit.search.top.search.terms" approved="yes">
         <source>Top search terms</source>
-        <target state="translated">Termes les plus recherchés</target>
+        <target state="final">Termes les plus recherchés</target>
         <note>key: cockpit.search.top.search.terms</note>
       </trans-unit>
-      <trans-unit id="94ba186b55da88f121789c0eefe0d60dd892072a" resname="cockpit.status.active.shopping.cards">
+      <trans-unit id="94ba186b55da88f121789c0eefe0d60dd892072a" resname="cockpit.status.active.shopping.cards" approved="yes">
         <source>Active shopping carts</source>
-        <target state="translated">Paniers actifs</target>
+        <target state="final">Paniers actifs</target>
         <note>key: cockpit.status.active.shopping.cards</note>
       </trans-unit>
-      <trans-unit id="a7503b9e224bb18ca0925a38cb349f62085692df" resname="cockpit.status.erp.connected">
+      <trans-unit id="a7503b9e224bb18ca0925a38cb349f62085692df" resname="cockpit.status.erp.connected" approved="yes">
         <source>Connected</source>
-        <target state="translated">Connecté</target>
+        <target state="final">Connecté</target>
         <note>key: cockpit.status.erp.connected</note>
       </trans-unit>
-      <trans-unit id="0706a239341164c78692754dbc66b1d95604d3b2" resname="cockpit.status.erp.no.connection">
+      <trans-unit id="0706a239341164c78692754dbc66b1d95604d3b2" resname="cockpit.status.erp.no.connection" approved="yes">
         <source>No connection</source>
-        <target state="translated">Aucune connexion</target>
+        <target state="final">Aucune connexion</target>
         <note>key: cockpit.status.erp.no.connection</note>
       </trans-unit>
-      <trans-unit id="912dc7eda940622327f0682e6901663840fb0378" resname="cockpit.status.erp.status">
+      <trans-unit id="912dc7eda940622327f0682e6901663840fb0378" resname="cockpit.status.erp.status" approved="yes">
         <source>ERP status</source>
-        <target state="translated">Statut de l'ERP</target>
+        <target state="final">Statut de l'ERP</target>
         <note>key: cockpit.status.erp.status</note>
       </trans-unit>
-      <trans-unit id="5e71eeaa4f15c2ad1b10024be3bc68222949f036" resname="cockpit.status.hdd.usage">
+      <trans-unit id="5e71eeaa4f15c2ad1b10024be3bc68222949f036" resname="cockpit.status.hdd.usage" approved="yes">
         <source>HDD usage</source>
-        <target state="translated">Consommation HDD</target>
+        <target state="final">Consommation HDD</target>
         <note>key: cockpit.status.hdd.usage</note>
       </trans-unit>
-      <trans-unit id="e00a8454d8decadbf0270cbcf5e23f2a930a0178" resname="cockpit.status.no.of.customers">
+      <trans-unit id="e00a8454d8decadbf0270cbcf5e23f2a930a0178" resname="cockpit.status.no.of.customers" approved="yes">
         <source>Total no. of customers</source>
-        <target state="translated">Nombre total de clients</target>
+        <target state="final">Nombre total de clients</target>
         <note>key: cockpit.status.no.of.customers</note>
       </trans-unit>
-      <trans-unit id="add69cb813e10a594ab4003c0b451157c7a876eb" resname="cockpit.status.no.of.products">
+      <trans-unit id="add69cb813e10a594ab4003c0b451157c7a876eb" resname="cockpit.status.no.of.products" approved="yes">
         <source>Total no. of products</source>
-        <target state="translated">Nombre total de produits</target>
+        <target state="final">Nombre total de produits</target>
         <note>key: cockpit.status.no.of.products</note>
       </trans-unit>
-      <trans-unit id="a6af165fe817698216e87cf8dd45e6c3a2247d7e" resname="cockpit.status.server.load">
+      <trans-unit id="a6af165fe817698216e87cf8dd45e6c3a2247d7e" resname="cockpit.status.server.load" approved="yes">
         <source>Server load</source>
-        <target state="translated">Charge du serveur</target>
+        <target state="final">Charge du serveur</target>
         <note>key: cockpit.status.server.load</note>
       </trans-unit>
-      <trans-unit id="ab04105174358a38dc1c4b5343df857da4ffaa09" resname="cockpit.tabs.products_and_sales.title">
+      <trans-unit id="ab04105174358a38dc1c4b5343df857da4ffaa09" resname="cockpit.tabs.products_and_sales.title" approved="yes">
         <source>Products and Sales</source>
-        <target state="translated">Produits et Ventes</target>
+        <target state="final">Produits et Ventes</target>
         <note>key: cockpit.tabs.products_and_sales.title</note>
       </trans-unit>
-      <trans-unit id="1861a9afdb5b1d04d29b62c8441f617fb2fc3cb1" resname="cockpit.tabs.sales_and_orders.title">
+      <trans-unit id="1861a9afdb5b1d04d29b62c8441f617fb2fc3cb1" resname="cockpit.tabs.sales_and_orders.title" approved="yes">
         <source>Sales and Orders</source>
-        <target state="translated">Ventes et Commandes</target>
+        <target state="final">Ventes et Commandes</target>
         <note>key: cockpit.tabs.sales_and_orders.title</note>
       </trans-unit>
-      <trans-unit id="f230ea1e8d6a490c1688fd782ca6cf7fd8b04e6d" resname="cockpit.tabs.search.title">
+      <trans-unit id="f230ea1e8d6a490c1688fd782ca6cf7fd8b04e6d" resname="cockpit.tabs.search.title" approved="yes">
         <source>Search</source>
-        <target state="translated">Rechercher</target>
+        <target state="final">Rechercher</target>
         <note>key: cockpit.tabs.search.title</note>
       </trans-unit>
-      <trans-unit id="32af80f056fb97532cbe7b21556c4e73dc76193b" resname="cockpit.tabs.status.title">
+      <trans-unit id="32af80f056fb97532cbe7b21556c4e73dc76193b" resname="cockpit.tabs.status.title" approved="yes">
         <source>Status</source>
-        <target state="translated">Statut</target>
+        <target state="final">Statut</target>
         <note>key: cockpit.tabs.status.title</note>
       </trans-unit>
     </body>

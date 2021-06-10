@@ -21,13 +21,13 @@
         <target state="final">Paramètres de configuration</target>
         <note>key: configuration_settings.breadcrumb.configuration_settings</note>
       </trans-unit>
-      <trans-unit id="70702a864e8dc5221c332b34e68961b52b77aa45" resname="configuration_settings.description">
+      <trans-unit id="70702a864e8dc5221c332b34e68961b52b77aa45" resname="configuration_settings.description" approved="yes">
         <source><![CDATA[The tabs displayed are depending on the siteaccesses that are configured for your shop.
                                 The main tab contains the central configuration options for the default settings that can be set by the shop admin.
                                 Make sure to set the country specific configuration as they overwrite the default settings!<br /><br />
                                 In case of problems please check the <a href="%url%">stored configuration</a><br />
                                 If you are looking for price and stock management go to <a href="%priceAndStockUrl%">price and stock management</a>]]></source>
-        <target state="translated"><![CDATA[Les onglets affichés dépendent des accès au site qui sont configurés pour votre boutique.
+        <target state="final"><![CDATA[Les onglets affichés dépendent des accès au site qui sont configurés pour votre boutique.
                                 L'onglet principal contient les options de configuration centrale pour les paramètres par défaut qui peuvent être définis par l'administrateur de la boutique.
                                 Assurez-vous de définir la configuration spécifique au pays car ils écrasent les paramètres par défaut !<br /><br />
                                 En cas de problème veuillez vérifier la <a href="%url%">configuration stockée</a><br />

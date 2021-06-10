@@ -76,16 +76,6 @@
         <target state="translated">URL du connecteur Web</target>
         <note>key: web_connector.service_location|config</note>
       </trans-unit>
-      <trans-unit id="5a5293d841200139604abc0f546adb475ca09411" resname="webconnector.password|description">
-        <source>Password for the communication with the Web-Connector service</source>
-        <target state="translated">Mot de passe pour la communication avec le service Web-Connector</target>
-        <note>key: webconnector.password|description</note>
-      </trans-unit>
-      <trans-unit id="477f1d25cf2cf78a6f540d98847c2862564e0b91" resname="webconnector.username|description">
-        <source>User name for the communication with the Web-Connector service</source>
-        <target state="translated">Nom d'utilisateur pour la communication avec le service Web-Connector</target>
-        <note>key: webconnector.username|description</note>
-      </trans-unit>
     </body>
   </file>
 </xliff>
