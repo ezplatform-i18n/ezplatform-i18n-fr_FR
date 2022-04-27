@@ -34,10 +34,60 @@
                                 Si vous recherchez la gestion des prix et des stocks aller à <a href="%priceAndStockUrl%">la gestion des prix et des stocks</a>]]></target>
         <note>key: configuration_settings.description</note>
       </trans-unit>
+      <trans-unit id="ceb63d083a6b21f21e3f8276c337305f247459d7" resname="configuration_settings.group_descriptions.b2b">
+        <source>Choose advanced shop feature settings</source>
+        <target state="translated">Choisissez les paramètres avancés de la boutique</target>
+        <note>key: configuration_settings.group_descriptions.b2b</note>
+      </trans-unit>
+      <trans-unit id="dfbeaf18e200edb19f86eddf89ddb64393ce17b1" resname="configuration_settings.group_descriptions.basket">
+        <source>Define detailed behaviour for the basket.</source>
+        <target state="translated">Définir le comportement du panier</target>
+        <note>key: configuration_settings.group_descriptions.basket</note>
+      </trans-unit>
+      <trans-unit id="f9ec9d156fa442c0f4913c038397e54324bbe2cb" resname="configuration_settings.group_descriptions.catalog">
+        <source>Define details for structure and layout of the catalog</source>
+        <target state="translated">Définir les détails de la structure et de la mise en page du catalogue</target>
+        <note>key: configuration_settings.group_descriptions.catalog</note>
+      </trans-unit>
+      <trans-unit id="1d24003cd398959d198d336b334a91fcad8285c6" resname="configuration_settings.group_descriptions.checkout">
+        <source>Configure your paymant and shipping methods. Paypal requires an account.</source>
+        <target state="translated">Configurez vos modes de paiement et de livraison. Paypal nécessite un compte.</target>
+        <note>key: configuration_settings.group_descriptions.checkout</note>
+      </trans-unit>
+      <trans-unit id="185fb2a3838662e19e3be6f638b93ab03c4af387" resname="configuration_settings.group_descriptions.erp">
+        <source>Define the details of data exchange and processes between your shop and ERP. ERP requires a web.connector licence.</source>
+        <target state="translated">Définissez les détails de l'échange de données et les processus entre votre boutique et votre ERP. Votre ERP nécessite une licence web.connector.</target>
+        <note>key: configuration_settings.group_descriptions.erp</note>
+      </trans-unit>
+      <trans-unit id="2b15f4f5bec51193fe3d9171f79bb25445ad8665" resname="configuration_settings.group_descriptions.fallback_local_price">
+        <source>Fallback configuration for price engine. It is used, if no shipping costs are set in price and stock management.</source>
+        <target state="translated">La configuration de repli pour le moteur de prix. Elle est utilisée, si aucun coût d'expédition n'est fixé dans la gestion des prix et des stocks.</target>
+        <note>key: configuration_settings.group_descriptions.fallback_local_price</note>
+      </trans-unit>
+      <trans-unit id="1fc718ba53e36b8629a374f1bb8ea9dba2a2fe38" resname="configuration_settings.group_descriptions.mail and newsletter">
+        <source>Newsletter2go requires the activation of a seperate plugin and an account with Newsletter2go.</source>
+        <target state="translated">Newsletter2go nécessite l'activation d'un plugin séparé et d'un compte avec Newsletter2go.</target>
+        <note>key: configuration_settings.group_descriptions.mail and newsletter</note>
+      </trans-unit>
       <trans-unit id="878202c3163fb973d0608bea2bca60e472b55dce" resname="configuration_settings.group_descriptions.miscellaneous">
         <source>Define settings for additional features</source>
         <target state="translated">Définir les paramètres pour les fonctionnalités supplémentaires</target>
         <note>key: configuration_settings.group_descriptions.miscellaneous</note>
+      </trans-unit>
+      <trans-unit id="635a40847c02b34f1d782224707668d1342d6962" resname="configuration_settings.group_descriptions.price">
+        <source>Configure currencies and set price provider for the shop. Some configurations are only important for eZ Commerce Advanced</source>
+        <target state="translated">Configurer les devises et définir le fournisseur de prix pour la boutique. Certaines configurations ne sont importantes que pour eZ Commerce Avancé</target>
+        <note>key: configuration_settings.group_descriptions.price</note>
+      </trans-unit>
+      <trans-unit id="bf374daac1b79c6d65790ed92f80c9be9af1d24e" resname="configuration_settings.group_descriptions.stored-basket">
+        <source>Configure the displayed product data for stored baskets.</source>
+        <target state="translated">Configurer les données de produit affichées pour les paniers stockés.</target>
+        <note>key: configuration_settings.group_descriptions.stored-basket</note>
+      </trans-unit>
+      <trans-unit id="b7354ac99e2be2c19cab62aaec4ef5993226eb27" resname="configuration_settings.group_names.b2b">
+        <source>Advanced catalog features</source>
+        <target state="translated">Fonctionnalités de catalogue avancé</target>
+        <note>key: configuration_settings.group_names.b2b</note>
       </trans-unit>
       <trans-unit id="274628b410b0d84be6d8f39bd2151e20a20fad22" resname="configuration_settings.group_names.basket" approved="yes">
         <source>Basket</source>
@@ -49,10 +99,30 @@
         <target state="final">Catalogue</target>
         <note>key: configuration_settings.group_names.catalog</note>
       </trans-unit>
+      <trans-unit id="f8bf961ed5347600d857976de2cec7e691e09491" resname="configuration_settings.group_names.checkout">
+        <source>Checkout</source>
+        <target state="translated">Vérification</target>
+        <note>key: configuration_settings.group_names.checkout</note>
+      </trans-unit>
+      <trans-unit id="3692cc4a3f28c805e2cb7dd735419ee249edf2f6" resname="configuration_settings.group_names.core">
+        <source>core information</source>
+        <target state="translated">informations principales</target>
+        <note>key: configuration_settings.group_names.core</note>
+      </trans-unit>
       <trans-unit id="f34b5e71b4039e0bc030f5ec2d19a5a69f41f4f0" resname="configuration_settings.group_names.customer" approved="yes">
         <source>Customer</source>
         <target state="final">Client</target>
         <note>key: configuration_settings.group_names.customer</note>
+      </trans-unit>
+      <trans-unit id="962f899fe1318b1257a6062b5c140efa001f5767" resname="configuration_settings.group_names.erp">
+        <source>Erp</source>
+        <target state="translated">Erp</target>
+        <note>key: configuration_settings.group_names.erp</note>
+      </trans-unit>
+      <trans-unit id="2335beceb6b837287b16a77fd1517c7c2645d24f" resname="configuration_settings.group_names.fallback_local_price">
+        <source>Fallback configuration for price engine</source>
+        <target state="translated">Configuration par défaut pour le moteur de prix</target>
+        <note>key: configuration_settings.group_names.fallback_local_price</note>
       </trans-unit>
       <trans-unit id="bbdf1c9dd76bac3e1a12cb8da4bba8a1332b263f" resname="configuration_settings.group_names.mail">
         <source>mail information</source>
@@ -63,6 +133,11 @@
         <source>Mail and newsletter</source>
         <target state="final">Mail et newsletter</target>
         <note>key: configuration_settings.group_names.mail_and_newsletter</note>
+      </trans-unit>
+      <trans-unit id="4230cfe92d18bce28c90b23cc630e793f1f85bdc" resname="configuration_settings.group_names.miscellaneous">
+        <source>Miscellaneous</source>
+        <target state="translated">Divers</target>
+        <note>key: configuration_settings.group_names.miscellaneous</note>
       </trans-unit>
       <trans-unit id="f95883d88fe023ed5be16b278de774d91c63f31b" resname="configuration_settings.group_names.price" approved="yes">
         <source>Price</source>

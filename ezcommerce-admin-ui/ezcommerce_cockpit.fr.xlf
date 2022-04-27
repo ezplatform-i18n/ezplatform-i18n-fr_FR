@@ -6,9 +6,9 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="95152a121b383f5dd34363055566146f0a9d2398" resname="breadcrumb.ecommerce">
+      <trans-unit id="95152a121b383f5dd34363055566146f0a9d2398" resname="breadcrumb.ecommerce" approved="yes">
         <source>e-commerce</source>
-        <target state="translated">e-commerce</target>
+        <target state="final">e-commerce</target>
         <note>key: breadcrumb.ecommerce</note>
       </trans-unit>
       <trans-unit id="0f67ad424c6bec3e6ffb8cb6f644c932e1536c30" resname="cockpit.breadcrumb.cockpit" approved="yes">
@@ -56,9 +56,9 @@
         <target state="final">Date / Heure</target>
         <note>key: cockpit.products.and.sales.date.time</note>
       </trans-unit>
-      <trans-unit id="abba096a63720abefa64d5fc146d4deadd2a295c" resname="cockpit.products.and.sales.last.orders">
+      <trans-unit id="abba096a63720abefa64d5fc146d4deadd2a295c" resname="cockpit.products.and.sales.last.orders" approved="yes">
         <source>Last orders</source>
-        <target state="translated">Dernières commandes</target>
+        <target state="final">Dernières commandes</target>
         <note>key: cockpit.products.and.sales.last.orders</note>
       </trans-unit>
       <trans-unit id="7a8b70ab33add2a710d124e144b35d4a02ff89fb" resname="cockpit.products.and.sales.nest.clients" approved="yes">
@@ -240,6 +240,11 @@
         <source>Status</source>
         <target state="final">Statut</target>
         <note>key: cockpit.tabs.status.title</note>
+      </trans-unit>
+      <trans-unit id="272e650f8667b4f4fcb7032b85b98ef4a9974f0f" resname="dropdown.search" approved="yes">
+        <source>Search...</source>
+        <target state="final">Rechercher...</target>
+        <note>key: dropdown.search</note>
       </trans-unit>
     </body>
   </file>

@@ -6,26 +6,106 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
-      
+      <trans-unit id="afe55a4a42c44a0f96cc99d701e11099b3062f97" resname="additional_text_for_basket_line_input_limit|config">
+        <source>Max. chars for the comment field</source>
+        <target state="translated">Caractères maximum pour le champ commentaire</target>
+        <note>key: additional_text_for_basket_line_input_limit|config</note>
+      </trans-unit>
+      <trans-unit id="2d02ab52a66a030c60f75dd69dc296794f182bb7" resname="additional_text_for_basket_line_input_limit|description">
+        <source>Important note:  the ERP often has a restriction and might not support long comments. This might lead to errors during order process</source>
+        <target state="translated">Remarque importante : l'ERP a souvent une restriction et pourrait ne pas prendre en charge de longs commentaires. Cela peut entraîner des erreurs lors du processus de commande</target>
+        <note>key: additional_text_for_basket_line_input_limit|description</note>
+      </trans-unit>
+      <trans-unit id="529a9ea5054d0301081bef4e4f07a0aa777e7f54" resname="additional_text_for_basket_line|config">
+        <source>Enable textline for basket</source>
+        <target state="translated">Activer lla ligne de texte pour le panier</target>
+        <note>key: additional_text_for_basket_line|config</note>
+      </trans-unit>
+      <trans-unit id="8b3120a6b1eced0805d9eaef9f66902613781425" resname="additional_text_for_basket_line|description">
+        <source>If enabled the customer can enter a comment to each line in the basket or quickorder</source>
+        <target state="translated">Si activé, le client peut saisir un commentaire sur chaque ligne du panier ou de la commande rapide</target>
+        <note>key: additional_text_for_basket_line|description</note>
+      </trans-unit>
+      <trans-unit id="5cb96ead9ce4f85a24e0b5c4dfb2d919c8e24fb1" resname="description_limit|config">
+        <source>Description character limit</source>
+        <target state="translated">Limite de caractères pour la description</target>
+        <note>key: description_limit|config</note>
+      </trans-unit>
+      <trans-unit id="39b20f60af446c66becd5a7c9d873b332090f0f5" resname="description_limit|description">
+        <source>Number of characters that will be visible for the product description field</source>
+        <target state="translated">Nombre de caractères qui seront visibles pour le champ description du produit</target>
+        <note>key: description_limit|description</note>
+      </trans-unit>
+      <trans-unit id="a4d2f93507b22da3addd0201e8569d9f025a91b3" resname="payment_method.invoice|config">
+        <source>Payment method "invoice</source>
+        <target state="translated">Méthode de paiement "facture"</target>
+        <note>key: payment_method.invoice|config</note>
+      </trans-unit>
+      <trans-unit id="bb86350a8b3425bc207c3af512eeef8291da77bb" resname="payment_method.invoice|description">
+        <source>Enables "invoice" in checkout</source>
+        <target state="translated">Activer la "facture" dans la validation</target>
+        <note>key: payment_method.invoice|description</note>
+      </trans-unit>
+      <trans-unit id="39603a49c4a846ce31586b3d9d184365af5de116" resname="payment_method.paypal_express_checkout|config">
+        <source>Payment method PayPal</source>
+        <target state="translated">Méthode de paiement PayPal</target>
+        <note>key: payment_method.paypal_express_checkout|config</note>
+      </trans-unit>
+      <trans-unit id="644a92a1bc4b6eab7201e0bf174baf291f2d04e3" resname="payment_method.paypal_express_checkout|description">
+        <source>Enables "PayPal" in checkout</source>
+        <target state="translated">Activer "PayPal" dans l'étape validation</target>
+        <note>key: payment_method.paypal_express_checkout|description</note>
+      </trans-unit>
+      <trans-unit id="e265b4d0c421312683b9b2d858755ccee7b84ff2" resname="refreshCatalogElementAfter|config">
+        <source>Update product data after this time</source>
+        <target state="translated">Mettre à jour les données du produit après ce temps</target>
+        <note>key: refreshCatalogElementAfter|config</note>
+      </trans-unit>
+      <trans-unit id="761cafcd51b804810163d48393329267c769afed" resname="refreshCatalogElementAfter|description">
+        <source>Product data is cached in the basket for a given time. Please use a syntax "1 hour".</source>
+        <target state="translated">Les données du produit sont mises en cache dans le panier pour un temps donné. Veuillez utiliser une syntaxe "1 heure".</target>
+        <note>key: refreshCatalogElementAfter|description</note>
+      </trans-unit>
+      <trans-unit id="56beadf8ef4bd810fcb2f2feaac0d8211ec461c5" resname="shipping_method.express_delivery|config">
+        <source>Shipping method  "express"</source>
+        <target state="translated">Méthode d'expédition "express"</target>
+        <note>key: shipping_method.express_delivery|config</note>
+      </trans-unit>
+      <trans-unit id="34444f5738925c60a830227871719308dc8e5fda" resname="shipping_method.express_delivery|description">
+        <source>Enables shipping method "express" in checkout</source>
+        <target state="translated">Active le mode de livraison "express" dans la commande</target>
+        <note>key: shipping_method.express_delivery|description</note>
+      </trans-unit>
+      <trans-unit id="03fdf64216e67e788345093e1a07da35d40fe231" resname="shipping_method.standard|config">
+        <source>Shipping method "standard"</source>
+        <target state="translated">Méthode d'expédition "standard"</target>
+        <note>key: shipping_method.standard|config</note>
+      </trans-unit>
+      <trans-unit id="c5ab15001d4865b7fde19663582cb7ae23c6bead" resname="shipping_method.standard|description">
+        <source>Enables shipping method "standard" in checkout</source>
+        <target state="translated">Active le mode de livraison "standard" dans la commande</target>
+        <note>key: shipping_method.standard|description</note>
+      </trans-unit>
+      <trans-unit id="dea2d0a7049d35c69e1aa2b9cfccbd0aaf530fe4" resname="stock_in_column|config">
+        <source>Display stock as a column</source>
+        <target state="translated">Afficher le stock en tant que colonne</target>
+        <note>key: stock_in_column|config</note>
+      </trans-unit>
+      <trans-unit id="e3229c43f9e92295882b185d2f462d647ebcf50d" resname="stock_in_column|description">
+        <source>True - display in column, False - display inline (inside product name column)</source>
+        <target state="translated">Vrai - affichage en colonne, Faux - affichage en ligne (à l'intérieur de la colonne du nom du produit)</target>
+        <note>key: stock_in_column|description</note>
+      </trans-unit>
+      <trans-unit id="6cc9b7dce215cd6f3ddf5273d9eff331a2ceca4e" resname="validHours|config">
+        <source>Duration of storing anonymous baskets</source>
+        <target state="translated">Durée du stockage des paniers anonymes</target>
+        <note>key: validHours|config</note>
+      </trans-unit>
+      <trans-unit id="8c8ba5d26d35331070df244829e0e2e443cc0dce" resname="validHours|description">
+        <source>Defines how many hours anonymous baskets are stored</source>
+        <target state="translated">Définit combien d'heures les paniers anonymes sont stockés</target>
+        <note>key: validHours|description</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

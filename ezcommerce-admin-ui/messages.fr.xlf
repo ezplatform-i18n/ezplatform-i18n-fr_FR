@@ -6,50 +6,125 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="14bf2f86fe3ff46636bfc648aba65c4ea4284881" resname="Basket with ID: %basketId% not found">
+        <source>Basket with ID: %basketId% not found</source>
+        <target state="translated">Panier avec ID: %basketId% introuvable</target>
+        <note>key: Basket with ID: %basketId% not found</note>
+      </trans-unit>
       <trans-unit id="817971873a6ee985fdba4953592bc9f617c46dbb" resname="Control center">
         <source>Control center</source>
         <target state="translated">Centre de contrôle</target>
         <note>key: Control center</note>
       </trans-unit>
+      <trans-unit id="d87f47b47e4d5794d53fe0734c49417bd046cde0" resname="Dashboard">
+        <source>Dashboard</source>
+        <target state="translated">Tableau de bord</target>
+        <note>key: Dashboard</note>
+      </trans-unit>
+      <trans-unit id="11470e24a23c56cc3afe507f757b425a1867eea7" resname="Error for basket %basketId%: %error%">
+        <source>Error for basket %basketId%: %error%</source>
+        <target state="translated">Erreur pour le panier %basketId%: %error%</target>
+        <note>key: Error for basket %basketId%: %error%</note>
+      </trans-unit>
+      <trans-unit id="9d2a9f0a31db1c658c1c486cdbe3ff84da6e1f3a" resname="Order for basket: %basketId% has been deleted successfully.">
+        <source>Order for basket: %basketId% has been deleted successfully.</source>
+        <target state="translated">La commande pour le panier : %basketId% a été supprimée avec succès.</target>
+        <note>key: Order for basket: %basketId% has been deleted successfully.</note>
+      </trans-unit>
+      <trans-unit id="c95b4a4292a043e6e35b17abe3083e1a51c74b60" resname="Order for basket: %basketId% has been processed successfully, Order-ID: %orderId%">
+        <source>Order for basket: %basketId% has been processed successfully, Order-ID: %orderId%</source>
+        <target state="translated">La commande pour le panier : %basketId% a été traitée avec succès, Numéro de commande : %orderId%</target>
+        <note>key: Order for basket: %basketId% has been processed successfully, Order-ID: %orderId%</note>
+      </trans-unit>
+      <trans-unit id="6b3ae60bbba6c0b2ac4a768031e4c2c69e872e27" resname="Shipping management">
+        <source>Shipping management</source>
+        <target state="translated">Gestion de l'expédition</target>
+        <note>key: Shipping management</note>
+      </trans-unit>
+      <trans-unit id="5392f37b938a3fec5bc6fc366cdbd759343f07cb" resname="code.120_complete">
+        <source>Request BEFORE mapping.</source>
+        <target state="translated">Requête AVANT correspondance.</target>
+        <note>key: code.120_complete</note>
+      </trans-unit>
+      <trans-unit id="d560f1fe93e737b56528c3830d8e828ed68e194f" resname="code.150_mapping">
+        <source>Request data before and after mapping.</source>
+        <target state="translated">Requête de données avant et après correspondance.</target>
+        <note>key: code.150_mapping</note>
+      </trans-unit>
+      <trans-unit id="6bc992db37051803c3fdc8012ac4677f4edee96f" resname="code.180_soap">
+        <source>Request AFTER mapping.</source>
+        <target state="translated">Requête APRÈS correspondance.</target>
+        <note>key: code.180_soap</note>
+      </trans-unit>
+      <trans-unit id="fa2190b24a7c4d15e5fb2b055a10508097257df8" resname="code.220_soap">
+        <source>Response BEFORE mapping.</source>
+        <target state="translated">Réponse AVANT correspondance.</target>
+        <note>key: code.220_soap</note>
+      </trans-unit>
+      <trans-unit id="90ce1f306b926c6a7530381f5da5bc40d1ab302e" resname="code.250_mapping">
+        <source>Response data before and after mapping.</source>
+        <target state="translated">Données de réponse avant et après correspondance.</target>
+        <note>key: code.250_mapping</note>
+      </trans-unit>
+      <trans-unit id="a20fc8e1030f7823a743596ba05e0422e6cf9d4b" resname="code.280_complete">
+        <source>Response AFTER mapping.</source>
+        <target state="translated">Réponse APRÈS correspondance.</target>
+        <note>key: code.280_complete</note>
+      </trans-unit>
+      <trans-unit id="4fce840cb6ca00c22cd101fa83b2aca386cc37ef" resname="dashboard.summary.previous_month">
+        <source>previous month</source>
+        <target state="translated">mois précédent</target>
+        <note>key: dashboard.summary.previous_month</note>
+      </trans-unit>
       <trans-unit id="74a0a1f1378464d065954caae7ce69feb20bad8e" resname="field_type.add_variant">
-        <source>Add variant</source>
+        <source>Add</source>
         <target state="translated">Ajouter une variante</target>
         <note>key: field_type.add_variant</note>
       </trans-unit>
-      <trans-unit id="e4b4d7577aca4e6f1eb3a5d395d989295f1c3400" resname="profile.data.address.buyer.label">
-        <source>Buyer address</source>
-        <target state="translated">Adresse de l'acheteur</target>
-        <note>key: profile.data.address.buyer.label</note>
+      <trans-unit id="cbc1f44be5f6d1cff762774712d8ccbfd796f6ec" resname="field_types.variants.button.trash">
+        <source>Delete</source>
+        <target state="translated">Supprimer</target>
+        <note>key: field_types.variants.button.trash</note>
       </trans-unit>
-      <trans-unit id="ff2276b0ef29f4f3a80b58ca995269a6ed7e7f48" resname="profile.data.address.city" approved="yes">
-        <source>City</source>
-        <target state="final">Ville</target>
-        <note>key: profile.data.address.city</note>
+      <trans-unit id="9c6d51b72da01a6f73c4493275e770f739a2aec6" resname="modal.button.close">
+        <source>Close</source>
+        <target state="translated">Fermer</target>
+        <note>key: modal.button.close</note>
       </trans-unit>
-      <trans-unit id="c1664a8e4e5e4b0c829fd7ec46bbe0a3e1b29e3c" resname="profile.data.address.country.code">
-        <source>Country code</source>
-        <target state="translated">Code pays</target>
-        <note>key: profile.data.address.country.code</note>
+      <trans-unit id="41718aba6bfdfdf48b47c9cb0f3d1ea324683121" resname="msg.invalid_csv_file">
+        <source>Invalid CSV file</source>
+        <target state="translated">Fichier CSV invalide</target>
+        <note>key: msg.invalid_csv_file</note>
       </trans-unit>
-      <trans-unit id="e0f26f8d4c2bd4c7a4f3d25709a727c1209828d9" resname="profile.data.address.delivery.label">
-        <source>Delivery addresses</source>
-        <target state="translated">Adresses de livraison</target>
-        <note>key: profile.data.address.delivery.label</note>
+      <trans-unit id="c3c81201bee9a881ec4fef0326ee0d5abf07a066" resname="msg.invalid_shop_id">
+        <source>Invalid shop ID : %shopId%</source>
+        <target state="translated">ID de boutique invalide : %shopId%</target>
+        <note>key: msg.invalid_shop_id</note>
       </trans-unit>
-      <trans-unit id="4a5f9b6ca9963548d6eb287cdd660c5f4ea04622" resname="profile.data.address.name.company">
-        <source>Name/Company</source>
-        <target state="translated">Nom/Entreprise</target>
-        <note>key: profile.data.address.name.company</note>
+      <trans-unit id="0801224be6bc55f0e38efa128854c6d0bdbfe22f" resname="msg.price_upload_success">
+        <source>Prices for %products% products imported successfully</source>
+        <target state="translated">Prix pour %products% produits importés avec succès</target>
+        <note>key: msg.price_upload_success</note>
       </trans-unit>
-      <trans-unit id="220e2047061f2c3f64304253476d89f791d6a08b" resname="profile.data.address.zip.code">
-        <source>ZIP code</source>
-        <target state="translated">Code postal</target>
-        <note>key: profile.data.address.zip.code</note>
+      <trans-unit id="eb6aa749b48acf60573017b34841c8196a161cdb" resname="msg.stock_upload_success">
+        <source>Stock for %products% products imported successfully</source>
+        <target state="translated">Stock pour %products% produits importés avec succès</target>
+        <note>key: msg.stock_upload_success</note>
       </trans-unit>
-      <trans-unit id="63f8d285fcb7adee4bf53870667b4121acfe8aee" resname="profile.data.button.trash">
-        <source>Remove address</source>
-        <target state="translated">Supprimer l'adresse</target>
-        <note>key: profile.data.button.trash</note>
+      <trans-unit id="70362d855cb518b37d903375e88e781de7a4a8a1" resname="order_list.filters.payment_transaction_id">
+        <source>Search by Payment transaction id</source>
+        <target state="translated">Recherche par identifiant de transaction de paiement</target>
+        <note>key: order_list.filters.payment_transaction_id</note>
+      </trans-unit>
+      <trans-unit id="86ce7e2c45b3d6a4bfcb5bfe18a2ab450c872aff" resname="shipping_management.add_shipping">
+        <source>Add new</source>
+        <target state="translated">Ajouter un nouveau</target>
+        <note>key: shipping_management.add_shipping</note>
+      </trans-unit>
+      <trans-unit id="a75dc4c2145855dd0841a5da02bf3714e6605d4e" resname="shipping_management.delete_shippment.button">
+        <source>Delete</source>
+        <target state="translated">Supprimer</target>
+        <note>key: shipping_management.delete_shippment.button</note>
       </trans-unit>
     </body>
   </file>

@@ -61,16 +61,6 @@
         <target state="translated">Identifiants inconnus</target>
         <note>key: Bad credentials.</note>
       </trans-unit>
-      <trans-unit id="e11b80e40fef432a5b0557fa5d0bd77221430f26" resname="Best clients">
-        <source>Best clients</source>
-        <target state="translated">Meilleurs clients</target>
-        <note>key: Best clients</note>
-      </trans-unit>
-      <trans-unit id="83b8e400c77a27ad6489143d6c1ec78cfb0ecf48" resname="Bestsellers">
-        <source>Bestsellers</source>
-        <target state="translated">Meilleures ventes</target>
-        <note>key: Bestsellers</note>
-      </trans-unit>
       <trans-unit id="d6663dda5fe9b2524bf91f13a7621ec735f8a155" resname="Business">
         <source>Business</source>
         <target state="translated">Business</target>
@@ -115,11 +105,6 @@
         <source>Code</source>
         <target state="translated">Code</target>
         <note>key: Code</note>
-      </trans-unit>
-      <trans-unit id="1d0c8304baedcf8e3a78982c2e7c0b04622bf2a0" resname="Color">
-        <source>Color</source>
-        <target state="translated">Couleur </target>
-        <note>key: Color</note>
       </trans-unit>
       <trans-unit id="7a1994999d181deea68e4304b3346e78f838ecb7" resname="Company">
         <source>Company</source>

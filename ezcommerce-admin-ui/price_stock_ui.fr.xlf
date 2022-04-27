@@ -26,6 +26,26 @@
         <target state="translated">Le produit n'a pas été trouvé</target>
         <note>key: product.not_found</note>
       </trans-unit>
+      <trans-unit id="7c16714b8224da90928da5a81818f69d19af8aa1" resname="shipping_management.not_saved">
+        <source>Couldn't save shipping costs</source>
+        <target state="translated">Les frais de livraisons n'ont pas pu être enregistrés</target>
+        <note>key: shipping_management.not_saved</note>
+      </trans-unit>
+      <trans-unit id="97295bc48d5c285d9b7e0ec1c13c44f696de1067" resname="shipping_management.saved">
+        <source>Shipping costs saved successfully</source>
+        <target state="translated">Frais de livraisons ajoutés avec succès</target>
+        <note>key: shipping_management.saved</note>
+      </trans-unit>
+      <trans-unit id="db32a5144ba4d5c90cedecf2c6a129069f848344" resname="stock.not_saved">
+        <source>Couldn't save stock</source>
+        <target state="translated">Le stock n'a pas pu être enregistré</target>
+        <note>key: stock.not_saved</note>
+      </trans-unit>
+      <trans-unit id="fe822447e521b21276a1c4cc0441ffc12fbdcdfd" resname="stock.saved">
+        <source>Stock saved successfully</source>
+        <target state="translated">Stock enregistré avec succès</target>
+        <note>key: stock.saved</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

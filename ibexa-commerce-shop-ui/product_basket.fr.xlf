@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="90b461f5d439b5748027ffca60afdd893fcd1eb7" resname="product.add.to.basket">
+        <source>Add to basket</source>
+        <target state="translated">Ajouter au panier</target>
+        <note>key: product.add.to.basket</note>
+      </trans-unit>
+      <trans-unit id="ee1e51bb52e8b63bbf8d1e529fe0f6f2fd002e96" resname="product.add_to_stored_basket">
+        <source>Add to stored basket</source>
+        <target state="translated">Ajouter au panier enregistré</target>
+        <note>key: product.add_to_stored_basket</note>
+      </trans-unit>
+      <trans-unit id="699844629ab552851d3cec815f3efe0797ef3d7e" resname="product.choose_one_stored_basket">
+        <source>Choose one of your stored basketst</source>
+        <target state="translated">Choisissez l'un de vos paniers enregistrés</target>
+        <note>key: product.choose_one_stored_basket</note>
+      </trans-unit>
+      <trans-unit id="160876d14adb1b28e89a34e9c45902ea5f14caf1" resname="product.enter_new_name_stored_basket">
+        <source>Enter a new basket name!</source>
+        <target state="translated">Entrez un nouveau nom de panier !</target>
+        <note>key: product.enter_new_name_stored_basket</note>
+      </trans-unit>
+      <trans-unit id="dc46a49674c80864136e0a54968a69e791fc1592" resname="product.minimum_pieces">
+        <source>Minimum %pieces% piece(s)</source>
+        <target state="translated">Minimum %pieces% pièce(s)</target>
+        <note>key: product.minimum_pieces</note>
+      </trans-unit>
+      <trans-unit id="f223e644c2e814d6028265ada6c69e82dcb393c3" resname="product.no_order_permission">
+        <source>You don't have the permission(s) to order.</source>
+        <target state="translated">Vous n'avez pas la permission de commander.</target>
+        <note>key: product.no_order_permission</note>
+      </trans-unit>
+      <trans-unit id="0212b791d9a2db33c790f01d2c5e3fff16409a5b" resname="product.price">
+        <source>Price</source>
+        <target state="translated">Prix</target>
+        <note>key: product.price</note>
+      </trans-unit>
+      <trans-unit id="5a72918d0a47e7bd5c6f6d338940b5a1fc5bf95f" resname="product.quantity">
+        <source>Quantity</source>
+        <target state="translated">Quantité</target>
+        <note>key: product.quantity</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -11,35 +11,20 @@
         <target state="translated">Article</target>
         <note>key: Article|search</note>
       </trans-unit>
-      <trans-unit id="e6908c7ca7cdd2ad37670dd5909e6bed46d08c0a" resname="Contact|search">
-        <source>Contact</source>
-        <target state="translated">Contact</target>
-        <note>key: Contact|search</note>
-      </trans-unit>
       <trans-unit id="ce3e4bed2954adbf05f8edfaf1a4c0cc0cea70e9" resname="DE">
         <source>Germany</source>
         <target state="translated">Allemagne</target>
         <note>key: DE</note>
       </trans-unit>
-      <trans-unit id="7c9a7c0610c1bc20abb9c9d07094daa33576a8f8" resname="Detail">
-        <source>Detail</source>
-        <target state="translated">Détail</target>
-        <note>key: Detail</note>
-      </trans-unit>
-      <trans-unit id="d469baae0628495800672bc39fdc71f30fbf6f45" resname="Event|search">
-        <source>Event</source>
-        <target state="translated">Événement</target>
-        <note>key: Event|search</note>
+      <trans-unit id="30baa24967e08965d1594408031f0324ae11ccac" resname="Folder">
+        <source>Folder</source>
+        <target state="translated">Dossier</target>
+        <note>key: Folder</note>
       </trans-unit>
       <trans-unit id="d2e269273a451b6887ce930a00282453b864f784" resname="Folder|search">
         <source>Folder</source>
         <target state="translated">Dossier</target>
         <note>key: Folder|search</note>
-      </trans-unit>
-      <trans-unit id="a88b7dcd1a9e3e17770bbaa6d7515b31a2d7e85d" resname="email">
-        <source>email</source>
-        <target state="translated">e-mail</target>
-        <note>key: email</note>
       </trans-unit>
       <trans-unit id="ad1ee409b13768fa0736118aef26405092bd2f39" resname="read_more">
         <source>Read more</source>

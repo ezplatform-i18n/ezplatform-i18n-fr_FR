@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <body>
+      <trans-unit id="fc2b245e380123c3be66f40d0cf4c72be7bbd4e7" resname="ibexa.currency.code.unique">
+        <source>Currency code must be unique</source>
+        <target state="translated">Le code de la devise doit être unique</target>
+        <note>key: ibexa.currency.code.unique</note>
+      </trans-unit>
+      <trans-unit id="16d9e936b98169fea81f682f22f9d4010393cbdc" resname="ibexa.product.identifier.unique">
+        <source>Product code must be unique</source>
+        <target state="translated">Le code produit doit être unique</target>
+        <note>key: ibexa.product.identifier.unique</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

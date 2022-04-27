@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="a1125450055f79e2d96dcdda9faa1072d74124f2" resname="actions.collapse_all">
+        <source>Collapse all</source>
+        <target state="translated">Tout réduire</target>
+        <note>key: actions.collapse_all</note>
+      </trans-unit>
+      <trans-unit id="86114ef28488e072f5328f84470b17ea4cd68e1d" resname="actions.copy">
+        <source>Copy</source>
+        <target state="translated">Copier</target>
+        <note>key: actions.copy</note>
+      </trans-unit>
+      <trans-unit id="00fe7ffd5db35a8d23c9ec48e9c21f3ceff5ee45" resname="actions.delete">
+        <source>Delete</source>
+        <target state="translated">Supprimer</target>
+        <note>key: actions.delete</note>
+      </trans-unit>
+      <trans-unit id="7536d8bef4b5c02b1e71629a614ff274e67d5fcc" resname="actions.expand_all">
+        <source>Expand all</source>
+        <target state="translated">Afficher tout </target>
+        <note>key: actions.expand_all</note>
+      </trans-unit>
+      <trans-unit id="b23db0c5218f2b4a0835d677393004842532e537" resname="actions.move">
+        <source>Move</source>
+        <target state="translated">Déplacer</target>
+        <note>key: actions.move</note>
+      </trans-unit>
+      <trans-unit id="fd746d4e8626abec02dafa780e685f2cb60f516b" resname="actions.select.all">
+        <source>Select all children</source>
+        <target state="translated">Sélectionner tous les enfants</target>
+        <note>key: actions.select.all</note>
+      </trans-unit>
+      <trans-unit id="3ef52cc98fdb1f3fd5cf1cc11d7779ec448b3719" resname="actions.unselect.all">
+        <source>Unselect all children</source>
+        <target state="translated">Désélectionner tous les enfants</target>
+        <note>key: actions.unselect.all</note>
+      </trans-unit>
+      <trans-unit id="55878307150e4143679e4cbdd4f733c569ba64fc" resname="checkbox.limit.message">
+        <source>You cannot select more than %selectedLimit% items.</source>
+        <target state="translated">Vous ne pouvez pas sélectionner plus de %selectedLimit% éléments.</target>
+        <note>key: checkbox.limit.message</note>
+      </trans-unit>
+      <trans-unit id="0cba8ae8f7a758a11886b6be4e7ce7e570063f8f" resname="expand_item.limit.message">
+        <source>Cannot load sub-items for this Location because you reached max tree depth.</source>
+        <target state="translated">Impossible de charger les sous-éléments pour cet emplacement car vous avez atteint la profondeur maximale de l'arborescence.</target>
+        <note>key: expand_item.limit.message</note>
+      </trans-unit>
+      <trans-unit id="9042dc6dc12016a1ffce82c61781eb8df00d3a66" resname="loading_more">
+        <source>Loading more...</source>
+        <target state="translated">Chargement...</target>
+        <note>key: loading_more</note>
+      </trans-unit>
+      <trans-unit id="2be9699b658299055002412aa53431dc89281fcf" resname="show_more">
+        <source>Show more</source>
+        <target state="translated">Afficher plus de résultats</target>
+        <note>key: show_more</note>
+      </trans-unit>
+      <trans-unit id="fa32f3cd5131d17d3c18b13089f0c93216a1e85c" resname="show_more.limit_reached">
+        <source>Loading limit reached</source>
+        <target state="translated">Limite de chargement atteinte</target>
+        <note>key: show_more.limit_reached</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

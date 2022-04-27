@@ -6,11 +6,6 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="0a4bb064aedec95b2083a0b8f07080385883803a" resname="content.comparison.close_label" approved="yes">
-        <source>Close</source>
-        <target state="final">Fermer</target>
-        <note>key: content.comparison.close_label</note>
-      </trans-unit>
       <trans-unit id="e790ca3c99b7c89c93c96206b4c98853a3262926" resname="content.comparison.side.by.side.first" approved="yes">
         <source>1 column</source>
         <target state="final">1 colonne</target>

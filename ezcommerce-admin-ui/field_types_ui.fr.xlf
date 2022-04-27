@@ -6,6 +6,21 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="d0fc23924215f3cd2f5a9d948cbc140bc6c3284d" resname="field_types.country_of_origin.label">
+        <source>dataMap Country of Origin</source>
+        <target state="translated">dataMap Pays d'origine</target>
+        <note>key: field_types.country_of_origin.label</note>
+      </trans-unit>
+      <trans-unit id="692de1fcfa92cc321a7d36a0689e07fdb95f0512" resname="field_types.description.label">
+        <source>Description</source>
+        <target state="translated">Description</target>
+        <note>key: field_types.description.label</note>
+      </trans-unit>
+      <trans-unit id="cc228d43df7db507db904e15b0ed2242d979f56f" resname="field_types.group.label">
+        <source>Variant product</source>
+        <target state="translated">Produit variant</target>
+        <note>key: field_types.group.label</note>
+      </trans-unit>
       <trans-unit id="ba2efe0b329f0bd392f5b7c7db5dbb698049558c" resname="field_types.price.label">
         <source>Price</source>
         <target state="translated">Prix</target>
@@ -15,6 +30,16 @@
         <source>Sku</source>
         <target state="translated">Sku</target>
         <note>key: field_types.sku.label</note>
+      </trans-unit>
+      <trans-unit id="ed274a458b819ea105f08f8ed383fd94fdd8c876" resname="field_types.variant_code.label">
+        <source>Variant Code/SKU</source>
+        <target state="translated">Code/SKU du variant</target>
+        <note>key: field_types.variant_code.label</note>
+      </trans-unit>
+      <trans-unit id="5f167ba4bdd45f66460908d17921c41b59e47a17" resname="field_types.vat.label">
+        <source>VAT percent</source>
+        <target state="translated">Pourcentage de TVA</target>
+        <note>key: field_types.vat.label</note>
       </trans-unit>
     </body>
   </file>

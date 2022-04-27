@@ -6,45 +6,10 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="deaae5ae4af921bf70119d74a79b4482b896e74e" resname="content.autosave.failed.message">
-        <source>Autosave failed</source>
-        <target state="translated">Échec de la sauvegarde automatique</target>
-        <note>key: content.autosave.failed.message</note>
-      </trans-unit>
-      <trans-unit id="6ab7bf20071dda168e69186c4b3e44bd89424e4b" resname="content.autosave.retry.message">
-        <source>please try to save manually.</source>
-        <target state="translated">essayez de sauvegarder manuellement.</target>
-        <note>key: content.autosave.retry.message</note>
-      </trans-unit>
-      <trans-unit id="d5ff5360463d166a9b190aaade8acd1973875f97" resname="content.autosave.turn_of.message">
-        <source>You can turn autosave off in your user settings</source>
-        <target state="translated">Vous pouvez désactiver la sauvegarde automatique dans vos paramètres utilisateur</target>
-        <note>key: content.autosave.turn_of.message</note>
-      </trans-unit>
       <trans-unit id="8343cec7024fb459d738278aca82b39710b89c50" resname="content.create_draft.success">
         <source>Created a new draft for '%name%'.</source>
         <target state="translated">Le nouveau brouillon pour '%name%' a été créé.</target>
         <note>key: content.create_draft.success</note>
-      </trans-unit>
-      <trans-unit id="21e7545fc420d95a59a713437d9dc28d85d82ceb" resname="content.details.content_id">
-        <source>Content ID: %contentId%</source>
-        <target state="translated">ID du contenu : %contentId%</target>
-        <note>key: content.details.content_id</note>
-      </trans-unit>
-      <trans-unit id="fbf8f503b8af11a779316ffa7e12085401212748" resname="content.details.created_by">
-        <source>Created by %name%</source>
-        <target state="translated">Créé par %name%</target>
-        <note>key: content.details.created_by</note>
-      </trans-unit>
-      <trans-unit id="b703ce905c39239f607ffa395acf83d2dd6046f0" resname="content.details.location_id">
-        <source>Location ID: %locationId%</source>
-        <target state="translated">ID de l'emplacement: %locationId%</target>
-        <note>key: content.details.location_id</note>
-      </trans-unit>
-      <trans-unit id="fc543140fe88431b31013a20fbceef4ecf9e7430" resname="content.details.parent_location_id">
-        <source>Parent Location ID: %locationId%</source>
-        <target state="translated">ID de l'emplacement parent: %locationId%</target>
-        <note>key: content.details.parent_location_id</note>
       </trans-unit>
       <trans-unit id="1ea2690f8ebd8fc99115a6f94ac56b8b93e46afe" resname="content.draft.conflict.error">
         <source>Cannot check if the draft has conflicts with other drafts. %error%.</source>
@@ -86,35 +51,40 @@
         <target state="translated">L'élément de contenu '%name%' est révélé.</target>
         <note>key: content.reveal.success</note>
       </trans-unit>
-      <trans-unit id="c078d68107501c81ef81e99437b4285ff012e0bd" resname="content.view.more.label">
-        <source>More</source>
-        <target state="translated">Plus</target>
-        <note>key: content.view.more.label</note>
+      <trans-unit id="123a6cff0d98d08927f6666246d451da50941a7b" resname="content_edit.autosave.status_saved.message.full">
+        <source>Draft saved %time%</source>
+        <target state="translated">Brouillon sauvergardé %time%</target>
+        <note>key: content_edit.autosave.status_saved.message.full</note>
       </trans-unit>
-      <trans-unit id="07b56fa9149c034a5b2f562d77e094e381618b22" resname="content_edit.autosave.message">
-        <source><![CDATA[<b>Autosave</b> is on.]]></source>
-        <target state="translated"><![CDATA[<b>La sauvegarde automatique</b> est activée.]]></target>
-        <note>key: content_edit.autosave.message</note>
-      </trans-unit>
-      <trans-unit id="fab6f6efafaeec371aaa8302c82362846d2b8f69" resname="content_edit.last_saved">
-        <source>Last saved draft was on %date%</source>
-        <target state="translated">Le dernier brouillon a été enregistré le %date%</target>
-        <note>key: content_edit.last_saved</note>
+      <trans-unit id="6b9c71826cc703b6af425a6adedd71d90928821f" resname="content_edit.autosave.status_saved.message.simplified">
+        <source>Saved</source>
+        <target state="translated">Sauvegardé</target>
+        <note>key: content_edit.autosave.status_saved.message.simplified</note>
       </trans-unit>
       <trans-unit id="750bead6705b295c7b7d66c27b2768c1b9329ed5" resname="editing_details">
-        <source><![CDATA[<b>in</b> %language_name% <b>under</b> %location_name%]]></source>
-        <target state="translated"><![CDATA[<b>dans</b> %language_name% <b>sous</b> %location_name%]]></target>
+        <source>under %location_name%</source>
+        <target state="translated">&lt;b&gt;dans&lt;/b&gt; %language_name% &lt;b&gt;sous&lt;/b&gt; %location_name%</target>
         <note>key: editing_details</note>
+      </trans-unit>
+      <trans-unit id="f6ae7078e77f584ad00c8003405ca11dc57c4d56" resname="preview_header.back">
+        <source>Back</source>
+        <target state="translated">Retour</target>
+        <note>key: preview_header.back</note>
       </trans-unit>
       <trans-unit id="583285bb674e4f29b273ceb4b19dc700e44c4130" resname="tooltip.close_label">
         <source>Close</source>
         <target state="translated">Fermer</target>
         <note>key: tooltip.close_label</note>
       </trans-unit>
-      <trans-unit id="f46c619c6bc5f16699d112b74f64b236898ff787" resname="tooltip.exit_label">
-        <source>Exit</source>
-        <target state="translated">Quitter</target>
-        <note>key: tooltip.exit_label</note>
+      <trans-unit id="2720e3018fc8b1158cb728b1d5dc377ef7293b57" resname="trash.modal.message">
+        <source>Are you sure you want to send this Content item to Trash?</source>
+        <target state="translated">Êtes-vous sûr de vouloir déplacer cet élément de contenu à la Corbeille?</target>
+        <note>key: trash.modal.message</note>
+      </trans-unit>
+      <trans-unit id="1e6a1d97cca01a288e47d2d14479274b90e6c6c1" resname="trash_container.modal.message_main">
+        <source>Sending '%content_name%' and its %children_count% Content item(s) to Trash will also send the sub-items of this Location to Trash.</source>
+        <target state="translated">L'envoi de '%content_name%' et de ses %children_count% Contenus enfants dans la corbeille enverra également les sous-éléments de cet emplacement à la corbeille.</target>
+        <note>key: trash_container.modal.message_main</note>
       </trans-unit>
       <trans-unit id="4492a79e25635e7612f98971e02b4d0e6a408394" resname="user.delete.success">
         <source>User with login '%login%' deleted.</source>

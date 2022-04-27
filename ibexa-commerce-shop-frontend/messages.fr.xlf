@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="531e5c229e541de937c09d780f8d9b872c1cb788" resname="Add products to stored basket">
+        <source>Add to stored basket</source>
+        <target state="translated">Ajouter au panier enregistré</target>
+        <note>key: Add products to stored basket</note>
+      </trans-unit>
+      <trans-unit id="c7a159eeb9d2c76024812c0849f23cc8e5df3639" resname="Add to wishlist">
+        <source>Add to wishlist</source>
+        <target state="translated">Ajouter à ma liste d'envies</target>
+        <note>key: Add to wishlist</note>
+      </trans-unit>
+      <trans-unit id="2a48383d0566cf5292ff5bf2072cff0a9eed85c7" resname="Already in your comparison list">
+        <source>Already in your comparison list</source>
+        <target state="translated">Déjà dans votre liste de comparaison</target>
+        <note>key: Already in your comparison list</note>
+      </trans-unit>
+      <trans-unit id="865ffd10fbdc61d022ea9802af82c0fee074e017" resname="Already in your wishlist">
+        <source>Already in your wishlist</source>
+        <target state="translated">Déjà dans votre liste d'envies</target>
+        <note>key: Already in your wishlist</note>
+      </trans-unit>
+      <trans-unit id="8d105cf44d3926289e65c1c83d8e37cb23fd049e" resname="Compare">
+        <source>Compare</source>
+        <target state="translated">Comparer</target>
+        <note>key: Compare</note>
+      </trans-unit>
+      <trans-unit id="2e98310eea1179ef208c32219ee39697a872756f" resname="Login / Register">
+        <source>Login / Register</source>
+        <target state="translated">Connexion / Inscription</target>
+        <note>key: Login / Register</note>
+      </trans-unit>
+      <trans-unit id="b51b2b0d62c7e20b8d8a956fed9a940fed0677d6" resname="My Account">
+        <source>My Account</source>
+        <target state="translated">Mon Compte</target>
+        <note>key: My Account</note>
+      </trans-unit>
+      <trans-unit id="dc032e04defad47f9350b9406cf37fd885ccf08b" resname="My stored baskets">
+        <source>My stored baskets</source>
+        <target state="translated">Mes paniers enregistrés</target>
+        <note>key: My stored baskets</note>
+      </trans-unit>
+      <trans-unit id="cad313499077f86754f105393c117dd1fdea4412" resname="Please log in to use this feature">
+        <source>Please log in to use this feature</source>
+        <target state="translated">Veuillez vous connecter pour utiliser cette fonctionnalité</target>
+        <note>key: Please log in to use this feature</note>
+      </trans-unit>
+      <trans-unit id="aecb5e41b3c2cbb10c19bb029dfb3a96e835b0d4" resname="Quickorder">
+        <source>Quickorder</source>
+        <target state="translated">Commande rapide</target>
+        <note>key: Quickorder</note>
+      </trans-unit>
+      <trans-unit id="d59192b9c8f264b356075d2fd455117e5c1265a0" resname="SKU">
+        <source>SKU</source>
+        <target state="translated">SKU</target>
+        <note>key: SKU</note>
+      </trans-unit>
+      <trans-unit id="7b231a50a498ef151e291795f46f56bee569eae5" resname="available">
+        <source>Available</source>
+        <target state="translated">Disponible</target>
+        <note>key: available</note>
+      </trans-unit>
+      <trans-unit id="69decf7cd8bc19f73cd561cf0a8ff9fc4d046976" resname="common.my_shop">
+        <source>My Shop</source>
+        <target state="translated">Ma boutique</target>
+        <note>key: common.my_shop</note>
+      </trans-unit>
+      <trans-unit id="d8cbcac6128b8cedd0fdd832e9aaa1669e0c3756" resname="common.my_shop_functions">
+        <source>Functions</source>
+        <target state="translated">Fonctions</target>
+        <note>key: common.my_shop_functions</note>
+      </trans-unit>
+      <trans-unit id="d869a0207ca6e5552d738f091b0d6a960050ca20" resname="label.delegate">
+        <source>Delegate</source>
+        <target state="translated">Déléguer</target>
+        <note>key: label.delegate</note>
+      </trans-unit>
+      <trans-unit id="103324cbe09b6f39a27577221eaf3b37cf658914" resname="label.offcanvas_main_menu">
+        <source>Main Menu</source>
+        <target state="translated">Menu Principal</target>
+        <note>key: label.offcanvas_main_menu</note>
+      </trans-unit>
+      <trans-unit id="2a1377423302b0d34c6223cd4f023389c4507c5a" resname="label.pricetoggle">
+        <source>Toggle prices</source>
+        <target state="translated">Activer/désactiver les prix</target>
+        <note>key: label.pricetoggle</note>
+      </trans-unit>
+      <trans-unit id="fda8adca846a3d5af7f35dd7aa716a24671a13d1" resname="label.undelegate">
+        <source>End delegate</source>
+        <target state="translated">Terminer la délégation</target>
+        <note>key: label.undelegate</note>
+      </trans-unit>
+      <trans-unit id="1ec9b7b28492975ba6f95b9d56d0d39ad4fa86f5" resname="no_availability_information">
+        <source>No availability information for this product</source>
+        <target state="translated">Aucune information disponible pour ce produit</target>
+        <note>key: no_availability_information</note>
+      </trans-unit>
+      <trans-unit id="eeef42f87513f6dcbf91d0d8184c61215456de34" resname="not_available">
+        <source>Not Available</source>
+        <target state="translated">Indisponible</target>
+        <note>key: not_available</note>
+      </trans-unit>
+      <trans-unit id="920779209c144ddf527b9e4d4a413cb05b9beb0c" resname="not_available_amount">
+        <source>Not Available in this amount</source>
+        <target state="translated">Non disponible pour cette quantité</target>
+        <note>key: not_available_amount</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

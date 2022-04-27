@@ -31,6 +31,11 @@
         <target state="translated">Adresse de facturation</target>
         <note>key: Buyer address</note>
       </trans-unit>
+      <trans-unit id="4eef4e1362c804d772a5c41f5aaed17bbd7061b1" resname="BuyerCustomerParty_Party_PartyIdentification_ID">
+        <source>Customer number:</source>
+        <target state="translated">Référence Client:</target>
+        <note>key: BuyerCustomerParty_Party_PartyIdentification_ID</note>
+      </trans-unit>
       <trans-unit id="beacd3ba4e7ba8ee510e252a7fbf1bddaa4bffa9" resname="Delivery address">
         <source>Delivery address</source>
         <target state="translated">Adresse de livraison</target>
@@ -41,15 +46,210 @@
         <target state="translated">Date de livraison</target>
         <note>key: Delivery_ActualDeliveryDate</note>
       </trans-unit>
+      <trans-unit id="8b48b9107c150664675e0141aca2e99e43b88575" resname="Details for your %document%|credit_memo">
+        <source>Details for your credit</source>
+        <target state="translated">Détails de votre crédit</target>
+        <note>key: Details for your %document%|credit_memo</note>
+      </trans-unit>
+      <trans-unit id="b7d5cf9e4855e255b7b2238e93ca84014890b965" resname="Details for your %document%|delivery_note">
+        <source>Details for your delivery note</source>
+        <target state="translated">Détails de votre bon de livraison</target>
+        <note>key: Details for your %document%|delivery_note</note>
+      </trans-unit>
+      <trans-unit id="eef34461db3398e4d9598c355de8b39a0dffefae" resname="Details for your %document%|invoice">
+        <source>Details for your invoice</source>
+        <target state="translated">Détails de votre facture</target>
+        <note>key: Details for your %document%|invoice</note>
+      </trans-unit>
+      <trans-unit id="b50ec9fc4ced923a7fb41570a3baea777a19fc6f" resname="Details for your %document%|order">
+        <source>Details for your order</source>
+        <target state="translated">Détails de votre commande</target>
+        <note>key: Details for your %document%|order</note>
+      </trans-unit>
+      <trans-unit id="abe1ebfd780b1e35a7f55b3467883a2f7cfa2480" resname="Excl.">
+        <source>Excl.</source>
+        <target state="translated">Excl.</target>
+        <note>key: Excl.</note>
+      </trans-unit>
+      <trans-unit id="89f89c02cf47e091e726a4e07b88af0966806897" resname="ID">
+        <source>Number</source>
+        <target state="translated">Numéro</target>
+        <note>key: ID</note>
+      </trans-unit>
+      <trans-unit id="ab273cb8ce738b7abfcde3c74ffdda02c40f8fea" resname="ID_list">
+        <source>Number</source>
+        <target state="translated">Numéro</target>
+        <note>key: ID_list</note>
+      </trans-unit>
+      <trans-unit id="c72795657c1c5c9ac678c8c8fb36245221261644" resname="Inc.">
+        <source>Incl.</source>
+        <target state="translated">Incl.</target>
+        <note>key: Inc.</note>
+      </trans-unit>
+      <trans-unit id="7803f91295839a5695612811f94a6115e2bb3955" resname="InvoicedQuantity">
+        <source>Quantity</source>
+        <target state="translated">Quantité</target>
+        <note>key: InvoicedQuantity</note>
+      </trans-unit>
+      <trans-unit id="815cb9f8655362f8d8e19b645e383a7cfef242fb" resname="IssueDate">
+        <source>Invoice date</source>
+        <target state="translated">Date de facture</target>
+        <note>key: IssueDate</note>
+      </trans-unit>
+      <trans-unit id="c6ed7cb3fd24129bef15b447a737de3df63584a5" resname="Item_Name">
+        <source>Item</source>
+        <target state="translated">Article</target>
+        <note>key: Item_Name</note>
+      </trans-unit>
+      <trans-unit id="f504d38fbfe0981f1a0087e72b4c46908a82fa91" resname="Item_SellersItemIdentification_ID">
+        <source>Item no.</source>
+        <target state="translated">N° d'article</target>
+        <note>key: Item_SellersItemIdentification_ID</note>
+      </trans-unit>
+      <trans-unit id="5a97c23101d12b32c8f1c1059189f2d514b9a780" resname="LegalMonetaryTotal_PayableAmount">
+        <source>PayableAmount</source>
+        <target state="translated">Montant à payer</target>
+        <note>key: LegalMonetaryTotal_PayableAmount</note>
+      </trans-unit>
+      <trans-unit id="3ac986e629d1e99cbc02c7323cb8719ff1c98762" resname="LegalMonetaryTotal_TaxExclusiveAmount">
+        <source>Total</source>
+        <target state="translated">Total</target>
+        <note>key: LegalMonetaryTotal_TaxExclusiveAmount</note>
+      </trans-unit>
+      <trans-unit id="f5d00059c60084428e3bc29409ef3fa84e0685aa" resname="LegalMonetaryTotal_TaxInclusiveAmount">
+        <source>Total incl. VAT</source>
+        <target state="translated">Total TVA incl.</target>
+        <note>key: LegalMonetaryTotal_TaxInclusiveAmount</note>
+      </trans-unit>
+      <trans-unit id="b8b9f1367ad6269845f5ec54d66262066092883f" resname="No.">
+        <source>No.</source>
+        <target state="translated">N°</target>
+        <note>key: No.</note>
+      </trans-unit>
+      <trans-unit id="9c3f4c77de5c42a1e623a5f0b534f9a56a08d763" resname="Order History">
+        <source>Order History</source>
+        <target state="translated">Historique des Commandes</target>
+        <note>key: Order History</note>
+      </trans-unit>
+      <trans-unit id="09fe75648c411431c363f9301b91da85473cc965" resname="Order at:">
+        <source>Order at:</source>
+        <target state="translated">Commandé le:</target>
+        <note>key: Order at:</note>
+      </trans-unit>
+      <trans-unit id="718ccbbef5ba462a8c56f70f713e2bdfeeda3cb0" resname="Order number:">
+        <source>Order number:</source>
+        <target state="translated">Numéro de commande:</target>
+        <note>key: Order number:</note>
+      </trans-unit>
+      <trans-unit id="ebad794a51c3426ef24c7b1fb5b9046bb6353e16" resname="OrderReference_IssueDate">
+        <source>Order date</source>
+        <target state="translated">Date de la commande</target>
+        <note>key: OrderReference_IssueDate</note>
+      </trans-unit>
+      <trans-unit id="5b8cb44569cd13604f0ad93e02d8e6a991056fbc" resname="OrderReference_SalesOrderID">
+        <source>Order number</source>
+        <target state="translated">Numéro de commande</target>
+        <note>key: OrderReference_SalesOrderID</note>
+      </trans-unit>
+      <trans-unit id="a6d650c6deccb36555bc30fd05e2641ee913728e" resname="Orders from:">
+        <source>Orders from:</source>
+        <target state="translated">Commandes depuis:</target>
+        <note>key: Orders from:</note>
+      </trans-unit>
+      <trans-unit id="3f0aaed6e2c7b7548fa9d58d1e30950346ca3bc5" resname="Orders to:">
+        <source>Orders to:</source>
+        <target state="translated">Commandes jusqu'à:</target>
+        <note>key: Orders to:</note>
+      </trans-unit>
+      <trans-unit id="23b05ae099a537f6579b45ff866f812307e042f3" resname="Payment:">
+        <source>Payment:</source>
+        <target state="translated">Paiement :</target>
+        <note>key: Payment:</note>
+      </trans-unit>
+      <trans-unit id="0b1a4abf325fc02a3304f187ccb08d0f9477090b" resname="PaymentMeans_PaymentDueDate">
+        <source>Due date</source>
+        <target state="translated">Date d’échéance</target>
+        <note>key: PaymentMeans_PaymentDueDate</note>
+      </trans-unit>
+      <trans-unit id="299528e33d42b0c1575b9515b83733d2c3d9bcc7" resname="PaymentTerms_Note">
+        <source>Terms of payment</source>
+        <target state="translated">Conditions de paiement</target>
+        <note>key: PaymentTerms_Note</note>
+      </trans-unit>
+      <trans-unit id="cad313499077f86754f105393c117dd1fdea4412" resname="Please log in to use this feature">
+        <source>Please log in to use this feature</source>
+        <target state="translated">Veuillez vous connecter pour utiliser cette fonctionnalité</target>
+        <note>key: Please log in to use this feature</note>
+      </trans-unit>
+      <trans-unit id="1ebbfc61ed2ad66c35993f8ac4166be22aebe2bc" resname="Price_PriceAmount">
+        <source>Net price</source>
+        <target state="translated">Prix net</target>
+        <note>key: Price_PriceAmount</note>
+      </trans-unit>
+      <trans-unit id="211aca45f30753de118f273f7b269e7e4499fd62" resname="Retrieve documents">
+        <source>Retrieve documents</source>
+        <target state="translated">Récupérer les documents</target>
+        <note>key: Retrieve documents</note>
+      </trans-unit>
+      <trans-unit id="bce06414177f72ab70e6387b6af9f8ceef0d6049" resname="Search">
+        <source>Search</source>
+        <target state="translated">Rechercher</target>
+        <note>key: Search</note>
+      </trans-unit>
+      <trans-unit id="0c733f6a31c46658eacfa1d36539c7c8a643e123" resname="Search for:">
+        <source>Search for:</source>
+        <target state="translated">Rechercher depuis:</target>
+        <note>key: Search for:</note>
+      </trans-unit>
+      <trans-unit id="7ab3015465a99c9dc3275e34eef49ee8f7385563" resname="Search orders">
+        <source>Search orders</source>
+        <target state="translated">Rechercher des commandes</target>
+        <note>key: Search orders</note>
+      </trans-unit>
+      <trans-unit id="e8cd81070e8b6c221bdf6128dd7804d69a4bd04c" resname="SesExtension_BaseUnit">
+        <source>Base Unit</source>
+        <target state="translated">Unité de base</target>
+        <note>key: SesExtension_BaseUnit</note>
+      </trans-unit>
+      <trans-unit id="facfc43f3ef4d3f0b96b886887734c34b1b64732" resname="SesExtension_DiscountAmount">
+        <source>Discount</source>
+        <target state="translated">Remise</target>
+        <note>key: SesExtension_DiscountAmount</note>
+      </trans-unit>
       <trans-unit id="b0901bd246347236a8e3997bb68b0e23d3ebf054" resname="SesExtension_Invoice">
         <source>Invoice</source>
         <target state="translated">Facture</target>
         <note>key: SesExtension_Invoice</note>
       </trans-unit>
+      <trans-unit id="dc1221d41f809f1bdec59c1bb8ad6701ba919cad" resname="SesExtension_LineType">
+        <source>Line Type</source>
+        <target state="translated">Type de ligne</target>
+        <note>key: SesExtension_LineType</note>
+      </trans-unit>
       <trans-unit id="a654ab1d26027c4092e476750ae78de24ea87cdf" resname="SesExtension_ShipmentMethod">
         <source>Delivery</source>
         <target state="translated">Livraison</target>
         <note>key: SesExtension_ShipmentMethod</note>
+      </trans-unit>
+      <trans-unit id="8182f7a76047126bccb07acdb1860dbdc4d1c916" resname="SesExtension_ShippingAgentCode">
+        <source>Shipping agent code</source>
+        <target state="translated">Code d’agent d’expédition</target>
+        <note>key: SesExtension_ShippingAgentCode</note>
+      </trans-unit>
+      <trans-unit id="9df6d40e4bf35fc538d4f055412bcdb68b066099" resname="SesExtension_TaxInclusiveAmount">
+        <source>Total incl. VAT</source>
+        <target state="translated">Total TVA incl.</target>
+        <note>key: SesExtension_TaxInclusiveAmount</note>
+      </trans-unit>
+      <trans-unit id="703f8a33a1dc58d1d39373e561d6d77e3638771b" resname="SesExtension_UnitPrice">
+        <source>List price</source>
+        <target state="translated">Liste de prix</target>
+        <note>key: SesExtension_UnitPrice</note>
+      </trans-unit>
+      <trans-unit id="334ca4d610571f577ea04f3117e9c683db2de2b3" resname="SesExtension_VatNumber">
+        <source>Your VAT registration number</source>
+        <target state="translated">Votre numéro d'enregistrement TVA</target>
+        <note>key: SesExtension_VatNumber</note>
       </trans-unit>
       <trans-unit id="d07c252f428c8b0a34c9a2684de99dca53ecba15" resname="Standard delivery">
         <source>Standard delivery</source>
@@ -61,10 +261,60 @@
         <target state="translated">La date de début doit être antérieure à la date de fin</target>
         <note>key: Start date must be lower than end date.</note>
       </trans-unit>
+      <trans-unit id="5953ce67b5ea4de130831829a85481ac6624ae40" resname="Start typing to filter the table.">
+        <source>Start typing to filter the table.</source>
+        <target state="translated">Commencez à taper pour filtrer la liste.</target>
+        <note>key: Start typing to filter the table.</note>
+      </trans-unit>
       <trans-unit id="bae7d5be70820ed56467bd9a63744e23b47bd711" resname="Status">
         <source>Status</source>
         <target state="translated">Statut</target>
         <note>key: Status</note>
+      </trans-unit>
+      <trans-unit id="fc9ce14b28c6f2c3b72caf056ca604b2b96f7d2b" resname="Sum">
+        <source>Sum</source>
+        <target state="translated">Somme</target>
+        <note>key: Sum</note>
+      </trans-unit>
+      <trans-unit id="01f6e77e146799ecb7bb921e2989935abe6538a7" resname="Sum exl.vat:">
+        <source>Sum excl. VAT:</source>
+        <target state="translated">Somme TVA excl.:</target>
+        <note>key: Sum exl.vat:</note>
+      </trans-unit>
+      <trans-unit id="3801c95bf2a869500c92bcf53a745066d4319eb6" resname="Sum incl.vat:">
+        <source>Sum incl. VAT:</source>
+        <target state="translated">Somme TVA incl.:</target>
+        <note>key: Sum incl.vat:</note>
+      </trans-unit>
+      <trans-unit id="c9c0002b470885b406a7cca4c3a91722591c1923" resname="TaxTotal_TaxAmount">
+        <source>VAT</source>
+        <target state="translated">TVA</target>
+        <note>key: TaxTotal_TaxAmount</note>
+      </trans-unit>
+      <trans-unit id="7646afd3f96463a98cdf779b034d0a1cb6b4a367" resname="Terms of payment:">
+        <source>Terms of payment:</source>
+        <target state="translated">Conditions de paiement:</target>
+        <note>key: Terms of payment:</note>
+      </trans-unit>
+      <trans-unit id="5b1e5a9ea6ee7e5b01857653f5faef9b75a160a0" resname="TrackingUrl">
+        <source>Tracking URL</source>
+        <target state="translated">URL de suivi</target>
+        <note>key: TrackingUrl</note>
+      </trans-unit>
+      <trans-unit id="3f82659f3ceb2ada8c6ee9e74bfc0ee1ad9f5a7e" resname="VAT:">
+        <source>VAT:</source>
+        <target state="translated">TVA:</target>
+        <note>key: VAT:</note>
+      </trans-unit>
+      <trans-unit id="8295ecfb6d036a1258d759746492609c9d5899bf" resname="Wrong date format. Expected YYYY-MM-DD.">
+        <source>Wrong date format. Expected YYYY-MM-DD.</source>
+        <target state="translated">Format de date incorrect. AAAA-MM-JJ attendu.</target>
+        <note>key: Wrong date format. Expected YYYY-MM-DD.</note>
+      </trans-unit>
+      <trans-unit id="2b6d92bedaccbf764bf9c2de9e2a3b761e132bfe" resname="Wrong date format. Expected:">
+        <source>Wrong date format. Expected:</source>
+        <target state="translated">Format de date incorrect. Attendu:</target>
+        <note>key: Wrong date format. Expected:</note>
       </trans-unit>
       <trans-unit id="baeba7e7b9ec453e23b5bac313219285d6292358" resname="invoice">
         <source>invoice</source>

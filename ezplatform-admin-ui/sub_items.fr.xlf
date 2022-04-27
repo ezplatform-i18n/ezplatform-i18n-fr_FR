@@ -6,10 +6,15 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="e95c7e2e8f7a1a4bb1f64cc48ca2eae0b0af78b6" resname="content_type.not_available.label">
-        <source>N/A</source>
-        <target state="translated">N/A</target>
-        <note>key: content_type.not_available.label</note>
+      <trans-unit id="aa8f660d8cae16394e7cd4421e6b604e031ad04b" resname="bulk_action.popup.cancel">
+        <source>Cancel</source>
+        <target state="translated">Annuler</target>
+        <note>key: bulk_action.popup.cancel</note>
+      </trans-unit>
+      <trans-unit id="4953b415cbb1e81833664d96e7051d0a7e3d90c8" resname="bulk_delete.popup.confirm.users_and_users_with_nonusers">
+        <source>Delete</source>
+        <target state="translated">Supprimer</target>
+        <note>key: bulk_delete.popup.confirm.users_and_users_with_nonusers</note>
       </trans-unit>
       <trans-unit id="5e1792d4a193550fe8afd9a4be6d0a8c3f6596e9" resname="edit_item_btn.label">
         <source>Edit</source>
@@ -46,33 +51,13 @@
         <target state="translated">Traductions</target>
         <note>key: items_table.header.translations</note>
       </trans-unit>
-      <trans-unit id="b8c369db292d50595af6db4380326dbdf549bc4b" resname="load_content_items.invalid_response_format.error.message">
-        <source>Invalid response format</source>
-        <target state="translated">Format de réponse non valide</target>
-        <note>key: load_content_items.invalid_response_format.error.message</note>
-      </trans-unit>
-      <trans-unit id="3b84946bc3cacc7c087ccdf3546c3e1d32718075" resname="load_more.action.text">
-        <source>Show %limit% more results</source>
-        <target state="translated">Montrer %limit% résultats supplémentaires</target>
-        <note>key: load_more.action.text</note>
-      </trans-unit>
-      <trans-unit id="0b518af9d0e5e0471ad7c9aefbcda068ff71d0ab" resname="load_more.info.text">
-        <source><![CDATA[Viewing <strong>%loaded%</strong> out of <strong>%total%</strong> sub-items]]></source>
-        <target state="translated"><![CDATA[Affichage de <strong>%loaded%</strong> sous-éléments sur <strong>%total%</strong>]]></target>
-        <note>key: load_more.info.text</note>
-      </trans-unit>
       <trans-unit id="276a7024903672cd0476c82ba8845453e13db95e" resname="no_items.message">
         <source>This location has no sub-items</source>
         <target state="translated">Cet emplacement n'a pas de sous-éléments</target>
         <note>key: no_items.message</note>
       </trans-unit>
-      <trans-unit id="af207d1e719904a39524b34212a1ea6116cb3d46" resname="switch_to_grid_view.btn.label">
-        <source>View as grid</source>
-        <target state="translated">Voir sous forme de grille</target>
-        <note>key: switch_to_grid_view.btn.label</note>
-      </trans-unit>
       <trans-unit id="b5bfcc24141601264b6c03972d8e45bbb7c49a09" resname="switch_to_list_view.btn.label">
-        <source>View as list</source>
+        <source>View</source>
         <target state="translated">Voir sous forme de liste</target>
         <note>key: switch_to_list_view.btn.label</note>
       </trans-unit>

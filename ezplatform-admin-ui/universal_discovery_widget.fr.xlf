@@ -31,16 +31,6 @@
         <target state="translated">Parcourir le contenu</target>
         <note>key: browse.title</note>
       </trans-unit>
-      <trans-unit id="a35f9da1e68c9f811d1a0093f434bc32fd0d2b78" resname="browser.add">
-        <source>Add</source>
-        <target state="translated">Ajouter</target>
-        <note>key: browser.add</note>
-      </trans-unit>
-      <trans-unit id="ddff3bc3b7838c0c1e752a37cd40b4a6d537dcdd" resname="browser.selected">
-        <source>Selected</source>
-        <target state="translated">Sélectionné</target>
-        <note>key: browser.selected</note>
-      </trans-unit>
       <trans-unit id="1713d0deb6344882cf915babb2df574556a3f82c" resname="content_create.cancel.label">
         <source>Cancel</source>
         <target state="translated">Annuler</target>
@@ -121,11 +111,6 @@
         <target state="translated">Sélectionner l'image</target>
         <note>key: ezimageasset.title</note>
       </trans-unit>
-      <trans-unit id="8616b7656ef9370ffa5e42c399e615eaccccb00c" resname="filters.any_section">
-        <source>Any section</source>
-        <target state="translated">N’importe quelle section</target>
-        <note>key: filters.any_section</note>
-      </trans-unit>
       <trans-unit id="b01a58cb9736974403f9f94ecce5180fb95a9627" resname="filters.apply">
         <source>Apply</source>
         <target state="translated">Appliquer</target>
@@ -135,11 +120,6 @@
         <source>Clear</source>
         <target state="translated">Effacer</target>
         <note>key: filters.clear</note>
-      </trans-unit>
-      <trans-unit id="906871e66216a97a8033d2e86819150c141cb92a" resname="filters.content_type">
-        <source>Content Type</source>
-        <target state="translated">Type de Contenu</target>
-        <note>key: filters.content_type</note>
       </trans-unit>
       <trans-unit id="15135a98864ffb3f0f889577ad962bf3817fea6f" resname="filters.section">
         <source>Section</source>
@@ -151,15 +131,15 @@
         <target state="translated">Sous-arborescence</target>
         <note>key: filters.subtree</note>
       </trans-unit>
+      <trans-unit id="92d63a744c29f4be477f21fc81dd19b74ebb7bf2" resname="filters.tag_view_select.select">
+        <source>Select content</source>
+        <target state="translated">Sélectionner un contenu</target>
+        <note>key: filters.tag_view_select.select</note>
+      </trans-unit>
       <trans-unit id="2d4febe56a341671c069ff47b6e6adfd2bba005c" resname="limitation.pick.error">
         <source>Could not fetch content names</source>
         <target state="translated">Impossible de récupérer les noms des contenus</target>
         <note>key: limitation.pick.error</note>
-      </trans-unit>
-      <trans-unit id="87994bd9606f86f5999597107b8782ae5018a5ea" resname="meta_preview.bookmark">
-        <source>Bookmark</source>
-        <target state="translated">Favori</target>
-        <note>key: meta_preview.bookmark</note>
       </trans-unit>
       <trans-unit id="5e42fe3d48d64c1c9a735ac6286d3b0c06a008a0" resname="meta_preview.creation_date">
         <source>Creation Date</source>
@@ -206,33 +186,13 @@
         <target state="translated">Sélectionner l'emplacement pour restaurer le(s) élément(s)de contenu</target>
         <note>key: restore_under_new_location.title</note>
       </trans-unit>
-      <trans-unit id="007b9245e1a34e3ea3515ebe69767f07379edcae" resname="search.check_spelling">
-        <source>Check spelling of keywords.</source>
-        <target state="translated">Vérifiez l’orthographe des mots clés.</target>
-        <note>key: search.check_spelling</note>
-      </trans-unit>
-      <trans-unit id="536d54d0a1d9dffd70df6d5d9e1b32d6e99fdbb3" resname="search.different_keywords">
-        <source>Try different keywords.</source>
-        <target state="translated">Essayez des mots clés différents.</target>
-        <note>key: search.different_keywords</note>
-      </trans-unit>
-      <trans-unit id="fa40054e85b4179a9351672f51d70044a0de2741" resname="search.fewer_keywords">
-        <source>Try fewer keywords. Reducing keywords result in more matches.</source>
-        <target state="translated">Essayez avec moins de mots clés. Réduire le nombre de mots clés peut générer plus de résultats.</target>
-        <note>key: search.fewer_keywords</note>
-      </trans-unit>
       <trans-unit id="5ab8b9fc463113f18cb6826034b6ef21342bb73d" resname="search.label">
         <source>Search</source>
         <target state="translated">Rechercher</target>
         <note>key: search.label</note>
       </trans-unit>
-      <trans-unit id="9fade0c452653d162e3689cd888c984ac34b3b2b" resname="search.more_general">
-        <source>Try more general keywords.</source>
-        <target state="translated">Essayez des mots clés plus génériques.</target>
-        <note>key: search.more_general</note>
-      </trans-unit>
       <trans-unit id="8a3a6b538d81237dcb9533496c691a7685e456de" resname="search.no_results">
-        <source>Sorry, no results were found for</source>
+        <source>No results found for %query%</source>
         <target state="translated">Désolé, aucun résultat trouvé pour</target>
         <note>key: search.no_results</note>
       </trans-unit>
@@ -241,20 +201,10 @@
         <target state="translated">Résultats de la recherche</target>
         <note>key: search.search_results</note>
       </trans-unit>
-      <trans-unit id="3d38ca81487735c8b506fb4523e02256fd8821b1" resname="search.tips">
-        <source>Some helpful search tips</source>
-        <target state="translated">Quelques conseils utiles de recherche</target>
-        <note>key: search.tips</note>
-      </trans-unit>
       <trans-unit id="5b8a9a5fceb4991b77b50983c34df8a18a900a09" resname="select_location.error">
         <source>Cannot find children Locations with ID %idList%</source>
         <target state="translated">Impossible de trouver les emplacements des enfants avec l'ID - %idList%</target>
         <note>key: select_location.error</note>
-      </trans-unit>
-      <trans-unit id="1e503a68093242d42791b3ce4572f246b994d303" resname="selected_locations.clear_all">
-        <source>Clear all</source>
-        <target state="translated">Tout effacer</target>
-        <note>key: selected_locations.clear_all</note>
       </trans-unit>
       <trans-unit id="f57171aaa260d58b75c085d5606779e75a97751f" resname="selected_locations.clear_selection">
         <source>Clear selection</source>
@@ -266,45 +216,20 @@
         <target state="translated">Réduire le panneau latéral</target>
         <note>key: selected_locations.collapse.sidebar</note>
       </trans-unit>
-      <trans-unit id="6e6722ce3ff968c64d765d570209299cd6628024" resname="selected_locations.confirm_selection">
-        <source>Confirm selection</source>
-        <target state="translated">Confirmer la sélection</target>
-        <note>key: selected_locations.confirm_selection</note>
-      </trans-unit>
       <trans-unit id="19700661da70137e52d0009660c9a87f5bcb99bd" resname="selected_locations.expand.sidebar">
         <source>Expand sidebar</source>
         <target state="translated">Étendre la barre latérale</target>
         <note>key: selected_locations.expand.sidebar</note>
-      </trans-unit>
-      <trans-unit id="49f1cbcf4bdd5ba51b7f17dc8dfe93d95cbd4795" resname="selected_locations.selected">
-        <source>selected</source>
-        <target state="translated">sélectionné</target>
-        <note>key: selected_locations.selected</note>
       </trans-unit>
       <trans-unit id="6b02292efbef3c6800f618acb3c41f968d9ea305" resname="sorting.date.label">
         <source>Date</source>
         <target state="translated">Date</target>
         <note>key: sorting.date.label</note>
       </trans-unit>
-      <trans-unit id="a3253454c09869d111cc52367a11b7d419819a8a" resname="sorting.date.tooltip">
-        <source>Sort by Date</source>
-        <target state="translated">Trier par date</target>
-        <note>key: sorting.date.tooltip</note>
-      </trans-unit>
       <trans-unit id="7e978afd229113429d273612c01318f09e3f3e5e" resname="sorting.grid.view">
         <source>Grid view</source>
         <target state="translated">Vue grille</target>
         <note>key: sorting.grid.view</note>
-      </trans-unit>
-      <trans-unit id="c06c6d1c4592ee395e16fc267b514ee167146886" resname="sorting.name.label">
-        <source>Name</source>
-        <target state="translated">Nom</target>
-        <note>key: sorting.name.label</note>
-      </trans-unit>
-      <trans-unit id="2ef6e531e02791b42911cf5f7279f9bedebb3fb2" resname="sorting.name.tooltip">
-        <source>Sort by Name</source>
-        <target state="translated">Trier par le nom</target>
-        <note>key: sorting.name.tooltip</note>
       </trans-unit>
       <trans-unit id="27c00b5da502fe6afe6b76e59ddeb951bbbf2c6f" resname="sorting.panels.view">
         <source>Panels view</source>

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="90b461f5d439b5748027ffca60afdd893fcd1eb7" resname="product.add.to.basket">
+        <source>Add to basket</source>
+        <target state="translated">Ajouter au panier</target>
+        <note>key: product.add.to.basket</note>
+      </trans-unit>
+      <trans-unit id="ee1e51bb52e8b63bbf8d1e529fe0f6f2fd002e96" resname="product.add_to_stored_basket">
+        <source>Add to stored basket</source>
+        <target state="translated">Ajouter au panier enregistré</target>
+        <note>key: product.add_to_stored_basket</note>
+      </trans-unit>
+      <trans-unit id="ddb940b7de58a24952a7f3d2152a3b12bf60d12c" resname="product.availability">
+        <source>Availability</source>
+        <target state="translated">Disponibilité</target>
+        <note>key: product.availability</note>
+      </trans-unit>
+      <trans-unit id="699844629ab552851d3cec815f3efe0797ef3d7e" resname="product.choose_one_stored_basket">
+        <source>Choose one of your stored baskets</source>
+        <target state="translated">Choisissez l'un de vos paniers enregistrés</target>
+        <note>key: product.choose_one_stored_basket</note>
+      </trans-unit>
+      <trans-unit id="ddfefe22135be9ba5bf78c4d573cb3b103f9fe9c" resname="product.color">
+        <source>Color</source>
+        <target state="translated">Couleur </target>
+        <note>key: product.color</note>
+      </trans-unit>
+      <trans-unit id="c86b37d628f69870dfa3d1ba3fe422c37e59c52e" resname="product.country.of.origin">
+        <source>Country of Origin</source>
+        <target state="translated">Pays d'origine</target>
+        <note>key: product.country.of.origin</note>
+      </trans-unit>
+      <trans-unit id="0613c555e203c625b8d7bf118088bbcc14de200b" resname="product.description">
+        <source>Description</source>
+        <target state="translated">Description</target>
+        <note>key: product.description</note>
+      </trans-unit>
+      <trans-unit id="b4d5dcd5d8bfc880260bdf0aa608e1304ebb4dba" resname="product.ean">
+        <source>EAN: %ean%</source>
+        <target state="translated">EAN: %ean%</target>
+        <note>key: product.ean</note>
+      </trans-unit>
+      <trans-unit id="160876d14adb1b28e89a34e9c45902ea5f14caf1" resname="product.enter_new_name_stored_basket">
+        <source>Enter a new basket name!</source>
+        <target state="translated">Entrez un nouveau nom de panier !</target>
+        <note>key: product.enter_new_name_stored_basket</note>
+      </trans-unit>
+      <trans-unit id="8731ab482f5e369910efd75a9226c2b85d6ab03f" resname="product.item.no">
+        <source>Item No.</source>
+        <target state="translated">Article No.</target>
+        <note>key: product.item.no</note>
+      </trans-unit>
+      <trans-unit id="f76dca1b9cb2c879fae7933c0d4194f91cb20490" resname="product.manufacturer">
+        <source>Manufacturer</source>
+        <target state="translated">Fabricant</target>
+        <note>key: product.manufacturer</note>
+      </trans-unit>
+      <trans-unit id="2751648ce64e7b2bc481eacfc022aab0e60d3368" resname="product.manufacturer.sku">
+        <source>Manufacturer SKU</source>
+        <target state="translated">Fabricant SKU</target>
+        <note>key: product.manufacturer.sku</note>
+      </trans-unit>
+      <trans-unit id="dc46a49674c80864136e0a54968a69e791fc1592" resname="product.minimum_pieces">
+        <source>Minimum %pieces% piece(s)</source>
+        <target state="translated">Minimum %pieces% pièce(s)</target>
+        <note>key: product.minimum_pieces</note>
+      </trans-unit>
+      <trans-unit id="f223e644c2e814d6028265ada6c69e82dcb393c3" resname="product.no_order_permission">
+        <source>You don't have the permission(s) to order.</source>
+        <target state="translated">Vous n'avez pas la permission de commander.</target>
+        <note>key: product.no_order_permission</note>
+      </trans-unit>
+      <trans-unit id="a85850c8b241f5f508f4e8cd8f3aae85dedc04ad" resname="product.packaging.unit">
+        <source>Packaging Unit: %packageUnit%</source>
+        <target state="translated">Unité d'emballage : %packageUnit%</target>
+        <note>key: product.packaging.unit</note>
+      </trans-unit>
+      <trans-unit id="0212b791d9a2db33c790f01d2c5e3fff16409a5b" resname="product.price">
+        <source>Price</source>
+        <target state="translated">Prix</target>
+        <note>key: product.price</note>
+      </trans-unit>
+      <trans-unit id="86289e8232b9fade3d7636daadf2af2cb6604e3a" resname="product.price.from">
+        <source>Price from</source>
+        <target state="translated">Prix à partir de</target>
+        <note>key: product.price.from</note>
+      </trans-unit>
+      <trans-unit id="fb18e869d425ed7645d42ae0960066c8de753890" resname="product.qty">
+        <source>Qty</source>
+        <target state="translated">Qté</target>
+        <note>key: product.qty</note>
+      </trans-unit>
+      <trans-unit id="5a72918d0a47e7bd5c6f6d338940b5a1fc5bf95f" resname="product.quantity">
+        <source>Quantity</source>
+        <target state="translated">Quantité</target>
+        <note>key: product.quantity</note>
+      </trans-unit>
+      <trans-unit id="f516f43b7995b659a236f9cf9ea940f643fcd78f" resname="product.sku">
+        <source>SKU: %sku%</source>
+        <target state="translated">SKU : %sku%</target>
+        <note>key: product.sku</note>
+      </trans-unit>
+      <trans-unit id="4cb37620891b922b268bc6e27ec3d9df4156ff17" resname="product.specification">
+        <source>Specification</source>
+        <target state="translated">Spécification</target>
+        <note>key: product.specification</note>
+      </trans-unit>
+      <trans-unit id="aef624d4eddcbb6f2a7919c9f0e1a274cd7f82e5" resname="product.stock">
+        <source>Stock</source>
+        <target state="translated">Stock</target>
+        <note>key: product.stock</note>
+      </trans-unit>
+      <trans-unit id="3fe2c0a806d5db96bb40b52c6a55c53bb476b496" resname="product.technical.information">
+        <source>Technical information</source>
+        <target state="translated">Informations techniques</target>
+        <note>key: product.technical.information</note>
+      </trans-unit>
+      <trans-unit id="255ee2a046b75e8b0014e5f718b4ef0d1990d80d" resname="product.unit">
+        <source>Unit: %unit%</source>
+        <target state="translated">Unité: %unit%</target>
+        <note>key: product.unit</note>
+      </trans-unit>
+      <trans-unit id="1a7db81a7d3e60da20345f070b3b011941907832" resname="product.video">
+        <source>Videos</source>
+        <target state="translated">Vidéos</target>
+        <note>key: product.video</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

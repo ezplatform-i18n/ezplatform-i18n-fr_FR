@@ -12,7 +12,7 @@
         <note>key: ezmatrix.add</note>
       </trans-unit>
       <trans-unit id="f5aef330799a7345c75e72279e06eb9f5b7d0da9" resname="ezmatrix.remove">
-        <source>Remove</source>
+        <source>Delete</source>
         <target state="translated">Retirer</target>
         <note>key: ezmatrix.remove</note>
       </trans-unit>

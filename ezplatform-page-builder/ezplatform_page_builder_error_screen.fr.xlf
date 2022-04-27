@@ -17,7 +17,7 @@
         <note>key: preview.could.not.be.loaded</note>
       </trans-unit>
       <trans-unit id="a89fa23dda796749c6bb7c0290ee22ae4a731c23" resname="you.can.go.back.to.previous.page">
-        <source><![CDATA[You can go back to the previous website or to <a class="ez-error-screen__link">the last page you visited.</a>]]></source>
+        <source><![CDATA[You can go back to the previous website or to <a class="ibexa-error-screen__link">the last page you visited.</a>]]></source>
         <target state="translated"><![CDATA[Vous pouvez revenir au site précédent ou à <a class="ez-error-screen__link">la dernière page que vous avez visité</a>]]></target>
         <note>key: you.can.go.back.to.previous.page</note>
       </trans-unit>

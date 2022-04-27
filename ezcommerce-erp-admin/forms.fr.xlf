@@ -6,6 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="029ea67634ff66aa9afd7c8850ebf6abe0f2e7be" resname="role.policy.siso_control_center">
+        <source>eCommerce control center</source>
+        <target state="translated">Centre de contrôle du eCommerce</target>
+        <note>key: role.policy.siso_control_center</note>
+      </trans-unit>
       <trans-unit id="ad4e634b7a562503b6e50d2b057490b8d7dc6336" resname="role.policy.siso_control_center.all_functions">
         <source>Control center</source>
         <target state="translated">Centre de contrôle</target>
@@ -15,6 +20,36 @@
         <source>Access ERP Rest API</source>
         <target state="translated">Accéder à l'API ERP Rest</target>
         <note>key: role.policy.siso_control_center.api_erp</note>
+      </trans-unit>
+      <trans-unit id="45414effd965bb5556bb824a587757ecc008c182" resname="role.policy.siso_control_center.api_jobs">
+        <source>Access JOB Rest API</source>
+        <target state="translated">Accéder à l'API JOB Rest</target>
+        <note>key: role.policy.siso_control_center.api_jobs</note>
+      </trans-unit>
+      <trans-unit id="4b5b94dfe8ce0ed99afad6c08ad6926941e84a17" resname="role.policy.siso_control_center.manage_emails">
+        <source>Manage eMail archive</source>
+        <target state="translated">Gérer les archives d'e-mail</target>
+        <note>key: role.policy.siso_control_center.manage_emails</note>
+      </trans-unit>
+      <trans-unit id="7fa7d6588d2604254dcf303b4b400c4f73954ad8" resname="role.policy.siso_control_center.manage_erp">
+        <source>Manage ERP</source>
+        <target state="translated">Gérer ERP</target>
+        <note>key: role.policy.siso_control_center.manage_erp</note>
+      </trans-unit>
+      <trans-unit id="c65f946a026df0c1c1dd82f341c93f037e7e355e" resname="role.policy.siso_control_center.manage_erp_logs">
+        <source>Manage ERP logs</source>
+        <target state="translated">Gérer les journaux ERP</target>
+        <note>key: role.policy.siso_control_center.manage_erp_logs</note>
+      </trans-unit>
+      <trans-unit id="6fb68c71d5d02066779acbd48adec60b00cda435" resname="role.policy.siso_control_center.manage_exports">
+        <source>eContent exports</source>
+        <target state="translated">Exports de eContent</target>
+        <note>key: role.policy.siso_control_center.manage_exports</note>
+      </trans-unit>
+      <trans-unit id="46733f57f8e3374f10e13976cbf0745e050d0533" resname="role.policy.siso_control_center.manage_imports">
+        <source>eContent imports</source>
+        <target state="translated">Imports de eContent</target>
+        <note>key: role.policy.siso_control_center.manage_imports</note>
       </trans-unit>
       <trans-unit id="d9d75b3eea946a68bc4aa78d3810f6b6a04ebada" resname="role.policy.siso_control_center.manage_jobs">
         <source>Manage eCommerce jobs</source>

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="8b71654474e718dd23bc5cd4b8a82369c4352241" resname="attribute_definition.breadcrumb.list">
+        <source>Attributes</source>
+        <target state="translated">Attributs </target>
+        <note>key: attribute_definition.breadcrumb.list</note>
+      </trans-unit>
+      <trans-unit id="a6a0c9054131c39ed69ed5ef964f5ae5484d640f" resname="attribute_definition.information.column.group">
+        <source>Group</source>
+        <target state="translated">Groupe</target>
+        <note>key: attribute_definition.information.column.group</note>
+      </trans-unit>
+      <trans-unit id="4c3096f45e6a55c6ec6133d3e8483c1fc25aa969" resname="attribute_definition.information.column.identifier">
+        <source>Identifier</source>
+        <target state="translated">Identifiant</target>
+        <note>key: attribute_definition.information.column.identifier</note>
+      </trans-unit>
+      <trans-unit id="8d1623a0f8d90530a2ca0a8408f9b550bbfde20b" resname="attribute_definition.information.column.name">
+        <source>Name</source>
+        <target state="translated">Nom</target>
+        <note>key: attribute_definition.information.column.name</note>
+      </trans-unit>
+      <trans-unit id="3d642babd754bb866fffea8913e82c20d231eb53" resname="attribute_definition.information.column.position">
+        <source>Position</source>
+        <target state="translated">Position</target>
+        <note>key: attribute_definition.information.column.position</note>
+      </trans-unit>
+      <trans-unit id="d2ef844cc07c898fa2c6e9d95650f4cfc855253b" resname="attribute_definition.information.column.type">
+        <source>Type</source>
+        <target state="translated">Type</target>
+        <note>key: attribute_definition.information.column.type</note>
+      </trans-unit>
+      <trans-unit id="2147df5bf8c3356ef8cfe196ebd40984b8e72f6c" resname="attribute_definition.list.column.attribute_type">
+        <source>Type</source>
+        <target state="translated">Type</target>
+        <note>key: attribute_definition.list.column.attribute_type</note>
+      </trans-unit>
+      <trans-unit id="ca1ef7ad45f0c2fa70abd4b0ef24e47a551a4dc2" resname="attribute_definition.list.column.identifier">
+        <source>Identifier</source>
+        <target state="translated">Identifiant</target>
+        <note>key: attribute_definition.list.column.identifier</note>
+      </trans-unit>
+      <trans-unit id="ffa0c6d02e35c3a39917710550a79632338debd0" resname="attribute_definition.list.column.name">
+        <source>Name</source>
+        <target state="translated">Nom</target>
+        <note>key: attribute_definition.list.column.name</note>
+      </trans-unit>
+      <trans-unit id="a1cec4bdf687750b84989eab8b3f82e55724da7f" resname="attribute_definition.list.column.position">
+        <source>Position</source>
+        <target state="translated">Position</target>
+        <note>key: attribute_definition.list.column.position</note>
+      </trans-unit>
+      <trans-unit id="cb5f9f215ccd69315935656a89c7e408b89f0cc6" resname="attribute_definition.list.count_results">
+        <source>%count% results</source>
+        <target state="translated">%count% résultats</target>
+        <note>key: attribute_definition.list.count_results</note>
+      </trans-unit>
+      <trans-unit id="9cbd920f83ef0b74bf3b8a29a855485a36fbcff2" resname="attribute_definition.pre_create.add">
+        <source>Add</source>
+        <target state="translated">Ajouter</target>
+        <note>key: attribute_definition.pre_create.add</note>
+      </trans-unit>
+      <trans-unit id="c01193d8561769321dc5f8effe9aed85d3c2965f" resname="attribute_definition.pre_create.cancel">
+        <source>Cancel</source>
+        <target state="translated">Annuler</target>
+        <note>key: attribute_definition.pre_create.cancel</note>
+      </trans-unit>
+      <trans-unit id="ed581114c1259c6a02df3ffc2e78c7048352805e" resname="attribute_definition.updating">
+        <source>Updating</source>
+        <target state="translated">Mise à jour</target>
+        <note>key: attribute_definition.updating</note>
+      </trans-unit>
+      <trans-unit id="d706859ada946c49c4ad12e42f83ecb88f465717" resname="attribute_group.breadcrumb.view">
+        <source>%name%</source>
+        <target state="translated">%name%</target>
+        <note>key: attribute_group.breadcrumb.view</note>
+      </trans-unit>
+      <trans-unit id="30312f90a8509d0f1768ceff1d2cfe8e9a03129d" resname="attribute_group.list.column.identifier">
+        <source>Identifier</source>
+        <target state="translated">Identifiant</target>
+        <note>key: attribute_group.list.column.identifier</note>
+      </trans-unit>
+      <trans-unit id="57cef6a5c587f7a9e3887a0ef3ad21ab2f669d24" resname="attribute_group.list.column.name">
+        <source>Name</source>
+        <target state="translated">Nom</target>
+        <note>key: attribute_group.list.column.name</note>
+      </trans-unit>
+      <trans-unit id="e9b6984aa83a1ccd4ce040f59e2ff1d3f67a29c7" resname="attribute_group.list.column.position">
+        <source>Position</source>
+        <target state="translated">Position</target>
+        <note>key: attribute_group.list.column.position</note>
+      </trans-unit>
+      <trans-unit id="2358230344910f644235f963ebb304115dd88d20" resname="attribute_group.list.number_of_results">
+        <source>%number_of_results% Results</source>
+        <target state="translated">%number_of_results% résultats</target>
+        <note>key: attribute_group.list.number_of_results</note>
+      </trans-unit>
+      <trans-unit id="d5308d391de5aad3682768b97bb68f280bfe43f3" resname="attribute_group.no_search_results.action_text">
+        <source>Try again with new search criteria</source>
+        <target state="translated">Essayez à nouveau avec d'autres critères de recherche</target>
+        <note>key: attribute_group.no_search_results.action_text</note>
+      </trans-unit>
+      <trans-unit id="16bf539c61720387fa41396be436aa74c5430821" resname="attribute_group.no_search_results.info_text">
+        <source>Sorry, there are no attribute groups for your search</source>
+        <target state="translated">Désolé, il n'y a aucun groupe d'attributs pour votre recherche</target>
+        <note>key: attribute_group.no_search_results.info_text</note>
+      </trans-unit>
+      <trans-unit id="489e900a6b4a75d87e8b575dd624049a309bbafd" resname="attribute_group.view.add_attribute">
+        <source>Add attribute</source>
+        <target state="translated">Ajouter un attribut</target>
+        <note>key: attribute_group.view.add_attribute</note>
+      </trans-unit>
+      <trans-unit id="592b7f7b39973e8d577fb8ceddf3002be195af8d" resname="attribute_group.view.delete">
+        <source>Delete</source>
+        <target state="translated">Supprimer</target>
+        <note>key: attribute_group.view.delete</note>
+      </trans-unit>
+      <trans-unit id="d8b7b9089b8352da099325a822eb6a63154d810a" resname="attribute_group.view.edit">
+        <source>Edit</source>
+        <target state="translated">Modifier</target>
+        <note>key: attribute_group.view.edit</note>
+      </trans-unit>
+      <trans-unit id="52d704c7032af7334debbf6bffacaf015cdea7b8" resname="attribute_group.view.identifier">
+        <source>Identifier</source>
+        <target state="translated">Identifiant</target>
+        <note>key: attribute_group.view.identifier</note>
+      </trans-unit>
+      <trans-unit id="0c7a61a8376f871c3ac93ac580cf3a2c39d3b0d0" resname="attribute_group.view.name">
+        <source>Name</source>
+        <target state="translated">Nom</target>
+        <note>key: attribute_group.view.name</note>
+      </trans-unit>
+      <trans-unit id="14864666c347a98cf1f2984abe7cdec9d1374b00" resname="attribute_group.view.position">
+        <source>Position</source>
+        <target state="translated">Position</target>
+        <note>key: attribute_group.view.position</note>
+      </trans-unit>
+      <trans-unit id="cc8c59b97e382065f7ad2d4054c722fa06e962af" resname="attribute_group.view.title">
+        <source>%name%</source>
+        <target state="translated">%name%</target>
+        <note>key: attribute_group.view.title</note>
+      </trans-unit>
+      <trans-unit id="cc850a1061ddedb8e8be9deea26660f1b97fe731" resname="attribute_group_translation_add_form.add">
+        <source>Create</source>
+        <target state="translated">Créer</target>
+        <note>key: attribute_group_translation_add_form.add</note>
+      </trans-unit>
+      <trans-unit id="73c94795f6aea4c968427b19b9070448350992df" resname="attribute_group_translation_remove_form.remove">
+        <source>Remove translation</source>
+        <target state="translated">Supprimer la traduction</target>
+        <note>key: attribute_group_translation_remove_form.remove</note>
+      </trans-unit>
+      <trans-unit id="2da3a62682c9985ab10302dcfc2451954ed3cfd8" resname="currencies.list.title">
+        <source>Currencies</source>
+        <target state="translated">Devises</target>
+        <note>key: currencies.list.title</note>
+      </trans-unit>
+      <trans-unit id="e0599aae4ca54ac7f5c94b436908fa7291e1782c" resname="currency.creating.action_name">
+        <source>Creating new currency</source>
+        <target state="translated">Création d'une nouvelle devise</target>
+        <note>key: currency.creating.action_name</note>
+      </trans-unit>
+      <trans-unit id="579d803cb65fc830655353d738f751dd81afc5c3" resname="currency.creating.title">
+        <source>New currency</source>
+        <target state="translated">Nouvelle devise</target>
+        <note>key: currency.creating.title</note>
+      </trans-unit>
+      <trans-unit id="9ecb5118c32cc5c08ed8b3164afb8cd627fe8c6a" resname="currency.delete.success">
+        <source>{1}Currency %deletedCodes% removed|]1,Inf[ Currencies %deletedCodes% removed</source>
+        <target state="translated">{1}Devise %deletedCodes% supprimée|]1,Inf[ Devises %deletedCodes% supprimées</target>
+        <note>key: currency.delete.success</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="95152a121b383f5dd34363055566146f0a9d2398" resname="breadcrumb.ecommerce">
+        <source>e-commerce</source>
+        <target state="translated">e-commerce</target>
+        <note>key: breadcrumb.ecommerce</note>
+      </trans-unit>
+      <trans-unit id="8e0e3543f15d041eb3a91dbb23988bbb49fee8e0" resname="cockpit.sales.and.orders.filters.custom_range">
+        <source>Custom range</source>
+        <target state="translated">Intervalle personnalisé</target>
+        <note>key: cockpit.sales.and.orders.filters.custom_range</note>
+      </trans-unit>
+      <trans-unit id="21303cda2bc7ef912ba4df49cd7493d6f8967223" resname="cockpit.sales.and.orders.filters.last.14">
+        <source>Last 14 days</source>
+        <target state="translated">14 derniers jours</target>
+        <note>key: cockpit.sales.and.orders.filters.last.14</note>
+      </trans-unit>
+      <trans-unit id="cd9635d37ec1b3032c61430a97094f612952a151" resname="cockpit.sales.and.orders.filters.last.30">
+        <source>Last 30 days</source>
+        <target state="translated">30 derniers jours</target>
+        <note>key: cockpit.sales.and.orders.filters.last.30</note>
+      </trans-unit>
+      <trans-unit id="476f5762630c0244db01aaaa39ce65dd544a3634" resname="cockpit.sales.and.orders.filters.last.7">
+        <source>Last 7 days</source>
+        <target state="translated">7 Derniers Jours</target>
+        <note>key: cockpit.sales.and.orders.filters.last.7</note>
+      </trans-unit>
+      <trans-unit id="d01778da44cc4128afb60706a25e6818b2044a83" resname="cockpit.sales.and.orders.filters.this.month">
+        <source>This month</source>
+        <target state="translated">Ce mois</target>
+        <note>key: cockpit.sales.and.orders.filters.this.month</note>
+      </trans-unit>
+      <trans-unit id="e9621f090e732e7cffa4b2a41db7191d7cd42abc" resname="cockpit.sales.and.orders.filters.this.week">
+        <source>This week</source>
+        <target state="translated">Cette semaine</target>
+        <note>key: cockpit.sales.and.orders.filters.this.week</note>
+      </trans-unit>
+      <trans-unit id="5aa5d69b08c3fef9abcdb15660a46ccaec0c6812" resname="cockpit.summary.last_30_days">
+        <source>Last 30 days</source>
+        <target state="translated">30 derniers jours</target>
+        <note>key: cockpit.summary.last_30_days</note>
+      </trans-unit>
+      <trans-unit id="3d136447d16ddc52a886d76f4e3463079ec81d0c" resname="dashboard.breadcrumb.dashboard">
+        <source>Dashboard</source>
+        <target state="translated">Tableau de bord</target>
+        <note>key: dashboard.breadcrumb.dashboard</note>
+      </trans-unit>
+      <trans-unit id="4a05a9674da37128610b8bc99fe79beaf2626063" resname="dashboard.chart.orders_title">
+        <source>Orders</source>
+        <target state="translated">Commandes</target>
+        <note>key: dashboard.chart.orders_title</note>
+      </trans-unit>
+      <trans-unit id="bfb32bcbc7b9525b2fd691c5e1c798ab50b51cb3" resname="dashboard.chart.revenue">
+        <source>Revenue</source>
+        <target state="translated">Revenus</target>
+        <note>key: dashboard.chart.revenue</note>
+      </trans-unit>
+      <trans-unit id="2416bd5f609307438250d35c70b145912eb475a5" resname="dashboard.chart.sales_title">
+        <source>Sales</source>
+        <target state="translated">Ventes</target>
+        <note>key: dashboard.chart.sales_title</note>
+      </trans-unit>
+      <trans-unit id="00b2ad46ff2d1f475c0415c722950888791f7140" resname="dashboard.chart.total">
+        <source>Total</source>
+        <target state="translated">Total</target>
+        <note>key: dashboard.chart.total</note>
+      </trans-unit>
+      <trans-unit id="dae0df9b8b2d80c51d48f9ddc440edfd15cbbeb6" resname="dashboard.filters.currency">
+        <source>Currency</source>
+        <target state="translated">Devise</target>
+        <note>key: dashboard.filters.currency</note>
+      </trans-unit>
+      <trans-unit id="71b03b223ed97f852a8f19acd070a320adedb5c0" resname="dashboard.filters.shop_id">
+        <source>Shop</source>
+        <target state="translated">Boutique</target>
+        <note>key: dashboard.filters.shop_id</note>
+      </trans-unit>
+      <trans-unit id="4e525e87cbe863431e4c34645e5d5e2c215fe2e4" resname="dashboard.page_title">
+        <source>Dashboard</source>
+        <target state="translated">Tableau de bord</target>
+        <note>key: dashboard.page_title</note>
+      </trans-unit>
+      <trans-unit id="ce9086f842462d1d0887d9f153102253f29c4fca" resname="dashboard.sections.sales_and_orders.title">
+        <source>Sales and Orders</source>
+        <target state="translated">Ventes et Commandes</target>
+        <note>key: dashboard.sections.sales_and_orders.title</note>
+      </trans-unit>
+      <trans-unit id="a209a6ea5c3763e78d058eef32af6362be1c45e7" resname="dashboard.summary.average_order_title">
+        <source>Averager order</source>
+        <target state="translated">Commande moyenne</target>
+        <note>key: dashboard.summary.average_order_title</note>
+      </trans-unit>
+      <trans-unit id="70ec620526a748e1b9ab1e63093247e7a186e8db" resname="dashboard.summary.number_of_customers_title">
+        <source>Number of customers</source>
+        <target state="translated">Nombre de clients</target>
+        <note>key: dashboard.summary.number_of_customers_title</note>
+      </trans-unit>
+      <trans-unit id="316bdb1d51c1d6150eec707a6424d5dd0cbcda0f" resname="dashboard.summary.number_of_products_title">
+        <source>Number of products</source>
+        <target state="translated">Nombre de produits</target>
+        <note>key: dashboard.summary.number_of_products_title</note>
+      </trans-unit>
+      <trans-unit id="72b3483d1db9bf47ed5c0dbff998ce92a920df62" resname="dashboard.summary.sales_title">
+        <source>Sales</source>
+        <target state="translated">Ventes</target>
+        <note>key: dashboard.summary.sales_title</note>
+      </trans-unit>
+      <trans-unit id="2ccc225776d28b2f040d8540e4f282398f24ceac" resname="dashboard.table.best_clients.currency">
+        <source>Currency</source>
+        <target state="translated">Devise</target>
+        <note>key: dashboard.table.best_clients.currency</note>
+      </trans-unit>
+      <trans-unit id="90d8d84e0dc86217e7eff50d47655b5214a06b49" resname="dashboard.table.best_clients.customer_name">
+        <source>Customer name</source>
+        <target state="translated">Nom du Client</target>
+        <note>key: dashboard.table.best_clients.customer_name</note>
+      </trans-unit>
+      <trans-unit id="4728f639d25729302fa1a0ec23dd0da05afa9ccf" resname="dashboard.table.best_clients.title">
+        <source>Best clients</source>
+        <target state="translated">Meilleurs clients</target>
+        <note>key: dashboard.table.best_clients.title</note>
+      </trans-unit>
+      <trans-unit id="c30ac524ca366a1885e730dbd35980e8f97fcc70" resname="dashboard.table.best_clients.total_sales">
+        <source>Total sales</source>
+        <target state="translated">Ventes totales</target>
+        <note>key: dashboard.table.best_clients.total_sales</note>
+      </trans-unit>
+      <trans-unit id="549741ae5eb2065253155f378b395fdaf1d4af97" resname="dashboard.table.last_orders.currency">
+        <source>Currency</source>
+        <target state="translated">Devise</target>
+        <note>key: dashboard.table.last_orders.currency</note>
+      </trans-unit>
+      <trans-unit id="f968a84aa9b202b013865501cfa0bda40d8c7af6" resname="dashboard.table.last_orders.customer_name">
+        <source>Customer name</source>
+        <target state="translated">Nom du Client</target>
+        <note>key: dashboard.table.last_orders.customer_name</note>
+      </trans-unit>
+      <trans-unit id="b25773913a4dbe71bee7d3a95df6a4a10c35659b" resname="dashboard.table.last_orders.date_time">
+        <source>Date/Time</source>
+        <target state="translated">Date / Heure</target>
+        <note>key: dashboard.table.last_orders.date_time</note>
+      </trans-unit>
+      <trans-unit id="0271ad99d8a183dc1710a234c29b04c53ada7686" resname="dashboard.table.last_orders.title">
+        <source>Last orders</source>
+        <target state="translated">Dernières commandes</target>
+        <note>key: dashboard.table.last_orders.title</note>
+      </trans-unit>
+      <trans-unit id="96c11b7c538e3013828f498c594e66c657fcf745" resname="dashboard.table.last_orders.total_sales">
+        <source>Total sales</source>
+        <target state="translated">Ventes totales</target>
+        <note>key: dashboard.table.last_orders.total_sales</note>
+      </trans-unit>
+      <trans-unit id="533e488d98e810e4ff376adb536011af07cb8973" resname="dashboard.table.see_all">
+        <source>See all</source>
+        <target state="translated">Voir tout</target>
+        <note>key: dashboard.table.see_all</note>
+      </trans-unit>
+      <trans-unit id="272e650f8667b4f4fcb7032b85b98ef4a9974f0f" resname="dropdown.search">
+        <source>Search...</source>
+        <target state="translated">Rechercher...</target>
+        <note>key: dropdown.search</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

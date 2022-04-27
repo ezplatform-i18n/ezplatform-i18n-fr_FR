@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="f465487145b82439de201ec0f302c76c3f71bf77" resname="accordion_navigation_content">
+        <source>Use the %type% to store items for later.</source>
+        <target state="translated">Utilisez le %type% pour stocker des articles pour plus tard.</target>
+        <note>key: accordion_navigation_content</note>
+      </trans-unit>
+      <trans-unit id="92d7e9f9b9a95e1f21534cb992b30abdc1721954" resname="add_all_to_basket">
+        <source>Add all items to basket</source>
+        <target state="translated">Ajouter tous les articles au panier</target>
+        <note>key: add_all_to_basket</note>
+      </trans-unit>
+      <trans-unit id="6c8a8ec4c48f4606b8d73b65efeaa1d814aee20b" resname="add_to_basket">
+        <source>Add to basket</source>
+        <target state="translated">Ajouter au panier</target>
+        <note>key: add_to_basket</note>
+      </trans-unit>
+      <trans-unit id="59bd0a3ff43b32849b319e645d4798d8a5d1e889" resname="info">
+        <source>Info</source>
+        <target state="translated">Information</target>
+        <note>key: info</note>
+      </trans-unit>
+      <trans-unit id="546d0f495d98dbf31416da2e545656180dd41441" resname="min_quantity">
+        <source>Min quantity</source>
+        <target state="translated">Quantité min.</target>
+        <note>key: min_quantity</note>
+      </trans-unit>
+      <trans-unit id="273843995cd30f14cc3c6d6bd67664edc26c2fa5" resname="my_wishlist">
+        <source>My wishlist</source>
+        <target state="translated">Ma liste d'envies</target>
+        <note>key: my_wishlist</note>
+      </trans-unit>
+      <trans-unit id="63e83470db107c85795db0b0400341cf453c10b9" resname="not_available_product_message">
+        <source>This product is not available any more! You can delete it here</source>
+        <target state="translated">Ce produit n'est plus disponible ! Vous pouvez le supprimer ici</target>
+        <note>key: not_available_product_message</note>
+      </trans-unit>
+      <trans-unit id="38a007151abe87cc01a5b6e9cc418e85286e2087" resname="product">
+        <source>Product</source>
+        <target state="translated">Produit</target>
+        <note>key: product</note>
+      </trans-unit>
+      <trans-unit id="6a4060f4d918aedaae3c50700276eefc61720dad" resname="quantity">
+        <source>Quantity</source>
+        <target state="translated">Quantité</target>
+        <note>key: quantity</note>
+      </trans-unit>
+      <trans-unit id="716ea20b69ac666679092c4e5e4a313c1622632f" resname="remove_product">
+        <source>Remove product from %basketType%</source>
+        <target state="translated">Retirer le produit de %basketType%</target>
+        <note>key: remove_product</note>
+      </trans-unit>
+      <trans-unit id="cf559ae3526e08d2bf8526eb199d6a7115abe2d2" resname="sku">
+        <source>SKU</source>
+        <target state="translated">SKU</target>
+        <note>key: sku</note>
+      </trans-unit>
+      <trans-unit id="d5ae5f80324192e95876cf478f1d72fe0086f1a1" resname="variant_code">
+        <source>Variant code</source>
+        <target state="translated">Code de la variante</target>
+        <note>key: variant_code</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

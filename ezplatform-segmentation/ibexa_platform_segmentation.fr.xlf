@@ -66,11 +66,6 @@
         <target state="translated">Segmentation '%name%' mise à jour.</target>
         <note>key: segment.update.success</note>
       </trans-unit>
-      <trans-unit id="84987c1330d341b95bac668156c0e2b1db2db644" resname="segment_group.action.delete">
-        <source>Delete Segment Group</source>
-        <target state="translated">Supprimer groupe de segmentation</target>
-        <note>key: segment_group.action.delete</note>
-      </trans-unit>
       <trans-unit id="7e946592cc59b778faf63d3a840e42d87ff00a26" resname="segment_group.create.success">
         <source>Segment Group '%segment_group%' created.</source>
         <target state="translated">Le groupe de segmentation '%segment_group%' a été créé.</target>
@@ -91,16 +86,6 @@
         <target state="translated">Information groupe de segmentation</target>
         <note>key: segment_group.information.header</note>
       </trans-unit>
-      <trans-unit id="2f42a4f8fa3a217529074f75426da8389861fc28" resname="segment_group.list.segment_group.action.bulk_delete">
-        <source>Delete Segment Groups</source>
-        <target state="translated">Supprimer groupes de segmentation</target>
-        <note>key: segment_group.list.segment_group.action.bulk_delete</note>
-      </trans-unit>
-      <trans-unit id="60df443de6933bced3dabfca8975fd8c6b914606" resname="segment_group.list.segment_group_bulk_delete.modal.message">
-        <source>Do you want to delete the Segment Group(s)?</source>
-        <target state="translated">Voulez-vous vraiment supprimer le ou les groupe(s) de segmentation ?</target>
-        <note>key: segment_group.list.segment_group_bulk_delete.modal.message</note>
-      </trans-unit>
       <trans-unit id="9231de10dd9ebb9bc47e04a139a229ca95f689a3" resname="segment_group.modal.message">
         <source>Do you want to delete the Segment Group?</source>
         <target state="translated">Voulez-vous vraiment supprimer le groupe de segmentation ?</target>
@@ -110,11 +95,6 @@
         <source>Name</source>
         <target state="translated">Nom</target>
         <note>key: segment_group.name</note>
-      </trans-unit>
-      <trans-unit id="19ab5f0c6609bb92b289c06030f11a152fbef9b4" resname="segment_group.segment.add">
-        <source>Add Segment</source>
-        <target state="translated">Ajouter une segmentation</target>
-        <note>key: segment_group.segment.add</note>
       </trans-unit>
       <trans-unit id="206290d4a51d48f1a4c35414013c8ed23855c09f" resname="segment_group.segment.identifier">
         <source>Segment identifier</source>
@@ -126,11 +106,6 @@
         <target state="translated">Nom de la segmentation</target>
         <note>key: segment_group.segment.name</note>
       </trans-unit>
-      <trans-unit id="796351668b467f2aa69799c7fb03a85a725c678c" resname="segment_group.segment.remove">
-        <source>Remove Segment</source>
-        <target state="translated">Supprimer la segmentation</target>
-        <note>key: segment_group.segment.remove</note>
-      </trans-unit>
       <trans-unit id="06b27025428818eb225cf1550f4eeafbc096af0d" resname="segment_group.segments.header">
         <source>Segment(s) under this group</source>
         <target state="translated">Segmentation(s) sous ce groupe</target>
@@ -140,21 +115,6 @@
         <source>Segment Group '%segment_group%' updated.</source>
         <target state="translated">Le groupe de segmentation '%segment_group%' a été mis à jour.</target>
         <note>key: segment_group.update.success</note>
-      </trans-unit>
-      <trans-unit id="0c13dd5fadc3aee3d6e71563202f46f75f8b9dcd" resname="segment_group.view.segment_bulk_delete.modal.message">
-        <source>Do you want to delete the Segment(s)?</source>
-        <target state="translated">Voulez-vous vraiment supprimer la ou les segmentation(s) ?</target>
-        <note>key: segment_group.view.segment_bulk_delete.modal.message</note>
-      </trans-unit>
-      <trans-unit id="321ebffb584bc412cd9ba377d9f0a78f7de48ccc" resname="segment_group.view.segments.action.delete">
-        <source>Delete Segments</source>
-        <target state="translated">Supprimer  Segmentations</target>
-        <note>key: segment_group.view.segments.action.delete</note>
-      </trans-unit>
-      <trans-unit id="e330402a8463adc29f61dabc01a87d9db4ff9843" resname="segment_groups.list.create">
-        <source>Create segment group</source>
-        <target state="translated">Créer un groupe de segmentation</target>
-        <note>key: segment_groups.list.create</note>
       </trans-unit>
       <trans-unit id="49ca1e24e1c1c2758509d7a8ce79e314d08b954d" resname="segment_groups.list.empty">
         <source>No Segment Groups.</source>

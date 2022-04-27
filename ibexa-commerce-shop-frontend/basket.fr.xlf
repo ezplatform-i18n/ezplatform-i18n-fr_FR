@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="b29439f90a1f1fdef8df8a91d4096649c4ac445b" resname="msg.no_order_permissions">
+        <source>You don't have the permission(s) to order.</source>
+        <target state="translated">Vous n'avez pas la permission de commander.</target>
+        <note>key: msg.no_order_permissions</note>
+      </trans-unit>
+      <trans-unit id="e711a1dffcddbf0a85649efd36e1ab10d0815c65" resname="wishlist.empty_basket">
+        <source>Your %basketType% is empty!</source>
+        <target state="translated">Votre %basketType% est vide!</target>
+        <note>key: wishlist.empty_basket</note>
+      </trans-unit>
+      <trans-unit id="aac9a855adecef7fa03b80a9c2e8af08cb5954f0" resname="wishlist.exclude">
+        <source>Excl.</source>
+        <target state="translated">Excl.</target>
+        <note>key: wishlist.exclude</note>
+      </trans-unit>
+      <trans-unit id="fd700dca1c123acc0af058394cbaad5199525f9a" resname="wishlist.included">
+        <source>Inc.</source>
+        <target state="translated">Inc.</target>
+        <note>key: wishlist.included</note>
+      </trans-unit>
+      <trans-unit id="366a49a54470e03468b3b68d72b0e62c64e6169e" resname="wishlist.plus">
+        <source>plus</source>
+        <target state="translated">plus</target>
+        <note>key: wishlist.plus</note>
+      </trans-unit>
+      <trans-unit id="2052dd0e5d380bb6964dbe0aa03bfe0befb55e16" resname="wishlist.thereof">
+        <source>thereof</source>
+        <target state="translated">en</target>
+        <note>key: wishlist.thereof</note>
+      </trans-unit>
+      <trans-unit id="7243b72318b4bba1ba85e370e82ee85ddc28698c" resname="wishlist.title">
+        <source>wishList</source>
+        <target state="translated">Liste d'envies</target>
+        <note>key: wishlist.title</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

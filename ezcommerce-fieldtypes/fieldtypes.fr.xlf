@@ -16,6 +16,11 @@
         <target state="final">Valeur par défaut</target>
         <note>key: field_definition.uivarvarianttype.default_value</note>
       </trans-unit>
+      <trans-unit id="1a07ff6c0931e302ab56840cab96f90b608daeb9" resname="sesexternaldata.name">
+        <source>External product data</source>
+        <target state="translated">Données du produit externe</target>
+        <note>key: sesexternaldata.name</note>
+      </trans-unit>
       <trans-unit id="7cb8bc55f91fdc1ec6f68cba486baefdeb791a26" resname="sesprofiledata.name">
         <source>eCommerce user profile data</source>
         <target state="translated">Données du profil utilisateur eCommerce</target>

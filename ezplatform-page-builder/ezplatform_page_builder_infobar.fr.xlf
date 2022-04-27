@@ -6,16 +6,6 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="9f897e0a8684c5fcf61d4d121bd7122a12f99c32" resname="infobar.author.name">
-        <source><![CDATA[by <span class="ez-content-details__author">%name%</span>]]></source>
-        <target state="translated"><![CDATA[par <span class="ez-content-details__author">%name%</span>]]></target>
-        <note>key: infobar.author.name</note>
-      </trans-unit>
-      <trans-unit id="144ac8aaa8994ed0736a29a4eefb8f719bbbe9f2" resname="infobar.author.not_found">
-        <source>Can't fetch author</source>
-        <target state="translated">Impossible de récupérer l'auteur</target>
-        <note>key: infobar.author.not_found</note>
-      </trans-unit>
       <trans-unit id="42181870d2894db7dece01830473f18bcf2ad9c3" resname="infobar.form.and.page.field.type.error.message">
         <source>Update missing configuration both in Block and Field view.</source>
         <target state="translated">Mettre à jour la configuration manquante à la fois dans le Bloc et Vue du champ.</target>
@@ -26,35 +16,10 @@
         <target state="translated">Mettre à jour les informations manquantes dans la vue du champ.</target>
         <note>key: infobar.form.error.message</note>
       </trans-unit>
-      <trans-unit id="e1027757af4cedb3577c7b7e63789ebd329fdb1e" resname="infobar.last_edited">
-        <source>Last edited:</source>
-        <target state="translated">Dernière édition :</target>
-        <note>key: infobar.last_edited</note>
-      </trans-unit>
-      <trans-unit id="c44f4d68657d6efb26691c0b96788fd1e2020133" resname="infobar.mode.preview_language.in">
-        <source>in</source>
-        <target state="translated">en</target>
-        <note>key: infobar.mode.preview_language.in</note>
-      </trans-unit>
-      <trans-unit id="8187f29c44b9b28df27456f5667aa9d0c26bb1cb" resname="infobar.mode.viewing">
-        <source>Viewing</source>
-        <target state="translated">Visualisation</target>
-        <note>key: infobar.mode.viewing</note>
-      </trans-unit>
       <trans-unit id="e6010c4a8967391fc3c84fae454468a4eb5f9a72" resname="infobar.page.field.type.error.message">
         <source>Update missing configuration in the Block view</source>
         <target state="translated">Mettre à jour les informations manquantes dans la vue du bloc</target>
         <note>key: infobar.page.field.type.error.message</note>
-      </trans-unit>
-      <trans-unit id="20112d83a10239c0d1a262d26773887d4c73c703" resname="infobar.page.fields.switcher">
-        <source>Page fields switcher</source>
-        <target state="translated">Sélecteur Champs de la page</target>
-        <note>key: infobar.page.fields.switcher</note>
-      </trans-unit>
-      <trans-unit id="e09a44f57fa983de405609e6bbb065e386650336" resname="infobar.preview.switcher">
-        <source>Preview switcher</source>
-        <target state="translated">Sélecteur Prévisualisation</target>
-        <note>key: infobar.preview.switcher</note>
       </trans-unit>
       <trans-unit id="3cd2629de3e6baae6395f4a2e30702380db52c39" resname="infobar.timeline">
         <source>Timeline</source>
@@ -75,11 +40,6 @@
         <source>You are on the fallback language</source>
         <target state="translated">Vous êtes sur la langue de secours</target>
         <note>key: infobar.translation.using_fallback_language</note>
-      </trans-unit>
-      <trans-unit id="3c89575cd3d84b611b233f4e1c5c6b6e8799066f" resname="infobar.view.edit.switcher">
-        <source>View edit switcher</source>
-        <target state="translated">Sélecteur Edition de vue</target>
-        <note>key: infobar.view.edit.switcher</note>
       </trans-unit>
     </body>
   </file>

@@ -41,16 +41,6 @@
         <target state="translated">Créé de nouvelles politiques dans le rôle '%role%'.</target>
         <note>key: policy.add.success</note>
       </trans-unit>
-      <trans-unit id="196c8d4eec96ca42ccdd3605621d51e2b34b6d85" resname="policy.breadcrumb.add">
-        <source>Adding a new Policy</source>
-        <target state="translated">Ajouter une nouvelle politique de sécurité</target>
-        <note>key: policy.breadcrumb.add</note>
-      </trans-unit>
-      <trans-unit id="8a7079c136f19a37dc42a6192fb94a11d19105ad" resname="policy.breadcrumb.edit">
-        <source>Edit Limitations</source>
-        <target state="translated">Éditer les limitations</target>
-        <note>key: policy.breadcrumb.edit</note>
-      </trans-unit>
       <trans-unit id="8a22274ebbfba3c96c4015fa64112db95d060525" resname="policy.delete.success">
         <source>Removed Policies from Role '%role%'.</source>
         <target state="translated">Politiques retirées du rôle '%role%'.</target>
@@ -71,11 +61,6 @@
         <target state="translated">Aucun</target>
         <note>key: policy.limitation.none</note>
       </trans-unit>
-      <trans-unit id="fda44832f6a675807e1bcd01460231f7117d9e1e" resname="policy.modal.message">
-        <source>Do you want to delete the Policy?</source>
-        <target state="translated">Voulez-vous vraiment supprimer la politique de sécurité ?</target>
-        <note>key: policy.modal.message</note>
-      </trans-unit>
       <trans-unit id="bb8f2aa78c28aa25b5eade0c7f40c37110110ec5" resname="policy.update.success">
         <source>Updated Policies in Role '%role%'.</source>
         <target state="translated">Politiques mises à jour du rôle '%role%'.</target>
@@ -95,16 +80,6 @@
         <source>Edit Limitations</source>
         <target state="translated">Éditer les limitations</target>
         <note>key: policy.view.limitations.title</note>
-      </trans-unit>
-      <trans-unit id="84d0c2844a996fbfdc23872405533f92b6e6e2f6" resname="policy.view.list.action.add">
-        <source>Add a new Policy</source>
-        <target state="translated">Ajouter une nouvelle politique de sécurité</target>
-        <note>key: policy.view.list.action.add</note>
-      </trans-unit>
-      <trans-unit id="abf42b328e259dc5ec851e70dad234636d0134fe" resname="policy.view.list.action.delete">
-        <source>Delete Policy</source>
-        <target state="translated">Supprimer la politique de sécurité</target>
-        <note>key: policy.view.list.action.delete</note>
       </trans-unit>
       <trans-unit id="35aa96a30453aa7b604432885032fd961a7f508a" resname="policy.view.list.panel.policies.action.edit">
         <source>Edit</source>
@@ -151,25 +126,10 @@
         <target state="translated">Création d’un nouveau rôle</target>
         <note>key: role.breadcrumb.add</note>
       </trans-unit>
-      <trans-unit id="6d6d3ca79dd8c306ac2fcd89725ccbe5f8ee9f4e" resname="role.breadcrumb.copy">
-        <source>Copying Role: %identifier%</source>
-        <target state="translated">Copie du rôle: %identifier%</target>
-        <note>key: role.breadcrumb.copy</note>
-      </trans-unit>
-      <trans-unit id="9cdc3dd417b63308f19cadbe01f74c21565b9947" resname="role.breadcrumb.edit">
-        <source>Editing Role '%identifier%'</source>
-        <target state="translated">Édition du rôle: '%identifier%'</target>
-        <note>key: role.breadcrumb.edit</note>
-      </trans-unit>
       <trans-unit id="03e72944d22126b885a65f885ebf8f1b8e2f8579" resname="role.breadcrumb.list">
         <source>Roles</source>
         <target state="translated">Rôles</target>
         <note>key: role.breadcrumb.list</note>
-      </trans-unit>
-      <trans-unit id="9756b39574125051ae4fcd1916f5ba8b065eceb9" resname="role.breadcrumb.view">
-        <source>%identifier%</source>
-        <target state="translated">%identifier%</target>
-        <note>key: role.breadcrumb.view</note>
       </trans-unit>
       <trans-unit id="45788029a46cf9c1bc9a3d38077e86a99a650576" resname="role.breadcrumb.view.identifier">
         <source>Role "%identifier%"</source>
@@ -191,20 +151,10 @@
         <target state="translated">Le rôle «%role%» a été supprimé.</target>
         <note>key: role.delete.success</note>
       </trans-unit>
-      <trans-unit id="b8faa90fed74479d8cdb01dc2c0e1af8a79cf9b1" resname="role.modal.message">
-        <source>Do you want to delete the Role(s)?</source>
-        <target state="translated">Voulez-vous supprimer le(s) rôle(s) ?</target>
-        <note>key: role.modal.message</note>
-      </trans-unit>
       <trans-unit id="75637482fd2563256da5423615ecfb241fc03a57" resname="role.update.success">
         <source>Role '%role%' updated.</source>
         <target state="translated">Le rôle «%role%» a été mis à jour.</target>
         <note>key: role.update.success</note>
-      </trans-unit>
-      <trans-unit id="da907b734c3ae3df8e9c570dd8e9e7e6d0799105" resname="role.view.add.title">
-        <source>Creating a new Role</source>
-        <target state="translated">Création d’un nouveau rôle</target>
-        <note>key: role.view.add.title</note>
       </trans-unit>
       <trans-unit id="6f6e274dd8d21241d5bb3d647b1089c939e84313" resname="role.view.copy.title">
         <source>Copying Role: %identifier%</source>
@@ -217,7 +167,7 @@
         <note>key: role.view.edit.title</note>
       </trans-unit>
       <trans-unit id="88d7426f344cc9d85b90903dad013d5806b82faa" resname="role.view.list.action.add">
-        <source>Create a Role</source>
+        <source>Create</source>
         <target state="translated">Créer un rôle</target>
         <note>key: role.view.list.action.add</note>
       </trans-unit>
@@ -230,11 +180,6 @@
         <source>Copy</source>
         <target state="translated">Copier</target>
         <note>key: role.view.list.action.copy</note>
-      </trans-unit>
-      <trans-unit id="e0b49df6c6b235f7eb4d03019d1f9505dd77a135" resname="role.view.list.action.delete">
-        <source>Delete Role</source>
-        <target state="translated">Supprimer le rôle</target>
-        <note>key: role.view.list.action.delete</note>
       </trans-unit>
       <trans-unit id="cb9d9934c021aa5f2b25bfa652279daa88c6086f" resname="role.view.list.action.edit">
         <source>Edit</source>
@@ -271,16 +216,6 @@
         <target state="translated">Sélectionnez les groupes d'utilisateurs à assigner au rôle</target>
         <note>key: role_assignment.view.add.panel.users_and_groups.groups.udw_title</note>
       </trans-unit>
-      <trans-unit id="1ee375a8da2c2fe9b5b0a9c6b12bba981dfdb895" resname="role_assignment.view.add.panel.users_and_groups.select_groups_btn.label">
-        <source>Select User Groups</source>
-        <target state="translated">Sélectionner un groupe d'utilisateurs</target>
-        <note>key: role_assignment.view.add.panel.users_and_groups.select_groups_btn.label</note>
-      </trans-unit>
-      <trans-unit id="f26210f27528dbbea87cf71c5479a0afd713bece" resname="role_assignment.view.add.panel.users_and_groups.select_users_btn.label">
-        <source>Select Users</source>
-        <target state="translated">Sélectionner Utilisateurs</target>
-        <note>key: role_assignment.view.add.panel.users_and_groups.select_users_btn.label</note>
-      </trans-unit>
       <trans-unit id="f9465b09774c22747e887ffe9e6300fd02420546" resname="role_assignment.view.add.panel.users_and_groups.title">
         <source>Users and Groups</source>
         <target state="translated">Utilisateurs et groupes</target>
@@ -295,16 +230,6 @@
         <source>Assigning users and groups</source>
         <target state="translated">Assignation d'utilisateurs et de groupes</target>
         <note>key: role_assignment.view.add.title</note>
-      </trans-unit>
-      <trans-unit id="a21a7a13956cadf2256095fbdd062f1b33dd05a8" resname="role_assignment.view.list.action.add">
-        <source>Assign to Users/Groups</source>
-        <target state="translated">Assigner aux utilisateurs/groupes</target>
-        <note>key: role_assignment.view.list.action.add</note>
-      </trans-unit>
-      <trans-unit id="76361d414c957ff63dcfdaf4490b3e9a2c632750" resname="role_assignment.view.list.action.delete">
-        <source>Unassign</source>
-        <target state="translated">Désassigner</target>
-        <note>key: role_assignment.view.list.action.delete</note>
       </trans-unit>
       <trans-unit id="5111796ffacfccc152f157c56a6e7219d35c3fd8" resname="role_assignment.view.list.header">
         <source>Users and Groups</source>
@@ -330,11 +255,6 @@
         <source>Assignments (%count%)</source>
         <target state="translated">Assignation (%count%)</target>
         <note>key: role_assignment.view.list.title.count</note>
-      </trans-unit>
-      <trans-unit id="304836ca19b0d01940431c18b955ae028a6110f9" resname="role_assignments.modal.message">
-        <source>Do you want to unassign the Users/Groups?</source>
-        <target state="translated">Voulez-vous supprimer l'assignation des utilisateurs/groupes ?</target>
-        <note>key: role_assignments.modal.message</note>
       </trans-unit>
       <trans-unit id="e9f659f5717d317c994c7950c14bcb4be644062c" resname="tab.roles.limitation">
         <source>Limitation</source>

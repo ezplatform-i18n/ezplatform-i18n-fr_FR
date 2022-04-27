@@ -91,11 +91,6 @@
         <target state="translated">Certains blocs n'ont pas une configuration correcte</target>
         <note>key: fieldtype.landing_page.missing_proper_configuration.error.message</note>
       </trans-unit>
-      <trans-unit id="9883bd31212048bc2352b92dcc30b541e6eac5b5" resname="layout_selector.close.label">
-        <source>Close</source>
-        <target state="translated">Fermer</target>
-        <note>key: layout_selector.close.label</note>
-      </trans-unit>
       <trans-unit id="d261894808d96929e7ff95449a433021cb9476ec" resname="layout_selector.create.confirm.label">
         <source>Create draft</source>
         <target state="translated">Créer un brouillon</target>

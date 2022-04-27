@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="e6d711b654cc77e353dd44ec2ac0403cc6363379" resname="create_form__sidebar_right__cancel">
+        <source>Cancel</source>
+        <target state="translated">Annuler</target>
+        <note>key: create_form__sidebar_right__cancel</note>
+      </trans-unit>
+      <trans-unit id="a4bbf87eeab7a1d31fdf3f517b5240ba1d8dd573" resname="create_form__sidebar_right__create">
+        <source>Create</source>
+        <target state="translated">Créer</target>
+        <note>key: create_form__sidebar_right__create</note>
+      </trans-unit>
+      <trans-unit id="e73bd7db6d4346504e0f69e5204a9f587a05bc40" resname="main__product_catalog">
+        <source>Product catalog</source>
+        <target state="translated">Catalogue produits</target>
+        <note>key: main__product_catalog</note>
+      </trans-unit>
+      <trans-unit id="62b7151b8503e26cda3f8d3ed0a6809a0bf257c8" resname="main__product_catalog__attribute_groups">
+        <source>Attribute Groups</source>
+        <target state="translated">Groupes d'attributs</target>
+        <note>key: main__product_catalog__attribute_groups</note>
+      </trans-unit>
+      <trans-unit id="c1b25945e343d8680b79616607ad5ea497d3537a" resname="main__product_catalog__attributes">
+        <source>Attributes</source>
+        <target state="translated">Attributs </target>
+        <note>key: main__product_catalog__attributes</note>
+      </trans-unit>
+      <trans-unit id="353cacf88a2b56a4174329c9c0865020ffae38de" resname="main__product_catalog__currencies">
+        <source>Currencies</source>
+        <target state="translated">Devises</target>
+        <note>key: main__product_catalog__currencies</note>
+      </trans-unit>
+      <trans-unit id="2d1562861e9979b39253bdf23670b69bd69b8202" resname="main__product_catalog__customer_groups">
+        <source>Customer Groups</source>
+        <target state="translated">Groupe clients</target>
+        <note>key: main__product_catalog__customer_groups</note>
+      </trans-unit>
+      <trans-unit id="141b5538cd18189fe1266617bef866e7002ea7f5" resname="main__product_catalog__product_types">
+        <source>Product Types</source>
+        <target state="translated">Types de produits</target>
+        <note>key: main__product_catalog__product_types</note>
+      </trans-unit>
+      <trans-unit id="1c11fb0207237a4fa68cc422501f10c4169a3af5" resname="main__product_catalog__products">
+        <source>Products</source>
+        <target state="translated">Produits</target>
+        <note>key: main__product_catalog__products</note>
+      </trans-unit>
+      <trans-unit id="43c3f29c9a19593120343c671e0c3a99044d2e79" resname="main__product_catalog__regions">
+        <source>Regions</source>
+        <target state="translated">Régions</target>
+        <note>key: main__product_catalog__regions</note>
+      </trans-unit>
+      <trans-unit id="b450183446de8118e16cebbd17b065bf55767c35" resname="update_form__sidebar_right__cancel">
+        <source>Cancel</source>
+        <target state="translated">Annuler</target>
+        <note>key: update_form__sidebar_right__cancel</note>
+      </trans-unit>
+      <trans-unit id="e64b83da92e68d70aa32dd8bf1dedaf154d39a7d" resname="update_form__sidebar_right__update">
+        <source>Update</source>
+        <target state="translated">Mettre à jour</target>
+        <note>key: update_form__sidebar_right__update</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

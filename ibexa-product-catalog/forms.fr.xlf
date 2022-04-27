@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="268c741bdf4f818f950cd022b562c079744cfdca" resname="error.required.field">
+        <source>%fieldName% Field is required</source>
+        <target state="translated">Le champ %fieldName% est requis</target>
+        <note>key: error.required.field</note>
+      </trans-unit>
+      <trans-unit id="3551d9a7a066b2a0941f244fa91f766c089fd063" resname="role.policy.commerce">
+        <source>Commerce</source>
+        <target state="translated">Commerce</target>
+        <note>key: role.policy.commerce</note>
+      </trans-unit>
+      <trans-unit id="b5a03c317caa2abbc2a833f7a1bd96dabe75f707" resname="role.policy.commerce.all_functions">
+        <source>Commerce / All functions</source>
+        <target state="translated">Commerce / Toutes les fonctions</target>
+        <note>key: role.policy.commerce.all_functions</note>
+      </trans-unit>
+      <trans-unit id="2bec0e366dfe740a1a13ef2b4186513711075983" resname="role.policy.commerce.currency">
+        <source>Currencies / Administrate</source>
+        <target state="translated">Devises / Administration</target>
+        <note>key: role.policy.commerce.currency</note>
+      </trans-unit>
+      <trans-unit id="fbf8fcb1c05ac737e68351c0a85682ac6a4bef6e" resname="role.policy.commerce.region">
+        <source>Regions / Administrate</source>
+        <target state="translated">Regions / Administrer</target>
+        <note>key: role.policy.commerce.region</note>
+      </trans-unit>
+      <trans-unit id="db177b099d9b5b0999743c67123b420af739ada4" resname="role.policy.customer_group">
+        <source>Customer Group</source>
+        <target state="translated">Groupe client</target>
+        <note>key: role.policy.customer_group</note>
+      </trans-unit>
+      <trans-unit id="6d2cde60346839f94de083cfc7937e437d85d726" resname="role.policy.customer_group.all_functions">
+        <source>Customer Group / All functions</source>
+        <target state="translated">Groupe client / Toutes les fonctions</target>
+        <note>key: role.policy.customer_group.all_functions</note>
+      </trans-unit>
+      <trans-unit id="cedd0dc3d0fc2e8b92452b2d3dd0349d945d6896" resname="role.policy.customer_group.create">
+        <source>Customer Group / Create</source>
+        <target state="translated">Groupe client / Créer</target>
+        <note>key: role.policy.customer_group.create</note>
+      </trans-unit>
+      <trans-unit id="aa3d667594c6ada5d00ac8577d8956bff773f5bd" resname="role.policy.customer_group.delete">
+        <source>Customer Group / Delete</source>
+        <target state="translated">Groupe client / Supprimer</target>
+        <note>key: role.policy.customer_group.delete</note>
+      </trans-unit>
+      <trans-unit id="fbdc425c2a0a2d696e378c83bdd97e908de1fec9" resname="role.policy.product.all_functions">
+        <source>Product / All functions</source>
+        <target state="translated">Produit / Toutes les fonctions</target>
+        <note>key: role.policy.product.all_functions</note>
+      </trans-unit>
+      <trans-unit id="7b07e310db09008272a277766dc242f872bd86a5" resname="role.policy.product.create">
+        <source>Product / Create</source>
+        <target state="translated">Produit / Créer</target>
+        <note>key: role.policy.product.create</note>
+      </trans-unit>
+      <trans-unit id="84f7eebccd0ee967723c472d2d8705b8c31ec071" resname="role.policy.product.delete">
+        <source>Product / Delete</source>
+        <target state="translated">Produit / Supprimer</target>
+        <note>key: role.policy.product.delete</note>
+      </trans-unit>
+      <trans-unit id="363c8eef46263015281d7d7b3b82f6e174da3b45" resname="role.policy.product_type">
+        <source>Product Type</source>
+        <target state="translated">Type de produit</target>
+        <note>key: role.policy.product_type</note>
+      </trans-unit>
+      <trans-unit id="7da7c8e897757512eee1e32cbd44aacffb67a4f9" resname="role.policy.product_type.delete">
+        <source>Product Type / Delete</source>
+        <target state="translated">Type de Produit / Supprimer</target>
+        <note>key: role.policy.product_type.delete</note>
+      </trans-unit>
+      <trans-unit id="4ef2f329a551dac823ad95fa7579b3b78db83a0b" resname="role.policy.product_type.edit">
+        <source>Product Type / Edit</source>
+        <target state="translated">Type de Produit / Modifier</target>
+        <note>key: role.policy.product_type.edit</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

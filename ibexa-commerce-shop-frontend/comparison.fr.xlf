@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="6c8a8ec4c48f4606b8d73b65efeaa1d814aee20b" resname="add_to_basket">
+        <source>Add to basket</source>
+        <target state="translated">Ajouter au panier</target>
+        <note>key: add_to_basket</note>
+      </trans-unit>
+      <trans-unit id="3f81a6911df55fcb42af9dde1dfad80b9cffdb93" resname="comparison.list.empty">
+        <source>Your Comparison List is empty!</source>
+        <target state="translated">Votre liste de comparaison est vide!</target>
+        <note>key: comparison.list.empty</note>
+      </trans-unit>
+      <trans-unit id="9485989ff514b5106b7738850fd73c23e8c1e3f7" resname="delete">
+        <source>Delete</source>
+        <target state="translated">Supprimer</target>
+        <note>key: delete</note>
+      </trans-unit>
+      <trans-unit id="9931b4614e25ff3b95e1d88cac362efe8fa34116" resname="label.image_not_available">
+        <source>Image is not available</source>
+        <target state="translated">Image non disponible</target>
+        <note>key: label.image_not_available</note>
+      </trans-unit>
+      <trans-unit id="b29439f90a1f1fdef8df8a91d4096649c4ac445b" resname="msg.no_order_permissions">
+        <source>You don't have the permission(s) to order.</source>
+        <target state="translated">Vous n'avez pas la permission de commander.</target>
+        <note>key: msg.no_order_permissions</note>
+      </trans-unit>
+      <trans-unit id="756ba13586b727703f43ebd0f42376e93efbb684" resname="my_comparison_list">
+        <source>My Comparison List</source>
+        <target state="translated">Ma liste de comparaison</target>
+        <note>key: my_comparison_list</note>
+      </trans-unit>
+      <trans-unit id="cf559ae3526e08d2bf8526eb199d6a7115abe2d2" resname="sku">
+        <source>SKU</source>
+        <target state="translated">SKU</target>
+        <note>key: sku</note>
+      </trans-unit>
+      <trans-unit id="0b0f3f32f9fa495d633efaf58d102f64efd95144" resname="this_list">
+        <source>This List</source>
+        <target state="translated">Cette liste</target>
+        <note>key: this_list</note>
+      </trans-unit>
+      <trans-unit id="0e1d14a2180a6234ff47e1903faa5dbd7b45697b" resname="variant">
+        <source>Variant</source>
+        <target state="translated">Variante</target>
+        <note>key: variant</note>
+      </trans-unit>
+      <trans-unit id="ce03e226f116f44414462668272a92de48f83e7d" resname="your_list">
+        <source>Your List</source>
+        <target state="translated">Votre Liste</target>
+        <note>key: your_list</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

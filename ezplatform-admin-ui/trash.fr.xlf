@@ -21,11 +21,6 @@
         <target state="translated">Restaurer dans un nouvel emplacement</target>
         <note>key: trash.button.restore_new_location</note>
       </trans-unit>
-      <trans-unit id="7ffaa1444a83e959f8de3c2410bb65acdd3e3ff0" resname="trash.delete">
-        <source>Delete</source>
-        <target state="translated">Supprimer</target>
-        <note>key: trash.delete</note>
-      </trans-unit>
       <trans-unit id="45548aed8adb5019c3b806992e903965699c7e08" resname="trash.deleted.success">
         <source>Deleted selected item(s) from Trash.</source>
         <target state="translated">Éléments sélectionnés supprimés de la corbeille.</target>
@@ -50,11 +45,6 @@
         <source>Ancestor is in the Trash</source>
         <target state="translated">Ancêtre est dans la corbeille</target>
         <note>key: trash.item.ancesor_in_trash</note>
-      </trans-unit>
-      <trans-unit id="2720e3018fc8b1158cb728b1d5dc377ef7293b57" resname="trash.modal.message">
-        <source>Do you want to delete the selected item(s) from Trash?</source>
-        <target state="translated">Voulez-vous supprimer les éléments sélectionnés de la corbeille ?</target>
-        <note>key: trash.modal.message</note>
       </trans-unit>
       <trans-unit id="34525fc5da381111c2104d20a55021eb8b698c7c" resname="trash.name">
         <source>Name</source>

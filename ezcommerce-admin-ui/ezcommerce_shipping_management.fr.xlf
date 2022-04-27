@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="95152a121b383f5dd34363055566146f0a9d2398" resname="breadcrumb.ecommerce">
+        <source>e-commerce</source>
+        <target state="translated">e-commerce</target>
+        <note>key: breadcrumb.ecommerce</note>
+      </trans-unit>
+      <trans-unit id="b7d3f8c2a60e3713da7740c9740d2cb2f8da5e3b" resname="shipping.save">
+        <source>Save</source>
+        <target state="translated">Sauvegarder</target>
+        <note>key: shipping.save</note>
+      </trans-unit>
+      <trans-unit id="662fdb1f211d6dbec0e6d2444e14ace35ac46510" resname="shipping.table.country">
+        <source>Country</source>
+        <target state="translated">Pays</target>
+        <note>key: shipping.table.country</note>
+      </trans-unit>
+      <trans-unit id="aa2451fd509c97bfca37096f01bed28adf18ca40" resname="shipping.table.currency">
+        <source>Currency</source>
+        <target state="translated">Devise</target>
+        <note>key: shipping.table.currency</note>
+      </trans-unit>
+      <trans-unit id="eee8f9c5621f395e0f646cb9104a660af7960b9e" resname="shipping.table.shipping_cost">
+        <source>Shipping cost</source>
+        <target state="translated">Frais d'expédition</target>
+        <note>key: shipping.table.shipping_cost</note>
+      </trans-unit>
+      <trans-unit id="8c74ef667f8b8d3c9d4196fb096ca7b707911fc2" resname="shipping.table.shipping_method">
+        <source>Shipping method</source>
+        <target state="translated">Mode d'expédition
+
+</target>
+        <note>key: shipping.table.shipping_method</note>
+      </trans-unit>
+      <trans-unit id="862f234b4891a5491553c5f3e7ed0154a425d49e" resname="shipping.table.state">
+        <source>State</source>
+        <target state="translated">État</target>
+        <note>key: shipping.table.state</note>
+      </trans-unit>
+      <trans-unit id="29385a6c82a9d3ab9759aad1565bc9bdd3e38f9e" resname="shipping.table.value">
+        <source>Value of goods</source>
+        <target state="translated">Valeur des marchandises</target>
+        <note>key: shipping.table.value</note>
+      </trans-unit>
+      <trans-unit id="77b74c11e52aea191d71dca583c6c66a5b3843f7" resname="shipping.table.zip">
+        <source>ZIP</source>
+        <target state="translated">Code postal</target>
+        <note>key: shipping.table.zip</note>
+      </trans-unit>
+      <trans-unit id="0e6c8682bafe463f2f16a55e30b4c419277434e2" resname="shipping_management.table.title">
+        <source>Manage shipping costs</source>
+        <target state="translated">Paramétrer les frais de livraison</target>
+        <note>key: shipping_management.table.title</note>
+      </trans-unit>
+      <trans-unit id="5dc62bee2e02f2d77c031106173d669c304ff2af" resname="shipping_management.title">
+        <source>Shipping management</source>
+        <target state="translated">Gestion de l'expédition</target>
+        <note>key: shipping_management.title</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -16,6 +16,11 @@
         <target state="translated">Gestion des prix</target>
         <note>key: price_and_stock.price</note>
       </trans-unit>
+      <trans-unit id="0d61dd1c87279876ef38713e41cba4f87df5cadc" resname="price_and_stock.shipping_costs">
+        <source>Shipping costs management</source>
+        <target state="translated">Administration des frais de port</target>
+        <note>key: price_and_stock.shipping_costs</note>
+      </trans-unit>
       <trans-unit id="1a29dba71977811a77d0c5bd07ae534b85990d5e" resname="price_and_stock.stock">
         <source>Stock management</source>
         <target state="translated">Gestion des stocks</target>

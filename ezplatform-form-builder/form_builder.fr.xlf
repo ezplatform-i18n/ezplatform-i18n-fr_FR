@@ -11,30 +11,10 @@
         <target state="translated">Sélectionnez un élément de contenu</target>
         <note>key: action.redirect.udw.title</note>
       </trans-unit>
-      <trans-unit id="e547acc3be35f3a52f9abf815375f3e14f14228e" resname="attribute.location.empty">
-        <source>No Location selected</source>
-        <target state="translated">Aucun emplacement sélectionné</target>
-        <note>key: attribute.location.empty</note>
-      </trans-unit>
-      <trans-unit id="362c9f7f2a6fca0d86cb30506368f7e461dc7a06" resname="attribute.location.select_location">
-        <source>Select Location</source>
-        <target state="translated">Sélectionnez l'emplacement</target>
-        <note>key: attribute.location.select_location</note>
-      </trans-unit>
       <trans-unit id="3f906d4d0bd35a175f501ab96fc7d4c2b2c3ec71" resname="drag.drop.call.to.action">
         <source>Create a form by dragging elements here</source>
         <target state="translated">Créer un formulaire en faisant glisser des éléments ici</target>
         <note>key: drag.drop.call.to.action</note>
-      </trans-unit>
-      <trans-unit id="de3ac21778e51de199438300e1a9f816c618d33a" resname="exit">
-        <source>Exit</source>
-        <target state="translated">Quitter</target>
-        <note>key: exit</note>
-      </trans-unit>
-      <trans-unit id="511e68af2de52872af1c2d07215631d54d5df0a1" resname="field.invalid">
-        <source>Field has invalid configuration</source>
-        <target state="translated">Le champ a une configuration invalide</target>
-        <note>key: field.invalid</note>
       </trans-unit>
       <trans-unit id="81feac9c1754220f9ea3354d88cf49d263c09941" resname="field.remove">
         <source>Remove</source>
@@ -62,7 +42,7 @@
         <note>key: form.no_preview</note>
       </trans-unit>
       <trans-unit id="8803c513c5b29257e5e622f1d74b7b32007ab42c" resname="form.remove">
-        <source>Remove</source>
+        <source>Delete</source>
         <target state="translated">Supprimer</target>
         <note>key: form.remove</note>
       </trans-unit>
@@ -137,7 +117,7 @@
         <note>key: moved.field.data.not.exists</note>
       </trans-unit>
       <trans-unit id="4ca91a461622421947258e5e7e305704088e4b7b" resname="no.fields.in.form">
-        <source>There are no fields in this form. Create your form.</source>
+        <source>There are no fields in this form.</source>
         <target state="translated">Il n'y a pas de champs dans ce formulaire. Créer votre formulaire.</target>
         <note>key: no.fields.in.form</note>
       </trans-unit>
@@ -155,11 +135,6 @@
         <source>Select content</source>
         <target state="translated">Sélectionner un contenu</target>
         <note>key: select.content</note>
-      </trans-unit>
-      <trans-unit id="fea3ad9d846ad8a0a3d3ff18e1882df57ef4ea73" resname="select.content.item">
-        <source>Select a Content item</source>
-        <target state="translated">Sélectionnez un élément de contenu</target>
-        <note>key: select.content.item</note>
       </trans-unit>
       <trans-unit id="cc90fcb1fe96f887d06d7148fd31b9a26de1bfaf" resname="type.different.field.name">
         <source>Field name '%oldFieldName%' is already in use.</source>

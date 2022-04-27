@@ -21,11 +21,6 @@
         <target state="translated">Étendre la barre latérale</target>
         <note>key: calendar.expand.sidebar</note>
       </trans-unit>
-      <trans-unit id="ef16e74e63f02a8ae701704b5c31b1513da922be" resname="calendar.filters">
-        <source>Filters</source>
-        <target state="translated">Filtres</target>
-        <note>key: calendar.filters</note>
-      </trans-unit>
       <trans-unit id="e93e7556391e67ee7308e321a271d224c6bdf58b" resname="calendar.filters.all_langauges">
         <source>All languages</source>
         <target state="translated">Toutes les langues</target>
@@ -46,11 +41,6 @@
         <target state="translated">Contenu planifié</target>
         <note>key: calendar.headline</note>
       </trans-unit>
-      <trans-unit id="f4a9c72023d74a25f22147c3ab173e737e7f1510" resname="calendar.list.view">
-        <source>List view</source>
-        <target state="translated">Vue liste</target>
-        <note>key: calendar.list.view</note>
-      </trans-unit>
       <trans-unit id="b7dfa1703967ef01984afceb4e9a4736bfd4da4b" resname="calendar.list_view.action_message">
         <source>To continue, click 'Refresh list'. The selected list will update and the new item will be added to the list</source>
         <target state="translated">Pour continuer, cliquez sur 'Rafraîchir la liste'. La liste sélectionnée sera mise à jour et le nouvel élément sera ajouté à la liste</target>
@@ -60,26 +50,6 @@
         <source>No events to show.</source>
         <target state="translated">Aucun événement à afficher.</target>
         <note>key: calendar.list_view.no_events</note>
-      </trans-unit>
-      <trans-unit id="8a03b37261c52255f64f53ed75ef0f82536727e1" resname="calendar.list_view.table_header.details">
-        <source>Details</source>
-        <target state="translated">Détails</target>
-        <note>key: calendar.list_view.table_header.details</note>
-      </trans-unit>
-      <trans-unit id="274a700b5bc60b7990c75259b98bb49bbeb0b5b0" resname="calendar.list_view.table_header.name">
-        <source>Name</source>
-        <target state="translated">Nom</target>
-        <note>key: calendar.list_view.table_header.name</note>
-      </trans-unit>
-      <trans-unit id="bfb752680366439e23bba2928865c84dae54cac8" resname="calendar.list_view.table_header.time">
-        <source>Time</source>
-        <target state="translated">Heure</target>
-        <note>key: calendar.list_view.table_header.time</note>
-      </trans-unit>
-      <trans-unit id="67a6b3f8f193c2e332c06e13640fb7269a28e678" resname="calendar.list_view.table_header.type">
-        <source>Type</source>
-        <target state="translated">Type</target>
-        <note>key: calendar.list_view.table_header.type</note>
       </trans-unit>
       <trans-unit id="3e4a58626123d7c904749e662815948b713b8f42" resname="calendar.load_events.error.message">
         <source>Cannot load calendar data</source>
@@ -126,25 +96,10 @@
         <target state="translated">En arrière</target>
         <note>key: calendar.tooltips.backward</note>
       </trans-unit>
-      <trans-unit id="5a3e06bdfd7deed040b6ed3bc41e5b53c3c48b37" resname="calendar.tooltips.day">
-        <source>Day view</source>
-        <target state="translated">Vue par jour</target>
-        <note>key: calendar.tooltips.day</note>
-      </trans-unit>
       <trans-unit id="faeb6e1b3f9b7027db26a9f89d57d8f227d6c272" resname="calendar.tooltips.forward">
         <source>Forward</source>
         <target state="translated">Avancer</target>
         <note>key: calendar.tooltips.forward</note>
-      </trans-unit>
-      <trans-unit id="94ddc4162ee7f00136d3762b904a8d65d243b043" resname="calendar.tooltips.month">
-        <source>Month view</source>
-        <target state="translated">Vue par mois</target>
-        <note>key: calendar.tooltips.month</note>
-      </trans-unit>
-      <trans-unit id="9efc548cd2c43473f61939293edcaa989b33334c" resname="calendar.tooltips.week">
-        <source>Week view</source>
-        <target state="translated">Vue hebdomadaire</target>
-        <note>key: calendar.tooltips.week</note>
       </trans-unit>
       <trans-unit id="d4cddd2ef20d8cd6eaa68a8b317d8123ef7ff7b0" resname="calendar.view_switcher.day">
         <source>Day</source>

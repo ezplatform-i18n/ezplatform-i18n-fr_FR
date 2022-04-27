@@ -6,7 +6,11 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
+      <trans-unit id="f46c619c6bc5f16699d112b74f64b236898ff787" resname="tooltip.exit_label">
+        <source>Exit</source>
+        <target state="translated">Quitter</target>
+        <note>key: tooltip.exit_label</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

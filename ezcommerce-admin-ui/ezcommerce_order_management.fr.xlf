@@ -11,10 +11,80 @@
         <target state="translated">e-commerce</target>
         <note>key: breadcrumb.ecommerce</note>
       </trans-unit>
+      <trans-unit id="c0d48c83521c5b5d56271cd07dfec665bd722b6b" resname="order_list.breadcrumb.order_management">
+        <source>Order Management</source>
+        <target state="translated">Gestion des commandes</target>
+        <note>key: order_list.breadcrumb.order_management</note>
+      </trans-unit>
+      <trans-unit id="ff88f90931bf6771ad71915a81fa1d2459521313" resname="order_list.details.customer_number">
+        <source>Customer number</source>
+        <target state="translated">Numéro client</target>
+        <note>key: order_list.details.customer_number</note>
+      </trans-unit>
+      <trans-unit id="03de23cbdd68a79a3df5f6f28f9a7d1c7b7a2493" resname="order_list.details.delivery_address">
+        <source>Delivery Address</source>
+        <target state="translated">Adresse de livraison</target>
+        <note>key: order_list.details.delivery_address</note>
+      </trans-unit>
+      <trans-unit id="ca783270ca5d672c614895b4caef51307845eb32" resname="order_list.details.invoice_address">
+        <source>Invoice Address</source>
+        <target state="translated">Adresse de facturation</target>
+        <note>key: order_list.details.invoice_address</note>
+      </trans-unit>
+      <trans-unit id="d249b6b51d9f4ad4e1d4c1cec0836efe447f1752" resname="order_list.details.order_id">
+        <source>Order ID</source>
+        <target state="translated">ID de commande</target>
+        <note>key: order_list.details.order_id</note>
+      </trans-unit>
+      <trans-unit id="93508ce4e8c14cc30dc7609e0103a2c6a0dd0062" resname="order_list.details.products">
+        <source>Products</source>
+        <target state="translated">Produits</target>
+        <note>key: order_list.details.products</note>
+      </trans-unit>
+      <trans-unit id="e97f8f6cbbfde9cb4b6cf11474818757a3bb6a4c" resname="order_list.details.title">
+        <source>Basket details</source>
+        <target state="translated">Détails du panier</target>
+        <note>key: order_list.details.title</note>
+      </trans-unit>
+      <trans-unit id="dfd41feeab91100ccf7a4e362d022dc0fa479cc3" resname="order_list.details.transaction_id">
+        <source>Transaction ID</source>
+        <target state="translated">ID Transaction</target>
+        <note>key: order_list.details.transaction_id</note>
+      </trans-unit>
+      <trans-unit id="63ebc4138af53606d87c70b070e6791381e3efb9" resname="order_list.details.type">
+        <source>Type</source>
+        <target state="translated">Type</target>
+        <note>key: order_list.details.type</note>
+      </trans-unit>
+      <trans-unit id="0525573be87655dc7344c78e9d4875a8d9183d4c" resname="order_list.details.variant">
+        <source>Variant</source>
+        <target state="translated">Variante</target>
+        <note>key: order_list.details.variant</note>
+      </trans-unit>
       <trans-unit id="cc2260093992b93e7c5ce72f41c90ff1fa081606" resname="order_list.filters.apply">
         <source>Apply</source>
         <target state="translated">Appliquer</target>
         <note>key: order_list.filters.apply</note>
+      </trans-unit>
+      <trans-unit id="7faef8fdfb00ef39c3545a0eb9457fbfa13ff5ec" resname="order_list.filters.customer_no">
+        <source>Customer number</source>
+        <target state="translated">Numéro client</target>
+        <note>key: order_list.filters.customer_no</note>
+      </trans-unit>
+      <trans-unit id="1417dec0494bb124ca721269053181dc2df6a1cc" resname="order_list.filters.date_from">
+        <source>Date from</source>
+        <target state="translated">À partir du</target>
+        <note>key: order_list.filters.date_from</note>
+      </trans-unit>
+      <trans-unit id="2c5ce5d207a3f48d9da507918727154aecea7ecb" resname="order_list.filters.date_to">
+        <source>Date to</source>
+        <target state="translated">Jusqu'au</target>
+        <note>key: order_list.filters.date_to</note>
+      </trans-unit>
+      <trans-unit id="d3e74b8644ba3a90b070ae201b9d5deb8666e0c9" resname="order_list.filters.export_orders">
+        <source>Export (xml)</source>
+        <target state="translated">Exporter (xml)</target>
+        <note>key: order_list.filters.export_orders</note>
       </trans-unit>
       <trans-unit id="37cc7fac365817b2adada25ef44772abb2235f9e" resname="order_list.filters.payment.invoice">
         <source>Invoice</source>
@@ -36,6 +106,91 @@
         <target state="translated">Sélectionner</target>
         <note>key: order_list.filters.select</note>
       </trans-unit>
+      <trans-unit id="13e2176d595c70394223f2217df5404494e68052" resname="order_list.filters.state">
+        <source>State</source>
+        <target state="translated">État</target>
+        <note>key: order_list.filters.state</note>
+      </trans-unit>
+      <trans-unit id="e8ef0ad063e2c5171b48212099c9f81d945b8816" resname="order_list.filters.state.approval">
+        <source>Approval</source>
+        <target state="translated">Approbation</target>
+        <note>key: order_list.filters.state.approval</note>
+      </trans-unit>
+      <trans-unit id="ae25f4cc57bc0ae8e74ffa3c4b720068efad2b76" resname="order_list.filters.state.confirmed">
+        <source>Confirmed</source>
+        <target state="translated">Confirmé</target>
+        <note>key: order_list.filters.state.confirmed</note>
+      </trans-unit>
+      <trans-unit id="220d19ec168ad2039c1d92b5c1f091da50a10f16" resname="order_list.filters.state.new">
+        <source>New</source>
+        <target state="translated">Nouvelle</target>
+        <note>key: order_list.filters.state.new</note>
+      </trans-unit>
+      <trans-unit id="ba4f5102624c22c80dbc273ba96aac1b8b171263" resname="order_list.filters.state.offered">
+        <source>Offered</source>
+        <target state="translated">Offert</target>
+        <note>key: order_list.filters.state.offered</note>
+      </trans-unit>
+      <trans-unit id="6825392714a126f46b6452cad3e5af9cea9a4420" resname="order_list.filters.state.ordered_failed">
+        <source>Order transfer failed</source>
+        <target state="translated">Echec du transfert de la commande</target>
+        <note>key: order_list.filters.state.ordered_failed</note>
+      </trans-unit>
+      <trans-unit id="8c798e9328e2fef2f4780e6ea6f95316cb198a0d" resname="order_list.filters.state.payed">
+        <source>Payed</source>
+        <target state="translated">Payée</target>
+        <note>key: order_list.filters.state.payed</note>
+      </trans-unit>
+      <trans-unit id="1ca4c7bd367b0aba0079176121eba2b931039755" resname="order_list.filters.state.rejected">
+        <source>Rejected</source>
+        <target state="translated">Rejetée</target>
+        <note>key: order_list.filters.state.rejected</note>
+      </trans-unit>
+      <trans-unit id="a63a3abee1aadac6a62c247bdaf0223d9c75b063" resname="order_list.filters.udw.select.user">
+        <source>Select User</source>
+        <target state="translated">Sélectionnez un utilisateur</target>
+        <note>key: order_list.filters.udw.select.user</note>
+      </trans-unit>
+      <trans-unit id="e5de089697dd3369390658323af487a69e311f60" resname="order_list.filters.user_id">
+        <source>User ID</source>
+        <target state="translated">ID utilisateur</target>
+        <note>key: order_list.filters.user_id</note>
+      </trans-unit>
+      <trans-unit id="78f89eaa4050bf1d3a2831904d92480f4d959465" resname="order_list.page_title">
+        <source>Order Management</source>
+        <target state="translated">Gestion des commandes</target>
+        <note>key: order_list.page_title</note>
+      </trans-unit>
+      <trans-unit id="d8cb3b65816e753164119fd96f22b19cd1074d34" resname="order_list.pager.viewing">
+        <source><![CDATA[Viewing <strong>%viewing%</strong> out of <strong>%total%</strong> items]]></source>
+        <target state="translated"><![CDATA[Affichage de <strong>%viewing%</strong> sur <strong>%total%</strong> éléments]]></target>
+        <note>key: order_list.pager.viewing</note>
+      </trans-unit>
+      <trans-unit id="9743e22fccf2e904c07888b2936563871a18a432" resname="order_list.table.action.delete">
+        <source>Remove lost order</source>
+        <target state="translated">Supprimer la commande perdue</target>
+        <note>key: order_list.table.action.delete</note>
+      </trans-unit>
+      <trans-unit id="84bbcc191781038d10ff568106295f31137a7f4b" resname="order_list.table.action.details">
+        <source>Details</source>
+        <target state="translated">Détails</target>
+        <note>key: order_list.table.action.details</note>
+      </trans-unit>
+      <trans-unit id="8e368f10c1c7874aa90c97836c3ab11ec3312fa8" resname="order_list.table.action.transfer">
+        <source>Transfer to ERP</source>
+        <target state="translated">Transférer vers ERP</target>
+        <note>key: order_list.table.action.transfer</note>
+      </trans-unit>
+      <trans-unit id="b1f26043bebf6c4a7c6dad0d85de265a1839ebb5" resname="order_list.table.empty">
+        <source>No orders were found matching your criteria.</source>
+        <target state="translated">Aucune commande n'a été trouvée correspondant à vos critères de recherche.</target>
+        <note>key: order_list.table.empty</note>
+      </trans-unit>
+      <trans-unit id="354b1da22517286c270ab53e77c1a7e7c6673e0a" resname="order_list.table.header.basket_id">
+        <source>Basket ID</source>
+        <target state="translated">ID Panier</target>
+        <note>key: order_list.table.header.basket_id</note>
+      </trans-unit>
       <trans-unit id="9a8b2fc6af915fc73cee42384d318301cf6c3753" resname="order_list.table.header.customer_name">
         <source>Customer name</source>
         <target state="translated">Nom du Client</target>
@@ -51,6 +206,11 @@
         <target state="translated">Facture</target>
         <note>key: order_list.table.header.invoice</note>
       </trans-unit>
+      <trans-unit id="aa97108a2f8d88d261f703ec5983367495953dfd" resname="order_list.table.header.shop">
+        <source>Shop</source>
+        <target state="translated">Boutique</target>
+        <note>key: order_list.table.header.shop</note>
+      </trans-unit>
       <trans-unit id="abc7f303cbc3f6b0c96c4b47443d75842af0cf24" resname="order_list.table.header.state">
         <source>State</source>
         <target state="translated">État</target>
@@ -60,6 +220,11 @@
         <source>Total</source>
         <target state="translated">Total</target>
         <note>key: order_list.table.header.total</note>
+      </trans-unit>
+      <trans-unit id="badfe2a65058921dbb5f705ef4fc12598a10555a" resname="order_list.table.title">
+        <source>List</source>
+        <target state="translated">Liste</target>
+        <note>key: order_list.table.title</note>
       </trans-unit>
     </body>
   </file>

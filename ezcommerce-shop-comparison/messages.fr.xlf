@@ -16,6 +16,11 @@
         <target state="translated">Informations techniques</target>
         <note>key: Technical information</note>
       </trans-unit>
+      <trans-unit id="ff25bd08aa8c4e10fcbd1c86165577e09989fc62" resname="collapse_groups|search">
+        <source>Collapse all groups</source>
+        <target state="translated">Réduire tous les groupes</target>
+        <note>key: collapse_groups|search</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

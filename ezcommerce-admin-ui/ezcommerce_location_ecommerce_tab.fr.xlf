@@ -31,6 +31,16 @@
         <target state="translated">commandes</target>
         <note>key: user_tab.orders</note>
       </trans-unit>
+      <trans-unit id="debdb931b75062a9e311208d7509a3a635b4586a" resname="user_tab.orders.and.baskets">
+        <source>Orders and active baskets</source>
+        <target state="translated">Commandes et panier actif</target>
+        <note>key: user_tab.orders.and.baskets</note>
+      </trans-unit>
+      <trans-unit id="31f4706d09caae6a678c7fe593d362fe24d3de33" resname="user_tab.overview">
+        <source>Overview</source>
+        <target state="translated">Vue d'ensemble</target>
+        <note>key: user_tab.overview</note>
+      </trans-unit>
       <trans-unit id="16b915fc22c9f071c31743b5c45f17f81a70e447" resname="user_tab.table.date">
         <source>Date/Payment</source>
         <target state="translated">Date/Paiement</target>
@@ -41,10 +51,30 @@
         <target state="translated">Adresse de livraison</target>
         <note>key: user_tab.table.delivery.address</note>
       </trans-unit>
+      <trans-unit id="f2f8ffef1525b3962e2d97b2aff53f6ee35926e2" resname="user_tab.table.erp_order_id">
+        <source>ERP Order ID</source>
+        <target state="translated">ID de commande ERP</target>
+        <note>key: user_tab.table.erp_order_id</note>
+      </trans-unit>
+      <trans-unit id="f11c5820b4aff1881d49f09ec32cd316e792934f" resname="user_tab.table.id">
+        <source>Id</source>
+        <target state="translated">Identifiant</target>
+        <note>key: user_tab.table.id</note>
+      </trans-unit>
+      <trans-unit id="1ff09532ee1a0e5eb300900fe460931abdfaff8d" resname="user_tab.table.invoice.address">
+        <source>Invoice Address</source>
+        <target state="translated">Adresse de facturation</target>
+        <note>key: user_tab.table.invoice.address</note>
+      </trans-unit>
       <trans-unit id="b8571cf663d1cd40cb311f92a50d5d272d90caa9" resname="user_tab.table.products">
         <source>Products</source>
         <target state="translated">Products</target>
         <note>key: user_tab.table.products</note>
+      </trans-unit>
+      <trans-unit id="4aaec5e900eebb8e8e98c251657b9f77eb102dc9" resname="user_tab.table.shop_order_id">
+        <source>Shop Order ID</source>
+        <target state="translated">ID de commande de la boutique</target>
+        <note>key: user_tab.table.shop_order_id</note>
       </trans-unit>
       <trans-unit id="52a1a39a642503fb6dca5a822ddd3ef635ee572f" resname="user_tab.table.total">
         <source>Total</source>

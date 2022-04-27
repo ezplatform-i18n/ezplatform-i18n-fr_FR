@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="82b99022c6db1687cf5f107480befe184f19f4af" resname="taxonomy.1">
+        <source>1</source>
+        <target state="translated">1</target>
+        <note>key: taxonomy.1</note>
+      </trans-unit>
+      <trans-unit id="b8a6f4d567d4da3b20d94da7a6e0938602cf3d21" resname="taxonomy.empty">
+        <source>Your tree is empty. Start creating your structure</source>
+        <target state="translated">Votre arborescence est vide. Commencez à créer votre structure</target>
+        <note>key: taxonomy.empty</note>
+      </trans-unit>
+      <trans-unit id="969a9e6e9b8b4e8f90dea4e29dd22c853dd5ae68" resname="taxonomy.tree_name">
+        <source>Taxonomy tree</source>
+        <target state="translated">Arborescence taxonomique</target>
+        <note>key: taxonomy.tree_name</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

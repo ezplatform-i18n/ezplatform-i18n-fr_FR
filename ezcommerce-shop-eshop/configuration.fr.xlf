@@ -6,10 +6,40 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
+      <trans-unit id="d7decf1aa22b02ae8abf9a96849ee423eee838e4" resname="Filter">
+        <source>Filter</source>
+        <target state="translated">Filtre</target>
+        <note>key: Filter</note>
+      </trans-unit>
+      <trans-unit id="da046251c5fc342c48fc9bbdeb3f3d3ed618acad" resname="automatic_currency_conversion|config">
+        <source>Automatic currency conversion</source>
+        <target state="translated">Conversion automatique des devises</target>
+        <note>key: automatic_currency_conversion|config</note>
+      </trans-unit>
+      <trans-unit id="b2b3feb0e29b0b347bf6601faea8d0f56c65a21c" resname="automatic_currency_conversion|description">
+        <source>In case no price is setup for this currency (for a product or shipping costs) the shop can calculate the price using a conversion rate from the config</source>
+        <target state="translated">Au cas où aucun prix n'est configuré pour cette devise (pour un produit ou des frais de livraison), la boutique peut calculer le prix en utilisant un taux de conversion à partir de la configuration</target>
+        <note>key: automatic_currency_conversion|description</note>
+      </trans-unit>
       <trans-unit id="f95fce379baaa4a14f830e0bdaec33d33c89194c" resname="bestseller_limit_in_silver_module|config">
         <source>Number of bestsellers displayed in a slider</source>
         <target state="translated">Nombre de best-sellers affichés dans un slider</target>
         <note>key: bestseller_limit_in_silver_module|config</note>
+      </trans-unit>
+      <trans-unit id="af22f6a9eaf213f31c825e103a1e64631b26008a" resname="bestseller_limit_in_silver_module|description">
+        <source>Choose the limit of bestsellers that should be displayed.</source>
+        <target state="translated">Choisissez la limite des best-sellers qui doivent être affichés.</target>
+        <note>key: bestseller_limit_in_silver_module|description</note>
+      </trans-unit>
+      <trans-unit id="b82386b0fe400920cba956586008e52392decca0" resname="bestseller_limit_on_bestseller_page|config">
+        <source>Number of bestsellers displayed on bestseller page.</source>
+        <target state="translated">Nombre de best-sellers affichés dans un slider</target>
+        <note>key: bestseller_limit_on_bestseller_page|config</note>
+      </trans-unit>
+      <trans-unit id="5505b0e5ad5db933b3b4d2fb09b70441837f096b" resname="bestseller_limit_on_bestseller_page|description">
+        <source>Choose the limit of bestsellers that should be displayed.</source>
+        <target state="translated">Choisissez la limite des best-sellers qui doivent être affichés.</target>
+        <note>key: bestseller_limit_on_bestseller_page|description</note>
       </trans-unit>
       <trans-unit id="fca7c6837e6aa75f9bcc2f5e92771173a6efd640" resname="ecaptcha_options.theme|config">
         <source>Recaptcha theme</source>

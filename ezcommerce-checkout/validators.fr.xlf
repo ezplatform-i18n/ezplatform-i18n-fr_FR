@@ -6,11 +6,31 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
-      
-      
-      
-      
+      <trans-unit id="786751fcd635d4da061ae82f2a70955f9a967436" resname="Maximum {{ limit }} chars">
+        <source>Maximum {{ limit }} chars</source>
+        <target state="translated">Maximum de {{ limit }} caractères</target>
+        <note>key: Maximum {{ limit }} chars</note>
+      </trans-unit>
+      <trans-unit id="ceb0e759f1b7bc351b1b2c7add6dba45bdd502f8" resname="Please enter minimum {{ limit }} chars">
+        <source>Please enter minimum {{ limit }} chars</source>
+        <target state="translated">Veuillez entrer un minimum de {{ limit }} caractères</target>
+        <note>key: Please enter minimum {{ limit }} chars</note>
+      </trans-unit>
+      <trans-unit id="40646605e3acbe2e6cf1a535d03af1f98c6f34fe" resname="This guid already exists">
+        <source>This guid already exists</source>
+        <target state="translated">Cet identifiant unique existe déjà</target>
+        <note>key: This guid already exists</note>
+      </trans-unit>
+      <trans-unit id="e63ade62ed3683ef448275f6e41f74f99b09b9f9" resname="You must choose one payment method">
+        <source>You must choose one payment method</source>
+        <target state="translated">Vous devez choisir un moyen de paiement</target>
+        <note>key: You must choose one payment method</note>
+      </trans-unit>
+      <trans-unit id="92586d233b5b07d26db272ff1e855b4459d0af6c" resname="You must choose one shipping method">
+        <source>You must choose one shipping method</source>
+        <target state="translated">Vous devez choisir un mode de livraison</target>
+        <note>key: You must choose one shipping method</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -11,25 +11,145 @@
         <target state="translated">Emplois e-commerce</target>
         <note>key: ecommerce_jobs</note>
       </trans-unit>
+      <trans-unit id="644299b184be80f0a812c9326406fe9b631fe674" resname="econtent.export.button">
+        <source>Export</source>
+        <target state="translated">Exporter</target>
+        <note>key: econtent.export.button</note>
+      </trans-unit>
+      <trans-unit id="1730a5295e6f6206fbd136f4baf2a3eb02eb4778" resname="econtent.export.label">
+        <source>Export eContent products (live)</source>
+        <target state="translated">Exporter les produits eContent (Production)</target>
+        <note>key: econtent.export.label</note>
+      </trans-unit>
+      <trans-unit id="41a6205f95188e98d85f45b37001497ef0d22ca4" resname="econtent.export.set_backup">
+        <source>Set name of the backup file</source>
+        <target state="translated">Nom du fichier de sauvegarde</target>
+        <note>key: econtent.export.set_backup</note>
+      </trans-unit>
+      <trans-unit id="26e1b72b60fba0bdb7a9750995b7a22c14daa824" resname="econtent.export.started">
+        <source>Export started, details see tab e-commerce jobs. Backup will be placed in</source>
+        <target state="translated">L'export a commencé, voir onglet "jobs e-commerce". La sauvegarde sera placée dans</target>
+        <note>key: econtent.export.started</note>
+      </trans-unit>
+      <trans-unit id="0a6132af96b2bfd58284f128268235e97a793ab7" resname="econtent.import.button">
+        <source>Import</source>
+        <target state="translated">Import</target>
+        <note>key: econtent.import.button</note>
+      </trans-unit>
+      <trans-unit id="1ab4fd94b4473b0be790b10556b6aec5942cc1df" resname="econtent.import.label">
+        <source>Import eContent products from backup</source>
+        <target state="translated">Importer des produits eContenu à partir de la sauvegarde</target>
+        <note>key: econtent.import.label</note>
+      </trans-unit>
+      <trans-unit id="79a08d6572b3dc896394917425295a1a1f50315d" resname="econtent.import.no_files">
+        <source>No files to import</source>
+        <target state="translated">Aucun fichier à importer</target>
+        <note>key: econtent.import.no_files</note>
+      </trans-unit>
+      <trans-unit id="a80eee05a91f3f6a69fe4accffea0802d5296fcc" resname="econtent.import.please_wait">
+        <source>Please wait for last import to be finished</source>
+        <target state="translated">Veuillez attendre la fin de la dernière importation</target>
+        <note>key: econtent.import.please_wait</note>
+      </trans-unit>
+      <trans-unit id="2d0b0f5c40bda166b56ace8ec50b21ea2bf5293a" resname="econtent.live_tables">
+        <source>Live tables</source>
+        <target state="translated">Tables en direct</target>
+        <note>key: econtent.live_tables</note>
+      </trans-unit>
+      <trans-unit id="95305c68a08fb4e494c4076a98db9a7144f8b159" resname="econtent.status">
+        <source>eContent status</source>
+        <target state="translated">Statut du eContenu</target>
+        <note>key: econtent.status</note>
+      </trans-unit>
+      <trans-unit id="4bb0b693230ad58bc3757aedcc0de1efb3503c1d" resname="econtent.tasks">
+        <source>eContent tasks</source>
+        <target state="translated">Tâches eContenu</target>
+        <note>key: econtent.tasks</note>
+      </trans-unit>
+      <trans-unit id="3027a3eff36884a3d5bd8b8040712c7e8be5863f" resname="econtent.temporary_tables">
+        <source>Temporary tables</source>
+        <target state="translated">Tables temporaires</target>
+        <note>key: econtent.temporary_tables</note>
+      </trans-unit>
       <trans-unit id="52d7e82a53af31c0cf4b2d17f2e9852c632b672a" resname="econtent.temporary_tables.swap.active">
         <source>Import is active</source>
         <target state="translated">L'import est actif</target>
         <note>key: econtent.temporary_tables.swap.active</note>
+      </trans-unit>
+      <trans-unit id="24f773babe20c16aeb95963f39707c6fb95710c0" resname="econtent.temporary_tables.swap.button">
+        <source>Swap tmp to live</source>
+        <target state="translated">Changer tmp pour production</target>
+        <note>key: econtent.temporary_tables.swap.button</note>
+      </trans-unit>
+      <trans-unit id="cb7f797d004704f0bc8c1972f970e77b7007cb25" resname="econtent.temporary_tables.swap.in_progress">
+        <source>Swap in progress</source>
+        <target state="translated">Changement en cours</target>
+        <note>key: econtent.temporary_tables.swap.in_progress</note>
+      </trans-unit>
+      <trans-unit id="dc7cba13af0183d5ba599452da1ea3753747a717" resname="econtent.temporary_tables.swap.not_possible">
+        <source>Swapping not possible, no objects found.</source>
+        <target state="translated">Changement impossible, aucun objet trouvé.</target>
+        <note>key: econtent.temporary_tables.swap.not_possible</note>
+      </trans-unit>
+      <trans-unit id="ed619e0c14cfb8ec4d44be410734df9c0d9dafe3" resname="econtent.temporary_tables.swap_message">
+        <source>The products from the temporary tables will be activated. This will take a few seconds.</source>
+        <target state="translated">Les produits des tables temporaires seront activés. Cela prendra quelques secondes.</target>
+        <note>key: econtent.temporary_tables.swap_message</note>
+      </trans-unit>
+      <trans-unit id="66d212d76f441acb2c47d8e818733e60766fdd1f" resname="econtent_tasks">
+        <source>eContent tasks</source>
+        <target state="translated">Tâches eContenu</target>
+        <note>key: econtent_tasks</note>
       </trans-unit>
       <trans-unit id="45d99ebb0739f390d4eac6857b3fe9b41d7c62aa" resname="econtent_type.table.id.title">
         <source>ID</source>
         <target state="translated">ID</target>
         <note>key: econtent_type.table.id.title</note>
       </trans-unit>
+      <trans-unit id="f863159984d65e9bb6b97ed12059aefe1d7a8219" resname="econtent_type.table.mapping.title">
+        <source>Mapping</source>
+        <target state="translated">Correspondance des champs</target>
+        <note>key: econtent_type.table.mapping.title</note>
+      </trans-unit>
       <trans-unit id="69aaaa0142de9a471b402d47655405fba7fff31d" resname="econtent_type.table.name.title">
         <source>Name</source>
         <target state="translated">Nom</target>
         <note>key: econtent_type.table.name.title</note>
       </trans-unit>
+      <trans-unit id="b191faa085f14704fc23dd59b732065608a5fd86" resname="econtent_type.table.type.title">
+        <source>Type</source>
+        <target state="translated">Type</target>
+        <note>key: econtent_type.table.type.title</note>
+      </trans-unit>
+      <trans-unit id="b0820e1fdf4d546475f2c5ac53f595c9b41c4cff" resname="econtent_type.title">
+        <source>eContentType</source>
+        <target state="translated">Type eContenu</target>
+        <note>key: econtent_type.title</note>
+      </trans-unit>
+      <trans-unit id="653d46681a4435dcf818eb989391b22b2ee4ee95" resname="econtent_types">
+        <source>eContent types</source>
+        <target state="translated">Types de eContenu</target>
+        <note>key: econtent_types</note>
+      </trans-unit>
+      <trans-unit id="1b2ae912020cda9afb0981583be196a4097e734f" resname="email_archive">
+        <source>email archive</source>
+        <target state="translated">archive e-mail</target>
+        <note>key: email_archive</note>
+      </trans-unit>
+      <trans-unit id="2dd43572bbbcf8b653461598f093cf2206db83b4" resname="emails_table.preview.title">
+        <source>Preview email</source>
+        <target state="translated">Aperçu de l'e-mail</target>
+        <note>key: emails_table.preview.title</note>
+      </trans-unit>
       <trans-unit id="32d78af6b1c67df8cf4e744431c9357323e1cdab" resname="emails_table.recipient.title">
         <source>Recipient</source>
         <target state="translated">Destinataire</target>
         <note>key: emails_table.recipient.title</note>
+      </trans-unit>
+      <trans-unit id="c9c6999990cc4884698bcc1595f81f0cf74ea67c" resname="emails_table.resend.title">
+        <source>Resend email</source>
+        <target state="translated">Renvoyer l'e-mail</target>
+        <note>key: emails_table.resend.title</note>
       </trans-unit>
       <trans-unit id="013f1304fba27327a51f20520cb0809e3dc6bb0f" resname="emails_table.sent_date.title" approved="yes">
         <source>Sent date</source>
@@ -46,6 +166,166 @@
         <target state="translated">Objet</target>
         <note>key: emails_table.subject.title</note>
       </trans-unit>
+      <trans-unit id="483be223d70037a50d0a204424d66e4eddd2b77d" resname="emails_table.title">
+        <source>Emails</source>
+        <target state="translated">E-mails</target>
+        <note>key: emails_table.title</note>
+      </trans-unit>
+      <trans-unit id="af9f8c941bdd9b4224c8b4abf3f91575ca01599e" resname="erp.overview">
+        <source>ERP overview</source>
+        <target state="translated">Aperçu ERP</target>
+        <note>key: erp.overview</note>
+      </trans-unit>
+      <trans-unit id="76d09ad8fb771b39c3ad90662e12a10ba60db190" resname="erp.performance">
+        <source>ERP performance</source>
+        <target state="translated">Performance de l'ERP</target>
+        <note>key: erp.performance</note>
+      </trans-unit>
+      <trans-unit id="602c84f615c5eb61c79d3863525ae8d583a776a1" resname="erp.request_log">
+        <source>ERP request log</source>
+        <target state="translated">Journal des requêtes de l'ERP</target>
+        <note>key: erp.request_log</note>
+      </trans-unit>
+      <trans-unit id="fcda216f692c4804bb750433d0096434ad6458d0" resname="erp_graph.message">
+        <source>You can use the smaller graph (the second graph) to select a specific period, the selected period will be marked with a grey background and you can move the selected area. The upper chart will then zoom into details.</source>
+        <target state="translated">Vous pouvez utiliser le graphique plus petit (le deuxième graphique) pour sélectionner une période spécifique, la période sélectionnée sera marquée par un fond gris et vous pouvez déplacer la zone sélectionnée. Le graphique supérieur va ensuite zoomer dans les détails.</target>
+        <note>key: erp_graph.message</note>
+      </trans-unit>
+      <trans-unit id="8425c6afb8c85163fb05c0f98437bff6f0294110" resname="erp_overview.alert.standard_mappings">
+        <source>The list contains standard message mappings only</source>
+        <target state="translated">La liste ne contient que des mappings de messages standards</target>
+        <note>key: erp_overview.alert.standard_mappings</note>
+      </trans-unit>
+      <trans-unit id="f5291792285ab5ee8351b449609691a40abb6ed0" resname="erp_overview.checking">
+        <source>Checking ERP</source>
+        <target state="translated">Vérification de l'ERP</target>
+        <note>key: erp_overview.checking</note>
+      </trans-unit>
+      <trans-unit id="1b00a8778b02bef33c14782aa5016690773b2a6a" resname="erp_overview.connection">
+        <source>URL for ERP connection</source>
+        <target state="translated">URL pour la connexion ERP</target>
+        <note>key: erp_overview.connection</note>
+      </trans-unit>
+      <trans-unit id="3776600980bea4b2ffe599368bfecdcb98f273f5" resname="erp_overview.file_path">
+        <source>Response mapping file path</source>
+        <target state="translated">Chemin du fichier de correspondance de réponse</target>
+        <note>key: erp_overview.file_path</note>
+      </trans-unit>
+      <trans-unit id="09dccd1733d6023268535aa1d16353249ccabeb1" resname="erp_overview.fine">
+        <source>Fine</source>
+        <target state="translated">Excellent</target>
+        <note>key: erp_overview.fine</note>
+      </trans-unit>
+      <trans-unit id="5ef2284172e7224a02edc08acade3173dca4c731" resname="erp_overview.mapping.id">
+        <source>Mapping identifier</source>
+        <target state="translated">Identifiant de correspondance</target>
+        <note>key: erp_overview.mapping.id</note>
+      </trans-unit>
+      <trans-unit id="94f894e313e241b5b601b7d78e97fddf0c5bc4e7" resname="erp_overview.message_mappings">
+        <source>Message mappings</source>
+        <target state="translated">Correspondance des messages</target>
+        <note>key: erp_overview.message_mappings</note>
+      </trans-unit>
+      <trans-unit id="987b79df901798da86509a10c30aaf00c7f5a2d4" resname="erp_overview.no_connection">
+        <source>No connection</source>
+        <target state="translated">Aucune connexion</target>
+        <note>key: erp_overview.no_connection</note>
+      </trans-unit>
+      <trans-unit id="65869d2172e5d7e37bc332a542398a5c5d849504" resname="erp_overview.reguest_mapping">
+        <source>Request mapping</source>
+        <target state="translated">Requête de correspondance</target>
+        <note>key: erp_overview.reguest_mapping</note>
+      </trans-unit>
+      <trans-unit id="25853f33fe3d9bc1f55887e74043acec991f667c" resname="erp_overview.reguest_path">
+        <source>Request mapping file path</source>
+        <target state="translated">Requête du fichier de correspondance</target>
+        <note>key: erp_overview.reguest_path</note>
+      </trans-unit>
+      <trans-unit id="6b4e9ebfb758898a2d0f41ba1b5b7ee314b95df0" resname="erp_overview.response_mapping">
+        <source>Response mapping</source>
+        <target state="translated">Correspondance de réponse</target>
+        <note>key: erp_overview.response_mapping</note>
+      </trans-unit>
+      <trans-unit id="8a935cf998b9fe2278aa7564ddd7ed726103a7d8" resname="erp_overview.status">
+        <source>ERP Status</source>
+        <target state="translated">Statut de l'ERP</target>
+        <note>key: erp_overview.status</note>
+      </trans-unit>
+      <trans-unit id="f3a447bcc73b18fd933435a66d0e19679dd0b97b" resname="erp_overview.tests">
+        <source>ERP Tests</source>
+        <target state="translated">Tests ERP</target>
+        <note>key: erp_overview.tests</note>
+      </trans-unit>
+      <trans-unit id="e1b80663ae83f580cac5e18e5dd84b4ad19f9d44" resname="erp_overview.url_check">
+        <source>ERP Url check</source>
+        <target state="translated">URL de vérification de l'ERP</target>
+        <note>key: erp_overview.url_check</note>
+      </trans-unit>
+      <trans-unit id="5703642eac0e7276a422443512d3c511a149cf74" resname="filters.date_from">
+        <source>Date from</source>
+        <target state="translated">À partir du</target>
+        <note>key: filters.date_from</note>
+      </trans-unit>
+      <trans-unit id="d403ff273554a0890c12e5e3254260fc87e29412" resname="filters.date_to">
+        <source>Date to</source>
+        <target state="translated">Jusqu'au</target>
+        <note>key: filters.date_to</note>
+      </trans-unit>
+      <trans-unit id="cfe34e5ff8e8d0ae614d226cba09c6880ab6c9a5" resname="filters.limit">
+        <source>Limit</source>
+        <target state="translated">Limite</target>
+        <note>key: filters.limit</note>
+      </trans-unit>
+      <trans-unit id="e31204765b216398970fcc0f45241f76f2f2f4ca" resname="filters.measuring_point">
+        <source>Measuring point</source>
+        <target state="translated">Point de mesure</target>
+        <note>key: filters.measuring_point</note>
+      </trans-unit>
+      <trans-unit id="b8f644e0638c2f33c336a1f6eb88248db2523e32" resname="filters.no_logs">
+        <source>Currently there are no events in the log.</source>
+        <target state="translated">Il n'y a actuellement aucun événement dans le journal.</target>
+        <note>key: filters.no_logs</note>
+      </trans-unit>
+      <trans-unit id="b55329e7ea90e8342b79ec029d8e0fd23416b864" resname="filters.no_mail">
+        <source>Currently there are no emails in the log.</source>
+        <target state="translated">Il n'y a actuellement aucun e-mail dans le journal.</target>
+        <note>key: filters.no_mail</note>
+      </trans-unit>
+      <trans-unit id="eebf1d587ef69a1f7f3a6858bf295979fd4f9fdf" resname="filters.request_id">
+        <source>Request Id</source>
+        <target state="translated">Identifiant de la requête</target>
+        <note>key: filters.request_id</note>
+      </trans-unit>
+      <trans-unit id="733d4a8ae07c64c405d45f5bbbcd6dd03dac5553" resname="filters.search">
+        <source>Search</source>
+        <target state="translated">Rechercher</target>
+        <note>key: filters.search</note>
+      </trans-unit>
+      <trans-unit id="7920489c6c1078fa88e59ae2f148a28e88ba6b5b" resname="filters.select_user">
+        <source>Select user</source>
+        <target state="translated">Selectionner un utilisateur</target>
+        <note>key: filters.select_user</note>
+      </trans-unit>
+      <trans-unit id="6d61b43833b1109104c3299cb42fcc3d68eaba5d" resname="filters.selected_user">
+        <source>Selected user</source>
+        <target state="translated">Utilisateur sélectionné</target>
+        <note>key: filters.selected_user</note>
+      </trans-unit>
+      <trans-unit id="062bbb42ae2943d067d3ee694368e29afe2f4391" resname="filters.text">
+        <source>Text</source>
+        <target state="translated">Texte</target>
+        <note>key: filters.text</note>
+      </trans-unit>
+      <trans-unit id="41ce84aa594c4a5c794e14f842337c9578aadff0" resname="filters.user_id">
+        <source>User Id</source>
+        <target state="translated">Identifiant utilisateur</target>
+        <note>key: filters.user_id</note>
+      </trans-unit>
+      <trans-unit id="79bbb5adae91312aad3cb3cd6d586012d18428b3" resname="job_table.start">
+        <source>Start</source>
+        <target state="translated">Démarrer</target>
+        <note>key: job_table.start</note>
+      </trans-unit>
       <trans-unit id="64729947e49708adfb736c0ec7d2169b4b74ee5b" resname="jobs_list.active_jobs">
         <source>Active jobs</source>
         <target state="translated">Tâches actives</target>
@@ -56,10 +336,105 @@
         <target state="translated">Commande</target>
         <note>key: jobs_list.command</note>
       </trans-unit>
+      <trans-unit id="107cabb0fdc07407e4c0a10d0de2294914fd0053" resname="jobs_list.created">
+        <source>Created at</source>
+        <target state="translated">Créé le</target>
+        <note>key: jobs_list.created</note>
+      </trans-unit>
       <trans-unit id="941d61698e2035977f2664f19b7be65cece3acad" resname="jobs_list.id">
         <source>ID</source>
         <target state="translated">ID</target>
         <note>key: jobs_list.id</note>
+      </trans-unit>
+      <trans-unit id="9d1ed086d5044c07a5a5d9db413ce5de20fd6c0b" resname="jobs_list.no_content">
+        <source>Currently there are no active jobs.</source>
+        <target state="translated">Il n'y a actuellement pas de jobs actifs</target>
+        <note>key: jobs_list.no_content</note>
+      </trans-unit>
+      <trans-unit id="0f36654f4072733078d108b617bb02b81b487bd7" resname="jobs_list.preview">
+        <source>Preview</source>
+        <target state="translated">Aperçu</target>
+        <note>key: jobs_list.preview</note>
+      </trans-unit>
+      <trans-unit id="6247e76b2565811d747eb7bdc223082dfeb6dcb2" resname="jobs_list.queue">
+        <source>Queue</source>
+        <target state="translated">File d'attente</target>
+        <note>key: jobs_list.queue</note>
+      </trans-unit>
+      <trans-unit id="0e15400ef4c116aef3a994252ec11f15f0c81916" resname="jobs_list.remove">
+        <source>Remove</source>
+        <target state="translated">Supprimer</target>
+        <note>key: jobs_list.remove</note>
+      </trans-unit>
+      <trans-unit id="0230ac9a7a288b21e2bd33616e887f1daa697159" resname="jobs_list.runtime">
+        <source>Runtime</source>
+        <target state="translated">Runtime</target>
+        <note>key: jobs_list.runtime</note>
+      </trans-unit>
+      <trans-unit id="7f189f642c75849fcfd69fb5e68ed51cfa1869ee" resname="jobs_list.state">
+        <source>State</source>
+        <target state="translated">État</target>
+        <note>key: jobs_list.state</note>
+      </trans-unit>
+      <trans-unit id="635b022029fb08ee5dc2707181f7fc1b254d3211" resname="logs_table.date.title">
+        <source>Date</source>
+        <target state="translated">Date</target>
+        <note>key: logs_table.date.title</note>
+      </trans-unit>
+      <trans-unit id="a0f0563c4928063aa38d7d4ad37004f31ef336a8" resname="logs_table.elapsed_time.title">
+        <source>Elapsed time</source>
+        <target state="translated">Temps écoulé</target>
+        <note>key: logs_table.elapsed_time.title</note>
+      </trans-unit>
+      <trans-unit id="54b6b6cfa6a7ac29cf766804669f37d923b25686" resname="logs_table.meassage_id.title">
+        <source>Message identifier</source>
+        <target state="translated">Identifiant du message</target>
+        <note>key: logs_table.meassage_id.title</note>
+      </trans-unit>
+      <trans-unit id="3c9f950aa89ed879bcdc7ecc843ff3483e7ae6e2" resname="logs_table.measuring_point.title">
+        <source>Measuring point</source>
+        <target state="translated">Point de mesure</target>
+        <note>key: logs_table.measuring_point.title</note>
+      </trans-unit>
+      <trans-unit id="6affbde6e07b9d184c07600e1c0b0a5eb2cb5284" resname="logs_table.request_id.title">
+        <source>Request id</source>
+        <target state="translated">Identifiant de la requête</target>
+        <note>key: logs_table.request_id.title</note>
+      </trans-unit>
+      <trans-unit id="c5468ee5bfe7aa94b76b749675040f9cd8cec24d" resname="logs_table.status.title">
+        <source>Response status</source>
+        <target state="translated">Statut de la réponse</target>
+        <note>key: logs_table.status.title</note>
+      </trans-unit>
+      <trans-unit id="0dc8df832be719352e0e4afdbde1f6ab81715b0a" resname="logs_table.title">
+        <source>ERP request log</source>
+        <target state="translated">Journal des requêtes de l'ERP</target>
+        <note>key: logs_table.title</note>
+      </trans-unit>
+      <trans-unit id="bed04d29667635df3e2ba9fef5d110ad769d30a1" resname="logs_table.user_id.title">
+        <source>User id</source>
+        <target state="translated">Identifiant utilisateur</target>
+        <note>key: logs_table.user_id.title</note>
+      </trans-unit>
+      <trans-unit id="9c6d51b72da01a6f73c4493275e770f739a2aec6" resname="modal.button.close">
+        <source>Close</source>
+        <target state="translated">Fermer</target>
+        <note>key: modal.button.close</note>
+      </trans-unit>
+      <trans-unit id="1644def14f5170561121899f99d906cc9215b433" resname="modal.input_xml">
+        <source>Input-XML</source>
+        <target state="translated">Entrée XML</target>
+        <note>key: modal.input_xml</note>
+      </trans-unit>
+      <trans-unit id="c888f5a76127c5ce0f97aaefb5f8e7b3fefbeeaa" resname="modal.log_text">
+        <source>Log text</source>
+        <target state="translated">Texte du journal</target>
+        <note>key: modal.log_text</note>
+      </trans-unit>
+      <trans-unit id="d95343570ffb6bfadcf136274f31cd364756dfe1" resname="modal.output_xml">
+        <source>Output-XML</source>
+        <target state="translated">Sortie XML</target>
+        <note>key: modal.output_xml</note>
       </trans-unit>
       <trans-unit id="7a0598fc2d481ec39c96a5855c9a5aaf822b7fa4" resname="modal.show_job.arguments">
         <source>Arguments</source>

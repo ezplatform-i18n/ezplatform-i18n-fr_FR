@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+    <header>
+      <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
+      <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
+    </header>
+    <body>
+      <trans-unit id="e2d8886365590cfb44de4b0726e9ccca997ad35e" resname="status.available">
+        <source>Available</source>
+        <target state="translated">Disponible</target>
+        <note>key: status.available</note>
+      </trans-unit>
+      <trans-unit id="00bd77d8561ae9aedb3f6d652f1d986e0b22c417" resname="status.available_title">
+        <source>This product is available for purchase</source>
+        <target state="translated">Ce produit est disponible à la vente</target>
+        <note>key: status.available_title</note>
+      </trans-unit>
+      <trans-unit id="87d7a9e84ddff80295bcf378a07323161777e20a" resname="status.no_available_information">
+        <source>No availability information for this product</source>
+        <target state="translated">Aucune information disponible pour ce produit</target>
+        <note>key: status.no_available_information</note>
+      </trans-unit>
+      <trans-unit id="458fae12cb6b9ba5a9d29b45e07149da60bcbfae" resname="status.no_available_information_title">
+        <source>There is no information about availability for this product</source>
+        <target state="translated">Il n'y a aucune information sur la disponibilité de ce produit</target>
+        <note>key: status.no_available_information_title</note>
+      </trans-unit>
+      <trans-unit id="d468d72e9f5d407666596398f805ae0c2b3583b1" resname="status.not_available">
+        <source>Not Available</source>
+        <target state="translated">Indisponible</target>
+        <note>key: status.not_available</note>
+      </trans-unit>
+      <trans-unit id="0e84d7010da5f5df4796e124b1c845ca658db749" resname="status.not_available_in_the_amount_stock">
+        <source>Not Available in the amount: %amount%, Stock: %stockNumeric%</source>
+        <target state="translated">Non disponible dans cette quantité : %amount%, Stock : %stockNumeric%</target>
+        <note>key: status.not_available_in_the_amount_stock</note>
+      </trans-unit>
+      <trans-unit id="08b4e82d2cc35dc41667291801f0d8bbe332b248" resname="status.not_available_in_the_amount_title">
+        <source>This product is not available for purchase in this amount</source>
+        <target state="translated">Ce produit n'est pas disponible à l'achat pour cette quantité</target>
+        <note>key: status.not_available_in_the_amount_title</note>
+      </trans-unit>
+      <trans-unit id="614a2b40728859769b3f84eca51b1651a574685d" resname="status.not_available_in_this_amount">
+        <source>Not Available in this amount</source>
+        <target state="translated">Non disponible pour cette quantité</target>
+        <note>key: status.not_available_in_this_amount</note>
+      </trans-unit>
+      <trans-unit id="02d41884b42fef1afa537cc3b53ffb5062a1dfa8" resname="status.not_available_title">
+        <source>This product is not available for purchase</source>
+        <target state="translated">Ce produit n'est pas disponible à la vente</target>
+        <note>key: status.not_available_title</note>
+      </trans-unit>
+      <trans-unit id="5fc1cee1100be42fa3fabe47ec902f4df9d39dd9" resname="status.stock_numeric">
+        <source>Stock: %stockNumeric%</source>
+        <target state="translated">Stock : %stockNumeric%</target>
+        <note>key: status.stock_numeric</note>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
