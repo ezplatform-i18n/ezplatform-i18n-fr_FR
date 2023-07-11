@@ -6,16 +6,6 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="bbbcd9143019c6ad1da0d667c1ae1f01dc463201" resname="specifications.add">
-        <source>Add</source>
-        <target state="translated">Ajouter</target>
-        <note>key: specifications.add</note>
-      </trans-unit>
-      <trans-unit id="d6c2c600ec3a2d6e5d279f17291c11d000479fa3" resname="specifications.add.value">
-        <source>Add</source>
-        <target state="translated">Ajouter</target>
-        <note>key: specifications.add.value</note>
-      </trans-unit>
       <trans-unit id="a0528297bcfea3ca592bcfa523ed0d64a84f9a2f" resname="specifications.custom">
         <source>Custom</source>
         <target state="translated">Personnalisé</target>

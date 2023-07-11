@@ -16,11 +16,6 @@
         <target state="translated">Centre de contrôle</target>
         <note>key: Control center</note>
       </trans-unit>
-      <trans-unit id="d87f47b47e4d5794d53fe0734c49417bd046cde0" resname="Dashboard">
-        <source>Dashboard</source>
-        <target state="translated">Tableau de bord</target>
-        <note>key: Dashboard</note>
-      </trans-unit>
       <trans-unit id="11470e24a23c56cc3afe507f757b425a1867eea7" resname="Error for basket %basketId%: %error%">
         <source>Error for basket %basketId%: %error%</source>
         <target state="translated">Erreur pour le panier %basketId%: %error%</target>
@@ -35,11 +30,6 @@
         <source>Order for basket: %basketId% has been processed successfully, Order-ID: %orderId%</source>
         <target state="translated">La commande pour le panier : %basketId% a été traitée avec succès, Numéro de commande : %orderId%</target>
         <note>key: Order for basket: %basketId% has been processed successfully, Order-ID: %orderId%</note>
-      </trans-unit>
-      <trans-unit id="6b3ae60bbba6c0b2ac4a768031e4c2c69e872e27" resname="Shipping management">
-        <source>Shipping management</source>
-        <target state="translated">Gestion de l'expédition</target>
-        <note>key: Shipping management</note>
       </trans-unit>
       <trans-unit id="5392f37b938a3fec5bc6fc366cdbd759343f07cb" resname="code.120_complete">
         <source>Request BEFORE mapping.</source>
@@ -71,21 +61,6 @@
         <target state="translated">Réponse APRÈS correspondance.</target>
         <note>key: code.280_complete</note>
       </trans-unit>
-      <trans-unit id="4fce840cb6ca00c22cd101fa83b2aca386cc37ef" resname="dashboard.summary.previous_month">
-        <source>previous month</source>
-        <target state="translated">mois précédent</target>
-        <note>key: dashboard.summary.previous_month</note>
-      </trans-unit>
-      <trans-unit id="74a0a1f1378464d065954caae7ce69feb20bad8e" resname="field_type.add_variant">
-        <source>Add</source>
-        <target state="translated">Ajouter une variante</target>
-        <note>key: field_type.add_variant</note>
-      </trans-unit>
-      <trans-unit id="cbc1f44be5f6d1cff762774712d8ccbfd796f6ec" resname="field_types.variants.button.trash">
-        <source>Delete</source>
-        <target state="translated">Supprimer</target>
-        <note>key: field_types.variants.button.trash</note>
-      </trans-unit>
       <trans-unit id="9c6d51b72da01a6f73c4493275e770f739a2aec6" resname="modal.button.close">
         <source>Close</source>
         <target state="translated">Fermer</target>
@@ -110,21 +85,6 @@
         <source>Stock for %products% products imported successfully</source>
         <target state="translated">Stock pour %products% produits importés avec succès</target>
         <note>key: msg.stock_upload_success</note>
-      </trans-unit>
-      <trans-unit id="70362d855cb518b37d903375e88e781de7a4a8a1" resname="order_list.filters.payment_transaction_id">
-        <source>Search by Payment transaction id</source>
-        <target state="translated">Recherche par identifiant de transaction de paiement</target>
-        <note>key: order_list.filters.payment_transaction_id</note>
-      </trans-unit>
-      <trans-unit id="86ce7e2c45b3d6a4bfcb5bfe18a2ab450c872aff" resname="shipping_management.add_shipping">
-        <source>Add new</source>
-        <target state="translated">Ajouter un nouveau</target>
-        <note>key: shipping_management.add_shipping</note>
-      </trans-unit>
-      <trans-unit id="a75dc4c2145855dd0841a5da02bf3714e6605d4e" resname="shipping_management.delete_shippment.button">
-        <source>Delete</source>
-        <target state="translated">Supprimer</target>
-        <note>key: shipping_management.delete_shippment.button</note>
       </trans-unit>
     </body>
   </file>

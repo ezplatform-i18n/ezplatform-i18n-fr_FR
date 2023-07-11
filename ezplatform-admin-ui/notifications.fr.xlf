@@ -31,6 +31,11 @@
         <target state="translated">Supprimé</target>
         <note>key: notification.permanently_deleted</note>
       </trans-unit>
+      <trans-unit id="1c91fe849525c315015b2e765f6600fd199e78a0" resname="notification.title">
+        <source>Title:</source>
+        <target state="translated">Titre:</target>
+        <note>key: notification.title</note>
+      </trans-unit>
       <trans-unit id="dda5c8f76779648fe17e298aaae2ea426df3f85e" resname="notification.trashed">
         <source>Sent to Trash</source>
         <target state="translated">Envoyé à la Corbeille</target>

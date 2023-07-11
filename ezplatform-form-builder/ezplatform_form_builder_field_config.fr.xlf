@@ -11,6 +11,11 @@
         <target state="translated">Annuler</target>
         <note>key: discard</note>
       </trans-unit>
+      <trans-unit id="e6ef106f5f2676c7cd07d129c058f659c542d37c" resname="option.field.placeholder">
+        <source>Placeholder</source>
+        <target state="translated">Emplacement réservé</target>
+        <note>key: option.field.placeholder</note>
+      </trans-unit>
       <trans-unit id="3fa4054f214f0f8063d8fb4453be65d460e3e30c" resname="submit">
         <source>Submit</source>
         <target state="translated">Valider</target>

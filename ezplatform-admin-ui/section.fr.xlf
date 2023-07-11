@@ -81,6 +81,11 @@
         <target state="translated">Identifiant</target>
         <note>key: section.identifier</note>
       </trans-unit>
+      <trans-unit id="105a971e4f7e75ad6066301cedc90bd4acf0ae12" resname="section.information.header">
+        <source>Section information</source>
+        <target state="translated">Informations de la section</target>
+        <note>key: section.information.header</note>
+      </trans-unit>
       <trans-unit id="1f9b6e37416ff607de9d4fa280dce2f734ea622c" resname="section.list">
         <source>Sections</source>
         <target state="translated">Sections</target>

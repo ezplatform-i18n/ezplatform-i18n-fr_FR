@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+  <file date="2021-05-24T10:05:23Z" source-language="en" target-language="fr" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
@@ -10,111 +10,85 @@
         <source><![CDATA[Attribute name <strong>%attr_name%</strong> Boost by %number% positions]]></source>
         <target state="translated"><![CDATA[Nom d'attribut <strong>%attr_name%</strong> Boost par %number% positions]]></target>
         <note>key: ibexa_personalization.scenario.attribute_name_boost_by_positions</note>
+        <jms:reference-file line="20">/vendor/ezsystems/ezplatform-personalization/src/bundle/DependencyInjection/../../../src/bundle/Resources/views/themes/admin/personalization/scenarios/parts/user_profile_setting.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="58c4de4f2b038c7fc694aeac48b9e7c1f71ee6f3" resname="ibexa_personalization.scenario.do_not_recommend_if_price_unknown">
         <source>Do not recommend if price unknown</source>
         <target state="translated">Ne pas recommander si le prix est inconnu</target>
         <note>key: ibexa_personalization.scenario.do_not_recommend_if_price_unknown</note>
+        <jms:reference-file line="20">/vendor/ezsystems/ezplatform-personalization/src/bundle/DependencyInjection/../../../src/bundle/Resources/views/themes/admin/personalization/scenarios/parts/commerce_setting.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="a8025af1651d2099c2107775225bcc387c2ce030" resname="ibexa_personalization.scenario.do_not_recommend_items_the_user_already_consumed">
         <source>Do not recommend items the user already consumed</source>
         <target state="translated">Ne pas recommander les articles que l'utilisateur a déjà consommés</target>
         <note>key: ibexa_personalization.scenario.do_not_recommend_items_the_user_already_consumed</note>
+        <jms:reference-file line="8">/vendor/ezsystems/ezplatform-personalization/src/bundle/DependencyInjection/../../../src/bundle/Resources/views/themes/admin/personalization/scenarios/parts/user_profile_setting.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ebce3059d579855d7d862adc078d05ef3cdb3e4c" resname="ibexa_personalization.scenario.do_not_recommend_items_the_user_already_purchased">
         <source>Do not recommend items the user already purchased</source>
         <target state="translated">Ne pas recommander les articles que l'utilisateur a déjà acheté</target>
         <note>key: ibexa_personalization.scenario.do_not_recommend_items_the_user_already_purchased</note>
+        <jms:reference-file line="24">/vendor/ezsystems/ezplatform-personalization/src/bundle/DependencyInjection/../../../src/bundle/Resources/views/themes/admin/personalization/scenarios/parts/commerce_setting.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="ad7d6a7f1fd78a63ca9ccc83922f534f68d2b157" resname="ibexa_personalization.scenario.do_not_recommend_the_item_currently_viewed">
         <source>Do not recommend the item currently viewed</source>
         <target state="translated">Ne pas recommander l'élément actuellement consulté</target>
         <note>key: ibexa_personalization.scenario.do_not_recommend_the_item_currently_viewed</note>
+        <jms:reference-file line="4">/vendor/ezsystems/ezplatform-personalization/src/bundle/DependencyInjection/../../../src/bundle/Resources/views/themes/admin/personalization/scenarios/parts/user_profile_setting.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="08f818e6ef2fae24f62f92ad07c95034f5564d67" resname="ibexa_personalization.scenario.item_price_should_equal_or_higher_than_the_price_of_the_context_item">
         <source>Item price should equal or higher than the price of the context item</source>
         <target state="translated">Le prix de l’article doit être supérieur ou égal au prix de l’élément contextuel</target>
         <note>key: ibexa_personalization.scenario.item_price_should_equal_or_higher_than_the_price_of_the_context_item</note>
+        <jms:reference-file line="12">/vendor/ezsystems/ezplatform-personalization/src/bundle/DependencyInjection/../../../src/bundle/Resources/views/themes/admin/personalization/scenarios/parts/commerce_setting.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="68bd251c2e11768e865ea819505fcfba41843f4c" resname="ibexa_personalization.scenario.max_repeated_shows_of_identical_recommendation_per_session">
         <source><![CDATA[<strong>%number%</strong> Max. repeated shows of identical recommendations per session.]]></source>
         <target state="translated"><![CDATA[<strong>%number%</strong> Max. affichages répétés de recommandations identiques par session.]]></target>
         <note>key: ibexa_personalization.scenario.max_repeated_shows_of_identical_recommendation_per_session</note>
+        <jms:reference-file line="13">/vendor/ezsystems/ezplatform-personalization/src/bundle/DependencyInjection/../../../src/bundle/Resources/views/themes/admin/personalization/scenarios/parts/user_profile_setting.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="eac8685099002fc146e2ce28683000e349f385c7" resname="ibexa_personalization.scenario.minimum_price_of_the_recommended_product">
         <source><![CDATA[<strong>%number%</strong> Minimum price of the recommended product]]></source>
         <target state="translated"><![CDATA[<strong>%number%</strong> Prix minimum du produit recommandé]]></target>
         <note>key: ibexa_personalization.scenario.minimum_price_of_the_recommended_product</note>
+        <jms:reference-file line="16">/vendor/ezsystems/ezplatform-personalization/src/bundle/DependencyInjection/../../../src/bundle/Resources/views/themes/admin/personalization/scenarios/parts/commerce_setting.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="dd66a1fe6db995357401eafaf77270921183d675" resname="ibexa_personalization.scenario.no_context_items">
         <source>No context items</source>
         <target state="translated">Aucun élément de contexte</target>
         <note>key: ibexa_personalization.scenario.no_context_items</note>
+        <jms:reference-file line="4">/vendor/ezsystems/ezplatform-personalization/src/bundle/DependencyInjection/../../../src/bundle/Resources/views/themes/admin/personalization/scenarios/parts/commerce_setting.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="c8b54a3dacff4f6a0b14755dfc400fab47c3d5e7" resname="ibexa_personalization.scenario.no_top_selling_items">
         <source>No top-selling items</source>
         <target state="translated">Aucun élément dans les mieux vendus</target>
         <note>key: ibexa_personalization.scenario.no_top_selling_items</note>
+        <jms:reference-file line="8">/vendor/ezsystems/ezplatform-personalization/src/bundle/DependencyInjection/../../../src/bundle/Resources/views/themes/admin/personalization/scenarios/parts/commerce_setting.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="1203b8fbfe1503ccd296cdce9603f7bf680953a7" resname="ibexa_personalization.scenario.undefined">
         <source>Undefined</source>
         <target state="translated">Non défini</target>
         <note>key: ibexa_personalization.scenario.undefined</note>
+        <jms:reference-file line="282">/vendor/ezsystems/ezplatform-personalization/src/bundle/DependencyInjection/../../../src/lib/Service/Scenario/ScenarioService.php</jms:reference-file>
       </trans-unit>
       <trans-unit id="ab9e7870732261d79e13f05882a03f0c6c2e86eb" resname="ibexa_personalization.scenario.user_attribute_has_different_name">
         <source><![CDATA[User attribute has different name <strong>%attr_name%</strong>]]></source>
         <target state="translated"><![CDATA[L'attribut utilisateur a un nom différent <strong>%attr_name%</strong>]]></target>
         <note>key: ibexa_personalization.scenario.user_attribute_has_different_name</note>
-      </trans-unit>
-      <trans-unit id="6cd8333da58d5be29fb9a255c0f5bf51afadd86a" resname="preview.action_name">
-        <source>Preview</source>
-        <target state="translated">Aperçu</target>
-        <note>key: preview.action_name</note>
+        <jms:reference-file line="30">/vendor/ezsystems/ezplatform-personalization/src/bundle/DependencyInjection/../../../src/bundle/Resources/views/themes/admin/personalization/scenarios/parts/user_profile_setting.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="625f527678ea5c31afdaf96e4d79d4fbff7da961" resname="preview.generated_url">
         <source>Generated url</source>
         <target state="translated">Url générée</target>
         <note>key: preview.generated_url</note>
-      </trans-unit>
-      <trans-unit id="a78422aaea106eeaf7ae4309b20c87cbcb1a1322" resname="preview.no_recommenations.text">
-        <source>No recommendations available</source>
-        <target state="translated">Aucune recommandation disponible</target>
-        <note>key: preview.no_recommenations.text</note>
-      </trans-unit>
-      <trans-unit id="934cce1488b5d3dcb5a9412c64a6abe1b1aee00c" resname="preview.response.card.header.title">
-        <source>Header</source>
-        <target state="translated">Entête</target>
-        <note>key: preview.response.card.header.title</note>
-      </trans-unit>
-      <trans-unit id="09ce9cb6e8aca233e6c4b9f10f6b9b6125a6de23" resname="preview.response.title">
-        <source>Recommendation response</source>
-        <target state="translated">Réponse de la recommandation</target>
-        <note>key: preview.response.title</note>
-      </trans-unit>
-      <trans-unit id="74a146bbd3dc21ef09999804dadfe29b3c5c1bd1" resname="preview.response.toggler.hide">
-        <source>Hide response code</source>
-        <target state="translated">Masquer le code de réponse</target>
-        <note>key: preview.response.toggler.hide</note>
-      </trans-unit>
-      <trans-unit id="5987fd4da1710f0d892dba51b629328c379d6c8d" resname="preview.response.toggler.show">
-        <source>Show response code</source>
-        <target state="translated">Afficher le code de réponse</target>
-        <note>key: preview.response.toggler.show</note>
+        <jms:reference-file line="85">/vendor/ezsystems/ezplatform-personalization/src/bundle/DependencyInjection/../../../src/bundle/Resources/views/themes/admin/personalization/scenarios/preview.html.twig</jms:reference-file>
       </trans-unit>
       <trans-unit id="f6b27e1c34d4f1dbb53abc36293d7ebb09ae5337" resname="preview.send_request">
         <source>Send request</source>
         <target state="translated">Envoyer la requête</target>
         <note>key: preview.send_request</note>
-      </trans-unit>
-      <trans-unit id="da514a07b30cee2d7ce54a546cb5ffb04c03d06b" resname="preview.settings">
-        <source>Settings</source>
-        <target state="translated">Réglages</target>
-        <note>key: preview.settings</note>
-      </trans-unit>
-      <trans-unit id="eeebc2fdf1bcb0d22bd731d7b13f5501e84e9026" resname="preview.title">
-        <source>Also clicked</source>
-        <target state="translated">Aussi cliqué</target>
-        <note>key: preview.title</note>
+        <jms:reference-file line="91">/vendor/ezsystems/ezplatform-personalization/src/bundle/DependencyInjection/../../../src/bundle/Resources/views/themes/admin/personalization/scenarios/preview.html.twig</jms:reference-file>
       </trans-unit>
     </body>
   </file>

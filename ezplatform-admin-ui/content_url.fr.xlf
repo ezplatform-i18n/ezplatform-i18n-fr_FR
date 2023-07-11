@@ -7,12 +7,12 @@
     </header>
     <body>
       <trans-unit id="5c48ac36c2a46c2dc2a89fd4c91a2a3d684eb5d8" resname="tab.urls.action.add">
-        <source>Add new</source>
+        <source>Add a custom URL alias</source>
         <target state="translated">Ajouter un alias d'URL personnalisé</target>
         <note>key: tab.urls.action.add</note>
       </trans-unit>
       <trans-unit id="9b4504fd2e75dffb2c22283be3e9816e8142538a" resname="tab.urls.action.delete">
-        <source>Delete</source>
+        <source>Delete custom URL alias</source>
         <target state="translated">Supprimer un alias d'URL personnalisé</target>
         <note>key: tab.urls.action.delete</note>
       </trans-unit>
@@ -37,12 +37,12 @@
         <note>key: tab.urls.add.redirect</note>
       </trans-unit>
       <trans-unit id="e84da49f6798548a0e09f5f7d5095788257f0119" resname="tab.urls.add.redirect.helper.checked">
-        <source>The alias will redirect to the destination using an HTTP 301 response.</source>
+        <source>When checked, the alias will redirect to the destination using an HTTP 301 response.</source>
         <target state="translated">Si coché, l'alias redirigera vers la destination en utilisant une réponse HTTP 301.</target>
         <note>key: tab.urls.add.redirect.helper.checked</note>
       </trans-unit>
       <trans-unit id="bccfa7be40c2932ae04a50767aee2184bd5ca4d5" resname="tab.urls.add.redirect.helper.unchecked">
-        <source>The alias will not redirect to the destination and the URL will stay the same.</source>
+        <source>When unchecked, the alias will not redirect to the destination and the URL will stay the same.</source>
         <target state="translated">Si non coché, l'alias ne redirigera pas vers la destination et l'URL restera la même.</target>
         <note>key: tab.urls.add.redirect.helper.unchecked</note>
       </trans-unit>
@@ -62,17 +62,17 @@
         <note>key: tab.urls.add.site_root</note>
       </trans-unit>
       <trans-unit id="9fc6fbd86b58ee883321610dd1726551772edaf1" resname="tab.urls.add.site_root.helper.checked">
-        <source>The alias will be placed at the site root.</source>
+        <source>When checked, the alias will be placed at the site root.</source>
         <target state="translated">Si coché, l'alias sera placé à la racine du site.</target>
         <note>key: tab.urls.add.site_root.helper.checked</note>
       </trans-unit>
       <trans-unit id="cf65d6c865f18c51e3edcd90c6779079b994595c" resname="tab.urls.add.site_root.helper.no_parent_name">
-        <source>The alias will be placed under the parent of this Location</source>
+        <source>When unchecked, the alias will be placed under the parent of this Location</source>
         <target state="translated">Si non coché, l'alias sera placé sous le parent de cet emplacement</target>
         <note>key: tab.urls.add.site_root.helper.no_parent_name</note>
       </trans-unit>
       <trans-unit id="db531fb5f993263b5ea57393101781b9d731a738" resname="tab.urls.add.site_root.helper.unchecked">
-        <source>The alias will be placed under %parent_name%</source>
+        <source>When unchecked, the alias will be placed under %parent_name%</source>
         <target state="translated">Si non coché, l'alias sera placé sous %parent_name%</target>
         <note>key: tab.urls.add.site_root.helper.unchecked</note>
       </trans-unit>

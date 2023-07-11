@@ -7,7 +7,7 @@
     </header>
     <body>
       <trans-unit id="68d3c56957f36f507e2c3deedaad40f75ba5f18e" resname="ezplatform_page_manager">
-        <source>Sites</source>
+        <source>Page</source>
         <target state="translated">Page</target>
         <note>key: ezplatform_page_manager</note>
       </trans-unit>

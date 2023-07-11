@@ -6,7 +6,16 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      
+      <trans-unit id="473791d4ee73c0b1401f37519728414c339edc21" resname="javascript.disabled.required">
+        <source>javascript.disabled.required</source>
+        <target state="translated">JavaScript est désactivé dans votre navigateur mais il est nécessaire afin de lancer l'interface d'administration d'eZ Platform.</target>
+        <note>key: javascript.disabled.required</note>
+      </trans-unit>
+      <trans-unit id="1ac530659b5b57d48cf6d95bc51ead90f1a2ac6d" resname="javascript.enable">
+        <source>javascript.enable</source>
+        <target state="translated">Merci d'activer JavaScript pour utiliser l'interface d'administration d'eZ Platform.</target>
+        <note>key: javascript.enable</note>
+      </trans-unit>
     </body>
   </file>
 </xliff>

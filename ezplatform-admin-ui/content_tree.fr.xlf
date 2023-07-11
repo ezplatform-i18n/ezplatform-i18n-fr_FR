@@ -11,11 +11,6 @@
         <target state="translated">Tout réduire</target>
         <note>key: collapse_all</note>
       </trans-unit>
-      <trans-unit id="ede4f6caeae5d747bd990ce629afc0eb65e08663" resname="content_tree.header">
-        <source>Content tree</source>
-        <target state="translated">Arbre de contenu</target>
-        <note>key: content_tree.header</note>
-      </trans-unit>
       <trans-unit id="0cba8ae8f7a758a11886b6be4e7ce7e570063f8f" resname="expand_item.limit.message">
         <source>Cannot load sub-items for this Location because you reached max tree depth.</source>
         <target state="translated">Impossible de charger les sous-éléments pour cet emplacement car vous avez atteint la profondeur maximale de l'arborescence.</target>
@@ -31,10 +26,10 @@
         <target state="translated">Cet emplacement n'a pas de sous-élément</target>
         <note>key: no_subitems</note>
       </trans-unit>
-      <trans-unit id="005f697feb980b390fa35dcf088bdfbc76d2783a" resname="see_more">
-        <source>See more</source>
-        <target state="translated">Voir plus</target>
-        <note>key: see_more</note>
+      <trans-unit id="2be9699b658299055002412aa53431dc89281fcf" resname="show_more">
+        <source>Show more</source>
+        <target state="translated">Afficher plus</target>
+        <note>key: show_more</note>
       </trans-unit>
       <trans-unit id="fa32f3cd5131d17d3c18b13089f0c93216a1e85c" resname="show_more.limit_reached">
         <source>Loading limit reached</source>

@@ -26,20 +26,20 @@
         <target state="translated">Détails du lien</target>
         <note>key: url.breadcrumb.detail</note>
       </trans-unit>
+      <trans-unit id="ac3c0d7621f2d6d5f452060a8c639fdbe760ef3a" resname="url.breadcrumb.edit">
+        <source>Edit</source>
+        <target state="translated">Modifier</target>
+        <note>key: url.breadcrumb.edit</note>
+      </trans-unit>
       <trans-unit id="67f94fa41322d4fd15518686d51fca4892ad0e7c" resname="url.breadcrumb.list">
         <source>URL management</source>
         <target state="translated">Gestion des URL</target>
         <note>key: url.breadcrumb.list</note>
       </trans-unit>
       <trans-unit id="e890168e1ef7753c250affa3fcdfb21074c35c6f" resname="url.editing">
-        <source>Editing</source>
+        <source>Editing URL: %url%</source>
         <target state="translated">Edition URL : %url%</target>
         <note>key: url.editing</note>
-      </trans-unit>
-      <trans-unit id="51af0ce5242ede206403aac1116ee36ed8887d44" resname="url.editing.title">
-        <source>Link %url%</source>
-        <target state="translated">Lien %url%</target>
-        <note>key: url.editing.title</note>
       </trans-unit>
       <trans-unit id="8c27173bd289fbab90a41c921e3a0d742acd9042" resname="url.label.address">
         <source>Address</source>
@@ -80,6 +80,16 @@
         <source>Links (%count%)</source>
         <target state="translated">Liens (%count%)</target>
         <note>key: url.list.title</note>
+      </trans-unit>
+      <trans-unit id="126d1ac5ef68809c1a2bfdd3872470d7aafaacc3" resname="url.open">
+        <source>Open</source>
+        <target state="translated">Ouvrir</target>
+        <note>key: url.open</note>
+      </trans-unit>
+      <trans-unit id="226d3de8d2685074e329b9eca1657c96d9c89ead" resname="url.search">
+        <source>Search</source>
+        <target state="translated">Rechercher</target>
+        <note>key: url.search</note>
       </trans-unit>
       <trans-unit id="960c2d7573696185d28d8e385eabe01dbe9dacf3" resname="url.search.placeholder">
         <source>Search for URLs</source>

@@ -11,6 +11,11 @@
         <target state="translated">Supprimer</target>
         <note>key: delete</note>
       </trans-unit>
+      <trans-unit id="f57e38069445fdec820e61935325ba944c1c8fe4" resname="discard">
+        <source>Discard</source>
+        <target state="translated">Annuler</target>
+        <note>key: discard</note>
+      </trans-unit>
       <trans-unit id="3fa4054f214f0f8063d8fb4453be65d460e3e30c" resname="submit">
         <source>Submit</source>
         <target state="translated">Valider</target>

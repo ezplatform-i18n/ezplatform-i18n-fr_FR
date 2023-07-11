@@ -7,8 +7,8 @@
     </header>
     <body>
       <trans-unit id="663d5cd498c0849675ac4fd684d4270a1a3f1acb" resname="pagination.viewing">
-        <source>Viewing %viewing% out of %total% items</source>
-        <target state="translated">Affichage de &lt;strong&gt;%viewing%&lt;/strong&gt; sur &lt;strong&gt;%total%&lt;/strong&gt; éléments</target>
+        <source><![CDATA[Viewing <strong>%viewing%</strong> out of <strong>%total%</strong> items]]></source>
+        <target state="translated"><![CDATA[Affichage de <strong>%viewing%</strong> sur <strong>%total%</strong> éléments]]></target>
         <note>key: pagination.viewing</note>
       </trans-unit>
     </body>

@@ -16,11 +16,6 @@
         <target state="final">Copier la sous-arborescence</target>
         <note>key: content__sidebar_right__copy_subtree</note>
       </trans-unit>
-      <trans-unit id="a2fafde1538959ee924436a6d4bbd8269c1ac412" resname="content__sidebar_right__create" approved="yes">
-        <source>Create content</source>
-        <target state="final">Créer</target>
-        <note>key: content__sidebar_right__create</note>
-      </trans-unit>
       <trans-unit id="b3937ec2d3ae4980f8ae00ed20818d92bfab3407" resname="content__sidebar_right__delete" approved="yes">
         <source>Delete</source>
         <target state="final">Supprimer</target>
@@ -156,11 +151,6 @@
         <target state="final">Sauvegarder</target>
         <note>key: language_edit__sidebar_right__save</note>
       </trans-unit>
-      <trans-unit id="d24d01151cf9ba69e38be735778da00850cea694" resname="main__admin" approved="yes">
-        <source>Admin</source>
-        <target state="final">Administration</target>
-        <note>key: main__admin</note>
-      </trans-unit>
       <trans-unit id="f85206498106b1536c36c3231d870daa0d2805e2" resname="main__admin__content_types" approved="yes">
         <source>Content Types</source>
         <target state="final">Types de contenu</target>
@@ -196,11 +186,6 @@
         <target state="final">Utilisateurs</target>
         <note>key: main__admin__users</note>
       </trans-unit>
-      <trans-unit id="f68c5be5c002f6858b89d2dc5156d725425e31db" resname="main__bookmarks">
-        <source>Bookmarks</source>
-        <target state="translated">Favoris</target>
-        <note>key: main__bookmarks</note>
-      </trans-unit>
       <trans-unit id="95e1979b41321209d200f2e75416fd47270954b4" resname="main__content" approved="yes">
         <source>Content</source>
         <target state="final">Contenu</target>
@@ -211,25 +196,15 @@
         <target state="final">Contenu</target>
         <note>key: main__content__content_structure</note>
       </trans-unit>
-      <trans-unit id="17346107dfddb344b04c455b071d001dadf80d6f" resname="main__content__group_settings">
-        <source>Settings</source>
-        <target state="translated">Réglages</target>
-        <note>key: main__content__group_settings</note>
-      </trans-unit>
       <trans-unit id="e8c5aefc86b31ee2bed9359787ddf0a2b1cad4a6" resname="main__content__media" approved="yes">
         <source>Media</source>
         <target state="final">Média</target>
         <note>key: main__content__media</note>
       </trans-unit>
-      <trans-unit id="4c2cca32be18ada279b3562d2b96acc4a908083e" resname="main__dashboard">
-        <source>Dashboard</source>
-        <target state="translated">Tableau de bord</target>
-        <note>key: main__dashboard</note>
-      </trans-unit>
-      <trans-unit id="5376b08940439deec5b89c3df17b09ab8f4ed252" resname="main__trash">
-        <source>Trash</source>
-        <target state="translated">Corbeille</target>
-        <note>key: main__trash</note>
+      <trans-unit id="1f5824f08c1b09cf6511dee2352e6f1681f94893" resname="main_admin" approved="yes">
+        <source>Admin</source>
+        <target state="final">Administration</target>
+        <note>key: main_admin</note>
       </trans-unit>
       <trans-unit id="f3561dffc3e7e63e03f3f5d1a4e2b4eda80e051a" resname="object_state_create__sidebar_right__cancel" approved="yes">
         <source>Discard changes</source>
@@ -400,11 +375,6 @@
         <source>Save</source>
         <target state="translated">Sauvegarder</target>
         <note>key: url_wildcard_edit__sidebar_right__save</note>
-      </trans-unit>
-      <trans-unit id="da5c7f4f526c2dd5b1e1f51ab5238ef4ba86d421" resname="user__change_password" approved="yes">
-        <source>Change password</source>
-        <target state="final">Modifier mot de passe</target>
-        <note>key: user__change_password</note>
       </trans-unit>
       <trans-unit id="06accb26fbb1b72012942af2b3e03f7c138e28c3" resname="user__content" approved="yes">
         <source>Logout</source>

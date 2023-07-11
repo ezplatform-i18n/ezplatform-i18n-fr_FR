@@ -16,25 +16,10 @@
         <target state="translated">Type de Contenu</target>
         <note>key: bulk_action.failed.modal.content_type_name</note>
       </trans-unit>
-      <trans-unit id="61c309bd68782746767f9165eb574f111b50a727" resname="content.create.create_content">
+      <trans-unit id="a4b9e9b4898dd285237fc60130970ce7ed988871" resname="content.create.choose_content_type">
         <source>Create content</source>
         <target state="translated">Créer un contenu</target>
-        <note>key: content.create.create_content</note>
-      </trans-unit>
-      <trans-unit id="90210d6d68a4c36d75906bd4fea9194a88988205" resname="content.create.editing_details">
-        <source>under %content_name%</source>
-        <target state="translated">sous %content_name%</target>
-        <note>key: content.create.editing_details</note>
-      </trans-unit>
-      <trans-unit id="a443a2a76348e8431df4346c11079f9e56735473" resname="content.create.filters.desc">
-        <source>Or choose from list</source>
-        <target state="translated">Ou choisir dans la liste</target>
-        <note>key: content.create.filters.desc</note>
-      </trans-unit>
-      <trans-unit id="a68fa29f2de8a9e5a1a533e7240b0b667651c4d5" resname="content.create.input.placeholder">
-        <source>Type to refine</source>
-        <target state="translated">Taper pour affiner</target>
-        <note>key: content.create.input.placeholder</note>
+        <note>key: content.create.choose_content_type</note>
       </trans-unit>
       <trans-unit id="f599001c1ab9442f20e23d535e1dad8f3b75c337" resname="content.create.select_content_type">
         <source>Select a Content Type:</source>
@@ -187,12 +172,12 @@
         <note>key: tab.details.translations</note>
       </trans-unit>
       <trans-unit id="8eb3feb6461dacdbd425ef30fc4848a94ab3db0d" resname="tab.locations.action.add">
-        <source>Add new</source>
+        <source>Add Location</source>
         <target state="translated">Ajouter un emplacement</target>
         <note>key: tab.locations.action.add</note>
       </trans-unit>
       <trans-unit id="80808d78f600e925ec3e2dd4b2a0e7570169fd83" resname="tab.locations.action.delete">
-        <source>Delete</source>
+        <source>Delete Location</source>
         <target state="translated">Supprimer l'emplacement</target>
         <note>key: tab.locations.action.delete</note>
       </trans-unit>
@@ -332,19 +317,29 @@
         <note>key: tab.relations.table.relation_type.link</note>
       </trans-unit>
       <trans-unit id="492cea0fd67c4af8e41d21710668239c9db66cfc" resname="tab.translations.action.add">
-        <source>Add new</source>
+        <source>Add translation</source>
         <target state="translated">Ajouter une traduction</target>
         <note>key: tab.translations.action.add</note>
       </trans-unit>
       <trans-unit id="8c29b038407b67badc381aca362d4770d299df8b" resname="tab.translations.action.delete">
-        <source>Delete</source>
+        <source>Delete Translation</source>
         <target state="translated">Supprimer la traduction</target>
         <note>key: tab.translations.action.delete</note>
+      </trans-unit>
+      <trans-unit id="5022ce879be6a69956541173bf658dccff5d7280" resname="tab.translations.add.base_language">
+        <source>Base this translation on an existing translation</source>
+        <target state="translated">Baser cette traduction sur une version existante</target>
+        <note>key: tab.translations.add.base_language</note>
       </trans-unit>
       <trans-unit id="c22e9f75640384f917cc76e6736b3a6e91d70f1d" resname="tab.translations.add.cancel">
         <source>Cancel</source>
         <target state="translated">Annuler</target>
         <note>key: tab.translations.add.cancel</note>
+      </trans-unit>
+      <trans-unit id="fe6c962e1d0766f59a66d3766c56edffdce6735d" resname="tab.translations.add.language">
+        <source>Select a language for the new translation</source>
+        <target state="translated">Sélectionnez une langue pour la nouvelle traduction</target>
+        <note>key: tab.translations.add.language</note>
       </trans-unit>
       <trans-unit id="2d1ceec2bfb85db323e21e358b6be6aad547e1d0" resname="tab.translations.add.title">
         <source>Create a new translation</source>
@@ -401,6 +396,11 @@
         <target state="translated">Version publiée</target>
         <note>key: tab.versions.published_version</note>
       </trans-unit>
+      <trans-unit id="97721a4a6c33834bb6421c29ef72e8654f39a4ab" resname="tab.versions.table.action.draft.edit">
+        <source>Edit draft</source>
+        <target state="translated">Modifier le brouillon</target>
+        <note>key: tab.versions.table.action.draft.edit</note>
+      </trans-unit>
       <trans-unit id="4c27637d649c221e58c6a9629f14a2f75aeed151" resname="tab.versions.table.contributor">
         <source>Contributor</source>
         <target state="translated">Contributeur</target>
@@ -425,16 +425,6 @@
         <source>Version</source>
         <target state="translated">Version</target>
         <note>key: tab.versions.table.version</note>
-      </trans-unit>
-      <trans-unit id="5254d6524746a8c9cd0be82fc006baa2fa037198" resname="toggle_widget.label.off">
-        <source>Off</source>
-        <target state="translated">Désactiver</target>
-        <note>key: toggle_widget.label.off</note>
-      </trans-unit>
-      <trans-unit id="922e4e5291baf0a3d11841da92466703d6786cb5" resname="toggle_widget.label.on">
-        <source>On</source>
-        <target state="translated">Activer</target>
-        <note>key: toggle_widget.label.on</note>
       </trans-unit>
       <trans-unit id="cf6a7c9a98608dd58b428ce2187e3229b64b5701" resname="translation.modal_close">
         <source>Close</source>

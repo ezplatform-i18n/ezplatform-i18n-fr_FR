@@ -6,10 +6,10 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="745e494cf948637a3eb9f3a3d43454da0f063fbc" resname="anchor_navigation.back">
-        <source>Back</source>
-        <target state="translated">Retour</target>
-        <note>key: anchor_navigation.back</note>
+      <trans-unit id="bb7c5bc498a649c6ec116abc12e7b8be1d4f7b92" resname="alert.close">
+        <source>Close</source>
+        <target state="translated">Fermer</target>
+        <note>key: alert.close</note>
       </trans-unit>
       <trans-unit id="8ace6daf300d4e12a28054d996c185db9ce7fe91" resname="authentication.credentials_expire_in.warning">
         <source>Your current password will expire in %days% day(s). You can change it in User Settings/My Account Settings.</source>
@@ -37,14 +37,9 @@
         <note>key: authentication.credentials_expired.reset_password</note>
       </trans-unit>
       <trans-unit id="d2293b387ecddbc6173fd579abd37873fcbc5e97" resname="authentication.forgot_password" approved="yes">
-        <source>Forgot your password?</source>
+        <source>Forgot password?</source>
         <target state="final">Mot de passe oublié ?</target>
         <note>key: authentication.forgot_password</note>
-      </trans-unit>
-      <trans-unit id="a56a6630cc335b8a63f8632263aef6625f731929" resname="authentication.login" approved="yes">
-        <source>Login</source>
-        <target state="final">Ouvrir une session</target>
-        <note>key: authentication.login</note>
       </trans-unit>
       <trans-unit id="da44d8915172b0c8a874e26956f44aa5501c7e6b" resname="authentication.password" approved="yes">
         <source>Password</source>
@@ -56,11 +51,6 @@
         <target state="translated">Réinitialiser votre mot de passe</target>
         <note>key: authentication.reset_your_password</note>
       </trans-unit>
-      <trans-unit id="f7771b5d011f529e37d3b4c94319f52e709256c3" resname="authentication.reset_your_password.back">
-        <source>Back</source>
-        <target state="translated">Retour</target>
-        <note>key: authentication.reset_your_password.back</note>
-      </trans-unit>
       <trans-unit id="9143793289ea0e20c3dc9f752d43cc727f2dba01" resname="authentication.username" approved="yes">
         <source>Username</source>
         <target state="final">Nom d'utilisateur</target>
@@ -70,6 +60,11 @@
         <source>Admin</source>
         <target state="translated">Administration</target>
         <note>key: breadcrumb.admin</note>
+      </trans-unit>
+      <trans-unit id="74954052fb86d856c77ee642195c0c0b23bf9e70" resname="breadcrumb.user_preferences">
+        <source>User Preferences</source>
+        <target state="translated">Préférences utilisateur</target>
+        <note>key: breadcrumb.user_preferences</note>
       </trans-unit>
       <trans-unit id="d23f0200b4769a69d2414de6d96117fed4601326" resname="character_counter.characters">
         <source>characters</source>
@@ -116,6 +111,26 @@
         <target state="translated">Dans la corbeille</target>
         <note>key: content.in_trash</note>
       </trans-unit>
+      <trans-unit id="5626938e64bdad8be0c090d0018c868960859d0a" resname="content_type.breadcrumb.view">
+        <source>%identifier%</source>
+        <target state="translated">%identifier%</target>
+        <note>key: content_type.breadcrumb.view</note>
+      </trans-unit>
+      <trans-unit id="dc7335e54d834bb6a342bf0bcb113850de4b69f9" resname="content_type.view.view.title">
+        <source>%name%</source>
+        <target state="translated">%name%</target>
+        <note>key: content_type.view.view.title</note>
+      </trans-unit>
+      <trans-unit id="83a16866c8ff14a4966553088657aafbb9db8edb" resname="content_type_group.breadcrumb.list">
+        <source>Content Types</source>
+        <target state="translated">Types de Contenu</target>
+        <note>key: content_type_group.breadcrumb.list</note>
+      </trans-unit>
+      <trans-unit id="541e02854f7e561d84637ce99ec6fd6e8404bce4" resname="content_type_group.breadcrumb.view">
+        <source>%identifier%</source>
+        <target state="translated">%identifier%</target>
+        <note>key: content_type_group.breadcrumb.view</note>
+      </trans-unit>
       <trans-unit id="fe1c876b1a9bcde155f03227bce4ae4fbd54c24f" resname="custom_url_alias_add_form.add">
         <source>Create</source>
         <target state="translated">Créer</target>
@@ -126,18 +141,13 @@
         <target state="translated">Supprimer</target>
         <note>key: custom_url_alias_add_form.remove</note>
       </trans-unit>
-      <trans-unit id="638be721c063eee72e70484fe99a25b2a990bb18" resname="error.page.404.actions">
-        <source><![CDATA[Check the URL is spelled correctly and try again.<br/>Go back to the <a href="%dashboard%">dashboard</a> or <a href="%search%">search</a> for another item.]]></source>
-        <target state="translated"><![CDATA[Vérifiez s'il n'y a pas de faute de frappe dans l'URL et réessayez.<br/>Sinon, retournez au tableau de bord <a class="error-page__link" href="%dashboard%"></a> ou <a class="error-page__link" href="%search%">recherchez</a> un autre élément de Contenu.]]></target>
-        <note>key: error.page.404.actions</note>
-      </trans-unit>
       <trans-unit id="86a1d081394a7faba471dc5eaa4b1c112e9ff03a" resname="ezauthor.action.add">
-        <source>Add</source>
+        <source>Add author</source>
         <target state="translated">Ajouter un auteur</target>
         <note>key: ezauthor.action.add</note>
       </trans-unit>
       <trans-unit id="3a0389d073f00ef9a968a5cdc60e2794b434b381" resname="ezauthor.action.delete">
-        <source>Delete</source>
+        <source>Remove author</source>
         <target state="translated">Supprimer l'auteur</target>
         <note>key: ezauthor.action.delete</note>
       </trans-unit>
@@ -228,10 +238,10 @@
         <target state="translated">Supprimer</target>
         <note>key: modal.delete</note>
       </trans-unit>
-      <trans-unit id="f32993c555744e5c203137f3ee0e380d27e9cfef" resname="search.date.range">
-        <source>From date - to date</source>
-        <target state="translated">De la date - jusqu'à la date</target>
-        <note>key: search.date.range</note>
+      <trans-unit id="08232f4c5c3ca88a7f2fd8e29eda7e20ec346aae" resname="search.any_time">
+        <source>Any time</source>
+        <target state="translated">À tout moment</target>
+        <note>key: search.any_time</note>
       </trans-unit>
       <trans-unit id="9567771350aff93580f743089937b0c8fe31058e" resname="section.assign,content">
         <source>Assign Content</source>
@@ -283,10 +293,10 @@
         <target state="translated">Fermer</target>
         <note>key: trash.modal.close</note>
       </trans-unit>
-      <trans-unit id="2720e3018fc8b1158cb728b1d5dc377ef7293b57" resname="trash.modal.message">
-        <source>Do you want to delete the selected item(s) from Trash?</source>
-        <target state="translated">Êtes-vous sûr de vouloir déplacer cet élément de contenu à la Corbeille?</target>
-        <note>key: trash.modal.message</note>
+      <trans-unit id="9a88e9a17cd461dcd7d54dca50c6d3b981aba7fc" resname="trash.search.any_time">
+        <source>Any time</source>
+        <target state="translated">À tout moment</target>
+        <note>key: trash.search.any_time</note>
       </trans-unit>
       <trans-unit id="bd97a738137e75de44544db1104bab3a46222791" resname="trash_asset.modal.message_body">
         <source>If you wish to delete these assets too, first make sure they are not used by other content. To check, go to the asset preview and look at its content Relations in the Relations tab.</source>

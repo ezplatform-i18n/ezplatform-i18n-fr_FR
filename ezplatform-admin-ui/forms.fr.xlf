@@ -46,6 +46,36 @@
         <target state="translated">Supprimer le type de contenu</target>
         <note>key: content_types_delete_form.delete</note>
       </trans-unit>
+      <trans-unit id="56281d5c292a4fe95f9b1af5ae0b1deaebab7342" resname="ezplatform.change_user_password.change">
+        <source>Change</source>
+        <target state="translated">Modifier</target>
+        <note>key: ezplatform.change_user_password.change</note>
+      </trans-unit>
+      <trans-unit id="390eb98ace269d5909c838416c36248c40895058" resname="ezplatform.change_user_password.confirm_new_password">
+        <source>Confirm password</source>
+        <target state="translated">Confirmer mot de passe</target>
+        <note>key: ezplatform.change_user_password.confirm_new_password</note>
+      </trans-unit>
+      <trans-unit id="43521bfea046f591270e027a69fc52cccc486e23" resname="ezplatform.change_user_password.new_password">
+        <source>New password</source>
+        <target state="translated">Nouveau mot de passe</target>
+        <note>key: ezplatform.change_user_password.new_password</note>
+      </trans-unit>
+      <trans-unit id="859bfc3d21113eecb4a19d4a9305f2519eb4b331" resname="ezplatform.forgot_user_password.email">
+        <source>Enter your email address:</source>
+        <target state="translated">Entrer votre adresse email :</target>
+        <note>key: ezplatform.forgot_user_password.email</note>
+      </trans-unit>
+      <trans-unit id="ffb6990d5e75fe6dc86e94166b77e40a79e4e2a3" resname="ezplatform.forgot_user_password.login">
+        <source>Enter your login:</source>
+        <target state="translated">Entrez votre nom d’utilisateur :</target>
+        <note>key: ezplatform.forgot_user_password.login</note>
+      </trans-unit>
+      <trans-unit id="0f7bbe027d2c53c78c7b3ce938af6c0ef6c1c2e2" resname="ezplatform.forgot_user_password.reset">
+        <source>Reset</source>
+        <target state="translated">Réinitialiser</target>
+        <note>key: ezplatform.forgot_user_password.reset</note>
+      </trans-unit>
       <trans-unit id="0ad9197dcdbe88b1a05f099c564dc2b5634f8aa5" resname="ezplatform.language.create.enabled">
         <source>Enabled</source>
         <target state="translated">Activé</target>
@@ -85,6 +115,16 @@
         <source>Save</source>
         <target state="translated">Sauvegarder</target>
         <note>key: ezplatform.language.update.save</note>
+      </trans-unit>
+      <trans-unit id="877b8a2a4e3b2c7c137b7776a54cd7531421e5d3" resname="ezplatform.reset_user_password.confirm_new_password">
+        <source>Confirm password</source>
+        <target state="translated">Confirmer mot de passe</target>
+        <note>key: ezplatform.reset_user_password.confirm_new_password</note>
+      </trans-unit>
+      <trans-unit id="943fa9c11c71de16802dad7eea78690f53eb9888" resname="ezplatform.reset_user_password.new_password">
+        <source>New password</source>
+        <target state="translated">Nouveau mot de passe</target>
+        <note>key: ezplatform.reset_user_password.new_password</note>
       </trans-unit>
       <trans-unit id="1a2cc7b7518a1267208aafa8aa96d1dba950eeb1" resname="form.has_children.label">
         <source>Sub-items</source>
@@ -185,26 +225,6 @@
         <source>Content Type / Update</source>
         <target state="translated">Type de Contenu / Mettre à jour</target>
         <note>key: role.policy.class.update</note>
-      </trans-unit>
-      <trans-unit id="3551d9a7a066b2a0941f244fa91f766c089fd063" resname="role.policy.commerce">
-        <source>Commerce</source>
-        <target state="translated">Commerce</target>
-        <note>key: role.policy.commerce</note>
-      </trans-unit>
-      <trans-unit id="b5a03c317caa2abbc2a833f7a1bd96dabe75f707" resname="role.policy.commerce.all_functions">
-        <source>Commerce / All functions</source>
-        <target state="translated">Commerce / Toutes les fonctions</target>
-        <note>key: role.policy.commerce.all_functions</note>
-      </trans-unit>
-      <trans-unit id="2bec0e366dfe740a1a13ef2b4186513711075983" resname="role.policy.commerce.currency">
-        <source>Commerce / Currency</source>
-        <target state="translated">Commerce / Devise</target>
-        <note>key: role.policy.commerce.currency</note>
-      </trans-unit>
-      <trans-unit id="fbf8fcb1c05ac737e68351c0a85682ac6a4bef6e" resname="role.policy.commerce.region">
-        <source>Commerce / Region</source>
-        <target state="translated">Commerce / Région</target>
-        <note>key: role.policy.commerce.region</note>
       </trans-unit>
       <trans-unit id="504ce9f80e074eeb880d5ae5f54d4811e2ab6862" resname="role.policy.comparison">
         <source>Comparison</source>
@@ -326,36 +346,6 @@
         <target state="translated">Contenu / Contenus intégrés</target>
         <note>key: role.policy.content.view_embed</note>
       </trans-unit>
-      <trans-unit id="db177b099d9b5b0999743c67123b420af739ada4" resname="role.policy.customer_group">
-        <source>Customer group</source>
-        <target state="translated">Groupe client</target>
-        <note>key: role.policy.customer_group</note>
-      </trans-unit>
-      <trans-unit id="6d2cde60346839f94de083cfc7937e437d85d726" resname="role.policy.customer_group.all_functions">
-        <source>Customer group / All functions</source>
-        <target state="translated">Groupe client / Toutes les fonctions</target>
-        <note>key: role.policy.customer_group.all_functions</note>
-      </trans-unit>
-      <trans-unit id="cedd0dc3d0fc2e8b92452b2d3dd0349d945d6896" resname="role.policy.customer_group.create">
-        <source>Customer group / Create</source>
-        <target state="translated">Groupe client / Créer</target>
-        <note>key: role.policy.customer_group.create</note>
-      </trans-unit>
-      <trans-unit id="aa3d667594c6ada5d00ac8577d8956bff773f5bd" resname="role.policy.customer_group.delete">
-        <source>Customer group / Delete</source>
-        <target state="translated">Groupe client / Supprimer</target>
-        <note>key: role.policy.customer_group.delete</note>
-      </trans-unit>
-      <trans-unit id="77103c77012fbfb57e2f042714bcc8641e51c67c" resname="role.policy.customer_group.edit">
-        <source>Customer group / Edit</source>
-        <target state="translated">Groupe client / Modifier</target>
-        <note>key: role.policy.customer_group.edit</note>
-      </trans-unit>
-      <trans-unit id="24d592ca917cb069849dd655cf9c48293bb7e3c1" resname="role.policy.customer_group.view">
-        <source>Customer group / View</source>
-        <target state="translated">Groupe client / Voir</target>
-        <note>key: role.policy.customer_group.view</note>
-      </trans-unit>
       <trans-unit id="15c3ffad9d90e7d492d275a9ea05ecdcdedaace5" resname="role.policy.personalization">
         <source>Personalization</source>
         <target state="translated">Personnalisation</target>
@@ -375,66 +365,6 @@
         <source>Personalization / View</source>
         <target state="translated">Personnalisation / Voir</target>
         <note>key: role.policy.personalization.view</note>
-      </trans-unit>
-      <trans-unit id="f8af6833d99ffb0184d98ec0a984fa3229693af4" resname="role.policy.product">
-        <source>Product</source>
-        <target state="translated">Produit</target>
-        <note>key: role.policy.product</note>
-      </trans-unit>
-      <trans-unit id="fbdc425c2a0a2d696e378c83bdd97e908de1fec9" resname="role.policy.product.all_functions">
-        <source>Product / All functions</source>
-        <target state="translated">Produit / Toutes les fonctions</target>
-        <note>key: role.policy.product.all_functions</note>
-      </trans-unit>
-      <trans-unit id="7b07e310db09008272a277766dc242f872bd86a5" resname="role.policy.product.create">
-        <source>Product / Create</source>
-        <target state="translated">Produit / Créer</target>
-        <note>key: role.policy.product.create</note>
-      </trans-unit>
-      <trans-unit id="84f7eebccd0ee967723c472d2d8705b8c31ec071" resname="role.policy.product.delete">
-        <source>Product / Delete</source>
-        <target state="translated">Produit / Supprimer</target>
-        <note>key: role.policy.product.delete</note>
-      </trans-unit>
-      <trans-unit id="affc63805a89db08aea4669b900c2dfe405e2756" resname="role.policy.product.edit">
-        <source>Product / Edit</source>
-        <target state="translated">Produit / Modifier</target>
-        <note>key: role.policy.product.edit</note>
-      </trans-unit>
-      <trans-unit id="398a24b5e722cb05e8523c1c2c5e5e5bd7cb0637" resname="role.policy.product.view">
-        <source>Product / View</source>
-        <target state="translated">Produit / Voir</target>
-        <note>key: role.policy.product.view</note>
-      </trans-unit>
-      <trans-unit id="363c8eef46263015281d7d7b3b82f6e174da3b45" resname="role.policy.product_type">
-        <source>Product type</source>
-        <target state="translated">Type de produit</target>
-        <note>key: role.policy.product_type</note>
-      </trans-unit>
-      <trans-unit id="166efe5c95e9e566d91365300bdbb10c055efccd" resname="role.policy.product_type.all_functions">
-        <source>Product type / All functions</source>
-        <target state="translated">Type de produit / Toutes les fonctions</target>
-        <note>key: role.policy.product_type.all_functions</note>
-      </trans-unit>
-      <trans-unit id="b33796576af978f3b6f8649a74c4810bde23eed1" resname="role.policy.product_type.create">
-        <source>Product type / Create</source>
-        <target state="translated">Type de produit / Créer</target>
-        <note>key: role.policy.product_type.create</note>
-      </trans-unit>
-      <trans-unit id="7da7c8e897757512eee1e32cbd44aacffb67a4f9" resname="role.policy.product_type.delete">
-        <source>Product type / Delete</source>
-        <target state="translated">Type de produit / Supprimer</target>
-        <note>key: role.policy.product_type.delete</note>
-      </trans-unit>
-      <trans-unit id="4ef2f329a551dac823ad95fa7579b3b78db83a0b" resname="role.policy.product_type.edit">
-        <source>Product type / Edit</source>
-        <target state="translated">Type de produit / Modifier</target>
-        <note>key: role.policy.product_type.edit</note>
-      </trans-unit>
-      <trans-unit id="60dfe8cdc2e019be786afee8fb967f4a1dbd44ee" resname="role.policy.product_type.view">
-        <source>Product type / View</source>
-        <target state="translated">Type de produit / Voir</target>
-        <note>key: role.policy.product_type.view</note>
       </trans-unit>
       <trans-unit id="6ff0bcc1b70d0dbde113af7649393f667612cace" resname="role.policy.role">
         <source>Role</source>

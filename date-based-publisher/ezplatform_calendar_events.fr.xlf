@@ -26,16 +26,6 @@
         <target state="final">Masquer contenu</target>
         <note>key: future_hide.label</note>
       </trans-unit>
-      <trans-unit id="f01b2ae0dce2e28724b27d1ca71b44d764d2636e" resname="future_publication.action.reschedule.label" approved="yes">
-        <source>Reschedule</source>
-        <target state="final">Replanifier la sélection</target>
-        <note>key: future_publication.action.reschedule.label</note>
-      </trans-unit>
-      <trans-unit id="53a0be7e89d421b9dfa28ca9fa0fcf29c5a70675" resname="future_publication.action.unschedule.label" approved="yes">
-        <source>Cancel publication</source>
-        <target state="final">Supprimer la sélection</target>
-        <note>key: future_publication.action.unschedule.label</note>
-      </trans-unit>
       <trans-unit id="420ef90e1dcbceca8d26b11b03d816c39678d7b1" resname="future_publication.attribute.content_type.label" approved="yes">
         <source>Content Type</source>
         <target state="final">Type de Contenu</target>

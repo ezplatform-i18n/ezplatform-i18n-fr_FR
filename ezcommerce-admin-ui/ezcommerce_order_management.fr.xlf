@@ -221,11 +221,6 @@
         <target state="translated">Total</target>
         <note>key: order_list.table.header.total</note>
       </trans-unit>
-      <trans-unit id="badfe2a65058921dbb5f705ef4fc12598a10555a" resname="order_list.table.title">
-        <source>List</source>
-        <target state="translated">Liste</target>
-        <note>key: order_list.table.title</note>
-      </trans-unit>
     </body>
   </file>
 </xliff>

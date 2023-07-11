@@ -76,11 +76,6 @@
         <target state="translated">Supprimer</target>
         <note>key: image_editor.actions.focal_point.remove</note>
       </trans-unit>
-      <trans-unit id="da83bd9dc2bb70378a6d992e1ec5afb537d6c0f1" resname="image_editor.actions.focal_point.settings.title">
-        <source>Position</source>
-        <target state="translated">Position</target>
-        <note>key: image_editor.actions.focal_point.settings.title</note>
-      </trans-unit>
       <trans-unit id="776866961a1df295f28beb7397126b4f6a412ed1" resname="image_editor.actions.focal_point.show">
         <source>Show point</source>
         <target state="translated">Afficher le point</target>
@@ -91,11 +86,6 @@
         <target state="translated">Appliquer les modifications à tous</target>
         <note>key: image_editor.apply_to_all</note>
       </trans-unit>
-      <trans-unit id="55ffc35113c5f37fa09a25ce222163c042e3ba14" resname="image_editor.back">
-        <source>Back</source>
-        <target state="translated">Précédent</target>
-        <note>key: image_editor.back</note>
-      </trans-unit>
       <trans-unit id="8f18dae80b35c667f5078299dfef8eab35468e1f" resname="image_editor.cancel">
         <source>Cancel</source>
         <target state="translated">Annuler</target>
@@ -105,11 +95,6 @@
         <source>Dimension</source>
         <target state="translated">Dimension</target>
         <note>key: image_editor.dimension</note>
-      </trans-unit>
-      <trans-unit id="1834d0a289e023d978daec2f01b8bba6bf703745" resname="image_editor.edit_image">
-        <source>Edit image</source>
-        <target state="translated">Modifier l'image</target>
-        <note>key: image_editor.edit_image</note>
       </trans-unit>
       <trans-unit id="bd499e574059518dde520fd569e1afb7affc9f7c" resname="image_editor.redo">
         <source>Redo</source>

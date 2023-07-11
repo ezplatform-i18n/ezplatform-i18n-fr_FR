@@ -36,11 +36,6 @@
         <target state="translated">Type de fichier non autorisée</target>
         <note>key: disallowed_type.message</note>
       </trans-unit>
-      <trans-unit id="694f61c4eb35d09307bcf40e14159061c6ba1f35" resname="drop_action.message">
-        <source>Drag and drop file</source>
-        <target state="translated">Faites glisser vos fichiers dans la fenêtre du navigateur ou sélectionnez-les</target>
-        <note>key: drop_action.message</note>
-      </trans-unit>
       <trans-unit id="ec408ab37730af3a79d49ee278f3b215ce89057c" resname="edit.label">
         <source>Edit</source>
         <target state="translated">Modifier</target>
@@ -50,21 +45,6 @@
         <source>Max file size:</source>
         <target state="translated">Taille de fichier maximale:</target>
         <note>key: max_file_size.message</note>
-      </trans-unit>
-      <trans-unit id="412c9936722fbbcd34664fdbfe33880fad7ef998" resname="multi_file_upload_open_btn.label">
-        <source>Upload</source>
-        <target state="translated">Téléverser les sous éléments</target>
-        <note>key: multi_file_upload_open_btn.label</note>
-      </trans-unit>
-      <trans-unit id="76d7ffabd7e8c5d27a9b732dd5f15d1da68ff00c" resname="upload.success.message">
-        <source>100% Uploaded</source>
-        <target state="translated">Téléversement réussi</target>
-        <note>key: upload.success.message</note>
-      </trans-unit>
-      <trans-unit id="13ad49603f42b4ec5f9328d94f90e4f6d7ba6203" resname="upload_btn.label">
-        <source>Upload file</source>
-        <target state="translated">Téléverser les sous éléments</target>
-        <note>key: upload_btn.label</note>
       </trans-unit>
       <trans-unit id="6b2bc429ffc374b49b5de9e3563d3d5a7668e4b2" resname="upload_popup.close">
         <source>Multi-file upload</source>

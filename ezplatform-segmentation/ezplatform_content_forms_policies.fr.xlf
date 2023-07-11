@@ -6,11 +6,7 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="659face270db8822838d3efd32b3a9b72a6dc5f6" resname="policy.limitation.identifier.segmentgroup">
-        <source>Segment Group</source>
-        <target state="translated">Groupe de segmentation</target>
-        <note>key: policy.limitation.identifier.segmentgroup</note>
-      </trans-unit>
+      
     </body>
   </file>
 </xliff>

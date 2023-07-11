@@ -16,6 +16,11 @@
         <target state="translated">Créer un formulaire en faisant glisser des éléments ici</target>
         <note>key: drag.drop.call.to.action</note>
       </trans-unit>
+      <trans-unit id="511e68af2de52872af1c2d07215631d54d5df0a1" resname="field.invalid">
+        <source>Field has invalid configuration</source>
+        <target state="translated">Le champ a une configuration invalide</target>
+        <note>key: field.invalid</note>
+      </trans-unit>
       <trans-unit id="81feac9c1754220f9ea3354d88cf49d263c09941" resname="field.remove">
         <source>Remove</source>
         <target state="translated">Supprimer</target>
@@ -40,11 +45,6 @@
         <source>Preview is not available.</source>
         <target state="translated">La prévisualisation n'est pas disponible.</target>
         <note>key: form.no_preview</note>
-      </trans-unit>
-      <trans-unit id="8803c513c5b29257e5e622f1d74b7b32007ab42c" resname="form.remove">
-        <source>Delete</source>
-        <target state="translated">Supprimer</target>
-        <note>key: form.remove</note>
       </trans-unit>
       <trans-unit id="9d9a3840f5ab21538b5df82ff8dc176cc9d8a06e" resname="form_builder.attribute.action.message.label">
         <source>Message to display</source>
@@ -117,7 +117,7 @@
         <note>key: moved.field.data.not.exists</note>
       </trans-unit>
       <trans-unit id="4ca91a461622421947258e5e7e305704088e4b7b" resname="no.fields.in.form">
-        <source>There are no fields in this form.</source>
+        <source>There are no fields in this form. Create your form.</source>
         <target state="translated">Il n'y a pas de champs dans ce formulaire. Créer votre formulaire.</target>
         <note>key: no.fields.in.form</note>
       </trans-unit>

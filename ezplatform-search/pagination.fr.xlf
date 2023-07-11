@@ -6,11 +6,7 @@
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
     </header>
     <body>
-      <trans-unit id="663d5cd498c0849675ac4fd684d4270a1a3f1acb" resname="pagination.viewing">
-        <source>Viewing %viewing% out of %total% items</source>
-        <target state="translated">Affichage de &lt;strong&gt;%viewing%&lt;/strong&gt; éléments sur &lt;strong&gt;%total%&lt;/strong&gt;</target>
-        <note>key: pagination.viewing</note>
-      </trans-unit>
+      
     </body>
   </file>
 </xliff>

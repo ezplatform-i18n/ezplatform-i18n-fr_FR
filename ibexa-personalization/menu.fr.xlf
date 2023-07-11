@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <xliff xmlns:jms="urn:jms:translation" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
-  <file source-language="en" target-language="fr" datatype="plaintext" original="not.available">
+  <file date="2021-05-24T10:05:23Z" source-language="en" target-language="fr" datatype="plaintext" original="not.available">
     <header>
       <tool tool-id="JMSTranslationBundle" tool-name="JMSTranslationBundle" tool-version="1.1.0-DEV"/>
       <note>The source node in most cases contains the sample message as written by the developer. If it looks like a dot-delimitted string such as "form.label.firstname", then the developer has not provided a default message.</note>
@@ -30,16 +30,6 @@
         <source>Scenarios</source>
         <target state="translated">Scénarios</target>
         <note>key: main__personalization__scenarios</note>
-      </trans-unit>
-      <trans-unit id="6bc82f75a31450fd71f04991c30b832ffadcc00d" resname="model_edit__sidebar_right__save">
-        <source>Save</source>
-        <target state="translated">Sauvegarder</target>
-        <note>key: model_edit__sidebar_right__save</note>
-      </trans-unit>
-      <trans-unit id="ff2272b1d250c9040b35a76ff7396a956ec3339e" resname="model_edit__sidebar_right__save_and_close">
-        <source>Save and close</source>
-        <target state="translated">Sauvegarder et fermer</target>
-        <note>key: model_edit__sidebar_right__save_and_close</note>
       </trans-unit>
       <trans-unit id="bb50202605dd9a666dec38fc77048a1fac02f0d8" resname="scenario_create__sidebar_right__create">
         <source>Save</source>

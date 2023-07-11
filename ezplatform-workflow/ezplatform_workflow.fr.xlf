@@ -11,6 +11,11 @@
         <target state="final">De :</target>
         <note>key: content.review.from</note>
       </trans-unit>
+      <trans-unit id="48ec0a3b5f9bf96775a010f49c2ca83fa5a6d9d5" resname="content.review.read_more" approved="yes">
+        <source>Read more</source>
+        <target state="final">Lire la suite</target>
+        <note>key: content.review.read_more</note>
+      </trans-unit>
       <trans-unit id="ae6d8d014d80092d6c7254b3baaa05e9a4cea7ae" resname="content.review.ready" approved="yes">
         <source>Content is ready for review</source>
         <target state="final">Le contenu est prêt à être revu</target>
@@ -30,11 +35,6 @@
         <source>Review queue</source>
         <target state="final">File d'attente</target>
         <note>key: dashboard.block.review_queue.title</note>
-      </trans-unit>
-      <trans-unit id="03b3eebd6de51e6ab83ae31dd89afb4be4d487aa" resname="dashboard.tab.my_drafts_under_review.empty" approved="yes">
-        <source>No content to review.</source>
-        <target state="final">Aucun contenu à relire. Le(s) élément(s) de contenu que vous ou votre groupe d'utilisateurs pouvez consulter apparaîtront ici.</target>
-        <note>key: dashboard.tab.my_drafts_under_review.empty</note>
       </trans-unit>
       <trans-unit id="a878bd15386bacea4af5e3356c731640710d3618" resname="dashboard.table.activity" approved="yes">
         <source>Activity</source>
@@ -220,11 +220,6 @@
         <source>Name</source>
         <target state="final">Nom</target>
         <note>key: workflow.view.content_list.table.name</note>
-      </trans-unit>
-      <trans-unit id="7fd29e64293f361faa1f436ccb8f03064058d790" resname="workflow.view.content_list.table.title" approved="yes">
-        <source>Content in %stage_name% stage (%count%)</source>
-        <target state="final">Élément(s) de contenu à l'étape %stageName% (%count%)</target>
-        <note>key: workflow.view.content_list.table.title</note>
       </trans-unit>
       <trans-unit id="f47c31349e59ab533fb5d0cab02364c7405470f4" resname="workflow.view.diagram" approved="yes">
         <source>Workflow diagram</source>

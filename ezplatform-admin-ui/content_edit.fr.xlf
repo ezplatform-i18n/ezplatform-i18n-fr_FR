@@ -26,25 +26,15 @@
         <target state="translated">En cours d'édition</target>
         <note>key: editing</note>
       </trans-unit>
-      <trans-unit id="750bead6705b295c7b7d66c27b2768c1b9329ed5" resname="editing_details">
-        <source>under %location_name% in %language%</source>
-        <target state="translated">sous %location_name% dans %language%</target>
-        <note>key: editing_details</note>
+      <trans-unit id="669edeb37bec7cf4ec99288b90b02ba65e84b4cf" resname="errors.in.the.form">
+        <source>Cannot save the form. Check required Fields or validation errors.</source>
+        <target state="translated">Impossible d'enregistrer le formulaire. Vérifiez les champs requis ou les erreurs de validation.</target>
+        <note>key: errors.in.the.form</note>
       </trans-unit>
       <trans-unit id="009667fab56f0bec66634f009a75ffd9425f2987" resname="fieldtype.translation_is_disabled">
         <source>Translating the %fieldName% Field is disabled. See Content Type definition for details.</source>
         <target state="translated">La traduction du champ %fieldName% est désactivée. Voir la définition du type de contenu pour plus de détails.</target>
         <note>key: fieldtype.translation_is_disabled</note>
-      </trans-unit>
-      <trans-unit id="39b4081643351e2a41c1b3b811b6dc78fb528520" resname="on_the_fly.cancel">
-        <source>Cancel</source>
-        <target state="translated">Annuler</target>
-        <note>key: on_the_fly.cancel</note>
-      </trans-unit>
-      <trans-unit id="d466f97702d045f02d8b55379a9c6ea5270ecfef" resname="on_the_fly.confirm">
-        <source>Confirm</source>
-        <target state="translated">Confirmer</target>
-        <note>key: on_the_fly.confirm</note>
       </trans-unit>
     </body>
   </file>

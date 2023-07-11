@@ -56,11 +56,6 @@
         <target state="translated">Cet emplacement n'a pas de sous-éléments</target>
         <note>key: no_items.message</note>
       </trans-unit>
-      <trans-unit id="b5bfcc24141601264b6c03972d8e45bbb7c49a09" resname="switch_to_list_view.btn.label">
-        <source>View</source>
-        <target state="translated">Voir sous forme de liste</target>
-        <note>key: switch_to_list_view.btn.label</note>
-      </trans-unit>
     </body>
   </file>
 </xliff>

@@ -21,10 +21,10 @@
         <target state="translated">La langue «%name%» a été créée.</target>
         <note>key: language.create.success</note>
       </trans-unit>
-      <trans-unit id="e71610c4106a78f22cb355ee1b1b56904e59ec9e" resname="language.creating">
-        <source>Creating</source>
-        <target state="translated">Création en cours</target>
-        <note>key: language.creating</note>
+      <trans-unit id="8390c7c1adbff8a264583f6f060256c993023787" resname="language.delete">
+        <source>Delete language</source>
+        <target state="translated">Supprimer la langue</target>
+        <note>key: language.delete</note>
       </trans-unit>
       <trans-unit id="7c8fcdc1c11d3c1cf2a4380f440ef3d157b68c12" resname="language.delete.success">
         <source>Language '%name%' removed.</source>
@@ -45,11 +45,6 @@
         <source>Editing language '%language%'</source>
         <target state="translated">Édition de la langue '%language%'</target>
         <note>key: language.edit.identifier</note>
-      </trans-unit>
-      <trans-unit id="a00565bd7765a0bc061d4930db4a1323bae9a178" resname="language.editing">
-        <source>Editing</source>
-        <target state="translated">En cours d'édition</target>
-        <note>key: language.editing</note>
       </trans-unit>
       <trans-unit id="065fdff561c25266ec49bbdaf8c5d0bdd6e9dd7f" resname="language.enabled">
         <source>Enabled</source>
@@ -102,7 +97,7 @@
         <note>key: language.name.label</note>
       </trans-unit>
       <trans-unit id="8e4642a0c879921e8bf31752abc577c4bf8d098b" resname="language.new">
-        <source>Create</source>
+        <source>Create a new language</source>
         <target state="translated">Créer une nouvelle langue</target>
         <note>key: language.new</note>
       </trans-unit>

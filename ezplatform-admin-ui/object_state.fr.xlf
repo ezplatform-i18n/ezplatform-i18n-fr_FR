@@ -186,11 +186,6 @@
         <target state="translated">Nom du groupe d'état d'objet</target>
         <note>key: object_state_group.name</note>
       </trans-unit>
-      <trans-unit id="1cbfb4528f41be4d8de98fa4f81c26b41f8ffad9" resname="object_state_group.new">
-        <source>Create</source>
-        <target state="translated">Créer un nouveau groupe d'état d'objet</target>
-        <note>key: object_state_group.new</note>
-      </trans-unit>
       <trans-unit id="2db8c3e77568f759b118b23aec8cfacaca3d96c0" resname="object_state_group.update.identifier">
         <source>Identifier</source>
         <target state="translated">Identifiant</target>
